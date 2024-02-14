@@ -1,0 +1,52 @@
+political_decisions = {
+	adopt_steppe_warfare = {
+		potential = {
+			post_napoleonic_thought  = 1
+			NOT = {
+				has_country_flag = mongol_empire
+				has_country_flag = great_khan_mongolia
+				has_country_flag = steppe_warfare_adopted
+				has_country_flag = steppe_defense_adopted
+			}
+		}
+		
+		allow = {
+			strategic_mobility = 1
+			AND = {
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			set_country_flag = steppe_warfare_adopted
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	adopt_steppe_defense = {
+		potential = {
+			post_napoleonic_thought  = 1
+			NOT = {
+				has_country_flag = mongol_empire
+				has_country_flag = great_khan_mongolia
+				has_country_flag = steppe_warfare_adopted
+				has_country_flag = steppe_defense_adopted
+			}
+		}	
+		allow = {
+			strategic_mobility = 1
+			AND = {
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			set_country_flag = steppe_defense_adopted
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

@@ -1,0 +1,149 @@
+### Bulgarian Empire ###
+#Bulgarian Empire-Vlachia
+vassal = {
+	first = BUL
+	second = WAL
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+### Holy Roman Empire - Swabian Dynasty ###
+#HRE-Upper Lotharingia
+substate = {
+	first = SGF
+	second = ALS
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#HRE-Lower Lotharingia
+substate = {
+	first = SGF
+	second = LOR
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#HRE-Franconia
+substate = {
+	first = SGF
+	second = FRK
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#HRE-Bavaria
+substate = {
+	first = SGF
+	second = BAV
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#HRE-Austria
+substate = {
+	first = SGF
+	second = AUS
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#HRE-Thuringia
+substate = {
+	first = SGF
+	second = THU
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#HRE-Bohemia
+substate = {
+	first = SGF
+	second = BOH
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#HRE-Brandenburg
+substate = {
+	first = SGF
+	second = BRN
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#HRE-Pommerania
+substate = {
+	first = SGF
+	second = POM
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#HRE-Meissen
+substate = {
+	first = SGF
+	second = MEI
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#HRE-Friesland
+substate = {
+	first = SGF
+	second = NET
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#HRE-Carinthia
+substate = {
+	first = SGF
+	second = SLO
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#HRE-Istria
+substate = {
+	first = SGF
+	second = TRE
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#HRE-Sicily
+substate = {
+	first = SGF
+	second = SIC
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#HRE-Upper Saxony
+vassal = {
+	first = SGF
+	second = SAX
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+### Latin Empire ###
+#Latin Empire-Athens
+vassal = {
+	first = LTN
+	second = ATH
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Latin Empire-Thessalonica
+vassal = {
+	first = LTN
+	second = MCD
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Latin Empire-Morea
+vassal = {
+	first = LTN
+	second = MEA
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+### Mongol Empire ###
+#Mongol Empire-Western Mongol Empire
+vassal = {
+	first = MGL
+	second = WMG
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+### Kievan' Rus ###

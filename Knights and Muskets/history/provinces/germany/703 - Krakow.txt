@@ -1,0 +1,7 @@
+owner = PZN
+controller = PZN
+add_core = PZN
+add_core = POL
+add_core = KRA
+trade_goods = coal
+life_rating = 40

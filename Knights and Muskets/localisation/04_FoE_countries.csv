@@ -1,0 +1,679 @@
+;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;\
+SPU;Cusco Confederation;x                                 
+SPU_ADJ;Cusco;x
+MRD;Mordvinia;x                                 
+MRD_ADJ;Mordvinian;x
+VLG;Volga Bulgaria;x                                 
+VLG_ADJ;Bulgar;x
+OCC;Duchy of Toulouse;x                                 
+OCC_ADJ;Toulouseian;x
+SGF;Duchy of Swabia;x                                     
+SGF_ADJ;Swabian;x
+SGF_absolute_monarchy;Holy Roman Empire;x      
+SGF_absolute_monarchy_ADJ;Imperial;x                                
+GER;Holy Roman Empire;x
+GER_ADJ;Imperial;x    
+MEI;Margraviate of Meissen;x                                 
+MEI_ADJ;Meissen;x
+ALS;Upper Lotharingia;x                                     
+ALS_ADJ;Lotharingian;x
+LOR;Lower Lotharingia;x                                     
+LOR_ADJ;Lotharingian;x
+LOM;Lombard League;x                                     
+LOM_ADJ;Lombardian;x
+SLO;Carinthia;x                                     
+SLO_ADJ;Carinthian;x
+TRE;Istria;x                                     
+TRE_ADJ;Istrian;x
+SMO;Smolensk;x                                     
+SMO_ADJ;Smolenskian;x
+CHI;Song Dynasty;x    
+CHI_absolute_monarchy;Song Dynasty;x                                  
+CHI_ADJ;Song;x
+SXI;Jin Dynasty;x                                   
+SXI_ADJ;Jin;x
+CGV;Chernigov;x                                     
+CGV_ADJ;Chernigovian;x
+CUM;Cuman-Kipchak Federation;x                                     
+CUM_ADJ;Cuman;x
+EGY;Ayyubid Sultanate;x                                     
+EGY_ADJ;Ayyubid;x
+PNT;Trebizond;x                                     
+PNT_ADJ;Trepizantine;x 
+NCE;Empire of Nicaea;x                                     
+NCE_ADJ;Nicaean;x  
+LTN;Latin Empire;x                                     
+LTN_ADJ;Latin;x   
+VLD;Principality of Vladimir-Suzdal;x                                     
+VLD_ADJ;Vladimiri;x  
+WAL;Vlachia;x                                     
+WAL_ADJ;Vlachian;x   
+BOS;Banate of Bosnia;x                                     
+BOS_ADJ;Bosnian;x
+SER_absolute_monarchy;Kingdom of Serbia;x                                        
+VEN_absolute_monarchy;Latin Empire;x                                
+VEN_absolute_monarchy_ADJ;Latin;x    
+BUL_absolute_monarchy;Bulgarian Empire;x                                
+ALB;Despotate of Epirus;x                                     
+ALB_ADJ;Epirot;x 
+MCD;Kingdom of Thessalonica;x                                     
+MCD_ADJ;Thessalonican;x   
+TUR;Sultanate of Rum;x                                     
+TUR_ADJ;Rum;x            
+BRB;Brabant;x                                                  
+BRB_ADJ;Brabantian;x         
+BAR;Bar;x                                                   
+BAR_ADJ;Barrois;x   
+CMP;Champagne;x                                             
+CMP_ADJ;Champagnois;x
+DAU;Daufinat;x                              
+DAU_ADJ;Daufinens;x
+NRM;Normandy;x
+NRM_ADJ;Normand;x
+ORL;Orleans;x                                              
+ORL_ADJ;Orleanais;x  
+AQT;Duchy of Aquitaine;x
+AQT_ADJ;Aquitainian;x
+PRO;County of Provence;x
+PRO_ADJ;Provencal;x
+MRV;Duchy of Moravia;x
+MRV_ADJ;Moravian;x
+MAG;Magdeburg;x
+MAG_ADJ;Magdeburger;x
+CTU;Celtic Union;x
+CTU_ADJ;Celtic;x
+FRC;Francia;x
+FRC_ADJ;Francian;x
+FRK;Duchy of Franconia;x
+FRK_ADJ;Franconian;x
+ARP;Kingdom of Arles;x
+ARP_ADJ;Arpitan;x
+BRG;Burgundy;x
+BRG_ADJ;Burgundian;x
+FRI;Free Frisia;x
+FRI_ADJ;Free Frisian;x
+GUE;Guelders;x
+GUE_ADJ;Gelre;x
+UTR;Prince-Bishopric of Utrecht;x
+UTR_ADJ;Utrecht;x
+UKR;Kingdom of Rus;x
+UKR_ADJ;Rus;x
+RUT;Galicia-Volhynia;x
+RUT_ADJ;Galicia–Volhynian;x
+NOV;Republic of Novgorod;x
+NOV_ADJ;Novgorodian;x
+BYE;Principality of Polotsk;x
+BYE_ADJ;Polotskian;x
+MOR;Almohad Caliphate;x
+MOR_ADJ;Almohad;x
+TUN;Hafsid Kingdom;x
+TUN_ADJ;Hafsid;x
+TRI;Banu Sulaym;x
+TRI_ADJ;Banu Sulaymi;x
+TUS;Florence;x
+TUS_ADJ;Florentine;x
+MFA;Montferrat;x
+MFA_ADJ;Montferratian;x
+MTA;Mantua;x
+MTA_ADJ;Mantuan;x
+SLZ;Saluzzo;x
+SLZ_ADJ;Saluzzese;x
+SNA;Siena;x
+SNA_ADJ;Sienese;x
+SVA;Svaneti;x
+SVA_ADJ;Svanetian;x
+MIG;Mingrelia;x
+MIG_ADJ;Mingrelian;x
+AZT;Aztec Empire;x
+AZT_ADJ;Aztec;x
+CMA;Colima;x
+CMA_ADJ;Coliman;x
+CNP;Can Pech;x
+CNP_ADJ;Can Pech;x
+COC;Cocomes;x
+COC_ADJ;Cocomes;x
+HST;Huastec;x
+HST_ADJ;Huastec;x
+INC;Inca Empire;x
+INC_ADJ;Incan;x
+ITZ;Itza;x
+ITZ_ADJ;Itza;x
+KAQ;Kaqchikel;x
+KAQ_ADJ;Kaqchikel;x
+KIC;Kiche;x
+KIC_ADJ;Kiche;x
+MAY;The Maya Empire;x
+MAY_ADJ;Mayan;x
+MIX;Mixtec;x
+MIX_ADJ;Mixtecan;x
+OTO;Otomi;x
+OTO_ADJ;Otomi;x
+TEO;Teotitlan;x
+TEO_ADJ;Teotitlan;x
+TLA;Tlapanec;x
+TLA_ADJ;Tlapanecan;x
+TLX;Tlaxcala;x
+TLX_ADJ;Tlaxcalan;x
+TRS;Tarasco;x
+TRS_ADJ;Tarascan;x
+XAL;Xalisco;x
+XAL_ADJ;Xaliscan;x
+XIU;Xiu;x
+XIU_ADJ;Xiu;x
+YOK;Yokotan;x
+YOK_ADJ;Yokotan;x
+ZAP;Zapotec;x
+ZAP_ADJ;Zapotec;x
+CTM;Chactemal;x
+CTM_ADJ;Chactemal;x
+CHT;Chorti;x
+CHT_ADJ;Chorti;x
+CCM;Chichimeca;x
+CCM_ADJ;Chichimecan;x
+GAM;Guamar;x
+GAM_ADJ;Guamares;x
+TON;Tonala;x
+TON_ADJ;Tonalan;x
+TZO;Tzotzil;x
+TZO_ADJ;Tzotzil;x
+CHH;Chahar;x
+CHH_ADJ;Chahari;x
+CHU;Chukchi;x
+CHU_ADJ;Chukchian;x
+CHV;Chavchuveny;x
+CHV_ADJ;Chavchuvenian;x
+DZN;Dzungaria;x
+DZN_ADJ;Dzungarian;x
+HOD;Khodynt;x
+HOD_ADJ;Khodyntian;x
+KMC;Kamchadals;x
+KMC_ADJ;Kamchadese;x
+KRC;Korchin;x
+KRC_ADJ;Korchin;x
+KRD;Kara Del;x
+KRD_ADJ;Kara Del;x
+OIR;The Oirat Horde;x
+OIR_ADJ;Oirat;x
+YRK;The Yarkand Khanate;x
+YRK_ADJ;Yarkand;x
+AKM;Akamatsu;x
+AKM_ADJ;Akamatsu;x
+ASA;Asakura;x
+ASA_ADJ;Asakura;x
+ISK;Isshiki;x
+ISK_ADJ;Isshiki;x
+TTI;Tsutsui;x
+TTI_ADJ;Tsutsui;x
+UTN;Utsunomiya;x
+UTN_ADJ;Utsunomiya;x
+AKT;Ando;x
+AKT_ADJ;Ando;x
+AMA;Amago;x
+AMA_ADJ;Amago;x
+CBA;Chiba;x
+CBA_ADJ;Chiba;x
+CSK;Chosokabe;x
+CSK_ADJ;Chosokabe;x
+DTE;Date;x
+DTE_ADJ;Date;x
+HJO;Hojo;x
+HJO_ADJ;Hojo;x
+HSK;Hosokawa;x
+HSK_ADJ;Hosokawa;x
+HTK;Hatakeyama;x
+HTK_ADJ;Hatakeyama;x
+IMG;Imagawa;x
+IMG_ADJ;Imagawa;x
+ITO;Ito;x
+ITO_ADJ;Ito;x
+KKC;Kikuchi;x
+KKC_ADJ;Kikuchi;x
+KNO;Kono;x
+KNO_ADJ;Kono;x
+KTB;Kitabatake;x
+KTB_ADJ;Kitabatake;x
+MRI;Mori;x
+MRI_ADJ;Mori;x
+ODA;Oda;x
+ODA_ADJ;Oda;x
+OGS;Ogasawara;x
+OGS_ADJ;Ogasawara;x
+OUC;Ouchi;x
+OUC_ADJ;Ouchi;x
+OTM;Otomo;x
+OTM_ADJ;Otomo;x
+RFR;Nanbu;x
+RFR_ADJ;Nanbu;x
+SHB;Shiba;x
+SHB_ADJ;Shiba;x
+SHN;Shoni;x
+SHN_ADJ;Shoni;x
+SMZ;Shimazu;x
+SMZ_ADJ;Shimazu;x
+SOO;So;x
+SOO_ADJ;So;x
+STK;Satake;x
+STK_ADJ;Satake;x
+TKD;Takeda;x
+TKD_ADJ;Takeda;x
+TKI;Toki;x
+TKI_ADJ;Toki;x
+TKG;Tokugawa;x
+TKG_ADJ;Tokugawan;x
+UES;Uesugi;x
+UES_ADJ;Uesugi;x
+YMN;Yamana;x
+YMN_ADJ;Yamana;x
+CRN;Cornwall;x
+CRN_ADJ;Cornish;x
+CNN;Clanricarde;x
+CNN_ADJ;Clanricarde;x
+KID;Kildare;x
+KID_ADJ;Kildare;x
+LEI;Leinster;x
+LEI_ADJ;Leinster;x
+MNS;Munster;x
+MNS_ADJ;Munster;x
+ORD;Ormond;x
+ORD_ADJ;Ormond;x
+SLN;Sligo;x
+SLN_ADJ;Sligo;x
+TRY;Tyrconnell;x
+TRY_ADJ;Tyrconnell;x
+TYR;Tyrone;x
+TYR_ADJ;Tyrone;x
+CGC;Capitania General de Chile;x
+CGC_ADJ;Chilean;x
+PBZ;Governorate of Brazil;x
+PBZ_ADJ;Brazilian;x
+VLP;Virreinato del Río de la Plata;x
+VLP_ADJ;La PLatan;x
+VNG;Virreinato de la Nueva Granada;x
+VNG_ADJ;Colombian;x
+VNS;Virreinato de Nueva Espana;x
+VNS_ADJ;Mexican;x
+VOP;Virreinato del Peru;x
+VOP_ADJ;Peruvian;x
+FLI;Louisiana;;;;;;;;;;;;;x;;
+FLI_absolute_monarchy;Dominion de Louisiane;x
+FLI_prussian_constitutionalism;Dominion de Louisiane;x
+FLI_hms_government;Dominion de Louisiane;x
+FLI_democracy;Louisiane;x
+FLI_presidential_dictatorship;Louisiane Republique;x
+FLI_bourgeois_dictatorship;Louisiane Republique;x
+FLI_ADJ;Louisianan;x
+FCA;Canada;x
+FCA_absolute_monarchy;Dominion du Nouvelle-France;x
+FCA_prussian_constitutionalism;Dominion du Nouvelle-France;x
+FCA_hms_government;Dominion du Nouvelle-France;x
+FCA_democracy;Republique du Nouvelle-France;x
+FCA_presidential_dictatorship;Republique du Nouvelle-France;x
+FCA_bourgeois_dictatorship;Republique du Nouvelle-France;x
+FCA_proletarian_dictatorship;Republique du Nouvelle-France;x
+FCA_ADJ;Nouvelle-French;x
+THC;The Thirteen Colonies;x
+THC_ADJ;Thirteen Colonial;x
+ACA;Acadie;x
+ACA_ADJ;Acadien;x
+BOR;The Kingdom of France;x
+BOR_democracy;The French Republic;x
+BOR_presidential_dictatorship;The French Republic;x
+BOR_bourgeois_dictatorship;The French Republic;x
+BOR_proletarian_dictatorship;The French Commune;x
+BOR_fascist_dictatorship;The French Republic;x
+BOR_absolute_monarchy;The Kingdom of France;x
+BOR_prussian_constitutionalism;The Kingdom of France;x
+BOR_hms_government;The Kingdom of France;x
+BOR_ADJ;French;x
+ADA;Adal Sultanate;x
+ADA_ADJ;Adal;x
+AJU;Ajuran Sultanate;x
+AJU_ADJ;Ajuran;x
+ALO;Alodia;x;
+ALO_ADJ;Alodian;x
+ANT;Antemoro;x
+ANT_ADJ;Antemoro;x
+AIN;Ainu Mosir;x
+AIN_ADJ;Ainu;x
+FUN;Funj Sultanate;x
+FUN_ADJ;Funj;x
+MKA;Makuria;x
+MKA_ADJ;Makurian;x
+MAM;The Mamluk Sultanate;x
+MAM_ADJ;Mamluk;x
+SIA_absolute_monarchy;Ayutthaya Kingdom;x
+CAM_absolute_monarchy;Khmer Empire;x
+DMK;Demak;x
+DMK_ADJ;Demakan;x
+ASK;Ashikaga;x
+ASK_ADJ;Ashikaga;x
+CBO;Cirebon;x;
+CBO_ADJ;Cirebonese;x
+CHA;Champa;x
+CHA_ADJ;Champan;x
+MLC;Malacca;x
+MLC_ADJ;Malaccan;x
+PAT;Patani;x
+PAT_ADJ;Patani;x
+AHO;Ahom;x;
+AHO_ADJ;Ahomese;x
+BBG;Blambangan;x
+BBG_ADJ;Blambangan;x
+BBG_absolute_monarchy;The Blambangan Kingdom;x
+BBG_prussian_constitutionalism;The Blambangan Kingdom;x
+BBG_hms_government;The Blambangan Kingdom;x
+BRS;Barus;x
+BRS_ADJ;Barus;x
+BRS_absolute_monarchy;The Sultanate of Barus;x
+BRS_prussian_constitutionalism;The Sultanate of Barus;x
+BRS_hms_government;The Sultanate of Barus;x
+PYG;Pagaruyung;x
+PYG_ADJ;Minangkabau;x
+BTE;Banten;x
+BTE_ADJ;Banten;x
+BTE_absolute_monarchy;The Sultanate of Banten;x
+BTE_prussian_constitutionalism;The Sultanate of Banten;x
+BTE_hms_government;The Sultanate of Banten;x
+DEL;The Sultanate of Deli;x
+DEL_ADJ;Deli;x
+PLM;The Sultanate of Palembang Darussalam;x
+PLM_ADJ;Palembang;x
+LAR;The Kingdom of Larantuka;x
+LAR_ADJ;Larantuka;x
+VOC;The United East India Company;x
+VOC_ADJ;Company;x
+KND;Kandy;x
+KND_ADJ;Kandi;x
+MDR;Madurai;x
+MDR;Madurai;x
+MGW;Maguindanao;x
+MGW_ADJ;Maguindanaon;x
+PEG;Hanthawaddy Kingdom;x
+PEG_ADJ;Hanthawaddy;x
+LNA;Lan Na;x
+LNA_ADJ;Lan Na;x
+MJA;Majapahit Empire;x
+MJA_ADJ;Majapahite;x
+VEN;Venice;x
+VEN_democracy;Republic of Venice;x
+VEN_ADJ;Venetian;x
+SAA;Saarland;x
+SAA_ADJ;Saarlander;x
+MLN;Milan;x
+MLN_ADJ;Milanese;x
+MNZ;Mainz;x
+MNZ_theocracy;The Electorate of Mainz;x
+MNZ_ADJ;Mainz;x
+DOR;The Free City of Dortmund;x
+DOR_ADJ;Dortmund;x
+THL;The Three Leagues;x
+THL_ADJ;League;x
+VAL;The Republic of the Seven Tithings;x
+VAL_ADJ;Valais;x
+VAL_presidential_dictatorship;The Rhodanic Republic;x
+VAL_presidential_dictatorship_ADJ;Rhodanic;x
+VAL_bourgeois_dictatorship;The Rhodanic Republic;x
+VAL_bourgeois_dictatorship_ADJ;Rhodanic;x
+SWI;The Swiss Confederacy;x
+SWI_presidential_dictatorship;The Helvetic Republic;x
+SWI_presidential_dictatorship_ADJ;Helvetic;x
+SWI_bourgeois_dictatorship;The Helvetic Republic;x
+SWI_bourgeois_dictatorship_ADJ;Helvetic;x
+BSL;The Prince-Bishopric of Basel;x
+BSL_ADJ;Basel;x
+BSL_presidential_dictatorship;The Rauracian Republic;X
+BSL_presidential_dictatorship_ADJ;Rauracian;X
+BSL_bourgeois_dictatorship;The Rauracian Republic;X
+BSL_bourgeois_dictatorship_ADJ;Rauracian;X
+FUL;Fulda;x
+FUL_theocracy;The Princely Abbey of Fulda;x
+FUL_ADJ;Fulda;x
+SAL;The Prince-Archbishopric of Salzburg;x
+SAL_ADJ;Salzburger;x
+DNN;Denmark-Norway;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DNN_ADJ;Danish-Norwegian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AAC;Free City of Aachen;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AAC_ADJ;Aachen;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ANS;Ansbach;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ANS_ADJ;Ansbach;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AUG;Augsburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AUG_ADJ;Augsburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRN;Brandenburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRN_ADJ;Brandenburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BPR;Brandenburg-Prussia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BPR_ADJ;Brandenburg-Prussian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CLG;Cologne;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CLG_ADJ;Cologne;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CLV;Cleves;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CLV_ADJ;Cleves;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIE;Liege;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIE_democracy;Republic of Liege;;;;;;;;;;;;;x
+LIE_presidential_dictatorship;Republic of Liege;;;;;;;;;;;;;x
+LIE_bourgeois_dictatorship;Republic of Liege;;;;;;;;;;;;;x
+LIE_proletarian_dictatorship;People's Republic of Liege;;;;;;;;;;;;;x
+LIE_fascist_dictatorship;Republic of Liege;;;;;;;;;;;;;x
+LIE_ADJ;Liege;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIE_ADJ_democracy;Liege;;;;;;;;;;;;;x
+LIE_ADJ_presidential_dictatorship;Liege;;;;;;;;;;;;;x
+LIE_ADJ_bourgeois_dictatorship;Liege;;;;;;;;;;;;;x
+LIE_ADJ_proletarian_dictatorship;Liege;;;;;;;;;;;;;x
+LIE_ADJ_fascist_dictatorship;Liege;;;;;;;;;;;;;x
+LNE;Luneburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LNE_ADJ;Luneburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MUN;The Prince-Bishopric of Munster;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MUN_ADJ;Munster;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PLT;Imperial Palatinate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PLT_ADJ;Palatinate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+POM;Pomerania;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+POM_ADJ;Pomeranian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LAU;Saxe-Lauenburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LAU_ADJ;Saxe-Lauenburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+TRR;Trier;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+TRR_ADJ;Trier;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+WUZ;The Prince-Bishopric of Wurzburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+WUZ_ADJ;Wurzburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EFR;East Frisia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EFR_ADJ;East Frisian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GBR;Great Britain;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GBR_ADJ;British;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HRE;Holy Roman Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HRE_ADJ;Holy Roman;;;;;;;;;;;;;;;;;;;;;;;x;;;
+RAV;Ravensburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+RAV_ADJ;Ravensburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+THU;Thuringia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+THU_ADJ;Thuringian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ULM;Ulm;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ULM_ADJ;Ulm;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GOT;Gotland;x
+GOT_ADJ;Gutnish;x
+MAZ;Mazovia;x
+MAZ_ADJ;Mazovian;x
+KUR;Kurland;x
+KUR_ADJ;Couronian;x
+LIV;The Livonian Order;x
+LIV_ADJ;Livonian;x
+LVN;Livonia;x
+LVN_ADJ;Livonian;x
+PRM;Perm;x
+PRM_ADJ;Permian;x
+RIG;Riga;x
+RIG_ADJ;Rigan;x
+RGA;Archbishopric of Riga;x
+RGA_ADJ;Rigan;x
+DRP;Bishopric of Dorpat;x
+DRP_ADJ;Dorpat;x
+OSL;Bishopric of Ösel–Wiek;x
+OSL_ADJ;Ösel–Wiek;x
+TEU;The Teutonic Order;x
+TEU_ADJ;Teutonic;x
+AMD;Ahmadnagar;x
+AMD_ADJ;Ahmadnagar;x
+BHM;Bahamanis;x
+BHM_ADJ;Bahamanis;x
+BIJ;Bijapur;x
+BIJ_ADJ;Bijapuri;x
+BRR;Berar;x
+BRR_ADJ;Berar;x
+DEC;Deccan;x
+DEC_ADJ;Deccan;x
+GUJ;Gujarat;x
+GUJ_ADJ;Gujarati;x
+KHD;Khandesh;x
+KHD_ADJ;Khandeshi;x
+MAW;Malwa;x
+MAW_ADJ;Malwan;x
+MNE;The Ming Empire;x
+MNE_ADJ;Ming;x
+VIJ;Vijayanagar;x
+VIJ_ADJ;Vijayanagara;x
+EJZ;Donghai;x
+EJZ_ADJ;Donghai;x
+MHX;Haixi;x
+MHX_ADJ;Haixi;x
+MJZ;Jianzhou;x
+MJZ_ADJ;Jianzhou;x
+MYR;Yeren;x
+MYR_ADJ;Yeren;x
+NHX;Udege;x
+NHX_ADJ;Udege;x
+NVK;Nivkh;x
+NVK_ADJ;Nivkh;x
+SOL;Solon;x
+SOL_ADJ;Solon;x
+DUL;Dulkadir;x
+DUL_ADJ;Dulkadirid;x
+RAM;Ramazan;x
+RAM_ADJ;Ramazanid;x
+SRV;Shirvan;x
+SRV_ADJ;Shirvani;x
+GRH;The Great Horde;x
+GRH_ADJ;Great Horde;x
+GZK;Gazikumukh;x
+GZK_ADJ;Gazikumukhan;x
+KZN;Kazan Khanate;x
+KZN_ADJ;Kazani;x
+MUS;Muscovy;x
+MUS_ADJ;Muscovian;x
+NOG;The Nogai Horde;x
+NOG_ADJ;Nogai;x
+PSK;Pskov;x
+PSK_ADJ;Pskovian;x
+QAS;The Qasim Khanate;x
+QAS_ADJ;Qasim;x
+RYA;Principality of Ryazan;x
+RYA_ADJ;Ryazani;x
+SBR;Sibir;x
+SBR_ADJ;Sibirian;x
+GRI;Guria;x
+GRI_ADJ;Gurian;x
+SMK;Samtskhe;x
+SMK_ADJ;Samtskhian;x
+KKH;Kakheti;x
+KKH_ADJ;Kakhetian;x
+KAK;Kartli;x
+KAK_ADJ;Kartlian;x
+IMR;Imereti;x
+IMR_ADJ;Imeretian;x
+GEN;Genoa;x
+GEN_ADJ;Genoese;x
+SIC;Kingdom of Sicily;x
+SIC_ADJ;Sicilian;x
+ROR;Republic of Ragusa;x
+ROR_ADJ;Ragusian;x
+GEN;Genoa;x
+GEN_ADJ;Genoese;x
+NAP;Kingdom of Naples;x
+NAP_ADJ;Neapolitan;x
+PER;Persia;x
+PER_ADJ;Persian;x
+PER_absolute_monarchy;The Khwarazmian Empire;x
+PER_absolute_monarchy_ADJ;Khwarazmian;x
+SYR;Zengid Dynasty;x
+SYR_ADJ;Zengid;x
+IRQ;Abbasid Caliphate;x
+IRQ_ADJ;Abbasid;x
+AKK;Aq Qoyunlu;x
+AKK_ADJ;Aq Qoyunlu;x
+DLH;The Delhi Sultanate;x
+DLH_ADJ;Delhian;x
+TIM;The Timurid Empire;x
+TIM_ADJ;Timurid;x
+ALA;Andalusia;x
+ALA_ADJ;Andalusian;x
+ARN;Aragon;x
+ARN_ADJ;Aragonese;x
+NVR;Navarra;x
+NVR_ADJ;Navarrian;x
+DMS;Desmond;x
+DMS_ADJ;Desmondian;x
+HSC;Highlands;x
+HSC_ADJ;Highlander;x
+KOI;Mann;x
+KOI_ADJ;Manx;x
+NOL;Northumberia;x
+NOL_ADJ;Northumberian;x
+ULS;Ulster;x
+ULS_ADJ;Ulstrian;x
+ATH;Duchy of Athens;x
+ATH_democracy;Republic of Athens;x
+ATH_ADJ;Athenian;x
+CEP;Corfu;x
+CEP_ADJ;Corfiot;x
+CLI;Celje;x
+CLI_ADJ;Cillian;x
+EPI;Despotate of Epirus;x
+EPI_ADJ;Epirots;x
+KNI;Knights Hospitaller;x
+KNI_ADJ;Knights;x
+MEA;Despotate of Morea;x
+MEA_ADJ;Morean;x
+NAX;Duchy of Naxos;x
+NAX_ADJ;Naxos;x
+RAG;Ragusa;x
+RAG_democracy;Republic of Ragusa;x
+RAG_ADJ;Ragusian;x
+ANT;Antioch;x
+ANT_ADJ;Antochian;x
+AYD;Aydin;x
+AYD_ADJ;Aydinid;x
+CTP;County of Tripoli;x
+CTP_ADJ;Tripolitanian;x
+EDS;Edessa;x
+EDS_ADJ;Edessian;x
+ERT;Erzincan Beylik;x
+ERT_ADJ;Eretnid;x
+GMY;Germiyan;x
+GMY_ADJ;Germiyanid;x
+JND;Isfendiyar;x
+JND_ADJ;Jandarid;x
+JER;Kingdom of Jerusalem;x
+JER_ADJ;Jerusalem;x
+KRM;Karaman;x
+KRM_ADJ;Karamanid;x
+KRS;Beylik of Karasi;x
+KRS_ADJ;Karasid;x
+MNT;Menteshe;x
+MNT_ADJ;Menteshe;x
+OSM;Ottoman Beylik;x
+OSM_ADJ;Ottoman;x
+TKE;Beylik of Teke;x
+TKE_ADJ;Tekian;x
+CYP;Cyprus;x
+CYP_absolute_monarchy;Kingdom of Cyprus;;;;;;;;;;;;;x
+CYP_prussian_constitutionalism;Kingdom of Cyprus;;;;;;;;;;;;;x
+CYP_hms_government;Kingdom of Cyprus;;;;;;;;;;;;;x
+CYP_ADJ;Cypriot;x
+CHG;Chagatai Khanate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHG_ADJ;Chagatai;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ILK;Ilkhanate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ILK_ADJ;Ilkhan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MGL;The Mongol Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MGL_ADJ;Mongolian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+WMG;Western Mongol Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+WMG_ADJ;Mongolian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MGE;Great Mongol Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MGE_ADJ;Mongolian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GOL;The Golden Horde;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GOL_ADJ;Golden Horde;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+YUA;The Great Yuan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+YUA_ADJ;Yuan;;;;;;;;;;;;;;;;;;;;;;;x;;;;

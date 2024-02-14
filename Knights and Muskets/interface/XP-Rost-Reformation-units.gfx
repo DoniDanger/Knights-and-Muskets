@@ -1,0 +1,143 @@
+objectTypes = {
+	
+	EMFXActorType = {
+		name = "PolishGCInfantry"
+		actorfile = "gfx\anims\Polish_1400.xac"
+		
+		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
+		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
+		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
+		scale = 6.8
+	}
+
+	EMFXActorType = {
+		name = "PolishGCInfantry2"
+		actorfile = "gfx\anims\Generic_Western_1500.xac"
+		
+		idle   = "gfx\anims\Generic_Western_1500_Idle.xsm"
+		move   = "gfx\anims\Generic_Western_1500_Move.xsm"
+		attack = "gfx\anims\Generic_Western_1500_Attack.xsm"
+		scale = 6.8
+	}
+	
+	EMFXActorType = {
+		name = "ByzantineGCInfantry"
+		actorfile = "gfx\anims\Byzantine_1400.xac"
+		
+		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
+		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
+		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
+		scale = 6.8
+	}
+	
+	EMFXActorType = {
+		name = "ByzantineGCInfantry2"
+		actorfile = "gfx\anims\Byzantine_1400.xac"
+		
+		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
+		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
+		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
+		scale = 6.8
+	}
+	
+	EMFXActorType = {
+		name = "LatinGCInfantry"
+		actorfile = "gfx\anims\Naplesian_1400.xac"
+		
+		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
+		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
+		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
+		scale = 6.8
+	}
+	
+	EMFXActorType = {
+		name = "LatinGCInfantry2"
+		actorfile = "gfx\anims\Naplesian_1400.xac"
+		
+		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
+		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
+		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
+		scale = 6.8
+	}
+	
+	EMFXActorType = {
+		name = "PortugeseGCInfantry"
+		actorfile = "gfx\anims\Portuguese_1400.xac"
+		
+		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
+		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
+		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
+		scale = 6.8
+	}
+	
+	EMFXActorType = {
+		name = "PortugeseGCInfantry2"
+		actorfile = "gfx\anims\Portuguese_1500.xac"
+		
+		idle   = "gfx\anims\Generic_Western_1500_Idle.xsm"
+		move   = "gfx\anims\Generic_Western_1500_Move.xsm"
+		attack = "gfx\anims\Generic_Western_1500_Attack.xsm"
+		scale = 6.8
+	}
+
+	EMFXActorType = {
+		name = "VenetianGCInfantry"
+		actorfile = "gfx\anims\Venetian_1500.xac"
+		
+		idle   = "gfx\anims\Generic_Western_1500_Idle.xsm"
+		move   = "gfx\anims\Generic_Western_1500_Move.xsm"
+		attack = "gfx\anims\Generic_Western_1500_Attack.xsm"
+		scale = 7.8
+	}
+
+	EMFXActorType = {
+		name = "ScandinavianGCInfantry"						
+		actorfile = "gfx\anims\Scandinavian_1500.xac"
+		
+		idle   = "gfx\anims\Generic_Western_1500_Idle.xsm"
+		move   = "gfx\anims\Generic_Western_1500_Move.xsm"
+		attack = "gfx\anims\Generic_Western_1500_Attack.xsm"
+		scale = 7.8
+	}
+
+	EMFXActorType = {
+		name = "DutchGCInfantry"
+		actorfile = "gfx\anims\Dutch_1500.xac"
+		
+		idle   = "gfx\anims\Generic_Western_1500_Idle.xsm"
+		move   = "gfx\anims\Generic_Western_1500_Move.xsm"
+		attack = "gfx\anims\Generic_Western_1500_Attack.xsm"
+		scale = 7.8
+	}
+
+	EMFXActorType = {
+		name = "DanishGCInfantry"
+		actorfile = "gfx\anims\Danish_1500.xac"
+		
+		idle   = "gfx\anims\Generic_Western_1500_Idle.xsm"
+		move   = "gfx\anims\Generic_Western_1500_Move.xsm"
+		attack = "gfx\anims\Generic_Western_1500_Attack.xsm"
+		scale = 7.8
+	}
+
+	EMFXActorType = {
+		name = "ScottishGCInfantry"
+		actorfile = "gfx\anims\Scottish_1500.xac"
+		
+		idle   = "gfx\anims\Generic_German_1500_Idle.xsm"
+		move   = "gfx\anims\Generic_German_1500_Move.xsm"
+		attack = "gfx\anims\Generic_German_1500_Attack.xsm"
+		scale = 7.8
+	}
+
+	EMFXActorType = {
+		name = "SwissGCInfantry"
+		actorfile = "gfx\anims\Generic_Western_1500.xac"
+		
+		idle   = "gfx\anims\Generic_Western_1500_Idle.xsm"
+		move   = "gfx\anims\Generic_Western_1500_Move.xsm"
+		attack = "gfx\anims\Generic_Western_1500_Attack.xsm"
+		scale = 7.8
+	}
+
+}

@@ -1,0 +1,5 @@
+name = "Knights and Muskets"
+path = "mod/Knights and Muskets"
+user_dir = "Knights and Muskets"
+replace_path = "events"
+replace_path = "decisions"

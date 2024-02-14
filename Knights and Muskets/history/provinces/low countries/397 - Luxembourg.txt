@@ -1,0 +1,13 @@
+owner = ALS
+controller = ALS
+add_core = ALS
+add_core = GER
+add_core = LUX
+trade_goods = iron
+life_rating = 35
+1861.1.1 = { railroad = 3 }
+1861.1.1 = {
+	owner = LUX
+	controller = LUX
+	remove_core = NET
+}

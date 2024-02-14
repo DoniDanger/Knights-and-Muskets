@@ -1,0 +1,5 @@
+owner = BIM
+controller = BIM
+add_core = BIM
+trade_goods = coffee
+life_rating = 30

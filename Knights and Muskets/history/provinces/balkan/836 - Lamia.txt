@@ -1,0 +1,7 @@
+owner = ALB
+controller = ALB
+add_core = MCD
+add_core = LTN
+add_core = BYZ
+trade_goods = cotton
+life_rating = 35

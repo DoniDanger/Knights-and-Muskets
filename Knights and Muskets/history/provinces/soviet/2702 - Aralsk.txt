@@ -1,0 +1,6 @@
+owner = CUM
+controller = CUM
+add_core = CUM
+add_core = KAZ
+trade_goods = wool
+life_rating = 35

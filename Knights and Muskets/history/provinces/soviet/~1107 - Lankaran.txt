@@ -1,0 +1,3 @@
+owner = GEOcontroller = GEOadd_core = GEO
+add_core = AZBtrade_goods = grain
+life_rating = 35

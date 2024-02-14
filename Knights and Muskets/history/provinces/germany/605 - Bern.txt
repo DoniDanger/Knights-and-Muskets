@@ -1,0 +1,9 @@
+owner = ARP
+controller = ARP
+add_core = ARP
+add_core = GER
+add_core = SWI
+trade_goods = iron
+life_rating = 40
+fort = 1
+1861.1.1 = { railroad = 1 }
