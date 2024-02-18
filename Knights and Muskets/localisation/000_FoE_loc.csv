@@ -4,9 +4,12 @@ MAY_GAS_DEFEND;Can defend against Steppe Warfare;;;;;;;;;;;;;
 gas_attack;Steppe Warfare;;;;;;;;;;;;;
 gas;Steppe Warfare;Steppe Warfare;Steppe Warfare;;Steppe Warfare;;;;;;;;x;;;
 COMBAT_GAS;Mobile Steppe armies employing hit-and-run tactics and feigned retreats while the opponent lacks the experience to defend against them may be devastating.;;;;;;;;;;;x
-tank;War Elephant;;;;;;;;;;;;;
-plane;Mounted Archer;;;;;;;;;;;;;
+tank;Crossbowman;;;;;;;;;;;;;
+artillery;Archer;;;;;;;;;;;;;
+engineer;Mangonel;;;;;;;;;;;;;
+plane;Man-at-Arms;;;;;;;;;;;;;
 irregular;Levy;;;;;;;;;;;;;
-cuirassier;Light Cavalry;;;;;;;;;;;;;
-dragoon;Heavy Cavalry;;;;;;;;;;;;;
-guard;Elite Infantry;;;;;;;;;;;;;
+cuirassier;Heavy Cavalry;;;;;;;;;;;;;
+dragoon;Mounted Archer;;;;;;;;;;;;;
+hussar;War Elephant;;;;;;;;;;;;;
+guard;Pikemen;;;;;;;;;;;;;
