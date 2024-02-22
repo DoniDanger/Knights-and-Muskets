@@ -30,6 +30,18 @@ military_goods = {
 		color = { 221 213 182 }
 		available_from_start = no
 	}
+	horses = {	
+		cost = 70.00 
+		color = { 61 67 64 }
+	}
+	elephants = { 
+		cost = 16.00
+		color = { 123 112 54 }
+	}
+	barding = { 
+		cost = 2.3
+		color = { 11 29 77 }
+	}
 }
 
 raw_material_goods = {
@@ -75,6 +87,8 @@ raw_material_goods = {
 	}
 	oil = { 
 		cost = 12.0
+		#tradeable = no
+		#money = yes	
 		color = { 0 0 0 }
 	}
 	precious_metal = { 
@@ -106,7 +120,7 @@ industrial_goods = {
 	}
 	fuel = { 
 		cost = 25.00 
-		available_from_start = no
+		#available_from_start = no
 		color = { 145 110 89 }
 	}
 	fertilizer = { 
@@ -132,8 +146,16 @@ industrial_goods = {
 	}
 	electric_gear = { 
 		cost = 16.00 
-		available_from_start = no
+		#available_from_start = no
 		color = { 255 255 0 }
+	}
+	tin = { 
+		cost = 2.3
+		color = { 11 29 77 }
+	}
+	leather = { 
+		cost = 2.3
+		color = { 11 29 77 }
 	}
 	fabric = { 
 		cost = 1.8
@@ -184,12 +206,10 @@ consumer_goods = {
 	}
 	automobiles = {	
 		cost = 70.00 
-		available_from_start = no
 		color = { 61 67 64 }
 	}
 	telephones = { 
 		cost = 16.00
-		available_from_start = no
 		color = { 123 112 54 }
 	}
 	wine = { 
@@ -216,9 +236,28 @@ consumer_goods = {
 		cost = 59.00
 		color = { 255 140 184 }
 	}
-	radio = { 
+	sugar = { 
 		cost = 16.00 
-		available_from_start = no
 		color = { 129 63 6 }
+	}
+	furs = { 
+		cost = 2.2
+		color = { 219 157 36 }
+	}
+	spices = {	
+		cost = 1.1
+		color = { 100 69 30 }
+	}
+	ivory = {	
+		cost = 2.6
+		color = { 201 135 15 }
+	}
+	apiculture = { 
+		cost = 2.1
+		color = { 27 19 7 }
+	}
+	incense = { 
+		cost = 3.2
+		color = { 114 162 47 }
 	}
 }

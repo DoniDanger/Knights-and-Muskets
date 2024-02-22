@@ -196,24 +196,6 @@ automobile_factory = {
 	}
 }
 
-radio_factory = {       
-	template = factory_template
-	input_goods = {      
-		glass = 10 		#29
-		electric_gear = 3	#48  	total input+maint = 87
-	}
-	output_goods = radio 
-	value = 6.5			#104
-	bonus = {
-		trigger = { has_building = electric_gear_factory }
-		value = 0.15
-	}
-		bonus = {
-		trigger = { has_building = glass_factory }
-		value = 0.1
-	}
-}
-
 telephone_factory = {       
 	template = factory_template
 	input_goods = {       
@@ -948,12 +930,12 @@ artisan_automobile = {
 	workforce = 10000
 }
 
-artisan_radio = {       
+artisan_sugar = {       
 	input_goods = {      
 		glass = 10 		#29
 		electric_gear = 3	#48  	total input+maint = 87
 	}
-	output_goods = radio 
+	output_goods = sugar 
 	value = 6.5			#104
 	
 	owner = {
