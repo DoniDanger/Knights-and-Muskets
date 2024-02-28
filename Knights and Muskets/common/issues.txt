@@ -258,7 +258,7 @@ political_reforms = {
             }
         }
 
-        recompensation_period = {
+        recompensation_period = { #corvee system
             rules = { slavery_allowed = no }
 			min_social_spending = 0.5
             allow = {
@@ -302,7 +302,6 @@ political_reforms = {
             rich_vote = 1
             middle_vote = 0.05
             poor_vote = 0
-            global_immigrant_attract = 0.01
             allow = {
                 NOT = { has_country_flag = theocratic_government }
 				NOT = { has_country_flag = parliment_discontent }
@@ -315,20 +314,10 @@ political_reforms = {
             middle_vote = 0.5
             poor_vote = 0
             cb_generation_speed_modifier = 0.05
-            global_immigrant_attract = 0.02
             allow = {
                 NOT = { has_country_flag = parliment_discontent }
                 NOT = { government = elective_monarchy_oligarchy }
             }
-        }
-        wealth_voting = {
-            rich_vote = 1
-            middle_vote = 1
-            poor_vote = 0
-
-            global_immigrant_attract = 0.08
-			global_pop_militancy_modifier = -0.1
-            
         }
     }
 
@@ -342,12 +331,6 @@ political_reforms = {
             rules = { rich_only = yes }
             global_immigrant_attract = 0.01
         }
-        state_equal_weight = { #house of commons
-            rules = { state_vote = yes }
-            rich_vote = 1.00
-            middle_vote = 0.50
-            global_immigrant_attract = 0.02
-        }
     }
 
     voting_system = {
@@ -359,29 +342,24 @@ political_reforms = {
             }
         }
         jefferson_method = {
-            rules = { dhont = yes }
             allow = {
                 NOT = { vote_franschise = none_voting }  
             }
         }
         proportional_representation = {
-            rules = { sainte_laque = yes }
             allow = {
                 NOT = { vote_franschise = none_voting }
             }
         }
     }
     public_meetings = {
-        no_meeting = {
-            suppression_points_modifier = 0.1
-            global_immigrant_attract = -0.04
+        no_meeting = { #public arms allowed
+			suppression_points_modifier = -0.25
+			issue_change_speed = 0.25
         }
-        yes_meeting = {
-            issue_change_speed = 1
-            global_immigrant_attract = 0.02
-            suppression_points_modifier = -0.25
+        yes_meeting = { #noble arms rights
+			suppression_points_modifier = 0.25
         }
-
     }
     press_rights = {
         next_step_only = yes
@@ -410,17 +388,12 @@ political_reforms = {
 			issue_change_speed = -0.15
             ruling_party_support = 0.15
         }
-        state_controlled = { #Advisor Council
-            social_reform_desire = 0.1
-            global_immigrant_attract = 0.01
-            diplomatic_points_modifier = 0.05
-        }
-        non_socialist = { #Delegated Ministers
-            social_reform_desire = 0.2
-            global_immigrant_attract = 0.02
+        state_controlled = { #Privy Council
+            social_reform_desire = 0.15
+            global_immigrant_attract = 0.015
             diplomatic_points_modifier = 0.1
         }
-        all_trade_unions = { #Cabinet
+        non_socialist = { #Delegated Ministers
             social_reform_desire = 0.3
             global_immigrant_attract = 0.03
             diplomatic_points_modifier = 0.2
@@ -428,30 +401,21 @@ political_reforms = {
         }
     }
 
-    political_parties = {
+    political_parties = { #feudal relief
         next_step_only = yes
         underground_parties = {
-            ruling_party_support = 0.2
+            ruling_party_support = -0.2
             global_immigrant_attract = -0.01
         }
         harassment = {
-            ruling_party_support = 0.15
-            global_immigrant_attract = 0.02
+            ruling_party_support = -0.15
             allow = {
                 NOT = { has_country_flag = theocratic_government }
             }
         }
         gerrymandering = {
-            ruling_party_support = 0.10
-            global_immigrant_attract = 0.03
+            ruling_party_support = 0.25
             allow = { NOT = { vote_franschise = none_voting } }
-        }
-        non_secret_ballots = {
-            ruling_party_support = 0.05
-            global_immigrant_attract = 0.04
-            allow = {
-                NOT = { vote_franschise = none_voting }
-            }
         }
     }
 
@@ -516,31 +480,26 @@ political_reforms = {
         }
     }
 
-    centralization = { #Parliament
+    parliament = { #Parliament
 		next_step_only = yes
-        no_parliment = {
+        no_parliament = {
 			suppression_points_modifier = 0.25
 			literacy_con_impact = -0.15
 			cb_generation_speed_modifier = 0.15
         }
-        admin_parliment = {
-			pension_level = 0.50
-			administrative_efficiency_modifier = 0.05
-			tax_efficiency = 0.05
-			cb_generation_speed_modifier = 0.05
-        }
-        legislative_parliment = {
+        admin_parliament = {
 			pension_level = 0.50
 			leadership_modifier = 0.05
+			administrative_efficiency_modifier = 0.05
 			core_pop_militancy_modifier = -0.05
-			tax_efficiency = 0.01
+			tax_efficiency = 0.05
 			literacy_con_impact = 0.05
-			cb_generation_speed_modifier = -0.05
+			cb_generation_speed_modifier = 0.05
 			global_pop_militancy_modifier = -0.1
         }
     }
 	
-	religious_minoritys = {
+	religious_minorities = {
 		next_step_only = yes
 		no_rights = {
 			#depending on rel policy religious persecusions might happen
@@ -564,7 +523,7 @@ political_reforms = {
 		state_religion = {
 			#Enables Church Estate
 		}
-		church_and_state_seperation = {
+		church_and_state_seperation = { #caeseropapaism
 			allow = { OR = { religious_policy = secularized religious_policy = pro_atheism } is_ideology_enabled = communist }
 			global_immigrant_attract = 0.15
 			#disables Church Estate
@@ -577,7 +536,7 @@ political_reforms = {
 # Social reforms.
 ##########################################
 social_reforms = {
-    wage_reform = { #Church
+    wage_reform = { #Ecclesiastical Priveliges
         #administrative = yes
         next_step_only = yes
         no_minimum_wage = { #very influential
@@ -796,21 +755,21 @@ social_reforms = {
 
     pensions = { #army
         next_step_only = yes
-        no_pensions = { #irrelevant
+        no_pensions = { #feudal_levies
 			allow = {
 			NOT = { estate_affiliation = gentry_army }
 			NOT = { estate_affiliation = church_army }
 			NOT = { estate_affiliation = nobility_army }
 			}
         }
-        trinket_pensions = { #marginally relevant
+        trinket_pensions = { #nomadic_levies
             land_organisation = 0.05
             leadership_modifier = 0.05
             supply_consumption = 0.10
             org_regain = 0.05
             mobilisation_size = 0.01
         }
-        low_pensions = { #slightly influential
+        low_pensions = { #noble_retinues
             land_organisation = 0.10
             leadership_modifier = 0.10
             supply_consumption = 0.20
@@ -818,7 +777,7 @@ social_reforms = {
 			culture_tech_research_bonus = -0.05
             mobilisation_size = 0.015
         }
-        acceptable_pensions = { #influential
+        acceptable_pensions = { #free_companies
             land_organisation = 0.15
             leadership_modifier = 0.30
             supply_consumption = 0.45
@@ -826,7 +785,7 @@ social_reforms = {
 			culture_tech_research_bonus = -0.1
             mobilisation_size = 0.02
         }
-        good_pensions = { #very influential
+        good_pensions = { #standing_armies
             land_organisation = 0.20
             leadership_modifier = 0.40
             supply_consumption = 0.60
@@ -845,18 +804,18 @@ social_reforms = {
     health_care = { #bureaucracy
         #administrative = yes
         next_step_only = yes
-        no_health_care = { #irrelevant
+        no_health_care = { #decentralized
             min_social_spending = 0.05
             pension_level = 0.10
         }
-        trinket_health_care = { #marginally relevant
+        trinket_health_care = { #low_centralization
             tax_efficiency = 0.025
             administrative_efficiency_modifier = 0.05
             administrative_multiplier = 4
             education_efficiency_modifier = 0.025
             pension_level = 0.20
         }
-        low_health_care = { #slightly influential
+        low_health_care = { #medium_centralization
             tax_efficiency = 0.05
             administrative_efficiency_modifier = 0.1
             #administrative_multiplier = 6
@@ -868,7 +827,7 @@ social_reforms = {
 			navy_tech_research_bonus = -0.01
 			army_tech_research_bonus = -0.01
         }
-        acceptable_health_care = { #influential
+        acceptable_health_care = { #high_centralization
             tax_efficiency = 0.075
             administrative_efficiency_modifier = 0.15
             administrative_multiplier = 8
@@ -880,7 +839,7 @@ social_reforms = {
 			navy_tech_research_bonus = -0.05
 			army_tech_research_bonus = -0.05
         }
-        good_health_care = { #very influential
+        good_health_care = { #full_centralization
             tax_efficiency = 0.10
             administrative_efficiency_modifier = 0.20
             administrative_multiplier = 10
@@ -905,21 +864,21 @@ social_reforms = {
             global_assimilation_rate = -0.002
             
         }
-        low_schools = {
+        low_schools = { #monastic schools
             education_efficiency_modifier = 0.05
             global_assimilation_rate = 0.002
             global_immigrant_attract = 0.02
             administrative_multiplier = 1
             
         }
-        acceptable_schools = {
+        acceptable_schools = { #religious universities
             education_efficiency_modifier = 0.075
             global_assimilation_rate = 0.005
             global_immigrant_attract = 0.03
             administrative_multiplier = 2
             allow = { has_country_flag = nepotism_allowed }
         }
-        good_schools = {
+        good_schools = { #secular/autonomous universities
             education_efficiency_modifier = 0.1
             global_assimilation_rate = 0.01
             global_immigrant_attract = 0.04
@@ -928,35 +887,27 @@ social_reforms = {
         }
     }
 
-    penal_system = {
+    penal_system = { #castle charters
         administrative = yes
         next_step_only = yes
-        capital_punishment = {
+        capital_punishment = { #noble castellans
             core_pop_militancy_modifier = -0.01
+            suppression_points_modifier = -0.25
+            
+        }
+
+        colonial_transportation = { #ministerialis castellans
+            administrative_multiplier = 1
             suppression_points_modifier = 0.25
-            
         }
 
-        colonial_transportation = {
+        incarceration = { #monastic castellans
             administrative_multiplier = 1
-            
-        }
-
-        incarceration = {
-            administrative_multiplier = 1
-            
-        }
-
-        rehabilitation = {
-            global_immigrant_attract = 0.02
-            global_assimilation_rate = 0.02
-            suppression_points_modifier = -0.2
-            administrative_multiplier = 2
-            
+            suppression_points_modifier = 0.1
         }
     }
 
-    promotion_laws = { #Career Progression
+    promotion_laws = { #meritocracy
         administrative = yes
         next_step_only = yes
         privlage_benefits = {

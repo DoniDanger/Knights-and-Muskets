@@ -662,7 +662,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "religious_minoritys"
+				name = "religious_minorities"
 				backGround =""
 				position = { x = 691 y = 309 }
 				size = { x=151 y= 92}
@@ -887,7 +887,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-			name = "centralization"
+			name = "parliament"
 			backGround =""
 			position = { x = 691 y = 49 }
 			

@@ -1215,7 +1215,7 @@ wireless = {
 		base = 2
 		modifier = {
 			factor = 3
-			invention = national_radio_networks
+			invention = fordism
 		}
 		modifier = {
 			factor = 2
@@ -1447,7 +1447,7 @@ radio_telegraphy = {
 		}
 		modifier = {
 			factor = 4
-			invention = national_radio_networks
+			invention = fordism
 		}
 	}
 	effect = {
@@ -1646,7 +1646,7 @@ continuous_issuing_of_orders = {
 		base = 2
 		modifier = {
 			factor = 2
-			invention = radio_telegraphy
+			invention = fordism
 		}
 		modifier = {
 			factor = 1

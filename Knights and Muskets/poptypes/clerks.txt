@@ -26,7 +26,6 @@ luxury_needs = {
 	automobiles = 1.0
 	wine = 10
 	aeroplanes = 0.4
-	radio = 1.0
 	fuel = 0.2
 	coffee = 2
 }

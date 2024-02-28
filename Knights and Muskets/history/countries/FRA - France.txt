@@ -5,7 +5,7 @@ culture = picard
 culture = occitan
 culture = breton
 religion = catholic
-government = absolute_monarchy
+government = feudal_monarchy
 plurality = 25
 nationalvalue = nv_equality
 literacy = 0.60
@@ -36,7 +36,10 @@ school_reforms = no_schools
 
 # Technologies
 post_napoleonic_thought = 1
+strategic_mobility = 1
 flintlock_rifles = 1
+muzzle_loaded_rifles = 1
+breech_loaded_rifles = 1
 bronze_muzzle_loaded_artillery = 1
 military_staff_system = 1
 army_command_principle = 1
@@ -72,14 +75,16 @@ mechanical_production = 1
 # Inventions
 #corvettes = yes
 commerce_raiders = yes
+aeronautics = yes
+tank_experiments = yes
 
 # Starting Consciousness
 consciousness = 3
 nonstate_consciousness = 1
 
-ruling_party = FRA_conservative
-set_country_flag = tory_election_win
-last_election = 1834.6.21
+ruling_party = "Royalist"
+
+last_election = 1200.1.1
 upper_house = {
 	fascist = 0
 	liberal = 12
@@ -95,7 +100,7 @@ decision = literacy_FRA
 
 govt_flag = {
 	government = hms_government
-	flag = presidential_dictatorship
+	flag = feudal_monarchy
 }
 
 schools = culture_tech_school
@@ -139,7 +144,7 @@ school_reforms = no_schools
 
 ruling_party = FRA_reactionary
 clr_country_flag = tory_election_win
-government = presidential_dictatorship
+government = feudal_monarchy
 upper_house = {
 	fascist = 0
 	liberal = 30

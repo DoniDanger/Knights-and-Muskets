@@ -145,8 +145,6 @@ production_focus =
 
 	electrical_focus =
 	{
-		radio = 1000
-		telephones = 1000
 		electric_gear = 1000
 		icon = 17
 		limit = { year = 1880 }
