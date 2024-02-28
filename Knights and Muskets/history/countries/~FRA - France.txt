@@ -95,7 +95,7 @@ decision = literacy_FRA
 
 govt_flag = {
 	government = hms_government
-	flag = presidential_dictatorship
+	flag = feudal_monarchy
 }
 
 schools = culture_tech_school
@@ -139,7 +139,7 @@ school_reforms = no_schools
 
 ruling_party = FRA_reactionary
 clr_country_flag = tory_election_win
-government = presidential_dictatorship
+government = feudal_monarchy
 upper_house = {
 	fascist = 0
 	liberal = 30

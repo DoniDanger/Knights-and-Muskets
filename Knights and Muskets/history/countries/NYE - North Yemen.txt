@@ -53,7 +53,7 @@ nonstate_consciousness = 0
 
 govt_flag = {
 	government = absolute_monarchy
-	flag = fascist_dictatorship
+	flag = feudal_monarchy
 }
 
 oob = "NYE_oob.txt"

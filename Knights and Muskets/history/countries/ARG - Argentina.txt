@@ -1,7 +1,7 @@
 capital = 2348
 primary_culture = platinean
 religion = catholic
-government = presidential_dictatorship
+government = feudal_monarchy
 plurality = 25.0
 nationalvalue = nv_liberty
 literacy = 0.12
