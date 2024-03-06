@@ -1,4 +1,4 @@
-hussar = {
+hussar = { #war elephant
 	icon = 15
 	
 	type = land
@@ -23,25 +23,27 @@ hussar = {
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		crossbows = 10
-		canned_food = 10
+		elephants = 40
+		canned_food = 30
+		barding = 20
 		luxury_clothes = 5
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		crossbows = 0.015 #0.01
+		elephants = 0.4 #0.01
 		infantry_arms = 0.075 #0
-		canned_food = 0.08 #0.08
+		barding = 0.20 # 0.008
+		canned_food = 0.24 #0.08
 	}
 	
 
 	#Land Abilties
-	reconnaissance = 2
-	attack = 3
-	defence = 3
+	reconnaissance = 1
+	attack = 9
+	defence = 7
 	discipline = 1.0
 	support = 0.0
-	maneuver = 4
+	maneuver = 2
 	
 }

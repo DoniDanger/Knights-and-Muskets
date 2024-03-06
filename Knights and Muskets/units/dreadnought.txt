@@ -27,7 +27,6 @@ dreadnought = {
 		steamer_convoy = 200
 		artillery = 50
 		canned_food = 20
-		chinaware = 20
 		naval_supplies = 50
 	}
 	min_port_level = 5
@@ -39,7 +38,6 @@ dreadnought = {
 		steamer_convoy = 3.5
 		artillery = 1.6
 		canned_food = 1.6
-		chinaware = 0.2
 		naval_supplies = 4.2
 	}
 	

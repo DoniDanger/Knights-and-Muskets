@@ -19,8 +19,10 @@ luxury_needs = {
 	chinaware = 1.25
 	salt = 1.0
 	wine = 10
-	bombards = 0.4
-	naval_supplies = 0.2
+	sugar = 0.5
+	spices = 0.5
+	furs = 0.5
+	incense = 0.5
 	coffee = 2
 }
 

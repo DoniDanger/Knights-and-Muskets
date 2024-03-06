@@ -40,12 +40,13 @@ life_needs = {
 
 luxury_needs = {
 	opium = 20
-	oil = 10
 	stone = 10
 	chinaware = 20
 	salt = 20
-	bombards = 5
-	naval_supplies = 30
+	sugar = 2
+	spices = 2
+	furs = 2
+	incense = 2
 	infantry_arms = 1 
 	crossbows = 1 
 	clipper_convoy = 2

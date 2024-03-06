@@ -12,7 +12,7 @@
 
 ############# LATE GAME FACTORIES
 
-aeroplane_factory = {
+bombard_foundry = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -28,12 +28,12 @@ aeroplane_factory = {
 	visibility = yes
 	onmap = no
 
-	production_type = aeroplane_factory
+	production_type = bombard_foundry
 	pop_build_factory = yes
 	advanced_factory = yes
 }
 
-barrel_factory = {
+siege_engine_workshop = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -50,7 +50,7 @@ barrel_factory = {
 	visibility = yes
 	onmap = no
 
-	production_type = barrel_factory
+	production_type = siege_engine_workshop
 	pop_build_factory = yes
 	advanced_factory = yes
 }
@@ -100,7 +100,7 @@ telephone_factory = {
 
 ############# STRATEGIC FACTORIES
 
-tar_factory = {
+tar_workshop = {
 	type = factory
 
 	on_completion = factory
@@ -116,7 +116,7 @@ tar_factory = {
 	visibility = yes
 	onmap = no
 
-	production_type = tar_factory
+	production_type = tar_workshop
 	pop_build_factory = yes
 	strategic_factory = yes
 }
@@ -142,7 +142,7 @@ machine_parts_factory = {
 	strategic_factory = yes
 }
 
-synthetic_oil_factory = {
+charcoal_burner = {
 	type = factory
 
 	on_completion = factory
@@ -158,12 +158,12 @@ synthetic_oil_factory = {
 	visibility = yes
 	onmap = no
 
-	production_type = synthetic_oil_factory
+	production_type = charcoal_burner
 	pop_build_factory = yes
 	strategic_factory = yes
 }
 
-naval_supplies_refinery = {
+naval_supplies_workshop = {
 	type = factory
 
 	on_completion = factory
@@ -179,7 +179,7 @@ naval_supplies_refinery = {
 	visibility = yes
 	onmap = no
 
-	production_type = naval_supplies_refinery
+	production_type = naval_supplies_workshop
 	pop_build_factory = yes
 	strategic_factory = yes
 }
@@ -274,7 +274,7 @@ luxury_furniture_factory = {
 
 ############# MEDIUM FACTORIES
 
-steel_factory = {
+steel_factory = { #hardwood 
 	type = factory
 
 	on_completion = factory
@@ -294,7 +294,7 @@ steel_factory = {
 	pop_build_factory = yes
 }
 
-artillery_factory = {
+artillery_factory = { #bowyer
 	type = factory
 
 	on_completion = factory

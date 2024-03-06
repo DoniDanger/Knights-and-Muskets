@@ -1,4 +1,4 @@
-plane = {
+plane = { #men-at-arms
 	icon = 19
 	
 	type = land
@@ -18,26 +18,25 @@ plane = {
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		bombards = 10
-		crossbows = 10
 		canned_food = 10
+		luxury_clothes = 10
+		infantry_arms = 20
 		wine = 10
-		naval_supplies = 5
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		bombards = 0.19
-		crossbows = 0.12
-		canned_food = 0.07
-		naval_supplies = 0.02
+		infantry_arms = 0.05 # 0
+		canned_food = 0.07 #0.08
+		iron = 0.1 # 0.008
+		wine = 0.06 #0.015
 	}
 	
 
 	#Land Abilties
-	reconnaissance = 4
-	attack = 2
-	defence = 2
+	reconnaissance = 0
+	attack = 8
+	defence = 7
 	discipline = 0.1
 	support = 2
 	maneuver = 3

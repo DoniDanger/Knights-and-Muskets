@@ -1478,7 +1478,7 @@ import_substitution_industrialization = {
 		}
 	}
 	effect = {
-		activate_building = synthetic_oil_factory
+		activate_building = charcoal_burner
 	}
 }
 #organized_factories

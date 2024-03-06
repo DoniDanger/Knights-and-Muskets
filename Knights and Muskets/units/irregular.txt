@@ -1,4 +1,4 @@
-irregular = {
+irregular = { #levies
 	icon = 17
 	
 	type = land
@@ -24,6 +24,7 @@ irregular = {
 	supply_consumption = 1.0
 	supply_cost = {
 		wool = 0.1
+		infantry_arms = 0.075 #0
 	}
 	
 

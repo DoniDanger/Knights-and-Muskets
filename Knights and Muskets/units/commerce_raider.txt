@@ -26,6 +26,7 @@ commerce_raider = {
 		steamer_convoy = 20
 		artillery = 6
 		canned_food = 4
+		naval_supplies = 12
 	}
 	min_port_level = 1
 	limit_per_port = -1
@@ -36,6 +37,7 @@ commerce_raider = {
 		steamer_convoy = 0.32
 		artillery = 0.192
 		canned_food = 0.32
+		naval_supplies = 1.1
 	}
 	
 	#Naval Abilties

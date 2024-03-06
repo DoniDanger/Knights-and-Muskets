@@ -22,6 +22,7 @@ cavalry = {
 	#Building Costs
 	build_time = 120
 	build_cost = {
+		horses = 20
 		wool = 20
 		wine = 10
 	}
@@ -29,13 +30,14 @@ cavalry = {
 	supply_consumption = 1.0
 	supply_cost = {
 		wool = 0.2
+		horses = 0.35 # 0.008
 	}
 	
 
 	#Land Abilties
 	reconnaissance = 1
 	attack = 3
-	defence = 1
+	defence = 2
 	discipline = 1.0
 	support = 0.0
 	maneuver = 2

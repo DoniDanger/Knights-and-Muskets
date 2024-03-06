@@ -19,7 +19,6 @@ daimlers_automobile = {
 		}
 	}
 	effect = {
-		activate_building = automobile_factory 
 		factory_goods_output = {
 			machine_parts = 0.01 
 		}
@@ -45,7 +44,7 @@ wright_n_langleys_bombards = {
 		}
 	}
 	effect = {
-		activate_building =aeroplane_factory 
+		activate_building = bombard_foundry 
 		factory_goods_output = {
 			machine_parts = 0.02 
 		}
@@ -1198,7 +1197,7 @@ cracking = {
 		}
 	}
 	effect = {
-		activate_building = naval_supplies_refinery 
+		activate_building = naval_supplies_workshop 
 	}
 }
 #electricity
@@ -1234,7 +1233,7 @@ edison_light_bulb = {
 		}
 	}
 	effect = {
-		activate_building = tar_factory 
+		activate_building = tar_workshop 
 	}
 }
 bell_n_greys_chinaware = {
@@ -1257,7 +1256,9 @@ bell_n_greys_chinaware = {
 		}
 	}
 	effect = {
-		activate_building = telephone_factory 
+		factory_goods_output = {
+			chinaware = 0.05
+		} 
 	}
 }
 electrical_lighting = {

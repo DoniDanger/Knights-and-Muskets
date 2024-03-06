@@ -21,20 +21,21 @@ artillery = {
 		artillery = 10
 		canned_food = 10
 		liquor = 10
-		wine = 10
+		infantry_arms = 10
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		artillery = 0.1 #0.008
+		artillery = 0.25 #0.008
 		canned_food = 0.06 #0.004
+		infantry_arms = 0.05
 	}
 	
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 1.5
-	defence = 3
+	attack = 2.5
+	defence = 2
 	discipline = 1.0
 	support = 2
 	maneuver = 1

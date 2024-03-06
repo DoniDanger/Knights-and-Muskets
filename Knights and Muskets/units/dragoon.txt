@@ -1,4 +1,4 @@
-dragoon = {
+dragoon = { #horse archers
 	icon = 14
 	
 	type = land
@@ -23,21 +23,26 @@ dragoon = {
 	#Building Costs
 	build_time = 150
 	build_cost = {
-		crossbows = 10
+		horses = 20
 		canned_food = 10
-		wine = 10
+		infantry_arms = 10
+		barding = 10
+		artillery = 20
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		crossbows = 0.012 #0.008
-		infantry_arms = 0.075 # 0
+		infantry_arms = 0.012 #0.008
+		artillery = 0.075 # 0
 		canned_food = 0.07 #0.08
+		horses = 0.40 # 0.008
+		barding = 0.10 # 0.008
+		iron = 0.05 # 0.008
 	}
 	
 
 	#Land Abilties
-	reconnaissance = 1
+	reconnaissance = 2
 	attack = 4
 	defence = 3
 	discipline = 1.0

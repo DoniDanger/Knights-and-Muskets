@@ -1,4 +1,4 @@
-engineer = {
+engineer = { #mangonel
 	icon = 16
 	
 	type = land
@@ -17,18 +17,18 @@ engineer = {
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		crossbows = 10
+		siege_engines = 20
 		canned_food = 10
 		liquor = 10
-		explosives = 5
+		stone = 5
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		crossbows = 0.012 #0.01
-		infantry_arms = 0.1 # 0
+		siege_engines = 0.2 #0.01
+		infantry_arms = 0.06 # 0
 		canned_food = 0.06 # 0.02
-		explosives = 0.05
+		stone = 0.012
 	}
 	
 

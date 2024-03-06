@@ -25,6 +25,7 @@ monitor = {
 		steamer_convoy = 40
 		artillery = 12
 		canned_food = 20
+		naval_supplies = 24
 	}
 	min_port_level = 3
 	limit_per_port = -1
@@ -35,6 +36,7 @@ monitor = {
 		steamer_convoy = 0.64
 		artillery = 0.384
 		canned_food = 0.8
+		naval_supplies = 0.9
 	}
 	
 	#Naval Abilties

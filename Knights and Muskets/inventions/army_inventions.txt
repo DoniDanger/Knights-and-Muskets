@@ -485,7 +485,7 @@ tank_experiments = {
 	}
 	effect = {
 		activate_unit = tank
-		activate_building = barrel_factory 
+		activate_building = siege_engine_workshop 
 	}
 }
 tank_exploits = {
