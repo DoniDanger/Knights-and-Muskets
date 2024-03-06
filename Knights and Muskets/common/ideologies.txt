@@ -376,7 +376,7 @@ conservative_group = { #nobility estate
 
 clergy_group = {
 	fervent_clergy = { 
-		color = { 234 140 0 }
+		color = { 91 198 221 }
 		
 		add_political_reform = {
             base = 0
@@ -549,7 +549,7 @@ clergy_group = {
 	}
 	
 	clergy = {
-		color = { 255 168 38 }
+		color = { 71 158 201 }
 		
 		add_political_reform = {
             base = 0
