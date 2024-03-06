@@ -11,7 +11,7 @@ life_rating = 35
 #}
 #state_building = {
 #	level = 1
-#	building = ammunition_factory
+#	building = infantry_arms_weaponsmith
 #	upgrade = yes
 #}
 1861.1.1 = { 

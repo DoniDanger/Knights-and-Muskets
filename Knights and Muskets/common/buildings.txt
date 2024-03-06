@@ -20,7 +20,7 @@ aeroplane_factory = {
 	goods_cost =
 	{
 		machine_parts = 200
-		electric_gear = 600
+		tar = 600
 		steel = 600
 		cement = 600
 	}
@@ -41,7 +41,7 @@ barrel_factory = {
 	goods_cost =
 	{
 		machine_parts = 200
-		electric_gear = 500
+		tar = 500
 		steel = 500
 		cement = 500
 	}
@@ -63,7 +63,7 @@ automobile_factory = {
 	goods_cost =
 	{
 		machine_parts = 200
-		electric_gear = 200
+		tar = 200
 		steel = 400
 		cement = 400
 	}
@@ -85,7 +85,7 @@ telephone_factory = {
 	goods_cost =
 	{
 		machine_parts = 200
-		electric_gear = 200
+		tar = 200
 		steel = 200
 		cement = 200
 	}
@@ -100,7 +100,7 @@ telephone_factory = {
 
 ############# STRATEGIC FACTORIES
 
-electric_gear_factory = {
+tar_factory = {
 	type = factory
 
 	on_completion = factory
@@ -116,7 +116,7 @@ electric_gear_factory = {
 	visibility = yes
 	onmap = no
 
-	production_type = electric_gear_factory
+	production_type = tar_factory
 	pop_build_factory = yes
 	strategic_factory = yes
 }
@@ -163,7 +163,7 @@ synthetic_oil_factory = {
 	strategic_factory = yes
 }
 
-fuel_refinery = {
+naval_supplies_refinery = {
 	type = factory
 
 	on_completion = factory
@@ -179,7 +179,7 @@ fuel_refinery = {
 	visibility = yes
 	onmap = no
 
-	production_type = fuel_refinery
+	production_type = naval_supplies_refinery
 	pop_build_factory = yes
 	strategic_factory = yes
 }
@@ -314,7 +314,7 @@ artillery_factory = {
 	pop_build_factory = yes
 }
 
-small_arms_factory = {
+crossbow_weaponsmith = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -329,7 +329,7 @@ small_arms_factory = {
 	visibility = yes
 	onmap = no
 
-	production_type = small_arms_factory
+	production_type = crossbow_weaponsmith
 	pop_build_factory = yes
 }
 
@@ -413,7 +413,7 @@ explosives_factory = {
 
 ############# CHEAP FACTORIES
 
-ammunition_factory = {
+infantry_arms_weaponsmith = {
 	type = factory
 
 	on_completion = factory
@@ -429,7 +429,7 @@ ammunition_factory = {
 	visibility = yes
 	onmap = no
 
-	production_type = ammunition_factory
+	production_type = infantry_arms_weaponsmith
 	pop_build_factory = yes
 }
 
@@ -619,7 +619,7 @@ fort = {
 		lumber = 100
 		cement = 100
 		explosives = 50
-		small_arms = 50
+		crossbows = 50
 		artillery = 40
 	}
 	time = 1080 

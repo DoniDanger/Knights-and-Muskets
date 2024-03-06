@@ -78,6 +78,6 @@ piston_steam_engine = 1
 
 # Inventions
 modern_winemaking = yes
-small_arms_production = yes
-ammunition_production = yes
+crossbows_production = yes
+infantry_arms_production = yes
 gas_attack_capability = yes

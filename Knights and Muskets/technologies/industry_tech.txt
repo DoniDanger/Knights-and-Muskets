@@ -16,7 +16,7 @@ piston_steam_engine = {
 	factory_goods_output = { dye = 0.1 }
 	factory_goods_output = { wool = 0.1 }
 	factory_goods_output = { silk = 0.1 }
-	factory_goods_output = { rubber = 0.1 }
+	factory_goods_output = { stone = 0.1 }
 	factory_goods_output = { cattle = 0.1 }
 	factory_goods_output = { fish = 0.1 }
 	factory_goods_output = { fruit = 0.1 }
@@ -45,7 +45,7 @@ high_pressure_steam_engine = {
 	factory_goods_output = { dye = 0.05 }
 	factory_goods_output = { wool = 0.05 }
 	factory_goods_output = { silk = 0.05 }
-	factory_goods_output = { rubber = 0.05 }
+	factory_goods_output = { stone = 0.05 }
 	factory_goods_output = { cattle = 0.05 }
 	factory_goods_output = { fish = 0.05 }
 	factory_goods_output = { fruit = 0.05 }
@@ -73,7 +73,7 @@ compound_steam_engines = {
 	factory_goods_output = { dye = 0.05 }
 	factory_goods_output = { wool = 0.05 }
 	factory_goods_output = { silk = 0.05 }
-	factory_goods_output = { rubber = 0.05 }
+	factory_goods_output = { stone = 0.05 }
 	factory_goods_output = { cattle = 0.05 }
 	factory_goods_output = { fish = 0.05 }
 	factory_goods_output = { fruit = 0.05 }
@@ -101,7 +101,7 @@ steam_turbine = {
 	factory_goods_output = { dye = 0.05 }
 	factory_goods_output = { wool = 0.05 }
 	factory_goods_output = { silk = 0.05 }
-	factory_goods_output = { rubber = 0.05 }
+	factory_goods_output = { stone = 0.05 }
 	factory_goods_output = { cattle = 0.05 }
 	factory_goods_output = { fish = 0.05 }
 	factory_goods_output = { fruit = 0.05 }
@@ -129,7 +129,7 @@ combustion_engine = {
 	factory_goods_output = { dye = 0.1 }
 	factory_goods_output = { wool = 0.1 }
 	factory_goods_output = { silk = 0.1 }
-	factory_goods_output = { rubber = 0.1 }
+	factory_goods_output = { stone = 0.1 }
 	factory_goods_output = { cattle = 0.1 }
 	factory_goods_output = { fish = 0.1 }
 	factory_goods_output = { fruit = 0.1 }
@@ -157,7 +157,7 @@ electrical_power_generation = {
 	factory_goods_output = { dye = 0.1 }
 	factory_goods_output = { wool = 0.1 }
 	factory_goods_output = { silk = 0.1 }
-	factory_goods_output = { rubber = 0.1 }
+	factory_goods_output = { stone = 0.1 }
 	factory_goods_output = { cattle = 0.1 }
 	factory_goods_output = { fish = 0.1 }
 	factory_goods_output = { fruit = 0.1 }
@@ -186,7 +186,7 @@ tech_power_7 = {
 	factory_goods_output = { dye = 0.1 }
 	factory_goods_output = { wool = 0.1 }
 	factory_goods_output = { silk = 0.1 }
-	factory_goods_output = { rubber = 0.1 }
+	factory_goods_output = { stone = 0.1 }
 	factory_goods_output = { cattle = 0.1 }
 	factory_goods_output = { fish = 0.1 }
 	factory_goods_output = { fruit = 0.1 }
@@ -214,7 +214,7 @@ tech_power_8 = {
 	factory_goods_output = { dye = 0.1 }
 	factory_goods_output = { wool = 0.1 }
 	factory_goods_output = { silk = 0.1 }
-	factory_goods_output = { rubber = 0.1 }
+	factory_goods_output = { stone = 0.1 }
 	factory_goods_output = { cattle = 0.1 }
 	factory_goods_output = { fish = 0.1 }
 	factory_goods_output = { fruit = 0.1 }
@@ -243,7 +243,7 @@ tech_power_9 = {
 	factory_goods_output = { dye = 0.1 }
 	factory_goods_output = { wool = 0.1 }
 	factory_goods_output = { silk = 0.1 }
-	factory_goods_output = { rubber = 0.1 }
+	factory_goods_output = { stone = 0.1 }
 	factory_goods_output = { cattle = 0.1 }
 	factory_goods_output = { fish = 0.1 }
 	factory_goods_output = { fruit = 0.1 }
@@ -271,7 +271,7 @@ tech_power_10 = {
 	factory_goods_output = { dye = 0.1 }
 	factory_goods_output = { wool = 0.1 }
 	factory_goods_output = { silk = 0.1 }
-	factory_goods_output = { rubber = 0.1 }
+	factory_goods_output = { stone = 0.1 }
 	factory_goods_output = { cattle = 0.1 }
 	factory_goods_output = { fish = 0.1 }
 	factory_goods_output = { fruit = 0.1 }

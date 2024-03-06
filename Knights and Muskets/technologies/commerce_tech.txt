@@ -353,7 +353,7 @@ freedom_of_trade = {
 	factory_goods_output = { dye = 0.1 }
 	factory_goods_output = { wool = 0.1 }
 	factory_goods_output = { silk = 0.1 }
-	factory_goods_output = { rubber = 0.1 }
+	factory_goods_output = { stone = 0.1 }
 	factory_goods_output = { cattle = 0.1 }
 	factory_goods_output = { fish = 0.1 }
 	factory_goods_output = { fruit = 0.1 }
@@ -385,7 +385,7 @@ market_structure = {
 	factory_goods_output = { dye = 0.1 }
 	factory_goods_output = { wool = 0.1 }
 	factory_goods_output = { silk = 0.1 }
-	factory_goods_output = { rubber = 0.1 }
+	factory_goods_output = { stone = 0.1 }
 	factory_goods_output = { cattle = 0.1 }
 	factory_goods_output = { fish = 0.1 }
 	factory_goods_output = { fruit = 0.1 }
@@ -417,7 +417,7 @@ business_regulations = {
 	factory_goods_output = { dye = 0.1 }
 	factory_goods_output = { wool = 0.1 }
 	factory_goods_output = { silk = 0.1 }
-	factory_goods_output = { rubber = 0.1 }
+	factory_goods_output = { stone = 0.1 }
 	factory_goods_output = { cattle = 0.1 }
 	factory_goods_output = { fish = 0.1 }
 	factory_goods_output = { fruit = 0.1 }

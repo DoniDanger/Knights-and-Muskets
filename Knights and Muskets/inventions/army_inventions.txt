@@ -656,7 +656,7 @@ flintlock_rifle_armament = {
 		base = 5
 		modifier = {
 			factor = 2
-			invention = small_arms_production
+			invention = crossbows_production
 		}
 		modifier = {
 			factor = 2
@@ -1081,7 +1081,7 @@ anti_aircraft_artillery = {
 		base = 5
 		modifier = {
 			factor = 2
-			invention = wright_n_langleys_aeroplanes
+			invention = wright_n_langleys_bombards
 		}
 		modifier = {
 			factor = 2
@@ -1282,7 +1282,7 @@ personnel_category_tables = {
 }
 
 #military_statistics
-ammunition_area_effect_calculations = {
+infantry_arms_area_effect_calculations = {
 	limit = { military_statistics = 1 }
 	chance = {
 		base = 2

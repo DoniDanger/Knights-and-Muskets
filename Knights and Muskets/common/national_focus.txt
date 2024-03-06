@@ -136,23 +136,23 @@ production_focus =
 {
 	automation_focus =
 	{
-		aeroplanes = 1000
-		barrels = 1000
-		automobiles = 1000
+		bombards = 1000
+		siege_engines = 1000
+		salt = 1000
 		icon = 16
 		limit = { year = 1880 }
 	}
 
 	electrical_focus =
 	{
-		electric_gear = 1000
+		tar = 1000
 		icon = 17
 		limit = { year = 1880 }
 	}
 
 	chemical_focus =
 	{
-		fuel = 1000
+		naval_supplies = 1000
 		oil = 1000
 		icon = 18
 		limit = { year = 1880 }
@@ -207,8 +207,8 @@ production_focus =
 	armaments_focus = 
 	{
 		artillery = 1000
-		small_arms = 1000
-		ammunition = 1000
+		crossbows = 1000
+		infantry_arms = 1000
 		canned_food = 1000 
 		explosives = 1000
 		fertilizer = 1000

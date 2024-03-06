@@ -131,18 +131,18 @@ aeroplane_factory = {
 	template = machine_part_user_template
 	input_goods = {
 		machine_parts = 1.11	#38.69
-		electric_gear = 2	#32
-		rubber = 1  		#7
+		tar = 2	#32
+		stone = 1  		#7
 		lumber = 3.3 		#3.3	total input+maint = 90
 	}
-	output_goods = aeroplanes
+	output_goods = bombards
 	value = 0.91			#100
 	bonus = {
 		trigger = { has_building = machine_parts_factory }
 		value = 0.25
 	}
 	bonus = {
-		trigger = { has_building = electric_gear_factory }
+		trigger = { has_building = tar_factory }
 		value = 0.25
 	}
 }
@@ -150,12 +150,12 @@ aeroplane_factory = {
 barrel_factory = {       
 	template = machine_part_user_template
 	input_goods = {   
-		automobiles = 0.3	#21
+		salt = 0.3	#21
 		machine_parts = 0.85	#29.2
-		electric_gear = 1	#16
-		rubber = 1		#7
+		tar = 1	#16
+		stone = 1		#7
 	}
-	output_goods = barrels 
+	output_goods = siege_engines 
 	value = 1.0			#98	total input+maint = 83
 	bonus = {
 		trigger = { has_building = automobile_factory }
@@ -166,7 +166,7 @@ barrel_factory = {
 		value = 0.1
 	}
 	bonus = {
-		trigger = { has_building = electric_gear_factory }
+		trigger = { has_building = tar_factory }
 		value = 0.05
 	}
 }
@@ -175,12 +175,12 @@ automobile_factory = {
 	template = machine_part_user_template
 	input_goods = {     
 		machine_parts = 1.05	#36.5
-		electric_gear = 1.5	#24
-		rubber = 1		#7
+		tar = 1.5	#24
+		stone = 1		#7
 		steel = 2.25		#10.58	total input+maint = 89
 	}
 	
-	output_goods = automobiles 
+	output_goods = salt 
 	value = 1.43			#100
 	bonus = {
 		trigger = { has_building = machine_parts_factory }
@@ -191,7 +191,7 @@ automobile_factory = {
 		value = 0.1
 	}
 	bonus = {
-		trigger = { has_building = electric_gear_factory }
+		trigger = { has_building = tar_factory }
 		value = 0.05
 	}
 }
@@ -200,12 +200,12 @@ telephone_factory = {
 	template = factory_template
 	input_goods = {       
 		glass = 15 		#43.5
-		electric_gear = 2.5	#40 	total input+maint = 93.5
+		tar = 2.5	#40 	total input+maint = 93.5
 	}
-	output_goods = telephones 
+	output_goods = chinaware 
 	value = 6.5			#104
 		bonus = {
-		trigger = { has_building = electric_gear_factory }
+		trigger = { has_building = tar_factory }
 		value = 0.15
 	}
 	bonus = {
@@ -216,17 +216,17 @@ telephone_factory = {
 
 ############# STRATEGIC FACTORIES
 
-electric_gear_factory = {       
+tar_factory = {       
 	template = factory_template
 	input_goods = { 
-		rubber = 4		#28
+		stone = 4		#28
 		coal = 5		#11.5
 		iron = 5		#17.5	total input+maint = 67
 	}
-	output_goods = electric_gear 
+	output_goods = tar 
 	value = 5			#80
 	bonus = {
-		trigger = { trade_goods_in_state = rubber }
+		trigger = { trade_goods_in_state = stone }
 		value = 0.15
 	}
 	bonus = {
@@ -272,12 +272,12 @@ synthetic_oil_factory = {
 
 ############# ADVANCED FACTORIES
 
-fuel_refinery = {       
+naval_supplies_refinery = {       
 	template = factory_template
 	input_goods = { 
 		oil = 2.5			#30	total input+maint = 40
 	}
-	output_goods = fuel
+	output_goods = naval_supplies
 	value = 2			#50
 	bonus = {
 		trigger = { 
@@ -415,13 +415,13 @@ clipper_shipyard = {
 	}
 }
 
-small_arms_factory = {       
+crossbow_weaponsmith = {       
 	template = factory_template
 	input_goods = {        
-		ammunition = 2.0	#35
+		infantry_arms = 2.0	#35
 		steel = 3.0		#14.1		total input+maint = 60
 	}
-	output_goods = small_arms 
+	output_goods = crossbows 
 	value = 2			#74
 
 	bonus = {
@@ -429,7 +429,7 @@ small_arms_factory = {
 		value = 0.15
 	}
 	bonus = {
-		trigger = { has_building = ammunition_factory }
+		trigger = { has_building = infantry_arms_weaponsmith }
 		value = 0.1
 	}
 }
@@ -484,7 +484,7 @@ explosives_factory = {
 	template = factory_template
 	input_goods = {   
 		fertilizer = 3		#30
-		ammunition = 0.8	#14	total input+maint = 54
+		infantry_arms = 0.8	#14	total input+maint = 54
 	}
 	output_goods = explosives 
 	value = 3			#60
@@ -493,20 +493,20 @@ explosives_factory = {
 		value = 0.15
 	}
 	bonus = {
-		trigger = { has_building = ammunition_factory }
+		trigger = { has_building = infantry_arms_weaponsmith }
 		value = 0.1
 	}
 }
 
 ############# CHEAP FACTORIES
 
-ammunition_factory = {       
+infantry_arms_weaponsmith = {       
 	template = cheap_factory_template
 	input_goods = {      
 		sulphur = 2		#12
 		iron = 4		#10.5	total input+maint = 30
 	}
-	output_goods = ammunition 
+	output_goods = infantry_arms 
 	value = 2			#35
 	bonus = {
 		trigger = { trade_goods_in_state = sulphur }
@@ -811,9 +811,9 @@ precious_metal_mine = {
 	mine = yes
 }
 
-rubber_lodge = {
+stone_lodge = {
 	template = RGO_template_labourers
-	output_goods = rubber 
+	output_goods = stone 
 	value = 0.75
 	farm = yes
 }
@@ -872,11 +872,11 @@ tropical_wood_lodge = {
 artisan_aeroplane = {       
 	input_goods = {
 		machine_parts = 1.06	#38.69
-		electric_gear = 2	#32
-		rubber = 1  		#7
+		tar = 2	#32
+		stone = 1  		#7
 		lumber = 3.3 		#3.3	total input+maint = 90
 	}
-	output_goods = aeroplanes
+	output_goods = bombards
 	value = 0.91			#100
 	
 	owner = {
@@ -891,12 +891,12 @@ artisan_aeroplane = {
 
 artisan_barrel = {       
 	input_goods = {   
-		automobiles = 0.3	#21
+		salt = 0.3	#21
 		machine_parts = 0.8	#29.2
-		electric_gear = 1	#16
-		rubber = 1		#7
+		tar = 1	#16
+		stone = 1		#7
 	}
-	output_goods = barrels 
+	output_goods = siege_engines 
 	value = 1.0			#98	total input+maint = 83
 	
 	owner = {
@@ -912,12 +912,12 @@ artisan_barrel = {
 artisan_automobile = {       
 	input_goods = {     
 		machine_parts = 1	#36.5
-		electric_gear = 1.5	#24
-		rubber = 1		#7
+		tar = 1.5	#24
+		stone = 1		#7
 		steel = 2.25		#10.58	total input+maint = 89
 	}
 	
-	output_goods = automobiles 
+	output_goods = salt 
 	value = 1.43			#100
 	
 	owner = {
@@ -933,7 +933,7 @@ artisan_automobile = {
 artisan_sugar = {       
 	input_goods = {      
 		glass = 10 		#29
-		electric_gear = 3	#48  	total input+maint = 87
+		tar = 3	#48  	total input+maint = 87
 	}
 	output_goods = sugar 
 	value = 6.5			#104
@@ -951,9 +951,9 @@ artisan_sugar = {
 artisan_telephone = {       
 	input_goods = {       
 		glass = 15 		#43.5
-		electric_gear = 2.5	#40 	total input+maint = 93.5
+		tar = 2.5	#40 	total input+maint = 93.5
 	}
-	output_goods = telephones 
+	output_goods = chinaware 
 	value = 6.5			#104
 	
 	owner = {
@@ -968,13 +968,13 @@ artisan_telephone = {
 
 ############# STRATEGIC FACTORIES
 
-artisan_electric_gear = {       
+artisan_tar = {       
 	input_goods = { 
-		rubber = 4		#28
+		stone = 4		#28
 		coal = 5		#11.5
 		iron = 5		#17.5	total input+maint = 67
 	}
-	output_goods = electric_gear 
+	output_goods = tar 
 	value = 5			#80
 	
 	owner = {
@@ -1007,11 +1007,11 @@ artisan_machine_parts = {
 
 ############# ADVANCED FACTORIES
 
-artisan_fuel = {       
+artisan_naval_supplies = {       
 	input_goods = { 
 		oil = 2.5			#30	total input+maint = 40
 	}
-	output_goods = fuel
+	output_goods = naval_supplies
 	value = 2			#50
 	
 	owner = {
@@ -1145,12 +1145,12 @@ artisan_clipper = {
 	workforce = 10000
 }
 
-artisan_small_arms = {       
+artisan_crossbows = {       
 	input_goods = {        
-		ammunition = 2.0	#35
+		infantry_arms = 2.0	#35
 		steel = 3.0		#14.1		total input+maint = 60
 	}
-	output_goods = small_arms 
+	output_goods = crossbows 
 	value = 2			#74
 
 	owner = {
@@ -1220,7 +1220,7 @@ artisan_regular_clothes = {
 artisan_explosives = {       
 	input_goods = {   
 		fertilizer = 3		#30
-		ammunition = 0.8	#14	total input+maint = 54
+		infantry_arms = 0.8	#14	total input+maint = 54
 	}
 	output_goods = explosives 
 	value = 3			#60
@@ -1237,13 +1237,13 @@ artisan_explosives = {
 
 ############# CHEAP FACTORIES
 
-artisan_ammunition = {       
+artisan_infantry_arms = {       
 	input_goods = {      
 		sulphur = 2		#12
 		coal = 2		#4.6
 		iron = 5		#17.5	total input+maint = 44
 	}
-	output_goods = ammunition 
+	output_goods = infantry_arms 
 	value = 3			#52.5
 	
 	owner = {

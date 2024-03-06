@@ -27,8 +27,8 @@ dreadnought = {
 		steamer_convoy = 200
 		artillery = 50
 		canned_food = 20
-		telephones = 20
-		fuel = 50
+		chinaware = 20
+		naval_supplies = 50
 	}
 	min_port_level = 5
 	limit_per_port = -1
@@ -39,8 +39,8 @@ dreadnought = {
 		steamer_convoy = 3.5
 		artillery = 1.6
 		canned_food = 1.6
-		telephones = 0.2
-		fuel = 4.2
+		chinaware = 0.2
+		naval_supplies = 4.2
 	}
 	
 	#Naval Abilties

@@ -25,7 +25,7 @@ daimlers_automobile = {
 		}
 	}
 }
-wright_n_langleys_aeroplanes = {
+wright_n_langleys_bombards = {
 	limit = { combustion_engine = 1 }
 	chance = {
 		base = 2
@@ -333,7 +333,7 @@ precision_work = {
 			glass = 0.1
 		} 
 		factory_goods_output = {
-			ammunition = 0.1
+			infantry_arms = 0.1
 		} 
 		activate_building = machine_parts_factory 
 	}
@@ -359,7 +359,7 @@ machine_tools = {
 		mine_RGO_eff = 0.5
 	}
 }
-whitney_n_colts_standardized_small_arms = {
+whitney_n_colts_standardized_crossbows = {
 	limit = { interchangeable_parts = 1 }
 	chance = {
 		base = 2
@@ -374,7 +374,7 @@ whitney_n_colts_standardized_small_arms = {
 	}
 	effect = {
 		factory_goods_output = {
-			small_arms = 0.02 
+			crossbows = 0.02 
 		}
 	}
 }
@@ -519,10 +519,10 @@ fordism = {
 	}
 	effect = {
 		factory_goods_output = {
-			automobiles = 0.03
+			salt = 0.03
 		}
 		factory_goods_output = {
-			aeroplanes = 0.03
+			bombards = 0.03
 		}
 	}
 }
@@ -556,15 +556,15 @@ industrialized_armament_industry = {
 		}
 		modifier = {
 			factor = 2
-			invention = whitney_n_colts_standardized_small_arms
+			invention = whitney_n_colts_standardized_crossbows
 		}
 	}
 	effect = {
 		factory_goods_output = {
-			small_arms = 0.03
+			crossbows = 0.03
 		}
 		factory_goods_output = {
-			ammunition = 0.03
+			infantry_arms = 0.03
 		}
 		factory_goods_output = {
 			artillery = 0.03
@@ -606,13 +606,13 @@ refrigerator_technology = {
 	}
 }
 #Metulurgy
-ammunition_production = {
+infantry_arms_production = {
 	limit = { mechanized_mining = 1 }
 	chance = {
 		base = 2
 		modifier = {
 			factor = 2
-			invention = whitney_n_colts_standardized_small_arms
+			invention = whitney_n_colts_standardized_crossbows
 		}
 		modifier = {
 			factor = 2
@@ -620,10 +620,10 @@ ammunition_production = {
 		}
 	}
 	effect = {
-		activate_building = ammunition_factory 
+		activate_building = infantry_arms_weaponsmith 
 	}
 }
-small_arms_production = {
+crossbows_production = {
 	limit = { mechanized_mining = 1 }
 	chance = {
 		base = 2
@@ -637,7 +637,7 @@ small_arms_production = {
 		}
 	}
 	effect = {
-		activate_building = small_arms_factory
+		activate_building = crossbow_weaponsmith
 	}
 }
 explosives_production = {
@@ -1094,7 +1094,7 @@ chemical_wood_pulp_process = {
 		} 
 	}
 }
-rubber_vulcanization = {
+stone_vulcanization = {
 	limit = { inorganic_chemistry = 1 }
 	chance = {
 		base = 2
@@ -1109,7 +1109,7 @@ rubber_vulcanization = {
 	}
 	effect = {
 		rgo_goods_output = {
-			rubber = 1
+			stone = 1
 		} 
 	}
 }
@@ -1198,7 +1198,7 @@ cracking = {
 		}
 	}
 	effect = {
-		activate_building = fuel_refinery 
+		activate_building = naval_supplies_refinery 
 	}
 }
 #electricity
@@ -1234,10 +1234,10 @@ edison_light_bulb = {
 		}
 	}
 	effect = {
-		activate_building = electric_gear_factory 
+		activate_building = tar_factory 
 	}
 }
-bell_n_greys_telephones = {
+bell_n_greys_chinaware = {
 	limit = { electricity = 1 }
 	chance = {
 		base = 2
@@ -1308,7 +1308,7 @@ bakelite = {
 		base = 2
 		modifier = {
 			factor = 2
-			invention = bell_n_greys_telephones
+			invention = bell_n_greys_chinaware
 		}
 		modifier = {
 			factor = 2
@@ -1339,7 +1339,7 @@ vacuum_tube = {
 		}			
 	}
 	effect = {
-		factory_goods_output = { electric_gear = 0.03 } 
+		factory_goods_output = { tar = 0.03 } 
 	}
 }
 
@@ -1384,7 +1384,7 @@ telephone_switchboard = {
 		base = 0
 		modifier = {
 			factor = 5
-			invention = bell_n_greys_telephones
+			invention = bell_n_greys_chinaware
 		}
 		modifier = {
 			factor = 5
@@ -1393,7 +1393,7 @@ telephone_switchboard = {
 	}
 	effect = {
 		factory_goods_output = {
-			telephones = 0.03
+			chinaware = 0.03
 		} 
 	}
 }

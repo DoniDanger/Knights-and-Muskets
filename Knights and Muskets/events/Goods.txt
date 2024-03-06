@@ -302,7 +302,7 @@ province_event = {
 }
 
 ###############################
-#        RUBBER EVENTS        #
+#        stone EVENTS        #
 ###############################
 province_event = {
 	
@@ -346,7 +346,7 @@ province_event = {
 			province_id = 1981
 			province_id = 2624
 		}
-		not = { trade_goods = rubber }
+		not = { trade_goods = stone }
 		OR = {
 			owner = {
 				part_of_sphere = yes
@@ -382,7 +382,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1107"
-		trade_goods = rubber
+		trade_goods = stone
 		# life_rating = 5
 	}
 }
@@ -415,7 +415,7 @@ province_event = {
 			province_id = 2550
 			province_id = 2600
 		}
-		not = { trade_goods = rubber }
+		not = { trade_goods = stone }
 		OR = {
 			owner = {
 				part_of_sphere = yes
@@ -451,7 +451,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1107"
-		trade_goods = rubber
+		trade_goods = stone
 		# life_rating = 5
 	}
 }

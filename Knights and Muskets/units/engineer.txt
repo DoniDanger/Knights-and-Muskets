@@ -17,7 +17,7 @@ engineer = {
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		small_arms = 10
+		crossbows = 10
 		canned_food = 10
 		liquor = 10
 		explosives = 5
@@ -25,8 +25,8 @@ engineer = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		small_arms = 0.012 #0.01
-		ammunition = 0.1 # 0
+		crossbows = 0.012 #0.01
+		infantry_arms = 0.1 # 0
 		canned_food = 0.06 # 0.02
 		explosives = 0.05
 	}

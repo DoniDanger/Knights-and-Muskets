@@ -1131,7 +1131,7 @@ on_board_recon_aircraft = {
 		base = 2
 		modifier = {
 			factor = 2
-			invention = wright_n_langleys_aeroplanes
+			invention = wright_n_langleys_bombards
 		}
 		modifier = {
 			factor = 1
@@ -1397,7 +1397,7 @@ naval_strike_success_criterium = {
 }
 
 #naval_logistics
-underway_refueling = {
+underway_renaval_suppliesing = {
 	limit = { naval_logistics = 1 }
 	chance = {
 		base = 2
@@ -1417,7 +1417,7 @@ underway_refueling = {
 	}
 }
 
-ammunition_conservation_system = {
+infantry_arms_conservation_system = {
 	limit = { naval_logistics = 1 }
 	chance = {
 		base = 2

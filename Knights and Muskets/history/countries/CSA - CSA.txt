@@ -74,8 +74,8 @@ market_structure = 1
 	john_ramsay_mcculloch = yes
 	nassau_william_sr = yes
 	james_mill = yes
-	ammunition_production = yes
-	small_arms_production = yes
+	infantry_arms_production = yes
+	crossbows_production = yes
 	explosives_production = yes
 	artillery_production = yes
 	long_range_fire_tactic = yes
@@ -117,7 +117,7 @@ market_structure = 1
 	precision_work = yes
 	gyrostabilized_fire_control = yes
 	machine_tools = yes
-	whitney_n_colts_standardized_small_arms = yes
+	whitney_n_colts_standardized_crossbows = yes
 	food_packing_system = yes
 
 

@@ -36,12 +36,12 @@ life_needs = {
 
 luxury_needs = {
 	opium = 10
-	telephones = 10
-	automobiles = 10
-	aeroplanes = 5
-	fuel = 10
-	ammunition = 1 
-	small_arms = 1 
+	chinaware = 10
+	salt = 10
+	bombards = 5
+	naval_supplies = 10
+	infantry_arms = 1 
+	crossbows = 1 
 	clipper_convoy = 2
 	steamer_convoy = 2
 }

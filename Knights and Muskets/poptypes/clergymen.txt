@@ -1,6 +1,6 @@
 sprite = 3
 color = { 234 227 40 }
-strata = middle
+strata = rich
 
 research_points = 3	#if max %, then 2 extra research points.
 research_optimum = 0.02	#2%
@@ -34,11 +34,11 @@ luxury_needs = {
 	opium = 1.0
 	luxury_clothes = 1
 	luxury_furniture = 1
-	telephones = 1.25
-	automobiles = 1.0
+	chinaware = 1.25
+	salt = 1.0
 	wine = 10
-	aeroplanes = 0.4
-	fuel = 0.2
+	bombards = 0.4
+	naval_supplies = 0.2
 	coffee = 2
 }
 
