@@ -1,5 +1,5 @@
 owner = VLG
 controller = VLG
 add_core = VLG
-trade_goods = grain
+trade_goods = horses
 life_rating = 35

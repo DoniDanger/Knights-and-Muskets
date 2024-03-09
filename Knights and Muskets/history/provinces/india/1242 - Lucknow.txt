@@ -3,7 +3,7 @@ controller = DLH
 add_core = DLH
 add_core = AWA
 add_core = HND
-trade_goods = timber
+trade_goods = elephants
 life_rating = 32
 1861.1.1 = {
 		

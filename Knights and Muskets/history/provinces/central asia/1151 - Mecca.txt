@@ -1,5 +1,6 @@
-owner = HDJ
-controller = HDJ
+owner = EGY
+controller = EGY
+add_core = EGY
 add_core = HDJ
-trade_goods = grain
+trade_goods = horses
 life_rating = 35

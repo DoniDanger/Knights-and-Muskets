@@ -2,5 +2,5 @@ owner = GEL
 controller = GEL
 add_core = GEL
 add_core = MAJ
-trade_goods = cattle
+trade_goods = ivory
 life_rating = 35

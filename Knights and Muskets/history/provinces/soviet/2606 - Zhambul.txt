@@ -3,5 +3,5 @@ controller = WMG
 add_core = GOL
 add_core = WMG
 add_core = MGE
-trade_goods = coal
+trade_goods = horses
 life_rating = 25

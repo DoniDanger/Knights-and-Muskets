@@ -1,5 +1,5 @@
 owner = YNN
 controller = YNN
 add_core = YNN
-trade_goods = silk
+trade_goods = tin
 life_rating = 32

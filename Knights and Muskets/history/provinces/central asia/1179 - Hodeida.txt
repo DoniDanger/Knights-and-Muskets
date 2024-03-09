@@ -1,7 +1,7 @@
-owner = HDJ
-controller = HDJ
+owner = YEM
+controller = YEM
+add_core = YEM
 add_core = HDJ
 add_core = NYE
-add_core = ASR
 trade_goods = grain
 life_rating = 35

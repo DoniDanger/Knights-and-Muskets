@@ -582,7 +582,7 @@ province_event = {
 		}
 		owner = {
 			tag = THIS
-			nationalism_n_imperialism = 1
+			ideological_thought = 1
 		}
 	}
 	

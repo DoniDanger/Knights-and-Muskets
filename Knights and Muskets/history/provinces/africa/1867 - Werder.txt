@@ -4,5 +4,5 @@ add_core = HAR
 add_core = ETH
 add_core = GEL
 add_core = MAJ
-trade_goods = grain
+trade_goods = elephants
 life_rating = 35

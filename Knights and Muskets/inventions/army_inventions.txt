@@ -1472,17 +1472,9 @@ army_local_military_government = {
 
 #aeronautics
 military_aviation = {
-	limit = { strategic_mobility = 1 }
+	limit = { muzzle_loaded_rifles = 1 }
 	chance = {
-		base = 0
-		modifier = {
-			factor = 100
-			OR = {
-			has_country_flag = mongol_empire
-			has_country_flag = great_khan_mongolia
-			has_country_flag = steppe_warfare_adopted
-			}
-		}
+		base = 20
 	}
 	effect = {
 		activate_unit = plane

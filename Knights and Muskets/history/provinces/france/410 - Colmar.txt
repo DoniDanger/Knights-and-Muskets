@@ -2,6 +2,6 @@ owner = SGF
 controller = SGF
 add_core = SGF
 add_core = GER
-trade_goods = sulphur
+trade_goods = timber
 life_rating = 30
 1861.1.1 = { railroad = 3 }

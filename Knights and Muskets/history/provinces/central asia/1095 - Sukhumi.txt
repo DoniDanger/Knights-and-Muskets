@@ -1,5 +1,5 @@
 owner = GEO
 controller = GEO
 add_core = GEO
-trade_goods = grain
+trade_goods = apiculture
 life_rating = 35

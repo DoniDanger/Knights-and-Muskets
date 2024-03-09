@@ -2,5 +2,5 @@ owner = RUT
 controller = RUT
 add_core = RUT
 add_core = UKR
-trade_goods = grain
+trade_goods = horses
 life_rating = 35

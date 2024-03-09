@@ -3,5 +3,5 @@ controller = MGL
 add_core = MGL
 add_core = MGE
 add_core = XBI
-trade_goods = cotton
+trade_goods = grain
 life_rating = 32

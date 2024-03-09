@@ -1,7 +1,7 @@
 defines = {
 
 start_date = '1222.1.1',
-end_date = '1452.12.31',
+end_date = '1453.12.31',
 
 country = {
 	YEARS_OF_NATIONALISM 	= 20,   -- Years of Nationalism
@@ -35,7 +35,7 @@ country = {
 	NONCORE_TAX_PENALTY = -0.05, -- -5% for each non-core in state
 	BASE_TARIFF_EFFICIENCY = 0.2, -- baseline tariff efficiency
 	COLONY_FORMED_PRESTIGE = 1, -- prestige from founding a colony.
-	CREATED_CB_VALID_TIME = 12,  -- how many months 
+	CREATED_CB_VALID_TIME = 18,  -- how many months 
 	LOYALTY_BOOST_ON_PARTY_WIN = 0.1,
 	MOVEMENT_RADICALISM_BASE = 25,
 	MOVEMENT_RADICALISM_PASSED_REFORM_EFFECT  = -2,
@@ -122,7 +122,7 @@ economy = {
 	EMPLOYMENT_HIRE_LOWEST = 0.01,				-- we Hire pops no slower then x% of total required per day
 	EMPLOYMENT_FIRE_LOWEST = 0.01,				-- we Fire pops no slower then x% of total required per day
 	TRADE_CAP_LOW_LIMIT_LAND = 0.05, 				-- the lowest % the slider can go for land units
-	TRADE_CAP_LOW_LIMIT_NAVAL = 0.85, 			-- the lowest % the slider can go for naval units
+	TRADE_CAP_LOW_LIMIT_NAVAL = 0.15, 			-- the lowest % the slider can go for naval units
 	TRADE_CAP_LOW_LIMIT_CONSTRUCTIONS = 0, 		-- the lowest % the slider can go for constructions
 	FACTORY_PURCHASE_MIN_FACTOR = 1,			-- the lowest % of its daily needs a factory will purchase
 	FACTORY_PURCHASE_DRAWDOWN_FACTOR = 0.025		-- the % a factory will reduce its input purchases each day if it did not sell all its goods (also used for scaling up production if all goods are sold)
@@ -272,23 +272,23 @@ diplomacy = {
 	PRESTIGE_UNINSTALL_COMMUNIST_GOV_TYPE = 0.02,
 	PRESTIGE_COLONY = 0.02,
 
-	BREAKTRUCE_INFAMY_ADD_TO_SPHERE = 6,
-	BREAKTRUCE_INFAMY_RELEASE_PUPPET = 6,
-	BREAKTRUCE_INFAMY_MAKE_PUPPET = 6,
-	BREAKTRUCE_INFAMY_DISARMAMENT = 6,
-	BREAKTRUCE_INFAMY_DESTROY_FORTS = 6,
-	BREAKTRUCE_INFAMY_DESTROY_NAVAL_BASES = 6,
-	BREAKTRUCE_INFAMY_REPARATIONS = 6,
-	BREAKTRUCE_INFAMY_TRANSFER_PROVINCES = 6,
+	BREAKTRUCE_INFAMY_ADD_TO_SPHERE = 2,
+	BREAKTRUCE_INFAMY_RELEASE_PUPPET = 2,
+	BREAKTRUCE_INFAMY_MAKE_PUPPET = 2,
+	BREAKTRUCE_INFAMY_DISARMAMENT = 2,
+	BREAKTRUCE_INFAMY_DESTROY_FORTS = 2,
+	BREAKTRUCE_INFAMY_DESTROY_NAVAL_BASES = 2,
+	BREAKTRUCE_INFAMY_REPARATIONS = 2,
+	BREAKTRUCE_INFAMY_TRANSFER_PROVINCES = 2,
 	BREAKTRUCE_INFAMY_REMOVE_CORES = 0,
-	BREAKTRUCE_INFAMY_PRESTIGE = 6,
-	BREAKTRUCE_INFAMY_CONCEDE = 6,
-	BREAKTRUCE_INFAMY_STATUS_QUO = 6,
-	BREAKTRUCE_INFAMY_ANNEX = 6,
-	BREAKTRUCE_INFAMY_DEMAND_STATE = 6,
-	BREAKTRUCE_INFAMY_INSTALL_COMMUNIST_GOV_TYPE = 6,
-	BREAKTRUCE_INFAMY_UNINSTALL_COMMUNIST_GOV_TYPE = 6,
-	BREAKTRUCE_INFAMY_COLONY = 6,
+	BREAKTRUCE_INFAMY_PRESTIGE = 2,
+	BREAKTRUCE_INFAMY_CONCEDE = 2,
+	BREAKTRUCE_INFAMY_STATUS_QUO = 2,
+	BREAKTRUCE_INFAMY_ANNEX = 2,
+	BREAKTRUCE_INFAMY_DEMAND_STATE = 2,
+	BREAKTRUCE_INFAMY_INSTALL_COMMUNIST_GOV_TYPE = 2,
+	BREAKTRUCE_INFAMY_UNINSTALL_COMMUNIST_GOV_TYPE = 2,
+	BREAKTRUCE_INFAMY_COLONY = 2,
 	
 	BREAKTRUCE_PRESTIGE_ADD_TO_SPHERE = -20,
 	BREAKTRUCE_PRESTIGE_RELEASE_PUPPET = -20,
@@ -518,7 +518,7 @@ diplomacy = {
 	WARSUBSIDIES_PERCENT = 1.0, -- How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
 	NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.50, -- Bonus to neighbouring countries when influencing
 	SPHERE_NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.2, -- Bonus to countries in your sphere neighbouring when influencing
-	OTHER_CONTINENT_BONUS_INFLUENCE_PERCENT = -0.50, -- Bonus to neighbouring countries when influencing
+	OTHER_CONTINENT_BONUS_INFLUENCE_PERCENT = -0.90, -- Bonus to neighbouring countries when influencing
 	PUPPET_BONUS_INFLUENCE_PERCENT = 1.0, -- bonus if they are our puppet
 	
 	-- effects of manually releasing a nation
@@ -658,7 +658,7 @@ pops = {
 
 	PDEF_BASE_CON = 20.0,			-- so half'ed effect.
 	
-	NATIONAL_FOCUS_DIVIDER = 400000.0,
+	NATIONAL_FOCUS_DIVIDER = 100000.0,
 	
 	POP_SAVINGS = 0.018,
 	
@@ -727,7 +727,7 @@ ai =
 	PEACE_ALLY_WAR_EXHAUSTION_MULT = 1.0, -- Multiplies PEACE_WAR_EXHAUSTION_FACTOR for allies in a war
 	PEACE_ALLY_WAR_DIRECTION_MULT = 0, -- Multiplies PEACE_WAR_DIRECTION_FACTOR for allies in a war
 	PEACE_ALLY_FORCE_BALANCE_MULT = 0, -- Multiplies PEACE_FORCE_BALANCE_FACTOR for allies in a war
-	AGGRESSION_BASE = 5, -- general AI aggression
+	AGGRESSION_BASE = 15, -- general AI aggression
 	AGGRESSION_UNCIV_BONUS = 10, -- additional AI civ aggression against uncivs
 	FLEET_SIZE = 50, -- AI will attempt to keep fleets of roughly this size (fewer fleets generally results in more competent naval AI)
 	MIN_FLEETS = 1, -- Minimum amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)

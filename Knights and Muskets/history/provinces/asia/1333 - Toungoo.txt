@@ -1,9 +1,5 @@
 owner = BUR
 controller = BUR
 add_core = BUR
-trade_goods = opium
+trade_goods = chinaware
 life_rating = 30
-1861.1.1 = {
-		
-	colonial = 2
-}

@@ -6,7 +6,7 @@ fascist_group = { #fascist_group = royalist faction
         color = { 100 35 160 }
 
         add_political_reform = {
-            base = 0
+            base = 0.25
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -78,21 +78,21 @@ fascist_group = { #fascist_group = royalist faction
             }
         }
         remove_political_reform = {
-            base = 1
+            base = 0.6
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
 			}
         }
         add_social_reform = {
-            base = 0
+            base = 0.75
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
 			}
         }
         remove_social_reform = { #
-            base = 1
+            base = 0.4
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -160,7 +160,7 @@ conservative_group = { #nobility estate
         #can_reduce_militancy = yes
 
         add_political_reform = {
-            base = 0
+            base = 0.6
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -232,14 +232,14 @@ conservative_group = { #nobility estate
             }
         }
         remove_political_reform = {
-            base = 0.5
+            base = 0.4
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
 			}
         }
         add_social_reform = {
-            base = 0
+            base = 0.25
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -312,7 +312,7 @@ conservative_group = { #nobility estate
 
         }
         remove_social_reform = {
-            base = 0
+            base = 0.6
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -332,45 +332,30 @@ conservative_group = { #nobility estate
 		color = { 4 33 89 }
 		
 		add_political_reform = {
-			base = -1
+			base = 0.6
 			modifier = {
 				factor = 0.3
 				NOT = { ruling_party_ideology = nobility }
 			}
 		}
 		remove_political_reform = {
-			base = -1
+			base = 0.25
 			modifier = {
 				factor = -1
 				NOT = { ruling_party_ideology = nobility }
 			}
 		}
 		add_social_reform = {
-			base = -1
+			base = 0.6
 			modifier = {
 				factor = 0.3
 				NOT = { ruling_party_ideology = nobility }
 			}
 		}
 		remove_social_reform = {
-			base = 1
+			base = 0.25
 		}
 		
-		add_military_reform = {
-			base = 1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = nobility }
-			}
-		}
-		
-		add_economic_reform = {
-			base = 0
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = nobility }
-			}
-		}
 	}
 }
 
@@ -379,7 +364,7 @@ clergy_group = {
 		color = { 91 198 221 }
 		
 		add_political_reform = {
-            base = 0
+            base = 0.5
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -458,7 +443,7 @@ clergy_group = {
 			}
         }
         add_social_reform = {
-            base = 0
+            base = 0.25
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -531,19 +516,11 @@ clergy_group = {
 
         }
         remove_social_reform = {
-            base = 0
+            base = 0.6
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
 			}
-        }
-
-        add_military_reform = {
-            base = 0.5
-        }
-
-        add_economic_reform = {
-            base = -0.5
         }
 	
 	}
@@ -552,7 +529,7 @@ clergy_group = {
 		color = { 71 158 201 }
 		
 		add_political_reform = {
-            base = 0
+            base = 0.6
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -624,14 +601,14 @@ clergy_group = {
             }
         }
         remove_political_reform = {
-            base = 0.5
+            base = 0.25
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
 			}
         }
         add_social_reform = {
-            base = 0
+            base = 0.4
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -704,19 +681,11 @@ clergy_group = {
 
         }
         remove_social_reform = {
-            base = 0
+            base = 0.6
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
 			}
-        }
-
-        add_military_reform = {
-            base = 0.5
-        }
-
-        add_economic_reform = {
-            base = -0.5
         }
 	
 	}
@@ -801,21 +770,21 @@ liberal_group = { #burgher estate
 
 
         add_political_reform = {
-            base = 1
+            base = 0.8
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
 			}
         }
         remove_political_reform = {
-            base = 0
+            base = 0.2
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
 			}
         }
         add_social_reform = { #Rework this later btw
-            base = 0.5
+            base = 0.8
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -909,7 +878,7 @@ liberal_group = { #burgher estate
         uncivilized = no
 
         add_political_reform = {
-            base = 0
+            base = 1
             modifier = {
                 factor = 0.9
                 ruling_party_ideology = anarcho_liberal
@@ -921,10 +890,10 @@ liberal_group = { #burgher estate
             base = 0
         }
         add_social_reform = {
-            base = 0
+            base = 1
         }
         remove_social_reform = {
-            base = 1
+            base = 0
         }
 
         add_military_reform = {

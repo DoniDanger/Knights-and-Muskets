@@ -5,7 +5,7 @@ private_banks = {
 	cost = 3600
 
 	activate_building = cement_factory 
-	tax_eff = 1.5
+	tax_eff = 2.5
 	
 	ai_chance = {
 		factor = 4
@@ -16,7 +16,7 @@ stock_exchange = {
 	year = 1200
 	cost = 7200
 
-	tax_eff = 2.5
+	tax_eff = 5.0
 	
 	ai_chance = {
 		factor = 2
@@ -111,6 +111,7 @@ no_standard = {
 	cost = 3600
 
 	administrative_efficiency = 0.05
+	activate_building = charcoal_burner
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -526,7 +527,7 @@ market_functionality_10 = {
 #tech_organization
 guild_based_production = {
 	area = tech_organization
-	year = 1450
+	year = 1200
 	cost = 3600
 	activate_building = canned_food_factory 
 	factory_output = 0.01

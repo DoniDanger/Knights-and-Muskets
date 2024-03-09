@@ -1,6 +1,5 @@
-owner = ATR
-controller = ATR
-add_core = ATR
+owner = GLC
+controller = GLC
+add_core = GLC
 trade_goods = fish
 life_rating = 35
-1861.1.1 = { railroad = 3 }

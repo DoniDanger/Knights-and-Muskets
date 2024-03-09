@@ -2,5 +2,5 @@ owner = VLD
 controller = VLD
 add_core = VLD
 add_core = UKR
-trade_goods = timber
+trade_goods = salt
 life_rating = 35

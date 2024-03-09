@@ -27,7 +27,7 @@ cuirassier = { #heavy cavalry
 		horses = 15
 		canned_food = 10
 		barding = 15
-		infantry_arms = 20
+		infantry_arms = 8
 		wine = 10
 	}
 	
@@ -43,8 +43,8 @@ cuirassier = { #heavy cavalry
 
 	#Land Abilties
 	reconnaissance = 2
-	attack = 6
-	defence = 4
+	attack = 7
+	defence = 5
 	discipline = 1.0
 	support = 0.0
 	maneuver = 2

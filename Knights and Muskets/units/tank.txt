@@ -2,9 +2,9 @@ tank = { #crossbows
 	icon = 20
 	
 	type = land
-	sprite = Tank
+	sprite = Artillery
 	active = no
-	unit_type = cavalry
+	unit_type = support
 	floating_flag = yes
 	
 	#Core Abilities
@@ -33,7 +33,7 @@ tank = { #crossbows
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 1.5
+	attack = 2
 	defence = 3
 	discipline = 1.5
 	support = 1.5

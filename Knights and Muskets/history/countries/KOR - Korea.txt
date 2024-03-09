@@ -6,6 +6,7 @@ plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.06
 non_state_culture_literacy = 0.03
+civilized = yes
 
 slavery = yes_slavery
 upper_house_composition = appointed
@@ -24,7 +25,7 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = KOR_reactionary
+ruling_party = "Royalist"
 upper_house = {
 	fascist = 0
 	liberal = 18
@@ -37,29 +38,19 @@ upper_house = {
 
 set_country_flag = existing_country
 
-foreign_weapons = yes_foreign_weapons
-admin_reform = yes_admin_reform
-
 # Technologies
 flintlock_rifles = 1
+post_nelsonian_thought = 1
+clipper_design = 1
+enlightenment_thought = 1
+introspectionism = 1
+private_banks = 1
+no_standard = 1
+guild_based_production = 1
+basic_chemistry = 1
 
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
 
 oob = "KOR_oob.txt"
-1861.1.1 = {
-	oob = "/1861/KOR_oob.txt"
-	literacy = 0.09
-	non_state_culture_literacy = 0.05
-
-	foreign_weapons = yes_foreign_weapons
-	foreign_officers = yes_foreign_officers
-	admin_reform = yes_admin_reform
-	land_reform = yes_land_reform
-
-	# Technologies
-	flintlock_rifles = 1
-	military_staff_system = 1
-}
-

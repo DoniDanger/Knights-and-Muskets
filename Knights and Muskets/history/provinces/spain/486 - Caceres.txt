@@ -1,6 +1,5 @@
-owner = ATR
-controller = ATR
-add_core = ATR
+owner = LEO
+controller = LEO
+add_core = LEO
 trade_goods = iron
 life_rating = 35
-1861.1.1 = { railroad = 3 }

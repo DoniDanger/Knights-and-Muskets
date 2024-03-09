@@ -1197,7 +1197,8 @@ cracking = {
 		}
 	}
 	effect = {
-		activate_building = naval_supplies_workshop 
+		farm_rgo_eff = 0.05
+		#activate_building = naval_supplies_workshop 
 	}
 }
 #electricity
@@ -1233,7 +1234,8 @@ edison_light_bulb = {
 		}
 	}
 	effect = {
-		activate_building = tar_workshop 
+		land_attrition = -0.01
+		#activate_building = tar_workshop 
 	}
 }
 bell_n_greys_chinaware = {

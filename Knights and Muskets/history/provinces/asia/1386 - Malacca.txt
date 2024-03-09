@@ -1,5 +1,5 @@
 owner = DJA
 controller = DJA
 add_core = DJA
-trade_goods = tropical_wood
+trade_goods = elephants
 life_rating = 30

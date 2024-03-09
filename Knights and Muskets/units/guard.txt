@@ -36,9 +36,9 @@ guard = { #pikemen
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 8
-	defence = 2
-	discipline = 1.0
+	attack = 6
+	defence = 8
+	discipline = 1.25
 	support = 0.0
 	maneuver = 2
 }

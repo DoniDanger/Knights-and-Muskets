@@ -55,7 +55,7 @@ expressionism = {
 }
 mass_culture_n_the_avant_garde = {
 	area = aesthetics
-	year = 1555
+	year = 1200
 	cost = 21200
 
 	prestige = 0.075
@@ -130,7 +130,7 @@ idealism = {
 
 empiricism = {
 	area = philosophy
-	year = 1515
+	year = 1200
 	cost = 10800
 	
 	increase_research = 0.50
@@ -150,7 +150,7 @@ analytic_philosophy = {
 }
 phenomenology_n_hermeneutic = {
 	area = philosophy
-	year = 1560
+	year = 1200
 	cost = 18000
 
 	increase_research = 1.0
@@ -160,7 +160,7 @@ phenomenology_n_hermeneutic = {
 }
 anti__rationalism = {
 	area = philosophy
-	year = 1575
+	year = 1200
 	cost = 21200
 
 	increase_research = 1.0
@@ -358,7 +358,7 @@ ideological_thought = {
 }
 state_n_government = {
 	area = political_thought
-	year = 1515
+	year = 1200
 	cost = 10800
 
 	max_national_focus = 1 
@@ -368,7 +368,7 @@ state_n_government = {
 }
 nationalism_n_imperialism = {
 	area = political_thought
-	year = 1530
+	year = 1200
 	cost = 14400
 
 	max_national_focus = 1
@@ -381,7 +381,7 @@ nationalism_n_imperialism = {
 }
 revolution_n_counterrevolution = {
 	area = political_thought
-	year = 1545
+	year = 1200
 	cost = 18000
 
 	max_national_focus = 1
@@ -392,7 +392,7 @@ revolution_n_counterrevolution = {
 }
 mass_politics = {
 	area = political_thought
-	year = 1565
+	year = 1200
 	cost = 21200
 
 	max_national_focus = 1 

@@ -2,5 +2,5 @@ owner = BNG
 controller = BNG
 add_core = BNG
 add_core = HND
-trade_goods = coal
-life_rating = 28
+trade_goods = stone
+life_rating = 32

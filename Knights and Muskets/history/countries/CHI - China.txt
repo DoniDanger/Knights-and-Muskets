@@ -6,6 +6,7 @@ plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.08
 non_state_culture_literacy = 0.02
+civilized = yes
 
 # Political reforms
 slavery = no_slavery
@@ -26,7 +27,7 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
-ruling_party = CHI_conservative
+ruling_party = "Royalist"
 upper_house = {
 	fascist = 0
 	liberal = 0
@@ -39,12 +40,16 @@ upper_house = {
 
 set_country_flag = existing_country
 
-foreign_weapons = yes_foreign_weapons
-army_schools = yes_army_schools
-admin_reform = yes_admin_reform
-
 # Technologies
 flintlock_rifles = 1
+post_nelsonian_thought = 1
+clipper_design = 1
+enlightenment_thought = 1
+introspectionism = 1
+private_banks = 1
+no_standard = 1
+guild_based_production = 1
+basic_chemistry = 1
 
 # Inventions
 
@@ -53,26 +58,4 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "CHI_oob.txt"
-1861.1.1 = {
-	oob = "/1861/CHI_oob.txt"
-}
-1861.1.1 = {
 
-set_country_flag = has_lost_mandate
-set_global_flag = kowloon_incident
-set_global_flag = taiping_has_happened
-decision = clear_out_the_manchu_elite
-
-foreign_weapons = yes_foreign_weapons
-foreign_officers = yes_foreign_officers
-army_schools = yes_army_schools
-admin_reform = yes_admin_reform
-finance_reform = yes_finance_reform
-
-# Technologies
-flintlock_rifles = 1
-military_staff_system = 1
-
-# Inventions
-
-}

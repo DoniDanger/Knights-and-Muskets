@@ -2,5 +2,5 @@ owner = MEI
 controller = MEI
 add_core = MEI
 add_core = GER
-trade_goods = coal
+trade_goods = stone
 life_rating = 40

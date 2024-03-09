@@ -1,5 +1,5 @@
 owner = MLI
 controller = MLI
 add_core = MLI
-trade_goods = fruit
+trade_goods = elephants
 life_rating = 35

@@ -43,8 +43,10 @@ luxury_needs = {
 	sugar = 0.5
 	spices = 0.5
 	furs = 0.5
+	ivory = 0.5
 	incense = 0.5
 	coffee = 2
+	horses = 3
 }
 
 everyday_needs = {
@@ -52,7 +54,7 @@ everyday_needs = {
 	liquor = 5
 	regular_clothes = 5
 	furniture = 4
-	paper = 5
+	paper = 8
 	glass = 1
 	tobacco = 3
 	tea = 5

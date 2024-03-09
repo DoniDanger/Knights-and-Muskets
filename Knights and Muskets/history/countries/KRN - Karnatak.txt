@@ -6,6 +6,7 @@ government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.02
+civilized = yes
 
 # Political reforms
 slavery = no_slavery

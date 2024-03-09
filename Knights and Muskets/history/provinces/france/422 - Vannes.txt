@@ -1,5 +1,5 @@
 owner = BRT
 controller = BRT
 add_core = BRT
-trade_goods = fish
+trade_goods = tin
 life_rating = 32

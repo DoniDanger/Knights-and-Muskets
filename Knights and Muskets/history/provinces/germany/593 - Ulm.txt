@@ -2,5 +2,5 @@ owner = SGF
 controller = SGF
 add_core = SGF
 add_core = GER
-trade_goods = grain
+trade_goods = horses
 life_rating = 40

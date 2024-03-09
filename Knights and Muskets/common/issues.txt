@@ -346,7 +346,7 @@ political_reforms = {
         }
         yes_meeting = { #noble arms rights
 			suppression_points_modifier = 0.25
-			global_pop_militancy_modifier = -0.05
+			global_pop_militancy_modifier = -0.01
         }
     }
     press_rights = { #law codifications

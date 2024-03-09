@@ -24,14 +24,14 @@ irregular = { #levies
 	supply_consumption = 1.0
 	supply_cost = {
 		wool = 0.1
-		infantry_arms = 0.075 #0
+		infantry_arms = 0.035 #0
 	}
 	
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 2
-	defence = 2
+	attack = 3
+	defence = 4
 	discipline = 1
 	support = 0.0
 	maneuver = 1

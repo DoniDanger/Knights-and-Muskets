@@ -1,5 +1,6 @@
-owner = SHO
-controller = SHO
+owner = ZAN
+controller = ZAN
+add_core = ZAN
 add_core = SHO
-trade_goods = grain
+trade_goods = ivory
 life_rating = 35

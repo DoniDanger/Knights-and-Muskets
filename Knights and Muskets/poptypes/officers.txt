@@ -44,8 +44,10 @@ luxury_needs = {
 	sugar = 0.5
 	spices = 0.5
 	furs = 0.5
+	ivory = 0.5
 	incense = 0.5
 	coffee = 2
+	horses = 3
 }
 
 everyday_needs = {

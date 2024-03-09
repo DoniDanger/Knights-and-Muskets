@@ -2,5 +2,5 @@ owner = MOR
 controller = MOR
 add_core = MOR
 add_core = TUN
-trade_goods = fruit
+trade_goods = sugar
 life_rating = 35

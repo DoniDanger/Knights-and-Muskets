@@ -1,5 +1,6 @@
-owner = MAD
-controller = MAD
+owner = ZAN
+controller = ZAN
+add_core = ZAN
 add_core = MAD
 trade_goods = timber
 life_rating = 35

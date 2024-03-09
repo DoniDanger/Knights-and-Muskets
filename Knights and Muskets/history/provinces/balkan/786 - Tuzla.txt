@@ -1,5 +1,5 @@
 owner = BOS
 controller = BOS
 add_core = BOS
-trade_goods = grain
+trade_goods = salt
 life_rating = 35

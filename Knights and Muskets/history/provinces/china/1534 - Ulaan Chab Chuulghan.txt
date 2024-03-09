@@ -2,5 +2,5 @@ owner = MGL
 controller = MGL
 add_core = MGL
 add_core = MGE
-trade_goods = timber
+trade_goods = horses
 life_rating = 35

@@ -4,7 +4,7 @@ dragoon = { #horse archers
 	type = land
 	sprite = Dragoon
 	active = no
-	unit_type = cavalry
+	unit_type = support
 	
 	#Avatar
 	sprite_override = Cavalry
@@ -23,21 +23,18 @@ dragoon = { #horse archers
 	#Building Costs
 	build_time = 150
 	build_cost = {
-		horses = 20
-		canned_food = 10
-		infantry_arms = 10
+		horses = 10
+		canned_food = 6
 		barding = 10
-		artillery = 20
+		artillery = 10
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		infantry_arms = 0.012 #0.008
-		artillery = 0.075 # 0
+		artillery = 0.065 # 0
 		canned_food = 0.07 #0.08
-		horses = 0.40 # 0.008
-		barding = 0.10 # 0.008
-		iron = 0.05 # 0.008
+		horses = 0.30 # 0.008
+		barding = 0.20 # 0.008
 	}
 	
 
@@ -46,7 +43,7 @@ dragoon = { #horse archers
 	attack = 4
 	defence = 3
 	discipline = 1.0
-	support = 0.0
+	support = 1.25
 	maneuver = 3
 	
 }

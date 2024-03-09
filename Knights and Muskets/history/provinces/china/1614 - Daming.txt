@@ -1,5 +1,5 @@
 owner = SXI
 controller = SXI
 add_core = SXI
-trade_goods = grain
+trade_goods = apiculture
 life_rating = 32

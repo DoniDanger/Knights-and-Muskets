@@ -1,9 +1,5 @@
-owner = OMA
-controller = OMA
+owner = ZAN
+controller = ZAN
 add_core = ZAN
-trade_goods = fish
+trade_goods = ivory
 life_rating = 35
-1861.1.1 = {
-	owner = ZAN
-	controller = ZAN
-}

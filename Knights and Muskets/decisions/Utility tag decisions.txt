@@ -30,19 +30,6 @@ political_decisions = {
 				value = 0
 			}
 			country_event = 1000090
-			any_country = {
-				limit = {
-					tag = TUR				
-				}
-				add_accepted_culture = mashriqi
-				add_accepted_culture = bosniak
-			}
-			any_country = {
-				limit = {
-					tag = AUS				
-				}
-				add_accepted_culture = czech
-			}
 			set_global_flag = setup_done
 		}
 		

@@ -3,5 +3,5 @@ controller = SIC
 add_core = SIC
 add_core = GER
 add_core = ITA
-trade_goods = sulphur
+trade_goods = apiculture
 life_rating = 35

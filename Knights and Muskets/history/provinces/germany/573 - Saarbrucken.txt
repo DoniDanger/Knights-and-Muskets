@@ -2,7 +2,7 @@ owner = ALS
 controller = ALS
 add_core = ALS
 add_core = GER
-trade_goods = coal
+trade_goods = stone
 life_rating = 40
 fort = 1
 1861.1.1 = { railroad = 3 }

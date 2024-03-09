@@ -6,6 +6,7 @@ plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.01
 non_state_culture_literacy = 0.01
+civilized = yes
 
 # Political reforms
 slavery = yes_slavery
@@ -37,7 +38,7 @@ centralization = unitary
 colonial_policy = no_colonies 
 
 
-ruling_party = "Nobility Faction"
+ruling_party = "Royalist"
 upper_house = {
 	fascist = 0
 	liberal = 10
@@ -53,3 +54,12 @@ consciousness = 0
 nonstate_consciousness= 0
 
 # Technologies
+flintlock_rifles = 1
+post_nelsonian_thought = 1
+clipper_design = 1
+enlightenment_thought = 1
+introspectionism = 1
+private_banks = 1
+no_standard = 1
+guild_based_production = 1
+basic_chemistry = 1

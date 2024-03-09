@@ -27,6 +27,7 @@ everyday_needs = {
 	wine = 20
 	tobacco = 20 
 	coffee = 20
+	horses = 3
 }
 
 life_needs = {
@@ -41,12 +42,13 @@ life_needs = {
 luxury_needs = {
 	opium = 20
 	stone = 10
-	chinaware = 20
+	chinaware = 10
 	salt = 20
 	sugar = 2
 	spices = 2
 	furs = 2
 	incense = 2
+	ivory = 2
 	infantry_arms = 1 
 	crossbows = 1 
 	clipper_convoy = 2

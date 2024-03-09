@@ -26,8 +26,8 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
-ruling_party = NOR_conservative
-set_country_flag = tory_election_win
+ruling_party = "Royalist"
+
 last_election = 1833.1.1
 upper_house = {
 	fascist = 0
@@ -41,7 +41,7 @@ upper_house = {
 
 set_country_flag = existing_country
 
-#Technologies
+# Technologies
 post_napoleonic_thought = 1
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
@@ -62,8 +62,8 @@ no_standard = 1
 early_classical_theory_and_critique = 1
 freedom_of_trade = 1
 guild_based_production = 1
-water_wheel_power = 1
-publishing_industry = 1
+piston_steam_engine = 1
+mechanical_production = 1
 mechanized_mining = 1
 basic_chemistry = 1
 

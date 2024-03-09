@@ -1,7 +1,7 @@
 capital = 726
 primary_culture = north_italian
 religion = catholic
-government = absolute_monarchy
+government = oligarchic_republic
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.4
@@ -9,25 +9,33 @@ civilized = yes
 
 
 # Political reforms
-slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = none_voting
-public_meetings = yes_meeting
-press_rights = state_press
-trade_unions = no_trade_unions
-voting_system = first_past_the_post
-political_parties = underground_parties
+slavery = yes_slavery
+upper_house_composition = party_appointed #head of state, despotic
+vote_franschise = none_voting #military tenure, knight-service
+public_meetings = no_meeting #public arms, allowed
+press_rights = censored_press #law codification, civil law
+trade_unions = no_trade_unions #executive power, no council
+voting_system = first_past_the_post #feudal tenure, subinfeudation
+political_parties = underground_parties #feudal relief, unlimited
 
 # Social Reforms
-wage_reform = no_minimum_wage
-work_hours = no_work_hour_limit
-safety_regulations = no_safety
-health_care = no_health_care
-unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+wage_reform = no_minimum_wage #very influential church
+work_hours = no_work_hour_limit #irrelevant gentry
+safety_regulations = no_safety #very influential nobility
+unemployment_subsidies = trinket_subsidies #marginally relevant burghers
+pensions = no_pensions # feudal levies
+health_care = trinket_health_care #low centralization
 school_reforms = no_schools
 
-ruling_party = LOM_conservative
+#New Reforms
+debt_law = serfdom
+penal_system = capital_punishment #castle charters, noble castellans
+citizens_rights = primary_culture_only
+religious_minorities = no_rights
+promotion_laws = privlage_benefits
+church_and_state = state_religion
+
+ruling_party = "Royalist"
 upper_house = {
 	fascist = 0
 	liberal = 29
@@ -36,6 +44,11 @@ upper_house = {
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
+}
+
+govt_flag = {
+	government = oligarchic_republic
+	flag = feudal_monarchy
 }
 
 # Technologies
@@ -61,8 +74,11 @@ freedom_of_trade = 1
 guild_based_production = 1
 water_wheel_power = 1
 publishing_industry = 1
+piston_steam_engine = 1
+mechanical_production = 1
 mechanized_mining = 1
 basic_chemistry = 1
+experimental_railroad = 1
 
 #Inventions
 

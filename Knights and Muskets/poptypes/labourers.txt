@@ -38,6 +38,7 @@ luxury_needs = {
 	coffee = 0.45
 	tobacco = 0.95
 	#dye = 0.5
+	horses = 1
 }
 
 

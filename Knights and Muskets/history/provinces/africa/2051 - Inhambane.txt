@@ -1,5 +1,6 @@
-owner = GAZ
-controller = GAZ
-add_core = GAZ
+owner = ZAN
+controller = ZAN
+add_core = ZAN
+add_core = SHO
 trade_goods = grain
 life_rating = 35

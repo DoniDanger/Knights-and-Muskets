@@ -2,5 +2,5 @@ owner = ASM
 controller = ASM
 add_core = ASM
 add_core = HND
-trade_goods = tea
+trade_goods = elephants
 life_rating = 32

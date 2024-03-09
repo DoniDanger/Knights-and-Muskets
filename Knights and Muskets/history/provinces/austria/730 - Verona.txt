@@ -2,6 +2,6 @@ owner = VEN
 controller = VEN
 add_core = VEN
 add_core = GER
-trade_goods = silk
+trade_goods = horses
 life_rating = 35
 1861.1.1 = { railroad = 3 }
