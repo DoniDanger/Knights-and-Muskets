@@ -19,6 +19,7 @@ luxury_needs = {
 	chinaware = 1.25
 	salt = 1.0
 	wine = 10
+	apiculture = 0.5
 	sugar = 0.5
 	spices = 0.5
 	furs = 0.5
@@ -1003,7 +1004,7 @@ promote_to =
 ideologies = {
 	
 	fascist = {
-		factor = 1
+		factor = 0.5
 		modifier = {
 			factor = 0.5
 			not = { militancy = 6 }
@@ -1075,7 +1076,7 @@ ideologies = {
 	}
 	
 	reactionary = {
-		factor = 1
+		factor = 0.65
 		modifier = {
 			factor = 0.5
 			not = { militancy = 6 }
@@ -1149,7 +1150,91 @@ ideologies = {
 	}
 
 	conservative = {
-		factor = 1
+		factor = 0.65
+		modifier = {
+			factor = 0.5
+			militancy = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 3 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 1 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { consciousness = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { consciousness = 1 }
+		}
+		modifier = {
+			factor = 1.5
+			luxury_needs = 1
+		}		
+		modifier = {
+			factor = 1.1
+			luxury_needs = 0.1
+		}	
+		modifier = {
+			factor = 2
+			state_scope = {
+				poor_strata_everyday_needs = 1
+			}
+		}
+		modifier = {
+			factor = 1.25
+			state_scope = {
+				middle_strata_everyday_needs = 1
+			}
+		}
+		modifier = {
+			factor = 1.1
+			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 5
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 6
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 7
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 8
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 9
+		}
+	}
+	
+	gentry = {
+		factor = 0.65
 		modifier = {
 			factor = 0.5
 			militancy = 6
@@ -1232,8 +1317,204 @@ ideologies = {
 		}
 	}
 
+	clergy = {
+		factor = 0.65
+		modifier = {
+			factor = 0.5
+			militancy = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 3 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 1 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { consciousness = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { consciousness = 1 }
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.02
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.04
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.06
+		}
+		modifier = {
+			factor = 1.1	
+			social_reform_want = 0.08
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.1
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.12
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.14
+		}
+		modifier = {
+			factor = 1.1	
+			social_reform_want = 0.16
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.18
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.2
+		}
+		modifier = {
+			factor = 2
+			state_scope = {
+				not = { poor_strata_everyday_needs = 0.25 }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			state_scope = {
+				NOT = { middle_strata_everyday_needs = 0.25 }
+			}
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 5
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 6
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 7
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 8
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 9
+		}
+	}
+
+	fervent_clergy = {
+		factor = 0.5
+		modifier = {
+			factor = 0.5
+			militancy = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 3 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 1 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { consciousness = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { consciousness = 1 }
+		}
+		modifier = {
+			factor = 1.5
+			luxury_needs = 1
+		}		
+		modifier = {
+			factor = 1.1
+			luxury_needs = 0.1
+		}	
+		modifier = {
+			factor = 2
+			state_scope = {
+				poor_strata_everyday_needs = 1
+			}
+		}
+		modifier = {
+			factor = 1.25
+			state_scope = {
+				middle_strata_everyday_needs = 1
+			}
+		}
+		modifier = {
+			factor = 1.1
+			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 5
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 6
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 7
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 8
+		}
+		modifier = {
+			factor = 0.9
+			poor_strata_militancy = 9
+		}
+	}
+	
 	socialist = {
-		factor = 1
+		factor = 2.25
 		modifier = {
 			factor = 1.1
 			nationalvalue = nv_equality
@@ -1338,7 +1619,7 @@ ideologies = {
 	}
 
 	communist = {
-		factor = 1
+		factor = 1.15
 		modifier = {
 			factor = 0.1
 			NOT = { militancy = 6 }
@@ -1389,7 +1670,7 @@ ideologies = {
 		}
 	}
 	liberal = {
-		factor = 1.1
+		factor = 0.8
 		modifier = {
 			factor = 1.2
 			consciousness = 9 
@@ -1500,7 +1781,7 @@ ideologies = {
 		}
 	}
 	anarcho_liberal = {
-		factor = 1
+		factor = 0.65
 		modifier = {
 			factor = 2
 			ruling_party_ideology = anarcho_liberal

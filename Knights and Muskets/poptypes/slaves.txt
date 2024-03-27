@@ -27,10 +27,10 @@ luxury_needs = {
 }
 
 ideologies = {
-	liberal = {
+	communist = {
 		factor = 4
 	}
-	conservative = {
+	socialist = {
 		factor = 1
 	}
 }

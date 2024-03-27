@@ -1,0 +1,57 @@
+army = {
+    name = "Subetei Expedition"
+    location = 1199
+    regiment = {
+        name= "1st Oirat Cavalry"
+        type = dragoon
+        home = 1600
+    }
+    regiment = {
+        name= "2nd Oirat Cavalry"
+        type = dragoon
+        home = 1189
+    }
+    regiment = {
+        name= "3rd Oirat Cavalry"
+        type = dragoon
+        home = 1190
+    }
+    regiment = {
+        name= "Ili Regiment"
+        type = dragoon
+        home = 1594
+    }
+	regiment = {
+        name= "3rd Oirat Cavalry"
+        type = dragoon
+        home = 1203
+    }
+    regiment = {
+        name= "Ili Regiment"
+        type = dragoon
+        home = 1202
+    }
+	regiment = {
+        name= "Ili Regiment"
+        type = cavalry
+        home = 1198
+    }
+	regiment = {
+        name= "3rd Oirat Cavalry"
+        type = cavalry
+        home = 1191
+    }
+    regiment = {
+        name= "Ili Regiment"
+        type = cavalry
+        home = 1199
+    }
+}
+
+leader = {
+    name = "Subetei"
+    type = land
+    date = 1220.1.1
+    background = cavalry_school
+    personality = implacable
+}

@@ -35,7 +35,7 @@ country = {
 	NONCORE_TAX_PENALTY = -0.05, -- -5% for each non-core in state
 	BASE_TARIFF_EFFICIENCY = 0.2, -- baseline tariff efficiency
 	COLONY_FORMED_PRESTIGE = 1, -- prestige from founding a colony.
-	CREATED_CB_VALID_TIME = 18,  -- how many months 
+	CREATED_CB_VALID_TIME = 24,  -- how many months 
 	LOYALTY_BOOST_ON_PARTY_WIN = 0.1,
 	MOVEMENT_RADICALISM_BASE = 25,
 	MOVEMENT_RADICALISM_PASSED_REFORM_EFFECT  = -2,
@@ -174,8 +174,8 @@ military = {
 	AI_BIGSHIP_PROPORTION = 0.2, -- fraction of ships in the navy that should be ships of the line
 	AI_LIGHTSHIP_PROPORTION = 0.4, -- fraction of ships in the navy that should be cruisers, frigates etc
 	AI_TRANSPORT_PROPORTION = 0.6, -- fraction of ships in the navy that should be should be transports
-	AI_CAVALRY_PROPORTION = 0.1, -- fraction of brigades that should be cavalry
-	AI_SUPPORT_PROPORTION = 0.6, -- fraction of brigades that should be artillery and other support units
+	AI_CAVALRY_PROPORTION = 0.3, -- fraction of brigades that should be cavalry
+	AI_SUPPORT_PROPORTION = 0.4, -- fraction of brigades that should be artillery and other support units
 	AI_SPECIAL_PROPORTION = 0.0, -- fraction of brigades that should be engineers and tanks
 	AI_ESCORT_RATIO = 0.5, -- ratio of escorts to transports in invasion fleets
 	AI_ARMY_TAXBASE_FRACTION = 0.3, -- max of tax base that AI will spend on army supply costs (based on peacetime costs)
@@ -623,7 +623,7 @@ pops = {
 	LITERACY_CHANGE_SPEED = 0.1,
 
 
-	ASSIMILATION_SCALE = 0.004,
+	ASSIMILATION_SCALE = 0.006,
 	CONVERSION_SCALE = 0.01,
 	IMMIGRATION_SCALE = 0.004,
 

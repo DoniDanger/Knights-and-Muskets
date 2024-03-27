@@ -1,0 +1,64 @@
+WMG = {
+    value = 200
+    level = 5
+    influence_value = 100
+    military_access = yes
+}
+
+army = {
+    name = "Chinghis Khan"
+    location = 1535
+    regiment = {
+        name= "1st Oirat Cavalry"
+        type = dragoon
+        home = 1465
+    }
+    regiment = {
+        name= "2nd Oirat Cavalry"
+        type = dragoon
+        home = 1553
+    }
+    regiment = {
+        name= "3rd Oirat Cavalry"
+        type = dragoon
+        home = 1002
+    }
+    regiment = {
+        name= "Ili Regiment"
+        type = dragoon
+        home = 1552
+    }
+	regiment = {
+        name= "3rd Oirat Cavalry"
+        type = dragoon
+        home = 1554
+    }
+    regiment = {
+        name= "Ili Regiment"
+        type = dragoon
+        home = 1555
+    }
+	regiment = {
+        name= "Ili Regiment"
+        type = cavalry
+        home = 1488
+    }
+	regiment = {
+        name= "3rd Oirat Cavalry"
+        type = cavalry
+        home = 1532
+    }
+    regiment = {
+        name= "Ili Regiment"
+        type = cavalry
+        home = 1535
+    }
+}
+
+leader = {
+    name = "Chinghis Khan"
+    type = land
+    date = 1220.1.1
+    background = cavalry_school
+    personality = implacable
+}

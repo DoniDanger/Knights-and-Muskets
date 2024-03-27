@@ -26,7 +26,7 @@ cuirassier = { #heavy cavalry
 	build_cost = {
 		horses = 15
 		canned_food = 10
-		barding = 15
+		barding = 8
 		infantry_arms = 8
 		wine = 10
 	}

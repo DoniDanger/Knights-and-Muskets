@@ -25,7 +25,7 @@ dragoon = { #horse archers
 	build_cost = {
 		horses = 10
 		canned_food = 6
-		barding = 10
+		barding = 6
 		artillery = 10
 	}
 	

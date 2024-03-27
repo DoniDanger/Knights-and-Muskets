@@ -1,0 +1,28 @@
+leather_tanneries = {
+	limit = { piston_steam_engine = 1 }
+	chance = {
+		base = 15
+	}
+	effect = {
+		activate_building = leather_tannery 
+	}
+}
+wool_fabric_weaveries = {
+	limit = { piston_steam_engine = 1 }
+	chance = {
+		base = 15
+	}
+	effect = {
+		activate_building = wool_fabric_factory 
+	}
+}
+barding_smiths = {
+	limit = { piston_steam_engine = 1 }
+	chance = {
+		base = 15
+	}
+	effect = {
+		activate_building = barding_weaponsmith 
+	}
+}
+

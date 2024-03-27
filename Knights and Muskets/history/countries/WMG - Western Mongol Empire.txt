@@ -38,6 +38,8 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = closed_borders
 
+oob = "WMG_oob.txt"
+
 set_country_flag = gelugpa_country
 set_country_flag = mongol_empire
 set_country_flag = steppe_warfare_adopted

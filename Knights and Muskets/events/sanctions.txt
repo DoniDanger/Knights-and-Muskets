@@ -41,3 +41,43 @@ country_event = {
 		name = "EVTOPT500059A"
 	}
 }
+
+country_event = {
+	id = 5001
+	title = "fuck you here is militancy"
+	desc = "militancy"
+	picture = "bad_badboy"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "oh no"
+		any_pop = {
+			militancy = 9
+		}
+	}
+}
+
+country_event = {
+	id = 5002
+	title = "estate setup"
+	desc = "estates"
+	picture = "bad_badboy"
+	
+	trigger = {
+		tag = UTI
+		NOT = {
+			has_global_flag = estates_setup
+		}
+	}
+	
+	mean_time_to_happen = { days = -1 }
+
+	option = {
+		name = "I love peasants"
+		set_global_flag = estates_setup
+		enable_ideology = anarcho_liberal
+		enable_ideology = communist
+		enable_ideology = socialist
+	}
+}

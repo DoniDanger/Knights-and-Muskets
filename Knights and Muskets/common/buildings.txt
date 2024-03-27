@@ -42,6 +42,7 @@ siege_engine_workshop = {
 	{
 		machine_parts = 100
 		tar = 500
+		stone = 200
 		steel = 500
 		cement = 500
 	}
@@ -130,7 +131,8 @@ machine_parts_factory = {
 	goods_cost =
 	{
 		machine_parts = 50
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 365
@@ -150,8 +152,8 @@ charcoal_burner = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 50
-		steel = 200
+		stone = 50
+		lumber = 50
 		cement = 200
 	}
 	time = 365
@@ -198,6 +200,7 @@ steamer_shipyard = {
 	{
 		machine_parts = 50
 		steel = 200
+		stone = 200
 		cement = 200
 	}
 	time = 365
@@ -219,7 +222,8 @@ clipper_shipyard = {
 	goods_cost =
 	{
 		machine_parts = 50
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 365
@@ -241,7 +245,8 @@ luxury_clothes_factory = {
 	goods_cost =
 	{
 		machine_parts = 50
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 365
@@ -261,7 +266,8 @@ luxury_furniture_factory = {
 	goods_cost =
 	{
 		machine_parts = 50
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 365
@@ -283,7 +289,8 @@ steel_factory = { #hardwood
 	goods_cost =
 	{
 		machine_parts = 50
-		iron = 200
+		iron = 50
+		stone = 50
 		coal = 200
 	}
 	time = 182
@@ -303,7 +310,8 @@ artillery_factory = { #bowyer
 	goods_cost =
 	{
 		machine_parts = 50
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 365
@@ -322,7 +330,8 @@ crossbow_weaponsmith = {
 	goods_cost =
 	{
 		machine_parts = 50
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 365
@@ -330,6 +339,26 @@ crossbow_weaponsmith = {
 	onmap = no
 
 	production_type = crossbow_weaponsmith
+	pop_build_factory = yes
+}
+
+barding_weaponsmith = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 50
+		iron = 50
+		stone = 50
+		cement = 200
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+
+	production_type = barding_weaponsmith
 	pop_build_factory = yes
 }
 
@@ -343,7 +372,8 @@ furniture_factory = {
 	goods_cost =
 	{
 		machine_parts = 50
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 365
@@ -362,7 +392,8 @@ paper_mill = {
 	goods_cost =
 	{
 		machine_parts = 50
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 365
@@ -381,7 +412,8 @@ regular_clothes_factory = {
 	goods_cost =
 	{
 		machine_parts = 50
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 365
@@ -400,7 +432,8 @@ explosives_factory = {
 	goods_cost =
 	{
 		machine_parts = 50
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 365
@@ -422,7 +455,8 @@ infantry_arms_weaponsmith = {
 	goods_cost =
 	{
 		machine_parts = 40
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 365
@@ -442,7 +476,8 @@ canned_food_factory = {
 	goods_cost =
 	{
 		machine_parts = 40
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 365
@@ -462,7 +497,8 @@ dye_factory = {
 	goods_cost =
 	{
 		machine_parts = 40
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 182
@@ -482,7 +518,8 @@ liquor_distillery = {
 	goods_cost =
 	{
 		machine_parts = 40
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 365
@@ -502,7 +539,8 @@ winery = {
 	goods_cost =
 	{
 		machine_parts = 40
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 365
@@ -524,7 +562,8 @@ lumber_mill = {
 	goods_cost =
 	{
 		machine_parts = 20
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 182
@@ -543,7 +582,8 @@ fabric_factory = {
 	goods_cost =
 	{
 		machine_parts = 20
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 182
@@ -551,6 +591,46 @@ fabric_factory = {
 	onmap = no
 
 	production_type = fabric_factory
+	pop_build_factory = yes
+}
+
+wool_fabric_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 20
+		iron = 50
+		stone = 50
+		cement = 200
+	}
+	time = 182
+	visibility = yes
+	onmap = no
+
+	production_type = wool_fabric_factory
+	pop_build_factory = yes
+}
+
+leather_tannery = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 20
+		iron = 50
+		stone = 50
+		cement = 200
+	}
+	time = 182
+	visibility = yes
+	onmap = no
+
+	production_type = leather_tannery
 	pop_build_factory = yes
 }
 
@@ -562,7 +642,8 @@ cement_factory = {
 	goods_cost =
 	{
 		machine_parts = 20
-		iron = 200
+		iron = 50
+		stone = 50
 		timber = 200
 	}
 	time = 182
@@ -581,7 +662,8 @@ glass_factory = {
 	goods_cost =
 	{
 		machine_parts = 40
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 182
@@ -601,7 +683,8 @@ fertilizer_factory = {
 	goods_cost =
 	{
 		machine_parts = 40
-		iron = 200
+		iron = 50
+		stone = 50
 		cement = 200
 	}
 	time = 182
@@ -618,7 +701,7 @@ fort = {
 	{
 		lumber = 100
 		cement = 100
-		stone = 50
+		stone = 100
 		crossbows = 50
 		artillery = 40
 	}
@@ -635,11 +718,11 @@ naval_base = {
 	cost = 15000
 	goods_cost =
 	{
-		stone = 50
+		stone = 100
 		lumber = 50
 		cement = 100
 		steel = 100
-		machine_parts = 1
+		machine_parts = 50
 	}
 	time = 1080
 	naval_capacity = 1

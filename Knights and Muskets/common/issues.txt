@@ -307,12 +307,16 @@ political_reforms = {
             rules = { rich_only = yes }
             ruling_party_support = 0.5
 			suppression_points_modifier = 0.25
+			allow = { estate_affiliation = absolutist }
         }
         appointed = { #Non-despotic executive
             rules = { state_vote = yes }
 			rich_vote = 1.00
             global_immigrant_attract = 0.01
 			ruling_party_support = 0.25
+			allow = {
+				NOT = { estate_affiliation = absolutist }
+			}
         }
     }
 
@@ -353,7 +357,7 @@ political_reforms = {
         next_step_only = yes
         state_press = { #customary law
 			allow = {
-                has_country_flag = tribal_society 
+                has_country_flag = steppe_government 
             }
 			
             ruling_party_support = 0.25
@@ -380,6 +384,9 @@ political_reforms = {
             suppression_points_modifier = 0.35
 			issue_change_speed = -0.15
             ruling_party_support = 0.1
+			allow = {
+				estate_affiliation = absolutist
+			}
         }
         state_controlled = { #Privy Council
 			prestige = 0.005
@@ -392,6 +399,9 @@ political_reforms = {
             diplomatic_points_modifier = 0.2
 			issue_change_speed = 0.15
 			ruling_party_support = 0.25
+			allow = {
+				NOT = { estate_affiliation = absolutist }
+			}
         }
     }
 
@@ -463,7 +473,6 @@ political_reforms = {
 				NOT = { estate_affiliation = nobility_church }
 				NOT = { estate_affiliation = nobility_gentry }
 				AND = { NOT = { estate_affiliation = absolutist } NOT = { upper_house_composition = party_appointed } }
-				AND = { NOT = { estate_affiliation = absolutist } NOT = { upper_house_composition = appointed } }
 			}
         }
 
@@ -510,13 +519,16 @@ political_reforms = {
 		no_political_rights = {
 			#assimilation debuffs from above don't impact poor strata pops
 			global_immigrant_attract = 0.1
-			allow = { NOT = { religious_policy = moralism } }
+			allow = { NOT = { estate_affiliation = nobility_church estate_affiliation = church_army religious_policy = moralism } }
 		}
 		political_rights = {
 			#can assimilate foreign religious pops
 			global_immigrant_attract = 0.15
 			global_pop_militancy_modifier = -0.05
-			allow = { OR = { religious_policy = secularized religious_policy = pluralism } }
+			allow = { 
+				OR = { religious_policy = secularized religious_policy = pluralism } 
+				NOT = { estate_affiliation = nobility_church estate_affiliation = church_army religious_policy = moralism }
+			}
 			
 		}
 	}
@@ -526,7 +538,11 @@ political_reforms = {
 			#Enables Church Estate
 		}
 		church_and_state_seperation = { #caeseropapaism
-			allow = { OR = { religious_policy = secularized religious_policy = pro_atheism } }
+			allow = { 
+				has_country_flag = free_investiture
+				OR = { religious_policy = secularized religious_policy = pro_atheism } 
+				NOT = { estate_affiliation = nobility_church estate_affiliation = church_army religious_policy = moralism }
+			}
 			global_immigrant_attract = 0.1
 			#disables Church Estate
 		}
@@ -579,9 +595,7 @@ social_reforms = {
             factory_throughput = 0.075
 
             rich_vote = 0.05
-			allow = {
-				NOT = { has_country_flag = clergy_and_nobility_domination }
-            }
+			allow = { NOT = { estate_affiliation = nobility_church estate_affiliation = church_army } }
         }
         good_minimum_wage = { #irrelevant
             tax_efficiency = 0.05
@@ -690,7 +704,9 @@ social_reforms = {
             rich_vote = 0.05
 			
 			allow = {
-				NOT = { has_country_flag = clergy_and_nobility_domination }
+				NOT = { estate_affiliation = nobility_army }
+				NOT = { estate_affiliation = nobility_gentry }
+				NOT = { estate_affiliation = nobility_church }
             }
         }
         good_safety = { #irrelevant
@@ -766,6 +782,9 @@ social_reforms = {
             land_organisation = -0.05
             org_regain = -0.05
             mobilisation_size = 0.025
+			allow = {
+               	has_country_flag = steppe_government
+            }
         }
         low_pensions = { #noble_retinues
             land_organisation = 0.10
@@ -773,6 +792,9 @@ social_reforms = {
             supply_consumption = 0.45
             org_regain = 0.10
             mobilisation_size = 0.015
+			allow = {
+               	has_country_flag = mob_noble_retinues
+            }
         }
         acceptable_pensions = { #free_companies
             land_organisation = 0.15
@@ -780,6 +802,9 @@ social_reforms = {
             supply_consumption = 0.40
             org_regain = 0.15
             mobilisation_size = 0.02
+			allow = {
+               	has_country_flag = mob_free_companies
+            }
         }
         good_pensions = { #standing_armies
             land_organisation = 0.20
@@ -787,7 +812,9 @@ social_reforms = {
             supply_consumption = 0.25
             org_regain = 0.20
             mobilisation_size = 0.03
-
+			allow = {
+               	has_country_flag = mob_standing_armies
+            }
         }
     }
 

@@ -197,7 +197,8 @@ tar_workshop = {
 
 machine_parts_factory = {       
 	template = factory_template
-	input_goods = {    
+	input_goods = { 
+		tin = 2
 		iron = 8		#42.3
 		coal = 4		#11.5  total input+maint = 66
 	}
@@ -376,7 +377,7 @@ crossbow_weaponsmith = {
 	template = factory_template
 	input_goods = {       
 		iron = 1.4	#35
-		tin = 1.2	#35
+		tin = 2	#35
 		machine_parts = 0.5	#35
 		timber = 3.0		#14.1		total input+maint = 60
 	}
@@ -385,6 +386,25 @@ crossbow_weaponsmith = {
 
 	bonus = {
 		trigger = { has_building = steel_factory }
+		value = 0.15
+	}
+	bonus = {
+		trigger = { has_building = infantry_arms_weaponsmith }
+		value = 0.1
+	}
+}
+
+barding_weaponsmith = {       
+	template = factory_template
+	input_goods = {       
+		leather = 4.5	#35
+		iron = 2.5		#14.1		total input+maint = 60
+	}
+	output_goods = barding 
+	value = 2.5		#74
+
+	bonus = {
+		trigger = { has_building = leather_tannery }
 		value = 0.15
 	}
 	bonus = {
@@ -449,7 +469,7 @@ leather_tannery = {
 	output_goods = regular_clothes 
 	value = 12			#87
 	bonus = {
-		trigger = { has_building = fabric_factory }
+		trigger = { trade_goods_in_state = cattle }
 		value = 0.25
 	}
 }
@@ -612,10 +632,33 @@ fabric_factory = {
 	}
 }
 
+wool_fabric_factory = {
+    template = factory_template
+    input_goods = {
+        wool = 18
+        dye = 2
+    }
+    output_goods = fabric
+    value = 24
+    bonus = {
+        trigger = { trade_goods_in_state = wool }
+        value = 0.125
+    }
+    bonus = {
+        trigger = {
+            OR = {
+                has_building = dye_factory
+                trade_goods_in_state = dye
+                }
+            }
+        value = 0.125
+    }
+}
+
 cement_factory = {       
 	template = cement_template
 	input_goods = {      
-		stone = 12
+		stone = 20
 		coal = 2		#27.6		total input+maint = 37
 	} 
 	output_goods = cement 
@@ -854,14 +897,14 @@ salt_mine = {
 stone_quarry = {
 	template = RGO_template_labourers
 	output_goods = stone
-	value = 2.8
+	value = 1.4
 	mine = yes
 }
 
 tin_mine = {
 	template = RGO_template_labourers
 	output_goods = tin
-	value = 1.8
+	value = 1.2
 	mine = yes
 }
 
@@ -917,7 +960,7 @@ horse_ranch = {
 elephant_ranch = {
 	template = RGO_template_farmers
 	output_goods = elephants 
-	value = 0.6
+	value = 0.4
 	farm = yes
 }
 
@@ -991,7 +1034,8 @@ artisan_tar = {
 }
 
 artisan_machine_parts = {       
-	input_goods = {    
+	input_goods = {   
+		tin = 4		
 		iron = 9		#42.3
 		coal = 5		#11.5  total input+maint = 66
 	}
@@ -1107,7 +1151,7 @@ artisan_luxury_furniture = {
 
 artisan_ivory = {       
 	input_goods = { 
-		elephants = 3.5 #8.1	total input+maint = 53.18
+		elephants = 8 #8.1	total input+maint = 53.18
 	}
 	output_goods = ivory 
 	value = 1.1			#64.9
@@ -1186,7 +1230,7 @@ artisan_clipper = {
 artisan_crossbows = {       
 	input_goods = {    
 		iron = 1.4	#35
-		tin = 1.2	#35
+		tin = 2	#35
 		machine_parts = 0.5	#35
 		timber = 3.0		#14.1		total input+maint = 60
 	}
@@ -1395,7 +1439,7 @@ artisan_winery = {
 
 artisan_lumber = {       
 	input_goods = {       
-		timber = 100		#90	total input+maint = 100
+		timber = 80		#90	total input+maint = 100
 	}
 	output_goods = lumber 
 	
@@ -1430,7 +1474,7 @@ artisan_fabric = {
 
 artisan_cement = {       
 	input_goods = {  
-		stone = 12
+		stone = 20
 		coal = 2		#27.6		total input+maint = 37
 	} 
 	output_goods = cement 
@@ -1518,10 +1562,10 @@ artisan_horses_agriculture = {
 
 artisan_elephant_forestry = {       
 	input_goods = {   
-		elephants = 2		#36		total input+maint = 46
+		elephants = 8		#36		total input+maint = 46
 	}
 	output_goods = timber 
-	value = 6			#50
+	value = 2			#50
 
 	owner = {
 		poptype = artisans 

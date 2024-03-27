@@ -58,6 +58,9 @@ upper_house = {
 schools = naval_tech_school
 
 decision = global_setup
+decision = china_pop_nerf
+decision = india_pop_nerf
+decision = mongol_buff_setup
 
 foreign_investment = {
 
