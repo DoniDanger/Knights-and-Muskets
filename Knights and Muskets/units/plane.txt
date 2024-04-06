@@ -10,7 +10,7 @@ plane = { #men-at-arms
 	#Core Abilities
 	priority = 45
 	max_strength = 3
-	default_organisation = 30
+	default_organisation = 20
 	maximum_speed = 5.00
 	weighted_value = 10.0
 
@@ -35,9 +35,9 @@ plane = { #men-at-arms
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 8
+	attack = 6
 	defence = 6
-	discipline = 1.5
+	discipline = 1.25
 	support = 0.0
-	maneuver = 3
+	maneuver = 1
 }
