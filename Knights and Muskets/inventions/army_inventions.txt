@@ -477,6 +477,7 @@ genoa_tactic = {
 			attack = 0.5
 			defence = 2
 			support = 0.25
+			maximum_speed = 1
 		}
 	}
 }
@@ -1010,6 +1011,7 @@ elephant_stat_boost_1 = {
 			hussar = {
 			 attack = 5
 			 defence = 2
+			maximum_speed = 1 
 			}
 		}
 }
@@ -1073,6 +1075,7 @@ elephant_stat_boost_3 = {
 			hussar = {
 			 attack = 3
 			 defence = 2
+			maximum_speed = 1
 			}
 		}
 }
@@ -1120,22 +1123,11 @@ elephant_stat_boost_4 = {
 			hussar = {
 			 attack = 3
 			 defence = 2
+			maximum_speed = 1
 			}
 		}
 }
 #horse_plate
-long_distance_scout = {
-	limit = { horse_plate = 1 }
-	chance = {
-		base = 5
-		}
-		effect = {
-			cavalry = {
-				attack = 3
-				defence = 2
-			}
-		}
-}
 thunder_bomb = {
 	limit = { horse_plate = 1 }
 	chance = {
@@ -1432,6 +1424,24 @@ company_excercise = {
 		army_base = {
 			default_organisation = 5
 		}
+		irregular = {
+			max_speed = 1
+			}
+		infantry = {
+			max_speed = 1
+			}
+		guard = {
+			max_speed = 1
+			}
+		plane = {
+			max_speed = 1
+			}
+		artillery = {
+			max_speed = 1
+			}
+		tank = {
+			max_speed = 1
+			}
 	}
 }
 
@@ -1511,6 +1521,24 @@ motivated_merc = {
 		army_base = {
 			default_organisation = 5
 			}
+		irregular = {
+			max_speed = 1
+			}
+		infantry = {
+			max_speed = 1
+			}
+		guard = {
+			max_speed = 1
+			}
+		plane = {
+			max_speed = 1
+			}
+		artillery = {
+			max_speed = 1
+			}
+		tank = {
+			max_speed = 1
+			}
 	}
 }
 #schiltron
@@ -1579,14 +1607,23 @@ battlefield_manoeuvre = {
 		irregular = {
 			attack = 1
 			defence = 3
+			maximum_speed = 1
 			}
 		infantry = {
 			attack = 2
 			defence = 2
+			maximum_speed = 1
 			}
 		guard = {
 			attack = 2
 			defence = 5
+			maximum_speed = 1
+			}
+		artillery = {
+			maximum_speed = 1
+			}
+		plane = {
+			maximum_speed = 1
 			}
 	}
 }
