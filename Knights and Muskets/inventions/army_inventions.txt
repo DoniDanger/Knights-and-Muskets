@@ -950,7 +950,7 @@ schynbald = {
 		effect = {
 			cuirassier = {
 				attack = 1
-				defence =1
+				defence = 1
 			}
 		}
 }
@@ -977,9 +977,11 @@ cuisse = {
 		base = 5
 		}
 		effect = {
-			cavalry = {
+			plane = {
+				defence = 1
+			}
+			cuirassier = {
 				attack = 1
-				defence =1
 			}
 		}
 }
@@ -1048,6 +1050,10 @@ curb_bit = {
 			cuirassier = {
 				attack = 2
 			}
+			dragoon = {
+				attack = 2
+				defence = 2
+			}
 		}
 }
 #horse_plate
@@ -1063,6 +1069,40 @@ long_distance_scout = {
 			}
 		}
 }
+thunder_bomb = {
+	limit = { horse_plate = 1 }
+	chance = {
+		base = 5
+		}
+		effect = {
+			dragoon = {
+				attack = 2
+				defence = 3
+			}
+		}
+}
 #dismounted_knights
-
+mobile_armour = {
+	limit = { dismounted_knights = 1 }
+	chance = {
+		base = 5
+		}
+		effect = {
+			plane = {
+				attack = 2
+			}
+		}
+}
 #full_plate
+fire_lance = {
+	limit = { full_plate = 1 }
+	chance = {
+		base = 5
+		}
+		effect = {
+			dragoon = {
+				attack = 3
+				defence = 3
+			}
+		}
+}
