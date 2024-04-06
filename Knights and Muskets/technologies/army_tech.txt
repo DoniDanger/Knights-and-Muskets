@@ -410,7 +410,7 @@ partial_plate = {
 	unciv_military = yes
 	
 	cuirassier = {
-		attack = 3
+		attack = 2
 		defence = 2
 		}
 	army_base = {
