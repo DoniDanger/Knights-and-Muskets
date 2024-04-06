@@ -392,7 +392,7 @@ barding = {
 		defence = 2
 		}
 	hussar = {
-		attack = 1
+		attack = 4
 		defence = 1
 		}
 	army_base = {
@@ -517,10 +517,6 @@ dismounted_knights = {
 	dragoon = {
 		attack = 2
 		defence = 3
-		}
-	hussar = {
-		attack = 1
-		defence = 1
 		}
 	army_base = {
 		supply_consumption = 0.20
