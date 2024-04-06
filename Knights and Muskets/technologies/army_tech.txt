@@ -385,8 +385,7 @@ barding = {
 		defence = 1
 		}
 	cuirassier = {
-		attack = 1
-		defence = 1
+		attack = 2
 		}
 	dragoon = {
 		attack = 2
@@ -411,8 +410,8 @@ partial_plate = {
 	unciv_military = yes
 	
 	cuirassier = {
-		attack = 1
-		defence = 1
+		attack = 3
+		defence = 2
 		}
 	army_base = {
 		supply_consumption = 0.20
@@ -429,8 +428,8 @@ horse_mail = {
 	unciv_military = yes
 	
 	cuirassier = {
-		attack = 1
-		defence = 1
+		attack = 2
+		defence = 2
 		}
 	dragoon = {
 		attack = 1
@@ -455,8 +454,8 @@ destrier = {
 		defence = 2
 		}
 	cuirassier = {
-		attack = 1
-		defence = 1
+		attack = 3
+		defence = 2
 		}
 	dragoon = {
 		attack = 3
@@ -477,8 +476,8 @@ lance_fournie = {
 	unciv_military = yes
 	
 	cuirassier = {
-		attack = 1
-		defence = 1
+		attack = 3
+		defence = 2
 		}
 	army_base = {
 		supply_consumption = 0.20
@@ -495,8 +494,7 @@ horse_plate = {
 	unciv_military = yes
 	
 	cuirassier = {
-		attack = 1
-		defence = 1
+		attack = 4
 		}
 	army_base = {
 		supply_consumption = 0.20
@@ -513,8 +511,8 @@ dismounted_knights = {
 	unciv_military = yes
 	
 	cuirassier = {
-		attack = 1
-		defence = 1
+		attack = 3
+		defence = 5
 		}
 	dragoon = {
 		attack = 2
@@ -540,8 +538,8 @@ full_plate = {
 	unciv_military = yes
 	
 	cuirassier = {
-		attack = 1
-		defence = 1
+		attack = 2
+		defence = 4
 		}
 	army_base = {
 		supply_consumption = 0.20
