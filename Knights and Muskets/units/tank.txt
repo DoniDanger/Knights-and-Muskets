@@ -35,9 +35,8 @@ tank = { #crossbows
 	reconnaissance = 0
 	attack = 2
 	defence = 3
-	discipline = 1.5
-	support = 1.5
+	discipline = 1
+	support = 2
 	maneuver = 1
-	siege = 1
 	
 }
