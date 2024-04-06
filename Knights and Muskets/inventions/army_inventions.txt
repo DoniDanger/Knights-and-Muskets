@@ -906,6 +906,17 @@ war_elephant_activation = {
 		activate_unit = hussar
 		}
 }
+archer_platform = {
+	limit = { lamellar_armour = 1 }
+	chance = {
+		base = 5
+		}
+		effect = {
+			hussar = {
+				attack = 5
+				}
+		}
+}
 gas_attack_capability = {
 	limit = { lamellar_armour = 1 }
 	chance = {
@@ -964,11 +975,16 @@ courser = {
 			cavalry = {
 				attack = 2
 				defence = 1
+				maximum_speed = 1
 			}
 			dragoon = {
 				attack = 2
 				defence = 1
+				maximum_speed = 1
 			}
+			cuirassier = {
+				maximum_speed = 1
+				}
 		}
 }
 cuisse = {
@@ -982,6 +998,18 @@ cuisse = {
 			}
 			cuirassier = {
 				attack = 1
+			}
+		}
+}
+elephant_stat_boost_1 = {
+	limit = { partial_plate = 1 }
+	chance = {
+		base = 5
+		}
+		effect = {
+			hussar = {
+			 attack = 5
+			 defence = 2
 			}
 		}
 }
@@ -1012,6 +1040,18 @@ composite_bow = {
 			}
 		}
 }
+elephant_stat_boost_2 = {
+	limit = { horse_mail = 1 }
+	chance = {
+		base = 5
+		}
+		effect = {
+			hussar = {
+			 attack = 4
+			 defence = 2
+			}
+		}
+}
 #destrier
 heavy_lance = {
 	limit = { destrier = 1 }
@@ -1021,6 +1061,18 @@ heavy_lance = {
 		effect = {
 			cuirassier = {
 				attack = 1
+			}
+		}
+}
+elephant_stat_boost_3 = {
+	limit = { destrier = 1 }
+	chance = {
+		base = 5
+		}
+		effect = {
+			hussar = {
+			 attack = 3
+			 defence = 2
 			}
 		}
 }
@@ -1046,13 +1098,28 @@ curb_bit = {
 			cavalry = {
 				attack = 2
 				defence = 2
+				maximum_speed = 1
 			}
 			cuirassier = {
 				attack = 2
+				maximum_speed = 1
 			}
 			dragoon = {
 				attack = 2
 				defence = 2
+				maximum_speed =1
+			}
+		}
+}
+elephant_stat_boost_4 = {
+	limit = { lance_fournie = 1 }
+	chance = {
+		base = 5
+		}
+		effect = {
+			hussar = {
+			 attack = 3
+			 defence = 2
 			}
 		}
 }
@@ -1081,6 +1148,18 @@ thunder_bomb = {
 			}
 		}
 }
+elephant_stat_boost_5 = {
+	limit = { horse_plate = 1 }
+	chance = {
+		base = 5
+		}
+		effect = {
+			hussar = {
+			 attack = 4
+			 defence = 2
+			}
+		}
+}
 #dismounted_knights
 mobile_armour = {
 	limit = { dismounted_knights = 1 }
@@ -1090,6 +1169,18 @@ mobile_armour = {
 		effect = {
 			plane = {
 				attack = 2
+			}
+		}
+}
+elephant_stat_boost_6 = {
+	limit = { dismounted_knights = 1 }
+	chance = {
+		base = 5
+		}
+		effect = {
+			hussar = {
+			 attack = 3
+			 defence = 2
 			}
 		}
 }
@@ -1105,4 +1196,417 @@ fire_lance = {
 				defence = 3
 			}
 		}
+}
+elephant_stat_boost_7 = {
+	limit = { full_plate = 1 }
+	chance = {
+		base = 5
+		}
+		effect = {
+			hussar = {
+			 attack = 2
+			 defence = 2
+			}
+		}
+}
+#scutage
+scutage_obligation = {
+	limit = { scutage = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		army_base = {
+			default_organisation = 5
+		}
+	}
+}
+
+#levy_rotation
+fresh_troops = {
+	limit = { levy_rotation = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		army_base = {
+			default_organisation = 5
+		} 
+	}
+}
+rotation = {
+	limit = { levy_rotation = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		mobilisation_economy_impact = -0.05
+		}
+}
+arriere_ban = {
+	limit = { levy_rotation = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		mobilisation_size = 0.01
+	}
+}
+
+#freemen_levy
+better_levy = {
+	limit = { freemen_levy = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		irregular = {
+			attack = 1.5
+			}
+	mobilisation_size = 0.01
+	}
+}
+
+camp_follower = {
+	limit = { freemen_levy = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		army_base = {
+			default_organisation = 5
+		}
+	}
+}
+
+#noble_retinues
+noble_estate_recruit = {
+	limit = { noble_retinues = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		mobilisation_size = 0.01
+	}
+}
+
+noble_leadership = {
+	limit = { noble_retinues = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		army_base = {
+			default_organisation = 10
+		} 
+	}
+}
+
+#guild_militia
+guild_equipment = {
+	limit = { guild_militia = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		army_base = {
+		supply_consumption = -0.3
+		}
+	}
+}
+guild_troops = {
+	limit = { guild_militia = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		mobilisation_size = 0.03
+	}
+}
+#purveyance
+royal_purveyance = {
+	limit = { purveyance = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		mobilisation_economy_impact = -0.2
+	}
+}
+#chevauchee
+chevauchee_raid = {
+	limit = { chevauchee = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		cavalry = {
+			attack = 3
+			defence = 2
+			}
+		army_base = {
+			default_organisation = 10
+			}
+	}
+}
+#routiers
+veteran_merc_advisor = {
+	limit = { routiers = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		army_base = {
+			default_organisation = 10
+			}
+	}
+}
+#standing_army
+standing_army_inv = {
+	limit = { standing_army = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		army_base = {
+			default_organisation = 10
+			discipline = 0.25
+			}
+	}
+}
+
+#decisive_charge
+strategikon = {
+	limit = { decisive_charge = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		morale = 0.15
+	}
+}
+
+knight_charge = {
+	limit = { decisive_charge = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		cuirassier = {
+			discipline = 0.15
+			attack = 1
+		}
+	}
+}
+
+#high_medieval_tactics
+company_captain = {
+	limit = { high_medieval_tactics = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		army_base = {
+			default_organisation = 5
+		}
+	}
+}
+
+tight_formation = {
+	limit = { high_medieval_tactics = 1 }
+	chance = {
+		base = 5
+		}
+	effect = {
+		morale = 0.3
+	}
+}
+
+#mongol_lesson
+company_excercise = {
+	limit = { mongol_lesson = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		army_base = {
+			default_organisation = 5
+		}
+	}
+}
+
+heraldic_flag = {
+	limit = { mongol_lesson = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		morale = 0.3
+	}
+}
+
+gas_defense_capability = {
+	limit = { mongol_lesson = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 100
+			has_country_flag = steppe_defense_adopted
+		}		
+	}
+	effect = {
+		gas_defence = yes
+	}
+}
+#martial_education
+semi_professional_army = {
+	limit = { martial_education = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		army_base = {
+			default_organisation = 5
+		}
+		infantry = {
+			attack = 2
+			defence = 2
+			}
+		guard = {
+			attack = 1
+			defence = 1
+			}
+		plane = {
+			attack = 2
+			defence = 2
+			}
+		cavalry = {
+			attack = 1
+			defence = 1
+			}
+		cuirassier = {
+			attack = 1
+			defence = 1
+			}
+		
+	}
+}
+
+peacetime_training = {
+	limit = { martial_education = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		morale = 0.5
+	}
+}
+#mercenary_integration
+motivated_merc = {
+	limit = { mercenary_integration = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		army_base = {
+			default_organisation = 5
+			}
+	}
+}
+#schiltron
+schiltron_formation = {
+	limit = { schiltron = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		irregular = {
+			attack = 1
+			defence = 1
+			}
+		infantry = {
+			defence = 2
+			}
+		guard = {
+			defence = 2
+			}
+	}
+}
+#mixed_formation
+cavalry_supression = {
+	limit = { mixed_formation = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		irregular = {
+			defence = 2
+			}
+		infantry = {
+			attack = 1
+			defence = 2
+			}
+		guard = {
+			attack = 2
+			defence = 2
+			}
+		plane = {
+			attack = 2
+			defence = 1
+			}
+	}
+}
+kitab = {
+	limit = { mixed_formation = 1 } 
+	chance = {
+		base = 5
+	}
+	effect = {
+		artillery = {
+			attack = 0.75
+			defence = 2
+			support = 0.5
+			}
+	}
+}
+#infantry_manoeuvre
+battlefield_manoeuvre = {
+	limit = { infantry_manoeuvre = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		irregular = {
+			attack = 1
+			defence = 3
+			}
+		infantry = {
+			attack = 2
+			defence = 2
+			}
+		guard = {
+			attack = 2
+			defence = 5
+			}
+	}
+}
+#deep_line
+deep_defense_line = {
+	limit = { deep_line = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		irregular = {
+			attack = 1
+			defence = 5
+			}
+		infantry = {
+			defence = 2
+			}
+		guard = {
+			attack = 1
+			defence = 3
+			}
+	}
 }
