@@ -42,10 +42,10 @@ cuirassier = { #heavy cavalry
 	
 
 	#Land Abilties
-	reconnaissance = 2
-	attack = 7
-	defence = 5
-	discipline = 1.0
+	reconnaissance = 1
+	attack = 6
+	defence = 4
+	discipline = 1.25
 	support = 0.0
 	maneuver = 2
 	
