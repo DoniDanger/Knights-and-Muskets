@@ -454,7 +454,7 @@ destrier = {
 		defence = 2
 		}
 	cuirassier = {
-		attack = 3
+		attack = 2
 		defence = 2
 		}
 	dragoon = {
@@ -476,8 +476,8 @@ lance_fournie = {
 	unciv_military = yes
 	
 	cuirassier = {
-		attack = 3
-		defence = 2
+		discipline = 0.25
+		default_organisation = 10
 		}
 	army_base = {
 		supply_consumption = 0.20
