@@ -362,6 +362,10 @@ lamellar_armour = {
 		attack = 1
 		defence = 1
 		}
+	dragoon = {
+		attack = 2
+		defence = 1
+		}
 	army_base = {
 		supply_consumption = 0.10
 	}
@@ -385,8 +389,8 @@ barding = {
 		defence = 1
 		}
 	dragoon = {
-		attack = 1
-		defence = 1
+		attack = 2
+		defence = 2
 		}
 	hussar = {
 		attack = 1
@@ -430,7 +434,7 @@ horse_mail = {
 		}
 	dragoon = {
 		attack = 1
-		defence = 1
+		defence = 3
 		}
 	army_base = {
 		supply_consumption = 0.20
@@ -455,8 +459,8 @@ destrier = {
 		defence = 1
 		}
 	dragoon = {
-		attack = 1
-		defence = 1
+		attack = 3
+		defence = 2
 		}
 	army_base = {
 		supply_consumption = 0.20
@@ -513,8 +517,8 @@ dismounted_knights = {
 		defence = 1
 		}
 	dragoon = {
-		attack = 1
-		defence = 1
+		attack = 2
+		defence = 3
 		}
 	hussar = {
 		attack = 1
