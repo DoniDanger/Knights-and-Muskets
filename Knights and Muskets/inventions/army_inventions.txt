@@ -861,1081 +861,208 @@ late_medieval_firearm = {
 		}
 	}
 }
-#modern_divisional_structure
-interwar_infantry = {
-	limit = { modern_divisional_structure = 1 }
-	chance = {
-		base = 100
-		modifier = {
-			factor = 2
-			mass_politics = 1
-		}
-		modifier = {
-			factor = 2
-			modern_army_doctrine = 1
-		}
-	}
-	effect = {
-		infantry = {
-			attack = 4
-			defence = 4
-			supply_consumption = 0.20
-		}
-		guard = {
-			attack = 4
-			defence = 4
-			supply_consumption = 0.20
-		}
-		engineer = {
-			attack = 2
-			defence = 2
-			supply_consumption = 0.20
-		}
-		irregular = {
-			attack = 1
-			defence = 2
-			supply_consumption = 0.20
-		}
-	}
-}
-interwar_cavalry = {
-	limit = { modern_divisional_structure = 1 }
-	chance = {
-		base = 100
-		modifier = {
-			factor = 2
-			electricity = 1
-		}
-		modifier = {
-			factor = 1
-			combustion_engine = 1
-		}
-	}
-	effect = {
-		cuirassier = {
-			attack = 2
-			defence = 2
-			reconnaissance = 2
-			supply_consumption = 0.20
-		}
-		dragoon = {
-			attack = 2
-			defence = 2
-			reconnaissance = 1
-			supply_consumption = 0.20
-		}
-		hussar = {
-			attack = 2
-			defence = 2
-			reconnaissance = 1
-			supply_consumption = 0.20
-		}
-		cavalry = {
-			attack = 1
-			defence = 2
-			reconnaissance = 2
-			supply_consumption = 0.20
-		}
-	}
-}
-interwar_warfare_2 = {
-	limit = { year = 1925 }
-	chance = {
-		base = 100
-	}
-	effect = {
-		combat_width = 5
-	}
-}
-interwar_warfare = {
-	limit = { year = 1920 }
-	chance = {
-		base = 100
-	}
-	effect = {
-		combat_width = 5
-	}
-}
-interwar_warfare_0.5 = {
-	limit = { year = 1915 }
-	chance = {
-		base = 100
-	}
-	effect = {
-		combat_width = 5
-	}
-}
-#iron_breech_loaded_artillery
-#indirect_artillery_fire
-#heavy_armament
-tankette = {
-	limit = { heavy_armament_dunno = 1 }
+#medieval_cavalry
+early_medieval_cavalry = {
+	limit = { medieval_cavalry = 1 }
 	chance = {
 		base = 5
-		modifier = {
-			factor = 1
-			modern_army_doctrine = 1
 		}
-		modifier = {
-			factor = -3
-			not = { invention = tank_exploits }
+		effect = {
+			cavalry = {
+				attack = 1
+				defence =1
+			}
+			cuirassier = {
+				attack = 2
+				defence = 1
+			}
 		}
-	}
-	effect = {
-		tank = {
-			attack = 5
-			defence = 4
-			support = 0.50
-			supply_consumption = 0.5
-		}
-	}
 }
-light_tank = {
-	limit = { heavy_armament_dunno = 1 }
+heavy_cavalry_activation = {
+	limit = { medieval_cavalry = 1 }
 	chance = {
 		base = 5
-		modifier = {
-			factor = 2
-			modern_army_doctrine = 1
 		}
-		modifier = {
-			factor = -4
-			not = { invention = tankette }
-		}
-	}
-	effect = {
-		tank = {
-			attack = 5
-			defence = 4
-			support = 0.50
-			supply_consumption = 0.5
-		}
-	}
-}
-armoured_cars = {
-	limit = { heavy_armament_dunno = 1 }
-	chance = {
-		base = 5
-		modifier = {
-			factor = 2
-			invention = tractors
-		}
-		modifier = {
-			factor = 2
-			invention = tankette
-		}
-		modifier = {
-			factor = -6
-			not = { invention = tank_exploits }
-		}
-	}
-	effect = {
-		tank = {
-			maximum_speed = 1
-			discipline = 0.5
-			supply_consumption = 0.5
-		}
-	}
-}
-anti_aircraft_artillery = {
-	limit = { heavy_armament_dunno = 1 }
-	chance = {
-		base = 5
-		modifier = {
-			factor = 2
-			invention = wright_n_langleys_bombards
-		}
-		modifier = {
-			factor = 2
-			aeronautics = 1
-		}
-	}
-	effect = {
-		artillery = {
-			attack = 0.1
-			defence = 1
-			support = 0.1
-			supply_consumption = 0.25
-		}
-	}
-}
-improved_anti_aircraft_artillery = {
-	limit = { heavy_armament_dunno = 1 }
-	chance = {
-		base = 5
-		modifier = {
-			factor = 1
-			aeronautics = 1
-		}
-		modifier = {
-			factor = -3
-			not = { invention = anti_aircraft_artillery }
-		}
-	}
-	effect = {
-		artillery = {
-			attack = 0.1
-			defence = 1
-			support = 0.1
-			supply_consumption = 0.25
-		}
-	}
-}
-light_artillery = {
-	limit = { heavy_armament_dunno = 1 }
-	chance = {
-		base = 5
-		modifier = {
-			factor = 1
-			modern_divisional_structure = 1
-		}
-		modifier = {
-			factor = 2
-			modern_army_doctrine = 1
-		}
-	}
-	effect = {
-		artillery = {
-			attack = 0.5
-			support = 0.1
-			supply_consumption = 0.25
-		}
-	}
-}
-medium_artillery = {
-	limit = { heavy_armament_dunno = 1 }
-	chance = {
-		base = 5
-		modifier = {
-			factor = 4
-			modern_army_doctrine = 1
-		}
-		modifier = {
-			factor = -6
-			not = { invention = light_artillery }
-		}
-	}
-	effect = {
-		artillery = {
-			attack = 1
-			support = 0.1
-			supply_consumption = 0.25
-		}
-	}
-}
-heavy_artillery = {
-	limit = { heavy_armament_dunno = 1 }
-	chance = {
-		base = 5
-		modifier = {
-			factor = 4
-			modern_divisional_structure = 1
-		}
-		modifier = {
-			factor = -6
-			not = { invention = medium_artillery }
-		}
-	}
-	effect = {
-		artillery = {
-			attack = 1
-			support = 0.1
-			supply_consumption = 0.25
-		}
-	}
-}
-#military_staff_system
-cuirassier_activation = {
-	limit = { military_staff_system = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = -2
-			not = { civilized = yes }
-		}
-	}
-	effect = {
+		effect = {
 		activate_unit = cuirassier
-	}
-}
-dragoon_activation = {
-	limit = { military_staff_system = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = -2
-			not = { civilized = yes }
 		}
-	}
-	effect = {
+}
+#lamellar_armour
+horse_archer_activation = {
+	limit = { lamellar_armour = 1 }
+	chance = {
+		base = 5
+		}
+		effect = {
 		activate_unit = dragoon
-	}
+		}
 }
-hussar_activation = {
-	limit = { military_staff_system = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = -2
-			not = { civilized = yes }
-		}
-	}
-	effect = {
-		activate_unit = hussar 
-	}
-}	
-	
-#military_plans
-telegraph_coordination = {
-	limit = { military_plans = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			army_professionalism = 1
-		}
-		modifier = {
-			factor = 2
-			early_railroad = 1
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 5
-			supply_consumption = 0.10
-		} 
-	}
-}
-
-mobilization_time_tables = {
-	limit = { military_plans = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			invention = telegraph_coordination
-		}
-		modifier = {
-			factor = 2
-			strategic_mobility = 1
-		}
-	}
-	effect = {
-		mobilisation_size = 0.01
-	}
-}
-
-personnel_category_tables = {
-	limit = { military_plans = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			invention = mobilization_time_tables
-		}
-		modifier = {
-			factor = 2
-			scientific_management = 1
-		}
-	}
-	effect = {
-		mobilisation_size = 0.01
-	}
-}
-
-#military_statistics
-infantry_arms_area_effect_calculations = {
-	limit = { military_statistics = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			empiricism = 1
-		}
-		modifier = {
-			factor = 2
-			scientific_management = 1
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 2.5
-			supply_consumption = 0.05
-		} 
-	}
-}
-
-empirical_combat_efficiency_matrix = {
-	limit = { military_statistics = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			empiricism = 1
-		}
-		modifier = {
-			factor = 1
-			breech_loaded_rifles = 1
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 2.5
-			supply_consumption = 0.05
-		} 
-	}
-}
-
-combat_loss_evaluation_schemata = {
-	limit = { military_statistics = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			point_defense_system = 1
-		}
-		modifier = {
-			factor = 2
-			mechanical_production = 1
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 2.5
-			supply_consumption = 0.05
-		} 
-	}
-}
-
-#military_logistics
-pre_planned_depot_systems = {
-	limit = { military_logistics = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			invention = sequence_planning
-		}
-		modifier = {
-			factor = 1
-			invention = distribution_channels
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 2.5
-			supply_consumption = 0.05
-		} 
-	}
-}
-
-logistical_calculations = {
-	limit = { military_logistics = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 3
-			invention = distribution_channels
-		}
-		modifier = {
-			factor = 2
-			iron_railroad = 1
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 2.5
-			supply_consumption = 0.05
-		} 
-	}
-}
-
-replenishment_transport_organisation = {
-	limit = { military_logistics = 1 }
-	chance = {
-		base = 3
-		modifier = {
-			factor = 2
-			invention = logistical_calculations
-		}
-		modifier = {
-			factor = 2
-			iron_railroad = 1
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 2.5
-			supply_consumption = 0.05
-		} 
-	}
-}
-
-#military_directionism
-army_political_lobbying = {
-	limit = { military_directionism = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			state_n_government = 1
-		}
-		modifier = {
-			factor = 2
-			analytic_philosophy = 1
-		}
-	}
-	effect = {
-		mobilisation_economy_impact = -0.05
-	}
-}
-
-army_military_political_decision_making = {
-	limit = { military_directionism = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			army_nco_training = 1
-		}
-		modifier = {
-			factor = 2
-			invention = political_science
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 2.5
-			supply_consumption = 0.05
-		} 
-	}
-}
-
-army_local_military_government = {
-	limit = { military_directionism = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			nationalism_n_imperialism = 1
-		}
-		modifier = {
-			factor = 2
-			invention = dogma_of_violence
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 2.5
-			supply_consumption = 0.05
-		} 
-	}
-}
-
-#aeronautics
-military_aviation = {
-	limit = { muzzle_loaded_rifles = 1 }
-	chance = {
-		base = 20
-	}
-	effect = {
-		activate_unit = plane
-	}
-}
-early_interwar_bombers = {
-	limit = { aeronautics = 1 }
-	chance = {
-		base = 50
-		modifier = {
-			factor = -50
-			not = { invention = military_aviation }
-		}
-		modifier = {
-			factor = -50
-			NOT = { year = 1916 }
-		}
-	}
-	effect = {
-		plane = {
-			attack = 2
-			defence = 1
-			support = 1
-		}
-	}
-}
-late_interwar_bombers = {
-	limit = { aeronautics = 1 }
+war_elephant_activation = {
+	limit = { lamellar_armour = 1 }
 	chance = {
 		base = 5
-		modifier = {
-			factor = 2
-			indirect_artillery_fire = 1
 		}
-		modifier = {
-			factor = -12
-			not = { invention = early_interwar_bombers }
+		effect = {
+		activate_unit = hussar
 		}
-		modifier = {
-			factor = -12
-			NOT = { year = 1920 }
-		}
-	}
-	effect = {
-		plane = {
-			attack = 3
-			defence = 1.5
-			support = 1
-		}
-	}
 }
-early_interwar_fighters = {
-	limit = { aeronautics = 1 }
+gas_attack_capability = {
+	limit = { lamellar_armour = 1 }
 	chance = {
-		base = 50
+		base = 0
 		modifier = {
-			factor = -50
-			not = { invention = military_aviation }
+			factor = 100
+			OR = {
+			has_country_flag = mongol_empire
+			has_country_flag = great_khan_mongolia
+			has_country_flag = steppe_warfare_adopted
+			}
 		}
 		modifier = {
-			factor = -50
-			NOT = { year = 1916 }
-		}
+           		factor = 25
+            		OR = {
+            		government = fascist_dictatorship
+            		government = proletarian_dictatorship
+            		  }
+        	}	
 	}
 	effect = {
-		plane = {
-			attack = 1
-			defence = 0.7
-		}
+		gas_attack = yes
 	}
 }
-late_interwar_fighters = {
-	limit = { aeronautics = 1 }
+#barding
+false_retreat = {
+	limit = { barding = 1 }
 	chance = {
 		base = 5
-		modifier = {
-			factor = 2
-			modern_army_doctrine = 1
 		}
-		modifier = {
-			factor = -52
-			not = { invention = early_interwar_fighters }
+		effect = {
+			dragoon = {
+				attack = 2
+			}
 		}
-		modifier = {
-			factor = -52
-			NOT = { year = 1920 }
-		}
-	}
-	effect = {
-		plane = {
-			attack = 2
-			defence = 1.5
-		}
-	}
 }
-t_air_superiority = {
-	limit = { aeronautics = 1 }
-	chance = {
-		base = 20
-		modifier = {
-			factor = 1
-			shift_work = 1
-		}
-		modifier = {
-			factor = 2
-			modern_divisional_structure = 1
-		}
-		modifier = {
-			factor = -23
-			not = { invention = military_aviation }
-		}
-	}
-	effect = {
-		plane = {
-			attack = 2
-			defence = 0.6
-			discipline = 0.45
-			default_organisation = 5
-		}
-	}
-}
-flying_circus_doctrine = {
-	limit = { aeronautics = 1 }
-	chance = {
-		base = 50
-		modifier = {
-			factor = 2
-			invention = t_air_superiority
-		}
-		modifier = {
-			factor = 1
-			invention = logistical_calculations
-		}
-		modifier = {
-			factor = -53
-			not = { invention = military_aviation }
-		}
-		modifier = {
-			factor = -53
-			NOT = { year = 1916 }
-		}
-	}
-	effect = {
-		plane = {
-			attack = 1
-			defence = 0.9
-			default_organisation = 5
-		}
-	}
-}
-force_substitution_doctrine = {
-	limit = { aeronautics = 1 }
-	chance = {
-		base = 50
-		modifier = {
-			factor = 2
-			invention = t_air_superiority
-		}
-		modifier = {
-			factor = 2
-			analytic_philosophy = 1
-		}
-		modifier = {
-			factor = -54
-			not = { invention = military_aviation }
-		}
-		modifier = {
-			factor = -54
-			NOT = { year = 1916 }
-		}
-	}
-	effect = {
-		plane = {
-			attack = 0.5
-			defence = 0.5
-			default_organisation = 5
-		}
-	}
-}
-battlefield_destruction_doctrine = {
-	limit = { aeronautics = 1 }
-	chance = {
-		base = 20
-		modifier = {
-			factor = 2
-			invention = flying_circus_doctrine
-		}
-		modifier = {
-			factor = 2
-			invention = force_substitution_doctrine
-		}
-		modifier = {
-			factor = -24
-			not = { invention = military_aviation }
-		}
-	}
-	effect = {
-		plane = {
-			attack = 0.5
-			support = 1
-			default_organisation = 5
-		}
-	}
-}
-operational_destruction_doctrine = {
-	limit = { aeronautics = 1 }
+schynbald = {
+	limit = { barding = 1 }
 	chance = {
 		base = 5
-		modifier = {
-			factor = 2
-			invention = flying_circus_doctrine
 		}
-		modifier = {
-			factor = 2
-			invention = force_substitution_doctrine
+		effect = {
+			cuirassier = {
+				attack = 1
+				defence =1
+			}
 		}
-		modifier = {
-			factor = -14
-			not = { invention = military_aviation }
-		}
-		modifier = {
-			factor = -14
-			NOT = { year = 1920 }
-		}
-	}
-	effect = {
-		plane = {
-			attack = 0.5
-			discipline = 0.45
-			support = 1
-			default_organisation = 5
-		}
-	}
 }
-strategic_destruction_doctrine = {
-	limit = { aeronautics = 1 }
+#partial_plate
+courser = {
+	limit = { partial_plate = 1 }
 	chance = {
-		base = 40
-		modifier = {
-			factor = 2
-			invention = flying_circus_doctrine
+		base = 5
 		}
-		modifier = {
-			factor = 2
-			invention = force_substitution_doctrine
+		effect = {
+			cavalry = {
+				attack = 2
+				defence = 1
+			}
+			dragoon = {
+				attack = 2
+				defence = 1
+			}
 		}
-		modifier = {
-			factor = -44
-			not = { invention = military_aviation }
-		}
-	}
-	effect = {
-		plane = {
-			reconnaissance = 2
-			default_organisation = 5
-		}
-	}
 }
-#army_professionalism
-army_academic_training = {
-	limit = { army_professionalism = 1 }
+cuisse = {
+	limit = { partial_plate = 1 }
 	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			idealism = 1
+		base = 5
 		}
-		modifier = {
-			factor = 2
-			ideological_thought = 1
+		effect = {
+			cavalry = {
+				attack = 1
+				defence =1
+			}
 		}
-	}
-	effect = {
-		morale = 0.15
-	}
 }
+#horse_mail
+horseman_pick = {
+	limit = { horse_mail = 1 }
+	chance = {
+		base = 5
+		}
+		effect = {
+			cavalry = {
+				attack = 1
+			}
+			cuirassier = {
+				attack = 1
+			}
 
-field_training = {
-	limit = { army_professionalism = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			muzzle_loaded_rifles = 1
 		}
-		modifier = {
-			factor = 1
-			strategic_mobility = 1
-		}
-	}
-	effect = {
-		mobilisation_economy_impact = -0.05
-	}
 }
-
-army_societal_status = {
-	limit = { army_professionalism = 1 }
+composite_bow = {
+	limit = { horse_mail = 1 }
 	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			romanticism = 1
+		base = 5
 		}
-		modifier = {
-			factor = 2
-			realism = 1
+		effect = {
+			dragoon = {
+				attack = 2
+			}
 		}
-	}
-	effect = {
-		mobilisation_economy_impact = -0.05
-	}
 }
-
-#army_decision_making
-army_independent_command = {
-	limit = { army_decision_making = 1 }
+#destrier
+heavy_lance = {
+	limit = { destrier = 1 }
 	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			ideological_thought = 1
+		base = 5
 		}
-		modifier = {
-			factor = 2
-			positivism = 1
+		effect = {
+			cuirassier = {
+				attack = 1
+			}
 		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 2.5
-		}
-	}
 }
-
-army_continuous_issuing_of_orders = {
-	limit = { army_decision_making = 1 }
+#lance_fournie
+morning_star = {
+	limit = { lance_fournie = 1 }
 	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			invention = sequence_planning
+		base = 5
 		}
-		modifier = {
-			factor = 2
-			state_n_government = 1
+		effect = {
+			cuirassier = {
+				attack = 1
+				defence = 2
+			}
 		}
-	}
-	effect = {
-		army_base = {
-			maximum_speed = 1
-		}
-	}
 }
-
-army_delegated_power = {
-	limit = { army_decision_making = 1 }
+curb_bit = {
+	limit = { lance_fournie = 1 }
 	chance = {
-		base = 2
-		modifier = {	
-			factor = 1
-			invention = distribution_channels
+		base = 5
 		}
-		modifier = {
-			factor = 2
-			invention = telegraph_coordination
+		effect = {
+			cavalry = {
+				attack = 2
+				defence = 2
+			}
+			cuirassier = {
+				attack = 2
+			}
 		}
-
-	}
-	effect = {
-		morale = 0.3
-	}
 }
-
-#army_risk_management
-army_wargames = {
-	limit = { army_risk_management = 1 }
+#horse_plate
+long_distance_scout = {
+	limit = { horse_plate = 1 }
 	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			state_n_government = 1
+		base = 5
 		}
-		modifier = {
-			factor = 1
-			invention = staff_command_support 
+		effect = {
+			cavalry = {
+				attack = 3
+				defence = 2
+			}
 		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 2.5
-		}
-	}
 }
+#dismounted_knights
 
-army_alternative_plans = {
-	limit = { army_risk_management = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			nationalism_n_imperialism = 1
-		}
-		modifier = {
-			factor = 2
-			empiricism = 1
-		}
-	}
-	effect = {
-		army_base = {
-			maximum_speed = 1
-		}
-		cuirassier = {
-			maximum_speed = 1
-		}
-		dragoon = {
-			maximum_speed = 1
-		}
-		hussar = {
-			maximum_speed = 1
-		}
-		cavalry = {
-			maximum_speed = 1
-		}
-	}
-}
-
-saddle_orders = {
-	limit = { army_risk_management = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			invention = i_empiricism
-		}
-		modifier = {
-			factor = 2
-			invention = trench_systems
-		}
-	}
-	effect = {
-		morale = 0.3
-	}
-}
-
-#army_nco_training
-army_literate_ncos = {
-	limit = { army_nco_training = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			invention = army_academic_training
-		}
-		modifier = {
-			factor = 2
-			functionalism = 1
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 5
-		}
-	}
-}
-
-nco_field_training = {
-	limit = { army_nco_training = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			invention = field_training
-		}
-		modifier = {
-			factor = 2
-			iron_railroad = 1
-		}
-	}
-	effect = {
-		army_base = {
-			maximum_speed = 1
-		}
-	}
-}
-
-army_nco_tactical_training = {
-	limit = { army_nco_training = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			invention = nco_field_training
-		}
-		modifier = {
-			factor = 3
-			modern_army_doctrine = 1
-		}
-	}
-	effect = {
-		morale = 0.5
-	}
-}
+#full_plate
