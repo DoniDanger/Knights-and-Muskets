@@ -1,0 +1,166 @@
+#############################################;;;;;;;;;;;;;;x
+army_doctrine;Military Engineering;;;;;;;;;;;;;x
+motte_and_bailey;Motte and Bailey Keeps;;;;;;;;;;;;;x
+shell_keep;Shell Keeps;;;;;;;;;;;;;x
+advanced_siege;Advanced Siege Engines;;;;;;;;;;;;;x
+stone_castle;Stone Castles;;;;;;;;;;;;;x
+concentric_castle;Concentric Castles;;;;;;;;;;;;;x
+machicolation;Machicolations;;;;;;;;;;;;;x
+early_bombard;Early Bombards;;;;;;;;;;;;;x
+late_castle;Late Medieval Castles;;;;;;;;;;;;;x
+artillery_castle;Artillery Castles;;;;;;;;;;;;;x
+gunpowder_siege;Gunpowder Siege Revolution;;;;;;;;;;;;;x
+trou_de_loup;Trou de Loup;;;;;;;;;;;;;x
+mangonel_activation;Siege Engines;;;;;;;;;;;;;x
+bailiff;Bailiffs;;;;;;;;;;;;;x
+cheval_de_frise;Cheval de Frise;;;;;;;;;;;;;x
+counterweight_trebuchet;Counterweight Trebuchet;;;;;;;;;;;;;x
+advanced_counterweight_trebuchet;Advanced Counterweight Trebuchet Construction;;;;;;;;;;;;;x
+abatis;Abatisses;;;;;;;;;;;;;x
+heavy_garrison;Heavy Garrisons;;;;;;;;;;;;;x
+special_siege_ammo;Specialised Siege Ammunition;;;;;;;;;;;;;x
+late_medieval_trebuchet;Late Medieval Trebuchet;;;;;;;;;;;;;x
+bombard_activation;Early Bombards;;;;;;;;;;;;;x
+bombard_carriage;Bombard Carriages;;;;;;;;;;;;;x
+culverin;Culverin;;;;;;;;;;;;;x
+corned_gunpowder;Corned Gunpowder;;;;;;;;;;;;;x
+sappers;Sapper Units;;;;;;;;;;;;;x
+ribauldequin;Ribauldequin;;;;;;;;;;;;;x
+flaming_projectile;Flaming Projectiles;;;;;;;;;;;;;x
+large_calibre_cannon;Large-Calibre Cannons;;;;;;;;;;;;;x
+royal_engineer;Royal Engineering Teams;;;;;;;;;;;;;x
+light_armament;Infantry;;;;;;;;;;;;;x
+medieval_infantry;Early Medieval Infantry;;;;;;;;;;;;;x
+specialised_infantry;Specialised Infantry Units;;;;;;;;;;;;;x
+high_medieval_infantry;High Medieval Infantry;;;;;;;;;;;;;x
+longbow;Longbows;;;;;;;;;;;;;x
+banded_mail;Banded Mail;;;;;;;;;;;;;x
+pike_revival;Pike Revival;;;;;;;;;;;;;x
+heavy_body_armour;Heavy Body Armour;;;;;;;;;;;;;x
+gunpowder_infantry;Gunpowder Infantry;;;;;;;;;;;;;x
+infantry_revolution;Infantry Revolution;;;;;;;;;;;;;x
+late_medieval_infantry;Late Medieval Infantry;;;;;;;;;;;;;x
+early_medieval_infantry;Early Medieval Infantry;;;;;;;;;;;;;x
+infantry_activation;Infantry;;;;;;;;;;;;;x
+archer_activation;Archers;;;;;;;;;;;;;x
+pikeman_activation;Pikemen;;;;;;;;;;;;;x
+crossbowman_activation;Crossbowmen;;;;;;;;;;;;;x
+man_at_arms_activation;Men-at-Arms;;;;;;;;;;;;;x
+welsh_bow;Welsh Longbow;;;;;;;;;;;;;x
+longsword;Longsword;;;;;;;;;;;;;x
+flanged_mace;Flanged Mace;;;;;;;;;;;;;x
+fechtbuch;Fechtbücher;;;;;;;;;;;;;x
+bodkin_arrowhead;Bodkin Arrowheads;;;;;;;;;;;;;x
+crossbow_advance;Crossbow Technology Advancements;;;;;;;;;;;;;x
+english_longbow;English Longbow;;;;;;;;;;;;;x
+brigandine;Brigandine;;;;;;;;;;;;;x
+genoa_tactic;Geneoese Crossbowmen Tactics;;;;;;;;;;;;;x
+banded_mail_hauberk;Banded Mail Hauberk;;;;;;;;;;;;;x
+banded_mail_coif;Banded Mail Coif;;;;;;;;;;;;;x
+falchion;Falchion;;;;;;;;;;;;;x
+bow_training;Mandatory Bow Training;;;;;;;;;;;;;x
+arbalest;Arbalest;;;;;;;;;;;;;x
+walpurgis_manuscript;Walpurgis Manuscript;;;;;;;;;;;;;x
+european_pike;European Pike;;;;;;;;;;;;;x
+goedendag;Goedendag;;;;;;;;;;;;;x
+heavy_longbow;Heavy Longbow;;;;;;;;;;;;;x
+crossbow_windlass;Crossbow Windlass;;;;;;;;;;;;;x
+pavise;Pavise;;;;;;;;;;;;;x
+cuirass;Cuirass;;;;;;;;;;;;;x
+bascinet;Bascinet;;;;;;;;;;;;;x
+masterwork_bow;Masterwork Bows;;;;;;;;;;;;;x
+masterwork_crossbow;Masterwork Crossbows;;;;;;;;;;;;;x
+handcannon;Handcannon;;;;;;;;;;;;;x
+bill;Bill;;;;;;;;;;;;;x
+baton_a_feu;Bâton a feu;;;;;;;;;;;;;x
+bardiche;Bardiche;;;;;;;;;;;;;x
+mass_longbow;Mass Longbow Deployment;;;;;;;;;;;;;x
+le_jeu_de_la_hache;Le Jeu de la Hache;;;;;;;;;;;;;x
+flos_duellatorum;Flos Duellatorum;;;;;;;;;;;;;x
+lucerne_hammer;Lucerne Hammer;;;;;;;;;;;;;x
+longbow_tradition;Longbow Tradition;;;;;;;;;;;;;x
+late_medieval_firearm;Late Medieval Firearms;;;;;;;;;;;;;x
+heavy_armament;Cavalry;;;;;;;;;;;;;x
+medieval_cavalry;Medieval Cavalry;;;;;;;;;;;;;x
+early_medieval_cavalry;Early Medieval Cavalry;;;;;;;;;;;;;x
+heavy_cavalry_activation;Heavy Cavalry;;;;;;;;;;;;;x
+lamellar_armour;Lamellar Armour;;;;;;;;;;;;;x
+horse_archer_activation;Horse Archers;;;;;;;;;;;;;x
+war_elephant_activation;War Elephants;;;;;;;;;;;;;x
+archer_platform;Archer Platforms;;;;;;;;;;;;;x
+barding;Barding;;;;;;;;;;;;;x
+false_retreat;False Retreat;;;;;;;;;;;;;x
+schynbald;Schynbalds;;;;;;;;;;;;;x
+partial_plate;Partial Plate Armour;;;;;;;;;;;;;x
+courser;Coursers;;;;;;;;;;;;;x
+cuisse;Cuisses;;;;;;;;;;;;;x
+horse_mail;Mail Horse Armour;;;;;;;;;;;;;x
+horseman_pick;Horseman's Pick;;;;;;;;;;;;;x
+composite_bow;Composite Bow;;;;;;;;;;;;;x
+destrier;Destrier Breeding;;;;;;;;;;;;;x
+heavy_lance;Heavy Lance Tips;;;;;;;;;;;;;x
+lance_fournie;Lance Fournies;;;;;;;;;;;;;x
+curb_bit;Curb Bits;;;;;;;;;;;;;x
+horse_plate;Plate Horse Armour;;;;;;;;;;;;;x
+thunder_bomb;Thunder Crash Bomb;;;;;;;;;;;;;x
+dismounted_knights;Dismounted Knights;;;;;;;;;;;;;x
+mobile_armour;Armoured Mobility;;;;;;;;;;;;;x
+full_plate;Full Plate Armour;;;;;;;;;;;;;x
+fire_lance;Flying-Fire Spear;;;;;;;;;;;;;x
+elephant_stat_boost_1;War Elephant Improvements 1;;;;;;;;;;;;;x
+elephant_stat_boost_2;War Elephant Improvements 2;;;;;;;;;;;;;x
+elephant_stat_boost_3;War Elephant Improvements 3;;;;;;;;;;;;;x
+elephant_stat_boost_4;War Elephant Improvements 4;;;;;;;;;;;;;x
+elephant_stat_boost_5;War Elephant Improvements 5;;;;;;;;;;;;;x
+elephant_stat_boost_6;War Elephant Improvements 6;;;;;;;;;;;;;x
+elephant_stat_boost_7;War Elephant Improvements 7;;;;;;;;;;;;;x
+military_science;Recruitment and Logistics;;;;;;;;;;;;;x
+feudal_levy;Feudal Levies;;;;;;;;;;;;;x
+scutage;Scutage;;;;;;;;;;;;;x
+scutage_obligation;Scutage Obligations;;;;;;;;;;;;;x
+levy_rotation;Rotation of Levies;;;;;;;;;;;;;x
+fresh_troops;Fresh Troop Reinforcements;;;;;;;;;;;;;x
+rotation;Regular Levy Rotation;;;;;;;;;;;;;x
+arriere_ban;Arriere-Ban;;;;;;;;;;;;;x
+freemen_levy;Freemen Levies;;;;;;;;;;;;;x
+better_levy;Freemen Levies;;;;;;;;;;;;;x
+camp_follower;Camp Followers;;;;;;;;;;;;;x
+noble_retinues;Noble Retinues;;;;;;;;;;;;;x
+noble_estate_recruit;Noble Estate Recruits;;;;;;;;;;;;;x
+noble_leadership;Noble Leadership;;;;;;;;;;;;;x
+guild_militia;Guild-Equipped Militias;;;;;;;;;;;;;x
+guild_equipment;Guild-Provided Equipment;;;;;;;;;;;;;x
+guild_troops;Guild Troops;;;;;;;;;;;;;x
+purveyance;Purveyance;;;;;;;;;;;;;x
+royal_purveyance;Royal Purveyance;;;;;;;;;;;;;x
+chevauchee;Chevauchée;;;;;;;;;;;;;x
+chevauchee_raid;Chevauchée Raiding;;;;;;;;;;;;;x
+routiers;Routiers;;;;;;;;;;;;;x
+veteran_merc_advisor;;;;;;;;;;;;;x
+standing_army;Standing Armies;;;;;;;;;;;;;x
+standing_army_inv;Standing Army;;;;;;;;;;;;;x
+army_leadership;Tactics;;;;;;;;;;;;;x
+early_medieval_tactics;Early Medieval Tactics;;;;;;;;;;;;;x
+decisive_charge;Decisive Cavalry Charge;;;;;;;;;;;;;x
+strategikon;Strategikon of Kekaumenos;;;;;;;;;;;;;x
+knight_charge;Knightly Charge;;;;;;;;;;;;;x
+high_medieval_tactics;High Medieval Tactics;;;;;;;;;;;;;x
+company_captain;Company Captains;;;;;;;;;;;;;x
+tight_formation;Tight Formations;;;;;;;;;;;;;x
+mongol_lesson;Lessons of Mongol Invasion;;;;;;;;;;;;;x
+company_excercise;Company Excercises;;;;;;;;;;;;;x
+heraldic_flag;Heraldic Banners;;;;;;;;;;;;;x
+martial_education;Martial Education;;;;;;;;;;;;;x
+semi_professional_army;Semi Professional Army;;;;;;;;;;;;;x
+peacetime_training;Peacetime Training;;;;;;;;;;;;;x
+mercenary_integration;Intergration of Mercenaries;;;;;;;;;;;;;x
+motivated_merc;Motivated Mercenary Troops;;;;;;;;;;;;;x
+schiltron;Schiltron;;;;;;;;;;;;;x
+schiltron_formation;Schiltron Formation;;;;;;;;;;;;;x
+mixed_formation;Mixed Infantry Formations;;;;;;;;;;;;;x
+cavalry_supression;Cavalry Supression;;;;;;;;;;;;;x
+kitab;Kitab fi ma'rifat 'ilm ramy al-siham;;;;;;;;;;;;;x
+infantry_manoeuvre;Infantry Manoeuvres;;;;;;;;;;;;;x
+battlefield_manoeuvre;Battlefield Manoeuvres;;;;;;;;;;;;;x
+deep_line;Deep Defensive Lines;;;;;;;;;;;;;x
+deep_defense_line;Deep Lines of Defense;;;;;;;;;;;;;x
