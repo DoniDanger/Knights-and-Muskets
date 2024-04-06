@@ -40,7 +40,7 @@ hussar = { #war elephant
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 5
+	attack = 7
 	defence = 5
 	discipline = 1
 	support = 0.2
