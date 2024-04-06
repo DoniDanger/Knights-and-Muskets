@@ -49,7 +49,7 @@ man_at_arms_activation;Men-at-Arms;;;;;;;;;;;;;x
 welsh_bow;Welsh Longbow;;;;;;;;;;;;;x
 longsword;Longsword;;;;;;;;;;;;;x
 flanged_mace;Flanged Mace;;;;;;;;;;;;;x
-fechtbuch;Fechtbücher;;;;;;;;;;;;;x
+fechtbuch;FechtbÃ¼cher;;;;;;;;;;;;;x
 bodkin_arrowhead;Bodkin Arrowheads;;;;;;;;;;;;;x
 crossbow_advance;Crossbow Technology Advancements;;;;;;;;;;;;;x
 english_longbow;English Longbow;;;;;;;;;;;;;x
@@ -72,7 +72,7 @@ masterwork_bow;Masterwork Bows;;;;;;;;;;;;;x
 masterwork_crossbow;Masterwork Crossbows;;;;;;;;;;;;;x
 handcannon;Handcannon;;;;;;;;;;;;;x
 bill;Bill;;;;;;;;;;;;;x
-baton_a_feu;Bâton a feu;;;;;;;;;;;;;x
+baton_a_feu;BÃ¢ton a feu;;;;;;;;;;;;;x
 bardiche;Bardiche;;;;;;;;;;;;;x
 mass_longbow;Mass Longbow Deployment;;;;;;;;;;;;;x
 le_jeu_de_la_hache;Le Jeu de la Hache;;;;;;;;;;;;;x
@@ -100,6 +100,7 @@ composite_bow;Composite Bow;;;;;;;;;;;;;x
 destrier;Destrier Breeding;;;;;;;;;;;;;x
 heavy_lance;Heavy Lance Tips;;;;;;;;;;;;;x
 lance_fournie;Lance Fournies;;;;;;;;;;;;;x
+morning_star;Morning Star;;;;;;;;;;;;;x
 curb_bit;Curb Bits;;;;;;;;;;;;;x
 horse_plate;Plate Horse Armour;;;;;;;;;;;;;x
 thunder_bomb;Thunder Crash Bomb;;;;;;;;;;;;;x
@@ -133,8 +134,8 @@ guild_equipment;Guild-Provided Equipment;;;;;;;;;;;;;x
 guild_troops;Guild Troops;;;;;;;;;;;;;x
 purveyance;Purveyance;;;;;;;;;;;;;x
 royal_purveyance;Royal Purveyance;;;;;;;;;;;;;x
-chevauchee;Chevauchée;;;;;;;;;;;;;x
-chevauchee_raid;Chevauchée Raiding;;;;;;;;;;;;;x
+chevauchee;ChevauchÃ©e;;;;;;;;;;;;;x
+chevauchee_raid;ChevauchÃ©e Raiding;;;;;;;;;;;;;x
 routiers;Routiers;;;;;;;;;;;;;x
 veteran_merc_advisor;;;;;;;;;;;;;x
 standing_army;Standing Armies;;;;;;;;;;;;;x
