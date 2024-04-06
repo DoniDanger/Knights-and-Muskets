@@ -510,10 +510,6 @@ dismounted_knights = {
 	cost = 36200
 	unciv_military = yes
 
-	cavalry = {
-		attack = 2
-		defence = 4
-		}
 	cuirassier = {
 		attack = 3
 		defence = 5
