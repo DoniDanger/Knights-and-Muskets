@@ -406,10 +406,6 @@ partial_plate = {
 	cost = 14400
 	unciv_military = yes
 	
-	cavalry = {
-		attack = 1
-		defence = 1
-		}
 	cuirassier = {
 		attack = 1
 		defence = 1
@@ -428,10 +424,6 @@ horse_mail = {
 	cost = 18000
 	unciv_military = yes
 	
-	cavalry = {
-		attack = 1
-		defence = 1
-		}
 	cuirassier = {
 		attack = 1
 		defence = 1
@@ -455,8 +447,8 @@ destrier = {
 	unciv_military = yes
 	
 	cavalry = {
-		attack = 1
-		defence = 1
+		attack = 2
+		defence = 2
 		}
 	cuirassier = {
 		attack = 1
@@ -480,10 +472,6 @@ lance_fournie = {
 	cost = 25200
 	unciv_military = yes
 	
-	cavalry = {
-		attack = 1
-		defence = 1
-		}
 	cuirassier = {
 		attack = 1
 		defence = 1
@@ -502,10 +490,6 @@ horse_plate = {
 	cost = 30200
 	unciv_military = yes
 	
-	cavalry = {
-		attack = 1
-		defence = 1
-		}
 	cuirassier = {
 		attack = 1
 		defence = 1
@@ -524,10 +508,6 @@ dismounted_knights = {
 	cost = 36200
 	unciv_military = yes
 	
-	cavalry = {
-		attack = 1
-		defence = 1
-		}
 	cuirassier = {
 		attack = 1
 		defence = 1
@@ -555,10 +535,6 @@ full_plate = {
 	cost = 36200
 	unciv_military = yes
 	
-	cavalry = {
-		attack = 1
-		defence = 1
-		}
 	cuirassier = {
 		attack = 1
 		defence = 1
