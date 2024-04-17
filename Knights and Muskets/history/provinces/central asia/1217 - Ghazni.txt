@@ -1,5 +1,7 @@
-owner = AFG
-controller = AFG
+owner = WMG
+controller = WMG
+add_core = ILK
+add_core = WMG
 add_core = AFG
 trade_goods = wool
 life_rating = 35

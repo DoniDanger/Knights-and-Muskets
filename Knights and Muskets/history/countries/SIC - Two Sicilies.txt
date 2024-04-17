@@ -2,12 +2,13 @@ capital = 754
 primary_culture = south_german
 culture = south_italian
 religion = catholic
-government = absolute_monarchy
+government = empire
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.35
 civilized = yes
-prestige = 8
+#Greater Power
+prestige = 45
 
 # Political reforms
 slavery = no_slavery

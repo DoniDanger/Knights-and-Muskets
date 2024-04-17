@@ -1,0 +1,25 @@
+name = "Mongol Invasion of Indus"
+
+1221.9.12 = {
+	add_attacker = MGL
+	add_attacker = WMG
+	add_defender = MUL
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = conquest
+		actor = WMG
+		receiver = MUL
+	}
+
+}
+
+1228.6.6 = {
+	rem_attacker = MGL
+	rem_attacker = WMG
+	rem_defender = MUL
+}

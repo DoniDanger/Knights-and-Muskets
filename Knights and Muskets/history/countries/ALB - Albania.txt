@@ -1,6 +1,5 @@
 capital = 849
-primary_culture = greek
-culture = albanian
+primary_culture = albanian
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.4

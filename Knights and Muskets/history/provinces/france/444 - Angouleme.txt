@@ -1,6 +1,6 @@
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = AMG
+controller = AMG
+add_core = AMG
 trade_goods = cattle
 life_rating = 32
 1861.1.1 = { railroad = 3 }

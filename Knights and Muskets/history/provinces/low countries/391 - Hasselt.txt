@@ -1,8 +1,7 @@
-owner = LOR
-controller = LOR
-add_core = LOR
+owner = BRB
+controller = BRB
+add_core = BRB
 add_core = GER
-add_core = FLA
 trade_goods = coal
 life_rating = 35
 1861.1.1 = { railroad = 3 }

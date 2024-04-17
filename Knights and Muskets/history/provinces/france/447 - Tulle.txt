@@ -1,5 +1,5 @@
-owner = OCC
-controller = OCC
-add_core = OCC
+owner = AMG
+controller = AMG
+add_core = AMG
 trade_goods = apiculture
 life_rating = 32

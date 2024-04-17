@@ -246,10 +246,6 @@ BAN_anarcho_liberal;The Libertains;Faction radicale;Die radikale Fraktion;;;;;;;
 BAN_socialist;The Socialists;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;x
 BAN_communist;The Communists;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;x
 BAN_fascist;The Nationalist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;x
-BAR;Barbados;;;;;;;;;;;;x
-BAR_ADJ;Barbadian;;;;;;;;;;;;x
-BHM;Bahamas;;;;;;;;;;;;x
-BHM_ADJ;Bahamian;;;;;;;;;;;;x
 BHR;Bahrain;;;;;;;;;;;;x
 BHR_ADJ;Bahraini;;;;;;;;;;;;x
 BHR_reactionary;Hizb al-Hashemiyya al-Urduni;;;;;;;;;;;;;x
@@ -398,21 +394,6 @@ CYR_anarcho_liberal;The Radical Faction;;;;;;;;;;;;x
 CYR_socialist;The Socialist Faction;;;;;;;;;;;;x
 CYR_communist;The Communist Faction;;;;;;;;;;;;x
 CYR_fascist;The Fascist Faction;;;;;;;;;;;;x
-DAG;Caucasian Imamate;;;;;;;;;;;;;x
-DAG_ADJ;Dagestani;;;;;;;;;;;;;x
-DAG_presidential_dictatorship;Dagestan;;;;;;;;;;;;;x
-DAG_proletarian_dictatorship;Dagestan;;;;;;;;;;;;;x
-DAG_bourgeois_dictatorship;Dagestan;;;;;;;;;;;;;x
-DAG_democracy;Dagestan;;;;;;;;;;;;;x
-DAG_fascist_dictatorship;Dagestan;;;;;;;;;;;;;x
-DAG_liberal;Liberal Party;;;;;;;;;;;;;x
-DAG_conservative;Conservative Party;;;;;;;;;;;;;x
-DAG_socialist;Socialist Party;;;;;;;;;;;;;x
-DAG_reactionary;Nationalist Party;;;;;;;;;;;;;x
-DAG_anarcho_liberal;Radical Party;;;;;;;;;;;;;x
-DAG_communist;Communist Party;;;;;;;;;;;;;x
-DAG_fascist;Fascist Party;;;;;;;;;;;;;x
-DAG_conservative;Royal Faction;;;;;;;;;;;;;x
 DAK;Dakota Republic;;;;;;;;;;;;x;;;
 DAK_ADJ;Dakotan;;;;;;;;;;;;x;;;
 DAK_absolute_monarchy;Dakota Commonwealth;;;;;;;;;;;;x;
@@ -559,8 +540,6 @@ GLC_socialist;Partido Socialista;Partido Socialista;Partido Socialista;;;;;;;;;;
 GLC_communist;Federación Regional;Federación Regional;Federación Regional;;;;;;;;;;;;x;;;;;;;;;;;;;;
 GLC_anarcho_liberal;Partido Radical;Partido Radical;Partido Radical;;;;;;;;;;;;x;;;;;;;;;;;;;;
 GLC_fascist;Partido Fascist;Falange;Falange;;;;;;;;;;;;x;;;;;;;;;;;;;;
-GLM;Galicia-Lodomeria;Galicie-Lodomerie;Galizien-Lodomerien;;Galitzia-Lodomeria;;;;;;;;;;x;;;;;;;;;;;;;;
-GLM_ADJ;Galician;Galicien;Galiziener;;Galiciano;;;;;;;;;;x;;;;;;;;;;;;;;
 GMB;Gambia;;;;;;;;;;;;x
 GMB_ADJ;Gambian;;;;;;;;;;;;x
 GMJ;Guominjun;;;;;;;;;;;;;x
@@ -1129,25 +1108,6 @@ OAX_anarcho_liberal;Radical Party;;;;;;;;;;;;x
 OAX_socialist;Socialist Party;;;;;;;;;;;;x
 OAX_communist;Communist Party;;;;;;;;;;;;x
 OAX_fascist;Fascist Party;;;;;;;;;;;;x
-OCC;Occitania;Occitanie;Occitania;;Occitania;;;;;;;;;x
-OCC_ADJ;Occitan;Occitain;Occitanisch;;Occitano;;;;;;;;;x
-OCC_reactionary;Partit Reiau-Alo;Partit Reiau-Alo;Partit Reiau-Alo;;Partit Reiau-Alo;;;;;;;;;;;x
-OCC_liberal;Partit de lo Nacioun Óucitano;Partit de lo Nacioun Óucitano;Partit de lo Nacioun Óucitano;;;;;;;;;;;x
-OCC_conservative;Partit Counservadouro;Partit Counservadouro;Partit Counservadouro;;Partit Counservadouro;;;;;;;;;;;x
-OCC_socialist;Partit Soucialisto;Partit Soucialisto;Partit Soucialisto;;Partit Soucialisto;;;;;;;;;;;x
-OCC_anarcho_liberal;Partit Anarquisto;Partit Anarquisto;Partit Anarquisto;;Partit Anarquisto;;;;;;;;;;;x
-OCC_communist;Partit Comunisto;Partit Comunisto;Partit Comunisto;;Partit Comunisto;;;;;;;;;;;x
-OCC_fascist;Partit Faissisto;Partit Faissisto;Partit Faissisto;;Partit Faissisto;;;;;;;;;;;x
-PAP_democracy;Roman Republic;;;;;;;;;;;;;x
-PAP_presidential_dictatorship;Roman Republic;;;;;;;;;;;;;x
-PAP__bourgeois_dictatorship;Roman Republic;;;;;;;;;;;;;x
-PAP_proletarian_dictatorship;Roman People's Republic;;;;;;;;;;;;;x
-PAP_fascist_dictatorship;Roman Republic;;;;;;;;;;;;;x
-PAP_ADJ_democracy;Roman;;;;;;;;;;;;;x
-PAP_ADJ_presidential_dictatorship;Roman;;;;;;;;;;;;;x
-PAP_ADJ__bourgeois_dictatorship;Roman;;;;;;;;;;;;;x
-PAP_ADJ_proletarian_dictatorship;Roman;;;;;;;;;;;;;x
-PAP_ADJ_fascist_dictatorship;Roman;;;;;;;;;;;;;x
 PAR_reactionary;Restaurazionisti;Restaurazionisti;Restaurazionisti;;Restaurazionis ti;;;;;;;;;x
 PAR_conservative;Moderati ;Moderati ;Moderati;;Moderati ;;;;;;;;;x
 PAR_liberal;Riformisti ;Riformisti ;Riformisti;;Riformisti ;;;;;;;;;x
@@ -1232,8 +1192,6 @@ PTG_anarcho_liberal;The Radical Faction;;;;;;;;;;;;x
 PTG_socialist;The Socialist Faction;;;;;;;;;;;;x
 PTG_communist;The Communist Faction;;;;;;;;;;;;x
 PTG_fascist;The Fascist Faction;;;;;;;;;;;;x
-PZN;Poznan;Poznan;Poznan;;Poznan;;;;;;;;;;x;;;;;;;;;;;;;;
-PZN_ADJ;Poznan;Poznan;Poznan;;Poznan;;;;;;;;;;x;;;;;;;;;;;;;;
 QLD;Queensland;Queensland;Queensland;;;;;;;;;;;x
 QLD_ADJ;Queenslander;Queenslander;Queenslander;;;;;;;;;;;x
 QLD_conservative;Conservative Faction;Conservative Faction;Conservative Faction;;;;;;;;;;;x
@@ -1311,12 +1269,6 @@ RPL;Assiniboia;;;;;;;;;;;;x
 RPL_ADJ;Assiniboian;;;;;;;;;;;;x
 RPL_hms_government;Rupert's Land;;;;;;;;;;;;x
 RPL_hms_government_ADJ;Northwestern;;;;;;;;;;;;x
-RUT_proletarian_dictatorship;West Ukrainian People's Republic;;;;;;;;;;;;;x
-RUT_proletarian_dictatorship_ADJ;West Ukrainian;;;;;;;;;;;;;x
-RUT_democracy;West Ukraine;;;;;;;;;;;;;x
-RUT_democracy_ADJ;West Ukrainian;;;;;;;;;;;;;x
-RUT_presidential_dictatorship;West Ukraine;;;;;;;;;;;;;x
-RUT_presidential_dictatorship_ADJ;West Ukrainian;;;;;;;;;;;;;x
 RYU;Ryukyu;;;;;;;;;;;;;x
 RYU_ADJ;Ryukyuan;;;;;;;;;;;;;x
 RYU_conservative;National Party;;;;;;;;;;;;;x

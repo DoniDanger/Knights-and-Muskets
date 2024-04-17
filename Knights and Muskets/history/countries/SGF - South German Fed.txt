@@ -5,10 +5,9 @@ religion = catholic
 government = absolute_monarchy
 plurality = 0.15
 nationalvalue = nv_order
-literacy = 0.87
+literacy = 0.46
 civilized = yes
-#Greater Power
-prestige = 45
+prestige = 15
 
 # Political reforms
 slavery = yes_slavery

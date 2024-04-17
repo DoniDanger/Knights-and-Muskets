@@ -1,5 +1,5 @@
 owner = BUL
 controller = BUL
 add_core = BUL
-trade_goods = cotton
+trade_goods = salt
 life_rating = 35

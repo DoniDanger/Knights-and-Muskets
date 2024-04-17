@@ -1,16 +1,68 @@
 ;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;\
+KMY;Kumyk;x                                 
+KMY_ADJ;Kumykian;x
+CMN;Kunsag;x                                 
+CMN_ADJ;Kunsag;x
+LZG;Lezgistan;x                                 
+LZG_ADJ;Lezgin;x
+LIH;Dzukija;x                                 
+LIH_ADJ;Dzukijan;x
+DAG;Avaria;x                                 
+DAG_ADJ;Avarian;x
+FOI;County of Foix;x                                 
+FOI_ADJ;Foixan;x
+GLN;Gilan;x                                 
+GLN_ADJ;Gilani;x
+ALN;Alania;x                                 
+ALN_ADJ;Alanian;x
+STY;Styria;x                                 
+STY_ADJ;Styrian;x
+SMG;Samogitia;x                                 
+SMG_ADJ;Samogitian;x
+KIE;Principality of Kiev;x                                 
+KIE_ADJ;Kievan;x
+MNK;Minsk;x                                 
+MNK_ADJ;Minskian;x
+CHY;Durdzuketi;x                                 
+CHY_ADJ;Durdzuketian;x
+PZN;Greater Poland;x                                 
+PZN_ADJ;Polish;x
+KRA;Duchy of Krakow;x                                 
+KRA_ADJ;Krakowian;x
+PRU;Pruthenia;x                                 
+PRU_ADJ;Pruthenian;x
+POL;Kingdom of Poland;x                                 
+POL_ADJ;Polish;x
+BSQ;Kingdom of Navarre;x                                 
+BSQ_ADJ;Navarre;x
+MUL;Mingburnu Khwarazmia;x                                 
+MUL_ADJ;Khawarzmian;x
+ALD;Zayyanid Sultanate;x                                 
+ALD_ADJ;Zayyanid;x
+AUV;County of Auvergne;x                                 
+AUV_ADJ;Auvergnian;x
+AMG;County of Armagnac;x                                 
+AMG_ADJ;Armagnac;x
+BOU;County of Bourbon;x                                 
+BOU_ADJ;Bourbonnais;x
+AVI;Papal Avignon;x                                 
+AVI_ADJ;Papal;x
+CST;Castille;x                                 
+CST_ADJ;Castillian;x
 SPU;Cusco Confederation;x                                 
 SPU_ADJ;Cusco;x
 MRD;Mordvinia;x                                 
 MRD_ADJ;Mordvinian;x
 VLG;Volga Bulgaria;x                                 
 VLG_ADJ;Bulgar;x
-OCC;Duchy of Toulouse;x                                 
+OCC;County of Toulouse;x                                 
 OCC_ADJ;Toulouseian;x
 SGF;Duchy of Swabia;x                                     
 SGF_ADJ;Swabian;x
-SGF_absolute_monarchy;Holy Roman Empire;x      
-SGF_absolute_monarchy_ADJ;Imperial;x                                
+SGF_empire;Holy Roman Empire;x      
+SGF_empire_ADJ;Imperial;x  
+SIC_empire;Holy Roman Empire;x      
+SIC_empire_ADJ;Imperial;x                                  
 GER;Holy Roman Empire;x
 GER_ADJ;Imperial;x    
 MEI;Margraviate of Meissen;x                                 
@@ -58,8 +110,10 @@ ALB;Despotate of Epirus;x
 ALB_ADJ;Epirot;x 
 MCD;Kingdom of Thessalonica;x                                     
 MCD_ADJ;Thessalonican;x   
-TUR;Sultanate of Rum;x                                     
-TUR_ADJ;Rum;x            
+TUR;Ottoman Beylik;x                                     
+TUR_ADJ;Ottoman;x  
+RUM;Sultanate of Rum;x                                     
+RUM_ADJ;Rum;x              
 BRB;Brabant;x                                                  
 BRB_ADJ;Brabantian;x         
 BAR;Bar;x                                                   
@@ -94,20 +148,32 @@ FRI;Free Frisia;x
 FRI_ADJ;Free Frisian;x
 GUE;Guelders;x
 GUE_ADJ;Gelre;x
-UTR;Prince-Bishopric of Utrecht;x
+GLR;Guelders;x
+GLR_ADJ;Gelre;x
+UTR;Utrecht;x
 UTR_ADJ;Utrecht;x
+HLL;Holland;x
+HLL_ADJ;Hollander;x
+HNT;County of Hainaut;x
+HNT_ADJ;Hainaut;x
 UKR;Kingdom of Rus;x
 UKR_ADJ;Rus;x
-RUT;Galicia-Volhynia;x
-RUT_ADJ;Galicia–Volhynian;x
+RUT;Ruthenia;x
+RUT_ADJ;Ruthenian;x
+GLM;Galicia-Volhynia;x
+GLM_ADJ;Galicia–Volhynian;x
 NOV;Republic of Novgorod;x
 NOV_ADJ;Novgorodian;x
-BYE;Principality of Polotsk;x
-BYE_ADJ;Polotskian;x
+BYE;Vitebsk;x
+BYE_ADJ;Vitebskian;x
+PLT;Polotsk;x
+PLT_ADJ;Polotskian;x
 MOR;Almohad Caliphate;x
 MOR_ADJ;Almohad;x
-TUN;Hafsid Kingdom;x
+TUN;Hafsid Sultanate;x
 TUN_ADJ;Hafsid;x
+TUN_autonomous_dependency;Ifriqiya;x
+TUN_autonomous_dependency_ADJ;Ifriqiyan;x
 TRI;Banu Sulaym;x
 TRI_ADJ;Banu Sulaymi;x
 TUS;Florence;x
@@ -442,28 +508,18 @@ BRN;Brandenburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 BRN_ADJ;Brandenburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 BPR;Brandenburg-Prussia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 BPR_ADJ;Brandenburg-Prussian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-CLG;Cologne;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-CLG_ADJ;Cologne;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KOL;Cologne;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KOL_ADJ;Cologne;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 CLV;Cleves;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 CLV_ADJ;Cleves;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-LIE;Liege;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-LIE_democracy;Republic of Liege;;;;;;;;;;;;;x
-LIE_presidential_dictatorship;Republic of Liege;;;;;;;;;;;;;x
-LIE_bourgeois_dictatorship;Republic of Liege;;;;;;;;;;;;;x
-LIE_proletarian_dictatorship;People's Republic of Liege;;;;;;;;;;;;;x
-LIE_fascist_dictatorship;Republic of Liege;;;;;;;;;;;;;x
-LIE_ADJ;Liege;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-LIE_ADJ_democracy;Liege;;;;;;;;;;;;;x
-LIE_ADJ_presidential_dictatorship;Liege;;;;;;;;;;;;;x
-LIE_ADJ_bourgeois_dictatorship;Liege;;;;;;;;;;;;;x
-LIE_ADJ_proletarian_dictatorship;Liege;;;;;;;;;;;;;x
-LIE_ADJ_fascist_dictatorship;Liege;;;;;;;;;;;;;x
+LIG;Liege;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIG_ADJ;Liege;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 LNE;Luneburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 LNE_ADJ;Luneburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-MUN;The Prince-Bishopric of Munster;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MUN;Prince-Bishopric of Munster;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MUN_ADJ;Munster;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-PLT;Imperial Palatinate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-PLT_ADJ;Palatinate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PAL;Imperial Palatinate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PAL_ADJ;Palatinate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 POM;Pomerania;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 POM_ADJ;Pomeranian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 LAU;Saxe-Lauenburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -588,10 +644,14 @@ PER;Persia;x
 PER_ADJ;Persian;x
 PER_absolute_monarchy;The Khwarazmian Empire;x
 PER_absolute_monarchy_ADJ;Khwarazmian;x
-SYR;Zengid Dynasty;x
-SYR_ADJ;Zengid;x
-IRQ;Abbasid Caliphate;x
-IRQ_ADJ;Abbasid;x
+SYR;Emirate of Aleppo;x
+SYR_ADJ;Aleppo;x
+MSL;Emirate of Mosul;x
+MSL_ADJ;Zengid;x
+IRQ;Iraq;x
+IRQ_ADJ;Iraqi;x
+ABB;Abbasid Caliphate;x
+ABB_ADJ;Abbasid;x
 AKK;Aq Qoyunlu;x
 AKK_ADJ;Aq Qoyunlu;x
 DLH;The Delhi Sultanate;x
@@ -669,7 +729,7 @@ ILK;Ilkhanate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ILK_ADJ;Ilkhan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MGL;The Mongol Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MGL_ADJ;Mongolian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-WMG;Western Mongol Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+WMG;Mongyol Ulus;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 WMG_ADJ;Mongolian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MGE;Great Mongol Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MGE_ADJ;Mongolian;;;;;;;;;;;;;;;;;;;;;;;x;;;;

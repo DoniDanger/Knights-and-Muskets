@@ -1,6 +1,7 @@
-owner = MAK
-controller = MAK
+owner = SIN
+controller = SIN
+add_core = SIN
 add_core = MAK
-add_core = HND
+add_core = PER
 trade_goods = wool
 life_rating = 32

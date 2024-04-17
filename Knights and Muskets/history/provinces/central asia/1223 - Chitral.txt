@@ -1,12 +1,8 @@
-owner = DLH
-controller = DLH
+owner = MUL
+controller = MUL
+add_core = MUL
 add_core = DLH
-add_core = PNJ
 add_core = KAS
 add_core = AFG
 trade_goods = grain
 life_rating = 35
-1861.1.1 = {
-	owner = KAS
-	controller = KAS
-}

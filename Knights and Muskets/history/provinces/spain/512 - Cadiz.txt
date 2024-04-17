@@ -1,6 +1,6 @@
-owner = MOR
-controller = MOR
-add_core = MOR
+owner = ALA
+controller = ALA
+add_core = ALA
 trade_goods = fish
 life_rating = 35
 naval_base = 1

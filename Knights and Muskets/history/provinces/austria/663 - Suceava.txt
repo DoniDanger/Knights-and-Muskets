@@ -1,6 +1,6 @@
-owner = RUT
-controller = RUT
-add_core = RUT
-add_core = MOL
+owner = GLM
+controller = GLM
+add_core = GLM
+add_core = UKR
 trade_goods = cattle
 life_rating = 35

@@ -1,8 +1,8 @@
-owner = SLO
-controller = SLO
-add_core = SLO
-add_core = GER
+owner = AUS
+controller = AUS
 add_core = AUS
+add_core = STY
+add_core = GER
 trade_goods = iron
 life_rating = 35
 1861.1.1 = { railroad = 3 }

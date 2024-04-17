@@ -1,5 +1,8 @@
-owner = MAK
-controller = MAK
+owner = WMG
+controller = WMG
+add_core = ILK
+add_core = WMG
 add_core = MAK
+add_core = PER
 trade_goods = wool
 life_rating = 35

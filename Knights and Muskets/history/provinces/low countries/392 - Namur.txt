@@ -1,6 +1,6 @@
-owner = LOR
-controller = LOR
-add_core = LOR
+owner = HNT
+controller = HNT
+add_core = HNT
 add_core = GER
 add_core = WLL
 trade_goods = iron

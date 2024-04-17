@@ -7,109 +7,163 @@ vassal = {
 	end_date = 1859.1.24	
 }
 
-### Holy Roman Empire - Swabian Dynasty ###
-#HRE-Upper Lotharingia
-substate = {
-	first = SGF
-	second = ALS
+### Georgian Kingdom ###
+#Georgia-Trebizond
+vassal = {
+	first = GEO
+	second = PNT
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
-#HRE-Lower Lotharingia
+#Georgia-Zichia
+vassal = {
+	first = GEO
+	second = CIR
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+### Danish Kingdom ###
+#Denmark-Holstein
+vassal = {
+	first = DEN
+	second = HOL
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Denmark-Pommerania
+vassal = {
+	first = DEN
+	second = POM
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Denmark-Mecklenburg
+vassal = {
+	first = DEN
+	second = MEC
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+### Aragonese Dynasty ###
+#Aragon-Provence
+vassal = {
+	first = ARN
+	second = PRO
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+### Almohad Caliphate ###
+#Almohad-Ifriqiya
 substate = {
-	first = SGF
-	second = LOR
+	first = MOR
+	second = TUN
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Almohads-Andalusia
+substate = {
+	first = MOR
+	second = ALA
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+### Ayyubid Sultanate ###
+#Ayyubid-Aleppo
+substate = {
+	first = EGY
+	second = SYR
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+### Capetian Dynasty ###
+#France-Flanders
+vassal = {
+	first = FRA
+	second = FLA
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#France-Bourbon
+substate = {
+	first = FRA
+	second = BOU
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#France-Auvergne
+substate = {
+	first = FRA
+	second = AUV
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#France-Armagnac
+substate = {
+	first = FRA
+	second = AMG
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#France-Champagne
+substate = {
+	first = FRA
+	second = CMP
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+### Holy Roman Empire - Swabian Dynasty ###
+#HRE-Upper Lotharingia
+substate = {
+	first = SIC
+	second = ALS
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
 #HRE-Franconia
 substate = {
-	first = SGF
+	first = SIC
 	second = FRK
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
-#HRE-Bavaria
-substate = {
-	first = SGF
-	second = BAV
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
-#HRE-Austria
-substate = {
-	first = SGF
-	second = AUS
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
 #HRE-Thuringia
 substate = {
-	first = SGF
+	first = SIC
 	second = THU
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
-#HRE-Bohemia
-substate = {
-	first = SGF
-	second = BOH
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
-#HRE-Brandenburg
-substate = {
-	first = SGF
-	second = BRN
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
-#HRE-Pommerania
-substate = {
-	first = SGF
-	second = POM
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
 #HRE-Meissen
 substate = {
-	first = SGF
+	first = SIC
 	second = MEI
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
-#HRE-Friesland
-substate = {
-	first = SGF
-	second = NET
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
 #HRE-Carinthia
 substate = {
-	first = SGF
+	first = SIC
 	second = SLO
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
 #HRE-Istria
 substate = {
-	first = SGF
+	first = SIC
 	second = TRE
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
-#HRE-Sicily
+#Hohenstaufen Sicily-Swabia
 substate = {
-	first = SGF
-	second = SIC
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
-#HRE-Upper Saxony
-vassal = {
-	first = SGF
-	second = SAX
+	first = SIC
+	second = SGF
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }

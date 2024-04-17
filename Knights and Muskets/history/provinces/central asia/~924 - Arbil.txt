@@ -1,0 +1,6 @@
+owner = SYR
+controller = SYR
+add_core = SYR
+add_core = IRQ
+trade_goods = apiculture
+life_rating = 35

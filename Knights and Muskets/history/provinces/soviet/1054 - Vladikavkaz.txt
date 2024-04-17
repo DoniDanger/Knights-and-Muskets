@@ -1,5 +1,5 @@
-owner = CUM
-controller = CUM
-add_core = CUM
+owner = CHY
+controller = CHY
+add_core = CHY
 trade_goods = wool
 life_rating = 35

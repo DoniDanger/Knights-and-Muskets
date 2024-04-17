@@ -1,0 +1,50 @@
+#Army
+
+army = {
+    name = "I. Armee"
+    location = 619
+
+    regiment = {
+        name= "1.5. Infanteriedivision"
+        type = infantry
+        home = 614
+    }
+
+    regiment = {
+        name= "3.5. Infanteriedivision"
+        type = cavalry
+        home = 682
+    }
+
+    regiment = {
+        name= "1.2. Kavalleriedivision"
+        type = hussar
+        home = 622
+    }
+
+    regiment = {
+        name= "2.2. Kavalleriedivision"
+        type = cavalry
+        home = 612
+    }
+
+    regiment = {
+        name= "3.1. Infanteriedivision"
+        type = artillery
+        home = 684
+    }
+
+    regiment = {
+        name= "1.2. Infanteriedivision"
+        type = artillery
+        home = 616
+    }
+}
+
+leader = {
+    name = "Frederick the Quarrelsome"
+    date = 1220.1.1
+    type = land
+    personality = defence_minus_1.1
+    background = attack_1.1
+}

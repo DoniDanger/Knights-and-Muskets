@@ -1,0 +1,6 @@
+owner = BYE
+controller = BYE
+add_core = BYE
+add_core = UKR
+trade_goods = apiculture
+life_rating = 35

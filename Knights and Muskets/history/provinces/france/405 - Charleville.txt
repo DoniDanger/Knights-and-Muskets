@@ -1,6 +1,6 @@
-owner = LOR
-controller = LOR
-add_core = LOR
+owner = HNT
+controller = HNT
+add_core = HNT
 add_core = GER
 trade_goods = coal
 life_rating = 30

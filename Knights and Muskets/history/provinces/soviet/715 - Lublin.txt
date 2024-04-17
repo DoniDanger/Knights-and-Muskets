@@ -1,6 +1,6 @@
-owner = MAZ
-controller = MAZ
-add_core = MAZ
+owner = KRA
+controller = KRA
+add_core = KRA
 add_core = POL
 trade_goods = apiculture
 life_rating = 35

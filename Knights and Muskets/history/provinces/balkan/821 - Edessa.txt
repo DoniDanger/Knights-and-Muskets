@@ -1,5 +1,6 @@
-owner = ALB
-controller = ALB
+owner = EPI
+controller = EPI
+add_core = EPI
 add_core = MCD
 add_core = LTN
 add_core = BYZ

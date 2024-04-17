@@ -1,6 +1,6 @@
-owner = MOR
-controller = MOR
-add_core = MOR
+owner = ALA
+controller = ALA
+add_core = ALA
 add_core = POR
 trade_goods = fruit
 life_rating = 35

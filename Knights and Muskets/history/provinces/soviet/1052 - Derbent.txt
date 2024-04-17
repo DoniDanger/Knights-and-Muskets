@@ -1,5 +1,5 @@
-owner = CUM
-controller = CUM
-add_core = CUM
+owner = KMY
+controller = KMY
+add_core = KMY
 trade_goods = fruit
 life_rating = 35

@@ -1,6 +1,6 @@
-owner = NET
-controller = NET
-add_core = NET
+owner = UTR
+controller = UTR
+add_core = UTR
 add_core = GER
 trade_goods = grain
 life_rating = 35

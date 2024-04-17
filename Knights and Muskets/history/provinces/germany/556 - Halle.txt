@@ -1,6 +1,6 @@
-owner = BRN
-controller = BRN
-add_core = BRN
+owner = MAG
+controller = MAG
+add_core = MAG
 add_core = GER
 trade_goods = fruit
 life_rating = 40

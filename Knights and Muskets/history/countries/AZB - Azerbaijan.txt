@@ -1,4 +1,4 @@
-capital = 1102
+capital = 1108
 primary_culture = azerbaijani
 culture = turkish
 religion = sunni
