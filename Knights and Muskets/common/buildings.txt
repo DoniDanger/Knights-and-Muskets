@@ -697,20 +697,23 @@ fertilizer_factory = {
 
 fort = {      
 	type = fort
+	cost = 25000
 	goods_cost =
 	{
 		lumber = 100
-		cement = 100
-		stone = 100
+		cement = 150
+		stone = 150
 		crossbows = 50
-		artillery = 40
+		artillery = 75
+		infantry_arms = 75
+		canned_food = 75
 	}
 	time = 1080 
 	visibility = yes
 	onmap = yes
-	max_level = 6
+	max_level = 10
 	province = yes
-	fort_level = 1
+	fort_level = 3
 }
 
 naval_base = {    
