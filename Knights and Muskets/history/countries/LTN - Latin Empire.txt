@@ -81,8 +81,6 @@ experimental_railroad = 1
 
 # Inventions
 heavy_cavalry_activation = yes
-infantry_activation = yes
-archer_activation = yes
 pikeman_activation = yes
 crossbowman_activation = yes
 man_at_arms_activation = yes

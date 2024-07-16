@@ -77,6 +77,12 @@ mechanical_production = 1
 mechanized_mining = 1
 basic_chemistry = 1
 
+grain_banks = 1
+hammered_coinage = 1
+manorialism = 1
+trade_fairs = 1
+medical_universities = 1
+
 # Inventions
 horse_archer_activation = yes
 

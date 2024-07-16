@@ -66,14 +66,13 @@ mechanized_mining = 1
 basic_chemistry = 1
 experimental_railroad = 1
 
-#Inventions
-
-
-1861.1.1 = {
-	oob = "/1861/BOH_oob.txt"
-}
-1861.1.1 = {
-# Technologies
+grain_banks = 1
+hammered_coinage = 1
+manorialism = 1
+trade_fairs = 1
+medical_universities = 1
 
 #Inventions
-}
+heavy_cavalry_activation = yes
+crossbowman_activation = yes
+man_at_arms_activation = yes
