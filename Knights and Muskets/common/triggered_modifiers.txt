@@ -134,3 +134,194 @@ puppet_prestige = {
 	icon = 19
 
 }
+
+wage_reform_rgo_1 = {
+	trigger = {
+		wage_reform = no_minimum_wage
+		capital_scope = { continent = europe }
+	}
+	RGO_throughput = 0.1
+	icon = 19
+
+}
+
+wage_reform_rgo_2 = {
+	trigger = {
+		wage_reform = trinket_wage
+		capital_scope = { continent = europe }
+	}
+	RGO_throughput = 0.075
+	icon = 19
+
+}
+
+wage_reform_rgo_3 = {
+	trigger = {
+		wage_reform = low_minimum_wage
+		capital_scope = { continent = europe }
+	}
+	RGO_throughput = 0.05
+	icon = 19
+
+}
+
+wage_reform_rgo_4 = {
+	trigger = {
+		wage_reform = acceptable_minimum_wage
+		capital_scope = { continent = europe }
+	}
+	RGO_throughput = 0.025
+	icon = 19
+
+}
+
+safety_regulations_rgo_1 = {
+	trigger = {
+		wage_reform = no_safety
+		capital_scope = { continent = europe }
+	}
+	RGO_throughput = 0.1
+	icon = 19
+
+}
+
+safety_regulations_rgo_2 = {
+	trigger = {
+		wage_reform = trinket_safety
+		capital_scope = { continent = europe }
+	}
+	RGO_throughput = 0.075
+	icon = 19
+
+}
+
+safety_regulations_rgo_3 = {
+	trigger = {
+		wage_reform = low_safety
+		capital_scope = { continent = europe }
+	}
+	RGO_throughput = 0.05
+	icon = 19
+
+}
+
+safety_regulations_rgo_4 = {
+	trigger = {
+		wage_reform = acceptable_safety
+		capital_scope = { continent = europe }
+	}
+	RGO_throughput = 0.025
+	icon = 19
+
+}
+
+unemployment_subsidies_rgo_1 = {
+	trigger = {
+		wage_reform = no_subsidies
+		capital_scope = { continent = europe }
+	}
+	RGO_throughput = 0.10
+	icon = 19
+
+}
+
+unemployment_subsidies_rgo_2 = {
+	trigger = {
+		wage_reform = trinket_subsidies
+		capital_scope = { continent = europe }
+	}
+	RGO_throughput = 0.075
+	icon = 19
+
+}
+
+unemployment_subsidies_rgo_3 = {
+	trigger = {
+		wage_reform = acceptable_subsidies
+		capital_scope = { continent = europe }
+	}
+	RGO_throughput = 0.05
+	icon = 19
+
+}
+
+unemployment_subsidies_rgo_4 = {
+	trigger = {
+		wage_reform = good_subsidies
+		capital_scope = { continent = europe }
+	}
+	RGO_throughput = 0.025
+	icon = 19
+
+}
+
+## Feudal tenure
+feudal_tenure_rgo_1 = {
+	trigger = {
+		voting_system = jefferson_method
+		capital_scope = { continent = europe }
+	}
+	RGO_throughput = 0.025
+	icon = 19
+
+}
+
+feudal_tenure_rgo_2 = {
+	trigger = {
+		voting_system = proportional_representation
+		capital_scope = { continent = europe }
+	}
+	RGO_throughput = 0.05
+	icon = 19
+
+}
+
+##Pre-feudal society
+
+pre_feudal_society = {
+	trigger = {
+		NOT = {
+			tag = EGY
+			tag = MOR
+			tag = TUN
+			tag = TRI
+			tag = PLS
+			tag = JER
+			tag = MAM
+			tag = MSL
+			tag = PLS
+			tag = SYR
+		}
+			
+		capital_scope = { continent = africa }
+	}
+	RGO_output = -0.45
+	icon = 19
+
+}
+
+asian_feudal_society = {
+	trigger = {
+		OR = {
+			is_culture_group = south_asian
+			is_culture_group = east_asian
+			is_culture_group = far_east_asian
+			tag = MGL
+			tag = MCK
+			tag = XBI
+			tag = CHI
+			tag = TIB
+			tag = YNN
+			tag = KOR
+			tag = JAP
+			tag = TKG
+			tag = DLH
+			tag = BUR
+			tag = BNG
+		}
+		capital_scope = { continent = asia }
+	}
+	RGO_output = -0.25
+	icon = 19
+
+}

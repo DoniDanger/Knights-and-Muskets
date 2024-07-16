@@ -176,6 +176,7 @@ clipper_design = {
 	year = 1200
 	cost = 3600
 	navy_base = { maximum_speed = 1 }
+	activate_building = clipper_shipyard
 	unciv_military = yes
 		
 	ai_chance = {
@@ -194,7 +195,8 @@ steamers = {
 	unciv_military = yes
 	
 	navy_base = { maximum_speed = 1 }
-	
+	activate_building = steamer_shipyard
+
 	ai_chance = {
 		factor = 4
 		# Land-locked countries don't research this
@@ -332,6 +334,7 @@ naval_design_bureaus = {
 	year = 1200
 	cost = 3600
 	navy_base = { build_time = -10 }
+	activate_building = naval_supplies_workshop
 	unciv_military = yes
 	ai_chance = {
 		factor = 0.25

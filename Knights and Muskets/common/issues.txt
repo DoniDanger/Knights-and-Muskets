@@ -330,13 +330,13 @@ political_reforms = {
             tax_efficiency = -0.05
         }
         jefferson_method = { #socage
-			RGO_throughput  = 0.025
+			#RGO_throughput  = 0.025
 			administrative_efficiency_modifier = 0.025
             tax_efficiency = 0.025
         }
         proportional_representation = { #freehold
 			global_immigrant_attract = 0.1
-			RGO_throughput  = 0.05
+			#RGO_throughput  = 0.05
             administrative_efficiency_modifier = 0.05
             tax_efficiency = 0.05
         }
@@ -472,7 +472,6 @@ political_reforms = {
 				NOT = { estate_affiliation = nobility_army }
 				NOT = { estate_affiliation = nobility_church }
 				NOT = { estate_affiliation = nobility_gentry }
-				AND = { NOT = { estate_affiliation = absolutist } NOT = { upper_house_composition = party_appointed } }
 			}
         }
 
@@ -480,6 +479,12 @@ political_reforms = {
             administrative_efficiency_modifier = 0.05
             tariff_efficiency_modifier = 0.05
             administrative_multiplier = 2
+			allow = {
+				NOT = { estate_affiliation = nobility_army }
+				NOT = { estate_affiliation = nobility_church }
+				NOT = { estate_affiliation = nobility_gentry }
+				AND = { NOT = { estate_affiliation = absolutist } NOT = { upper_house_composition = party_appointed } }
+			}
         }
     }
 
@@ -559,7 +564,7 @@ social_reforms = {
         next_step_only = yes
         no_minimum_wage = { #very influential
             tax_efficiency = -0.05
-            RGO_throughput = 0.20
+            #RGO_throughput = 0.20
             core_pop_consciousness_modifier = -0.02
 
             rich_vote = 0.20
@@ -570,7 +575,7 @@ social_reforms = {
         }
         trinket_wage = { #influential
             tax_efficiency = -0.025
-            RGO_throughput = 0.15
+            #RGO_throughput = 0.15
             factory_throughput = 0.025
             core_pop_consciousness_modifier = -0.01
             rich_vote = 0.15
@@ -579,8 +584,8 @@ social_reforms = {
                 NOT = { has_country_flag = theocratic_government }
             }
         }
-        low_minimum_wage = { #silghtly influential
-            RGO_throughput = 0.10
+        low_minimum_wage = { #slightly influential
+            #RGO_throughput = 0.10
             factory_throughput = 0.05
 
             rich_vote = 0.10
@@ -591,7 +596,7 @@ social_reforms = {
         }
         acceptable_minimum_wage = { #marginally relevant
             tax_efficiency = 0.025
-            RGO_throughput = 0.05
+            #RGO_throughput = 0.05
             factory_throughput = 0.075
 
             rich_vote = 0.05
@@ -666,7 +671,7 @@ social_reforms = {
         next_step_only = yes
         no_safety = { #very influential
             tax_efficiency = -0.05
-            RGO_throughput = 0.20
+            #RGO_throughput = 0.20
             core_pop_militancy_modifier = -0.02
             goods_demand = -0.2
             factory_maintenance = 0.25
@@ -678,7 +683,7 @@ social_reforms = {
         }
         trinket_safety = { #influential
             tax_efficiency = -0.025
-            RGO_throughput = 0.15
+            #RGO_throughput = 0.15
             core_pop_militancy_modifier = -0.01
             goods_demand = -0.15
             factory_maintenance = 0.20
@@ -687,7 +692,7 @@ social_reforms = {
 
         }
         low_safety = { #slightly influential
-            RGO_throughput = 0.10
+            #RGO_throughput = 0.10
             goods_demand = -0.10
             factory_maintenance = 0.15
 
@@ -696,7 +701,7 @@ social_reforms = {
         }
         acceptable_safety = { #marginally relevant
             tax_efficiency = 0.025
-            RGO_throughput = 0.05
+            #RGO_throughput = 0.05
             ruling_party_support = 0.05
             goods_demand = -0.05
             factory_maintenance = 0.10
@@ -726,19 +731,19 @@ social_reforms = {
         next_step_only = yes
         no_subsidies = { #irrelevant
             tax_efficiency = 0.05
-            RGO_throughput = 0.10
+            #RGO_throughput = 0.10
 			allow = { NOT = { estate_affiliation = gentry_burghers } }
         }
         trinket_subsidies = { #marginally relevant
             tax_efficiency = 0.025
-            RGO_throughput = 0.075
+            #RGO_throughput = 0.075
             pension_level = 0.2
 
             middle_vote = 0.02
             poor_vote = 0.01
         }
         low_subsidies = { #slightly influential
-            RGO_throughput = 0.05
+            #RGO_throughput = 0.05
             pension_level = 0.3
             tariff_efficiency_modifier = -0.025
             artisan_throughput = 0.05
@@ -747,7 +752,7 @@ social_reforms = {
             poor_vote = 0.02
         }
         acceptable_subsidies = { #influential
-			RGO_throughput = 0.075
+			#RGO_throughput = 0.075
             pension_level = 0.4
             tariff_efficiency_modifier = -0.05
             artisan_throughput = 0.15
@@ -757,7 +762,7 @@ social_reforms = {
 
         }
         good_subsidies = { #very influential
-			RGO_throughput = 0.1
+			#RGO_throughput = 0.1
             pension_level = 0.50
             tariff_efficiency_modifier = -0.1
             artisan_throughput = 0.25

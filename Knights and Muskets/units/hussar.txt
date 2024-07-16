@@ -35,6 +35,7 @@ hussar = { #war elephant
 		infantry_arms = 0.075 #0
 		barding = 0.20 # 0.008
 		canned_food = 0.24 #0.08
+		grain = 0.4 #0.08
 	}
 	
 

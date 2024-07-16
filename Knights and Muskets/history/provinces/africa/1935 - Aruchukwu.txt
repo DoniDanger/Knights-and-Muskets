@@ -1,5 +1,5 @@
 owner = ARO
 controller = ARO
 add_core = ARO
-trade_goods = fish
+trade_goods = tropical_wood
 life_rating = 35

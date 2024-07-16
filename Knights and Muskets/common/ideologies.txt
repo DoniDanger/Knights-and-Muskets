@@ -784,7 +784,7 @@ liberal_group = { #burgher estate
 			}
         }
         add_social_reform = { #Rework this later btw
-            base = 0.45
+            base = 0.8
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated

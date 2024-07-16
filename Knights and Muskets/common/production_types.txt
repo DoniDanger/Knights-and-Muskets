@@ -95,7 +95,7 @@ machine_part_user_template = {
 
 cement_template = {
 	efficiency = {
-		iron = 2.3 #if no cement, work at 75% efficiency #cost = 16.0
+		stone = 2.5 #if no cement, work at 75% efficiency #cost = 16.0
 		machine_parts = 0.05 # was 0.01 cost = 36.5 		#9.825/day/level for both
 	}
 	
@@ -132,7 +132,7 @@ bombard_foundry = {
 	input_goods = {
 		machine_parts = 1.11	#38.69
 		tin = 8	#32
-		iron = 6  		#7
+		iron = 8  		#7
 		lumber = 4 		#3.3	total input+maint = 90
 	}
 	output_goods = bombards
@@ -152,7 +152,7 @@ siege_engine_workshop = {
 	input_goods = {   
 		machine_parts = 1.11	#38.69
 		steel = 8	#32
-		iron = 6  		#7
+		iron = 8  		#7
 		lumber = 4 		#3.3	total input+maint = 90
 	}
 	output_goods = siege_engines 
@@ -184,7 +184,7 @@ tar_workshop = {
 		coal = 6		#11.5 total input+maint = 67
 	}
 	output_goods = tar 
-	value = 5			#80
+	value = 12			#80
 	bonus = {
 		trigger = { trade_goods_in_state = timber }
 		value = 0.10
@@ -198,8 +198,8 @@ tar_workshop = {
 machine_parts_factory = {       
 	template = factory_template
 	input_goods = { 
-		tin = 2
-		iron = 8		#42.3
+		tin = 3
+		iron = 10		#42.3
 		coal = 4		#11.5  total input+maint = 66
 	}
 	output_goods = machine_parts 
@@ -233,15 +233,15 @@ naval_supplies_workshop = {
 	template = factory_template
 	input_goods = { 
 		tar = 12
-		steel = 12.5			#30	total input+maint = 40
+		steel = 8.5			#30	total input+maint = 40
 	}
 	output_goods = naval_supplies
-	value = 2			#50
+	value = 6			#50
 	bonus = {
 		trigger = { 
 			OR = {
 				trade_goods_in_state = timber 
-				has_building = charcoal_burner
+				has_building = tar_workshop
 				}
 			}
 		value = 0.25
@@ -322,12 +322,8 @@ steel_factory = { #hardwood workshop
 	output_goods = steel 		#94 
 	value = 20
 	bonus = {
-		trigger = { trade_goods_in_state = iron }
-		value = 0.125
-	}
-	bonus = {
-		trigger = { trade_goods_in_state = coal }
-		value = 0.125
+		trigger = { trade_goods_in_state = timber }
+		value = 0.2
 	}
 }
 
@@ -376,8 +372,8 @@ clipper_shipyard = {
 crossbow_weaponsmith = {       
 	template = factory_template
 	input_goods = {       
-		iron = 1.4	#35
-		tin = 2	#35
+		iron = 2.5	#35
+		tin = 3	#35
 		machine_parts = 0.5	#35
 		timber = 3.0		#14.1		total input+maint = 60
 	}
@@ -398,7 +394,7 @@ barding_weaponsmith = {
 	template = factory_template
 	input_goods = {       
 		leather = 4.5	#35
-		iron = 2.5		#14.1		total input+maint = 60
+		iron = 4		#14.1		total input+maint = 60
 	}
 	output_goods = barding 
 	value = 2.5		#74
@@ -436,7 +432,7 @@ furniture_factory = {
 paper_mill = {       
 	template = factory_template
 	input_goods = { 
-		apiculture = 5
+		apiculture = 15
 		timber = 50		#45	total input+maint = 55
 	}
 	output_goods = paper 
@@ -499,8 +495,8 @@ infantry_arms_weaponsmith = {
 	template = cheap_factory_template
 	input_goods = {      
 		leather = 2		#12
-		coal = 0.5		#12
-		iron = 4		#10.5	total input+maint = 30
+		coal = 1		#12
+		iron = 8		#10.5	total input+maint = 30
 	}
 	output_goods = infantry_arms 
 	value = 4			#35
@@ -517,10 +513,10 @@ infantry_arms_weaponsmith = {
 canned_food_factory = { #military rations     
 	template = cheap_factory_template
 	input_goods = { 
-		salt = 3 		#1.75
-		cattle = 3 		#8
-		grain = 3 		#8.8
-		fish = 3 		#6	total input+maint = 28.some
+		salt = 4 		#1.75
+		cattle = 6 		#8
+		grain = 6 		#8.8
+		fish = 6 		#6	total input+maint = 28.some
 	}
 	output_goods = canned_food 
 	value = 6			#32
@@ -538,7 +534,7 @@ canned_food_factory = { #military rations
 		value = 0.1
 	}
 	bonus = {
-		trigger = { trade_goods_in_state = iron }
+		trigger = { trade_goods_in_state = salt }
 		value = 0.05
 	}
 }
@@ -546,12 +542,12 @@ canned_food_factory = { #military rations
 dye_factory = {       
 	template = cheap_factory_template
 	input_goods = {     
-		coal = 9   		#20.7	total input+maint = 24.7
+		fruit = 9   		#20.7	total input+maint = 24.7
 	}
 	output_goods = dye 
 	value = 2.5			#30
 	bonus = {
-		trigger = { trade_goods_in_state = coal }
+		trigger = { trade_goods_in_state = fruit }
 		value = 0.25
 	}
 }
@@ -560,7 +556,7 @@ dye_factory = {
 liquor_distillery = {       
 	template = cheap_factory_template
 	input_goods = {        
-		grain = 5		#11
+		grain = 6		#11
 		glass = 4		#11.6	total input+maint = 26.6
 	}
 	output_goods = liquor 
@@ -578,7 +574,7 @@ liquor_distillery = {
 winery = {       
 	template = cheap_factory_template
 	input_goods = {  	
-		fruit = 5		#9
+		fruit = 6		#9
 		glass = 5		#14.5	total input+maint = 27.5
 	}
 	output_goods = wine 
@@ -662,9 +658,9 @@ cement_factory = {
 		coal = 2		#27.6		total input+maint = 37
 	} 
 	output_goods = cement 
-	value = 3			#48
+	value = 6			#48
 	bonus = {
-		trigger = { trade_goods_in_state = coal }
+		trigger = { trade_goods_in_state = stone }
 		value = 0.25
 	}
 }
@@ -714,7 +710,7 @@ RGO_template_farmers = {
 		{ 
 			poptype = slaves 
 			effect = throughput
-			amount = 1.2
+			amount = 1.05
 		}
 	}
 	
@@ -738,7 +734,7 @@ RGO_template_labourers = {
 		{ 
 			poptype = slaves 
 			effect = throughput
-			amount = 1.2
+			amount = 1.05
 		}
 	}
 	
@@ -750,14 +746,14 @@ RGO_template_labourers = {
 cattle_ranch = {
 	template = RGO_template_farmers
 	output_goods = cattle 
-	value = 1.8
+	value = 1.6
 	farm = yes
 }
 
 coal_mine = {
 	template = RGO_template_labourers
 	output_goods = coal 
-	value = 2.4
+	value = 1.8
 	mine = yes
 }
 
@@ -792,7 +788,7 @@ fishing_wharf = {
 grain_farm = {
 	template = RGO_template_farmers
 	output_goods = grain 
-	value = 1.8
+	value = 1.6
 	farm = yes
 }
 
@@ -883,14 +879,14 @@ tropical_wood_lodge = {
 pottery_kiln = {
 	template = RGO_template_labourers
 	output_goods = chinaware 
-	value = 2.4
+	value = 1.8
 	farm = yes
 }
 
 salt_mine = {
 	template = RGO_template_labourers
 	output_goods = salt
-	value = 1.6
+	value = 1.8
 	mine = yes
 }
 
@@ -932,7 +928,7 @@ elephant_hunting = {
 bee_farm = {
 	template = RGO_template_farmers
 	output_goods = apiculture 
-	value = 2.4
+	value = 1.8
 	farm = yes
 }
 
@@ -953,7 +949,7 @@ incense_maker = {
 horse_ranch = {
 	template = RGO_template_farmers
 	output_goods = horses 
-	value = 1.8
+	value = 1.4
 	farm = yes
 }
 
@@ -977,7 +973,7 @@ artisan_bombards = {
 	input_goods = {
 		machine_parts = 1.11	#38.69
 		tin = 8	#32
-		iron = 6  		#7
+		iron = 12  		#7
 		lumber = 4 		#3.3	total input+maint = 90
 	}
 	output_goods = bombards
@@ -997,7 +993,7 @@ artisan_siege_engines = {
 	input_goods = {   
 		machine_parts = 1.11	#38.69
 		steel = 8	#32
-		iron = 6  		#7
+		iron = 8  		#7
 		lumber = 4 		#3.3	total input+maint = 90
 	}
 	output_goods = siege_engines 
@@ -1036,7 +1032,7 @@ artisan_tar = {
 artisan_machine_parts = {       
 	input_goods = {   
 		tin = 4		
-		iron = 9		#42.3
+		iron = 12		#42.3
 		coal = 5		#11.5  total input+maint = 66
 	}
 	output_goods = machine_parts 
@@ -1229,7 +1225,7 @@ artisan_clipper = {
 
 artisan_crossbows = {       
 	input_goods = {    
-		iron = 1.4	#35
+		iron = 3	#35
 		tin = 2	#35
 		machine_parts = 0.5	#35
 		timber = 3.0		#14.1		total input+maint = 60
@@ -1250,7 +1246,7 @@ artisan_crossbows = {
 artisan_barding = {       
 	input_goods = {    
 		leather = 4.5	#35
-		iron = 2.5		#14.1		total input+maint = 60
+		iron = 4		#14.1		total input+maint = 60
 	}
 	output_goods = barding 
 	value = 2			#74
@@ -1287,7 +1283,7 @@ artisan_furniture = {
 
 artisan_paper = {       
 	input_goods = { 
-		apiculture = 5
+		apiculture = 15
 		timber = 50		#45	total input+maint = 55
 	}
 	output_goods = paper 
@@ -1363,7 +1359,7 @@ artisan_infantry_arms = {
 	input_goods = {      
 		leather = 2		#12
 		coal = 0.5		#4.6
-		iron = 4		#17.5	total input+maint = 44
+		iron = 8		#17.5	total input+maint = 44
 	}
 	output_goods = infantry_arms 
 	value = 4			#52.5

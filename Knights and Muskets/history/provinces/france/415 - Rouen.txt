@@ -4,4 +4,18 @@ add_core = FRA
 add_core = NRM
 trade_goods = cotton
 life_rating = 35
-1861.1.1 = { railroad = 3 }
+state_building = {
+	level = 1
+	building = tar_workshop
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = naval_supplies_workshop
+	upgrade = yes
+}
