@@ -12,7 +12,7 @@ classicism_n_early_romanticism = {
 
 romanticism = {
 	area = aesthetics
-	year = 1200
+	year = 1222
 	cost = 7200
 	
 	prestige = 0.05
@@ -25,7 +25,7 @@ romanticism = {
 
 realism = {
 	area = aesthetics
-	year = 1200
+	year = 1240
 	cost = 10800
 
 	prestige = 0.05
@@ -35,7 +35,7 @@ realism = {
 }
 impressionism = {
 	area = aesthetics
-	year = 1200
+	year = 1255
 	cost = 14400
 
 	prestige = 0.05
@@ -45,7 +45,7 @@ impressionism = {
 }
 expressionism = {
 	area = aesthetics
-	year = 1200
+	year = 1270
 	cost = 18000
 
 	prestige = 0.075
@@ -55,7 +55,7 @@ expressionism = {
 }
 mass_culture_n_the_avant_garde = {
 	area = aesthetics
-	year = 1200
+	year = 1300
 	cost = 21200
 
 	prestige = 0.075
@@ -65,7 +65,7 @@ mass_culture_n_the_avant_garde = {
 }
 aesthetics_7 = {
 	area = aesthetics
-	year = 1200
+	year = 1320
 	cost = 25200
 
 	prestige = 0.075
@@ -75,7 +75,7 @@ aesthetics_7 = {
 }
 aesthetics_8 = {
 	area = aesthetics
-	year = 1200
+	year = 1340
 	cost = 30200
 
 	prestige = 0.075
@@ -85,7 +85,7 @@ aesthetics_8 = {
 }
 aesthetics_9 = {
 	area = aesthetics
-	year = 1200
+	year = 1360
 	cost = 25200
 
 	prestige = 0.075
@@ -95,7 +95,7 @@ aesthetics_9 = {
 }
 aesthetics_10 = {
 	area = aesthetics
-	year = 1200
+	year = 1380
 	cost = 30200
 
 	prestige = 0.075
@@ -119,7 +119,7 @@ late_enlightenment_philosophy = {
 }
 idealism = {
 	area = philosophy
-	year = 1200
+	year = 1222
 	cost = 7200
 
 	increase_research = 0.50
@@ -130,7 +130,7 @@ idealism = {
 
 empiricism = {
 	area = philosophy
-	year = 1200
+	year = 1240
 	cost = 10800
 	
 	increase_research = 0.50
@@ -140,7 +140,7 @@ empiricism = {
 }
 analytic_philosophy = {
 	area = philosophy
-	year = 1200
+	year = 1255
 	cost = 14400
 
 	increase_research = 1.0
@@ -150,7 +150,7 @@ analytic_philosophy = {
 }
 phenomenology_n_hermeneutic = {
 	area = philosophy
-	year = 1200
+	year = 1270
 	cost = 18000
 
 	increase_research = 1.0
@@ -160,7 +160,7 @@ phenomenology_n_hermeneutic = {
 }
 anti__rationalism = {
 	area = philosophy
-	year = 1200
+	year = 1300
 	cost = 21200
 
 	increase_research = 1.0
@@ -170,7 +170,7 @@ anti__rationalism = {
 }
 philosophy_7 = {
 	area = philosophy
-	year = 1200
+	year = 1320
 	cost = 25200
 
 	increase_research = 1.0
@@ -180,7 +180,7 @@ philosophy_7 = {
 }
 philosophy_8 = {
 	area = philosophy
-	year = 1200
+	year = 1340
 	cost = 30200
 
 	increase_research = 1.0
@@ -190,7 +190,7 @@ philosophy_8 = {
 }
 philosophy_9 = {
 	area = philosophy
-	year = 1200
+	year = 1360
 	cost = 25200
 
 	increase_research = 1.0
@@ -200,7 +200,7 @@ philosophy_9 = {
 }
 philosophy_10 = {
 	area = philosophy
-	year = 1200
+	year = 1380
 	cost = 30200
 
 	increase_research = 1.0
@@ -224,7 +224,7 @@ malthusian_thought = {
 }
 positivism = {
 	area = social_thought
-	year = 1200
+	year = 1222
 	cost = 7200
 	colonial_migration = 0.05
 	education_efficiency = 0.1
@@ -235,7 +235,7 @@ positivism = {
 }
 functionalism = {
 	area = social_thought
-	year = 1200
+	year = 1240
 	cost = 10800
 
 	colonial_migration = 0.05
@@ -247,7 +247,7 @@ functionalism = {
 }
 biologism = {
 	area = social_thought
-	year = 1200
+	year = 1255
 	cost = 14400
 
 	colonial_migration = 0.05
@@ -259,7 +259,7 @@ biologism = {
 }
 social_science = {
 	area = social_thought
-	year = 1200
+	year = 1270
 	cost = 18000
 
 	colonial_migration = 0.05
@@ -272,7 +272,7 @@ social_science = {
 }
 social_alienation = {
 	area = social_thought
-	year = 1555
+	year = 1300
 	cost = 21200
 	
 	colonial_migration = 0.05
@@ -284,7 +284,7 @@ social_alienation = {
 }
 social_thought_7 = {
 	area = social_thought
-	year = 1200
+	year = 1320
 	cost = 25200
 
 	colonial_migration = 0.05
@@ -297,7 +297,7 @@ social_thought_7 = {
 }
 social_thought_8 = {
 	area = social_thought
-	year = 1200
+	year = 1340
 	cost = 30200
 	
 	colonial_migration = 0.05
@@ -309,7 +309,7 @@ social_thought_8 = {
 }
 social_thought_9 = {
 	area = social_thought
-	year = 1200
+	year = 1360
 	cost = 25200
 
 	colonial_migration = 0.05
@@ -322,7 +322,7 @@ social_thought_9 = {
 }
 social_thought_10 = {
 	area = social_thought
-	year = 1200
+	year = 1380
 	cost = 30200
 	
 	colonial_migration = 0.05
@@ -347,7 +347,7 @@ enlightenment_thought = {
 }
 ideological_thought = {
 	area = political_thought
-	year = 1200
+	year = 1222
 	cost = 7200
 
 	max_national_focus = 1 
@@ -358,7 +358,7 @@ ideological_thought = {
 }
 state_n_government = {
 	area = political_thought
-	year = 1200
+	year = 1240
 	cost = 10800
 
 	max_national_focus = 1 
@@ -368,7 +368,7 @@ state_n_government = {
 }
 nationalism_n_imperialism = {
 	area = political_thought
-	year = 1200
+	year = 1255
 	cost = 14400
 
 	max_national_focus = 1
@@ -381,7 +381,7 @@ nationalism_n_imperialism = {
 }
 revolution_n_counterrevolution = {
 	area = political_thought
-	year = 1200
+	year = 1270
 	cost = 18000
 
 	max_national_focus = 1
@@ -392,7 +392,7 @@ revolution_n_counterrevolution = {
 }
 mass_politics = {
 	area = political_thought
-	year = 1200
+	year = 1300
 	cost = 21200
 
 	max_national_focus = 1 
@@ -402,7 +402,7 @@ mass_politics = {
 }
 political_thought_7 = {
 	area = political_thought
-	year = 1200
+	year = 1320
 	cost = 25200
 
 	max_national_focus = 1
@@ -413,7 +413,7 @@ political_thought_7 = {
 }
 political_thought_8 = {
 	area = political_thought
-	year = 1200
+	year = 1340
 	cost = 30200
 
 	max_national_focus = 1 
@@ -423,7 +423,7 @@ political_thought_8 = {
 }
 political_thought_9 = {
 	area = political_thought
-	year = 1615
+	year = 1360
 	cost = 25200
 
 	max_national_focus = 1
@@ -434,7 +434,7 @@ political_thought_9 = {
 }
 political_thought_10 = {
 	area = political_thought
-	year = 1200
+	year = 1380
 	cost = 30200
 
 	max_national_focus = 1 
@@ -460,7 +460,7 @@ introspectionism = {
 }
 associationism = {
 	area = psychology
-	year = 1200
+	year = 1222
 	cost = 7200
 
 	regular_experience_level = 5
@@ -472,7 +472,7 @@ associationism = {
 }
 phenomenalism = {
 	area = psychology
-	year = 1200
+	year = 1240
 	cost = 10800
 
 	regular_experience_level = 5
@@ -484,7 +484,7 @@ phenomenalism = {
 }
 experimental_psychology = {
 	area = psychology
-	year = 1200
+	year = 1255
 	cost = 14400
 
 	regular_experience_level = 5
@@ -496,7 +496,7 @@ experimental_psychology = {
 }
 psychoanalysis = {
 	area = psychology
-	year = 1200
+	year = 1270
 	cost = 18000
 
 	regular_experience_level = 5
@@ -509,7 +509,7 @@ psychoanalysis = {
 }
 behaviorism = {
 	area = psychology
-	year = 1555
+	year = 1300
 	cost = 21200
 
 	regular_experience_level = 5
@@ -521,7 +521,7 @@ behaviorism = {
 }
 psychology_7 = {
 	area = psychology
-	year = 1200
+	year = 1320
 	cost = 25200
 
 	regular_experience_level = 5
@@ -535,7 +535,7 @@ psychology_7 = {
 
 psychology_8 = {
 	area = psychology
-	year = 1200
+	year = 1340
 	cost = 30200
 
 	regular_experience_level = 5
@@ -547,7 +547,7 @@ psychology_8 = {
 }
 psychology_9 = {
 	area = psychology
-	year = 1200
+	year = 1360
 	cost = 25200
 
 	regular_experience_level = 5
@@ -561,7 +561,7 @@ psychology_9 = {
 
 psychology_10 = {
 	area = psychology
-	year = 1200
+	year = 1380
 	cost = 30200
 
 	regular_experience_level = 5

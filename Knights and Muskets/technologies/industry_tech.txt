@@ -142,7 +142,7 @@ mechanized_mining = {
 
 puddling = {
 	area = metallurgy
-	year = 1200
+	year = 1222
 	cost = 7200
 	
 	factory_goods_output = {
@@ -171,7 +171,7 @@ puddling = {
 
 hot_blast = {
 	area = metallurgy
-	year = 1200
+	year = 1240
 	cost = 10800
 	factory_goods_output = {
 		precious_metal = 0.15
@@ -195,7 +195,7 @@ hot_blast = {
 }
 bessemer_process = {
 	area = metallurgy
-	year = 1200
+	year = 1255
 	cost = 14400
 	factory_goods_output = {
 		precious_metal = 0.15
@@ -222,7 +222,7 @@ bessemer_process = {
 }
 advanced_metallurgy = {
 	area = metallurgy
-	year = 1200
+	year = 1270
 	cost = 18000
 
 	factory_goods_output = {
@@ -247,7 +247,7 @@ advanced_metallurgy = {
 }
 electric_furnace = {
 	area = metallurgy
-	year = 1200
+	year = 1300
 	cost = 21200
 
 	factory_goods_output = {
@@ -266,7 +266,7 @@ electric_furnace = {
 }
 metallurgy_7 = {
 	area = metallurgy
-	year = 1200
+	year = 1320
 	cost = 25200
 
 	factory_goods_output = {
@@ -291,7 +291,7 @@ metallurgy_7 = {
 }
 metallurgy_8 = {
 	area = metallurgy
-	year = 1200
+	year = 1340
 	cost = 30200
 
 	factory_goods_output = {
@@ -310,7 +310,7 @@ metallurgy_8 = {
 }
 metallurgy_9 = {
 	area = metallurgy
-	year = 1200
+	year = 1360
 	cost = 25200
 
 	factory_goods_output = {
@@ -335,7 +335,7 @@ metallurgy_9 = {
 }
 metallurgy_10 = {
 	area = metallurgy
-	year = 1200
+	year = 1380
 	cost = 30200
 
 	factory_goods_output = {
@@ -368,7 +368,7 @@ mechanical_production = {
 
 interchangeable_parts = {
 	area = mechanization
-	year = 1200
+	year = 1222
 	cost = 7200
 
 	factory_throughput = 0.05 
@@ -379,7 +379,7 @@ interchangeable_parts = {
 }
 semi_automatization = {
 	area = mechanization
-	year = 1200
+	year = 1240
 	cost = 10800
 
 	factory_throughput = 0.05
@@ -398,7 +398,7 @@ semi_automatization = {
 }
 pneumatic_and_hydraulics = {
 	area = mechanization
-	year = 1200
+	year = 1255
 	cost = 14400
 	factory_throughput = 0.05
 	factory_cost = -0.1 
@@ -408,7 +408,7 @@ pneumatic_and_hydraulics = {
 }
 assembly_line = {
 	area = mechanization
-	year = 1200
+	year = 1270
 	cost = 18000
 	factory_throughput = 0.05
 	factory_cost = -0.1 
@@ -418,7 +418,7 @@ assembly_line = {
 }
 shift_work = {
 	area = mechanization
-	year = 1200
+	year = 1300
 	cost = 21200
 
 	
@@ -430,7 +430,7 @@ shift_work = {
 }
 mechanization_7 = {
 	area = mechanization
-	year = 1200
+	year = 1320
 	cost = 25200
 	factory_throughput = 0.1
 	factory_cost = -0.1 
@@ -440,7 +440,7 @@ mechanization_7 = {
 }
 mechanization_8 = {
 	area = mechanization
-	year = 1200
+	year = 1340
 	cost = 30200
 
 	
@@ -452,7 +452,7 @@ mechanization_8 = {
 }
 mechanization_9 = {
 	area = mechanization
-	year = 1200
+	year = 1360
 	cost = 25200
 	factory_throughput = 0.1
 	factory_cost = -0.1 
@@ -462,7 +462,7 @@ mechanization_9 = {
 }
 mechanization_10 = {
 	area = mechanization
-	year = 1200
+	year = 1380
 	cost = 30200
 
 	
@@ -486,7 +486,7 @@ guild_based_production = {
 }
 organized_factories = {
 	area = tech_organization
-	year = 1200
+	year = 1222
 	cost = 7200
 
 	factory_output = 0.01
@@ -498,7 +498,7 @@ organized_factories = {
 }
 scientific_management = {
 	area = tech_organization
-	year = 1200
+	year = 1240
 	cost = 10800
 
 	factory_output = 0.01
@@ -510,7 +510,7 @@ scientific_management = {
 }
 time_saving_measures = {
 	area = tech_organization
-	year = 1200
+	year = 1255
 	cost = 14400
 
 	factory_output = 0.01
@@ -522,7 +522,7 @@ time_saving_measures = {
 }
 management_strategy = {
 	area = tech_organization
-	year = 1200
+	year = 1270
 	cost = 18000
 
 	factory_output = 0.01
@@ -534,7 +534,7 @@ management_strategy = {
 }
 organizational_development = {
 	area = tech_organization
-	year = 1555
+	year = 1300
 	cost = 21200
 
 	factory_output = 0.01
@@ -546,7 +546,7 @@ organizational_development = {
 }
 tech_organization_7 = {
 	area = tech_organization
-	year = 1200
+	year = 1320
 	cost = 25200
 
 	factory_output = 0.01
@@ -558,7 +558,7 @@ tech_organization_7 = {
 }
 tech_organization_8 = {
 	area = tech_organization
-	year = 1200
+	year = 1340
 	cost = 30200
 
 	factory_output = 0.01
@@ -570,7 +570,7 @@ tech_organization_8 = {
 }
 tech_organization_9 = {
 	area = tech_organization
-	year = 1200
+	year = 1360
 	cost = 25200
 
 	factory_output = 0.01
@@ -582,7 +582,7 @@ tech_organization_9 = {
 }
 tech_organization_10 = {
 	area = tech_organization
-	year = 1200
+	year = 1380
 	cost = 30200
 
 	factory_output = 0.01
@@ -609,7 +609,7 @@ experimental_railroad = {
 }
 early_railroad = {
 	area = tech_infrastructure
-	year = 1200
+	year = 1222
 	cost = 7200
 
 	army_base = {
@@ -622,7 +622,7 @@ early_railroad = {
 }
 iron_railroad = {
 	area = tech_infrastructure
-	year = 1200
+	year = 1240
 	cost = 10800
 
 	activate_building = railroad
@@ -632,7 +632,7 @@ iron_railroad = {
 }
 steel_railroad = {
 	area = tech_infrastructure
-	year = 1200
+	year = 1255
 	cost = 14400
 
 	max_railroad = 1
@@ -642,7 +642,7 @@ steel_railroad = {
 }
 integral_rail_system = {
 	area = tech_infrastructure
-	year = 1200
+	year = 1270
 	cost = 18000
 
 	max_railroad = 1
@@ -652,7 +652,7 @@ integral_rail_system = {
 }
 limited_access_roads = {
 	area = tech_infrastructure
-	year = 1200
+	year = 1300
 	cost = 21200
 
 	max_railroad = 1
@@ -662,7 +662,7 @@ limited_access_roads = {
 }
 tech_infrastructure_7 = {
 	area = tech_infrastructure
-	year = 1200
+	year = 1320
 	cost = 25200
 	
 	max_railroad = 1 
@@ -673,7 +673,7 @@ tech_infrastructure_7 = {
 }
 tech_infrastructure_8 = {
 	area = tech_infrastructure
-	year = 1200
+	year = 1340
 	cost = 30200
 	
 	max_railroad = 1
@@ -684,7 +684,7 @@ tech_infrastructure_8 = {
 }
 tech_infrastructure_9 = {
 	area = tech_infrastructure
-	year = 1200
+	year = 1360
 	cost = 25200
 	
 	max_railroad = 1 
@@ -695,7 +695,7 @@ tech_infrastructure_9 = {
 }
 tech_infrastructure_10 = {
 	area = tech_infrastructure
-	year = 1200
+	year = 1380
 	cost = 30200
 	
 	max_railroad = 1
