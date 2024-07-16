@@ -1,6 +1,6 @@
-
-
-
-
+owner = GVD
+controller = GVD
+add_core = GVD
+add_core = OCC
 trade_goods = timber
-life_rating = 25
+life_rating = 35

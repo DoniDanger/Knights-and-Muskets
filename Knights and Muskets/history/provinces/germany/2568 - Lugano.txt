@@ -1,7 +1,7 @@
-owner = SGF
-controller = SGF
-add_core = SGF
-add_core = GER
-add_core = SWI
+owner = CMO
+controller = CMO
+add_core = CMO
+add_core = NNN
+add_core = ITA
 trade_goods = wool
-life_rating = 40
+life_rating = 35

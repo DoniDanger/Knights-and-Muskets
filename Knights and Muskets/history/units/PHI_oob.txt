@@ -1,0 +1,37 @@
+leader = {
+    name = "Gerard of Estreux"
+    date = 1221.8.1
+    type = land
+    personality = defence_1.1
+    background = attack_2.1
+    prestige = 0.12
+}
+
+army = {
+    name = "Exercitus Philippopolis"
+    location = 133
+    regiment = {
+        name = "1. Fanteria di Linea - Re e Regina"
+        type = plane
+        home = 133
+    }
+
+    regiment = {
+        name = "2. Fanteria di Linea - Duca di Calabria"
+        type = plane
+        home = 816
+    }
+
+    regiment = {
+        name = "4. Fanteria di Linea"
+        type = tank
+        home = 817
+    }
+
+    regiment = {
+        name = "2. Cavalleria di Linea"
+        type = cuirassier
+        home = 136
+    }
+
+}

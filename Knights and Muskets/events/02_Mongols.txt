@@ -1,0 +1,139 @@
+###MONGOL EMPIRE###
+country_event = {
+	id = 130000
+	title = "Battle of Khankala Gorge"
+	desc = "130000_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = WMG
+		AND = {
+			war_with = CHY
+			war_with = CUM
+			war_with = ALN
+		}
+		controls = 1055
+	}
+
+	option = {
+	    name = "Majar will kneel next."
+		money = 15000
+		prestige = 10
+		random_owned = {
+            limit = {
+                tag = WMG
+            }
+            owner = {
+                casus_belli = {
+                    target = KMY
+                    type = cut_down_to_size
+                    months = 60
+                }
+            }
+        }
+		war = {
+            target = KMY
+            attacker_goal = { casus_belli = cut_down_to_size   }
+			call_ally = yes
+        }
+		badboy = -13
+		end_war = ALN
+		end_war = CIR
+		end_war = CHY
+		end_war = LZG
+		CUM = { country_event = 130002 }
+		ALN = { country_event = 130001 }
+		CHY = { country_event = 130001 }
+		CIR = { country_event = 130001 }
+		LZG = { country_event = 130001 }
+		set_global_flag = battle_of_khankala
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130001
+	title = "Betrayal at Khankala!"
+	desc = "130001_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "Our warriors are weary, we have no choice but to submit."
+		prestige = -5
+		FROM = { money = 5000 }
+		MGL = {
+			diplomatic_influence = {
+				who = THIS
+				value = 200
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130002
+	title = "Defeat at Khankala!"
+	desc = "130002_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "We must seek the aid of the Rus' princes, or we shall face destruction."
+		prestige = -5
+		FROM = { money = 15000 }
+		money = -15000
+		ai_chance = {
+			factor = 100
+        }
+    }
+}
+
+country_event = {
+
+    id = 130003
+    title = "Fall of Majar"
+	desc = "130003_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = CUM
+		OR = {
+			war_with = WMG
+			war_with = MGL
+		}
+		2628 = { NOT = { controlled_by = THIS }}
+	}
+
+    option = {
+        name = "We can only watch."
+		prestige = -5
+		WMG = { country_event = 130004 }
+		ai_chance = {
+			factor = 100
+        }
+	}
+}
+
+country_event = {
+
+    id = 130004
+    title = "Sack of Majar"
+	desc = "130004_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+        name = "Sarai shall be our next target."
+		prestige = 5
+		money = 40000
+		ai_chance = {
+			factor = 100
+        }
+	}
+}

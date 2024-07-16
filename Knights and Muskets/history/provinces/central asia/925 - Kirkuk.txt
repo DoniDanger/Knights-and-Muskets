@@ -1,6 +1,5 @@
-owner = MSL
-controller = MSL
-add_core = MSL
-add_core = IRQ
+owner = ABB
+controller = ABB
+add_core = ABB
 trade_goods = grain
 life_rating = 35

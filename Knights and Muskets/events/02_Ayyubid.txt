@@ -1,0 +1,257 @@
+###AYYUBIDS###
+country_event = {
+	id = 132000
+	title = "Death of Al-Mu'azzam Isa"
+	desc = "132000_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 15 }
+
+	trigger = {
+		tag = SYR
+		year = 1227
+	}
+
+	option = {
+	    name = "Our enemies eye our lands hungrily."
+		prestige = 10
+		set_global_flag = death_of_muazzam
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 132001
+	title = "Death of Al-Kamil"
+	desc = "132001_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 15 }
+
+	trigger = {
+		tag = EGY
+		year = 1238
+	}
+
+	option = {
+	    name = "Dark days threaten the empire."
+		prestige = 5
+		set_global_flag = death_of_kamil
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+
+    id = 132002
+    title = "Succession of the Emirate of Damascus"
+	desc = "132002_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+    option = {
+        name = "We will follow through on Ashraf's partition of Damascus."
+		prestige = 5
+		inherit = PLS
+		SYR = { country_event = 132003 }
+		PLS = { all_core = { add_core = THIS } }
+		release_vassal = SYR
+		leave_alliance = SYR
+		war = {
+            target = SYR
+            attacker_goal = { casus_belli = make_puppet  }
+        }
+		set_country_flag = al_ashraf_partition
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+        name = "All of the Levant will kneel to al-Kamil, even Ashraf."
+		prestige = 5
+		SYR = { country_event = 132004 }
+		release_vassal = SYR
+		leave_alliance = SYR
+		release_vassal = PLS
+		leave_alliance = PLS
+		war = {
+            target = SYR
+            attacker_goal = { casus_belli = make_puppet  }
+        }
+		war = {
+            target = PLS
+            attacker_goal = { casus_belli = civil_war  }
+        }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 132003
+	title = "Betrayal by Al-Ashraf Musa"
+	desc = "132003_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "We fight until Damascus itself falls."
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 132004
+	title = "Al-Ashraf Musa Comes to Our Aid"
+	desc = "132004_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "Our allies will resist al-Kamil."
+		create_alliance = PLS
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+
+    id = 132005
+    title = "Independence of Damascus"
+	desc = "132005_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+    option = {
+        name = "Damascus shall be the center of the Empire, as Saladin intended."
+		prestige = 5
+		PLS = { all_core = { add_core = THIS } }
+		EGY = { release_vassal = SYR }
+		leave_alliance = EGY
+		EGY = { country_event = 132006 }
+		set_country_flag = damascus_indep_demand
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+
+    id = 132006
+    title = "Ayyubid Civil War"
+	desc = "132006_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+    option = {
+        name = "These Syrian traitors will be put to the sword."
+		prestige = 5
+		release_vassal = SYR
+		leave_alliance = SYR
+		inherit = PLS
+		war = {
+            target = SYR
+            attacker_goal = { casus_belli = civil_war  }
+            defender_goal = { casus_belli = civil_war  }
+        }
+		set_global_flag = syr_ayyubid_civil_war
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+        name = "We must focus on defending Egypt."
+		prestige = -15
+		release_vassal = SYR
+		leave_alliance = SYR
+		release_vassal = PLS
+		leave_alliance = PLS
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+
+    id = 132007
+    title = "Negotiations for Jerusalem"
+	desc = "132007_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+    option = {
+        name = "Make peace with al-Kamil of Egypt."
+		prestige = 5
+		EGY = { country_event = 132008 }
+		ai_chance = { factor = 85 }
+	}
+	
+	option = {
+        name = "Instigate the Ayyubids of Syria into action."
+		SYR = { country_event = 132009 }
+		ai_chance = { factor = 15 }
+	}
+}
+
+country_event = {
+	id = 132008
+	title = "Offer from Frederick II"
+	desc = "132008_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "We must pacify our domestic rivals."
+		PLS = { country_event = 132010 }
+		set_country_flag = egy_frederick_negotiations 
+		SIC = { country_event = 133006 }
+		ai_chance = { factor = 85 }
+	}
+	
+	option = {
+	    name = "We will not surrender land to the Crusaders."
+		SIC = { country_event = 133007 }
+		prestige = 5
+		ai_chance = { factor = 15 }
+	}
+}
+
+country_event = {
+	id = 132009
+	title = "Offer from Frederick II"
+	desc = "132009_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "This is our opportunity to pacify al-Kamil."
+		THIS = { set_country_flag = syr_frederick_negotiations }
+		ai_chance = { factor = 85 }
+	}
+	
+	option = {
+	    name = "We won't fall for the provocation of infidels."
+		SIC = { country_event = 133007 }
+		prestige = 5
+		ai_chance = { factor = 15 }
+	}
+}
+
+country_event = {
+	id = 132010
+	title = "We got sold out"
+	desc = "132010_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "Damn."
+		917 = { secede_province = JER }
+		918 = { secede_province = JER }
+		27 = { secede_province = JER }
+		ai_chance = { factor = 85 }
+	}
+
+}

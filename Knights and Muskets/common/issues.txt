@@ -487,7 +487,7 @@ political_reforms = {
 		next_step_only = yes
         no_parliament = {
 			rich_vote = 0.5
-            middle_vote = 0
+            middle_vote = 0.05
             poor_vote = 0
 			rules = { largest_share = yes }
 			suppression_points_modifier = 0.25
@@ -497,7 +497,7 @@ political_reforms = {
         }
         admin_parliament = {
 			rich_vote = 1
-            middle_vote = 0.03
+            middle_vote = 0.15
             poor_vote = 0
 			pension_level = 0.50
 			leadership_modifier = 0.05

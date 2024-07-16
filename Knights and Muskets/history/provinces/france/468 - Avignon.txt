@@ -1,8 +1,9 @@
-owner = PRO
-controller = PRO
+owner = OCC
+controller = OCC
+add_core = OCC
 add_core = ARP
 add_core = PRO
-add_core = GER
+add_core = NNN
 trade_goods = sulphur
-life_rating = 32
+life_rating = 35
 1861.1.1 = { railroad = 3 }

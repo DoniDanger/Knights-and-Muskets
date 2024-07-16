@@ -6,7 +6,7 @@ government = absolute_monarchy
 plurality = 0.4
 nationalvalue = nv_order
 literacy = 0.15
-prestige = 10
+prestige = 20
 civilized = yes
 
 # Political reforms
@@ -40,12 +40,11 @@ upper_house = {
 }
 
 # Technologies
-post_napoleonic_thought = 1
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-military_staff_system = 1
-army_command_principle = 1
-post_nelsonian_thought = 1
+motte_and_bailey = 1
+medieval_infantry = 1
+medieval_cavalry = 1
+feudal_levy = 1
+early_medieval_tactics = 1
 clipper_design = 1
 naval_design_bureaus = 1
 alphabetic_flag_signaling = 1
@@ -64,5 +63,14 @@ piston_steam_engine = 1
 mechanical_production = 1
 mechanized_mining = 1
 basic_chemistry = 1
+
+#inventions
+heavy_cavalry_activation = yes
+horse_archer_activation = yes
+infantry_activation = yes
+archer_activation = yes
+pikeman_activation = yes
+crossbowman_activation = yes
+man_at_arms_activation = yes
 
 oob = "EPI_OOB.txt"

@@ -1,13 +1,8 @@
-owner = ARN
-controller = ARN
-add_core = ARN
+owner = PRO
+controller = PRO
 add_core = ARP
 add_core = PRO
-add_core = GER
+add_core = NNN
 trade_goods = silk
-life_rating = 33
+life_rating = 35
 naval_base = 2
-1861.1.1 = { 
-	railroad = 3
-	naval_base = 3
-}

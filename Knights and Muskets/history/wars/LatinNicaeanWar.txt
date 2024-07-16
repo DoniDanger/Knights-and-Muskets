@@ -1,0 +1,32 @@
+name = "Nicaean Civil War"
+
+1221.7.2 = {
+	add_attacker = NCE
+	add_defender = LTN
+	add_defender = MCD
+	add_defender = ATH
+	add_defender = MEA
+	add_defender = PHI
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = conquest
+		actor = NCE
+		receiver = LTN
+	}
+
+	war_goal = {
+		casus_belli = make_puppet
+		actor = LTN
+		receiver = NCE
+	}
+}
+
+1228.4.12 = {
+	rem_attacker = NCE
+	rem_defender = LTN
+}

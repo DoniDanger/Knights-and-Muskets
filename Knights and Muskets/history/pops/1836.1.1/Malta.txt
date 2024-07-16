@@ -1,0 +1,71 @@
+#Malta - 120000
+#Ruled by Sicily 1222
+#Valetta (120000/30000 POPS)
+854 = {
+	aristocrats = {
+		culture = sicilian
+		religion = catholic
+		size = 480
+	}
+	
+	bureaucrats = {
+		culture = sicilian
+		religion = catholic
+		size = 180
+	}
+
+	soldiers = {
+		culture = sicilian
+		religion = catholic
+		size = 800
+	}
+
+	artisans = {
+		culture = sicilian
+		religion = catholic
+		size = 2220
+	}
+
+	farmers = {
+		culture = sicilian
+		religion = catholic
+		size = 10700
+	}
+	
+	aristocrats = {
+		culture = sicilian_arab
+		religion = sunni
+		size = 220
+	}
+
+	bureaucrats = {
+		culture = sicilian_arab
+		religion = sunni
+		size = 60
+	}
+
+	clergymen = {
+		culture = sicilian_arab
+		religion = sunni
+		size = 225
+	}
+
+	artisans = {
+		culture = sicilian_arab
+		religion = sunni
+		size = 4600
+	}
+
+	soldiers = {
+		culture = sicilian_arab
+		religion = sunni
+		size = 1340
+	}
+
+	farmers = {
+		culture = sicilian_arab
+		religion = sunni
+		size = 16700
+	}
+
+}

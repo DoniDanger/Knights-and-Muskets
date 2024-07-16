@@ -1,0 +1,165 @@
+#Cyprus Region (152000)
+#under the rule of Ottoman Empire in 1836  
+#Nicosia (64000/16000 POPS)
+855 = {
+	aristocrats = {
+		culture = outremer
+		religion = catholic
+		size = 350
+	}
+
+	bureaucrats = {
+		culture = outremer
+		religion = catholic
+		size = 250
+	}
+
+	officers = {
+		culture = outremer
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = outremer
+		religion = catholic
+		size = 150
+	}
+
+	artisans = {
+		culture = outremer
+		religion = catholic
+		size = 1100
+	}
+
+	soldiers = {
+		culture = outremer
+		religion = catholic
+		size = 875
+	}
+
+	farmers = {
+		culture = outremer
+		religion = catholic
+		size = 3750
+	}
+
+	clergymen = {
+		culture = cypriot
+		religion = orthodox
+		size = 180
+	}
+
+	artisans = {
+		culture = cypriot
+		religion = orthodox
+		size = 1230
+	}
+
+	farmers = {
+		culture = cypriot
+		religion = orthodox
+		size = 19400
+	}
+}
+#Limassol (44000/11000 POPS)
+856 = {
+	aristocrats = {
+		culture = outremer
+		religion = catholic
+		size = 320
+	}
+
+	clergymen = {
+		culture = outremer
+		religion = catholic
+		size = 120
+	}
+
+	artisans = {
+		culture = outremer
+		religion = catholic
+		size = 495
+	}
+
+	soldiers = {
+		culture = outremer
+		religion = catholic
+		size = 700
+	}
+
+	farmers = {
+		culture = outremer
+		religion = catholic
+		size = 2225
+	}
+
+	clergymen = {
+		culture = cypriot
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = cypriot
+		religion = orthodox
+		size = 660
+	}
+
+	farmers = {
+		culture = cypriot
+		religion = orthodox
+		size = 14000
+	}
+}
+#Famagusta (44000/11000 POPS)
+857 = {
+	aristocrats = {
+		culture = outremer
+		religion = catholic
+		size = 300
+	}
+
+	clergymen = {
+		culture = outremer
+		religion = catholic
+		size = 120
+	}
+
+	artisans = {
+		culture = outremer
+		religion = catholic
+		size = 250
+	}
+
+	soldiers = {
+		culture = outremer
+		religion = catholic
+		size = 800
+	}
+
+	farmers = {
+		culture = outremer
+		religion = catholic
+		size = 4125
+	}
+
+	clergymen = {
+		culture = cypriot
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = cypriot
+		religion = orthodox
+		size = 660
+	}
+
+	farmers = {
+		culture = cypriot
+		religion = orthodox
+		size = 12450
+	}
+
+}

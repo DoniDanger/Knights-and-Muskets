@@ -1,14 +1,6 @@
-
-
-add_core = DES
-add_core = CAL
+owner = CLC
+controller = CLC
+add_core = RUM
+add_core = CLC
 trade_goods = fruit
 life_rating = 35
-colonial = 2
-1861.1.1 = {
-	
-	
-	
-	remove_core = MEX
-	colonial = 0
-}

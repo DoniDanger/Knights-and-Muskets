@@ -1,6 +1,8 @@
-
-
-
+owner = PML
+controller = PML
+add_core = PML
+add_core = POM
+add_core = POL
 trade_goods = coal
 life_rating = 35
 1861.1.1 = { railroad = 3 }

@@ -1,0 +1,146 @@
+political_decisions = {
+	expel_sicilian_muslims = {
+		potential = {
+			tag = SIC
+			NOT = { has_country_flag = sicilians_muslims_expelled }
+		}
+		
+		allow = {
+			has_country_flag = sicilian_muslims_crushed
+		}
+		
+		effect = {
+			prestige = 5
+			country_event = 133002 
+			set_country_flag = sicilians_muslims_expelled
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	diet_of_cremona = {
+		potential = {
+			tag = SIC
+			NOT = { has_global_flag = cremona_diet_summoned }
+		}
+		
+		allow = {
+			has_global_flag = sixth_crusade_forming
+			LOM = { exists = no }
+		}
+		
+		effect = {
+			prestige = 5
+			set_global_flag = cremona_diet_summoned
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	marry_isabella_of_jersualem = {
+		potential = {
+			tag = SIC
+			JER = { exists = yes }
+			NOT = { has_country_flag = jerusalem_isabella_marriage }
+		}
+		
+		allow = {
+			has_global_flag = sixth_crusade_forming
+			JER = { exists = yes }
+			OR = {
+				JER = { is_vassal = no }
+				JER = { vassal_of = THIS }
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			THIS = {
+				diplomatic_influence = {
+					who = JER
+					value = 200
+				}
+			}
+			create_alliance = JER
+			set_country_flag = jerusalem_isabella_marriage
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	dispossess_king_of_jerusalem = {
+		potential = {
+			tag = SIC
+			JER = { exists = yes }
+			NOT = { has_country_flag = jerusalem_king_dispossessed }
+		}
+		
+		allow = {
+			has_country_flag = jerusalem_isabella_marriage
+			JER = { exists = yes }
+			JER = { in_sphere = THIS }
+			OR = {
+				JER = { is_vassal = no }
+				JER = { vassal_of = THIS }
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			create_vassal = JER
+			set_country_flag = jerusalem_king_dispossessed
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	organize_sixth_crusade = {
+		potential = {
+			tag = PAP
+			NOT = { has_global_flag = sixth_crusade_forming }
+		}
+		
+		allow = {
+			year = 1225
+		}
+		
+		effect = {
+			prestige = 5
+			set_global_flag = sixth_crusade_forming
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	constitutions_of_melfi = {
+		potential = {
+			tag = SIC
+			NOT = { has_country_flag = liber_augustalis }
+		}
+		
+		allow = {
+			year = 1231
+		}
+		
+		effect = {
+			prestige = 5
+			#give reforms and shit
+			set_country_flag = liber_augustalis
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	sic_ayyubid_negotiations = {
+		potential = {
+			tag = SIC
+			NOT = { has_country_flag = negotiations_with_ayyubids }
+		}
+		
+		allow = {
+			has_global_flag = sixth_crusade_forming
+			has_country_flag = frederick_departs_crusade
+		}
+		
+		effect = {
+			prestige = 5
+			country_event = 132007 
+			set_country_flag = negotiations_with_ayyubids
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

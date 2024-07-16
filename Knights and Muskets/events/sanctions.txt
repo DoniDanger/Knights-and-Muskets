@@ -76,8 +76,6 @@ country_event = {
 	option = {
 		name = "I love peasants"
 		set_global_flag = estates_setup
-		enable_ideology = anarcho_liberal
-		enable_ideology = communist
 		enable_ideology = socialist
 	}
 }

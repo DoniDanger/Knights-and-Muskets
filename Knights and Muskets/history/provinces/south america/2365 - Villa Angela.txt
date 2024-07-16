@@ -1,5 +1,6 @@
-
-
-
+owner = RYA
+controller = RYA
+add_core = RYA
+add_core = UKR
 trade_goods = timber
-life_rating = 30
+life_rating = 35

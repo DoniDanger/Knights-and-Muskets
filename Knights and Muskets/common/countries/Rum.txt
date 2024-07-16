@@ -1,5 +1,7 @@
 graphical_culture = OttomanGC
-color = { 30 160 203 }
+##color = { 144 182 161 }
+#color = { 30 160 203 }
+color = { 18 125 91 }
 
 party = {
     name = "Royalist"

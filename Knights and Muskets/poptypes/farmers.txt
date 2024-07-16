@@ -1057,7 +1057,7 @@ ideologies = {
 	}
 	
 	reactionary = {
-		factor = 0.65
+		factor = 1
 		modifier = {
 			factor = 0.5
 			not = { militancy = 6 }
@@ -1215,7 +1215,11 @@ ideologies = {
 	}
 
 	gentry = {
-		factor = 0.5
+		factor = 0.1
+		modifier = {
+			factor = 0.15
+			has_global_flag = rise_of_gentry
+		}
 		modifier = {
 			factor = 0.5
 			militancy = 6
@@ -1299,7 +1303,7 @@ ideologies = {
 	}
 
 	clergy = {
-		factor = 0.65
+		factor = 0.5
 		modifier = {
 			factor = 0.5
 			militancy = 6
@@ -1411,7 +1415,7 @@ ideologies = {
 	}
 
 	fervent_clergy = {
-		factor = 0.5
+		factor = 0.4
 		modifier = {
 			factor = 0.5
 			militancy = 6

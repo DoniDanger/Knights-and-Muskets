@@ -1,11 +1,8 @@
-
-
-
-trade_goods = coal
+owner = LUX
+controller = LUX
+add_core = LUX
+add_core = GER
+add_core = NNN
+add_core = WLL
+trade_goods = timber
 life_rating = 35
-1861.1.1 = {			}
-1861.1.1 = { 
-	railroad = 3 
-	naval_base = 1
-	fort = 1
-}

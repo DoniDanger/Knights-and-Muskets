@@ -1,0 +1,206 @@
+###HOHENSTAUFEN SICILY###
+country_event = {
+	id = 133000
+	title = "Muslim Rebellion in Sicily"
+	desc = "133000_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = SIC
+	}
+
+	option = {
+	    name = "We must crush the Saracens."
+		set_country_flag = sicilian_muslim_rebellion
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 133001
+	title = "Sicilian Rebellion Crushed"
+	desc = "133001_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = SIC
+		has_country_flag = sicilian_muslim_rebellion
+		USA = { exists = no }
+	}
+
+	option = {
+	    name = "We must cement Catholic control of Sicily permanently."
+		prestige = 5
+		set_country_flag = sicilian_muslims_crushed
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+
+    id = 133002
+    title = "Expulsion of Sicilian Muslims"
+	desc = "133002_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+    option = {
+        name = "Deport them all to Lucera."
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+	id = 133003
+	title = "Frederick Departs for Crusade"
+	desc = "133003_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = SIC
+		year = 1227
+		has_global_flag = sixth_crusade_forming
+	}
+
+	option = {
+	    name = "We shall reclaim the Holy Land."
+		set_country_flag = frederick_departs_crusade
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 133004
+	title = "Epidemic Strikes Frederick's Retinue"
+	desc = "133004_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 15 }
+
+	trigger = {
+		tag = SIC
+		has_country_flag = frederick_departs_crusade
+	}
+
+	option = {
+	    name = "We have no choice but to wait."
+		PAP = { country_event = 133005 }
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+
+    id = 133005
+    title = "Frederick Flees from Crusade!"
+	desc = "133005_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+    option = {
+        name = "Excommunicate Frederick for breaking his oath."
+		prestige = 5
+		SIC = { set_country_flag = excommunication_active }
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+
+    id = 133006
+    title = "Sixth Crusade Successful Peacefully"
+	desc = "133006_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+    option = {
+        name = "Jerusalem has been restored."
+		prestige = 15
+		set_global_flag = sixth_crusade_win
+		ai_chance = { factor = 95 }
+	}
+}
+
+country_event = {
+
+    id = 133007
+    title = "Ayyubids Reject our Demands"
+	desc = "133007_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+    option = {
+        name = "Damn, we gotta kill this guy."
+		prestige = 5
+		casus_belli = {
+			target = EGY
+			type = cut_down_to_size
+			months = 12
+		}
+		casus_belli = {
+			target = SYR
+			type = cut_down_to_size
+			months = 12
+		}
+		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+	id = 133008
+	title = "Sixth Crusade Successful Militarily"
+	desc = "133008_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "Jerusalem has been restored by the sword."
+		set_global_flag = sixth_crusade_win
+		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+	id = 133009
+	title = "Sixth Crusade Fails"
+	desc = "133009_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+	    name = "A failure for Frederick, and Christendom."
+		set_global_flag = sixth_crusade_fail
+		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+	id = 133010
+	title = "The Sixth Crusade"
+	desc = "133010_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = SIC
+		has_global_flag = sixth_crusade_forming
+		war_with = EGY
+	}
+
+	option = {
+	    name = "We win these."
+		ai_chance = { factor = 85 }
+	}
+}

@@ -2,12 +2,12 @@ capital = 860
 primary_culture = latin
 culture = greek
 religion = catholic
-government = absolute_monarchy
+government = feudal_monarchy
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.15
 civilized = yes
-prestige = 8
+prestige = 20
 
 # Political reforms
 slavery = no_slavery
@@ -51,11 +51,11 @@ upper_house = {
 
 
 # Technologies
-post_napoleonic_thought = 1
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-military_staff_system = 1
-army_command_principle = 1
+motte_and_bailey = 1
+medieval_infantry = 1
+medieval_cavalry = 1
+feudal_levy = 1
+early_medieval_tactics = 1
 post_nelsonian_thought = 1
 clipper_design = 1
 naval_design_bureaus = 1
@@ -80,7 +80,15 @@ basic_chemistry = 1
 experimental_railroad = 1
 
 # Inventions
+heavy_cavalry_activation = yes
+infantry_activation = yes
+archer_activation = yes
+pikeman_activation = yes
+crossbowman_activation = yes
+man_at_arms_activation = yes
 
 #Starting Consciousness
 consciousness = 2
 nonstate_consciousness = 0
+
+oob = "LTN_oob.txt"

@@ -1,1 +1,6 @@
-trade_goods = woollife_rating = 35
+owner = KIE
+controller = KIE
+add_core = KIE
+add_core = UKR
+trade_goods = wool
+life_rating = 35

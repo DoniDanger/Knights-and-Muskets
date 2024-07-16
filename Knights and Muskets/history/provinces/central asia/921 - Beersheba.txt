@@ -1,7 +1,6 @@
-owner = EGY
-controller = EGY
-add_core = EGY
+owner = PLS
+controller = PLS
+add_core = PLS
 add_core = JER
-add_core = SYR
 trade_goods = salt
 life_rating = 35

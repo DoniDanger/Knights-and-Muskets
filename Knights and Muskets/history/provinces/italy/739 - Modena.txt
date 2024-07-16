@@ -1,7 +1,7 @@
-owner = LOM
-controller = LOM
-add_core = LOM
-add_core = GER
+owner = MOD
+controller = MOD
+add_core = MOD
+add_core = NNN
 add_core = ITA
 trade_goods = iron
 life_rating = 35

@@ -8,13 +8,6 @@ vassal = {
 }
 
 ### Georgian Kingdom ###
-#Georgia-Trebizond
-vassal = {
-	first = GEO
-	second = PNT
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
 #Georgia-Zichia
 vassal = {
 	first = GEO
@@ -47,13 +40,13 @@ vassal = {
 }
 
 ### Aragonese Dynasty ###
-#Aragon-Provence
-vassal = {
-	first = ARN
-	second = PRO
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
+#Aragon-Provence, claimed title but virtually independent
+#vassal = {
+#	first = ARN
+#	second = PRO
+#	start_date = 1212.1.1
+#	end_date = 1859.1.24	
+#}
 
 ### Almohad Caliphate ###
 #Almohad-Ifriqiya
@@ -72,10 +65,31 @@ substate = {
 }
 
 ### Ayyubid Sultanate ###
-#Ayyubid-Aleppo
+#Ayyubid-Damascus
 substate = {
 	first = EGY
 	second = SYR
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Ayyubid-Palestine
+substate = {
+	first = EGY
+	second = PLS
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Ayyubid-Mecca/Medina
+vassal = {
+	first = EGY
+	second = HDJ
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Ayyubid-Yemen
+vassal = {
+	first = EGY
+	second = YEM
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
@@ -88,13 +102,6 @@ vassal = {
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
-#France-Bourbon
-substate = {
-	first = FRA
-	second = BOU
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
 #France-Auvergne
 substate = {
 	first = FRA
@@ -102,50 +109,31 @@ substate = {
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
-#France-Armagnac
+#France-Auvergne
 substate = {
 	first = FRA
-	second = AMG
+	second = PIC
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
-#France-Champagne
+#Hugh X of Lusignan, Count of La Marche and Angouleme
 substate = {
-	first = FRA
-	second = CMP
+	first = LMC
+	second = ANG
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
 
-### Holy Roman Empire - Swabian Dynasty ###
-#HRE-Upper Lotharingia
+### Plantagenet Dynasty ###
+#England-Poitou
 substate = {
-	first = SIC
-	second = ALS
+	first = ENL
+	second = POI
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
-#HRE-Franconia
-substate = {
-	first = SIC
-	second = FRK
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
-#HRE-Thuringia
-substate = {
-	first = SIC
-	second = THU
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
-#HRE-Meissen
-substate = {
-	first = SIC
-	second = MEI
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
+
+### Holy Roman Empire - Hohenstaufen Dynasty ###
 #HRE-Carinthia
 substate = {
 	first = SIC
@@ -183,10 +171,17 @@ vassal = {
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
-#Latin Empire-Morea
+#Latin Empire-Achaea
 vassal = {
 	first = LTN
 	second = MEA
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Latin Empire-Philippopolis
+vassal = {
+	first = LTN
+	second = PHI
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }

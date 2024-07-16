@@ -1,9 +1,5 @@
-
-add_core = COL
+owner = ABB
+controller = ABB
+add_core = ABB
 trade_goods = timber
 life_rating = 35
-colonial = 2
-1861.1.1 = {
-		
-	colonial = 2
-}

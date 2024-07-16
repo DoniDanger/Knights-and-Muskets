@@ -1,11 +1,7 @@
-
-
-
-trade_goods = tobacco
+owner = CRM
+controller = CRM
+add_core = CRM
+add_core = NNN
+add_core = ITA
+trade_goods = grain
 life_rating = 35
-1861.1.1 = {
-	
-	
-	
-}
-1861.1.1 = { railroad = 3 }

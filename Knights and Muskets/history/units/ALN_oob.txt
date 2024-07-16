@@ -1,0 +1,54 @@
+leader = {
+    name = "Arslan"
+    date = 1221.8.1
+    type = land
+    personality = defence_2.1
+    background = attack_2.1
+    prestige = 0.14
+}
+
+army = {
+    name = "Alanian Tribal Coalition"
+    location = 1055
+    regiment = {
+        name = "1. Tribal Warrior"
+        type = infantry
+        home = 1056
+    }
+
+    regiment = {
+        name = "2. Tribal Warrior"
+        type = irregular
+        home = 1050
+    }
+
+	regiment = {
+        name = "3. Tribal Warrior"
+        type = irregular
+        home = 15
+    }
+	
+	regiment = {
+        name = "5. Tribal Warrior"
+        type = artillery
+        home = 28
+    }
+
+    regiment = {
+        name = "4. Tribal Warrior"
+        type = artillery
+        home = 39
+    }
+	
+	regiment = {
+        name = "1. Alan Lancers"
+        type = cavalry
+        home = 13
+    }
+
+    regiment = {
+        name = "4. Alan Lancers"
+        type = cavalry
+        home = 15
+    }
+}

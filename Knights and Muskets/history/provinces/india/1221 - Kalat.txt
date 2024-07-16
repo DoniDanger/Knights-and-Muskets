@@ -1,6 +1,5 @@
-owner = SIN
-controller = SIN
-add_core = SIN
+owner = MAK
+controller = MAK
 add_core = MAK
 add_core = PER
 trade_goods = wool

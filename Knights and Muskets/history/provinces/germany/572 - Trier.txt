@@ -1,9 +1,10 @@
-owner = ALS
-controller = ALS
-add_core = ALS
+owner = TRR
+controller = TRR
+add_core = TRR
+add_core = NNN
 add_core = GER
 trade_goods = iron
-life_rating = 40
+life_rating = 35
 1861.1.1 = {
 	state_building = {
 		level = 1

@@ -1,5 +1,6 @@
-owner = ALN
-controller = ALN
-add_core = ALN
+owner = CUM
+controller = CUM
+add_core = CUM
+add_core = CIR
 trade_goods = grain
 life_rating = 35

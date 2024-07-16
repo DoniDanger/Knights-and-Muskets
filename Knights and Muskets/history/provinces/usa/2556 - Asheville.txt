@@ -1,15 +1,7 @@
-
-
-
+owner = SVY
+controller = SVY
+add_core = SVY
+add_core = ARP
+add_core = NNN
 trade_goods = tobacco
 life_rating = 35
-1861.1.1 = {
-	
-	
-	
-	state_building = {
-		level = 1
-		building = regular_clothes_factory
-		upgrade = yes
-	}
-}

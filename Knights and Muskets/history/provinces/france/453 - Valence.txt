@@ -1,7 +1,7 @@
-owner = ARP
-controller = ARP
+owner = DAU
+controller = DAU
+add_core = DAU
 add_core = ARP
-add_core = GER
+add_core = NNN
 trade_goods = fruit
-life_rating = 32
-1861.1.1 = { railroad = 3 }
+life_rating = 35

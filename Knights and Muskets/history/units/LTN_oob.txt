@@ -1,0 +1,93 @@
+leader = {
+    name = "Robert of Courtenay"
+    date = 1221.8.1
+    type = land
+    personality = openminded   
+    background = uncommonly_young 
+    prestige = 0.14
+}
+
+leader = {
+    name = "Alexios Laskaris"
+    date = 1221.8.1
+    type = land
+    personality = aggressive 
+    background = hated 
+    prestige = 0.18
+}
+
+army = {
+    name = "Exercitus Latinorum"
+    location = 864
+    regiment = {
+        name = "1. Fanteria di Linea - Re e Regina"
+        type = plane
+        home = 860
+    }
+
+    regiment = {
+        name = "2. Fanteria di Linea - Duca di Calabria"
+        type = plane
+        home = 860
+    }
+
+    regiment = {
+        name = "3. Fanteria di Linea - Duca di Noto"
+        type = plane
+        home = 861
+    }
+
+    regiment = {
+        name = "4. Fanteria di Linea"
+        type = tank
+        home = 862
+    }
+
+    regiment = {
+        name = "1. Cavalleria di Linea"
+        type = tank
+        home = 105
+    }
+
+    regiment = {
+        name = "2. Cavalleria di Linea"
+        type = cuirassier
+        home = 135
+    }
+
+    regiment = {
+        name = "3. Cavalleria di Linea"
+        type = cuirassier
+        home = 858
+    }
+
+}
+
+army = {
+    name = "Exercitus Frankoratia"
+    location = 860
+    regiment = {
+        name = "1. Fanteria di Linea - Re e Regina"
+        type = plane
+        home = 828
+    }
+
+    regiment = {
+        name = "2. Fanteria di Linea - Duca di Calabria"
+        type = plane
+        home = 815
+    }
+
+    regiment = {
+        name = "4. Fanteria di Linea"
+        type = tank
+        home = 864
+    }
+
+    regiment = {
+        name = "3. Cavalleria di Linea"
+        type = cuirassier
+        home = 865
+    }
+
+}

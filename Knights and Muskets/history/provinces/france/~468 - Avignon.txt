@@ -1,8 +1,0 @@
-owner = ARP
-controller = ARP
-add_core = ARP
-add_core = PRO
-add_core = GER
-trade_goods = sulphur
-life_rating = 32
-1861.1.1 = { railroad = 3 }

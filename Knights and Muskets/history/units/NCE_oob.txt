@@ -1,0 +1,84 @@
+leader = {
+    name = "John III Doukas Vatatzes"
+    date = 1221.8.1
+    type = land
+    personality = audacious  
+    background = war_college 
+    prestige = 0.3
+}
+
+army = {
+    name = "Stratos John III Doukas Vatatzes"
+    location = 863
+    regiment = {
+        name = "1. Latinkon"
+        type = plane
+        home = 863
+    }
+
+    regiment = {
+        name = "2. Logofora"
+        type = infantry
+        home = 863
+    }
+
+    regiment = {
+        name = "3. Logofora"
+        type = infantry
+        home = 881
+    }
+
+    regiment = {
+        name = "2. Toxotis"
+        type = artillery
+        home = 868
+    }
+
+	 regiment = {
+        name = "1. Toxotis"
+        type = artillery
+        home = 867
+    }
+	
+    regiment = {
+        name = "1. Elafry Ippiko"
+        type = cavalry
+        home = 870
+    }
+
+    regiment = {
+        name = "2. Elafry Ippiko"
+        type = cavalry
+        home = 869
+    }
+
+    regiment = {
+        name = "3. Kataphraktoi"
+        type = cuirassier
+        home = 869
+    }
+
+}
+
+army = {
+    name = "Stratos tis Anatolis"
+    location = 874
+    regiment = {
+        name = "1. Toxotai"
+        type = dragoon
+        home = 871
+    }
+
+    regiment = {
+        name = "2. Toxotai"
+        type = dragoon
+        home = 874
+    }
+
+    regiment = {
+        name = "3. Toxotis"
+        type = artillery
+        home = 866
+    }
+
+}

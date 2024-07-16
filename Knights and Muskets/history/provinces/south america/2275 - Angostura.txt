@@ -1,6 +1,6 @@
-
-
-
-
+owner = CRC
+controller = CRC
+add_core = OCC
+add_core = CRC
 trade_goods = wool
-life_rating = 30
+life_rating = 35

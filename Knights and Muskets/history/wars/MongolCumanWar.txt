@@ -3,7 +3,13 @@ name = "Subetei's Caucasian Expedition"
 1221.11.12 = {
 	add_attacker = MGL
 	add_attacker = WMG
+	add_attacker = DAG #so they dont bitch about neutral
 	add_defender = CUM
+	add_defender = ALN
+	add_defender = CHY
+	add_defender = CIR
+	add_defender = LZG
+	add_defender = VLG
 	
 	# actor
 	# receiver
@@ -11,14 +17,24 @@ name = "Subetei's Caucasian Expedition"
 	# country - 3rd party
 	# state_province_id - target state capital
 	war_goal = {
-		casus_belli = conquest
+		casus_belli = cut_down_to_size
 		actor = WMG
-		receiver = MUL
+		receiver = CUM
+	}
+	war_goal = {
+		casus_belli = make_puppet
+		actor = WMG
+		receiver = CHY
+	}
+	war_goal = {
+		casus_belli = cut_down_to_size
+		actor = CUM
+		receiver = WMG
 	}
 
 }
 
-1228.6.6 = {
+1224.6.6 = {
 	rem_attacker = MGL
 	rem_attacker = WMG
 	rem_defender = CUM

@@ -1,5 +1,7 @@
-owner = PER
-controller = PER
+owner = WMG
+controller = WMG
+add_core = ILK
+add_core = WMG
 add_core = PER
 trade_goods = coal
 life_rating = 35

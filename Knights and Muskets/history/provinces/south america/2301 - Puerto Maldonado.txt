@@ -1,7 +1,5 @@
+owner = AMG
+controller = AMG
+add_core = AMG
 trade_goods = timber
-life_rating = 30
-1860.1.1 = {
-	
-	
-	remove_core = SPU
-}
+life_rating = 35

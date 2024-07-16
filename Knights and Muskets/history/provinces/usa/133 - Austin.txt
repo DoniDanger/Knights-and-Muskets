@@ -1,13 +1,8 @@
-
-
-
-
+owner = PHI
+controller = PHI
+add_core = PHI
+add_core = LTN
+add_core = BUL
+add_core = BYZ
 trade_goods = cattle
 life_rating = 35
-1861.1.1 = {
-	
-	
-	
-	
-	remove_core = MEX
-}

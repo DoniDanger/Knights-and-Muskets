@@ -1,5 +1,6 @@
-
-
-
+owner = KAS
+controller = KAS
+add_core = KAS
 trade_goods = fruit
-life_rating = 25
+life_rating = 35
+

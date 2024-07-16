@@ -1,5 +1,7 @@
-
-
-
+owner = FCM
+controller = FCM
+add_core = FCM
+add_core = ARP
+add_core = NNN
 trade_goods = coal
 life_rating = 35

@@ -1,0 +1,36 @@
+###LOMBARD LEAGUE###
+country_event = {
+	id = 134000
+	title = "Reformation of the Lombard League"
+	desc = "134000_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+	    name = "The Emperor will not conquer Northern Italy."
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 134001
+	title = "Invitation to the Lombard League"
+	desc = "134001_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "We must check the control of the Emperor."
+		THIS = { all_core = { add_core = LOM }}
+		FROM = {
+                inherit = THIS
+        }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "We will not sacrifice ourselves."
+		ai_chance = { factor = 10 }
+	}
+}

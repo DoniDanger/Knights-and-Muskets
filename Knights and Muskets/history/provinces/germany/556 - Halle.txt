@@ -1,6 +1,7 @@
-owner = MAG
-controller = MAG
-add_core = MAG
+owner = THU
+controller = THU
+add_core = THU
 add_core = GER
+add_core = MAG
 trade_goods = fruit
 life_rating = 40

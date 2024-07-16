@@ -4,8 +4,8 @@ religion = animist
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.03
-non_state_culture_literacy = 0.30
+literacy = 0.01 
+non_state_culture_literacy = 0.01  
 
 # Political reforms
 slavery = no_slavery
@@ -26,12 +26,22 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
-ruling_party = AIN_reactionary
+# New Reforms
+conscription = four_year_draft
+debt_law = peonage
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+centralization = regionalism
+colonial_policy = no_colonies 
+
+ruling_party = "Nobility Faction"
 upper_house = {
 	fascist = 0
-	liberal = 18
-	conservative = 21
-	reactionary = 61
+	liberal = 17
+	conservative = 35
+	reactionary = 48
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -39,19 +49,10 @@ upper_house = {
 
 # Starting Consciousness
 consciousness = 0
-nonstate_consciousness = 0
-
-oob = "AIN_oob.txt"
-1861.1.1 = {
-	oob = "/1861/AIN_oob.txt"
-}
-
-1861.1.1 = {
-
-foreign_weapons = yes_foreign_weapons
+nonstate_consciousness= 0
 
 # Technologies
-flintlock_rifles = 1
 
-}
+# Inventions
 
+oob = "AIN_oob.txt"

@@ -1,5 +1,5 @@
 capital = 575
-primary_culture = north_german
+primary_culture = central_franconian
 religion = catholic
 government = theocracy
 plurality = 0.25

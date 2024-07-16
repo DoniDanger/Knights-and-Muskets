@@ -1105,14 +1105,14 @@ friedrich_hayek = {
 	}
 }
 #market_structure
-polypoly_structure = {
+silk_road = {
 	news = no
 	limit = { 
-		market_structure = 1 
+		international_trade_expansion = 1 
 		NOT = {
 				OR = {
-					invention = oligopoly_structure
-					invention = monopoly_structure
+					invention = diversified_trade_fairs
+					invention = trading_hubs
 				}
 		}	
 	}
@@ -1131,14 +1131,40 @@ polypoly_structure = {
 		factory_input = -0.02
 	}
 }
-oligopoly_structure = {
+armed_merchant_escorts = {
 	news = no
 	limit = { 
-		market_structure = 1 
+		international_trade_expansion = 1 
+		NOT = {
+				OR = {
+					invention = diversified_trade_fairs
+					invention = trading_hubs
+				}
+		}	
+	}
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			ruling_party_ideology = liberal
+		}
+		modifier = {
+			factor = 2
+			nationalvalue = nv_liberty
+		}
+	}
+	effect = {
+		factory_input = -0.02
+	}
+}
+diversified_trade_fairs = {
+	news = no
+	limit = { 
+		international_trade_expansion = 1 
 		NOT = {
 			OR = {
-				invention = polypoly_structure
-				invention = monopoly_structure
+				invention = trading_hubs
+				invention = armed_merchant_escorts
 			}
 		}		
 	}
@@ -1157,14 +1183,14 @@ oligopoly_structure = {
 		factory_output = 0.02
 	}
 }
-monopoly_structure = {
+trading_hubs = {
 	news = no
 	limit = { 
-		market_structure = 1 
+		international_trade_expansion = 1 
 		NOT = {
 			OR = {
-				invention = polypoly_structure
-				invention = oligopoly_structure
+				invention = diversified_trade_fairs
+				invention = armed_merchant_escorts
 			}
 		}	
 	}
@@ -1183,9 +1209,8 @@ monopoly_structure = {
 		factory_throughput = 0.05
 	}
 }
-#business_regulations
-limited_partnership_company = {
-	limit = { business_regulations = 1 }
+international_trading_posts = {
+	limit = { trading_ports = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1202,14 +1227,14 @@ limited_partnership_company = {
 		tax_eff = 1 
 	}
 }
-joint_stock_company = {
-	limit = { business_regulations = 1 }
+foreign_merchants_quarters = {
+	limit = { trading_ports = 1 }
 	news = no
 	chance = {
 		base = 2
 		modifier = {
 			factor = 2
-			invention = limited_partnership_company
+			invention = international_trading_posts
 		}
 		modifier = {
 			factor = 2
@@ -1220,8 +1245,8 @@ joint_stock_company = {
 		tax_eff = 1 
 	}
 }
-patent = {
-	limit = { business_regulations = 1 }
+trade_consulates = {
+	limit = { trading_ports = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1242,8 +1267,8 @@ patent = {
 		factory_cost = -0.03
 	}
 }
-trademark = {
-	limit = { business_regulations = 1 }
+trade_monopolies = {
+	limit = { trading_ports = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1265,8 +1290,8 @@ trademark = {
 	}
 }
 #market_regulations
-anti_trust_laws = {
-	limit = { market_regulations = 1 }
+commenda = {
+	limit = { trading_expeditions = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1287,8 +1312,8 @@ anti_trust_laws = {
 		tax_eff = 1 
 	}
 }
-financial_regulations = {
-	limit = { market_regulations = 1 }
+societas_maris = {
+	limit = { trading_expeditions = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1305,8 +1330,8 @@ financial_regulations = {
 		tax_eff = 1 
 	}
 }
-banking_regulations = {
-	limit = { market_regulations = 1 }
+early_limited_partnerships = {
+	limit = { trading_expeditions = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1479,6 +1504,32 @@ import_substitution_industrialization = {
 	}
 	effect = {
 		activate_building = charcoal_burner
+	}
+}
+the_practice_of_trade = { #La Praticha della Mercatura 
+	limit = { merchant_families = 1 }
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 4
+			economic_policy = planned_economy
+		}
+		modifier = {
+			factor = 3
+			economic_policy = state_capitalism
+		}
+		modifier = {
+			factor = 2
+			economic_policy = interventionism
+		}
+		modifier = {
+			factor = 1
+			trade_policy = protectionism
+		}
+	}
+	effect = {
+		loan_interest = -0.005
 	}
 }
 #organized_factories

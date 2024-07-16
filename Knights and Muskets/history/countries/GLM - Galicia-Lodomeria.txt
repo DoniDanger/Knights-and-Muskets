@@ -1,7 +1,8 @@
 capital = 702
-primary_culture = polish
+primary_culture = malorussian
+culture = polish
 religion = catholic
-government = hms_government
+government = feudal_monarchy
 plurality = 0.2
 nationalvalue = nv_liberty
 literacy = 0.6
@@ -37,3 +38,10 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+#Technology
+motte_and_bailey = 1
+medieval_infantry = 1
+medieval_cavalry = 1
+feudal_levy = 1
+early_medieval_tactics = 1

@@ -1,4 +1,4 @@
-capital = 430
+capital = 111
 primary_culture = french
 religion = catholic
 government = feudal_monarchy

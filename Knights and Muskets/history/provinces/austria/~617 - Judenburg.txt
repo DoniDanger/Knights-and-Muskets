@@ -1,7 +1,0 @@
-owner = SLO
-controller = SLO
-add_core = SLO
-add_core = GER
-add_core = AUS
-trade_goods = iron
-life_rating = 35

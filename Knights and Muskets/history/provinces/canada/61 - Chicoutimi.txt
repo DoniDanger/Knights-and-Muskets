@@ -1,6 +1,5 @@
-
-
-add_core = QUE
+owner = POI
+controller = POI
+add_core = POI
 trade_goods = grain
 life_rating = 35
-colonial = 2

@@ -1,1 +1,7 @@
-trade_goods = coallife_rating = 35colony = 21861.1.1 = {	colony = 0	}
+owner = CMO
+controller = CMO
+add_core = CMO
+add_core = NNN
+add_core = ITA
+trade_goods = coal
+life_rating = 35

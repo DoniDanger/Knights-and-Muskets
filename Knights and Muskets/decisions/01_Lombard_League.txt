@@ -1,0 +1,103 @@
+political_decisions = {
+	centralize_lombard_league = {
+		potential = {
+			primary_culture = north_italian
+			NOT = { has_global_flag = lombard_league_reformed }
+		}
+		
+		allow = {
+			owns = 723
+			owns = 726
+			owns = 727
+			owns = 732
+			owns = 741
+			owns = 742
+			owns = 731
+			owns = 2407
+			owns = 2549
+			owns = 730
+			owns = 211
+			owns = 213
+			owns = 117
+		}
+		
+		effect = {
+			prestige = 25
+			change_tag = LOM
+			any_country = {
+                limit = {
+                    is_culture_group = italian 
+                    exists = yes
+					NOT = { tag = THIS }                   
+                    has_country_flag = guelph_supporter                        
+                }
+                country_event = { id = 134001 days = 1 }
+            }
+			any_owned = { limit = { is_core = ITA } add_core = THIS }
+			set_global_flag = lombard_league_reformed
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	reform_lombard_league = {
+		potential = {
+			primary_culture = north_italian
+			NOT = { tag = MLN }
+			NOT = { has_global_flag = lombard_league_reformed }
+			LOM = { exists = no }
+		}
+		
+		allow = {
+			has_global_flag = cremona_diet_summoned
+			year = 1226
+			LOM = { exists = no }
+		}
+		
+		effect = {
+			prestige = 15
+			change_tag = LOM
+			any_country = {
+                limit = {
+                    is_culture_group = italian 
+                    exists = yes
+					NOT = { tag = THIS }                   
+                    has_country_flag = guelph_supporter                        
+                }
+                country_event = { id = 134001 days = 1 }
+            }
+			any_owned = { limit = { is_core = ITA } add_core = LOM }
+			set_global_flag = lombard_league_reformed
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	reform_lombard_league_milan = {
+		potential = {
+			tag = MLN
+			LOM = { exists = no }
+			NOT = { has_global_flag = lombard_league_reformed }
+		}
+		
+		allow = {
+			has_global_flag = cremona_diet_summoned
+			LOM = { exists = no }
+		}
+		
+		effect = {
+			prestige = 15
+			change_tag = LOM
+			any_country = {
+                limit = {
+                    is_culture_group = italian 
+                    exists = yes
+					NOT = { tag = THIS }                   
+                    has_country_flag = guelph_supporter                        
+                }
+                country_event = { id = 134001 days = 1 }
+            }
+			any_owned = { limit = { is_core = ITA } add_core = LOM }
+			set_global_flag = lombard_league_reformed
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

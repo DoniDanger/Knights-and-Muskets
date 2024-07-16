@@ -19,14 +19,6 @@ folders = {
 		naval_leadership
 	}
 	
-	commerce_tech = {
-		financial_institutions
-		monetary_system
-		economic_thought_and_critique
-		market_functionality
-		tech_organization
-	}
-	
 	culture_tech = {
 		aesthetics
 		philosophy
@@ -35,12 +27,20 @@ folders = {
 		psychology
 	}
 	
-	industry_tech = {
+	commerce_tech = { #Agriculture
+		financial_institutions
+        monetary_system
 		tech_power
-		mechanization
-		metallurgy
-		tech_infrastructure
+		market_functionality
 		chemistry_and_electricity
+	}
+	
+	industry_tech = {
+		economic_thought_and_critique
+		metallurgy
+		mechanization
+        tech_organization
+		tech_infrastructure
 	}
 	
 	

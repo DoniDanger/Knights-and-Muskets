@@ -946,7 +946,7 @@ vaccination = {
 		soldier_to_pop_loss = 0.01
 	}
 }
-chemotherapy = {
+humorism = {
 	limit = { medicine = 1 }
 	chance = {
 		base = 2
@@ -963,7 +963,7 @@ chemotherapy = {
 		land_attrition = -0.05  
 	}
 }
-genetics:_heredity = {
+medieval_hospitals = {
 	limit = { medicine = 1 }
 	chance = {
 		base = 2

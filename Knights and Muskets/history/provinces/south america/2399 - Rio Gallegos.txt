@@ -1,3 +1,6 @@
+owner = PRY
+controller = PRY
+add_core = PRY
+add_core = UKR
 trade_goods = wool
-life_rating = 15
-colonial = 2
+life_rating = 35

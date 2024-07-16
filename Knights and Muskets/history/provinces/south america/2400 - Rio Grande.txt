@@ -1,3 +1,7 @@
+owner = GEN
+controller = GEN
+add_core = GEN
+add_core = NNN
+add_core = ITA
 trade_goods = wool
-life_rating = 15
-colonial = 2
+life_rating = 35

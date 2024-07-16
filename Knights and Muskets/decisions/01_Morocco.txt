@@ -1,0 +1,205 @@
+political_decisions = {
+	restore_almohad_andalusia = {
+		potential = {
+			tag = MOR
+			NOT = { has_country_flag = restored_almohad_andalusia }
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				ALA = { exists = yes war = no }
+				509 = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS war = no }
+					}
+				}
+			}
+			OR = {
+				AND = {
+					has_country_flag = almohad_abandon_andalusia
+					has_global_flag = almohad_anarchy_ended
+					OR = {
+						509 = { owned_by = THIS }
+						509 = { owned_by = ALA }
+					}
+					OR = {
+						514 = { owned_by = THIS }
+						514 = { owned_by = ALA }
+					}
+					OR = {
+						517 = { owned_by = THIS }
+						517 = { owned_by = ALA }
+					}
+					OR = {
+						507 = { owned_by = THIS }
+						507 = { owned_by = ALA }
+					}
+					OR = {
+						526 = { owned_by = THIS }
+						526 = { owned_by = ALA }
+					}
+					OR = {
+						486 = { owned_by = THIS }
+						486 = { owned_by = ALA }
+					}
+				}
+				AND = {
+					OR = {
+						AND = {
+							has_country_flag = almohad_defend_andalusia
+							has_global_flag = almohad_anarchy_ended
+							}
+						AND = {
+							NOT = { has_country_flag = almohad_abandon_andalusia }
+							has_global_flag = almohad_anarchy_ended
+						}
+					}
+					OR = {
+						509 = { owned_by = THIS }
+						509 = { owned_by = ALA }
+					}
+					OR = {
+						514 = { owned_by = THIS }
+						514 = { owned_by = ALA }
+					}
+					OR = {
+						517 = { owned_by = THIS }
+						517 = { owned_by = ALA }
+					}
+				}
+				AND = {
+					has_country_flag = total_yahya_victory
+					OR = {
+						509 = { owned_by = THIS }
+						509 = { owned_by = ALA }
+					}
+					OR = {
+						514 = { owned_by = THIS }
+						514 = { owned_by = ALA }
+					}
+					OR = {
+						517 = { owned_by = THIS }
+						517 = { owned_by = ALA }
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			create_vassal = ALA
+			ALA = { all_core = { add_core = THIS }}
+			set_country_flag = restored_almohad_andalusia
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	end_almohad_anarchy = {
+		potential = {
+			tag = MOR
+			NOT = { has_global_flag = almohad_anarchy_ended }
+		}
+		
+		allow = {
+			war = no
+			has_global_flag = the_almohad_anarchy
+			has_country_flag = yahya_succession
+			owns = 1690
+			OR = {
+				nationalism_n_imperialism = 1
+				AND = {
+					1725 = {
+						OR = {
+							owned_by = THIS
+							owner = { vassal_of = THIS }
+						}
+					}
+					1705 = {
+						OR = {
+							owned_by = THIS
+							owner = { vassal_of = THIS }
+						}
+					}
+					1680 = {
+						OR = {
+							owned_by = THIS
+							owner = { vassal_of = THIS }
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			primary_culture = maghrebi
+			add_accepted_culture = berber
+			random_country = {
+				limit = {
+					tag = TUN
+					vassal_of = THIS
+					ai = yes
+				}
+				annex_to = THIS
+			}
+			random_country = {
+				limit = {
+					tag = ALD
+					vassal_of = THIS
+					ai = yes
+				}
+				annex_to = THIS
+			}
+			prestige = 30
+			remove_country_modifier = almohad_anarchy 
+			set_global_flag = almohad_anarchy_ended
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	revoke_andalusian_autonomy = {
+		potential = {
+			tag = MOR
+			NOT = { has_country_flag = andalusian_autonomy_revoked }
+		}
+		
+		allow = {
+			war = no
+			has_country_flag = restored_almohad_andalusia
+			owns = 1690
+			OR = {
+				509 = { owned_by = THIS }
+				509 = { owned_by = ALA }
+			}
+			OR = {
+				514 = { owned_by = THIS }
+				514 = { owned_by = ALA }
+			}
+			OR = {
+				517 = { owned_by = THIS }
+				517 = { owned_by = ALA }
+			}
+			OR = {
+				507 = { owned_by = THIS }
+				507 = { owned_by = ALA }
+			}
+			OR = {
+				526 = { owned_by = THIS }
+				526 = { owned_by = ALA }
+			}
+			OR = {
+				486 = { owned_by = THIS }
+				486 = { owned_by = ALA }
+			}
+		}
+		
+		effect = {
+			inherit = ALA
+			prestige = 10
+			add_accepted_culture = algaravian
+			set_country_flag = andalusian_autonomy_revoked
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

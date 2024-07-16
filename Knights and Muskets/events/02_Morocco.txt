@@ -1,0 +1,301 @@
+###MONGOL EMPIRE###
+country_event = {
+	id = 131000
+	title = "Death of Calpih Yusuf II"
+	desc = "131000_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 10 }
+
+	trigger = {
+		tag = MOR
+		year = 1224
+	}
+
+	option = {
+	    name = "Abd al-Wahid I is the true Almohad successor."
+		ALA = { set_country_flag = almohad_illegal_succession }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 131001
+	title = "Illegal Succession of Abd al-Wahid I"
+	desc = "131001_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 12 }
+
+	trigger = {
+		tag = ALA
+		has_country_flag = almohad_illegal_succession 
+	}
+
+	option = {
+	    name = "Andalusia will rally among the rightful Caliph, Abdallah al-Adil."
+		MOR = { country_event = 131002 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 131002
+	title = "The Almohad Anarchy"
+	desc = "131002_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+	    name = "These Andalusian upstarts will not uproot Almohad tradition."
+		prestige = 10
+		add_country_modifier = {
+			name = almohad_anarchy
+			duration = -1
+		}
+		release_vassal = ALA
+		war = {
+            target = ALA
+            attacker_goal = { casus_belli = civil_war  }
+            defender_goal = { casus_belli = civil_war  }
+        }
+		set_country_flag = resist_al_adil
+		set_global_flag = the_almohad_anarchy
+		ai_chance = {
+			factor = 95
+        }
+    }
+	
+	option = {
+	    name = "al-Wahid is a usurper, the rightful caliph is Abdallah al-Adil."
+		prestige = -10
+		primary_culture = algaravian
+		add_accepted_culture = maghrebi
+		remove_accepted_culture = berber
+		release_vassal = ALA
+		create_alliance = ALA
+		diplomatic_influence = {
+				who = ALA
+				value = 200
+		}
+		relation = {
+                who = ALA
+                value = 200
+        }
+		add_country_modifier = {
+			name = almohad_anarchy
+			duration = -1
+		}
+		set_country_flag = al_adil_victorious
+		set_global_flag = the_almohad_anarchy
+		ai_chance = {
+			factor = 5
+        }
+    }
+}
+
+country_event = {
+	id = 131003
+	title = "Abu Zakariya Seizes Marrakesh!"
+	desc = "131003_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 25 }
+
+	trigger = {
+		tag = MOR
+		has_country_flag = resist_al_adil
+		has_global_flag = the_almohad_anarchy
+	}
+
+	option = {
+	    name = "We shall resist under the banner of Yahya al-Mu'tasim."
+		prestige = -5
+		1690 = { change_controller = ALA }
+		1692 = { change_controller = ALA }
+		war_exhaustion = 20
+		set_country_flag = yahya_succession
+		ai_chance = { factor = 15 }
+	}
+	
+	option = {
+	    name = "Our armies can resist al-Adil no longer."
+		end_war = ALA
+		create_alliance = ALA
+		diplomatic_influence = {
+				who = ALA
+				value = 200
+		}
+		relation = {
+                who = ALA
+                value = 200
+        }
+		prestige = -10
+		primary_culture = algaravian
+		add_accepted_culture = maghrebi
+		remove_accepted_culture = berber
+		set_country_flag = al_adil_victorious
+		clr_country_flag = resist_al_adil
+		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+	id = 131004
+	title = "Assassination of Abdallah al-Adil"
+	desc = "131004_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = MOR
+		has_country_flag = al_adil_victorious
+		has_global_flag = the_almohad_anarchy
+		year = 1227
+	}
+
+	option = {
+	    name = "Usher in Yahya al-Mu'tasim as Caliph."
+		prestige = -5
+		war_exhaustion = 10
+		primary_culture = maghrebi
+		set_country_flag = yahya_succession
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 131005
+	title = "Christian Invasion of Andalusia!"
+	desc = "131005_DESC"
+
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 3 }
+
+	trigger = {
+		tag = MOR
+		has_country_flag = al_adil_victorious
+		has_global_flag = the_almohad_anarchy
+		OR = {
+			ALA = { war_with = CST }
+			ALA = { war_with = LEO }
+			ALA = { war_with = ARN }
+			ALA = { war_with = POR }
+		}
+	}
+
+	option = {
+	    name = "We will defend Andalusia from the Christian invaders."
+		prestige = 10
+		war_exhaustion = 30
+		set_country_flag = almohad_defend_andalusia
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+	    name = "The Andalusian armies must secure our position in Marrakesh."
+		prestige = -10
+		war_exhaustion = -10
+		primary_culture = maghrebi
+		remove_accepted_culture = algaravian
+		ALA = { country_event = 131006 }
+		set_country_flag = almohad_abandon_andalusia
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 131006
+	title = "al-Adil Abandons Andalusia"
+	desc = "131006_DESC"
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+	    name = "We have been abandoned to fight the Christians alone."
+		war_exhaustion = 20
+		ai_chance = {
+			factor = 100
+        }
+    }
+}
+
+country_event = {
+	id = 131007
+	title = "al-Adil is Victorious!"
+	desc = "131007_DESC"
+
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = MOR
+		has_country_flag = resist_al_adil
+		has_country_flag = lost_almohad_succession
+		has_global_flag = the_almohad_anarchy
+	}
+	
+	option = {
+	    name = "The Andalusian armies must secure our position in Marrakesh."
+		create_alliance = ALA
+		diplomatic_influence = {
+				who = ALA
+				value = 200
+		}
+		relation = {
+                who = ALA
+                value = 200
+        }
+		prestige = -10
+		primary_culture = algaravian
+		add_accepted_culture = maghrebi
+		remove_accepted_culture = berber
+		set_country_flag = al_adil_victorious
+		clr_country_flag = yahya_succession
+		clr_country_flag = resist_al_adil
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 131008
+	title = "Yahya is Victorious!"
+	desc = "131008_DESC"
+
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = MOR
+		has_country_flag = resist_al_adil
+		has_country_flag = yahya_succession
+		NOT = { has_country_flag = al_adil_victorious }
+		ALA = { has_country_flag = lost_almohad_succession }
+		has_global_flag = the_almohad_anarchy
+	}
+	
+	option = {
+	    name = "The Andalusian traitors will be punished."
+		create_alliance = ALA
+		diplomatic_influence = {
+				who = ALA
+				value = 200
+		}
+		relation = {
+                who = ALA
+                value = 200
+        }
+		prestige = -10
+		primary_culture = maghrebi
+		add_accepted_culture = berber
+		set_country_flag = total_yahya_victory
+		ai_chance = { factor = 100 }
+	}
+}

@@ -1,4 +1,6 @@
-color = { 230 228 214 }
+color = { 150 40 60 }
+empire = { 135 30 125 }
+#{ 230 228 214 }
 graphical_culture = ByzantineGC
 
 party = {

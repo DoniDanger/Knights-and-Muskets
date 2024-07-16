@@ -1,5 +1,6 @@
 graphical_culture = UsGC
-color = { 98 206 253 }
+color = { 97 147 60 }
+#color = { 98 206 253 }
 
 party = {
     name = "Royalist"

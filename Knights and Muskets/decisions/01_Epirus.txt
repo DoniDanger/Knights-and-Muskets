@@ -1,0 +1,217 @@
+political_decisions = {
+	seizure_of_thessalonica_epirus = {
+		potential = {
+			tag = EPI
+			neighbour = MCD
+			NOT = { has_country_flag = emperor_of_thessalonica }
+			NOT = { has_country_flag = thessalonica_seized_epirus }
+		}
+		
+		allow = {
+			MCD = { all_core = { controlled_by = THIS } }
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = MCD
+			MCD = { all_core = { add_core = THIS } }
+			badboy = 5
+			set_country_flag = thessalonica_seized_epirus
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	empire_of_thessalonica = {
+		potential = {
+			tag = EPI
+			NOT = { has_country_flag = emperor_of_thessalonica }
+		}
+		
+		allow = {
+			MCD = { all_core = { owned_by = THIS } }
+		}
+		
+		effect = {
+			prestige = 15
+			government = empire
+			LTN = { all_core = { add_core = THIS } }
+			set_country_flag = emperor_of_thessalonica
+			clr_country_flag = thessalonica_seized_epirus
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	claim_roman_imperial_title = {
+		potential = {
+			NOT = { tag = NCE tag = BYZ }
+			primary_culture = greek
+			NOT = { has_country_flag = claimed_roman_imperial_title }
+		}
+		
+		allow = {
+			#owns = 860
+			owns = 828
+			OR = { 
+				owns = 849
+				owns = 863
+			}
+			OR = {
+				owns = 805
+				owns = 865
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			EPI = { all_core = { add_core = THIS } }
+			NCE = { all_core = { add_core = THIS } }
+			PNT = { all_core = { add_core = THIS } }
+			set_country_flag = claimed_roman_imperial_title
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	reclaim_western_thrace = {
+		potential = {
+			tag = EPI
+			has_country_flag = emperor_of_thessalonica
+			NOT = { has_country_flag = reclaimed_western_thrace }
+		}
+		
+		allow = {
+			controls = 815
+			controls = 829
+			controls = 830
+			controls = 105
+			controls = 828
+			controls = 858
+			MCD = { all_core = { controlled_by = THIS } }
+		}
+		
+		effect = {
+			prestige = 10
+			LTN = { country_event = 127005 }
+			set_country_flag = reclaimed_western_thrace
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	assert_roman_imperial_title = {
+		potential = {
+			tag = NCE 
+			NOT = { has_country_flag = asserted_roman_imperial_title }
+		}
+		
+		allow = {
+			#owns = 860
+			owns = 828
+			OR = { 
+				owns = 849
+				owns = 863
+			}
+			OR = {
+				owns = 805
+				owns = 865
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			LTN = { all_core = { add_core = THIS } }
+			EPI = { all_core = { add_core = THIS } }
+			NCE = { all_core = { add_core = THIS } }
+			PNT = { all_core = { add_core = THIS } }
+			set_country_flag = asserted_roman_imperial_title
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	negotiate_with_nicaeans = {
+		potential = {
+			tag = LTN 
+			has_global_flag = battle_of_poimanenon
+			war_with = NCE
+			NOT = { has_country_flag = negotiated_with_nicaeans }
+		}
+		
+		allow = {
+			865 = { NOT = { controlled_by = THIS } }
+			864 = { NOT = { controlled_by = THIS } }
+		}
+		
+		effect = {
+			prestige = -10
+			NCE = { country_event = 127001 }
+			set_country_flag = negotiated_with_nicaeans
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	negotiate_with_nicaeans = {
+		potential = {
+			tag = LTN 
+			has_country_flag = thessalonican_siege_continued
+			war_with = EPI
+			NOT = { has_country_flag = negotiated_with_bulgarians }
+		}
+		
+		allow = {
+			OR = {
+				828 = { NOT = { controlled_by = THIS } }
+				105 = { NOT = { controlled_by = THIS } }
+				135 = { NOT = { controlled_by = THIS } }
+				858 = { NOT = { controlled_by = THIS } }
+				860 = { NOT = { controlled_by = THIS } }
+			}
+		}
+		
+		effect = {
+			prestige = -10
+			BUL = { country_event = 127007 }
+			set_country_flag = negotiated_with_bulgarians
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	restore_eastern_rome = {
+		potential = {
+			primary_culture = greek
+			BYZ = { exists = no }
+			NOT = { has_global_flag = restored_eastern_rome }
+		}
+		
+		allow = {
+			LTN = { exists = no }
+			war = no
+			owns = 869
+			owns = 863
+			owns = 805
+			owns = 824
+			owns = 828
+			owns = 860
+		}
+		
+		effect = {
+			prestige = 25
+			government = empire
+			change_tag = BYZ
+			random_country = {
+                limit = {
+                    primary_culture = latin
+                    vassal_of = THIS
+                }
+                annex_to = THIS
+            }
+			random_country = {
+                limit = {
+                    primary_culture = bulgarian
+                    vassal_of = THIS
+                }
+                annex_to = THIS
+            }
+			LTN = { all_core = { add_core = THIS } }
+			set_global_flag = restored_eastern_rome
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

@@ -1,5 +1,6 @@
 graphical_culture = MoroccoGC
-color = { 210 220 175 }
+color = { 40 150 40 }
+#color = { 210 220 175 }
 
 party = {
     name = "Royalist"

@@ -1,10 +1,5 @@
-
+owner = SYR
+controller = SYR
+add_core = SYR
 trade_goods = grain
-life_rating = 30
-1861.1.1 = {
-		
-	colonial = 2
-}
-1861.1.1 = {
-	add_core = MTC
-}
+life_rating = 35

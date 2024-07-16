@@ -1,4 +1,105 @@
 ;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;\
+turkish;Turkomen;x 
+south_german;Bavarian;x 
+north_german;Saxon;x    
+spanish;Castillian;x 
+swiss;High Alemannic;x 
+ANG;Angouleme;x
+ANG_ADJ;Angoumois;x
+MAI;Maine;x
+MAI_ADJ;Maine;x
+ANJ;Anjou;x
+ANJ_ADJ;Angevin;x
+FCM;Franche-Comte;x
+FCM_ADJ;Burgundian;x
+POI;Poitou;x
+POI_ADJ;Poitevin;x
+PIC;Artois;x
+PIC_ADJ;Artois;x
+LMG;Limoges;x
+LMG_ADJ;Limousin;x
+GVD;Gevaudan;x
+GVD_ADJ;Gevaudan;x
+PGD;Perigord;x
+PGD_ADJ;Perigordian;x
+LMC;La Marche;x
+LMC_ADJ;Marche;x
+BEA;Bearn;x
+BEA_ADJ;Bearner;x
+BLO;Blois;x
+BLO_ADJ;Blois;x
+TIR;Tyrol;x
+TIR_ADJ;Tyrolian;x
+NVR;Novara;x
+NVR_ADJ;Novaran;x
+PVI;Pavia;x
+PVI_ADJ;Pavian;x
+ATI;Asti;x
+ATI_ADJ;Asti;x
+ABA;Alba;x
+ABA_ADJ;Albanese;x
+CRM;Cremona;x
+CRM_ADJ;Cremonese;x
+ASD;Alessandria;x
+ASD_ADJ;Alessandrian;x
+BLG;Bologna;x
+BLG_ADJ;Bolognese;x
+FRR;Ferrara;x
+FRR_ADJ;Ferraran;x
+RVN;Ravenna;x
+RVN_ADJ;Ravennan;x
+FAE;Faenza;x
+FAE_ADJ;Faenzan;x
+PIS;Pisa;x
+PIS_ADJ;Pisan;x
+URB;Urbino;x
+URB_ADJ;Urbinoan;x
+ANC;Ancona;x
+ANC_ADJ;Anconan;x
+VER;Verona;x
+VER_ADJ;Veronese;x
+AQU;Aquileia;x
+AQU_ADJ;Aquileian;x
+NLI;Noli;x
+NLI_ADJ;Nolian;x
+CRC;Montfort;x
+CRC_ADJ;Montfort;x
+VRD;Verdun;x
+VRD_ADJ;Verdun;x
+TUL;Toul;x
+TUL_ADJ;Toul;x
+MTZ;Metz;x
+MTZ_ADJ;Metzian;x
+KYB;Kyburg;x                                 
+KYB_ADJ;Kyburger;x
+LSN;Lausanne;x                                 
+LSN_ADJ;Lausannian;x
+BNN;Bern;x                                 
+BNN_ADJ;Bernian;x
+HBS;Habsburg;x                                 
+HBS_ADJ;Habsburger;x
+CMO;Como;x                                 
+CMO_ADJ;Como;x
+CHU;Chur;x
+CHU_ADJ;Churrian;x
+TRV;Turov;x                                 
+TRV_ADJ;Turovian;x
+PRY;Pereyeslavl;x                                 
+PRY_ADJ;Pereyeslavlian;x
+NVS;Novgorod-Seversk;x                                 
+NVS_ADJ;Novgorod-Severskian;x
+TVE;Tver;x                                 
+TVE_ADJ;Tverite;x
+MRL;Mari El;x                                 
+MRL_ADJ;Mari;x
+BSK;Bashkiria;x                                 
+BSK_ADJ;Bashkirian;x
+NOG;Noghai Horde;x                                 
+NOG_ADJ;Noghai;x
+RHO;Alexius Slav;x                                 
+RHO_ADJ;Rhodopian;x
+PHI;Duchy of Philippopolis;x                                 
+PHI_ADJ;Philippopolisian;x
 KMY;Kumyk;x                                 
 KMY_ADJ;Kumykian;x
 CMN;Kunsag;x                                 
@@ -9,7 +110,7 @@ LIH;Dzukija;x
 LIH_ADJ;Dzukijan;x
 DAG;Avaria;x                                 
 DAG_ADJ;Avarian;x
-FOI;County of Foix;x                                 
+FOI;Foix;x                                 
 FOI_ADJ;Foixan;x
 GLN;Gilan;x                                 
 GLN_ADJ;Gilani;x
@@ -33,7 +134,7 @@ PRU;Pruthenia;x
 PRU_ADJ;Pruthenian;x
 POL;Kingdom of Poland;x                                 
 POL_ADJ;Polish;x
-BSQ;Kingdom of Navarre;x                                 
+BSQ;Navarre;x                                 
 BSQ_ADJ;Navarre;x
 MUL;Mingburnu Khwarazmia;x                                 
 MUL_ADJ;Khawarzmian;x
@@ -41,7 +142,7 @@ ALD;Zayyanid Sultanate;x
 ALD_ADJ;Zayyanid;x
 AUV;County of Auvergne;x                                 
 AUV_ADJ;Auvergnian;x
-AMG;County of Armagnac;x                                 
+AMG;Armagnac;x                                 
 AMG_ADJ;Armagnac;x
 BOU;County of Bourbon;x                                 
 BOU_ADJ;Bourbonnais;x
@@ -53,9 +154,9 @@ SPU;Cusco Confederation;x
 SPU_ADJ;Cusco;x
 MRD;Mordvinia;x                                 
 MRD_ADJ;Mordvinian;x
-VLG;Volga Bulgaria;x                                 
+VLG;Volga Bolgharia;x                                 
 VLG_ADJ;Bulgar;x
-OCC;County of Toulouse;x                                 
+OCC;Toulouse;x                                 
 OCC_ADJ;Toulouseian;x
 SGF;Duchy of Swabia;x                                     
 SGF_ADJ;Swabian;x
@@ -73,8 +174,8 @@ LOR;Lower Lotharingia;x
 LOR_ADJ;Lotharingian;x
 LOM;Lombard League;x                                     
 LOM_ADJ;Lombardian;x
-SLO;Carinthia;x                                     
-SLO_ADJ;Carinthian;x
+SLO;Carniola;x                                     
+SLO_ADJ;Carniolan;x
 TRE;Istria;x                                     
 TRE_ADJ;Istrian;x
 SMO;Smolensk;x                                     
@@ -86,7 +187,7 @@ SXI;Jin Dynasty;x
 SXI_ADJ;Jin;x
 CGV;Chernigov;x                                     
 CGV_ADJ;Chernigovian;x
-CUM;Cuman-Kipchak Federation;x                                     
+CUM;Dasht-i Qipchaq;x                                     
 CUM_ADJ;Cuman;x
 EGY;Ayyubid Sultanate;x                                     
 EGY_ADJ;Ayyubid;x
@@ -176,12 +277,12 @@ TUN_autonomous_dependency;Ifriqiya;x
 TUN_autonomous_dependency_ADJ;Ifriqiyan;x
 TRI;Banu Sulaym;x
 TRI_ADJ;Banu Sulaymi;x
-TUS;Florence;x
-TUS_ADJ;Florentine;x
-MFA;Montferrat;x
-MFA_ADJ;Montferratian;x
-MTA;Mantua;x
-MTA_ADJ;Mantuan;x
+FLR;Florence;x
+FLR_ADJ;Florentine;x
+MFT;Montferrat;x
+MFT_ADJ;Montferratian;x
+MNT;Mantua;x
+MNT_ADJ;Mantuan;x
 SLZ;Saluzzo;x
 SLZ_ADJ;Saluzzese;x
 SNA;Siena;x
@@ -244,8 +345,6 @@ TZO;Tzotzil;x
 TZO_ADJ;Tzotzil;x
 CHH;Chahar;x
 CHH_ADJ;Chahari;x
-CHU;Chukchi;x
-CHU_ADJ;Chukchian;x
 CHV;Chavchuveny;x
 CHV_ADJ;Chavchuvenian;x
 DZN;Dzungaria;x
@@ -474,18 +573,20 @@ DOR;The Free City of Dortmund;x
 DOR_ADJ;Dortmund;x
 THL;The Three Leagues;x
 THL_ADJ;League;x
-VAL;The Republic of the Seven Tithings;x
-VAL_ADJ;Valais;x
-VAL_presidential_dictatorship;The Rhodanic Republic;x
-VAL_presidential_dictatorship_ADJ;Rhodanic;x
-VAL_bourgeois_dictatorship;The Rhodanic Republic;x
-VAL_bourgeois_dictatorship_ADJ;Rhodanic;x
+NCT;Neuchatel;x
+NCT_ADJ;Neuchatel;x
+GNV;Geneva;x
+GNV_ADJ;Genevan;x
+VAL;Sion;x
+VAL_ADJ;Sion;x
+VAL_democracy;Republic of Seven Tithings;x
+VAL_democracy_ADJ;Valais;x
 SWI;The Swiss Confederacy;x
 SWI_presidential_dictatorship;The Helvetic Republic;x
 SWI_presidential_dictatorship_ADJ;Helvetic;x
 SWI_bourgeois_dictatorship;The Helvetic Republic;x
 SWI_bourgeois_dictatorship_ADJ;Helvetic;x
-BSL;The Prince-Bishopric of Basel;x
+BSL;Basel;x
 BSL_ADJ;Basel;x
 BSL_presidential_dictatorship;The Rauracian Republic;X
 BSL_presidential_dictatorship_ADJ;Rauracian;X
@@ -532,8 +633,8 @@ EFR;East Frisia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EFR_ADJ;East Frisian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 GBR;Great Britain;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 GBR_ADJ;British;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-HRE;Holy Roman Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-HRE_ADJ;Holy Roman;;;;;;;;;;;;;;;;;;;;;;;x;;;
+NNN;Holy Roman Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+NNN_ADJ;Imperial;;;;;;;;;;;;;;;;;;;;;;;x;;;
 RAV;Ravensburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 RAV_ADJ;Ravensburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 THU;Thuringia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -609,9 +710,7 @@ GZK_ADJ;Gazikumukhan;x
 KZN;Kazan Khanate;x
 KZN_ADJ;Kazani;x
 MUS;Muscovy;x
-MUS_ADJ;Muscovian;x
-NOG;The Nogai Horde;x
-NOG_ADJ;Nogai;x
+MUS_ADJ;Muscovite;x
 PSK;Pskov;x
 PSK_ADJ;Pskovian;x
 QAS;The Qasim Khanate;x
@@ -634,8 +733,8 @@ GEN;Genoa;x
 GEN_ADJ;Genoese;x
 SIC;Kingdom of Sicily;x
 SIC_ADJ;Sicilian;x
-ROR;Republic of Ragusa;x
-ROR_ADJ;Ragusian;x
+RGA;Republic of Ragusa;x
+RGA_ADJ;Ragusian;x
 GEN;Genoa;x
 GEN_ADJ;Genoese;x
 NAP;Kingdom of Naples;x
@@ -662,8 +761,8 @@ ALA;Andalusia;x
 ALA_ADJ;Andalusian;x
 ARN;Aragon;x
 ARN_ADJ;Aragonese;x
-NVR;Navarra;x
-NVR_ADJ;Navarrian;x
+BSQ;Navarre;x
+BSQ_ADJ;Navarrian;x
 DMS;Desmond;x
 DMS_ADJ;Desmondian;x
 HSC;Highlands;x
@@ -682,11 +781,13 @@ CEP_ADJ;Corfiot;x
 CLI;Celje;x
 CLI_ADJ;Cillian;x
 EPI;Despotate of Epirus;x
-EPI_ADJ;Epirots;x
+EPI_ADJ;Epirote;x
+EPI_empire;Empire of Thessalonica;x
+EPI_empire_ADJ;Thessalonican;x
 KNI;Knights Hospitaller;x
 KNI_ADJ;Knights;x
-MEA;Despotate of Morea;x
-MEA_ADJ;Morean;x
+MEA;Principality of Achaea;x
+MEA_ADJ;Achaean;x
 NAX;Duchy of Naxos;x
 NAX_ADJ;Naxos;x
 RAG;Ragusa;x
@@ -712,8 +813,8 @@ KRM;Karaman;x
 KRM_ADJ;Karamanid;x
 KRS;Beylik of Karasi;x
 KRS_ADJ;Karasid;x
-MNT;Menteshe;x
-MNT_ADJ;Menteshe;x
+MTS;Menteshe;x
+MTS_ADJ;Menteshe;x
 OSM;Ottoman Beylik;x
 OSM_ADJ;Ottoman;x
 TKE;Beylik of Teke;x

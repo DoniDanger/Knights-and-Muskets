@@ -1,8 +1,8 @@
-owner = SGF
-controller = SGF
-add_core = SGF
+owner = HBS
+controller = HBS
+add_core = HBS
 add_core = GER
-add_core = SWI
+add_core = NNN
 trade_goods = timber
-life_rating = 40
+life_rating = 35
 1861.1.1 = { railroad = 1 }

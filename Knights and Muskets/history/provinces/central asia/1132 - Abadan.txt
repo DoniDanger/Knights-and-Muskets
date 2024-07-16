@@ -1,5 +1,6 @@
-owner = PER
-controller = PER
+owner = ABB
+controller = ABB
+add_core = ABB
 add_core = PER
 trade_goods = sugar
 life_rating = 35

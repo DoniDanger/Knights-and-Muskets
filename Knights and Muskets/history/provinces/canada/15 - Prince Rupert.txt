@@ -1,5 +1,6 @@
-
-
-add_core = COL
+owner = ALN
+controller = ALN
+add_core = ALN
+add_core = CIR
 trade_goods = timber
 life_rating = 35

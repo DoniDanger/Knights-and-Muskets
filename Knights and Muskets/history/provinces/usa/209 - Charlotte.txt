@@ -1,7 +1,7 @@
-
-
-
+owner = HBS
+controller = HBS
+add_core = HBS
+add_core = GER
+add_core = NNN
 trade_goods = tobacco
 life_rating = 35
-railroad = 11861.1.1 = {			}
-1861.1.1 = { railroad = 3 }

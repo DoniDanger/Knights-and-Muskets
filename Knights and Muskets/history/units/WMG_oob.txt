@@ -1,6 +1,11 @@
+DAG = {
+    value = 30
+    military_access = yes
+}
+
 army = {
     name = "Subetei Expedition"
-    location = 1199
+    location = 1053
     regiment = {
         name= "1st Oirat Cavalry"
         type = dragoon

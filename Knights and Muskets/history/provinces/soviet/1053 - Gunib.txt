@@ -1,5 +1,5 @@
-owner = KMY
-controller = KMY
-add_core = KMY
+owner = DAG
+controller = DAG
+add_core = DAG
 trade_goods = silk
 life_rating = 35

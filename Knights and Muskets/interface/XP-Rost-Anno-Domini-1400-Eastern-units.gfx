@@ -99,17 +99,7 @@ objectTypes = {
 		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
 		scale = 7.8
 	}
-
-	EMFXActorType = {
-		name = "BYZ_infantry_1"
-		actorfile = "gfx\anims\Byzantine_1400.xac"
-		
-		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
-		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
-		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
-		scale = 7.8
-	}
-
+	
 	EMFXActorType = {
 		name = "TVE_infantry_1"
 		actorfile = "gfx\anims\Tverian_1400.xac"

@@ -1,5 +1,6 @@
-
-
-
+owner = LIH
+controller = LIH
+add_core = LIH
+add_core = LIT
 trade_goods = wool
 life_rating = 35

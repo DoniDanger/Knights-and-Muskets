@@ -1,5 +1,6 @@
-owner = NCE
-controller = NCE
+owner = LTN
+controller = LTN
+add_core = LTN
 add_core = NCE
 add_core = BYZ
 trade_goods = fruit

@@ -1,6 +1,6 @@
-owner = KIE
-controller = KIE
-add_core = KIE
+owner = GLM
+controller = GLM
+add_core = GLM
 add_core = UKR
 trade_goods = horses
 life_rating = 35

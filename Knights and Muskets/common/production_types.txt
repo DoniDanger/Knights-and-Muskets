@@ -466,7 +466,7 @@ leather_tannery = {
 	input_goods = {  
 		cattle = 20		#72	total input+maint = 72
 	}
-	output_goods = regular_clothes 
+	output_goods = leather 
 	value = 12			#87
 	bonus = {
 		trigger = { trade_goods_in_state = cattle }

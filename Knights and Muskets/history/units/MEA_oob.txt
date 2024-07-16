@@ -1,0 +1,49 @@
+leader = {
+    name = "Geoffrey II of Villehardouin"
+    date = 1221.8.1
+    type = land
+    personality = defence_2.1
+    background = attack_3.1
+    prestige = 0.2
+}
+
+army = {
+    name = "Exercitus Achaea"
+    location = 839
+    regiment = {
+        name = "1. Fanteria di Linea - Re e Regina"
+        type = plane
+        home = 839
+    }
+
+    regiment = {
+        name = "2. Fanteria di Linea - Duca di Calabria"
+        type = plane
+        home = 840
+    }
+
+    regiment = {
+        name = "3. Fanteria di Linea - Duca di Noto"
+        type = plane
+        home = 840
+    }
+
+    regiment = {
+        name = "4. Fanteria di Linea"
+        type = tank
+        home = 842
+    }
+
+    regiment = {
+        name = "1. Cavalleria di Linea"
+        type = tank
+        home = 841
+    }
+
+    regiment = {
+        name = "2. Cavalleria di Linea"
+        type = cuirassier
+        home = 841
+    }
+
+}

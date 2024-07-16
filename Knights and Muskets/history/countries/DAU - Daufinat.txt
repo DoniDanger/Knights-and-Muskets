@@ -1,13 +1,13 @@
 capital = 454
-primary_culture = occitan
-culture = north_italian
+primary_culture = arpitan
+culture = provencal
 religion = catholic
-government = absolute_monarchy
+government = feudal_monarchy
 plurality = 0.1
 nationalvalue = nv_equality
 literacy = 0.48
 civilized = yes
-prestige = 25
+prestige = 12
 
 # Political reforms
 slavery = no_slavery
@@ -40,11 +40,11 @@ upper_house = {
 }
 
 # Technologies
-post_napoleonic_thought = 1
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-military_staff_system = 1
-army_command_principle = 1
+motte_and_bailey = 1
+medieval_infantry = 1
+medieval_cavalry = 1
+feudal_levy = 1
+early_medieval_tactics = 1
 post_nelsonian_thought = 1
 clipper_design = 1
 naval_design_bureaus = 1

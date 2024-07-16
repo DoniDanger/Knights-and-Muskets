@@ -1,5 +1,7 @@
-
-
-
-trade_goods = grain
+owner = PRO
+controller = PRO
+add_core = ARP
+add_core = PRO
+add_core = NNN
+trade_goods = apiculture
 life_rating = 35

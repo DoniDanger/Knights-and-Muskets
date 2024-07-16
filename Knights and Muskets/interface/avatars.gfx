@@ -1,16 +1,6 @@
 objectTypes = {
 	
 	EMFXActorType = {
-		name = "GenericMount"
-		actorfile = "gfx\anims\Horse.xac"
-		
-		idle   = "gfx\anims\Horse_Idle.xsm"
-		move   = "gfx\anims\Horse_Moving.xsm"
-		attack = "gfx\anims\Horse_Idle.xsm"
-		scale = 1.35
-	}
-	
-	EMFXActorType = {
 		name = "GenericInfantry"
 		actorfile = "gfx\anims\Generic_Western_1400.xac"
 		

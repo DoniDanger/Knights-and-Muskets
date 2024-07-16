@@ -1,15 +1,6 @@
-
-
-
-add_core = DES
+owner = PAP
+controller = PAP
+add_core = PAP
+add_core = ITA
 trade_goods = cattle
 life_rating = 35
-colonial = 2
-1861.1.1 = {
-	
-	
-	
-	
-	remove_core = MEX
-	colonial = 1
-}

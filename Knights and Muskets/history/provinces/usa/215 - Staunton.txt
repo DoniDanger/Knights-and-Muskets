@@ -1,7 +1,7 @@
-
-
-
+owner = CMO
+controller = CMO
+add_core = CMO
+add_core = NNN
+add_core = ITA
 trade_goods = grain
 life_rating = 35
-1861.1.1 = {			}
-1861.1.1 = { railroad = 3 }

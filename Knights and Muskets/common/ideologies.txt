@@ -6,7 +6,7 @@ fascist_group = { #fascist_group = royalist faction
         color = { 100 35 160 }
 
         add_political_reform = {
-            base = 0.25
+            base = 0.4
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -78,14 +78,14 @@ fascist_group = { #fascist_group = royalist faction
             }
         }
         remove_political_reform = {
-            base = 0.6
+            base = 0.55
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
 			}
         }
         add_social_reform = {
-            base = 0.75
+            base = 0.5
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -160,7 +160,7 @@ conservative_group = { #nobility estate
         #can_reduce_militancy = yes
 
         add_political_reform = {
-            base = 0.6
+            base = 0.55
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -232,14 +232,14 @@ conservative_group = { #nobility estate
             }
         }
         remove_political_reform = {
-            base = 0.4
+            base = 0.45
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
 			}
         }
         add_social_reform = {
-            base = 0.25
+            base = 0.1
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -312,7 +312,7 @@ conservative_group = { #nobility estate
 
         }
         remove_social_reform = {
-            base = 0.6
+            base = 0.5
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -332,14 +332,14 @@ conservative_group = { #nobility estate
 		color = { 4 33 89 }
 		
 		add_political_reform = {
-			base = 0.6
+			base = 0.5
 			modifier = {
 				factor = 0.3
 				NOT = { ruling_party_ideology = nobility }
 			}
 		}
 		remove_political_reform = {
-			base = 0.25
+			base = 0.2
 			modifier = {
 				factor = -1
 				NOT = { ruling_party_ideology = nobility }
@@ -353,7 +353,7 @@ conservative_group = { #nobility estate
 			}
 		}
 		remove_social_reform = {
-			base = 0.25
+			base = 0.2
 		}
 		
 	}
@@ -364,7 +364,7 @@ clergy_group = {
 		color = { 91 198 221 }
 		
 		add_political_reform = {
-            base = 0.5
+            base = 0.3
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -436,14 +436,14 @@ clergy_group = {
             }
         }
         remove_political_reform = {
-            base = 0.5
+            base = 0.4
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
 			}
         }
         add_social_reform = {
-            base = 0.25
+            base = 0.5
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -516,7 +516,7 @@ clergy_group = {
 
         }
         remove_social_reform = {
-            base = 0.6
+            base = 0.4
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -529,7 +529,7 @@ clergy_group = {
 		color = { 71 158 201 }
 		
 		add_political_reform = {
-            base = 0.6
+            base = 0.5
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -601,14 +601,14 @@ clergy_group = {
             }
         }
         remove_political_reform = {
-            base = 0.25
+            base = 0.5
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
 			}
         }
         add_social_reform = {
-            base = 0.4
+            base = 0.6
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -681,7 +681,7 @@ clergy_group = {
 
         }
         remove_social_reform = {
-            base = 0.6
+            base = 0.4
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
@@ -692,7 +692,7 @@ clergy_group = {
 }
 
 socialist_group = { 
-    socialist = { #Freemen
+    socialist = { #Rural Elite
         uncivilized = no
         color = { 206 76 76 }
         date = 1745.1.1
@@ -777,14 +777,14 @@ liberal_group = { #burgher estate
 			}
         }
         remove_political_reform = {
-            base = 0.2
+            base = 0.1
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated
 			}
         }
         add_social_reform = { #Rework this later btw
-            base = 0.8
+            base = 0.45
 			modifier = {
 				factor = 0.17
 				has_country_flag = executive_activated

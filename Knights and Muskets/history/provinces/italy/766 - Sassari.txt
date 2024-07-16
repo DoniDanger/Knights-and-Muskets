@@ -1,11 +1,6 @@
-owner = SRD
-controller = SRD
+owner = PIS
+controller = PIS
+add_core = PIS
 add_core = SRD
-add_core = ITA
 trade_goods = grain
 life_rating = 35
-1861.1.1 = {
-	controller = ITA
-	owner = ITA
-	add_core = ITA
-}

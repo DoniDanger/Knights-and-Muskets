@@ -1,5 +1,6 @@
 graphical_culture = Generic
-color = { 105 106 182 }
+#color = { 105 106 182 }
+color = { 44 13 246 }
 
 party = {
     name = "Royalist"

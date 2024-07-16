@@ -1,7 +1,7 @@
-owner = BRG
-controller = BRG
+owner = FCM
+controller = FCM
+add_core = FCM
 add_core = ARP
-add_core = BRG
-add_core = GER
+add_core = NNN
 trade_goods = salt
 life_rating = 35

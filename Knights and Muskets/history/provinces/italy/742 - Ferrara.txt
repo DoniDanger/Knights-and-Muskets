@@ -1,12 +1,8 @@
-owner = PAP
-controller = PAP
-add_core = PAP
+owner = FRR
+controller = FRR
+add_core = FRR
 add_core = RMG
 add_core = ITA
+add_core = NNN
 trade_goods = salt
 life_rating = 35
-1861.1.1 = {
-	controller = ITA
-	owner = ITA
-	add_core = ITA
-}

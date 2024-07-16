@@ -20,44 +20,541 @@ objectTypes = {
 		scale = 6.8
 	}
 	
+#	EMFXActorType = {
+#		name = "ByzantineGCInfantry"
+#		actorfile = "gfx\anims\Byzantine_1400.xac"
+#		
+#		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
+#		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
+#		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
+#		scale = 6.8
+#	}
+	
+#	EMFXActorType = {
+#		name = "ByzantineGCInfantry2"
+#		actorfile = "gfx\anims\Byzantine_1400.xac"
+#		
+#		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
+#		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
+#		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
+#		scale = 6.8
+#	}
+
 	EMFXActorType = {
-		name = "ByzantineGCInfantry"
-		actorfile = "gfx\anims\Byzantine_1400.xac"
-		
-		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
-		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
-		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
-		scale = 6.8
+		name = "ByzantinePikeShield"
+		actorfile = "gfx\anims\byzantine_pikeman_shield.xac"
+		scale = 0.7
 	}
 	
 	EMFXActorType = {
-		name = "ByzantineGCInfantry2"
-		actorfile = "gfx\anims\Byzantine_1400.xac"
+		name = "ByzantinePike"
+		actorfile = "gfx\anims\byzantine_pike.xac"
+		scale = 0.7
+	}
+	
+	EMFXActorType = {
+		name = "ByzantinePolearm"
+		actorfile = "gfx\anims\byzantine_guisarme.xac"
+		scale = 0.7
+	}
+	
+	EMFXActorType = {
+		name = "ByzantineSword"
+		actorfile = "gfx\anims\byzantine_sword.xac"
+		scale = 0.7
+	}
+	
+	EMFXActorType = {
+		name = "ByzantineAxe"
+		actorfile = "gfx\anims\byzantine_heavy_infantry_axe.xac"
+		scale = 0.7
+	}
+	
+	EMFXActorType = {
+		name = "ByzantineShield1"
+		actorfile = "gfx\anims\byzantine_light_infantry_shield.xac"
+		scale = 0.7
+	}
+	
+	EMFXActorType = {
+		name = "ByzantineShield2"
+		actorfile = "gfx\anims\byzantine_heavy_infantry_shield.xac"
+		scale = 0.7
+	}
+	
+	EMFXActorType = {
+		name = "ByzantineHelmet"
+		actorfile = "gfx\anims\Helmet_01.xac"
+		scale = 0.1
+	}
+	
+	EMFXActorType = {
+		name = "ByzantineBow"
+		actorfile = "gfx\anims\byzantine_bow.xac"
+		scale = 0.7
 		
-		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
-		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
-		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
-		scale = 6.8
+		idle   = "gfx\anims\Bow_idle.xsm"
+		move   = "gfx\anims\Bow_idle.xsm"
+		attack  = "gfx\anims\byzantine_bow_attack.xsm"
+	}
+	
+	EMFXActorType = {
+		name = "GenericArrow"
+		actorfile = "gfx\anims\Arrow.xac"
+		scale = 0.7
+		
+		idle   = "gfx\anims\Arrow_idle.xsm"
+		move   = "gfx\anims\Arrow_idle.xsm"
+		attack = "gfx\anims\Arrow_attack.xsm"
+	}
+	
+	EMFXActorType = {
+		name = "GenericMount"
+		actorfile = "gfx\anims\Byzantine_Heavy_Cavalry_Horse.xac"
+		
+		idle = "gfx\anims\Byzantine_Heavy_Cavalry_Horse_Idle.xsm"
+		move = "gfx\anims\Byzantine_Heavy_Cavalry_Horse_Moving.xsm"
+		attack = "gfx\anims\Byzantine_Heavy_Cavalry_Horse_Attack.xsm"
+		scale = 0.7
+	}
+	
+	EMFXActorType = {
+		name = "ByzantineGCInfantry"
+		actorfile = "gfx\anims\Byzantine_Light_Infantry.xac"
+		
+		idle   = "gfx\anims\Byzantine_Light_Infantry_Idle.xsm"
+		move   = "gfx\anims\Byzantine_Light_Infantry_Moving.xsm"
+		attack = "gfx\anims\Byzantine_Light_Infantry_Attack.xsm"
+		scale = 0.7
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+		attach = {
+			name = "ByzantineShield1"
+			node = "Left_hand_node"
+			attachId = 4
+		}
+		
+		attach = {
+			name = "ByzantineSword"
+			node = "Right_hand_node"
+			attachId = 3
+		}
+	}
+	
+	EMFXActorType = {
+		name = "ByzantineGCArtillery"
+		actorfile = "gfx\anims\byzantine_archer.xac"
+		
+		idle   = "gfx\anims\Archer_2_Idle.xsm"
+		move   = "gfx\anims\Archer_2_Moving.xsm"
+		attack = "gfx\anims\Archer_2_Attack.xsm"
+		scale = 0.7
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+		attach = {
+			name = "GenericArrow"
+			node = "Right_hand_node"
+			attachId = 4
+		}
+		
+		attach = {
+			name = "ByzantineBow"
+			node = "Right_hand_node"
+			attachId = 3
+		}
+	}
+	
+	EMFXActorType = {
+		name = "ByzantineGCGuard"
+		actorfile = "gfx\anims\Byzantine_Pikeman.xac"
+		
+		idle   = "gfx\anims\Byzantine_Pikeman_Idle.xsm"
+		move   = "gfx\anims\Byzantine_Pikeman_Moving.xsm"
+		attack = "gfx\anims\Byzantine_Pikeman_Attack.xsm"
+		scale = 0.7
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+		attach = {
+			name = "ByzantinePikeShield"
+			node = "Left_hand_node"
+			attachId = 4
+		}
+		
+		attach = {
+			name = "ByzantinePike"
+			node = "Right_hand_node"
+			attachId = 3
+		}
+	}
+	
+	EMFXActorType = {
+		name = "ByzantineGCPlane"
+		actorfile = "gfx\anims\Byzantine_Heavy_Infantry.xac"
+		
+		idle   = "gfx\anims\Byzantine_Heavy_Infantry_Idle.xsm"
+		move   = "gfx\anims\Byzantine_Heavy_Infantry_Moving.xsm"
+		attack = "gfx\anims\Byzantine_Heavy_Infantry_Attack.xsm"
+		scale = 0.7
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+		attach = {
+			name = "ByzantineShield2"
+			node = "Left_hand_node"
+			attachId = 4
+		}
+		
+		attach = {
+			name = "ByzantineAxe"
+			node = "Right_hand_node"
+			attachId = 3
+		}
+	}
+	#ByzantineGCCavalry
+	EMFXActorType = {
+        name = "ByzantineGCCuirassier"
+        actorfile = "gfx\anims\Byzantine_Light_Cavalry.xac"
+        idle   = "gfx\anims\Byzantine_Light_Cavalry_Idle.xsm"
+        move   = "gfx\anims\Byzantine_Light_Cavalry_Moving.xsm"
+        attack = "gfx\anims\Byzantine_Light_Cavalry_Attack.xsm"
+        scale = 1
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+		attach = {
+			name = "ByzantineShield2"
+			node = "Left_hand_node"
+			attachId = 4
+		}
+		
+		attach = {
+			name = "ByzantineSword"
+			node = "Right_hand_node"
+			attachId = 3
+		}
+	}
+	#ByzantineGCCuirassier
+	EMFXActorType = {
+        name = "ByzantineGCCavalry"
+        actorfile = "gfx\anims\Byzantine_Heavy_Cavalry_Rider.xac"
+        idle   = "gfx\anims\Byzantine_Heavy_Cavalry_Rider_Idle.xsm"
+        move   = "gfx\anims\Byzantine_Heavy_Cavalry_Rider_Moving.xsm"
+        attack = "gfx\anims\Byzantine_Heavy_Cavalry_Rider_Attack.xsm"
+        scale = 1
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+		attach = {
+			name = "ByzantineShield2"
+			node = "Left_hand_node"
+			attachId = 4
+		}
+		
+		attach = {
+			name = "ByzantineSword"
+			node = "Right_hand_node"
+			attachId = 3
+		}
+	}
+
+	EMFXActorType = {
+        name = "ByzantineGCDragoon"
+        actorfile = "gfx\anims\Byzantine_Mounted_Archer.xac"
+        idle   = "gfx\anims\Mounted_Archer_Idle.xsm"
+        move   = "gfx\anims\Mounted_Archer_Moving.xsm"
+        attack = "gfx\anims\Mounted_Archer_Attack.xsm"
+        scale = 1
+		
+		attach = {
+			name = "GenericArrow"
+			node = "Right_hand_node"
+			attachId = 4
+		}
+		
+		attach = {
+			name = "ByzantineBow"
+			node = "Right_hand_node"
+			attachId = 3
+		}
+		
+		attach = {
+			name = "ByzantineHelmet"
+			node = "Head"
+			attachId = 5
+		}
+	}
+	
+#	EMFXActorType = {
+#		name = "LatinGCInfantry"
+#		actorfile = "gfx\anims\Naplesian_1400.xac"
+#		
+#		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
+#		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
+#		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
+#		scale = 6.8
+#	}
+	
+#	EMFXActorType = {
+#		name = "LatinGCInfantry2"
+#		actorfile = "gfx\anims\Naplesian_1400.xac"
+#		
+#		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
+#		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
+#		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
+#		scale = 6.8
+#	}
+	
+	EMFXActorType = {
+		name = "LatinPikeShield"
+		actorfile = "gfx\anims\christian_shield.xac"
+		scale = 0.7
+	}
+	
+	EMFXActorType = {
+		name = "LatinPike"
+		actorfile = "gfx\anims\christian_pike.xac"
+		scale = 0.7
+	}
+	
+	EMFXActorType = {
+		name = "LatinCavSword"
+		actorfile = "gfx\anims\christian_banner_and_sword.xac"
+		scale = 0.7
+		
+		idle   = "gfx\anims\christian_banner_anim.xsm"
+		move   = "gfx\anims\christian_banner_anim.xsm"
+		attack  = "gfx\anims\christian_sword_anim.xsm"
+	}
+	
+	EMFXActorType = {
+		name = "LatinSword"
+		actorfile = "gfx\anims\christian_sword.xac"
+		scale = 0.7
+	}
+	
+	EMFXActorType = {
+		name = "LatinAxe"
+		actorfile = "gfx\anims\byzantine_heavy_infantry_axe.xac"
+		scale = 0.7
+	}
+	
+	EMFXActorType = {
+		name = "LatinShield1"
+		actorfile = "gfx\anims\christian_small_shield.xac"
+		scale = 0.7
+	}
+	
+	EMFXActorType = {
+		name = "LatinShield2"
+		actorfile = "gfx\anims\christian_heavy_cavalry_shield.xac"
+		scale = 0.7
+	}
+	
+	EMFXActorType = {
+		name = "LatinHelmet"
+		actorfile = "gfx\anims\Helmet_01.xac"
+		scale = 0.1
+	}
+	
+	EMFXActorType = {
+		name = "LatinBow"
+		actorfile = "gfx\anims\christian_bow.xac"
+		scale = 0.7
+		
+		idle   = "gfx\anims\christian_bow_idle.xsm"
+		move   = "gfx\anims\christian_bow_idle.xsm"
+		attack  = "gfx\anims\christian_bow_attack.xsm"
+	}
+	
+	EMFXActorType = {
+		name = "LatinArrow"
+		actorfile = "gfx\anims\christian_arrow.xac"
+		scale = 0.7
+		
+		idle   = "gfx\anims\christian_arrow_idle.xsm"
+		move   = "gfx\anims\christian_arrow_idle.xsm"
+		attack = "gfx\anims\christian_arrow_attack.xsm"
+	}
+	
+	EMFXActorType = {
+		name = "LatinGCPlane"
+		actorfile = "gfx\anims\christian_light_infantry.xac"
+		
+		idle   = "gfx\anims\christian_infantry_idle.xsm"
+		move   = "gfx\anims\christian_infantry_moving.xsm"
+		attack = "gfx\anims\christian_infantry_attack.xsm"
+		scale = 0.7
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+		attach = {
+			name = "LatinShield1"
+			node = "Left_hand_node"
+			attachId = 4
+		}
+		
+		attach = {
+			name = "LatinSword"
+			node = "Right_hand_node"
+			attachId = 3
+		}
+	}
+	
+	EMFXActorType = {
+		name = "LatinGCArtillery"
+		actorfile = "gfx\anims\christian_archer.xac"
+		
+		idle   = "gfx\anims\christian_archer_idle.xsm"
+		move   = "gfx\anims\christian_archer_moving.xsm"
+		attack = "gfx\anims\christian_archer_attack.xsm"
+		scale = 0.7
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+		attach = {
+			name = "LatinArrow"
+			node = "Right_hand_node"
+			attachId = 4
+		}
+		
+		attach = {
+			name = "LatinBow"
+			node = "Right_hand_node"
+			attachId = 3
+		}
+	}
+	
+	EMFXActorType = {
+		name = "LatinGCGuard"
+		actorfile = "gfx\anims\christian_pikeman.xac"
+		
+		idle   = "gfx\anims\christian_pikeman_idle.xsm"
+		move   = "gfx\anims\christian_pikeman_moving.xsm"
+		attack = "gfx\anims\christian_pikeman_attack.xsm"
+		scale = 0.7
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+		attach = {
+			name = "LatinPikeShield"
+			node = "Left_hand_node"
+			attachId = 4
+		}
+		
+		attach = {
+			name = "LatinPike"
+			node = "Right_hand_node"
+			attachId = 3
+		}
 	}
 	
 	EMFXActorType = {
 		name = "LatinGCInfantry"
-		actorfile = "gfx\anims\Naplesian_1400.xac"
+		actorfile = "gfx\anims\christian_heavy_infantry.xac"
 		
-		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
-		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
-		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
-		scale = 6.8
+		idle   = "gfx\anims\christian_infantry_idle.xsm"
+		move   = "gfx\anims\christian_infantry_moving.xsm"
+		attack = "gfx\anims\christian_infantry_attack.xsm"
+		scale = 0.7
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+		attach = {
+			name = "LatinShield1"
+			node = "Left_hand_node"
+			attachId = 4
+		}
+		
+		attach = {
+			name = "LatinSword"
+			node = "Right_hand_node"
+			attachId = 3
+		}
 	}
 	
 	EMFXActorType = {
-		name = "LatinGCInfantry2"
-		actorfile = "gfx\anims\Naplesian_1400.xac"
+        name = "LatinGCCavalry"
+        actorfile = "gfx\anims\christian_heavy_cavalry.xac"
+        idle   = "gfx\anims\christian_heavy_cavalry_tabard_idle.xsm"
+        move   = "gfx\anims\christian_heavy_cavalry_tabard_moving.xsm"
+        attack = "gfx\anims\christian_heavy_cavalry_tabard_attack.xsm"
+        scale = 1
 		
-		idle   = "gfx\anims\Generic_Western_1400_Idle.xsm"
-		move   = "gfx\anims\Generic_Western_1400_Move.xsm"
-		attack = "gfx\anims\Generic_Western_1400_Attack.xsm"
-		scale = 6.8
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+		attach = {
+			name = "LatinCavSword"
+			node = "Right_hand_node"
+			attachId = 3
+		}
+	}
+	
+	EMFXActorType = {
+        name = "LatinGCCuirassier"
+        actorfile = "gfx\anims\christian_heavy_cavalry.xac"
+        idle   = "gfx\anims\christian_heavy_cavalry_tabard_idle.xsm"
+        move   = "gfx\anims\christian_heavy_cavalry_tabard_moving.xsm"
+        attack = "gfx\anims\christian_heavy_cavalry_tabard_attack.xsm"
+        scale = 1
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+		attach = {
+			name = "LatinCavSword"
+			node = "Right_hand_node"
+			attachId = 3
+		}
 	}
 	
 	EMFXActorType = {

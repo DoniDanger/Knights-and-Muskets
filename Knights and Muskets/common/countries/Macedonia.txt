@@ -1,4 +1,6 @@
-color = { 72  89  87 }
+color = { 205 22 30 }
+#color = { 159 19 130 }
+#color = { 72  89  87 }
 graphical_culture = LatinGC
 
 party = {

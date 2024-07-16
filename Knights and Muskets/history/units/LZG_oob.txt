@@ -1,0 +1,30 @@
+leader = {
+    name = "Kura"
+    date = 1221.8.1
+    type = land
+    personality = defence_2.1
+    background = attack_2.1
+    prestige = 0.10
+}
+
+army = {
+    name = "Warriors of Lezginia"
+    location = 1055
+    regiment = {
+        name = "1. Tribal Warrior"
+        type = irregular
+        home = 12
+    }
+
+    regiment = {
+        name = "2. Tribal Warrior"
+        type = irregular
+        home = 12
+    }
+	
+	regiment = {
+        name = "4. Tribal Warrior"
+        type = artillery
+        home = 12
+    }
+}

@@ -28,10 +28,9 @@ everyday_needs_income = {
 
 luxury_needs_income =
 {
-	type = military
-	weight = 1.5
+	type = reforms
+	weight = 1
 }
-
 
 everyday_needs = {
 	tea = 4
@@ -409,7 +408,7 @@ ideologies = {
 	}
 	
 	reactionary = {
-		factor = 0.65
+		factor = 0.85
 		modifier = {
 			factor = 0.5
 			not = { militancy = 6 }
@@ -569,7 +568,11 @@ ideologies = {
 	}
 	
 	gentry = {
-		factor = 0.5
+		factor = 0.1
+		modifier = {
+			factor = 0.2
+			has_global_flag = rise_of_gentry
+		}
 		modifier = {
 			factor = 0.5
 			militancy = 6
@@ -653,7 +656,7 @@ ideologies = {
 	}
 
 	clergy = {
-		factor = 0.65
+		factor = 0.35
 		modifier = {
 			factor = 0.5
 			militancy = 6
@@ -765,7 +768,7 @@ ideologies = {
 	}
 
 	fervent_clergy = {
-		factor = 0.5
+		factor = 0.2
 		modifier = {
 			factor = 0.5
 			militancy = 6

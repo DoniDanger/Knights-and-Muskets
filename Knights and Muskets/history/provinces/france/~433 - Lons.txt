@@ -1,6 +1,0 @@
-owner = BRG
-controller = BRG
-add_core = BRG
-add_core = GER
-trade_goods = salt
-life_rating = 35

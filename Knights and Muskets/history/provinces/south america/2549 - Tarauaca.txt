@@ -1,6 +1,7 @@
-
-
-
-trade_goods = tropical_wood
-life_rating = 25
-colonial = 2
+owner = PAR
+controller = PAR
+add_core = PAR
+add_core = NNN
+add_core = ITA
+trade_goods = apiculture
+life_rating = 35

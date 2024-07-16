@@ -1,6 +1,6 @@
-owner = CUM
-controller = CUM
-add_core = CUM
+owner = WMG
+controller = WMG
 add_core = KAZ
+add_core = WMG
 trade_goods = opium
 life_rating = 35

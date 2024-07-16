@@ -1,1 +1,8 @@
-trade_goods = fruitlife_rating = 35colony = 21861.1.1 = {	colony = 0	}
+owner = HBS
+controller = HBS
+add_core = HBS
+add_core = URI
+add_core = GER
+add_core = NNN
+trade_goods = fruit
+life_rating = 35

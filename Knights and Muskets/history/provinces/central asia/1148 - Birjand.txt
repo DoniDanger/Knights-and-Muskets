@@ -1,7 +1,5 @@
-owner = WMG
-controller = WMG
-add_core = ILK
-add_core = WMG
+owner = PER
+controller = PER
 add_core = PER
 trade_goods = cotton
 life_rating = 35

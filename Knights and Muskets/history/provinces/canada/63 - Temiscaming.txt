@@ -1,6 +1,5 @@
-
-
-add_core = QUE
+owner = BRT
+controller = BRT
+add_core = BRT
 trade_goods = cattle
 life_rating = 35
-colonial = 2

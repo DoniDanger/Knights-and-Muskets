@@ -1,4 +1,5 @@
-color = { 77 251 239 }
+color = { 217 159 255 }
+#color = { 77 251 239 }
 graphical_culture = ItalianGC
 
 party = {

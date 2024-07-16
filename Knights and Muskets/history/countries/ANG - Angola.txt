@@ -1,4 +1,4 @@
-capital = 1999
+capital = 444
 primary_culture = portuguese
 culture = bakongo
 culture = ovimbundu

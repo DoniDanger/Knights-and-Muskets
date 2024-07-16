@@ -1,5 +1,6 @@
-owner = CRS
-controller = CRS
+owner = PIS
+controller = PIS
+add_core = PIS
 add_core = CRS
 trade_goods = fish
 life_rating = 35

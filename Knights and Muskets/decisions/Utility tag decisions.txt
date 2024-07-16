@@ -92,20 +92,6 @@ political_decisions = {
 					reduce_pop = 1.8
 				}
 			}
-			WMG = {
-				any_pop = {
-					limit = {
-						NOT = { type = soldiers }
-					}
-					reduce_pop = 1.5
-				}
-				any_pop = {
-					limit = {
-						type = soldiers 
-					}	
-					reduce_pop = 1.8
-				}
-			}
 		}
 	}
 	india_pop_nerf = {

@@ -1,8 +1,9 @@
-owner = ALS
-controller = ALS
-add_core = ALS
+owner = SAA
+controller = SAA
+add_core = SAA
+add_core = NNN
 add_core = GER
 trade_goods = stone
-life_rating = 40
+life_rating = 35
 fort = 1
 1861.1.1 = { railroad = 3 }

@@ -1,7 +1,6 @@
-
-trade_goods = timber
-life_rating = 30
-1861.1.1 = {
-		
-	colonial = 2
-}
+owner = PLS
+controller = PLS
+add_core = PLS
+add_core = JER
+trade_goods = grain
+life_rating = 35

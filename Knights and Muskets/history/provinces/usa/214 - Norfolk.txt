@@ -1,17 +1,7 @@
-
-
-
+owner = MOD
+controller = MOD
+add_core = MOD
+add_core = NNN
+add_core = ITA
 trade_goods = tobacco
 life_rating = 35
-
-naval_base = 2
-
-1861.1.1 = {
-	
-	
-	
-}
-1861.1.1 = { 
-	railroad = 3 
-	naval_base = 3
-}

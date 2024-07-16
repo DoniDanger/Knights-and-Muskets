@@ -1,6 +1,5 @@
-owner = AUV
-controller = AUV
-add_core = AUV
+owner = DAU
+controller = DAU
+add_core = DAU
 trade_goods = stone
-life_rating = 31
-1861.1.1 = { railroad = 2 }
+life_rating = 35

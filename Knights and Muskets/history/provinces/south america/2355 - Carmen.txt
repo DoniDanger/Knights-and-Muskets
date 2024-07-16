@@ -1,1 +1,6 @@
-trade_goods = timberlife_rating = 35
+owner = GLM
+controller = GLM
+add_core = GLM
+add_core = UKR
+trade_goods = timber
+life_rating = 35

@@ -1,6 +1,6 @@
-owner = AMG
-controller = AMG
-add_core = AMG
+owner = LMG
+controller = LMG
+add_core = LMG
 trade_goods = cattle
 life_rating = 31
 #state_building = {

@@ -1,7 +1,5 @@
-trade_goods = sulphur
+owner = ARN
+controller = ARN
+add_core = ARN
+trade_goods = wool
 life_rating = 35
-1860.1.1 = {
-	
-	
-	remove_core = SPU
-}

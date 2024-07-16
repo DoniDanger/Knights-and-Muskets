@@ -1,6 +1,5 @@
-owner = SYR
-controller = SYR
-add_core = EGY
-add_core = SYR
+owner = MSL
+controller = MSL
+add_core = MSL
 trade_goods = horses
 life_rating = 35

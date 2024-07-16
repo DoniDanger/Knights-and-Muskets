@@ -1,9 +1,8 @@
 capital = 552
 primary_culture = western_slavic
 culture = polish
-culture = czech
-religion = protestant
-government = democracy
+religion = catholic
+government = feudal_monarchy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.8

@@ -1,4 +1,5 @@
-
+owner = LZG
+controller = LZG
+add_core = LZG
 trade_goods = fish
-life_rating = 20
-colonial = 2
+life_rating = 35

@@ -26,7 +26,7 @@ everyday_needs_income = {
 
 luxury_needs_income =
 {
-	type = education
+	type = reforms
 	weight = 1
 }
 
@@ -1042,7 +1042,11 @@ ideologies = {
 	}
 
 	gentry = {
-		factor = 0.5
+		factor = 0.1
+		modifier = {
+			factor = 0.25
+			has_global_flag = rise_of_gentry
+		}
 		modifier = {
 			factor = 0.5
 			militancy = 6
@@ -1126,7 +1130,7 @@ ideologies = {
 	}
 
 	clergy = {
-		factor = 1.1
+		factor = 1.5
 		modifier = {
 			factor = -0.1
 			wage_reform = acceptable_minimum_wage

@@ -1,7 +1,7 @@
-owner = TUS
-controller = TUS
-add_core = TUS
-add_core = GER
+owner = FLR
+controller = FLR
+add_core = FLR
+add_core = NNN
 add_core = ITA
 trade_goods = fruit
 life_rating = 35

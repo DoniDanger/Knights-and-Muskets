@@ -1,9 +1,10 @@
-owner = ALS
-controller = ALS
-add_core = ALS
+owner = MTZ
+controller = MTZ
+add_core = MTZ
 add_core = GER
+add_core = NNN
 trade_goods = precious_metal
-life_rating = 30
+life_rating = 35
 #state_building = {
 #	level = 1
 #	building = fabric_factory

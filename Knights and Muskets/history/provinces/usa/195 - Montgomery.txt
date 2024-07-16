@@ -1,21 +1,7 @@
-
-
-
+owner = BNN
+controller = BNN
+add_core = BNN
+add_core = ARP
+add_core = NNN
 trade_goods = cotton
 life_rating = 35
-
-party_loyalty = {
-	ideology = conservative
-	loyalty_value = 15
-}
-
-1861.1.1 = {
-	party_loyalty = {
-	ideology = conservative
-	loyalty_value = 20
-}
-	
-	
-	
-}
-1861.1.1 = { railroad = 3 }

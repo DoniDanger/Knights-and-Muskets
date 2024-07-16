@@ -1,7 +1,5 @@
-trade_goods = cattle
+owner = FOI
+controller = FOI
+add_core = FOI
+trade_goods = apiculture
 life_rating = 35
-1860.1.1 = {
-	
-	
-	remove_core = SPU
-}

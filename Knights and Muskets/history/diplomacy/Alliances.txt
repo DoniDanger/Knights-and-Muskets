@@ -1,0 +1,82 @@
+### Despotate of Epirus ###
+alliance = {
+    first = EPI
+    second = RHO
+    start_date = 1220.1.5
+    end_date = 1230.1.1
+}
+
+alliance = {
+    first = EPI
+    second = BUL
+    start_date = 1220.1.5
+    end_date = 1230.1.1
+}
+
+### Mongol Empire ###
+alliance = {
+    first = MGL
+    second = WMG
+    start_date = 1212.1.5
+    end_date = 1259.1.1
+}
+
+### Capetian Dynasty ###
+alliance = {
+    first = FRA
+    second = BLO
+    start_date = 1212.1.5
+    end_date = 1259.1.1
+}
+alliance = {
+    first = FRA
+    second = LMC
+    start_date = 1212.1.5
+    end_date = 1259.1.1
+}
+alliance = {
+    first = FRA
+    second = CMP
+    start_date = 1212.1.5
+    end_date = 1259.1.1
+}
+alliance = {
+    first = FRA
+    second = BRT
+    start_date = 1212.1.5
+    end_date = 1259.1.1
+}
+
+### Crown of Aragon ###
+##Titles
+alliance = {
+    first = ARN
+    second = BEA
+    start_date = 1212.1.5
+    end_date = 1259.1.1
+}
+alliance = {
+    first = ARN
+    second = FOI
+    start_date = 1212.1.5
+    end_date = 1259.1.1
+}
+alliance = {
+    first = ARN
+    second = PRO
+    start_date = 1212.1.5
+    end_date = 1259.1.1
+}
+alliance = {
+    first = ARN
+    second = GVD
+    start_date = 1212.1.5
+    end_date = 1259.1.1
+}
+##Alliances
+alliance = {
+    first = ARN
+    second = CST
+    start_date = 1212.1.5
+    end_date = 1259.1.1
+}

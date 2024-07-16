@@ -1,7 +1,7 @@
-owner = LOM
-controller = LOM
-add_core = LOM
-add_core = GER
+owner = ASD
+controller = ASD
+add_core = ASD
+add_core = NNN
 add_core = ITA
 trade_goods = horses
 life_rating = 35

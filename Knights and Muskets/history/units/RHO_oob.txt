@@ -1,0 +1,37 @@
+leader = {
+    name = "Alexius Slav"
+    date = 1221.8.1
+    type = land
+    personality = defence_2.1
+    background = attack_2.1
+    prestige = 0.18
+}
+
+army = {
+    name = "Army of Alexius Slav"
+    location = 156
+    regiment = {
+        name = "1. Fanteria di Linea - Re e Regina"
+        type = infantry
+        home = 156
+    }
+
+    regiment = {
+        name = "2. Fanteria di Linea - Duca di Calabria"
+        type = infantry
+        home = 156
+    }
+
+    regiment = {
+        name = "4. Fanteria di Linea"
+        type = artillery
+        home = 808
+    }
+
+    regiment = {
+        name = "2. Cavalleria di Linea"
+        type = cuirassier
+        home = 808
+    }
+
+}

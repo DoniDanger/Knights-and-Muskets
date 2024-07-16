@@ -1,0 +1,42 @@
+leader = {
+    name = "Utamish"
+    date = 1221.8.1
+    type = land
+    personality = defence_2.1
+    background = attack_2.1
+    prestige = 0.10
+}
+
+army = {
+    name = "Warriors of Kumykia"
+    location = 1057
+    regiment = {
+        name = "1. Tribal Warrior"
+        type = infantry
+        home = 1057
+    }
+
+    regiment = {
+        name = "2. Tribal Warrior"
+        type = infantry
+        home = 42
+    }
+	
+	regiment = {
+        name = "4. Tribal Warrior"
+        type = artillery
+        home = 42
+    }
+
+    regiment = {
+        name = "3. Tribal Warrior"
+        type = artillery
+        home = 36
+    }
+	
+	regiment = {
+        name = "1. Tribal Cavalry"
+        type = cavalry
+        home = 36
+    }
+}

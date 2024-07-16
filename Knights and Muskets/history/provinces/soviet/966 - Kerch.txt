@@ -1,6 +1,5 @@
-owner = PNT
-controller = PNT
-add_core = PNT
-add_core = BYZ
+owner = CUM
+controller = CUM
+add_core = CUM
 trade_goods = iron
 life_rating = 35

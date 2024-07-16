@@ -1,6 +1,5 @@
-
-
-add_core = QUE
-trade_goods = fish
+owner = FRA
+controller = FRA
+add_core = FRA
+trade_goods = fruit
 life_rating = 35
-colonial = 2

@@ -1,5 +1,7 @@
-
-
-
+owner = CUM
+controller = CUM
+add_core = CUM
+add_core = KAZ
 trade_goods = cattle
-life_rating = 30
+life_rating = 35
+

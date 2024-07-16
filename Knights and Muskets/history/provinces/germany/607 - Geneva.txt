@@ -1,8 +1,8 @@
-owner = ARP
-controller = ARP
+owner = NCT
+controller = NCT
+add_core = NCT
 add_core = ARP
-add_core = GER
-add_core = SWI
+add_core = NNN
 trade_goods = grain
-life_rating = 40
+life_rating = 35
 1861.1.1 = { railroad = 1 }

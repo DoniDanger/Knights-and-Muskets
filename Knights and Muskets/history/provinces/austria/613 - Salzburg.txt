@@ -1,6 +1,7 @@
-owner = BAV
-controller = BAV
-add_core = BAV
+owner = SAL
+controller = SAL
+add_core = SAL
+add_core = NNN
 add_core = GER
 trade_goods = salt
 life_rating = 35

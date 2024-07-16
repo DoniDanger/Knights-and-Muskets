@@ -1,7 +1,7 @@
-owner = LTN
-controller = LTN
+owner = PHI
+controller = PHI
+add_core = PHI
 add_core = LTN
-add_core = BYZ
 add_core = BUL
 trade_goods = salt
 life_rating = 35

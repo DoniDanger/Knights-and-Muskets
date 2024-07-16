@@ -1,5 +1,8 @@
-
-
-
+owner = PVI
+controller = PVI
+add_core = PVI
+add_core = NNN
+add_core = ITA
 trade_goods = timber
-life_rating = 25
+life_rating = 35
+

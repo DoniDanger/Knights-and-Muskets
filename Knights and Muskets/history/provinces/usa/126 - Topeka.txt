@@ -1,12 +1,7 @@
-
-
-
-
-
-
+owner = ATI
+controller = ATI
+add_core = ATI
+add_core = NNN
+add_core = ITA
 trade_goods = grain
 life_rating = 35
-colony = 2
-1861.1.1 = {
-	colony = 0
-	}

@@ -1,5 +1,5 @@
-owner = SER
-controller = SER
-add_core = SER
+owner = BOS
+controller = BOS
+add_core = BOS
 trade_goods = coal
 life_rating = 35

@@ -1,4 +1,8 @@
-
-
+owner = WMG
+controller = WMG
+add_core = ILK
+add_core = WMG
+add_core = PER
 trade_goods = tropical_wood
-life_rating = 25
+life_rating = 32
+

@@ -1,7 +1,8 @@
-owner = HNT
-controller = HNT
+owner = FLA
+controller = FLA
+add_core = FLA
 add_core = HNT
-add_core = GER
+add_core = NNN
 add_core = WLL
 trade_goods = stone
 life_rating = 35

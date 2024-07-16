@@ -1,5 +1,7 @@
-
-
-
+owner = TRV
+controller = TRV
+add_core = TRV
+add_core = UKR
+add_core = MNK
 trade_goods = wool
 life_rating = 35

@@ -1,0 +1,216 @@
+political_decisions = {
+	succession_of_damascus = {
+		potential = {
+			tag = EGY
+			NOT = { has_country_flag = egy_damascus_succession }
+			NOT = { SYR = { has_country_flag = syr_damascus_succession } }
+			NOT = { has_global_flag = syr_ayyubid_civil_war }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					has_global_flag = death_of_muazzam
+					war = no
+					#EGY = { all_core = { controlled_by = THIS } }
+				}
+				has_country_flag = egy_frederick_negotiations
+			}
+		}
+		
+		effect = {
+			prestige = 5
+		    country_event = 132002 
+			set_country_flag = egy_damascus_succession
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	subjugate_damascus_emirs = {
+		potential = {
+			tag = EGY
+			SYR = { exists = yes }
+			NOT = { has_country_flag = egy_subjugate_damascus }
+		}
+		
+		allow = {
+			war = no
+			SYR = { vassal_of = THIS }
+			year = 1244
+			OR = {
+				AND = {
+					has_global_flag = death_of_kamil
+					war = no
+				}
+				has_country_flag = egy_frederick_negotiations
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = SYR
+			set_country_flag = egy_subjugate_damascus
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	integration_of_palestine = {
+		potential = {
+			tag = EGY
+			NOT = { has_country_flag = egy_palestine_integration }
+		}
+		
+		allow = {
+			war = no
+			PLS = { exists = no }
+			PLS = { all_core = { owned_by = THIS } }
+		}
+		
+		effect = {
+			prestige = 5
+			PLS = { all_core = { add_core = THIS } }
+			set_country_flag = egy_palestine_integration
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	integration_of_syria = {
+		potential = {
+			tag = EGY
+			NOT = { has_country_flag = egy_damascus_integration }
+		}
+		
+		allow = {
+			war = no
+			SYR = { exists = no }
+			SYR = { all_core = { owned_by = THIS } }
+		}
+		
+		effect = {
+			prestige = 5
+			SYR = { all_core = { add_core = THIS } }
+			add_accepted_culture = levantine
+			set_country_flag = egy_damascus_integration
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	integration_of_mecca = {
+		potential = {
+			tag = EGY
+			NOT = { has_country_flag = egy_mecca_integration }
+		}
+		
+		allow = {
+			war = no
+			owns = 917
+			OR = {
+				HDJ = { vassal_of = THIS }
+				AND = {
+					owns = 1153
+					owns = 1151
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = HDJ
+			HDJ = { all_core = { add_core = THIS } }
+			set_country_flag = egy_mecca_integration
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	integration_of_yemen = {
+		potential = {
+			tag = EGY
+			NOT = { has_country_flag = egy_yemen_integration }
+		}
+		
+		allow = {
+			war = no
+			owns = 1151
+			OR = {
+				NYE = { vassal_of = THIS }
+				NYE = { all_core = { owned_by = THIS } }
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = YEM
+			NYE = { all_core = { add_core = THIS } }
+			set_country_flag = egy_yemen_integration
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	integration_of_mosul = {
+		potential = {
+			tag = EGY
+			NOT = { has_country_flag = egy_mosul_integration }
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				MSL = { vassal_of = THIS }
+				MSL = { all_core = { owned_by = THIS } }
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = MSL
+			MSL = { all_core = { add_core = THIS } }
+			set_country_flag = egy_mosul_integration
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	struggle_with_al_kamil = {
+		potential = {
+			tag = SYR
+			NOT = { has_country_flag = syr_damascus_succession }
+		}
+		
+		allow = {
+			EGY = { NOT = { has_country_flag = egy_damascus_succession } }
+			OR = {
+				AND = {
+					has_global_flag = death_of_muazzam
+					war = no
+					year = 1229
+				}
+				has_country_flag = syr_frederick_negotiations
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			country_event = 132005 
+			set_country_flag = syr_damascus_succession
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	rasulid_revolt_yem = {
+		potential = {
+			tag = YEM
+			NOT = { has_country_flag = rasulid_revolt }
+		}
+		
+		allow = {
+			year = 1229
+		}
+		
+		effect = {
+			prestige = 5
+			EGY = { release_vassal = YEM }
+			#country_event = 132005 
+			set_country_flag = rasulid_revolt
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

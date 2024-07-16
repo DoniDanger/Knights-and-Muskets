@@ -1,5 +1,5 @@
 capital = 365
-primary_culture = lithuanian
+primary_culture = samogitian
 religion = catholic
 government = feudal_monarchy
 plurality = 10

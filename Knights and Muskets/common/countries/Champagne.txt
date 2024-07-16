@@ -1,4 +1,5 @@
-color = { 166  125  164 }
+color = { 95 24 226 }
+#color = { 166  125  164 }
 graphical_culture = FrenchGC
 
 party = {

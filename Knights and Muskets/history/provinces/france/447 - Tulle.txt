@@ -1,5 +1,5 @@
-owner = AMG
-controller = AMG
-add_core = AMG
+owner = LMG
+controller = LMG
+add_core = LMG
 trade_goods = apiculture
-life_rating = 32
+life_rating = 35

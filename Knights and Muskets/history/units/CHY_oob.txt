@@ -1,0 +1,36 @@
+leader = {
+    name = "Vainakh"
+    date = 1221.8.1
+    type = land
+    personality = defence_2.1
+    background = attack_2.1
+    prestige = 0.11
+}
+
+army = {
+    name = "Dzurdzuketian Tribal Coalition"
+    location = 1055
+    regiment = {
+        name = "1. Tribal Warrior"
+        type = irregular
+        home = 1054
+    }
+
+    regiment = {
+        name = "2. Tribal Warrior"
+        type = irregular
+        home = 1054
+    }
+	
+	regiment = {
+        name = "5. Tribal Warrior"
+        type = artillery
+        home = 1055
+    }
+
+    regiment = {
+        name = "4. Tribal Warrior"
+        type = artillery
+        home = 1055
+    }
+}

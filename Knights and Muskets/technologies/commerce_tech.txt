@@ -1,5 +1,5 @@
 #financial_institutions
-private_banks = {
+grain_banks = {
 	area = financial_institutions
 	year = 1200
 	cost = 3600
@@ -11,9 +11,9 @@ private_banks = {
 		factor = 4
 	}
 }
-stock_exchange = {
+merchant_banks = {
 	area = financial_institutions
-	year = 1200
+	year = 1220
 	cost = 7200
 
 	tax_eff = 5.0
@@ -22,9 +22,9 @@ stock_exchange = {
 		factor = 2
 	}
 }
-business_banks = {
+negotiable_instrument = {
 	area = financial_institutions
-	year = 1200
+	year = 1240
 	cost = 10800
 
 	tax_eff = 2.5
@@ -33,9 +33,9 @@ business_banks = {
 		factor = 2
 	}
 }
-investment_banks = {
+discounting = {
 	area = financial_institutions
-	year = 1200
+	year = 1255
 	cost = 14400
 
 	tax_eff = 2.5
@@ -43,9 +43,9 @@ investment_banks = {
 		factor = 1.5
 	}
 }
-bank_inspection_board = {
+financing_n_underwriting = {
 	area = financial_institutions
-	year = 1200
+	year = 1270
 	cost = 18000
 
 	tax_eff = 2.5
@@ -53,9 +53,9 @@ bank_inspection_board = {
 		factor = 1.5	
 	}
 }
-mutual_funds = {
+triple_contracts = {
 	area = financial_institutions
-	year = 1200
+	year = 1300
 	cost = 21200
 
 	tax_eff = 2.5
@@ -63,9 +63,9 @@ mutual_funds = {
 		factor = 1.5
 	}
 }
-financial_institutions_7 = {
+bills_of_exchange = {
 	area = financial_institutions
-	year = 1200
+	year = 1320
 	cost = 25200
 
 	tax_eff = 2.5
@@ -73,9 +73,9 @@ financial_institutions_7 = {
 		factor = 1.5	
 	}
 }
-financial_institutions_8 = {
+sanctioned_interest_loans = {
 	area = financial_institutions
-	year = 1200
+	year = 1340
 	cost = 30200
 
 	tax_eff = 2.5
@@ -83,9 +83,9 @@ financial_institutions_8 = {
 		factor = 1.5
 	}
 }
-financial_institutions_9 = {
+banking_families = {
 	area = financial_institutions
-	year = 1200
+	year = 1360
 	cost = 25200
 
 	tax_eff = 2.5
@@ -93,9 +93,9 @@ financial_institutions_9 = {
 		factor = 1.5	
 	}
 }
-financial_institutions_10 = {
+public_banks = {
 	area = financial_institutions
-	year = 1200
+	year = 1380
 	cost = 30200
 
 	tax_eff = 2.5
@@ -103,9 +103,9 @@ financial_institutions_10 = {
 		factor = 1.5
 	}
 }
-
+#bullion_coin
 #monetary_system
-no_standard = {
+hammered_coinage = {
 	area = monetary_system
 	year = 1200
 	cost = 3600
@@ -124,9 +124,9 @@ no_standard = {
 		}
 	}
 }
-ad_hoc_money_bill_printing = {
+silver_ducats = {
 	area = monetary_system
-	year = 1200
+	year = 1220
 	cost = 7200
 	
 	administrative_efficiency = 0.05
@@ -134,9 +134,9 @@ ad_hoc_money_bill_printing = {
 		factor = 2
 	}
 }  
-private_bank_money_bill_printing = {
+currency_debasement = {
 	area = monetary_system
-	year = 1200
+	year = 1240
 	cost = 10800
 
 	administrative_efficiency = 0.05
@@ -144,9 +144,9 @@ private_bank_money_bill_printing = {
 		factor = 1.5
 	}
 }
-central_bank_money_bill_printing = {
+gold_florins = {
 	area = monetary_system
-	year = 1200
+	year = 1255
 	cost = 14400
 
 	administrative_efficiency = 0.05
@@ -154,9 +154,9 @@ central_bank_money_bill_printing = {
 		factor = 1.5
 	}
 }
-modern_central_bank_system = {
+coin_engraving = {
 	area = monetary_system
-	year = 1200
+	year = 1270
 	cost = 18000
 
 	administrative_efficiency = 0.05
@@ -164,9 +164,9 @@ modern_central_bank_system = {
 		factor = 1.5
 	}
 }
-market_determined_exchange_rates = {
+gold_ducats = {
 	area = monetary_system
-	year = 1615
+	year = 1300
 	cost = 21200
 
 
@@ -175,9 +175,9 @@ market_determined_exchange_rates = {
 		factor = 1.2
 	}
 }
-monetary_system_7 = {
+trade_coins = {
 	area = monetary_system
-	year = 1200
+	year = 1320
 	cost = 25200
 
 	administrative_efficiency = 0.05
@@ -185,9 +185,9 @@ monetary_system_7 = {
 		factor = 1.5
 	}
 }
-monetary_system_8 = {
+debased_ducats = {
 	area = monetary_system
-	year = 1200
+	year = 1345
 	cost = 30200
 
 
@@ -196,9 +196,9 @@ monetary_system_8 = {
 		factor = 1.2
 	}
 }
-monetary_system_9 = {
+silver_debasement = {
 	area = monetary_system
-	year = 1200
+	year = 1370
 	cost = 25200
 
 	administrative_efficiency = 0.05
@@ -206,9 +206,9 @@ monetary_system_9 = {
 		factor = 1.5
 	}
 }
-monetary_system_10 = {
+widespread_ducat_adoption = {
 	area = monetary_system
-	year = 1200
+	year = 1400
 	cost = 30200
 
 
@@ -217,130 +217,294 @@ monetary_system_10 = {
 		factor = 1.2
 	}
 }
-
-#economic_thought_and_critique
-early_classical_theory_and_critique = {
-	area = economic_thought_and_critique
+#carruca plow
+#tech_power
+manorialism = {
+	area = tech_power
 	year = 1200
 	cost = 3600
+
+	activate_building =  fabric_factory
 	
-	activate_building = lumber_mill
-	factory_input = -0.01
+	factory_goods_output = { steel = 0.1 }
+	factory_goods_output = { sulphur = 0.05 }
+#	farm_rgo_eff = 0.15
+	factory_goods_output = { cotton = 0.1 }
+	factory_goods_output = { dye = 0.1 }
+	factory_goods_output = { wool = 0.1 }
+	factory_goods_output = { silk = 0.1 }
+	factory_goods_output = { stone = 0.1 }
+	factory_goods_output = { cattle = 0.1 }
+	factory_goods_output = { fish = 0.1 }
+	factory_goods_output = { fruit = 0.1 }
+	factory_goods_output = { grain = 0.1 }
+	factory_goods_output = { tobacco = 0.1 }
+	factory_goods_output = { tea = 0.1 }
+	factory_goods_output = { coffee = 0.1 }
+	factory_goods_output = { opium = 0.1 }	
+	rgo_goods_output = { precious_metal = 0.05 }
 	ai_chance = {
-		factor = 25
-	}
+		factor = 1.1
+	}	
 }
-late_classical_theory = {
-	area = economic_thought_and_critique
+open_field_system = {
+	area = tech_power
 	year = 1200
 	cost = 7200
 
-	factory_input = -0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { coal = 0.05 }
+	factory_goods_output = { iron = 0.05 }
+	factory_goods_output = { oil = 0.05 }
+	rgo_goods_output = { precious_metal = 0.05 }
+	factory_goods_output = { sulphur = 0.05 }
+	farm_rgo_eff = 0.15
+	factory_goods_output = { cotton = 0.05 }
+	factory_goods_output = { dye = 0.05 }
+	factory_goods_output = { wool = 0.05 }
+	factory_goods_output = { silk = 0.05 }
+	factory_goods_output = { stone = 0.05 }
+	factory_goods_output = { cattle = 0.05 }
+	factory_goods_output = { fish = 0.05 }
+	factory_goods_output = { fruit = 0.05 }
+	factory_goods_output = { grain = 0.05 }
+	factory_goods_output = { tobacco = 0.05 }
+	factory_goods_output = { tea = 0.05 }
+	factory_goods_output = { coffee = 0.05 }
+	factory_goods_output = { opium = 0.05 }
 	ai_chance = {
-		factor = 1.01
+		factor = 1.1
 	}
 }
-collectivist_theory = {
-	area = economic_thought_and_critique
-	year = 1200
+three_field_system = {
+	area = tech_power
+	year = 1220
 	cost = 10800
 
-	factory_input = -0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { coal = 0.05 }
+	factory_goods_output = { iron = 0.05 }
+	rgo_goods_output = { oil = 0.05 }
+	rgo_goods_output = { precious_metal = 0.05 }
+	factory_goods_output = { sulphur = 0.05 }
+	farm_rgo_eff = 0.15
+	factory_goods_output = { cotton = 0.05 }
+	factory_goods_output = { dye = 0.05 }
+	factory_goods_output = { wool = 0.05 }
+	factory_goods_output = { silk = 0.05 }
+	factory_goods_output = { stone = 0.05 }
+	factory_goods_output = { cattle = 0.05 }
+	factory_goods_output = { fish = 0.05 }
+	factory_goods_output = { fruit = 0.05 }
+	factory_goods_output = { grain = 0.05 }
+	factory_goods_output = { tobacco = 0.05 }
+	factory_goods_output = { tea = 0.05 }
+	factory_goods_output = { coffee = 0.05 }
+	factory_goods_output = { opium = 0.05 }
 	ai_chance = {
-		factor = 1.01		
+		factor = 1.1
 	}
 }
-the_historical_theory = {
-	area = economic_thought_and_critique
-	year = 1200
+vertical_windmills = {
+	area = tech_power
+	year = 1240
 	cost = 14400
 
-	factory_input = -0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { coal = 0.05 }
+	factory_goods_output = { iron = 0.05 }
+	rgo_goods_output = { oil = 0.05 }
+	rgo_goods_output = { precious_metal = 0.05 }
+	factory_goods_output = { sulphur = 0.05 }
+	farm_rgo_eff = 0.15
+	factory_goods_output = { cotton = 0.05 }
+	factory_goods_output = { dye = 0.05 }
+	factory_goods_output = { wool = 0.05 }
+	factory_goods_output = { silk = 0.05 }
+	factory_goods_output = { stone = 0.05 }
+	factory_goods_output = { cattle = 0.05 }
+	factory_goods_output = { fish = 0.05 }
+	factory_goods_output = { fruit = 0.05 }
+	factory_goods_output = { grain = 0.05 }
+	factory_goods_output = { tobacco = 0.05 }
+	factory_goods_output = { tea = 0.05 }
+	factory_goods_output = { coffee = 0.05 }
+	factory_goods_output = { opium = 0.05 }
 	ai_chance = {
-		factor = 1.01	
+		factor = 1.1
 	}
 }
-neoclassical_theory = {
-	area = economic_thought_and_critique
-	year = 1200
+tenant_farming = {
+	area = tech_power
+	year = 1270
 	cost = 18000
 
-	factory_input = -0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { coal = 0.1 }
+	factory_goods_output = { iron = 0.1 }
+	rgo_goods_output = { oil = 0.1 }
+	rgo_goods_output = { precious_metal = 0.1 }
+	factory_goods_output = { sulphur = 0.1 }
+	farm_rgo_eff = 0.15
+	factory_goods_output = { cotton = 0.1 }
+	factory_goods_output = { dye = 0.1 }
+	factory_goods_output = { wool = 0.1 }
+	factory_goods_output = { silk = 0.1 }
+	factory_goods_output = { stone = 0.1 }
+	factory_goods_output = { cattle = 0.1 }
+	factory_goods_output = { fish = 0.1 }
+	factory_goods_output = { fruit = 0.1 }
+	factory_goods_output = { grain = 0.1 }
+	factory_goods_output = { tobacco = 0.1 }
+	factory_goods_output = { tea = 0.1 }
+	factory_goods_output = { coffee = 0.1 }
+	factory_goods_output = { opium = 0.1 }
 	ai_chance = {
-		factor = 1
+		factor = 2
 	}
 }
-keynesian_economics = {
-	area = economic_thought_and_critique
-	year = 1555
+early_selective_breeding = {
+	area = tech_power
+	year = 1300
 	cost = 21200
 
-	factory_input = -0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { coal = 0.1 }
+	factory_goods_output = { iron = 0.1 }
+	rgo_goods_output = { oil = 0.1 }
+	rgo_goods_output = { precious_metal = 0.1 }
+	factory_goods_output = { sulphur = 0.1 }
+	farm_rgo_eff = 0.15
+	factory_goods_output = { cotton = 0.1 }
+	factory_goods_output = { dye = 0.1 }
+	factory_goods_output = { wool = 0.1 }
+	factory_goods_output = { silk = 0.1 }
+	factory_goods_output = { stone = 0.1 }
+	factory_goods_output = { cattle = 0.1 }
+	factory_goods_output = { fish = 0.1 }
+	factory_goods_output = { fruit = 0.1 }
+	factory_goods_output = { grain = 0.1 }
+	factory_goods_output = { tobacco = 0.1 }
+	factory_goods_output = { tea = 0.1 }
+	factory_goods_output = { coffee = 0.1 }
+	factory_goods_output = { opium = 0.1 }
+	factory_throughput = 0.1
 	ai_chance = {
-		factor = 1.01
+		factor = 1.1
 	}
 }
-economic_thought_and_critique_7 = {
-	area = economic_thought_and_critique
-	year = 1200
+medieval_agricultural_recession = {
+	area = tech_power
+	year = 1315
 	cost = 25200
 
-	factory_input = -0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { coal = 0.1 }
+	factory_goods_output = { iron = 0.1 }
+	rgo_goods_output = { oil = 0.1 }
+	rgo_goods_output = { precious_metal = 0.1 }
+	factory_goods_output = { sulphur = 0.1 }
+	farm_rgo_eff = 0.15
+	factory_goods_output = { cotton = 0.1 }
+	factory_goods_output = { dye = 0.1 }
+	factory_goods_output = { wool = 0.1 }
+	factory_goods_output = { silk = 0.1 }
+	factory_goods_output = { stone = 0.1 }
+	factory_goods_output = { cattle = 0.1 }
+	factory_goods_output = { fish = 0.1 }
+	factory_goods_output = { fruit = 0.1 }
+	factory_goods_output = { grain = 0.1 }
+	factory_goods_output = { tobacco = 0.1 }
+	factory_goods_output = { tea = 0.1 }
+	factory_goods_output = { coffee = 0.1 }
+	factory_goods_output = { opium = 0.1 }
 	ai_chance = {
-		factor = 1
+		factor = 2
 	}
 }
-economic_thought_and_critique_8 = {
-	area = economic_thought_and_critique
-	year = 1595
+cover_crops = {
+	area = tech_power
+	year = 1330
 	cost = 30200
 
-	factory_input = -0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { coal = 0.1 }
+	factory_goods_output = { iron = 0.1 }
+	rgo_goods_output = { oil = 0.1 }
+	rgo_goods_output = { precious_metal = 0.1 }
+	factory_goods_output = { sulphur = 0.1 }
+	farm_rgo_eff = 0.15
+	factory_goods_output = { cotton = 0.1 }
+	factory_goods_output = { dye = 0.1 }
+	factory_goods_output = { wool = 0.1 }
+	factory_goods_output = { silk = 0.1 }
+	factory_goods_output = { stone = 0.1 }
+	factory_goods_output = { cattle = 0.1 }
+	factory_goods_output = { fish = 0.1 }
+	factory_goods_output = { fruit = 0.1 }
+	factory_goods_output = { grain = 0.1 }
+	factory_goods_output = { tobacco = 0.1 }
+	factory_goods_output = { tea = 0.1 }
+	factory_goods_output = { coffee = 0.1 }
+	factory_goods_output = { opium = 0.1 }
+	factory_throughput = 0.1
 	ai_chance = {
-		factor = 1.01
+		factor = 1.1
 	}
 }
-economic_thought_and_critique_9 = {
-	area = economic_thought_and_critique
-	year = 1200
+great_land_abandonment = {
+	area = tech_power
+	year = 1350
 	cost = 25200
 
-	factory_input = -0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { coal = 0.1 }
+	factory_goods_output = { iron = 0.1 }
+	rgo_goods_output = { oil = 0.1 }
+	rgo_goods_output = { precious_metal = 0.1 }
+	factory_goods_output = { sulphur = 0.1 }
+	farm_rgo_eff = 0.15
+	factory_goods_output = { cotton = 0.1 }
+	factory_goods_output = { dye = 0.1 }
+	factory_goods_output = { wool = 0.1 }
+	factory_goods_output = { silk = 0.1 }
+	factory_goods_output = { stone = 0.1 }
+	factory_goods_output = { cattle = 0.1 }
+	factory_goods_output = { fish = 0.1 }
+	factory_goods_output = { fruit = 0.1 }
+	factory_goods_output = { grain = 0.1 }
+	factory_goods_output = { tobacco = 0.1 }
+	factory_goods_output = { tea = 0.1 }
+	factory_goods_output = { coffee = 0.1 }
+	factory_goods_output = { opium = 0.1 }
 	ai_chance = {
-		factor = 1
+		factor = 2
 	}
 }
-economic_thought_and_critique_10 = {
-	area = economic_thought_and_critique
-	year = 1200
+enclosures = {
+	area = tech_power
+	year = 1380
 	cost = 30200
 
-	factory_input = -0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { coal = 0.1 }
+	factory_goods_output = { iron = 0.1 }
+	rgo_goods_output = { oil = 0.1 }
+	rgo_goods_output = { precious_metal = 0.1 }
+	factory_goods_output = { sulphur = 0.1 }
+	farm_rgo_eff = 0.15
+	factory_goods_output = { cotton = 0.1 }
+	factory_goods_output = { dye = 0.1 }
+	factory_goods_output = { wool = 0.1 }
+	factory_goods_output = { silk = 0.1 }
+	factory_goods_output = { stone = 0.1 }
+	factory_goods_output = { cattle = 0.1 }
+	factory_goods_output = { fish = 0.1 }
+	factory_goods_output = { fruit = 0.1 }
+	factory_goods_output = { grain = 0.1 }
+	factory_goods_output = { tobacco = 0.1 }
+	factory_goods_output = { tea = 0.1 }
+	factory_goods_output = { coffee = 0.1 }
+	factory_goods_output = { opium = 0.1 }
+	factory_throughput = 0.1
 	ai_chance = {
-		factor = 1.01
+		factor = 1.1
 	}
 }
 
 #market_functionality
-freedom_of_trade = {
+trade_fairs = {
 	area = market_functionality
 	year = 1200
 	cost = 3600
@@ -375,7 +539,7 @@ freedom_of_trade = {
 		factor = 15
 	}
 }
-market_structure = {
+international_trade_expansion = {
 	area = market_functionality
 	year = 1200
 	cost = 7200
@@ -407,9 +571,9 @@ market_structure = {
 	}	
 
 }
-business_regulations = {
+trading_ports = {
 	area = market_functionality
-	year = 1200
+	year = 1220
 	cost = 10800
 
 	influence = 0.2
@@ -439,9 +603,9 @@ business_regulations = {
 	}	
 	
 }
-market_regulations = {
+trading_expeditions = {
 	area = market_functionality
-	year = 1200
+	year = 1240
 	cost = 14400
 
 	influence = 0.2
@@ -451,9 +615,9 @@ market_regulations = {
 	}	
 	
 }
-economic_responsibility = {
+trading_regulations = {
 	area = market_functionality
-	year = 1200
+	year = 1270
 	cost = 18000
 
 	influence = 0.2
@@ -463,9 +627,9 @@ economic_responsibility = {
 	}
 	
 }
-government_interventionism = {
+customs_duties = {
 	area = market_functionality
-	year = 1555
+	year = 1295
 	cost = 21200
 
 	influence = 0.2
@@ -475,9 +639,9 @@ government_interventionism = {
 	}
 	
 }
-market_functionality_7 = {
+merchant_guild_expansion = {
 	area = market_functionality
-	year = 1200
+	year = 1315
 	cost = 25200
 
 	influence = 0.2
@@ -487,9 +651,9 @@ market_functionality_7 = {
 	}
 	
 }
-market_functionality_8 = {
+merchant_families = {
 	area = market_functionality
-	year = 1200
+	year = 1330
 	cost = 30200
 
 	influence = 0.2
@@ -499,9 +663,9 @@ market_functionality_8 = {
 	}
 	
 }
-market_functionality_9 = {
+trade_and_black_plague = {
 	area = market_functionality
-	year = 1200
+	year = 1350
 	cost = 25200
 
 	influence = 0.2
@@ -511,9 +675,9 @@ market_functionality_9 = {
 	}
 	
 }
-market_functionality_10 = {
+overland_trade_decline = {
 	area = market_functionality
-	year = 1200
+	year = 1370
 	cost = 30200
 
 	influence = 0.2
@@ -524,122 +688,125 @@ market_functionality_10 = {
 	
 }
 
-#tech_organization
-guild_based_production = {
-	area = tech_organization
+#chemistry_and_electricity
+medical_universities = {
+	area = chemistry_and_electricity
 	year = 1200
 	cost = 3600
-	activate_building = canned_food_factory 
-	factory_output = 0.01
+
+#	activate_building = fertilizer_factory
+	activate_building = steamer_shipyard
+	activate_building = naval_supplies_workshop
+	pop_growth = 0.0001
+	
 	ai_chance = {
-		factor = 1.03
-	}
+        factor = 10
+    }
 }
-organized_factories = {
-	area = tech_organization
+
+theories_of_medicine = {
+	area = chemistry_and_electricity
 	year = 1200
 	cost = 7200
 
-	factory_output = 0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
-		ai_chance = {
-		factor = 1.03
+	supply_limit = 0.25
+	
+	ai_chance = {
+		factor = 10
 	}
 }
-scientific_management = {
-	area = tech_organization
-	year = 1200
+monasterial_medical_tradition = {
+	area = chemistry_and_electricity
+	year = 1235
 	cost = 10800
 
-	factory_output = 0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	supply_limit = 0.25
+	pop_growth = 0.0001
+	
 	ai_chance = {
-		factor = 1.03
+		factor = 5
 	}
 }
-time_saving_measures = {
-	area = tech_organization
-	year = 1200
+public_healing_centers = {
+	area = chemistry_and_electricity
+	year = 1255
 	cost = 14400
 
-	factory_output = 0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	supply_limit = 0.25
+	
 	ai_chance = {
-		factor = 1.03
-	}	
-}
-management_strategy = {
-	area = tech_organization
-	year = 1200
-	cost = 18000
-
-	factory_output = 0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
-	ai_chance = {
-		factor = 1.03
+		factor = 5
 	}
+
 }
-organizational_development = {
-	area = tech_organization
-	year = 1555
+empirical_medical_practices = {
+	area = chemistry_and_electricity
+	year = 1280
+	cost = 18000
+	
+	supply_limit = 0.05
+	pop_growth = 0.0001
+	
+	ai_chance = {
+		factor = 5
+	}
+
+}
+
+university_medical_programs = {
+	area = chemistry_and_electricity
+	year = 1300
 	cost = 21200
 
-	factory_output = 0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	supply_limit = 0.25
 	ai_chance = {
-		factor = 1.03
+		factor = 1.1
 	}
+	
 }
-tech_organization_7 = {
-	area = tech_organization
-	year = 1200
+medieval_surgery_advances = {
+	area = chemistry_and_electricity
+	year = 1320
 	cost = 25200
-
-	factory_output = 0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	
+	supply_limit = 0.05
+	pop_growth = 0.0001
+	
 	ai_chance = {
-		factor = 1.03
+		factor = 5
 	}
+
 }
-tech_organization_8 = {
-	area = tech_organization
-	year = 1200
+alchemy_n_early_chemistry = {
+	area = chemistry_and_electricity
+	year = 1340
 	cost = 30200
 
-	factory_output = 0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	supply_limit = 0.50
 	ai_chance = {
-		factor = 1.03
+		factor = 1.1
 	}
 }
-tech_organization_9 = {
-	area = tech_organization
-	year = 1200
+plague_n_epidemic_treatment = {
+	area = chemistry_and_electricity
+	year = 1360
 	cost = 25200
-
-	factory_output = 0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	
+	supply_limit = 0.05
+	pop_growth = 0.0001
+	
 	ai_chance = {
-		factor = 1.03
+		factor = 5
 	}
+
 }
-tech_organization_10 = {
-	area = tech_organization
-	year = 1200
+renaissance_epidemiology = {
+	area = chemistry_and_electricity
+	year = 1380
 	cost = 30200
 
-	factory_output = 0.01
-	factory_goods_output = { precious_goods = 0.1 }
-	rgo_size = { precious_goods = 0.05 }
+	supply_limit = 0.50
 	ai_chance = {
-		factor = 1.03
+		factor = 1.1
 	}
 }

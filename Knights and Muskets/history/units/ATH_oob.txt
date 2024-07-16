@@ -1,0 +1,25 @@
+leader = {
+    name = "Othon de la Roche"
+    date = 1204.8.1
+    type = land
+    personality = defence_2.1
+    background = attack_2.1
+    prestige = 0.14
+}
+
+army = {
+    name = "Exercitus Athenia"
+    location = 834
+    regiment = {
+        name = "1. Fanteria di Linea - Re e Regina"
+        type = plane
+        home = 834
+    }
+
+    regiment = {
+        name = "2. Fanteria di Linea - Duca di Calabria"
+        type = plane
+        home = 835
+    }
+
+}

@@ -1,10 +1,5 @@
-
-
-
-
+owner = GLN
+controller = GLN
+add_core = GLN
 trade_goods = cattle
 life_rating = 35
-1860.1.1 = {
-	
-	
-}

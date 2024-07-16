@@ -1,5 +1,7 @@
-
-
-
-trade_goods = tropical_wood
-life_rating = 25
+owner = SVY
+controller = SVY
+add_core = SVY
+add_core = NNN
+add_core = ITA
+trade_goods = grain
+life_rating = 35

@@ -1,0 +1,268 @@
+###EPIRUS###
+country_event = {
+	id = 127000
+	title = "Battle of Poimanenon"
+	desc = "127000_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = NCE
+		war_with = LTN  
+		controls = 864
+	}
+
+	option = {
+	    name = "Constantinople will be restored to its rightful ruler!"
+		prestige = 10
+		set_global_flag = battle_of_poimanenon
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 127001
+	title = "Latin Recognition of Our Conquests"
+	desc = "127001_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "We must seize Adrianople and check the Epirote advance."
+		prestige = 10
+		864 = { secede_province = NCE }
+		865 = { secede_province = NCE }
+		badboy = 3
+		LTN = { country_event = 127002 }
+		ai_chance = { factor = 80 }
+	}
+
+	option = {
+	    name = "We will make no peace with the Latins until Constantinople is ours."
+		prestige = 15
+		ai_chance = {
+			factor = 10
+        }
+    }
+	
+	option = {
+	    name = "Our armies are too battered to continue. Accept the peace."
+		prestige = 5
+		864 = { secede_province = NCE }
+		865 = { secede_province = NCE }
+		end_war = LTN
+		ai_chance = {
+			factor = 10
+        }
+    }
+}
+
+country_event = {
+
+    id = 127002
+    title = "The Nicaeans Advance on Adrianople!"
+	desc = "127002_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+        name = "We must drive the Nicaeans out before they seize Adrianople!"
+		prestige = 5
+		ai_chance = {
+			factor = 10
+        }
+	}
+	
+	option = {
+        name = "We are in no position to resist. Let them occupy Adrianople."
+		end_war = NCE
+		prestige = -10
+		828 = { secede_province = NCE }
+		105 = { secede_province = NCE }
+		ai_chance = {
+			factor = 90
+        }
+	}
+}
+
+country_event = {
+
+    id = 127003
+    title = "Nicaea Seizes Adrianople!"
+	desc = "127003_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = EPI
+		OR = {
+			815 = { controlled_by = THIS }
+			830 = { controlled_by = THIS }
+		}
+		828 = { owned_by = NCE }
+	}
+
+    option = {
+        name = "They must submit Adrianople peacefully, or they shall do so by sword."
+		prestige = 5
+		NCE = { country_event = 127004 }
+		ai_chance = {
+			factor = 95
+        }
+	}
+	
+	option = {
+        name = "The Nicaean army slaughtered the Latins. Let us not share the same fate."
+		prestige = -10
+		ai_chance = {
+			factor = 5
+        }
+	}
+}
+
+country_event = {
+
+    id = 127004
+    title = "Thessalonica Demands Adrianople"
+	desc = "127004_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+        name = "John III Doukas Vatatzes is the only rightful heir to Rome."
+		prestige = 15
+		leave_alliance = EPI
+        war = {
+            target = EPI
+            attacker_goal = { casus_belli = civil_war  }
+            defender_goal = { casus_belli = civil_war  }
+        }
+		ai_chance = {
+			factor = 10
+        }
+	}
+	
+	option = {
+        name = "We are pinned between the Latins and Epirotes. We must retreat for now."
+		prestige = -10
+		828 = { secede_province = EPI }
+		105 = { secede_province = EPI }
+		ai_chance = {
+			factor = 90
+        }
+	}
+}
+
+country_event = {
+
+    id = 127005
+    title = "Fall of Western Thrace"
+	desc = "127005_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+        name = "The West has fallen, millions must die."
+		prestige = -10
+		828 = { secede_province = EPI }
+		105 = { secede_province = EPI }
+		815 = { secede_province = EPI }
+		829 = { secede_province = EPI }
+		830 = { secede_province = EPI }
+		858 = { secede_province = EPI }
+		release_vassal = ATH
+		release_vassal = PHI
+		release_vassal = MEA
+		release_vassal = RHO
+		release_vassal = MCD
+		ai_chance = {
+			factor = 100
+        }
+	}
+}
+
+country_event = {
+
+    id = 127006
+    title = "The Bulgarian Threat"
+	desc = "127006_DESC"
+	fire_only_once = yes
+	major = yes
+	
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = EPI
+		OR = {
+			135 = { controlled_by = THIS }
+			105 = { controlled_by = THIS }
+			860 = { controlled_by = THIS }
+		}
+	}
+	
+	option = {
+        name = "Constantinople will be ours when the final threat has been dealt with."
+		end_war = PHI
+		end_war = RHO
+		create_vassal = PHI
+		create_vassal = RHO
+		leave_alliance = BUL
+        war = {
+            target = BUL
+            attacker_goal = { casus_belli = cut_down_to_size   }
+            defender_goal = { casus_belli = cut_down_to_size   }
+			call_ally = yes
+        }
+		ai_chance = {
+			factor = 95
+        }
+	}
+	
+	option = {
+        name = "We must concentrate all our resources on the siege of Constantinople."
+		prestige = -5
+		LTN = { set_country_flag = thessalonican_siege_continued }
+		ai_chance = {
+			factor = 5
+        }
+	}
+}
+
+country_event = {
+
+    id = 127007
+    title = "The Latins Request Aid"
+	desc = "127007_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+        name = "The time to strike the Thessalonicans is now."
+		end_war = PHI
+		end_war = RHO
+		create_vassal = PHI
+		create_vassal = RHO
+		leave_alliance = EPI
+        war = {
+            target = EPI
+            attacker_goal = { casus_belli = cut_down_to_size   }
+            defender_goal = { casus_belli = cut_down_to_size   }
+			call_ally = yes
+        }
+		ai_chance = {
+			factor = 95
+        }
+	}
+	
+	option = {
+        name = "We will not throw away our lives to save a dying empire."
+		prestige = -5
+		ai_chance = {
+			factor = 5
+        }
+	}
+}

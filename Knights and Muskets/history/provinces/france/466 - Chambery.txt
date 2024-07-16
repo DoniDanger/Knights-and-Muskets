@@ -1,15 +1,7 @@
-owner = ARP
-controller = ARP
-add_core = ARP
-add_core = GER
+owner = SVY
+controller = SVY
 add_core = SVY
+add_core = NNN
 add_core = ITA
 trade_goods = grain
-life_rating = 32
-1861.1.1 = {
-	remove_core = ITA
-	remove_core = SAR
-	owner = FRA
-	controller = FRA
-	add_core = FRA
-}
+life_rating = 35

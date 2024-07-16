@@ -1,6 +1,6 @@
-
-
-add_core = QUE
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = ANJ
 trade_goods = grain
 life_rating = 35
-colonial = 2

@@ -1,0 +1,49 @@
+leader = {
+    name = "Guy Pallavicini"
+    date = 1221.8.1
+    type = land
+    personality = cautious 
+    background = adventurer 
+    prestige = 0.2
+}
+
+leader = {
+    name = "Demetrius of Montferrat"
+    date = 1221.8.1
+    type = land
+    personality = defence_2.1
+    background = attack_1.1
+    prestige = 0.1
+}
+
+leader = {
+    name = "Oberto II of Biandrate"
+    date = 1221.8.1
+    type = land
+    personality = defence_2.1
+    background = attack_3.1
+    prestige = 0.16
+}
+
+army = {
+    name = "Exercitus Thessalonica"
+    location = 805
+    regiment = {
+        name = "1. Fanteria di Linea - Re e Regina"
+        type = plane
+        home = 805
+    }
+
+    regiment = {
+        name = "2. Fanteria di Linea - Duca di Calabria"
+        type = plane
+        home = 805
+    }
+
+    regiment = {
+        name = "3. Cavalleria di Linea"
+        type = cuirassier
+        home = 822
+    }
+
+}

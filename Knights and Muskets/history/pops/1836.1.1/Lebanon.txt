@@ -1,0 +1,541 @@
+#Suriye Region (68000)  #see Syria.txt & Jordan.txt for balance of region
+#under the rule of Egypt in 1836  
+#Baalbeck (68000/17000 POPS) #now part of Lebanon
+912 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 289
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 165
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 825
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 290
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 14900
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = shiite
+		size = 150
+	}
+
+	artisans = {
+		culture = levantine
+		religion = shiite
+		size = 495
+	}
+
+	farmers = {
+		culture = levantine
+		religion = shiite
+		size = 9000
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 1530
+	}
+}
+#Bayrut Region (260000)  #see Israel-Palestine.txt for balance of region
+#under the rule of Egypt in 1836  
+#Beirut (128000/32000 POPS) #mashriqi-animist = druze; mashriqi-catholic = maronites
+913 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 150
+	}
+
+	bureaucrats = {
+		culture = levantine
+		religion = sunni
+		size = 75
+	}
+
+	officers = {
+		culture = levantine
+		religion = sunni
+		size = 80
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 180
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 1905
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 625
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 8900
+	}
+
+	capitalists = {
+		culture = latin
+		religion = catholic
+		size = 120
+	}
+	
+	artisans = {
+		culture = latin
+		religion = catholic
+		size = 550
+	}
+	
+	farmers = {
+		culture = latin
+		religion = catholic
+		size = 4730
+	}
+	
+	aristocrats = {
+		culture = outremer
+		religion = catholic
+		size = 450
+	}
+
+	bureaucrats = {
+		culture = outremer
+		religion = catholic
+		size = 650
+	}
+	
+	officers = {
+		culture = outremer
+		religion = catholic
+		size = 140
+	}
+	
+	clergymen = {
+		culture = outremer
+		religion = catholic
+		size = 260
+	}
+
+	artisans = {
+		culture = outremer
+		religion = catholic
+		size = 2025
+	}
+
+	soldiers = {
+		culture = outremer
+		religion = catholic
+		size = 1380
+	}
+
+	farmers = {
+		culture = outremer
+		religion = catholic
+		size = 16615
+	}
+	
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 4675
+	}
+
+	aristocrats = {
+		culture = levantine
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = levantine
+		religion = catholic
+		size = 750
+	}
+
+	farmers = {
+		culture = levantine
+		religion = catholic
+		size = 7800
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = animist
+		size = 80
+	}
+
+	artisans = {
+		culture = levantine
+		religion = animist
+		size = 220
+	}
+
+	farmers = {
+		culture = levantine
+		religion = animist
+		size = 3094
+	}
+
+	clergymen = {
+		culture = armenian
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = armenian
+		religion = orthodox
+		size = 240
+	}
+
+	farmers = {
+		culture = armenian
+		religion = orthodox
+		size = 3100
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 60
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 810
+	}
+}
+#Askaleh (48000/12000 POPS) 
+914 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 125
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 140
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 800
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 300
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 12140
+	}
+
+	capitalists = {
+		culture = latin
+		religion = catholic
+		size = 120
+	}
+	
+	artisans = {
+		culture = latin
+		religion = catholic
+		size = 470
+	}
+	
+	farmers = {
+		culture = latin
+		religion = catholic
+		size = 3420
+	}
+	
+	aristocrats = {
+		culture = outremer
+		religion = catholic
+		size = 180
+	}
+	
+	officers = {
+		culture = outremer
+		religion = catholic
+		size = 90
+	}
+	
+	clergymen = {
+		culture = outremer
+		religion = catholic
+		size = 210
+	}
+
+	artisans = {
+		culture = outremer
+		religion = catholic
+		size = 2721
+	}
+
+	soldiers = {
+		culture = outremer
+		religion = catholic
+		size = 1580
+	}
+
+	farmers = {
+		culture = outremer
+		religion = catholic
+		size = 16895
+	}
+	
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 260
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 3094
+	}
+}
+#Sidon (84000/21000 POPS) 
+915 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 60
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 120
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 180
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 425
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 4300
+	}
+
+	capitalists = {
+		culture = latin
+		religion = catholic
+		size = 300
+	}
+	
+	artisans = {
+		culture = latin
+		religion = catholic
+		size = 640
+	}
+	
+	farmers = {
+		culture = latin
+		religion = catholic
+		size = 5570
+	}
+	
+	aristocrats = {
+		culture = outremer
+		religion = catholic
+		size = 650
+	}
+
+	officers = {
+		culture = outremer
+		religion = catholic
+		size = 300
+	}
+	
+	clergymen = {
+		culture = outremer
+		religion = catholic
+		size = 400
+	}
+
+	artisans = {
+		culture = outremer
+		religion = catholic
+		size = 2380
+	}
+
+	soldiers = {
+		culture = outremer
+		religion = catholic
+		size = 2650
+	}
+
+	farmers = {
+		culture = outremer
+		religion = catholic
+		size = 25425
+	}
+	
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 80
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 1525
+	}
+
+	aristocrats = {
+		culture = levantine
+		religion = catholic
+		size = 125
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = catholic
+		size = 90
+	}
+
+	artisans = {
+		culture = levantine
+		religion = catholic
+		size = 415
+	}
+
+	farmers = {
+		culture = levantine
+		religion = catholic
+		size = 5350
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = animist
+		size = 125
+	}
+
+	artisans = {
+		culture = levantine
+		religion = animist
+		size = 330
+	}
+
+	farmers = {
+		culture = levantine
+		religion = animist
+		size = 3150
+	}
+
+	aristocrats = {
+		culture = levantine
+		religion = shiite
+		size = 165
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = shiite
+		size = 125
+	}
+
+	artisans = {
+		culture = levantine
+		religion = shiite
+		size = 750
+	}
+
+	farmers = {
+		culture = levantine
+		religion = shiite
+		size = 7800
+	}
+
+}

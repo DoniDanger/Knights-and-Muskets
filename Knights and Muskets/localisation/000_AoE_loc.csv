@@ -107,3 +107,11 @@ desc_piracy;Piracy is an act of robbery or criminal violence by ship or boat-bor
 unruly_nobility;Unruly Nobility;x
 maronnage;Maronnage;x
 religious_persecutions;Religious Persecutions;x
+SPHERE_MEMBERS_START;Any sphere member;x
+traditional_academic;Traditional Academia;;;;;;;;;;;;;
+industrial_tech_school;Early Industrialist Power;;;;;;;;;;
+culture_tech_school;Philosopher Court;;;;;;;;;;
+tech_power;Farming;x
+financial_institutions;Finances & Taxation;x
+monetary_system;Currency & Administration;x
+tech_infrastructure;Urbanization;x

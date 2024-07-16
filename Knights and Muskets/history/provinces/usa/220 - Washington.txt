@@ -1,18 +1,7 @@
-
-
-
+owner = FLR
+controller = FLR
+add_core = FLR
+add_core = NNN
+add_core = ITA
 trade_goods = grain
 life_rating = 35
-fort = 1
-#state_building = {
-#	level = 1
-#	building = infantry_arms_weaponsmith
-#	upgrade = yes
-#}
-1861.1.1 = {
-	party_loyalty = {
-		ideology = liberal
-		loyalty_value = 15
-	}
-}
-1861.1.1 = { railroad = 3 }

@@ -1,6 +1,7 @@
-owner = SGF
-controller = SGF
-add_core = SGF
+owner = TIR
+controller = TIR
+add_core = TIR
+add_core = NNN
 add_core = GER
 trade_goods = cattle
 life_rating = 35

@@ -1,4 +1,4 @@
-color = { 125  125  125 }
+color={ 160 160 160 }
 fascist_dictatorship = { 40 40 40}
 graphical_culture = PrussianGC
 

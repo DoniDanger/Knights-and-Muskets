@@ -1,7 +1,5 @@
-
-
-add_core = QUE
+owner = FRA
+controller = FRA
+add_core = FRA
 trade_goods = grain
 life_rating = 35
-colonial = 2
-1861.1.1 = { railroad = 3 }

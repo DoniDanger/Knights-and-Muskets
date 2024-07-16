@@ -1,0 +1,189 @@
+political_decisions = {
+	begin_kurultai_of_1235 = {
+		potential = {
+			tag = MGL
+			NOT = { has_global_flag = kurultai_of_1235 }
+		}
+		
+		allow = {
+			year = 1235
+			1465 = { owned_by = THIS }
+		}
+		
+		effect = {
+			prestige = 10
+			set_global_flag = kurultai_of_1235
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	subjugate_bashkiria = {
+		potential = {
+			tag = WMG
+			BSK = { exists = yes }
+			NOT = { has_country_flag = baskiria_subjugated }
+		}
+		
+		allow = {
+			NOT = { truce_with = BSK } 
+			has_global_flag = kurultai_of_1235
+			NOT = { badboy = 0.8 }
+		}
+		
+		effect = {
+			badboy = 5
+			random_owned = {
+				limit = {
+					tag = WMG
+				}
+				owner = {
+					casus_belli = {
+						target = BSK
+						type = make_puppet
+						months = 60
+					}
+				}
+			}
+			war = {
+				target = BSK
+				attacker_goal = { casus_belli = make_puppet }
+				call_ally = yes
+			}
+			badboy = -10
+			set_country_flag = baskiria_subjugated
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	begin_cuman_conquest = {
+		potential = {
+			tag = WMG
+			CUM = { exists = yes }
+			NOT = { has_country_flag = cuman_conquest_begun }
+		}
+		
+		allow = {
+			NOT = { truce_with = CUM } 
+			has_global_flag = kurultai_of_1235
+			NOT = { badboy = 0.6 }
+		}
+		
+		effect = {
+			random_owned = {
+				limit = {
+					tag = WMG
+				}
+				owner = {
+					casus_belli = {
+						target = CUM
+						type = conquest
+						months = 60
+					}
+				}
+			}
+			war = {
+				target = CUM
+				attacker_goal = { casus_belli = conquest }
+				call_ally = yes
+			}
+			badboy = -22
+			set_country_flag = cuman_conquest_begun
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	destroy_volga_bolgharia = {
+		potential = {
+			tag = WMG
+			VLG = { exists = yes }
+			NOT = { has_country_flag = volga_bolgharia_destroyed }
+		}
+		
+		allow = {
+			NOT = { truce_with = VLG } 
+			has_global_flag = kurultai_of_1235
+			NOT = { badboy = 0.8 }
+		}
+		
+		effect = {
+			badboy = 5
+			random_owned = {
+				limit = {
+					tag = WMG
+				}
+				owner = {
+					casus_belli = {
+						target = VLG
+						type = conquest
+						months = 60
+					}
+				}
+			}
+			war = {
+				target = VLG
+				attacker_goal = { casus_belli = conquest }
+				call_ally = yes
+			}
+			badboy = -22
+			set_country_flag = volga_bolgharia_destroyed
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	integrate_bashkir_tribes = {
+		potential = {
+			tag = WMG
+			has_global_flag = kurultai_of_1235
+			NOT = { has_country_flag = bashkiria_integrated }
+		}
+		
+		allow = {
+			CUM = { exists = NO }
+			VLG = { exists = NO }
+			OR = {
+				BSK = { exists = NO }
+				BSK = { vassal_of = THIS }
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			add_accepted_culture = bashkir
+			inherit = BSK
+			set_country_flag = bashkiria_integrated
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	invade_hyperborea = {
+		potential = {
+			tag = GOL
+			BSK = { exists = yes }
+			NOT = { has_country_flag = baskiria_subjugated }
+		}
+		
+		allow = {
+			NOT = { truce_with = BSK } 
+			has_global_flag = kurultai_of_1235
+			OR = {
+				AND = {
+					war_with = BSK
+					BSK = { all_core = { controlled_by = THIS }}
+				}
+				BSK = { in_sphere = WMG }
+				BSK = { in_sphere = MGL }
+			}
+		}
+		
+		effect = {
+			badboy = 5
+			war = {
+				target = CUM
+				attacker_goal = { casus_belli = make_puppet }
+				call_ally = yes
+			}
+			set_country_flag = baskiria_subjugated
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

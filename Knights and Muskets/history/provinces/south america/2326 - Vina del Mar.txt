@@ -1,5 +1,8 @@
-
-
-
+owner = OCC
+controller = OCC
+add_core = OCC
+add_core = DAU
+add_core = ARP
+add_core = NNN
 trade_goods = fruit
 life_rating = 35

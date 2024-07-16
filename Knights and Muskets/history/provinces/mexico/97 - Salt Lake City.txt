@@ -1,14 +1,7 @@
-
-
-
-add_core = DES
+owner = SVY
+controller = SVY
+add_core = SVY
+add_core = NNN
+add_core = ITA
 trade_goods = coal
 life_rating = 35
-colonial = 2
-1861.1.1 = {
-	
-	
-	
-	remove_core = MEX
-	colonial = 1
-}

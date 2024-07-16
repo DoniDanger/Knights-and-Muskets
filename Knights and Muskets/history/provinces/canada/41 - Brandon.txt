@@ -1,6 +1,5 @@
-
-
-add_core = MTC
+owner = CUM
+controller = CUM
+add_core = CUM
 trade_goods = grain
 life_rating = 35
-colonial = 2

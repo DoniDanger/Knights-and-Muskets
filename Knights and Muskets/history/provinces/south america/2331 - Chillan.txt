@@ -1,5 +1,7 @@
-
-
-
+owner = DAU
+controller = DAU
+add_core = DAU
+add_core = ARP
+add_core = NNN
 trade_goods = iron
 life_rating = 35

@@ -1,4 +1,5 @@
-color = { 211  230  211 }
+color = { 180 180 180 }
+#color = { 211  230  211 }
 graphical_culture = LatinGC
 
 
