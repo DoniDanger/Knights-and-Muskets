@@ -8,7 +8,7 @@ literacy = 0.8
 civilized = yes
 prestige = 5
 
-## Political reforms
+# Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
@@ -27,12 +27,23 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+ruling_party = "Royalist"
+upper_house = {
+	fascist = 0
+	liberal = 25
+	conservative = 58
+	reactionary = 12
+	anarcho_liberal = 5
+	socialist = 0
+	communist = 0
+}
+
 # Technologies
-post_napoleonic_thought = 1
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-military_staff_system = 1
-army_command_principle = 1
+motte_and_bailey = 1
+medieval_infantry = 1
+medieval_cavalry = 1
+feudal_levy = 1
+early_medieval_tactics = 1
 post_nelsonian_thought = 1
 clipper_design = 1
 naval_design_bureaus = 1
@@ -56,21 +67,14 @@ mechanized_mining = 1
 basic_chemistry = 1
 experimental_railroad = 1
 
-ruling_party = "Royalist"
-upper_house =
-{
-    fascist = 0
-    liberal = 25
-    conservative = 65
-    reactionary = 10
-    radical = 0
-    socialist = 0
-    communist = 0
-}
+grain_banks = 1
+hammered_coinage = 1
+manorialism = 1
+trade_fairs = 1
+medical_universities = 1
 
-# Starting Consciousness
-consciousness = 0
-nonstate_consciousness= 0
+#Inventions
+heavy_cavalry_activation = yes
+man_at_arms_activation = yes
 
-# Technologies
-
+oob = "POM_oob.txt"

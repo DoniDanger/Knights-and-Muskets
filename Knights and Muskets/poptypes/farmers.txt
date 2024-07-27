@@ -4,7 +4,6 @@ strata = poor
 unemployment = yes
 equivalent = labourers
 
-
 everyday_needs = {
 	tea = 4
 	coal = 1
@@ -86,16 +85,16 @@ country_migration_target =
 		is_greater_power = yes
 	}
 	modifier = {
-		factor = 1.05
-		vote_franschise = wealth_voting
+		factor = 1.25
+		citizens_rights = all_voting_pops
 	}
 	modifier = {
 		factor = 1.25
-		vote_franschise = universal_weighted_voting
+		debt_law = abolished
 	}
 	modifier = {
-		factor = 1.5
-		vote_franschise = universal_voting
+		factor = 1.25
+		religious_minorities = political_rights
 	}
 	modifier = {
 		factor = 4.0
@@ -251,23 +250,23 @@ promote_to =
 		factor = 0.01
 			modifier = {
 				factor = 1
-				not = { literacy = 0.1 }
+				not = { literacy = 0.03 }
 			}
 			modifier = {
 				factor = 1
-				not = { literacy = 0.2 }
+				not = { literacy = 0.06 }
 			}
 			modifier = {
 				factor = 1
-				not = {  literacy = 0.3 }
+				not = {  literacy = 0.09 }
 			}
 			modifier = {
 				factor = 1
-				not = {  literacy = 0.4 } 
+				not = {  literacy = 0.12 } 
 			}
 			modifier = {
 				factor = 1
-				not = { literacy = 0.5 } 
+				not = { literacy = 0.15 } 
 			}
 		group = {		
 			modifier = {
@@ -716,25 +715,33 @@ promote_to =
 		factor = 0.01
 			modifier = {
 				factor = -5
-				not = { literacy = 0.1 }
+				not = { literacy = 0.03 }
 			}
 			modifier = {
 				factor = -3
+				not = { literacy = 0.06 }
+			}
+			modifier = {
+				factor = -2
+				not = { literacy = 0.09 }
+			}
+			modifier = {
+				factor = -2
+				not = { literacy = 0.12 }
+			}
+			modifier = {
+				factor = -2
 				not = { literacy = 0.15 }
 			}
-			modifier = {
-				factor = -2
-				not = { literacy = 0.2 }
-			}
-			modifier = {
-				factor = -2
-				not = { literacy = 0.25 }
-			}
-			modifier = {
-				factor = -2
-				not = { literacy = 0.3 }
-			}
 		group = {
+			modifier = {
+				factor = 1
+				literacy = 0.15
+			}
+			modifier = {
+				factor = 1
+				literacy = 0.2
+			}
 			modifier = {
 				factor = 1
 				literacy = 0.3

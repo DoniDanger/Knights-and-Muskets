@@ -1,8 +1,17 @@
 ### Bulgarian Empire ###
-#Bulgarian Empire-Vlachia
-vassal = {
+#Bulgarian Empire-Severin
+substate = {
 	first = BUL
-	second = WAL
+	second = BSV
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+### Cuman-Kipchak Confederation ###
+#Cumans-Kipchaks - Western Cumans
+vassal = {
+	first = CUM
+	second = CMN
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
@@ -132,26 +141,114 @@ substate = {
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
+#England-Lordship of Ireland
+substate = {
+	first = ENL
+	second = IRL
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
 
 ### Holy Roman Empire - Hohenstaufen Dynasty ###
-#HRE-Carinthia
-substate = {
-	first = SIC
-	second = SLO
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
-#HRE-Istria
-substate = {
-	first = SIC
-	second = TRE
-	start_date = 1212.1.1
-	end_date = 1859.1.24	
-}
 #Hohenstaufen Sicily-Swabia
 substate = {
 	first = SIC
 	second = SGF
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Hohenstaufen Sicily-Tyrol
+substate = {
+	first = SIC
+	second = TIR
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Hohenstaufen Sicily-Tyrol
+substate = {
+	first = SIC
+	second = ALS
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Hohenstaufen Sicily-Ansbach
+vassal = {
+	first = SIC
+	second = ANS
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Hohenstaufen Sicily-Bamberg
+vassal = {
+	first = SIC
+	second = BMB
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Hohenstaufen Sicily-Nurnberg
+vassal = {
+	first = SIC
+	second = NRN
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Hohenstaufen Sicily-Sulzbach
+vassal = {
+	first = SIC
+	second = SLB
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+## German States
+#Babenberg Austria-Styria
+substate = {
+	first = AUS
+	second = STY
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Bavaria-Salzburg
+vassal = {
+	first = BAV
+	second = SAL
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+### Kingdom of Hungary ###
+#Hungary-Croatia
+substate = {
+	first = HUN
+	second = CRO
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Hungary-Bosnia
+vassal = {
+	first = HUN
+	second = BOS
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Hungary-Transylvania
+substate = {
+	first = HUN
+	second = SIE
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Hungary-Burzenland/Teutons
+vassal = {
+	first = HUN
+	second = BZN
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Hungary-Banat of Mačva
+vassal = {
+	first = HUN
+	second = BAN
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }

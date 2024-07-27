@@ -18,16 +18,18 @@ tank = { #crossbows
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		crossbows = 10
-		canned_food = 10
-		infantry_arms = 5
+		crossbows = 12
+		canned_food = 12
+		infantry_arms = 6
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
 		crossbows = 0.3
 		canned_food = 0.15 #0.04
-		infantry_arms = 0.05
+		grain = 0.07 #0.04
+		iron = 0.07 #0.04
+		infantry_arms = 0.12
 	}
 	
 

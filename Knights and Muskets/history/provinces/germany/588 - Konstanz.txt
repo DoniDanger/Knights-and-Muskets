@@ -2,5 +2,12 @@ owner = SGF
 controller = SGF
 add_core = SGF
 add_core = GER
+add_core = NNN
 trade_goods = timber
-life_rating = 40
+life_rating = 35
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+

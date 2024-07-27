@@ -1,6 +1,8 @@
-owner = LNE
-controller = LNE
+owner = SAX
+controller = SAX
+add_core = SAX
 add_core = LNE
+add_core = NNN
 add_core = GER
 trade_goods = cattle
 life_rating = 40

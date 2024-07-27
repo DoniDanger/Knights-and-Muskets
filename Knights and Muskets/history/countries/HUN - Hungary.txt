@@ -1,10 +1,10 @@
-capital = 641
+capital = 643
 primary_culture = hungarian
 religion = catholic
 government = absolute_monarchy
-plurality = 0.0
+plurality = 25.0
 nationalvalue = nv_equality
-literacy = 0.25
+literacy = 0.14
 civilized = yes
 #GreaterPower
 prestige = 35
@@ -77,3 +77,5 @@ medical_universities = 1
 #Inventions
 heavy_cavalry_activation = yes
 man_at_arms_activation = yes
+
+oob = "HUN_oob.txt"

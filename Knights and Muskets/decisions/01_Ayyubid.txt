@@ -12,10 +12,17 @@ political_decisions = {
 				AND = {
 					has_global_flag = death_of_muazzam
 					war = no
-					#EGY = { all_core = { controlled_by = THIS } }
+					year = 1228
+					month = 8
+					EGY = { all_core = { controlled_by = THIS } }
 				}
-				has_country_flag = egy_frederick_negotiations
+				AND = {
+					has_country_flag = egy_frederick_negotiations
+					917 = { owned_by = JER }
+				}
 			}
+			NOT = { war_with = SYR }
+			NOT = { war_with = PLS }
 		}
 		
 		effect = {
@@ -132,15 +139,15 @@ political_decisions = {
 			war = no
 			owns = 1151
 			OR = {
-				NYE = { vassal_of = THIS }
-				NYE = { all_core = { owned_by = THIS } }
+				YEM = { vassal_of = THIS }
+				YEM = { all_core = { owned_by = THIS } }
 			}
 		}
 		
 		effect = {
 			prestige = 5
 			inherit = YEM
-			NYE = { all_core = { add_core = THIS } }
+			YEM = { all_core = { add_core = THIS } }
 			set_country_flag = egy_yemen_integration
 		}
 		ai_will_do = { factor = 1 }
@@ -185,6 +192,7 @@ political_decisions = {
 				}
 				has_country_flag = syr_frederick_negotiations
 			}
+			NOT = { war_with = EGY }
 		}
 		
 		effect = {
@@ -208,7 +216,6 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			EGY = { release_vassal = YEM }
-			#country_event = 132005 
 			set_country_flag = rasulid_revolt
 		}
 		ai_will_do = { factor = 1 }

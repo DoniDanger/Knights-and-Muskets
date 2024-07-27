@@ -1,5 +1,6 @@
-owner = GLM
-controller = GLM
+owner = HLY
+controller = HLY
+add_core = HLY
 add_core = GLM
 add_core = UKR
 trade_goods = fruit

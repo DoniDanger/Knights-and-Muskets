@@ -1,8 +1,7 @@
-
-
-
-add_core = NEN
+owner = SLB
+controller = SLB
+add_core = SLB
+add_core = GER
+add_core = NNN
 trade_goods = iron
 life_rating = 35
-railroad = 1
-1861.1.1 = { railroad = 3 }

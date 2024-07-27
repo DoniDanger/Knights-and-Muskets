@@ -41,7 +41,7 @@ country_event = {
 
 	option = {
 	    name = "We will make no peace with the Latins until Constantinople is ours."
-		prestige = 15
+		prestige = 5
 		ai_chance = {
 			factor = 10
         }
@@ -49,7 +49,6 @@ country_event = {
 	
 	option = {
 	    name = "Our armies are too battered to continue. Accept the peace."
-		prestige = 5
 		864 = { secede_province = NCE }
 		865 = { secede_province = NCE }
 		end_war = LTN
@@ -132,7 +131,7 @@ country_event = {
 
     option = {
         name = "John III Doukas Vatatzes is the only rightful heir to Rome."
-		prestige = 15
+		prestige = 10
 		leave_alliance = EPI
         war = {
             target = EPI

@@ -1,6 +1,8 @@
 owner = SGF
 controller = SGF
 add_core = SGF
+add_core = ULM
 add_core = GER
+add_core = NNN
 trade_goods = horses
-life_rating = 40
+life_rating = 35

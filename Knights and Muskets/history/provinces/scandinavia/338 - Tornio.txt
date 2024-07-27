@@ -1,5 +1,2 @@
-owner = FIN
-controller = FIN
-add_core = FIN
 trade_goods = furs
-life_rating = 35
+life_rating = 25

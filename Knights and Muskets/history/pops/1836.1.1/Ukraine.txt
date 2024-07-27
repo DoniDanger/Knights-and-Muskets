@@ -286,7 +286,7 @@
     artisans = {
         culture = rusyn
         religion = orthodox
-        size = 5700
+        size = 4700
     }
 
     soldiers = {
@@ -298,7 +298,7 @@
     farmers = {
         culture = rusyn
         religion = orthodox
-        size = 18500
+        size = 8500
     }
 
     clergymen = {
@@ -322,7 +322,7 @@
     farmers = {
         culture = slovak
         religion = catholic
-        size = 17700
+        size = 7200
     }
 
     aristocrats = {
@@ -340,7 +340,7 @@
     artisans = {
         culture = hungarian
         religion = catholic
-        size = 1500
+        size = 1100
     }
 
     soldiers = {
@@ -352,7 +352,7 @@
     farmers = {
         culture = hungarian
         religion = catholic
-        size = 2000
+        size = 1400
     }
 
     clergymen = {
@@ -430,14 +430,143 @@
     farmers = {
         culture = slovak
         religion = catholic
+        size = 3500
+    }
+
+    farmers = {
+        culture = rusyn
+        religion = orthodox
+        size = 5200
+    }
+}
+#Maramos
+2154 = {
+    clergymen = {
+        culture = rusyn
+        religion = orthodox
+        size = 300
+    }
+
+    artisans = {
+        culture = rusyn
+        religion = orthodox
+        size = 3000
+    }
+
+    soldiers = {
+        culture = rusyn
+        religion = orthodox
+        size = 1400
+    }
+
+    farmers = {
+        culture = rusyn
+        religion = orthodox
+        size = 13000
+    }
+
+    aristocrats = {
+        culture = hungarian
+        religion = catholic
+        size = 400
+    }
+
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 200
+    }
+
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 1000
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 1200
+    }
+
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 2200
+    }
+
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 800
+    }
+
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 500
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 1200
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 50
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 1000
+    }
+
+    clergymen = {
+        culture = romanian
+        religion = orthodox
+        size = 200
+    }
+
+    artisans = {
+        culture = romanian
+        religion = orthodox
+        size = 800
+    }
+
+    farmers = {
+        culture = romanian
+        religion = orthodox
         size = 5000
     }
 
     farmers = {
         culture = rusyn
         religion = orthodox
-        size = 7200
+        size = 3000
     }
+
+    farmers = {
+        culture = romanian
+        religion = orthodox
+        size = 1800
+    }
+
 }
 #Galicia Region (2576000) #see Poland.txt for balance of region 
 #under the rule of Austria in 1836

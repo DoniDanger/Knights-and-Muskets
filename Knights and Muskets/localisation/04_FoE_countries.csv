@@ -1,9 +1,51 @@
 ;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;\
 turkish;Turkomen;x 
-south_german;Bavarian;x 
+south_german;Austro-Bavarian;x 
 north_german;Saxon;x    
 spanish;Castillian;x 
 swiss;High Alemannic;x 
+BAN;Banat of Mačva;x
+BAN_ADJ;Macvan;x
+ALS;Lower Alsace;x                                
+ALS_ADJ;Alsatian;x
+CRN;Carinthia;x
+CRN_ADJ;Carinthian;x
+KOR;Goryeo;x
+KOR_ADJ;Goryeo;x
+YNN;Dali;x
+YNN_ADJ;Dalian;x
+XBI;Western Xia;x
+XBI_ADJ;Western Xian;x
+NRN;Nurnberg;x
+NRN_ADJ;Nurnberg;x
+BMB;Bamberg;x
+BMB_ADJ;Bamberg;x
+BSV;Banate of Severin;x
+BSV_ADJ;Severin;x
+SLB;Sulzbach;x
+SLB_ADJ;Sulzbach;x
+LBZ;Lubusz;x
+LBZ_ADJ;Lubusz;x
+SZE;Szekelyland;x
+SZE_ADJ;Szekelyland;x
+SLA;Slavonia;x
+SLA_ADJ;Slavonian;x
+JSZ;Jaszsag;x
+JSZ_ADJ;Jaszsag;x
+BZN;Burzenland;x
+BZN_ADJ;Burzenland;x
+BZN_theocracy;Teutonic Order;x
+BZN_theocracy_ADJ;Teutonic;x
+IRL;Lordship of Ireland;x
+IRL_ADJ;Anglo-Norman;x
+TRT;Trent;x
+TRT_ADJ;Trenten;x
+HLY;Halych;x
+HLY_ADJ;Halychian;x
+VLN;Volhynia;x
+VLN_ADJ;Volhynian;x
+SYC;Sicily;x
+SYC_ADJ;Sicilian;x
 ANG;Angouleme;x
 ANG_ADJ;Angoumois;x
 MAI;Maine;x
@@ -28,8 +70,8 @@ BEA;Bearn;x
 BEA_ADJ;Bearner;x
 BLO;Blois;x
 BLO_ADJ;Blois;x
-TIR;Tyrol;x
-TIR_ADJ;Tyrolian;x
+TIR;Andechs-Merania;x
+TIR_ADJ;Andechs-Meranian;x
 NVR;Novara;x
 NVR_ADJ;Novaran;x
 PVI;Pavia;x
@@ -102,8 +144,10 @@ PHI;Duchy of Philippopolis;x
 PHI_ADJ;Philippopolisian;x
 KMY;Kumyk;x                                 
 KMY_ADJ;Kumykian;x
-CMN;Kunsag;x                                 
-CMN_ADJ;Kunsag;x
+CMN;Western Cumania;x                                 
+CMN_ADJ;Cuman;x
+CMN_autonomous_dependency;Kunsag;x                                 
+CMN_autonomous_dependency_ADJ;Kunsag;x
 LZG;Lezgistan;x                                 
 LZG_ADJ;Lezgin;x
 LIH;Dzukija;x                                 
@@ -168,10 +212,6 @@ GER;Holy Roman Empire;x
 GER_ADJ;Imperial;x    
 MEI;Margraviate of Meissen;x                                 
 MEI_ADJ;Meissen;x
-ALS;Upper Lotharingia;x                                     
-ALS_ADJ;Lotharingian;x
-LOR;Lower Lotharingia;x                                     
-LOR_ADJ;Lotharingian;x
 LOM;Lombard League;x                                     
 LOM_ADJ;Lombardian;x
 SLO;Carniola;x                                     
@@ -423,8 +463,8 @@ TKD;Takeda;x
 TKD_ADJ;Takeda;x
 TKI;Toki;x
 TKI_ADJ;Toki;x
-TKG;Tokugawa;x
-TKG_ADJ;Tokugawan;x
+TKG;Kamakura Shogunate;x
+TKG_ADJ;Kamakuran;x
 UES;Uesugi;x
 UES_ADJ;Uesugi;x
 YMN;Yamana;x
@@ -627,8 +667,8 @@ LAU;Saxe-Lauenburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 LAU_ADJ;Saxe-Lauenburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 TRR;Trier;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 TRR_ADJ;Trier;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-WUZ;The Prince-Bishopric of Wurzburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-WUZ_ADJ;Wurzburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+WRZ;Wurzburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+WRZ_ADJ;Wurzburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EFR;East Frisia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EFR_ADJ;East Frisian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 GBR;Great Britain;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -743,8 +783,8 @@ PER;Persia;x
 PER_ADJ;Persian;x
 PER_absolute_monarchy;The Khwarazmian Empire;x
 PER_absolute_monarchy_ADJ;Khwarazmian;x
-SYR;Emirate of Aleppo;x
-SYR_ADJ;Aleppo;x
+SYR;Emirate of Damascus;x
+SYR_ADJ;Damascus;x
 MSL;Emirate of Mosul;x
 MSL_ADJ;Zengid;x
 IRQ;Iraq;x

@@ -4,6 +4,20 @@
 REB 	= 	"countries/rebels.txt"
 UTI	=       "countries/Utility Tag.txt"
 
+CRN				= "countries/Carinthia.txt"
+LBZ     		= "countries/Lubusz.txt"
+SZE             ="countries/Szekelyland.txt"
+SLA		        ="countries/Slavonia.txt"
+WRZ             ="countries/Wurzburg.txt"
+JSZ     		= "countries/Jaszsag.txt"
+BZN             ="countries/Burzenland.txt"
+
+SYC        = "countries/Sicily.txt"
+TRT        = "countries/Trent.txt"
+HLY        = "countries/Halych.txt"
+VLN        = "countries/Volhynia.txt"
+IRL		   = "countries/Ireland Lordship.txt"
+
 #MoB Persia
 AJM             ="countries/Ajam.txt"
 FRS             ="countries/Fars.txt"

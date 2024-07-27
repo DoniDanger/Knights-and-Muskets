@@ -35,36 +35,6 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	marry_isabella_of_jersualem = {
-		potential = {
-			tag = SIC
-			JER = { exists = yes }
-			NOT = { has_country_flag = jerusalem_isabella_marriage }
-		}
-		
-		allow = {
-			has_global_flag = sixth_crusade_forming
-			JER = { exists = yes }
-			OR = {
-				JER = { is_vassal = no }
-				JER = { vassal_of = THIS }
-			}
-		}
-		
-		effect = {
-			prestige = 5
-			THIS = {
-				diplomatic_influence = {
-					who = JER
-					value = 200
-				}
-			}
-			create_alliance = JER
-			set_country_flag = jerusalem_isabella_marriage
-		}
-		ai_will_do = { factor = 1 }
-	}
-	
 	dispossess_king_of_jerusalem = {
 		potential = {
 			tag = SIC
@@ -129,6 +99,8 @@ political_decisions = {
 		potential = {
 			tag = SIC
 			NOT = { has_country_flag = negotiations_with_ayyubids }
+			NOT = { has_global_flag = sixth_crusade_win }
+			NOT = { has_global_flag = sixth_crusade_fail }
 		}
 		
 		allow = {
@@ -140,6 +112,81 @@ political_decisions = {
 			prestige = 5
 			country_event = 132007 
 			set_country_flag = negotiations_with_ayyubids
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	return_to_germany = {
+		potential = {
+			tag = SIC
+			NOT = { has_country_flag = returned_to_germany }
+		}
+		
+		allow = {
+			has_global_flag = henry_vii_reign
+			has_global_flag = henry_vii_excommunicated
+		}
+		
+		effect = {
+			prestige = 5
+			country_event = 133018 
+			set_country_flag = returned_to_germany
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	flee_to_swabia = {
+		potential = {
+			tag = SIC
+			NOT = { has_global_flag = frederick_flees_sicily }
+			NOT = { has_country_flag = frederick_remains_sicily }
+		}
+		
+		allow = {
+			OR = {
+				ai = no
+				AND = {
+					has_global_flag = henry_vii_crowned
+					NOT = { has_global_flag = henry_vii_reign }
+				}
+				AND = {
+					OR = {
+						762 = { NOT = { owned_by = THIS }}
+						753 = { NOT = { owned_by = THIS }}
+						754 = { NOT = { owned_by = THIS }}
+					}
+					OR = {
+						761 = { NOT = { owned_by = THIS }}
+						762 = { NOT = { owned_by = THIS }}
+					}
+					OR = {
+						761 = { NOT = { owned_by = THIS }}
+						757 = { NOT = { owned_by = THIS }}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			country_event = 133022 
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	jerk_off = {
+		potential = {
+			tag = SIC
+			NOT = { has_country_flag = jerked_off }
+		}
+		
+		allow = {
+			ai = no
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = SGF
+			set_country_flag = jerked_off
 		}
 		ai_will_do = { factor = 1 }
 	}

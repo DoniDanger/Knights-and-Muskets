@@ -24,3 +24,8 @@ NORMAL_PUNITIVE_EXPEDITION_WAR_NAME_ENG_QNG;$ORDER$Opium War;;;;;;;;;;;;;;;;;x,,
 3_way_transfer_desc;Transfer a state from the target to any player;Libérer un §Ypays§W de ses oppresseurs;Befreien Sie ein §YLand§W von seinen Unterdrückern.;;;;;;;;;;;x,,,
 3_way_transfer_short;$THIRD$ acquires $STATE$;$THIRD$ prend $STATE$;$THIRD$ erwirbt $STATE$;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
 3_way_transfer_setup;Transfers $STATE$ to $THIRD$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$ pour le rendre à $THIRD$;Geben Sie $STATE$ an $THIRD$ von $RECIPIENT$ zurück;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+polish_unification_cb;Polish Unification;Peuple libre;Freies Volk;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+polish_unification_cb_desc;Vassalizes an independent Polish dukedom;Libérer un §Ypays§W de ses oppresseurs;Befreien Sie ein §YLand§W von seinen Unterdrückern.;;;;;;;;;;;x,,,
+polish_unification_cb_short;Vassalize Polish dukedoms;$THIRD$ prend $STATE$;$THIRD$ erwirbt $STATE$;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+polish_unification_cb_setup;Vassalize Polish dukedoms;Prendre $STATE$ à $RECIPIENT$ pour le rendre à $THIRD$;Geben Sie $STATE$ an $THIRD$ von $RECIPIENT$ zurück;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+POLISH_UNIFICATION_WAR_NAME;$ORDER$War of Polish Unification;;;;;;;;;;;;x

@@ -1,5 +1,6 @@
-
-
-
+owner = BSV
+controller = BSV
+add_core = BSV
+add_core = WAL
 trade_goods = dye
 life_rating = 35

@@ -24,8 +24,19 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions
+pensions = no_pensions 
 school_reforms = no_schools
+
+ruling_party = "Royalist"
+upper_house = {
+	fascist = 0
+	liberal = 25
+	conservative = 58
+	reactionary = 12
+	anarcho_liberal = 5
+	socialist = 0
+	communist = 0
+}
 
 # Technologies
 motte_and_bailey = 1
@@ -48,20 +59,22 @@ no_standard = 1
 early_classical_theory_and_critique = 1
 freedom_of_trade = 1
 guild_based_production = 1
+water_wheel_power = 1
+publishing_industry = 1
 piston_steam_engine = 1
 mechanical_production = 1
 mechanized_mining = 1
 basic_chemistry = 1
+experimental_railroad = 1
+
+grain_banks = 1
+hammered_coinage = 1
+manorialism = 1
+trade_fairs = 1
+medical_universities = 1
 
 #Inventions
+heavy_cavalry_activation = yes
+man_at_arms_activation = yes
 
-ruling_party = "Royalist"
-upper_house = {
-	fascist = 0
-	liberal = 33
-	conservative = 57
-	reactionary = 10
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
-}
+oob = "SLS_oob.txt"

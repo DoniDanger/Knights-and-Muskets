@@ -46,6 +46,7 @@ take_from_sphere
 status_quo 
 gunboat 
 conquest 
+conquest_any
 civil_war 
 acquire_core_state 
 annex_core_country
@@ -78,9 +79,11 @@ uninstall_communist_gov_cb
 great_war_penalty_cb
 take_capital
 conquest_low
+conquest_tiny
 negotiated_transfer
 3_way_transfer
 seperate_truce
+polish_unification_cb
 }
 
 gunboat = {
@@ -219,6 +222,47 @@ conquest = {
 	po_annex = yes
 	
 	war_name = WAR_CONQUEST_NAME
+}
+
+conquest_any = {
+    sprite_index = 2
+    is_triggered_only = yes
+    months = 12
+    constructing_cb = no
+    crisis = no
+
+	always = no
+
+    can_use = {
+        NOT = { is_our_vassal = THIS }
+    }
+
+    badboy_factor = 0
+    prestige_factor = 0
+    peace_cost_factor = 1
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 0
+    break_truce_infamy_factor = 0
+    break_truce_militancy_factor = 0
+    truce_months = 60
+
+    good_relation_prestige_factor = 0
+    good_relation_infamy_factor = 0
+    good_relation_militancy_factor = 0
+
+    po_annex = yes
+
+    war_name = WAR_CONQUEST_ANY_NAME
+
+    on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
 }
 
 # Civil war
@@ -1848,6 +1892,69 @@ conquest_low = {
 	war_name = WAR_CONQUEST_NAME
 }
 
+conquest_tiny = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = {	total_pops = 150000 }
+		NOT = { is_our_vassal = THIS }
+		# only one state or unciv
+		NOT = { number_of_states = 5 }
+		OR = {
+			AND = {
+				civilized = yes
+				NOT = { number_of_states = 3 }
+			}
+			AND = {
+				civilized = no
+				THIS = { civilized = no }
+				NOT = { number_of_states = 3 }
+			}
+			AND = {
+				civilized = no
+				number_of_states = 2
+				THIS = {
+					OR = {
+						NOT = { is_greater_power = yes }
+						NOT = { nationalism_n_imperialism = 1 }
+					}
+				}
+			}
+		}
+	}
+
+	badboy_factor = 0.5
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_annex = yes
+	
+	war_name = WAR_CONQUEST_NAME
+}
+
 take_capital = {
 	sprite_index = 6
 	is_triggered_only = yes
@@ -2330,4 +2437,49 @@ make_puppet_small = {
 			value = 0.25
 		}
 	}
+}
+
+polish_unification_cb = {
+    sprite_index = 10
+    is_triggered_only = yes
+    months = 12
+
+    badboy_factor = 0
+    prestige_factor = 1
+    peace_cost_factor = 80
+    penalty_factor = 0
+    constructing_cb = no
+    crisis = no
+	always = yes
+	
+    break_truce_prestige_factor = 0
+    break_truce_infamy_factor = 0
+    break_truce_militancy_factor = 0
+    truce_months = 60
+
+    good_relation_prestige_factor = 0
+    good_relation_infamy_factor = 0
+    good_relation_militancy_factor = 0
+
+    war_name = POLISH_UNIFICATION_WAR_NAME
+	
+    can_use = {
+		any_owned_province = { is_core = POL }
+        is_culture_group = THIS
+		
+		has_global_flag = high_duke_leszek_assassinated
+		NOT = { is_our_vassal = THIS }
+		is_greater_power = no
+		is_vassal = no
+		
+		NOT = { number_of_states = 5 }
+		NOT = { total_pops = 2400000 }
+		is_culture_group = polish_culture_group 
+	}
+
+    on_add = {
+    }
+
+   po_make_puppet = yes
+   po_add_to_sphere = yes
 }

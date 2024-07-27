@@ -1,5 +1,6 @@
-owner = WAL
-controller = WAL
+owner = CMN
+controller = CMN
+add_core = CMN
 add_core = WAL
 trade_goods = coal
 life_rating = 35

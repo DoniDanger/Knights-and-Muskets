@@ -14,6 +14,26 @@ country_event = {
 
 	option = {
 	    name = "We must crush the Saracens."
+		any_owned = {
+			limit = {
+				AND = {
+					is_core = SYC
+					NOT = { province_id = 854 }
+				}
+			}
+			secede_province = SYC
+		}
+		SYC = { capital = 762 }
+		SYC = { primary_culture = sicilian_arab religion = sunni }
+		war = {
+            target = SYC
+            attacker_goal = { casus_belli = annex_core_country }
+        }
+		SIC = { 
+            any_pop = { limit = { has_pop_religion = catholic }
+                militancy = 3
+            }
+        }
 		set_country_flag = sicilian_muslim_rebellion
 		ai_chance = { factor = 90 }
 	}
@@ -30,12 +50,18 @@ country_event = {
 	trigger = {
 		tag = SIC
 		has_country_flag = sicilian_muslim_rebellion
-		USA = { exists = no }
+		SYC = { exists = no }
 	}
 
 	option = {
 	    name = "We must cement Catholic control of Sicily permanently."
 		prestige = 5
+		SYC = { primary_culture = sicilian religion = catholic }
+		SIC = { 
+            any_pop = { limit = { has_pop_religion = catholic }
+                militancy = -3
+            }
+        }
 		set_country_flag = sicilian_muslims_crushed
 		ai_chance = { factor = 100 }
 	}
@@ -52,6 +78,32 @@ country_event = {
 	
     option = {
         name = "Deport them all to Lucera."
+		SIC = { 
+            any_pop = { limit = { has_pop_religion = sunni }
+                militancy = 3
+            }
+        }
+		any_owned = {
+                limit = {
+                    owned_by = THIS
+                    is_core = SYC
+                }
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = sicilian_arab
+							has_pop_religion = sunni
+						}
+					}
+					random_list = {
+						25 = { reduce_pop = 0.6 }
+						25 = { reduce_pop = 0.5 }
+						25 = { reduce_pop = 0.45 }
+						25 = { reduce_pop = 0.4 }
+                    }
+					move_pop = 757 
+                }
+        }
 		ai_chance = { factor = 80 }
 	}
 }
@@ -61,11 +113,12 @@ country_event = {
 	title = "Frederick Departs for Crusade"
 	desc = "133003_DESC"
 	fire_only_once = yes
-	mean_time_to_happen = { months = 3 }
+	mean_time_to_happen = { days = 2 }
 
 	trigger = {
 		tag = SIC
 		year = 1227
+		month = 8
 		has_global_flag = sixth_crusade_forming
 	}
 
@@ -116,7 +169,7 @@ country_event = {
 country_event = {
 
     id = 133006
-    title = "Sixth Crusade Successful Peacefully"
+    title = "Treaty of Jaffa"
 	desc = "133006_DESC"
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -196,11 +249,444 @@ country_event = {
 	trigger = {
 		tag = SIC
 		has_global_flag = sixth_crusade_forming
+		NOT = { has_global_flag = sixth_crusade_win }
+		NOT = { has_global_flag = sixth_crusade_fail }
 		war_with = EGY
 	}
 
 	option = {
 	    name = "We win these."
 		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+	id = 133011
+	title = "Henry VII Crowned King of Germany"
+	desc = "133011_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = SIC
+		year = 1222
+		month = 5
+	}
+
+	option = {
+	    name = "May his reign be useful."
+		diplomatic_influence = { who = KOL value = 400 }
+		set_global_flag = henry_vii_crowned
+		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+	id = 133012
+	title = "Louis I Assumes Guardianship"
+	desc = "133012_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = SIC
+		has_global_flag = henry_vii_crowned
+		year = 1225
+		month = 11
+	}
+
+	option = {
+	    name = "Let Louis guide him wisely."
+		diplomatic_influence = { who = KOL value = -100 }
+		diplomatic_influence = { who = BAV value = 400 }
+		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+	id = 133013
+	title = "Betrothal with Bohemia Cancelled"
+	desc = "133013_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 6 }
+
+	trigger = {
+		tag = SIC
+		year = 1225
+		month = 11
+	}
+
+	option = {
+	    name = "Our alliance with Austria will be useful."
+		diplomatic_influence = { who = AUS value = 400 }
+		diplomatic_influence = { who = BOH value = -200 }
+		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+	id = 133014
+	title = "Henry VII Reaches Majority"
+	desc = "133014_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = SIC
+		has_global_flag = henry_vii_crowned
+		year = 1228
+		month = 12
+	}
+
+	option = {
+	    name = "Hopefully, he will lead Swabia peacefully."
+		set_global_flag = henry_vii_reign
+		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+	id = 133015
+	title = "Henry VII Invades Bavaria"
+	desc = "133015_DESC"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 9 }
+
+	trigger = {
+		tag = SIC
+		has_global_flag = henry_vii_reign
+		BAV = { exists = yes }
+	}
+
+	option = {
+	    name = "His reign a mess already."
+		release_vassal = BAV
+		leave_alliance = BAV
+		diplomatic_influence = { who = BAV value = -200 }
+		war = {
+            target = BAV
+            attacker_goal = { casus_belli = make_puppet }
+			call_ally = yes
+        }
+		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+	id = 133016
+	title = "Henry VII Invades Strasbourg"
+	desc = "133016_DESC"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 9 }
+
+	trigger = {
+		tag = SIC
+		has_global_flag = henry_vii_reign
+		OR = {
+			BAV = { vassal_of = THIS }
+			BAV = { exists = no }
+		}
+		ALS = { exists = yes vassal_of = THIS }
+	}
+
+	option = {
+	    name = "Henry is pushing his luck."
+		release_vassal = ALS
+		leave_alliance = ALS
+		diplomatic_influence = { who = ALS value = -200 }
+		ALS = { all_core = { add_core = SGF }}
+		war = {
+            target = ALS
+            attacker_goal = { casus_belli = annex_core_country }
+			call_ally = yes
+        }
+		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+	id = 133017
+	title = "Expansion of the Swabian Domains"
+	desc = "133017_DESC"
+	
+	fire_only_once = no
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = SIC
+		GER = { any_core = { owned_by = SIC }}
+	}
+
+	option = {
+	    name = "I love land."
+		random_country = {
+            limit = { exists = yes tag = SIC }
+            any_owned = {
+                limit = { is_core = GER }
+                secede_province = SGF
+            }
+        }
+		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+	id = 133018
+	title = "Henry VII Excommunicated!"
+	desc = "133018_DESC"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = SIC
+		has_global_flag = henry_vii_reign
+		year = 1234
+	}
+
+	option = {
+	    name = "It is nigh time to rein in Henry."
+		set_global_flag = henry_vii_excommunicated
+		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+
+    id = 133019
+    title = "Rebellion of Henry VII"
+	desc = "133019_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+    option = {
+        name = "Obliterate this fool."
+		release_vassal = SGF
+		leave_alliance = SGF
+		diplomatic_influence = { who = SGF value = -400 }
+		war = {
+            target = SGF
+            attacker_goal = { casus_belli = annex_core_country }
+			call_ally = yes
+        }
+		set_country_flag = henry_vii_war
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+        name = "There is no value in returning to Germany."
+		release_vassal = SGF
+		leave_alliance = SGF
+		diplomatic_influence = { who = SGF value = -400 }
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+	id = 133020
+	title = "Henry VII Deposed"
+	desc = "133020_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = SIC
+		has_country_flag = henry_vii_war
+		SGF = { exists = no }
+	}
+
+	option = {
+	    name = "A stable rule in Swabia must be established."
+		change_tag = SGF
+		government = empire
+		capital = 589
+		random_country = {
+            limit = { exists = yes vassal_of = THIS ai = yes is_culture_group = germanic }
+            annex_to = SGF  
+			add_core = SGF  
+        }
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = SIC
+					is_core = ITA
+					is_core = PAP
+					is_core = JER
+				}
+			}
+			remove_core = SGF
+		}
+		inherit = ALS
+		inherit = ANS
+		inherit = NRN
+		inherit = BMB
+		inherit = TIR
+		inherit = SLB
+		remove_accepted_culture = south_italian
+		remove_accepted_culture = sicilian
+		country_event = 133021
+		set_global_flag = henry_vii_deposed
+		set_country_flag = frederick_rules_swabia
+		set_country_flag = hre_emperor
+		SIC = { government = feudal_monarchy }
+		SIC = { clr_country_flag = hre_emperor }
+		ai_chance = { factor = 5 }
+	}
+	
+	option = {
+	    name = "Conrad shall rule Swabia in Frederick's stead."
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = SGF
+				}
+			}
+			secede_province = SGF
+		}
+		random_country = {
+            limit = { exists = yes vassal_of = THIS ai = yes is_culture_group = germanic NOT = { tag = TIR }}
+            annex_to = SGF  
+			add_core = SGF  
+        }
+		create_vassal = SGF
+		create_alliance = SGF
+		SGF = { government = feudal_monarchy capital = 589 }
+		diplomatic_influence = { who = SGF value = 400 }
+		set_global_flag = henry_vii_deposed
+		set_country_flag = conrad_rules_swabia
+		ai_chance = { factor = 95 }
+	}
+}
+
+country_event = {
+	id = 133021
+	title = "The Fate of Sicily"
+	desc = "133021_DESC"
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+	    name = "Sicily is Frederick's kingdom."
+		inherit = SIC
+		badboy = 20
+		set_country_flag = frederick_rules_sicily
+		ai_chance = { factor = 5 }
+	}
+	
+	option = {
+	    name = "Leave Sicily for my children."
+		inherit = SIC
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = SIC
+				}
+			}
+			secede_province = SIC
+		}
+		create_vassal = SIC
+		create_alliance = SIC
+		diplomatic_influence = { who = SIC value = 400 }
+		SIC = { government = feudal_monarchy capital = 762 }
+		set_country_flag = conrad_rules_sicily
+		ai_chance = { factor = 95 }
+	}
+}
+
+country_event = {
+	id = 133022
+	title = "Frederick Flees Sicily"
+	desc = "133022_DESC"
+	is_triggered_only = yes
+
+	option = {
+	    name = "Swabia will be the base of Staufer power."
+		inherit = SGF
+		change_tag = SGF
+		government = empire
+		capital = 589
+		random_country = {
+            limit = { exists = yes vassal_of = THIS }
+            SGF = { release_vassal = THIS }
+        }
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = SIC
+					is_core = ITA
+					is_core = PAP
+					is_core = JER
+				}
+			}
+			remove_core = SGF
+			secede_province = SIC
+		}
+		remove_accepted_culture = south_italian
+		remove_accepted_culture = sicilian
+		release_vassal = ALS
+		release_vassal = ANS
+		release_vassal = NRN
+		release_vassal = BMB
+		release_vassal = TIR
+		release_vassal = SLB
+		prestige = -15
+		set_global_flag = frederick_flees_sicily
+		set_country_flag = frederick_rules_swabia
+		set_country_flag = hre_emperor
+		SIC = { government = feudal_monarchy capital = 762 }
+		SIC = { clr_country_flag = hre_emperor }
+		ai_chance = { factor = 5 }
+	}
+	
+	option = {
+	    name = "The king is surely delirious. He would never abandon Sicily."
+		prestige = -5
+		set_country_flag = frederick_remains_sicily
+		ai_chance = { factor = 95 }
+	}
+}
+
+country_event = {
+	id = 133023
+	title = "Marriage to Isabella of Jerusalem"
+	desc = "133023_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = SIC
+		year = 1225
+		month = 8
+		has_global_flag = sixth_crusade_forming
+		JER = { exists = yes }
+		#OR = {
+		#	JER = { is_vassal = no }
+		#	JER = { vassal_of = THIS }
+		#}
+	}
+
+	option = {
+	    name = "The kingdom of Jerusalem is within our grasp."
+		prestige = 5
+		THIS = {
+			diplomatic_influence = {
+				who = JER
+				value = 200
+			}
+		}
+		create_alliance = JER
+		set_country_flag = jerusalem_isabella_marriage
+		ai_chance = { factor = 100 }
 	}
 }

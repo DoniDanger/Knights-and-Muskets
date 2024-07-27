@@ -1,0 +1,379 @@
+###FRANCE###
+country_event = {
+	id = 135000
+	title = "The Cathar Reclamation"
+	desc = "135000_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = OCC
+		year = 1222
+	}
+
+	option = {
+	    name = "Now is the time to expel the invaders."
+		prestige = 5
+		war = {
+            target = CRC
+            attacker_goal = { casus_belli = civil_war  }
+            defender_goal = { casus_belli = civil_war  }
+        }
+		set_country_flag = the_cathar_reclamation
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135001
+	title = "Amaury de Montfort Flees Carcassonne"
+	desc = "135001_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = OCC
+		has_country_flag = the_cathar_reclamation
+		CRC =  { exists = no }
+		owns = 463
+	}
+
+	option = {
+	    name = "The coward flees to his Parisian paymasters."
+		prestige = 5
+		set_global_flag = montfort_flees_carcassonne
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135002
+	title = "The Albigensian Crusade Successful"
+	desc = "135002_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = CRC
+		OCC = { exists = no }
+		owns = 463
+		owns = 455
+	}
+
+	option = {
+	    name = "The Cather heresy shall be eradicated from Christendom."
+		prestige = 5
+		OCC = { all_core = { add_core = THIS }}
+		set_global_flag = albigensian_crusade_successful
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135003
+	title = "The Albigensian Crusade Successful"
+	desc = "135003_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = FRA
+		OCC =  { vassal_of = THIS }
+		#has_country_flag = renewed_albigensian_crusade
+	}
+
+	option = {
+	    name = "The Cather heresy shall be eradicated from Christendom."
+		prestige = 5
+		CRC = { all_core = { add_core = THIS }}
+		any_country = {
+            limit = {
+                tag = OCC
+            }
+            any_owned = {
+                limit = {
+                    is_core = CRC
+                }
+                secede_province = THIS
+            }
+        }
+		set_global_flag = albigensian_crusade_successful
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135004
+	title = "Siege of Avignon"
+	desc = "135004_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = FRA
+		controls = 468
+		has_country_flag = renewed_albigensian_crusade
+	}
+
+	option = {
+	    name = "Those who aid the Cathars must be punished."
+		prestige = 5
+		
+		set_global_flag = siege_of_avignon
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135005
+	title = "Death of Philip II"
+	desc = "135005_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 5 }
+
+	trigger = {
+		tag = FRA
+		year = 1223
+		month = 7
+	}
+
+	option = {
+	    name = "France has lost a great king."
+		prestige = 5
+		
+		set_country_flag = death_of_philip_ii
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135006
+	title = "Ascension of Louis VIII, The Lion"
+	desc = "135006_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 3 }
+
+	trigger = {
+		tag = FRA
+		year = 1223
+		has_country_flag = death_of_philip_ii
+	}
+
+	option = {
+	    name = "A worthy successor to Philip II."
+		prestige = 5
+		
+		set_country_flag = reign_of_louis_viii
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135007
+	title = "Death of Louis VIII"
+	desc = "135007_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 3 }
+
+	trigger = {
+		tag = FRA
+		year = 1226
+		month = 11
+		has_country_flag = reign_of_louis_viii
+	}
+
+	option = {
+	    name = "A lion of Christendom has left us."
+		prestige = 5
+		
+		set_country_flag = death_of_louis_viii
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135008
+	title = "Regency of Louis IX"
+	desc = "135008_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 3 }
+
+	trigger = {
+		tag = FRA
+		year = 1226
+		has_country_flag = death_of_louis_viii
+	}
+
+	option = {
+	    name = "Let us hope no treachery comes of this."
+		prestige = 5
+		
+		set_country_flag = regency_of_louis_ix
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135009
+	title = "Louis IX Comes of Age"
+	desc = "135009_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 3 }
+
+	trigger = {
+		tag = FRA
+		year = 1234
+		has_country_flag = regency_of_louis_ix
+	}
+
+	option = {
+	    name = "May he lead France ever closer to God."
+		prestige = 5
+		
+		set_country_flag = reign_of_louis_ix
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135010
+	title = "Death of Louis IX, The Saint"
+	desc = "135010_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 8 }
+
+	trigger = {
+		tag = FRA
+		year = 1270
+		month = 8
+		has_country_flag = reign_of_louis_ix
+	}
+
+	option = {
+	    name = "May God save his soul, just as he saved France."
+		prestige = 5
+		
+		set_country_flag = death_of_louis_viii
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135011
+	title = "End of the Plantagenet Truce"
+	desc = "135011_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 4 }
+
+	trigger = {
+		tag = FRA
+		year = 1224
+		month = 5
+		has_country_flag = reign_of_louis_viii
+	}
+
+	option = {
+	    name = "Now is the time to reclaim the rightful lands of the king."
+		prestige = 5
+		diplomatic_influence = { who = POI value = -400 }
+        leave_alliance = POI
+		casus_belli = {
+			target = ENL
+			type = acquire_substate_region
+			months = 12
+		}
+		war = {
+			target = ENL
+			attacker_goal = { casus_belli = acquire_substate_region country = POI state_province_id = 442 }
+			defender_goal = { casus_belli = humiliate }
+			call_ally = yes
+		}
+		
+		set_country_flag = invasion_of_poitiers
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "We will not renew hostilites with the Plantagenets."
+		
+		prestige = -5
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 135012
+	title = "County of Poitou has Fallen"
+	desc = "135012_DESC"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = FRA
+		war_with = ENL
+		POI = { all_core = { NOT = { controlled_by = POI }}}
+		has_country_flag = invasion_of_poitiers
+	}
+
+	option = {
+	    name = "Poitou is quite the worthy prize for peace."
+		prestige = 5
+		
+		
+		ENL = { country_event = 135013 }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "Peace will not come until Gascony is ours."
+		
+		prestige = 10
+		badboy = 2
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 135013
+	title = "Garrisons in Poitou Overwhelmed!"
+	desc = "135013_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "We cannot risk the fall of Gascony. Accept their offer."
+		prestige = -10
+		
+		FRA = { inherit = POI }
+		FRA = { end_war = ENL }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "If Poitou falls, Gascony is next. We must reclaim Poitou."
+		
+		prestige = 5
+		ai_chance = { factor = 10 }
+	}
+}

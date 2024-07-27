@@ -1,0 +1,188 @@
+political_decisions = {
+	accept_montfort_titles = {
+		potential = {
+			tag = FRA
+			NOT = { has_country_flag = accept_montfort_titles }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					OCC = { exists = no }
+					CRC = { in_sphere = FRA }
+					has_global_flag = albigensian_crusade_successful
+				}
+				AND = {
+					has_global_flag = montfort_flees_carcassonne
+					year = 1224
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			create_vassal = CRC
+			CRC = { all_core = { add_core = THIS }}
+			set_country_flag = accept_montfort_titles
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	council_of_bourges = {
+		potential = {
+			tag = FRA
+			NOT = { has_global_flag = council_of_bourges }
+		}
+		
+		allow = {
+			year = 1225
+			PAP = { exists = yes }
+			OR = {
+				has_global_flag = montfort_flees_carcassonne
+				has_global_flag = albigensian_crusade_successful
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			money = 80000
+			relation = {
+				who = PAP
+				value = 80
+			}
+			set_global_flag = council_of_bourges
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	renew_albigensian_crusade = {
+		potential = {
+			tag = FRA
+			NOT = { has_country_flag = renewed_albigensian_crusade }
+			NOT = { has_global_flag = albigensian_crusade_successful }
+			OCC = { exists = yes }
+		}
+		
+		allow = {
+			has_global_flag = council_of_bourges
+			NOT = { war_with = OCC }
+			NOT = { truce_with = OCC }
+			year = 1226
+		}
+		
+		effect = {
+			war = {
+				target = OCC
+				attacker_goal = { casus_belli = make_puppet  }
+			}
+			set_country_flag = renewed_albigensian_crusade
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	annex_county_artois = {
+		potential = {
+			tag = FRA
+			NOT = { has_country_flag = annexed_artois_county }
+		}
+		
+		allow = {
+			war = no
+			year = 1237
+			OR = {
+				PIC = { all_core = { owned_by = THIS } }
+				PIC = { all_core = { in_sphere = THIS } }
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			PIC = { all_core = { add_core = THIS } }
+			add_accepted_culture = picard
+			set_country_flag = annexed_artois_county
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	annex_county_toulouse = {
+		potential = {
+			tag = FRA
+			NOT = { has_country_flag = annexed_toulouse_county }
+		}
+		
+		allow = {
+			war = no
+			year = 1244
+			OR = {
+				OCC = { all_core = { owned_by = THIS } }
+				OCC = { all_core = { in_sphere = THIS } }
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			OCC = { all_core = { add_core = THIS } }
+			add_accepted_culture = occitan
+			inherit = CRC
+			set_country_flag = annexed_toulouse_county
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	france_eat_everything = {
+		potential = {
+			tag = FRA
+			NOT = { has_country_flag = ate_france }
+		}
+		
+		allow = {
+			ai = no
+			prestige = 999
+		}
+		
+		effect = {
+			inherit = PIC
+			inherit = BRT
+			inherit = AUV
+			inherit = CRC
+			inherit = OCC
+			inherit = PRO
+			inherit = GVD
+			inherit = BRG
+			inherit = CMP
+			inherit = LOR
+			inherit = TUL
+			inherit = MTZ
+			inherit = VRD
+			inherit = BAR
+			inherit = DAU
+			inherit = FCM
+			inherit = BLO
+			inherit = BOU
+			inherit = LMC
+			inherit = PGD
+			inherit = LMG
+			inherit = POI
+			inherit = ANG
+			inherit = FOI
+			inherit = AMG
+			inherit = BEA
+			add_accepted_culture = occitan
+			add_accepted_culture = lorrain
+			add_accepted_culture = provencal
+			add_accepted_culture = norman
+			add_accepted_culture = breton
+			add_accepted_culture = auvergnat
+			add_accepted_culture = gascon
+			add_accepted_culture = limousin
+			add_accepted_culture = arpitan
+			add_accepted_culture = burgundian
+			add_accepted_culture = champenois
+			add_accepted_culture = picard
+			add_accepted_culture = angevin
+			add_accepted_culture = poitevin
+			set_country_flag = ate_france
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

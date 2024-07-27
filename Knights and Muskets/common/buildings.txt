@@ -20,9 +20,9 @@ bombard_foundry = {
 	goods_cost =
 	{
 		machine_parts = 100
-		tar = 600
-		steel = 600
-		cement = 600
+		tar = 300
+		steel = 400
+		cement = 300
 	}
 	time = 365
 	visibility = yes
@@ -41,10 +41,10 @@ siege_engine_workshop = {
 	goods_cost =
 	{
 		machine_parts = 100
-		tar = 500
+		tar = 250
 		stone = 200
-		steel = 500
-		cement = 500
+		steel = 400
+		cement = 200
 	}
 
 	time = 365
@@ -88,7 +88,7 @@ telephone_factory = {
 		machine_parts = 100
 		tar = 200
 		steel = 200
-		cement = 200
+		cement = 100
 	}
 	time = 182
 	visibility = yes
@@ -109,9 +109,9 @@ tar_workshop = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 50
-		steel = 200
-		cement = 200
+		machine_parts = 10
+		stone = 60
+		lumber = 100
 	}
 	time = 182
 	visibility = yes
@@ -133,7 +133,7 @@ machine_parts_factory = {
 		machine_parts = 50
 		iron = 50
 		stone = 50
-		cement = 200
+		cement = 60
 	}
 	time = 365
 	visibility = yes
@@ -152,9 +152,9 @@ charcoal_burner = {
 	max_level = 99
 	goods_cost =
 	{
-		stone = 50
-		lumber = 50
-		cement = 200
+		stone = 40
+		lumber = 80
+		steel = 20
 	}
 	time = 365
 	visibility = yes
@@ -174,8 +174,8 @@ naval_supplies_workshop = {
 	goods_cost =
 	{
 		machine_parts = 50
-		steel = 200
-		cement = 200
+		steel = 120
+		cement = 60
 	}
 	time = 182
 	visibility = yes
@@ -201,7 +201,7 @@ steamer_shipyard = {
 		machine_parts = 50
 		steel = 200
 		stone = 200
-		cement = 200
+		cement = 80
 	}
 	time = 365
 	visibility = yes
@@ -221,10 +221,10 @@ clipper_shipyard = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 50
-		iron = 50
-		stone = 50
-		cement = 200
+		machine_parts = 40
+		steel = 100
+		stone = 100
+		cement = 60
 	}
 	time = 365
 	visibility = yes
@@ -244,10 +244,10 @@ luxury_clothes_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 50
-		iron = 50
+		machine_parts = 40
+		steel = 50
 		stone = 50
-		cement = 200
+		cement = 40
 	}
 	time = 365
 	visibility = yes
@@ -265,10 +265,10 @@ luxury_furniture_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 50
-		iron = 50
+		machine_parts = 40
+		steel = 50
 		stone = 50
-		cement = 200
+		cement = 40
 	}
 	time = 365
 	visibility = yes
@@ -288,10 +288,10 @@ steel_factory = { #hardwood
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 50
-		iron = 50
+		machine_parts = 40
+		lumber = 50
 		stone = 50
-		coal = 200
+		cement = 60
 	}
 	time = 182
 	visibility = yes
@@ -310,9 +310,9 @@ artillery_factory = { #bowyer
 	goods_cost =
 	{
 		machine_parts = 50
-		iron = 50
+		steel = 50
 		stone = 50
-		cement = 200
+		cement = 40
 	}
 	time = 365
 	visibility = yes
@@ -330,9 +330,10 @@ crossbow_weaponsmith = {
 	goods_cost =
 	{
 		machine_parts = 50
-		iron = 50
+		iron = 30
+		steel = 50
 		stone = 50
-		cement = 200
+		cement = 60
 	}
 	time = 365
 	visibility = yes
@@ -350,9 +351,10 @@ barding_weaponsmith = {
 	goods_cost =
 	{
 		machine_parts = 50
-		iron = 50
+		iron = 20
+		steel = 50
 		stone = 50
-		cement = 200
+		cement = 60
 	}
 	time = 365
 	visibility = yes
@@ -371,10 +373,10 @@ furniture_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 50
-		iron = 50
+		machine_parts = 25
+		steel = 30
 		stone = 50
-		cement = 200
+		cement = 40
 	}
 	time = 365
 	visibility = yes
@@ -391,10 +393,10 @@ paper_mill = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 50
-		iron = 50
+		machine_parts = 25
+		steel = 30
 		stone = 50
-		cement = 200
+		cement = 40
 	}
 	time = 365
 	visibility = yes
@@ -411,10 +413,10 @@ regular_clothes_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 50
-		iron = 50
+		machine_parts = 25
+		steel = 50
 		stone = 50
-		cement = 200
+		cement = 40
 	}
 	time = 365
 	visibility = yes
@@ -433,8 +435,9 @@ explosives_factory = {
 	{
 		machine_parts = 50
 		iron = 50
+		steel = 50
 		stone = 50
-		cement = 200
+		cement = 80
 	}
 	time = 365
 	visibility = yes
@@ -456,8 +459,9 @@ infantry_arms_weaponsmith = {
 	{
 		machine_parts = 40
 		iron = 50
+		steel = 50
 		stone = 50
-		cement = 200
+		cement = 50
 	}
 	time = 365
 	visibility = yes
@@ -476,9 +480,9 @@ canned_food_factory = {
 	goods_cost =
 	{
 		machine_parts = 40
-		iron = 50
+		steel = 50
 		stone = 50
-		cement = 200
+		cement = 50
 	}
 	time = 365
 	visibility = yes
@@ -496,10 +500,10 @@ dye_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 40
-		iron = 50
+		machine_parts = 20
+		lumber = 50
 		stone = 50
-		cement = 200
+		cement = 20
 	}
 	time = 182
 	visibility = yes
@@ -518,9 +522,9 @@ liquor_distillery = {
 	goods_cost =
 	{
 		machine_parts = 40
-		iron = 50
+		steel = 50
 		stone = 50
-		cement = 200
+		cement = 40
 	}
 	time = 365
 	visibility = yes
@@ -539,9 +543,9 @@ winery = {
 	goods_cost =
 	{
 		machine_parts = 40
-		iron = 50
+		steel = 50
 		stone = 50
-		cement = 200
+		cement = 40
 	}
 	time = 365
 	visibility = yes
@@ -562,9 +566,9 @@ lumber_mill = {
 	goods_cost =
 	{
 		machine_parts = 20
-		iron = 50
+		timber = 50
 		stone = 50
-		cement = 200
+		cement = 20
 	}
 	time = 182
 	visibility = yes
@@ -582,9 +586,9 @@ fabric_factory = {
 	goods_cost =
 	{
 		machine_parts = 20
-		iron = 50
+		lumber = 50
 		stone = 50
-		cement = 200
+		cement = 20
 	}
 	time = 182
 	visibility = yes
@@ -602,9 +606,9 @@ wool_fabric_factory = {
 	goods_cost =
 	{
 		machine_parts = 20
-		iron = 50
+		lumber = 50
 		stone = 50
-		cement = 200
+		cement = 20
 	}
 	time = 182
 	visibility = yes
@@ -622,9 +626,9 @@ leather_tannery = {
 	goods_cost =
 	{
 		machine_parts = 20
-		iron = 50
+		lumber = 50
 		stone = 50
-		cement = 200
+		cement = 20
 	}
 	time = 182
 	visibility = yes
@@ -642,7 +646,7 @@ cement_factory = {
 	goods_cost =
 	{
 		machine_parts = 20
-		iron = 50
+		lumber = 50
 		stone = 50
 		timber = 200
 	}
@@ -662,9 +666,9 @@ glass_factory = {
 	goods_cost =
 	{
 		machine_parts = 40
-		iron = 50
+		lumber = 50
 		stone = 50
-		cement = 200
+		cement = 20
 	}
 	time = 182
 	visibility = yes
@@ -683,9 +687,9 @@ fertilizer_factory = {
 	goods_cost =
 	{
 		machine_parts = 40
-		iron = 50
+		lumber = 50
 		stone = 50
-		cement = 200
+		cement = 20
 	}
 	time = 182
 	visibility = yes
@@ -700,6 +704,7 @@ fort = {
 	cost = 25000
 	goods_cost =
 	{
+		iron = 50
 		lumber = 100
 		cement = 150
 		stone = 150
@@ -721,6 +726,7 @@ naval_base = {
 	cost = 15000
 	goods_cost =
 	{
+		iron = 50
 		stone = 100
 		lumber = 50
 		cement = 100
@@ -745,9 +751,11 @@ railroad = {
 	type = infrastructure
 	goods_cost =
 	{
-		timber = 50
-		cement = 100
-		stone = 50
+		iron = 50
+		steel = 80
+		lumber = 150
+		cement = 200
+		stone = 100
 		tar = 100
 	}
 	time = 720

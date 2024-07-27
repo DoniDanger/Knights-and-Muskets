@@ -11,13 +11,14 @@ plane = { #men-at-arms
 	priority = 45
 	max_strength = 3
 	default_organisation = 20
-	maximum_speed = 4.00
+	maximum_speed = 4.50
 	weighted_value = 10.0
 
 
 	#Building Costs
 	build_time = 120
 	build_cost = {
+		horses = 8
 		canned_food = 10
 		luxury_clothes = 10
 		infantry_arms = 20
@@ -26,10 +27,13 @@ plane = { #men-at-arms
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		infantry_arms = 0.05 # 0
-		canned_food = 0.07 #0.08
-		iron = 0.1 # 0.008
-		wine = 0.06 #0.015
+		horses = 0.14 # 0.008
+		infantry_arms = 0.24 # 0
+		canned_food = 0.16 #0.08
+		grain = 0.12 #0.08
+		luxury_clothes = 0.12 #0.08
+		iron = 0.18 # 0.008
+		wine = 0.18 #0.015
 	}
 	
 

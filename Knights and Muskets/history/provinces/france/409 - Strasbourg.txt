@@ -1,6 +1,6 @@
-owner = SGF
-controller = SGF
-add_core = SGF
+owner = ALS
+controller = ALS
+add_core = ALS
 add_core = GER
 add_core = NNN
 trade_goods = grain

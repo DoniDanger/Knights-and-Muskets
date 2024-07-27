@@ -222,32 +222,32 @@ promote_to =
 	
 			modifier = {
 				factor =  -50
-				not = { literacy = 0.50 }
+				not = { literacy = 0.2 }
 			}
 		group = {
 			modifier = {
 				factor = 2
-				literacy = 0.5
+				literacy = 0.2
 			}
 			modifier = {
 				factor = 2
-				literacy = 0.6
+				literacy = 0.25
 			}
 			modifier = {
 				factor = 2
-				literacy = 0.7
+				literacy = 0.3
 			}
 			modifier = {
 				factor = 2
-				literacy = 0.8
+				literacy = 0.35
 			}
 			modifier = {
 				factor = 2
-				literacy = 0.9
+				literacy = 0.4
 			}
 			modifier = {
 				factor = 2
-				literacy = 1
+				literacy = 0.45
 			}
 		}
 		group = {		

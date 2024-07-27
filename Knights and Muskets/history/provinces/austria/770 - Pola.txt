@@ -1,7 +1,8 @@
-owner = TRE
-controller = TRE
+owner = TIR
+controller = TIR
+add_core = TIR
 add_core = TRE
-add_core = GER
+add_core = NNN
 trade_goods = salt
 life_rating = 35
 1861.1.1 = { 

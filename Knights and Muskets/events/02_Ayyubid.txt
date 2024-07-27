@@ -6,10 +6,11 @@ country_event = {
 	major = yes
 
 	fire_only_once = yes
-	mean_time_to_happen = { days = 15 }
+	mean_time_to_happen = { days = 2 }
 
 	trigger = {
 		tag = SYR
+		month = 11
 		year = 1227
 	}
 
@@ -63,6 +64,20 @@ country_event = {
 		war = {
             target = SYR
             attacker_goal = { casus_belli = make_puppet  }
+        }
+		any_country = {
+            limit = {
+                tag = EGY
+				has_country_flag = egy_frederick_negotiations
+            }
+            any_owned = {
+                limit = {
+                    province_id = 917
+					province_id = 918
+					province_id = 27
+                }
+                secede_province = JER
+            }
         }
 		set_country_flag = al_ashraf_partition
 		ai_chance = { factor = 80 }

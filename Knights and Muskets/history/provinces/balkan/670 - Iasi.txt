@@ -1,10 +1,6 @@
-owner = CUM
-controller = CUM
-add_core = CUM
+owner = CMN
+controller = CMN
+add_core = CMN
 trade_goods = fruit
 life_rating = 35
 
-1861.1.1 = {
-	controller = ROM
-	owner = ROM
-}

@@ -1,0 +1,100 @@
+political_decisions = {
+	reunite_burgundian_kingdom = {
+		potential = {
+			OR = {
+				primary_culture = burgundian
+				primary_culture = provencal
+				primary_culture = arpitan
+			}
+			ARP = { exists = no }
+			NOT = { has_global_flag = reunited_burgundian_kingdom }
+		}
+		
+		allow = {
+			ARP = { exists = no }
+			war = no
+			owns = 2328
+			owns = 470
+			owns = 451
+			owns = 454
+			owns = 432
+			owns = 428
+			owns = 194
+			owns = 140
+		}
+		
+		effect = {
+			prestige = 25
+			change_tag = ARP
+			capital = 2328
+			add_accepted_culture = burgundian
+			add_accepted_culture = provencal
+			add_accepted_culture = arpitan
+			random_country = {
+                limit = {
+                    primary_culture = provencal
+                    vassal_of = THIS
+                }
+                annex_to = THIS
+            }
+			random_country = {
+                limit = {
+                    primary_culture = burgundian
+                    vassal_of = THIS
+                }
+                annex_to = THIS
+            }
+			random_country = {
+                limit = {
+                    primary_culture = arpitan
+                    vassal_of = THIS
+                }
+                annex_to = THIS
+            }
+			set_global_flag = reunited_burgundian_kingdom
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	dominate_franche_comte = {
+		potential = {
+			tag = BRG
+			NOT = { has_country_flag = dominated_franche_comte }
+		}
+		
+		allow = {
+			FCM = { exists = no }
+			war = no
+			owns = 432
+		}
+		
+		effect = {
+			prestige = 10
+			FCM = { all_core = { add_core = THIS }}
+			add_accepted_culture = arpitan
+			set_country_flag = dominated_franche_comte
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	dominate_county_champagne = {
+		potential = {
+			tag = BRG
+			NOT = { has_country_flag = dominated_county_champagne }
+		}
+		
+		allow = {
+			CMP = { exists = no }
+			war = no
+			owns = 406
+		}
+		
+		effect = {
+			prestige = 10
+			CMP = { all_core = { add_core = THIS }}
+			add_accepted_culture = champenois
+			set_country_flag = dominated_county_champagne
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

@@ -42,6 +42,7 @@ upper_house = {
 }
 
 set_country_flag = existing_country
+set_country_flag = hre_emperor
 
 # Technologies
 motte_and_bailey = 1

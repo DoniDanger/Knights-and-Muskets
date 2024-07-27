@@ -1,6 +1,6 @@
-owner = ENL
-controller = ENL
-add_core = ENL
+owner = BEA
+controller = BEA
+add_core = BEA
 add_core = AQT
 trade_goods = grain
 life_rating = 31

@@ -1,0 +1,99 @@
+political_decisions = {
+	unify_poland = {
+		potential = {
+			is_culture_group = polish_culture_group 
+			NOT = { has_global_flag = poland_reunified }
+		}
+		
+		allow = {
+			prestige = 25
+			war = no
+			PZN = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			KRA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			SLS = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			PZN = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			MAZ = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 25
+			change_tag = POL
+			any_country = {
+                limit = {
+                    is_culture_group = polish_culture_group 
+                    exists = yes
+					NOT = { tag = THIS }                   
+                    vassal_of = THIS                        
+                }
+                country_event = { id=11101 days=0 }
+            }
+			primary_culture = polish
+			add_accepted_culture = silesian
+			add_accepted_culture = polish
+			add_accepted_culture = kashubian
+			add_accepted_culture = western_slavic 
+			set_global_flag = poland_reunified
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

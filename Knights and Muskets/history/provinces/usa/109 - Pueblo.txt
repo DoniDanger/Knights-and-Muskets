@@ -2,5 +2,6 @@ owner = SGF
 controller = SGF
 add_core = SGF
 add_core = GER
+add_core = NNN
 trade_goods = cattle
 life_rating = 35

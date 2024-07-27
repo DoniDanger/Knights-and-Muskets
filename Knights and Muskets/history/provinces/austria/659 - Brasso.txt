@@ -1,5 +1,6 @@
-owner = SIE
-controller = SIE
+owner = BZN
+controller = BZN
 add_core = SIE
+add_core = BZN
 trade_goods = wool
 life_rating = 35

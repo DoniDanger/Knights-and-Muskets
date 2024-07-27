@@ -1,5 +1,8 @@
-
-
-
-trade_goods = fish
+owner = STY
+controller = STY
+add_core = AUS
+add_core = STY
+add_core = GER
+add_core = NNN
+trade_goods = cattle
 life_rating = 35

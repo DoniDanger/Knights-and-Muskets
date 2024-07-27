@@ -1,0 +1,69 @@
+political_decisions = {
+	realize_ottokar_ambition = {
+		potential = {	
+			tag = BOH
+			NOT = { has_country_flag = realized_ottokar_ambition }
+		}
+		
+		allow = {
+			war = no
+			owns = 108
+			owns = 619
+			owns = 616
+		}
+		
+		effect = {
+			prestige = 15
+			AUS = { all_core = { add_core = THIS } }
+			STY = { all_core = { add_core = THIS } }
+			BAV = { all_core = { add_core = THIS } }
+			add_accepted_culture = south_german
+			set_country_flag = realized_ottokar_ambition
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	dominate_upper_saxony = {
+		potential = {	
+			tag = BOH
+			NOT = { has_country_flag = dominated_upper_saxony }
+		}
+		
+		allow = {
+			war = no
+			owns = 108
+			owns = 619
+			owns = 623
+		}
+		
+		effect = {
+			prestige = 5
+			MEI = { all_core = { add_core = THIS } }
+			add_accepted_culture = upper_saxon
+			set_country_flag = dominated_upper_saxony
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	dominate_silesia = {
+		potential = {	
+			tag = BOH
+			NOT = { has_country_flag = dominated_silesia }
+		}
+		
+		allow = {
+			war = no
+			owns = 682
+			owns = 684
+			owns = 632
+		}
+		
+		effect = {
+			prestige = 5
+			SLS = { all_core = { add_core = THIS } }
+			add_accepted_culture = silesian
+			set_country_flag = dominated_silesia
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

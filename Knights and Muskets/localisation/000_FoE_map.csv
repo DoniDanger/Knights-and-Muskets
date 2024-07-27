@@ -76,7 +76,6 @@ PROV47;Korchev;;;;;;;;;;;;;;;;;;x;;;;
 PROV2594;Aqsheyh;;;;;;;;;;;;;;;;;;x;;;;
 PROV49;Orqapi;;;;;;;;;;;;;;;;;;x;;;;
 PROV2349;Nemet;;;;;;;;;;;;;;;;;;x;;;;
-PROV2350;Vlahahrad;;;;;;;;;;;;;;;;;;x;;;;
 PROV2393;Mohyliv;;;;;;;;;;;;;;;;;;x;;;;
 PROV2395;Balta;;;;;;;;;;;;;;;;;;x;;;;
 PROV2384;Braclav;;;;;;;;;;;;;;;;;;x;;;;
@@ -149,7 +148,7 @@ PROV3256;Mühlhausen;;;;;;;;;;;;;;;;;;x;;;;
 PROV3255;Naumburg;;;;;;;;;;;;;;;;;;x;;;;
 PROV552;Chósebuz;;;;;;;;;;;;;;;;;;x;;;;
 PROV551;Ruppin;;;;;;;;;;;;;;;;;;x;;;;
-PROV550;Premyslaw;;;;;;;;;;;;;;;;;;x;;;;	
+PROV550;Premyslaw;;;;;;;;;;;;;;;;;;x;;;;
 PROV548;Rujána;;;;;;;;;;;;;;;;;;x;;;;
 PROV547;Jomsbork;;;;;;;;;;;;;;;;;;x;;;;
 PROV3275;Khojeili;;;;;;;;;;;;;;;;;;x;;;;
@@ -253,6 +252,7 @@ PROV3341;Mustang;;;;;;;;;;;;;;;;;;x;;;;
 PROV3342;Dimasa;;;;;;;;;;;;;;;;;;x;;;;
 PROV827;Syrakus;;;;;;;;;;;;;;;;;;x;;;;
 PROV624;Vas;;;;;;;;;;;;;;;;;;x;;;;
+PROV618;Celovec;;;;;;;;;;;;;;;;;;x;;;;
 PROV1182;Saraychyq;;;;;;;;;;;;;;;;;;x;;;;
 PROV678;Hacidar;;;;;;;;;;;;;;;;;;x;;;;
 PROV969;Orlik;;;;;;;;;;;;;;;;;;x;;;;
@@ -628,6 +628,7 @@ PROV3562;Miwok;;;;;;;;;;;;;;;;;;x;;;;
 PROV3563;Kawaiisu;;;;;;;;;;;;;;;;;;x;;;;
 PROV3564;Yoruk;;;;;;;;;;;;;;;;;;x;;;;
 PROV859;Gallipoli;;;;;;;;;;;;;;;;;;x;;;;
+PROV860;Constantinopolis;;;;;;;;;;;;;;;;;;x;;;;
 PROV831;Larisa;;;;;;;;;;;;;;;;;;x;;;;
 PROV3611;Damghan;;;;;;;;;;;;;;;;;;x;;;; 
 PROV3612;Turkmensahra;;;;;;;;;;;;;;;;;;x;;;;
@@ -952,6 +953,8 @@ PROV3886;Medveda;;;;;;;;;;;;;;;;;;x;;;
 PROV3887;Kraljevo;;;;;;;;;;;;;;;;;;x;;;
 PROV3888;Cheb;;;;;;;;;;;;;;;;;;x;;;
 PROV3889;Valjevo;;;;;;;;;;;;;;;;;;x;;;
+PROV665;Severin;;;;;;;;;;;;;;;;;;x;;;
+PROV804;Dabar;;;;;;;;;;;;;;;;;;x;;;
 PROV3565;Hor;;;;;;;;;;;;;;;;;;x;;;
 PROV3566;Kanam;;;;;;;;;;;;;;;;;;x;;;
 PROV3567;Bathang;;;;;;;;;;;;;;;;;;x;;;
@@ -1035,6 +1038,7 @@ PROV1239;Bulandshahr;;;;;;;;;;;;;;;;;;x;;;
 PROV1236;Dehli;;;;;;;;;;;;;;;;;;x;;;
 PROV1242;Lakhnau;;;;;;;;;;;;;;;;;;x;;;
 PROV1241;Kanpur;;;;;;;;;;;;;;;;;;x;;;
+PROV616;Kisfehérvár;;;;;;;;;;;;;;;;;;x;;;
 PROV633;Pozsony;;;;;;;;;;;;;;;;;;x;;;
 PROV634;Trencsén;;;;;;;;;;;;;;;;;;x;;;
 PROV635;Nyitra;;;;;;;;;;;;;;;;;;x;;;
@@ -1059,7 +1063,6 @@ PROV779;Eszék;;;;;;;;;;;;;;;;;;x;;;
 PROV599;Andechs;;;;;;;;;;;;;;;;;;x;;;
 PROV3253;Rottweil;;;;;;;;;;;;;;;;;;x;;;
 PROV128;Ha'agizh;;;;;;;;;;;;;;;;;;x;;;
-PROV2148;Cuk-Son;;;;;;;;;;;;;;;;;;x;;;
 PROV3914;Hlohov;;;;;;;;;;;;;;;;;;x;;;
 PROV3915;Zahan;;;;;;;;;;;;;;;;;;x;;;
 PROV3916;Lehnice;;;;;;;;;;;;;;;;;;x;;;
@@ -1163,7 +1166,10 @@ PROV363;Panevežic;;;;;;;;;;;;;;;;;;x;;;
 PROV364;Šiaule;;;;;;;;;;;;;;;;;;x;;;
 PROV365;Telše;;;;;;;;;;;;;;;;;;x;;; 
 PROV676;Canqur;;;;;;;;;;;;;;;;;;x;;;
+PROV701;Hnezdno;;;;;;;;;;;;;;;;;;x;;; 
+PROV703;Krakov;;;;;;;;;;;;;;;;;;x;;; 
 PROV704;Novy Sad;;;;;;;;;;;;;;;;;;x;;; 
+PROV705;Premyšl;;;;;;;;;;;;;;;;;;x;;; 
 PROV710;Lenczica;;;;;;;;;;;;;;;;;;x;;;
 PROV712;Lodž;;;;;;;;;;;;;;;;;;x;;;
 PROV718;Mensk;;;;;;;;;;;;;;;;;;x;;;
@@ -1462,6 +1468,7 @@ PROV249;Vermandois;;;;;;;;;;;;;;;;;;x;;;;
 PROV66;Soissons;;;;;;;;;;;;;;;;;;x;;;;
 PROV67;Valois;;;;;;;;;;;;;;;;;;x;;;;
 PROV427;Meaux;;;;;;;;;;;;;;;;;;x;;;;
+PROV448;Clermont;;;;;;;;;;;;;;;;;;x;;;;
 PROV2626;Nemours;;;;;;;;;;;;;;;;;;x;;;;
 PROV2625;Montargis;;;;;;;;;;;;;;;;;;x;;;;
 PROV62;Sancerre;;;;;;;;;;;;;;;;;;x;;;;
@@ -1522,10 +1529,12 @@ PROV222;Pistoia;;;;;;;;;;;;;;;;;;x;;;;
 PROV226;L'Aquila;;;;;;;;;;;;;;;;;;x;;;;
 PROV227;Avellino;;;;;;;;;;;;;;;;;;x;;;;
 PROV757;Lucera;;;;;;;;;;;;;;;;;;x;;;;
+PROV753;Molise;;;;;;;;;;;;;;;;;;x;;;;
 PROV225;Alaiyye;;;;;;;;;;;;;;;;;;x;;;;
 PROV228;Akhisar;;;;;;;;;;;;;;;;;;x;;;;
 PROV224;Kutahya;;;;;;;;;;;;;;;;;;x;;;;
 PROV867;Honaz;;;;;;;;;;;;;;;;;;x;;;;
+PROV745;Pisa;;;;;;;;;;;;;;;;;;x;;;;
 PROV202;Guise;;;;;;;;;;;;;;;;;;x;;;;
 SIC_102;Abruzzi;x
 NET_382;Oversticht;x
@@ -1713,7 +1722,6 @@ PROV2738;Saint George's Channel;x
 PROV3086;Saint Paul Island;x
 PROV105;Rhaedestus;x
 PROV129;Vratsa;x
-PROV860;Constantinople;x
 PROV828;Adrianople;x
 PROV809;Sredets;x
 PROV858;Arcadiopolis;x
@@ -1817,3 +1825,31 @@ PROV506;Mursiyah;x
 PROV507;Lurqa;x
 PROV521;Lisboa;x
 PROV504;Qashtilyun;x
+PROV2148;Buzau;;;;;;;;;;;;;;;;;;x;;;;
+PROV2151;Targu Jiu;;;;;;;;;;;;;;;;;;x;;;;
+PROV2158;Arad;;;;;;;;;;;;;;;;;;x;;;;
+PROV2150;Nagyenyed;;;;;;;;;;;;;;;;;;x;;;;
+PROV2157;Zilah;;;;;;;;;;;;;;;;;;x;;;;
+PROV2155;Belényes;;;;;;;;;;;;;;;;;;x;;;;
+PROV2149;Borosjeno;;;;;;;;;;;;;;;;;;x;;;;
+PROV2160;Nagykikinda;;;;;;;;;;;;;;;;;;x;;;;
+PROV2159;Szabadka;;;;;;;;;;;;;;;;;;x;;;;
+PROV2242;Heves;;;;;;;;;;;;;;;;;;x;;;;
+PROV2246;Zólyom;;;;;;;;;;;;;;;;;;x;;;;
+PROV2245;Mateóc;;;;;;;;;;;;;;;;;;x;;;;
+PROV2154;Máramaros;;;;;;;;;;;;;;;;;;x;;;;
+PROV2153;Nyíregyháza;;;;;;;;;;;;;;;;;;x;;;;
+PROV2169;Boljevac;;;;;;;;;;;;;;;;;;x;;;;
+PROV2166;Jászvár;;;;;;;;;;;;;;;;;;x;;;;
+PROV2168;Jászberény;;;;;;;;;;;;;;;;;;x;;;;
+PROV2167;Ips;;;;;;;;;;;;;;;;;;x;;;;
+PROV2163;Steyr;;;;;;;;;;;;;;;;;;x;;;;
+PROV2274;Spittal;;;;;;;;;;;;;;;;;;x;;;;
+PROV2287;Pettau;;;;;;;;;;;;;;;;;;x;;;;
+PROV1979;Lynediws;;;;;;;;;;;;;;;;;;x;;;;
+PROV191;Luka;;;;;;;;;;;;;;;;;;x;;;;
+PROV235;Chelm;;;;;;;;;;;;;;;;;;x;;;;
+PROV2350;Dubrovytsia;;;;;;;;;;;;;;;;;;x;;;;
+PROV688;Opava;;;;;;;;;;;;;;;;;;x;;;;
+PROV245;Sulzbach;;;;;;;;;;;;;;;;;;x;;;;
+PROV2146;Ramnitz;;;;;;;;;;;;;;;;;;x;;;;

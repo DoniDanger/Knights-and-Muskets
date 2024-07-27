@@ -1,5 +1,6 @@
-owner = GLM
-controller = GLM
+owner = VLN
+controller = VLN
+add_core = VLN
 add_core = GLM
 add_core = UKR
 trade_goods = horses

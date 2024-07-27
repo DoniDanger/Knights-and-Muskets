@@ -1,0 +1,302 @@
+political_decisions = {
+	diploma_andreanum = {
+		potential = {	
+			tag = HUN
+			NOT = { has_country_flag = diploma_andreanum_enacted }
+		}
+		
+		allow = {
+			year = 1224
+			war = no
+			OR = {
+				657 = { in_sphere = THIS }
+				657 = { owned_by = HUN }
+				657 = { owned_by = SIE }
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			add_accepted_culture = siebenburger
+			SIE = { add_accepted_culture = siebenburger }
+			citizens_rights = all_voting_pops 
+			set_country_flag = diploma_andreanum_enacted
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	christianize_cuman_border_tribes = {
+		potential = {	
+			tag = HUN
+			NOT = { has_country_flag = christianization_of_cuman_tribes }
+		}
+		
+		allow = {
+			year = 1227
+			has_global_flag = bela_duke_transylvania
+			OR = {
+				659 = { owned_by = HUN }
+				659 = { owned_by = SIE }
+			}
+		}
+		
+		effect = {
+			relation = {
+				who = PAP
+				value = 50
+			}
+			diplomatic_influence = { who = CMN value = 200 }
+			set_country_flag = christianization_of_cuman_tribes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	confirm_cuman_priveliges = {
+		potential = {	
+			tag = HUN
+			NOT = { has_country_flag = cuman_priveliges_confirmed }
+		}
+		
+		allow = {
+			year = 1229
+			war = no
+			OR = {
+				659 = { owned_by = HUN }
+				659 = { owned_by = SIE }
+			}
+			has_country_flag = christianization_of_cuman_tribes
+		}
+		
+		effect = {
+			prestige = 5
+			add_accepted_culture = cuman
+			SIE = { add_accepted_culture = cuman }
+			set_country_flag = cuman_priveliges_confirmed
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	restoration_of_royal_rights = {
+		potential = {	
+			tag = HUN
+			NOT = { has_country_flag = restored_royal_rights }
+		}
+		
+		allow = {
+			war = no
+			has_global_flag = bela_iv_reign
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = SIE
+			SIE = { all_core = { add_core = THIS } }
+			upper_house_composition = party_appointed  #despotic dominance
+			wage_reform  = low_minimum_wage  #slightly influential
+			safety_regulations = low_safety  #slightly influential
+			trade_unions = no_trade_unions  #no council
+			religious_minorities = political_rights   
+			set_country_flag = restored_royal_rights
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	conquer_moravia = {
+		potential = {	
+			tag = HUN
+			NOT = { has_country_flag = conquered_moravia }
+		}
+		
+		allow = {
+			war = no
+			owns = 631
+			has_global_flag = bela_iv_reign
+		}
+		
+		effect = {
+			prestige = 5
+			MRV = { all_core = { add_core = THIS } }
+			set_country_flag = conquered_moravia
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	conquer_styria = {
+		potential = {	
+			tag = HUN
+			NOT = { has_country_flag = conquered_styria }
+		}
+		
+		allow = {
+			war = no
+			owns = 616
+			has_global_flag = bela_iv_reign
+		}
+		
+		effect = {
+			prestige = 5
+			STY = { all_core = { add_core = THIS } }
+			set_country_flag = conquered_styria
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	conquer_austria = {
+		potential = {	
+			tag = HUN
+			NOT = { has_country_flag = conquered_austria }
+		}
+		
+		allow = {
+			war = no
+			owns = 619
+			has_global_flag = bela_iv_reign
+		}
+		
+		effect = {
+			prestige = 5
+			AUS = { all_core = { add_core = THIS } }
+			set_country_flag = conquered_austria
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	integrate_austrians = {
+		potential = {	
+			tag = HUN
+			NOT = { has_country_flag = integrated_austrians }
+		}
+		
+		allow = {
+			war = no
+			year = 1244
+			AUS = { all_core = { owned_by = THIS } }
+			STY = { all_core = { owned_by = THIS } }
+			has_global_flag = bela_iv_reign
+		}
+		
+		effect = {
+			prestige = 5
+			add_accepted_culture = south_german
+			set_country_flag = integrated_austrians
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	integrate_croatia = {
+		potential = {	
+			tag = HUN
+			NOT = { has_country_flag = integrated_croatia }
+		}
+		
+		allow = {
+			war = no
+			year = 1244
+			CRO = { vassal_of = THIS }
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = CRO
+			CRO = { all_core = { add_core = THIS } }
+			add_accepted_culture = croat
+			set_country_flag = integrated_croatia
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	restore_hungarian_authority_bosnia = {
+		potential = {	
+			tag = HUN
+			NOT = { has_country_flag = hun_restored_authority_bosnia }
+		}
+		
+		allow = {
+			war = no
+			year = 1244
+			BOS = { all_core = { owned_by = THIS } }
+		}
+		
+		effect = {
+			prestige = 5
+			BOS = { all_core = { add_core = THIS } }
+			add_accepted_culture = bosniak
+			set_country_flag = hun_restored_authority_bosnia
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	integrate_halych = {
+		potential = {	
+			tag = HUN
+			NOT = { has_country_flag = integrated_halych }
+		}
+		
+		allow = {
+			war = no
+			year = 1244
+			HLY = { vassal_of = THIS }
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = HLY
+			HLY = { all_core = { add_core = THIS } }
+			add_accepted_culture = rusyn
+			set_country_flag = integrated_halych
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	integrate_slovaks = {
+		potential = {	
+			tag = HUN
+			NOT = { has_country_flag = integrated_slovak }
+		}
+		
+		allow = {
+			war = no
+			year = 1244
+			SLV = { all_core = { owned_by = THIS }}
+		}
+		
+		effect = {
+			prestige = 5
+			SLV = { all_core = { add_core = THIS } }
+			add_accepted_culture = slovak
+			set_country_flag = integrated_slovak
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	establish_banat_of_szoreny = {
+		potential = {	
+			tag = HUN
+			NOT = { has_country_flag = established_szoreny_banant }
+		}
+		
+		allow = {
+			war = no
+			BSV = { all_core = { owned_by = THIS }}
+		}
+		
+		effect = {
+			prestige = 5
+			#any_owned = {
+			#	limit = {
+			#		is_core = BSV
+			#	}
+			#	secede_province = BSV
+			#}
+			666 = { secede_province = BSV }
+			665 = { secede_province = BSV }
+			2151 = { secede_province = BSV }
+			BSV = { all_core = { add_core = THIS }}
+			create_vassal = BSV
+			create_alliance = BSV
+			diplomatic_influence = { who = BSV value = 400 }
+			set_country_flag = established_szoreny_banant
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

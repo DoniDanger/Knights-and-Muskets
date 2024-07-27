@@ -18,13 +18,15 @@ irregular = { #levies
 	#Building Costs
 	build_time = 45
 	build_cost = {
-		wool = 10
+		wool = 20
+		leather = 5
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		wool = 0.1
-		infantry_arms = 0.035 #0
+		grain = 0.025
+		wool = 0.12
+		infantry_arms = 0.006 #0
 	}
 	
 

@@ -11,7 +11,7 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 400 
+		size = 120 
 	}
 
 	officers = {
@@ -53,7 +53,7 @@
 	bureaucrats = {
 		culture = hungarian
 		religion = catholic
-		size = 125 
+		size = 525 
 	}
 
 	officers = {
@@ -88,339 +88,341 @@
 
 	clergymen = {
 		culture = hungarian
-		religion = protestant
+		religion = catholic
 		size = 60 
 	}
 
 	artisans = {
 		culture = hungarian
-		religion = protestant
+		religion = catholic
 		size = 1100
 	}
 
 	soldiers = {
 		culture = hungarian
-		religion = protestant
+		religion = catholic
 		size = 200 
 	}
 
 	farmers = {
 		culture = hungarian
-		religion = protestant
+		religion = catholic
 		size = 2740   
 	}
 }
 #Zalaegerszeg (860000/215000 POPS) #part of Hungary today
 639 = {
-	aristocrats = {
-		culture = south_german
-		religion = catholic
-		size = 450 
-	}
+    aristocrats = {
+        culture = hungarian
+        religion = catholic
+        size = 3960
+    }
 
-	clergymen = {
-		culture = south_german
-		religion = catholic
-		size = 300 
-	}
+    bureaucrats = {
+        culture = hungarian
+        religion = catholic
+        size = 300
+    }
 
-	bureaucrats = {
-		culture = south_german
-		religion = catholic
-		size = 400 
-	}
-	
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 1500
-	}
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 2955
+    }
 
-	soldiers = {
-		culture = south_german
-		religion = catholic
-		size = 300 
-	}
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 10000
+    }
 
-	farmers = {
-		culture = south_german
-		religion = catholic
-		size = 27450 
-	}
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 3000
+    }
 
-	aristocrats = {
-		culture = hungarian
-		religion = catholic
-		size = 3750 
-	}
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 3000
+    }
 
-	clergymen = {
-		culture = hungarian
-		religion = catholic
-		size = 1250
-	}
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 1265
+    }
 
-	artisans = {
-		culture = hungarian
-		religion = catholic
-		size = 6000
-	}
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 20000
+    }
 
-	soldiers = {
-		culture = hungarian
-		religion = catholic
-		size = 1250 
-	}
+    aristocrats = {
+        culture = croat
+        religion = catholic
+        size = 125
+    }
 
-	farmers = {
-		culture = hungarian
-		religion = catholic
-		size = 113750
-	}
+    clergymen = {
+        culture = croat
+        religion = catholic
+        size = 135
+    }
 
-	aristocrats = {
-		culture = hungarian
-		religion = protestant
-		size = 650 
-	}
+    artisans = {
+        culture = croat
+        religion = catholic
+        size = 585
+    }
 
-	clergymen = {
-		culture = hungarian
-		religion = protestant
-		size = 225 
-	}
+    soldiers = {
+        culture = croat
+        religion = catholic
+        size = 385
+    }
 
-	artisans = {
-		culture = hungarian
-		religion = protestant
-		size = 1750
-	}
+    farmers = {
+        culture = croat
+        religion = catholic
+        size = 2710
+    }
 
-	soldiers = {
-		culture = hungarian
-		religion = protestant
-		size = 300 
-	}
+    farmers = {
+        culture = croat
+        religion = catholic
+        size = 2000
+    }
 
-	farmers = {
-		culture = hungarian
-		religion = protestant
-		size = 29075  
-	}
+    aristocrats = {
+        culture = hungarian
+        religion = catholic
+        size = 490
+    }
 
-	clergymen = {
-		culture = hungarian
-		religion = jewish
-		size = 50 
-	}
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 285
+    }
 
-	artisans = {
-		culture = hungarian
-		religion = jewish
-		size = 2000
-	}
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 1980
+    }
 
-	soldiers = {
-		culture = hungarian
-		religion = jewish
-		size = 50 
-	}
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 340
+    }
 
-	farmers = {
-		culture = hungarian
-		religion = jewish
-		size = 2900   
-	}
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 24770
+    }
 
-	clergymen = {
-		culture = slovene
-		religion = catholic
-		size = 150 
-	}
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 50
+    }
 
-	artisans = {
-		culture = slovene
-		religion = catholic
-		size = 750
-	}
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 3900
+    }
 
-	soldiers = {
-		culture = slovene
-		religion = catholic
-		size = 150 
-	}
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 50
+    }
 
-	farmers = {
-		culture = slovene
-		religion = catholic
-		size = 13950 
-	}
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 4500
+    }
 
-	clergymen = {
-		culture = croat
-		religion = catholic
-		size = 50 
-	}
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 4360
+    }
 
-	artisans = {
-		culture = croat
-		religion = catholic
-		size = 350
-	}
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 52000
+    }
 
-	soldiers = {
-		culture = croat
-		religion = catholic
-		size = 75  
-	}
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 1205
+    }
 
-	farmers = {
-		culture = croat
-		religion = catholic
-		size = 6525 
-	}
 }
 #Baranya Region (232000) #see Croatia.txt for balance of Region
 #under the rule of Austria in 1836  
 #Pecs (232000/58000 POPS) 
 640 = {
-	aristocrats = {
-		culture = hungarian
-		religion = catholic
-		size = 650 
-	}
+    aristocrats = {
+        culture = hungarian
+        religion = catholic
+        size = 650
+    }
 
-	bureaucrats = {
-		culture = hungarian
-		religion = catholic
-		size = 100 
-	}
+    bureaucrats = {
+        culture = hungarian
+        religion = catholic
+        size = 100
+    }
 
-	officers = {
-		culture = hungarian
-		religion = catholic
-		size = 80 
-	}
+    officers = {
+        culture = hungarian
+        religion = catholic
+        size = 80
+    }
 
-	clergymen = {
-		culture = hungarian
-		religion = catholic
-		size = 250
-	}
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 250
+    }
 
-	artisans = {
-		culture = hungarian
-		religion = catholic
-		size = 1250
-	}
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 5250
+    }
 
-	soldiers = {
-		culture = hungarian
-		religion = catholic
-		size = 1100 
-	}
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 1100
+    }
 
-	farmers = {
-		culture = hungarian
-		religion = catholic
-		size = 21670
-	}
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 8400
+    }
 
-	clergymen = {
-		culture = hungarian
-		religion = protestant
-		size = 75  
-	}
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 75
+    }
 
-	artisans = {
-		culture = hungarian
-		religion = protestant
-		size = 250
-	}
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 250
+    }
 
-	soldiers = {
-		culture = hungarian
-		religion = protestant
-		size = 50   
-	}
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 1050
+    }
 
-	farmers = {
-		culture = hungarian
-		religion = protestant
-		size = 4625    
-	}
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 25625
+    }
 
-	aristocrats = {
-		culture = south_german
-		religion = catholic
-		size = 500 
-	}
+    aristocrats = {
+        culture = slavonian
+        religion = catholic
+        size = 500
+    }
 
-	bureaucrats = {
-		culture = south_german
-		religion = catholic
-		size = 75 
-	}
+    bureaucrats = {
+        culture = slavonian
+        religion = catholic
+        size = 75
+    }
 
-	officers = {
-		culture = south_german
-		religion = catholic
-		size = 30 
-	}
+    officers = {
+        culture = slavonian
+        religion = catholic
+        size = 30
+    }
 
-	clergymen = {
-		culture = south_german
-		religion = catholic
-		size = 175
-	}
+    clergymen = {
+        culture = slavonian
+        religion = catholic
+        size = 175
+    }
 
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 1100
-	}
+    artisans = {
+        culture = slavonian
+        religion = catholic
+        size = 1100
+    }
 
-	soldiers = {
-		culture = south_german
-		religion = catholic
-		size = 250  
-	}
+    soldiers = {
+        culture = slavonian
+        religion = catholic
+        size = 250
+    }
 
-	farmers = {
-		culture = south_german
-		religion = catholic
-		size = 18545
-	}
+    farmers = {
+        culture = slavonian
+        religion = catholic
+        size = 4400
+    }
 
-	officers = {
-		culture = croat
-		religion = catholic
-		size = 15 
-	}
+    officers = {
+        culture = croat
+        religion = catholic
+        size = 15
+    }
 
-	clergymen = {
-		culture = croat
-		religion = catholic
-		size = 75
-	}
+    clergymen = {
+        culture = croat
+        religion = catholic
+        size = 75
+    }
 
-	artisans = {
-		culture = croat
-		religion = catholic
-		size = 400
-	}
+    artisans = {
+        culture = croat
+        religion = catholic
+        size = 400
+    }
 
-	soldiers = {
-		culture = croat
-		religion = catholic
-		size = 75   
-	}
+    soldiers = {
+        culture = croat
+        religion = catholic
+        size = 75
+    }
 
-	farmers = {
-		culture = croat
-		religion = catholic
-		size = 7435 
-	}
+    farmers = {
+        culture = croat
+        religion = catholic
+        size = 3100
+    }
+
+    farmers = {
+        culture = slavonian
+        religion = catholic
+        size = 1235
+    }
+
+    farmers = {
+        culture = slavonian
+        religion = catholic
+        size = 7000
+    }
+
 }
 #Dunautul Region (1892000)  
 #under the rule of Austria in 1836  

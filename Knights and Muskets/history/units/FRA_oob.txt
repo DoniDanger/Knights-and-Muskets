@@ -50,8 +50,8 @@ CMP = {
 	influence_value = 10
 }
 BRG = {
-	value = 50	#relation
-	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	value = 75	#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 10
 }
 BOU = {

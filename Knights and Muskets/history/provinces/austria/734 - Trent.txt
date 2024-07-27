@@ -1,6 +1,6 @@
-owner = TIR
-controller = TIR
-add_core = TIR
+owner = TRT
+controller = TRT
+add_core = TRT
 add_core = NNN
 add_core = GER
 trade_goods = grain

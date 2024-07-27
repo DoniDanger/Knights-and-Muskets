@@ -1,0 +1,405 @@
+###EPIRUS###
+country_event = {
+	id = 136000
+	title = "Rebellion of the Royal Servants!"
+	desc = "136000_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = HUN
+		year = 1222
+		month = 4
+	}
+
+	option = {
+	    name = "Promise them rights, for there is no chance to resist."
+		prestige = -5
+		set_country_flag = royal_servants_revolt
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 136001
+	title = "Golden Bull of 1222"
+	desc = "136001_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = HUN
+		has_country_flag = royal_servants_revolt
+	}
+
+	option = {
+	    name = "There is no choice but to concede to the royal servants."
+		prestige = -10
+		upper_house_composition = appointed 
+		press_rights = censored_press 
+		wage_reform  = no_minimum_wage 
+		safety_regulations = no_safety 
+		political_parties = gerrymandering 
+		trade_unions = state_controlled 
+		set_country_flag = hun_golden_bull_1222
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+
+    id = 136002
+    title = "Expulsion of the Teutonic Knights"
+	desc = "136002_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = HUN
+		year = 1225
+		BZN = { exists = yes }
+	}
+
+    option = {
+        name = "If the Teutons serve the Pope, they can do it in another country."
+		prestige = 5
+		diplomatic_influence = { who = BZN value = -200 }
+		release_vassal = BZN
+		war = {
+            target = BZN
+            attacker_goal = { casus_belli = annex_core_country }
+			call_ally = yes
+        }
+		set_country_flag = hun_expel_teutonic_order
+		ai_chance = {
+			factor = 90
+        }
+	}
+}
+
+country_event = {
+
+    id = 136003
+    title = "Expansion of Transylvanian Domains"
+	desc = "136003_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = HUN
+		BZN = { any_core = { owned_by = THIS }}
+		SIE = { exists = yes }
+	}
+
+    option = {
+        name = "The Carpathian borderlands must be secure."
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = BZN
+					is_core = SZE
+				}
+			}
+			secede_province = SIE
+		}
+		BZN = { government = feudal_monarchy }
+		ai_chance = {
+			factor = 90
+        }
+	}
+}
+
+country_event = {
+
+    id = 136004
+    title = "Treaty with Leopold VI of Austria"
+	desc = "136004_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = HUN
+		year = 1225
+		month = 6
+		AUS = { exists = yes }
+	}
+
+    option = {
+        name = "His transgressions are forgiven, if he is so eager to pay for them."
+		prestige = 5
+		relation = {
+            who = AUS
+            value = 50
+        }
+		money = 50000
+		ai_chance = {
+			factor = 90
+        }
+	}
+}
+
+country_event = {
+
+    id = 136005
+    title = "Bela Appointed Duke of Transylvania"
+	desc = "136005_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = HUN
+		year = 1226
+		SIE = { exists = yes }
+	}
+
+    option = {
+        name = "May he protect Eastern Hungary from foreign invasion."
+		prestige = 5
+		set_global_flag = bela_duke_transylvania
+		ai_chance = {
+			factor = 90
+        }
+	}
+}
+
+country_event = {
+
+    id = 136006
+    title = "Campaign Against Mstislav Mstislavich"
+	desc = "136006_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = HUN
+		year = 1226
+		HLY = { exists = yes }
+		NOT = { truce_with = HLY }
+	}
+
+    option = {
+        name = "That bastard Mstislavich will relinquish his throne to my son."
+		prestige = 5
+		release_vassal = HLY
+		leave_alliance = HLY
+		diplomatic_influence = { who = HLY value = -200 }
+		war = {
+            target = HLY
+            attacker_goal = { casus_belli = make_puppet }
+			call_ally = yes
+        }
+		set_country_flag = hun_halych_claim_continue
+		ai_chance = {
+			factor = 95
+        }
+	}
+	
+	option = {
+        name = "The time has come to end our claims to Halych."
+		prestige = -10
+		release_vassal = HLY
+		leave_alliance = HLY
+		diplomatic_influence = { who = HLY value = -200 }
+		set_global_flag = hun_halych_claim_end
+		ai_chance = {
+			factor = 5
+        }
+	}
+}
+
+country_event = {
+	id = 136007
+	title = "Papal Censure over Heathen Advisors"
+	desc = "136007_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = HUN
+		year = 1231
+	}
+
+	option = {
+	    name = "These meddling bishops."
+		relation = {
+			who = PAP
+			value = -40
+		}
+		HUN = { 
+            any_pop = { limit = { has_pop_religion = catholic }}
+            militancy = 3
+        }
+		set_country_flag = hun_papal_censure
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+	id = 136008
+	title = "Golden Bull of 1231"
+	desc = "136008_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = HUN
+		has_country_flag = hun_papal_censure
+	}
+
+	option = {
+	    name = "Remove all heathens from the court, lest we sire Papal wrath."
+		prestige = -5
+		religious_minorities = no_rights  
+		relation = {
+			who = PAP
+			value = 40
+		}
+		HUN = { 
+            any_pop = { limit = { has_pop_religion = catholic }}
+            militancy = -3
+        }
+		set_country_flag = hun_golden_bull_1231
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+	id = 136009
+	title = "Crusade Against the Bulgarians"
+	desc = "136009_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = HUN
+		BUL = { exists = yes }
+		NOT = { truce_with = BUL } 
+		year = 1231
+	}
+
+	option = {
+	    name = "it is time to claim the lands of Ivan Asen II for ourselves."
+		prestige = 5
+		relation = {
+			who = PAP
+			value = 80
+		}
+		diplomatic_influence = { who = BSV value = -400 }
+		diplomatic_influence = { who = BUL value = -400 }
+        leave_alliance = BUL
+		casus_belli = {
+			target = BUL
+			type = acquire_substate_region
+			months = 12
+		}
+		war = {
+			target = BUL
+			attacker_goal = { casus_belli = acquire_substate_region country = BSV state_province_id = 2151 }
+			attacker_goal = { casus_belli = acquire_substate_region country = BSV state_province_id = 653 }
+			defender_goal = { casus_belli = humiliate }
+			call_ally = yes
+		}
+		set_global_flag = hungarian_invasion_bulgaria
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+	    name = "Now is not the time."
+		relation = {
+			who = PAP
+			value = -80
+		}
+		HUN = { 
+            any_pop = { limit = { has_pop_religion = catholic }}
+            militancy = 3
+        }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 136010
+	title = "Acsension of Bela IV"
+	desc = "136010_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 3 }
+
+	trigger = {
+		tag = HUN
+		month = 10
+		year = 1235
+	}
+
+	option = {
+	    name = "The traitors who tainted my father's rule shall all be purged."
+		prestige = 10
+		inherit = SIE
+		SIE = { all_core = { add_core = THIS } }
+		set_global_flag = bela_iv_reign
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+	id = 136011
+	title = "The Bosnian Crusade"
+	desc = "136011_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = HUN
+		BOS = { exists = yes }
+		NOT = { truce_with = BOS } 
+		year = 1235
+	}
+
+	option = {
+	    name = "The Bosnians will be put to the sword."
+		prestige = 5
+		relation = {
+			who = PAP
+			value = 80
+		}
+		diplomatic_influence = { who = BOS value = -400 }
+		release_vassal = BOS
+        leave_alliance = BOS
+		war = {
+            target = BOS
+            attacker_goal = { casus_belli = annex_core_country }
+			call_ally = yes
+        }
+		set_global_flag = hungarian_invasion_bosnia
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+	    name = "We have no resources to subdue the Bosnians."
+		relation = {
+			who = PAP
+			value = -80
+		}
+		HUN = { 
+            any_pop = { limit = { has_pop_religion = catholic }}
+            militancy = 3
+        }
+		diplomatic_influence = { who = BOS value = -400 }
+		release_vassal = BOS
+        leave_alliance = BOS
+		ai_chance = { factor = 0 }
+	}
+}
