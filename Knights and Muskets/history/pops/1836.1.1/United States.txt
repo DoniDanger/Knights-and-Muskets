@@ -2457,58 +2457,6 @@
 		size = 490
 	}
 }
-#Scranton (164000/41000 POPS)
-224 = {
-	clergymen = {
-		culture = yankee
-		religion = protestant
-		size = 300
-	}
-
-	artisans = {
-		culture = yankee
-		religion = protestant
-		size = 2050
-	}
-
-	soldiers = {
-		culture = yankee
-		religion = protestant
-		size = 425
-	}
-
-	farmers = {
-		culture = yankee
-		religion = protestant
-		size = 38225
-	}
-}
-#Williamsport (172000/43000 POPS)
-225 = {
-	clergymen = {
-		culture = yankee
-		religion = protestant
-		size = 325
-	}
-
-	artisans = {
-		culture = yankee
-		religion = protestant
-		size = 2150
-	}
-
-	soldiers = {
-		culture = yankee
-		religion = protestant
-		size = 425
-	}
-
-	farmers = {
-		culture = yankee
-		religion = protestant
-		size = 40100
-	}
-}
 #Harrisburg (292000/73000 POPS)
 226 = {
 	clergymen = {
@@ -2619,32 +2567,6 @@
 		culture = afro_american
 		religion = protestant
 		size = 2800
-	}
-}
-#Erie (108000/27000 POPS)
-228 = {
-	clergymen = {
-		culture = yankee
-		religion = protestant
-		size = 200
-	}
-
-	artisans = {
-		culture = yankee
-		religion = protestant
-		size = 1350
-	}
-
-	soldiers = {
-		culture = yankee
-		religion = protestant
-		size = 275
-	}
-
-	farmers = {
-		culture = yankee
-		religion = protestant
-		size = 25175
 	}
 }
 #New Jersey Region (340000)  

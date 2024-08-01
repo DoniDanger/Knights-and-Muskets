@@ -1,48 +1,48 @@
 #Army
 
 army = {
-    name = "I. Armee"
-    location = 619
+    name = "Army of Transylvania"
+    location = 657
 
     regiment = {
         name= "1.5. Infanteriedivision"
-        type = plane
-        home = 619
+        type = infantry
+        home = 654
     }
 
     regiment = {
         name= "3.5. Infanteriedivision"
-        type = plane
-        home = 619
+        type = infantry
+        home = 654
     }
 
     regiment = {
         name= "1.2. Kavalleriedivision"
         type = cuirassier
-        home = 621
+        home = 2150
     }
 
     regiment = {
-        name= "2.2. Kavalleriedivision"
-        type = infantry
-        home = 620
+        name= "Cuman Archers"
+        type = dragoon
+        home = 663
     }
 
     regiment = {
         name= "3.1. Infanteriedivision"
         type = artillery
-        home = 622
+        home = 2157
     }
 
     regiment = {
         name= "1.2. Infanteriedivision"
         type = artillery
-        home = 2167
+        home = 655
     }
 }
 
 leader = {
-    name = "Leopold IV"
+    name = "Bela IV"
     date = 1220.1.1
     type = land
     personality = defence_minus_1.1

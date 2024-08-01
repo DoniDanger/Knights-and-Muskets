@@ -41,13 +41,7 @@
     soldiers = {
         culture = slovak
         religion = catholic
-        size = 3000
-    }
-
-    soldiers = {
-        culture = slovak
-        religion = catholic
-        size = 690
+        size = 1200
     }
 
     farmers = {
@@ -125,7 +119,7 @@
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 1010
+        size = 410
     }
 
     farmers = {
@@ -1030,7 +1024,7 @@
     soldiers = {
         culture = hungarian
         religion = catholic
-        size = 1000
+        size = 600
     }
 
     farmers = {
@@ -1109,12 +1103,6 @@
         culture = rusyn
         religion = orthodox
         size = 600
-    }
-
-    soldiers = {
-        culture = rusyn
-        religion = orthodox
-        size = 500
     }
 
     artisans = {

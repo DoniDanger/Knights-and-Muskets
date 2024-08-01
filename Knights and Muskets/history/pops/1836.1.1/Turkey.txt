@@ -1014,7 +1014,71 @@
 		size = 4100
 	}
 }
-#Kutahya (112000/28000 POPS)
+#Kutahya (164000/41000 POPS)
+224 = {
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 375
+	}
+	
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 300
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 2050
+	}
+
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 425
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 38225
+	}
+}
+#Akhisar (108000/27000 POPS)
+228 = {
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 375
+	}
+	
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 200
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 1350
+	}
+
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 275
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 25175
+	}
+}
+#Honaz (112000/28000 POPS)
 867 = {
 	aristocrats = {
 		culture = greek
@@ -1604,6 +1668,38 @@
 		culture = greek
 		religion = orthodox
 		size = 28800
+	}
+}
+#Alaiyye (172000/43000 POPS)
+225 = {
+	aristocrats = {
+		culture = turkish
+		religion = sunni
+		size = 250
+	}
+	
+	clergymen = {
+		culture = turkish
+		religion = sunni
+		size = 325
+	}
+
+	artisans = {
+		culture = turkish
+		religion = sunni
+		size = 2150
+	}
+
+	soldiers = {
+		culture = turkish
+		religion = sunni
+		size = 425
+	}
+
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 40100
 	}
 }
 #Beyshehir (200000/50000 POPS)

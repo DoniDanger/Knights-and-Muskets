@@ -1,6 +1,7 @@
 capital = 659
 primary_culture = siebenburger
 culture = hungarian
+culture = romanian
 religion = catholic
 government = theocracy
 plurality = 25.0

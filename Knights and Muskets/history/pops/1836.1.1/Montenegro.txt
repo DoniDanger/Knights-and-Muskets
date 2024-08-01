@@ -99,55 +99,67 @@
 	clergymen = {
 		culture = serb
 		religion = orthodox
-		size = 450
+		size = 100
+	}
+	
+	bureaucrats = {
+		culture = serb
+		religion = orthodox
+		size = 50
 	}
 
 	artisans = {
 		culture = serb
 		religion = orthodox
-		size = 500
+		size = 50
+	}
+	
+	farmers = {
+		culture = serb
+		religion = orthodox
+		size = 1000
+	}
+	
+	farmers = {
+		culture = serb
+		religion = orthodox
+		size = 1000
 	}
 
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 11400
+		size = 10400
 	}
 
 	aristocrats = {
 		culture = bosniak
-		religion = catholic
+		religion = orthodox
 		size = 250
 	}
 
 	clergymen = {
 		culture = bosniak
-		religion = catholic
-		size = 125
+		religion = orthodox
+		size = 25
 	}
 
 	artisans = {
 		culture = bosniak
-		religion = catholic
-		size = 275
+		religion = orthodox
+		size = 75
 	}
 
 	soldiers = {
 		culture = bosniak
-		religion = catholic
+		religion = orthodox
 		size = 125
 	}
 
 	farmers = {
 		culture = bosniak
-		religion = catholic
-		size = 8825
-	}
-	
-	farmers = {
-		culture = croat
-		religion = catholic
-		size = 11825
+		religion = orthodox
+		size = 4825
 	}
 }
 #under the rule of Montenegro in 1836  
@@ -199,10 +211,16 @@
 #under the rule of Ottoman Empire in 1836  
 #Pljevlja (52000/13000 POPS) #now part of Montenegro
 2577 = {
+	soldiers = {
+		culture = serb
+		religion = orthodox
+		size = 520
+	}
+
 	clergymen = {
 		culture = serb
 		religion = orthodox
-		size = 275
+		size = 75
 	}
 
 	artisans = {
@@ -210,11 +228,17 @@
 		religion = orthodox
 		size = 250
 	}
+	
+	farmers = {
+		culture = serb
+		religion = orthodox
+		size = 3170
+	}
 
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 18175
+		size = 5175
 	}
 
 	aristocrats = {
@@ -226,13 +250,13 @@
 	clergymen = {
 		culture = bosniak
 		religion = orthodox
-		size = 150
+		size = 100
 	}
 
 	artisans = {
 		culture = bosniak
 		religion = orthodox
-		size = 400
+		size = 300
 	}
 
 	soldiers = {
@@ -244,7 +268,19 @@
 	farmers = {
 		culture = bosniak
 		religion = orthodox
-		size = 13650
+		size = 3000
+	}
+	
+	farmers = {
+		culture = bosniak
+		religion = orthodox
+		size = 650
+	}
+	
+	farmers = {
+		culture = serb
+		religion = orthodox
+		size = 200
 	}
 }
 #Dalmatia Region (64000) #see Croatia.txt for balance of region 

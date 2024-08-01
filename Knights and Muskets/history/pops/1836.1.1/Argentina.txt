@@ -50,38 +50,6 @@
 		size = 9825
 	}
 }
-#Junin (56000/14000 POPS)
-2349 = {
-	aristocrats = {
-		culture = platinean
-		religion = catholic
-		size = 275
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = catholic
-		size = 175
-	}
-
-	artisans = {
-		culture = platinean
-		religion = catholic
-		size = 1100
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = catholic
-		size = 7000
-	}
-
-	farmers = {
-		culture = platinean
-		religion = catholic
-		size = 5550
-	}
-}
 #Azul (12000/3000 POPS)
 2350 = {
 	aristocrats = {

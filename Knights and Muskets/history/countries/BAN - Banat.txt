@@ -1,6 +1,6 @@
 capital = 652
 primary_culture = hungarian
-culture = serbian
+culture = serb
 religion = catholic
 government = feudal_monarchy
 plurality = 0.0

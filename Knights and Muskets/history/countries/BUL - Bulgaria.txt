@@ -1,10 +1,10 @@
-capital = 809
+capital = 812
 primary_culture = bulgarian
 religion = orthodox
-government = absolute_monarchy
+government = empire
 plurality = 0.08
 nationalvalue = nv_might
-literacy = 0.4
+literacy = 0.16
 civilized = yes
 prestige = 20
 
@@ -84,5 +84,6 @@ medical_universities = 1
 #Inventions
 heavy_cavalry_activation = yes
 man_at_arms_activation = yes
+horse_archer_activation = yes
 
 oob = "BUL_oob.txt"

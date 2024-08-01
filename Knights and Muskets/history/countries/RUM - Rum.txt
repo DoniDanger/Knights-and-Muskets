@@ -77,4 +77,4 @@ nonstate_consciousness = 0
 
 schools = army_tech_school
 
-oob = "TUR_oob.txt"
+oob = "RUM_oob.txt"

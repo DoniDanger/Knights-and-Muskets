@@ -1,0 +1,33 @@
+#Army
+
+army = {
+    name = "Teutonic Knights"
+    location = 659
+
+    regiment = {
+        name= "Teutonic Knights"
+        type = plane
+        home = 659
+    }
+
+    regiment = {
+        name= "Teutonic Knights"
+        type = plane
+        home = 659
+    }
+
+    regiment = {
+        name= "Teutonic Knights"
+        type = cuirassier
+        home = 2146
+    }
+
+}
+
+leader = {
+    name = "Hermann von Salza"
+    date = 1220.1.1
+    type = land
+    personality = defence_minus_1.1
+    background = attack_1.1
+}

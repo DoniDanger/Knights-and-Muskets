@@ -1,0 +1,97 @@
+#Sphere of Influence
+BSV = {
+	value = 150
+	military_access = yes
+}
+EPI = {
+	value = 60		
+}
+HUN = {
+	value = 30		
+}
+LTN = {
+	value = 75		
+}
+
+leader = {
+	name = "Ivan Asen II"
+	type = land
+	date = "1212.1.1"
+	personality = openminded
+	background = natural_born_leader
+}
+
+leader = {
+	name = "Saevium"
+	type = land
+	date = "1212.1.1"
+	personality = skilled
+	background = butcher
+}
+
+army = {
+	name = "Army of Bulgaria"
+	location = 812
+	regiment = {
+		name= "The Tsar's Guards"
+		type = cuirassier
+		home = 812
+	}
+
+	regiment = {
+		name= "2nd Bulgarian Infantry"
+		type = plane
+		home = 810
+	}
+	
+	regiment = {
+		name= "3rd Bulgarian Infantry"
+		type = infantry
+		home = 799
+	}
+
+	regiment = {
+		name= "4th Bulgarian Infantry"
+		type = infantry
+		home = 813
+	}
+	
+	regiment = {
+		name= "5th Bulgarian Infantry"
+		type = infantry
+		home = 811
+	}
+
+	regiment = {
+		name= "1st Bulgarian Cavallery"
+		type = cavalry
+		home = 814
+	}
+	
+	regiment = {
+		name= "2nd Bulgarian Cavallery"
+		type = cavalry
+		home = 818
+	}
+	
+	regiment = {
+		name= "Cuman Mercenaries"
+		type = dragoon
+		home = 674
+	}
+	
+	regiment = {
+		name= "Cuman Mercenaries"
+		type = dragoon
+		home = 674
+	}
+	
+	regiment = {
+		name= "Cuman Archers"
+		type = artillery
+		home = 675
+	}
+}
+
+
+
