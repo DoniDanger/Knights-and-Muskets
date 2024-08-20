@@ -1,0 +1,103 @@
+political_decisions = {
+	dominate_rhone = {
+		potential = {	
+			tag = PRO
+			NOT = { has_country_flag = dominated_rhone }
+		}
+		
+		allow = {
+			war = no
+			owns = 451
+			owns = 454
+		}
+		
+		effect = {
+			prestige = 5
+			DAU = { all_core = { add_core = THIS } }
+			add_accepted_culture = arpitan
+			set_country_flag = dominated_rhone
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	marry_valois_anjou = {
+		potential = {	
+			tag = PRO
+			NOT = { has_country_flag = provencal_valois_marriage }
+		}
+		
+		allow = {
+			war = no
+			prestige = 20
+		}
+		
+		effect = {
+			create_alliance = FRA
+			set_country_flag = provencal_valois_marriage
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	seize_sicilian_throne = {
+		potential = {	
+			tag = PRO
+			NOT = { has_country_flag = seized_sicilian_throne }
+		}
+		
+		allow = {
+			war = no
+			owns = 762
+			owns = 753
+			owns = 754
+		}
+		
+		effect = {
+			prestige = 5
+			change_tag = NAP
+			add_accepted_culture = provencal
+			add_accepted_culture = south_italian
+			set_country_flag = seized_sicilian_throne
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	destroy_sicilian_rebels = {
+		potential = {	
+			tag = NAP
+			NOT = { has_country_flag = destroyed_sicilian_rebels }
+		}
+		
+		allow = {
+			war = no
+			SYC = { exists = no }
+			owns = 762
+		}
+		
+		effect = {
+			prestige = 5
+			add_accepted_culture = sicilian
+			set_country_flag = destroyed_sicilian_rebels
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	conquer_albanian_kingdom = {
+		potential = {	
+			tag = NAP
+			NOT = { has_country_flag = conquer_albanian_kingdom }
+		}
+		
+		allow = {
+			war = no
+			owns = 851
+		}
+		
+		effect = {
+			prestige = 5
+			ALB = { all_core = { add_core = THIS } }
+			add_accepted_culture = albanian
+			set_country_flag = conquer_albanian_kingdom
+		}
+		ai_will_do = { factor = 1 }
+	}
+}
