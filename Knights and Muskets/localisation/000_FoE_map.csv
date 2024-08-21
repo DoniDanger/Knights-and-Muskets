@@ -1,5 +1,4 @@
 PROV183;Bonn;;;;;;;;;;;;;;;;;;x;;;;
-PROV544;Schwerin;;;;;;;;;;;;;;;;;;x;;;
 PROV190;Zsolna;;;;;;;;;;;;;;;;;;x;;;;
 PROV164;Rawa;;;;;;;;;;;;;;;;;;x;;;;
 PROV159;Sierac;;;;;;;;;;;;;;;;;;x;;;;
@@ -149,8 +148,6 @@ PROV3255;Naumburg;;;;;;;;;;;;;;;;;;x;;;;
 PROV552;Chósebuz;;;;;;;;;;;;;;;;;;x;;;;
 PROV551;Ruppin;;;;;;;;;;;;;;;;;;x;;;;
 PROV550;Premyslaw;;;;;;;;;;;;;;;;;;x;;;;
-PROV548;Rujána;;;;;;;;;;;;;;;;;;x;;;;
-PROV547;Jomsbork;;;;;;;;;;;;;;;;;;x;;;;
 PROV3275;Khojeili;;;;;;;;;;;;;;;;;;x;;;;
 PROV3276;Zabol;;;;;;;;;;;;;;;;;;x;;;;
 PROV3277;Zaranj;;;;;;;;;;;;;;;;;;x;;;;
@@ -189,7 +186,6 @@ PROV3306;Lycksele;;;;;;;;;;;;;;;;;;x;;;;
 PROV3307;Jorvik;;;;;;;;;;;;;;;;;;x;;;;
 PROV3308;Suðreyjar;;;;;;;;;;;;;;;;;;x;;;;
 PROV698;Memelis;;;;;;;;;;;;;;;;;;x;;;;
-PROV546;Bursztbork;;;;;;;;;;;;;;;;;;x;;;;
 PROV3309;Shupashkar;;;;;;;;;;;;;;;;;;x;;;;
 PROV3310;Arzamas;;;;;;;;;;;;;;;;;;x;;;;
 PROV2468;Henriksby;;;;;;;;;;;;;;;;;;x;;;;
@@ -1191,7 +1187,6 @@ PROV954;Vinnycja;;;;;;;;;;;;;;;;;;x;;;
 PROV942;Mozyr';;;;;;;;;;;;;;;;;;x;;;
 PROV677;Orhiiv;;;;;;;;;;;;;;;;;;x;;;
 PROV1019;Valuyki;;;;;;;;;;;;;;;;;;x;;;
-PROV533;Tønning;;;;;;;;;;;;;;;;;;x;;;
 PROV370;Flensborg;;;;;;;;;;;;;;;;;;x;;;
 PROV1042;Öfö;;;;;;;;;;;;;;;;;;x;;;
 PROV2679;Khvod;;;;;;;;;;;;;;;;;;x;;;
@@ -1595,11 +1590,9 @@ PROV165;Czluchów;x
 PROV167;Kromeríž;
 PROV168;Elmshorn;x
 PROV169;Brandenburg;x
-PROV172;Rostock;x
 PROV173;Legnica;x
 PROV174;Jawor;x
 PROV178;Plauen;x
-PROV179;Wismar;x
 PROV180;Halle;x
 PROV181;Nordhorn;x
 PROV182;Essen;x
@@ -1853,3 +1846,19 @@ PROV2350;Dubrovytsia;;;;;;;;;;;;;;;;;;x;;;;
 PROV688;Opava;;;;;;;;;;;;;;;;;;x;;;;
 PROV245;Sulzbach;;;;;;;;;;;;;;;;;;x;;;;
 PROV2146;Ramnitz;;;;;;;;;;;;;;;;;;x;;;;
+PROV372;Roskilde;x
+PROV2557;Ribe;x
+PROV368;Ringkøbing;x
+PROV334;Lund;x
+PROV335;Sølvesborg;x
+PROV533;Helgoland;x
+PROV548;Strzalów;x
+PROV172;Roztoka;x
+PROV179;Wyszomierz;x
+PROV544;Schwerin;x
+PROV547;Naklo;x
+PROV353;Øsel;x
+PROV253;Færøerne;x
+PROV252;Island;x
+PROV385;Ljouwert;x
+PROV383;Grins;x
