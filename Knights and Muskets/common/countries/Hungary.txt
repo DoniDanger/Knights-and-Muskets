@@ -1,7 +1,7 @@
 color = { 187 70 70 }
 #color = { 250 120 90 }
 #color = { 152  85  92 }
-graphical_culture = AustriaHungaryGC
+graphical_culture = HungarianGC
 
 party = {
     name = "Royalist"

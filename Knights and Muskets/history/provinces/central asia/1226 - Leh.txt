@@ -1,6 +1,5 @@
-owner = KAS
-controller = KAS
-add_core = KAS
+owner = LAD
+controller = LAD
 add_core = LAD
 trade_goods = wool
 life_rating = 35

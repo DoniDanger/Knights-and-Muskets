@@ -1,0 +1,87 @@
+SIC = { truce_until = 1225.4.1 }
+
+army = {
+	name = "Esercito Pontificio"
+	
+	leader = {
+		name = "Filippo Resta"
+		date = 1212.1.1
+		type = land
+		personality = doughty
+		background = old_school
+		prestige = 0.2
+	}
+	
+	location = 749
+	regiment = {
+		name= "1. Knights Pontifici"
+		type = cuirassier
+		home = 2074
+	}
+
+	regiment = {
+		name= "2. Knights Pontifici"
+		type = plane
+		home = 101
+	}
+	
+	regiment = {
+		name= "1. Zuavi Pontifici"
+		type = infantry
+		home = 749
+	}
+
+	regiment = {
+		name= "2. Zuavi Pontifici - Sancti Patricii"
+		type = infantry
+		home = 750
+	}
+
+	regiment = {
+		name= "3. Zuavi Pontifici - Sancti Patricii"
+		type = infantry
+		home = 2574
+	}
+	
+	regiment = {
+		name= "4. Zuavi Pontifici"
+		type = artillery
+		home = 751
+	}
+	
+	regiment = {
+		name= "5. Zuavi Pontifici"
+		type = artillery
+		home = 749
+	}
+}
+
+army = {
+	name = "Esercito di Romagna"
+	location = 218
+	
+	regiment = {
+		name= "1. Zuavi Pontifici - Sancti Pauli"
+		type = infantry
+		home = 218
+	}
+	
+	regiment = {
+		name= "2. Zuavi Pontifici - Sancti Pauli"
+		type = infantry
+		home = 134
+	}
+	
+	regiment = {
+		name= "3. Zuavi Pontifici - Sancti Pauli"
+		type = artillery
+		home = 752
+	}
+	
+	regiment = {
+		name= "3. Zuavi Pontifici - Sancti Pauli"
+		type = cavalry
+		home = 96
+	}
+}
+

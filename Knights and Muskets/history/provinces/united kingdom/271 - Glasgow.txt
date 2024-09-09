@@ -2,11 +2,11 @@ owner = SCO
 controller = SCO
 add_core = SCO
 trade_goods = coal
-naval_base = 2 
+naval_base = 1
 life_rating = 35
 state_building = {
 	level = 1
-	building = steamer_shipyard
+	building = clipper_shipyard
 	upgrade = yes
 }
 state_building = {
@@ -18,19 +18,4 @@ state_building = {
 	level = 1
 	building = cement_factory
 	upgrade = yes
-}
-
-1861.1.1 = {
-	state_building = {
-		level = 2
-		building = steel_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = steamer_shipyard
-		upgrade = yes
-	}
-
-	railroad = 3 
 }

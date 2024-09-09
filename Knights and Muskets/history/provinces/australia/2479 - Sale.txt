@@ -1,5 +1,7 @@
-
-add_core = AST
-trade_goods = grain
-life_rating = 30
-colonial = 2
+owner = WMG
+controller = WMG
+add_core = CHG
+add_core = WMG
+add_core = XIN
+trade_goods = wool
+life_rating = 35

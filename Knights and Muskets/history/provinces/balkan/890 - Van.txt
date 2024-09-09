@@ -1,7 +1,6 @@
-owner = GEO
-controller = GEO
-add_core = GEO
+owner = AHL
+controller = AHL
+add_core = AHL
 add_core = ARM
-add_core = RUM
 trade_goods = iron
 life_rating = 35

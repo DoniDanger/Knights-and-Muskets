@@ -1,5 +1,5 @@
 owner = RUM
 controller = RUM
 add_core = RUM
-trade_goods = fish
+trade_goods = stone
 life_rating = 35

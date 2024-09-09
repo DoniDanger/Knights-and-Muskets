@@ -1,14 +1,15 @@
 ###LOMBARD LEAGUE###
 country_event = {
 	id = 134000
-	title = "Reformation of the Lombard League"
+	title = "Leader of the Lombard League"
 	desc = "134000_DESC"
 	fire_only_once = yes
 	is_triggered_only = yes
-	major = yes
-
+	
 	option = {
 	    name = "The Emperor will not conquer Northern Italy."
+		prestige = 10
+		set_country_flag = lombard_league_leader
 		ai_chance = { factor = 90 }
 	}
 }
@@ -21,8 +22,17 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-	    name = "We must check the control of the Emperor."
-		THIS = { all_core = { add_core = LOM }}
+	    name = "We must check the power of the Emperor."
+		set_country_flag = lombard_league_member
+		any_owned = {
+				limit = {
+					is_core = THIS 
+					is_core = ITA
+					NOT = { is_core = PAP }
+				}
+				add_core = LOM
+				add_core = IT1
+		}
 		FROM = {
                 inherit = THIS
         }
@@ -31,6 +41,349 @@ country_event = {
 	
 	option = {
 	    name = "We will not sacrifice ourselves."
+		relation = { who = LOM value = -20 }
 		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 134002
+	title = "Disintegration of the Lombard League"
+	desc = "134002_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+	    name = "The League is finished."
+		set_global_flag = lombard_league_destroyed
+		any_owned = {
+			limit = {
+				is_core = IT1
+				is_core = MOD
+			}
+			secede_province = MOD
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 #core marking that province as having been inherited
+				is_core = PAR #one of the tags that make up the league
+			}
+			secede_province = PAR
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = BSC 
+			}
+			secede_province = BSC
+			remove_core = IT1
+		} 
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = BGM 
+			}
+			secede_province = BGM
+			remove_core = IT1
+		} 
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = VER 
+			}
+			secede_province = VER
+			remove_core = IT1
+		} 
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = MLN 
+			}
+			secede_province = MLN
+			remove_core = IT1
+		} 
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = GEN 
+			}
+			secede_province = GEN
+			remove_core = IT1
+		} 
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = ASD 
+			}
+			secede_province = ASD
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = ASD 
+			}
+			secede_province = ASD
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = PVI 
+			}
+			secede_province = PVI
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = CRM 
+			}
+			secede_province = CRM
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = MFT 
+			}
+			secede_province = MFT
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = ATI 
+			}
+			secede_province = ATI
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = ABA 
+			}
+			secede_province = ABA
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = NVR 
+			}
+			secede_province = NVR
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = NLI 
+			}
+			secede_province = NLI
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = CMO 
+			}
+			secede_province = CMO
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = RVN 
+			}
+			secede_province = RVN
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = FAE 
+			}
+			secede_province = FAE
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = FLR 
+			}
+			secede_province = FLR
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = PIS 
+			}
+			secede_province = FLR
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = TUS 
+			}
+			secede_province = TUS
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = SIE 
+			}
+			secede_province = SIE
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = URB 
+			}
+			secede_province = URB
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = RMG 
+			}
+			secede_province = RMG
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = ANC 
+			}
+			secede_province = ANC
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = AQU 
+			}
+			secede_province = AQU
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = VEN 
+			}
+			secede_province = VEN
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = SLZ 
+			}
+			secede_province = SLZ
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = SVY 
+			}
+			secede_province = SVY
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = LUC 
+			}
+			secede_province = LUC
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = BLG 
+			}
+			secede_province = BLG
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = FRR 
+			}
+			secede_province = FRR
+			remove_core = IT1
+		}
+		any_owned = {
+			limit = {
+				is_core = IT1 
+				is_core = MNT 
+			}
+			secede_province = MNT
+			remove_core = IT1
+		}
+		change_tag_no_core_switch = GBL
+		any_owned = {
+			limit = {
+				is_core = ITA 
+			}
+			add_core = GBL
+		}
+		clr_country_flag = guelph_supporter
+		set_country_flag = ghibelline_supporter
+		FROM = { create_vassal = THIS }
+		FROM = { diplomatic_influence = { who = THIS value = 400 } }
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 134003
+	title = "Diet of Cremona"
+	desc = "134003_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		tag = SIC
+		year = 1225
+		has_global_flag = sixth_crusade_forming
+		NOT = { has_global_flag = cremona_diet_summoned }
+	}
+
+	option = {
+	    name = "North Italy must fall back into the fold of the empire."
+		set_global_flag = cremona_diet_summoned
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 134004
+	title = "Incorporation into Lombard League"
+	desc = "134003_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		tag = LOM
+		has_global_flag = lombard_league_centralized
+	}
+
+	option = {
+	    name = "The Emperor will not divide us."
+		any_owned = { limit = { is_core = ITA NOT = { is_core = PAP } } remove_core = IT1 add_core = LOM }
+		ai_chance = { factor = 100 }
 	}
 }

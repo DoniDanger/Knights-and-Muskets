@@ -2,5 +2,5 @@ owner = HUN
 controller = HUN
 add_core = HUN
 add_core = SLV
-trade_goods = precious_metal
+trade_goods = fish
 life_rating = 35

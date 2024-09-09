@@ -1,5 +1,6 @@
-owner = PER
-controller = PER
+owner = FRS
+controller = FRS
+add_core = FRS
 add_core = PER
 trade_goods = spices
 life_rating = 35

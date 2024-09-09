@@ -1,2 +1,6 @@
-trade_goods = grain
-life_rating = 30
+owner = LGD
+controller = LGD
+add_core = LGD
+add_core = SRD
+trade_goods = fish
+life_rating = 35

@@ -701,7 +701,7 @@ fertilizer_factory = {
 
 fort = {      
 	type = fort
-	cost = 25000
+	cost = 45000
 	goods_cost =
 	{
 		iron = 50
@@ -723,7 +723,7 @@ fort = {
 
 naval_base = {    
 	type = naval_base
-	cost = 15000
+	cost = 30000
 	goods_cost =
 	{
 		iron = 50
@@ -749,6 +749,7 @@ naval_base = {
        
 railroad = {   
 	type = infrastructure
+	cost = 80000
 	goods_cost =
 	{
 		iron = 50

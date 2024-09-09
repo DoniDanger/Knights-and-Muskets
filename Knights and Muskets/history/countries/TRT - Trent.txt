@@ -1,11 +1,11 @@
 capital = 734
-primary_culture = north_italian
+primary_culture = venetian
 culture = south_german
 religion = catholic
 government = feudal_monarchy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.4
+literacy = 0.24
 civilized = yes
 
 # Political reforms

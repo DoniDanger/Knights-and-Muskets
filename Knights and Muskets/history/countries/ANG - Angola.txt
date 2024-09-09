@@ -1,5 +1,5 @@
 capital = 444
-primary_culture = portuguese
+primary_culture = poitevin
 culture = bakongo
 culture = ovimbundu
 religion = catholic

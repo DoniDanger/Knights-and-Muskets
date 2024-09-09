@@ -1,6 +1,6 @@
-owner = GLN
-controller = GLN
-add_core = GLN
+owner = MZN
+controller = MZN
+add_core = MZN
 add_core = PER
 trade_goods = wool
 life_rating = 35

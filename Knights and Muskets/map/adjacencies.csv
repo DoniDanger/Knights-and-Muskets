@@ -2,9 +2,6 @@
 #
 # American Straits
 #
-13;14;sea;3011;0;Vancouver Crossing
-14;78;sea;3011;0;Vancouver Crossing
-62;75;sea;2946;0;Straits of Belle Isle
 68;70;sea;2944;0;Cabot Strait
 2237;2269;sea;2975;0;Strait of Trinidad
 2334;2335;sea;2992;0;Strait of Magellan
@@ -18,7 +15,13 @@
 #
 # European Straits  
 #
-254;271;sea;2737;0;Irish Strait
+254;2082;sea;2737;0;Irish Strait
+254;2083;sea;2737;0;Irish Strait
+2083;304;sea;2737;0;Mann Strait
+2082;2080;sea;2736;0;Hebrides Strait
+2005;2080;sea;2736;0;Hebrides Strait
+2080;2079;sea;2736;0;Hebrides Strait
+1990;1991;sea;2735;0;Hebrides Strait
 324;348;sea;2706;0;Aland Strait #Uppsala to Aland #these were in V1
 334;372;sea;0;0;Öresund
 335;374;sea;2710;0;Bornholmsfärjan
@@ -29,18 +32,19 @@
 371;373;sea;0;0;Fyn-Jylland
 2557;373;sea;0;0;Fyn-JyllandTwo
 375;385;sea;2722;0;Bay of Holland
-418;419;sea;2725;0;Channel Islands Strait
-473;766;sea;2751;0;Sassari Strait
+46;419;sea;2725;0;Channel Islands Strait
+2006;766;sea;2751;0;Sassari Strait
 826;853;sea;2764;0;Corfu Strait
 838;845;sea;2772;0;Cyclades Strait
 843;869;sea;2772;0;Izmir Strait
 859;865;sea;0;0;Dardanelles Strait
 860;861;sea;0;0;Golden Horn
 759;763;sea;0;0;Strait of Messina
+2014;854;sea;0;0;Strait of Malta
 837;827;sea;2765;0;Ionian Islands Strait
 966;1049;sea;2776;0;Strait of Azov
 1687;517;sea;0;0;Strait of Gibraltar
-301;400;sea;2724;0;Calais-Canterbury
+301;92;sea;2724;0;Calais-Canterbury
 
 #
 # Asian Straits
@@ -105,6 +109,49 @@
 1225;1594;impassable;0;0;scary mountain
 1226;1594;impassable;0;0;scary mountain
 
+### Alps ###
+465;208;impassable;0;0;scary mountain
+2330;208;impassable;0;0;scary mountain
+2330;2323;impassable;0;0;scary mountain
+2330;97;impassable;0;0;scary mountain
+721;97;impassable;0;0;scary mountain
+721;127;impassable;0;0;scary mountain
+2401;127;impassable;0;0;scary mountain
+192;127;impassable;0;0;scary mountain
+195;127;impassable;0;0;scary mountain
+727;215;impassable;0;0;scary mountain
+728;215;impassable;0;0;scary mountain
+734;215;impassable;0;0;scary mountain
+734;611;impassable;0;0;scary mountain
+735;119;impassable;0;0;scary mountain
+615;119;impassable;0;0;scary mountain
+
+### Pyrenees ###
+2578;217;impassable;0;0;scary mountain
+2578;2307;impassable;0;0;scary mountain
+2307;2308;impassable;0;0;scary mountain
+457;464;impassable;0;0;scary mountain
+496;2139;impassable;0;0;scary mountain
+
+### Caucasus ###
+1095;13;impassable;0;0;scary mountain
+1095;39;impassable;0;0;scary mountain
+1095;28;impassable;0;0;scary mountain
+28;38;impassable;0;0;scary mountain
+1056;38;impassable;0;0;scary mountain
+1056;1092;impassable;0;0;scary mountain
+1054;1090;impassable;0;0;scary mountain
+1055;1090;impassable;0;0;scary mountain
+1055;48;impassable;0;0;scary mountain
+1053;48;impassable;0;0;scary mountain
+1104;2596;impassable;0;0;scary mountain
+1102;2596;impassable;0;0;scary mountain
+1052;2596;impassable;0;0;scary mountain
+1052;12;impassable;0;0;scary mountain
+
+### Anatolia ###
+80;83;impassable;0;0;scary mountain
+80;886;impassable;0;0;scary mountain
 
 #
 # The canals  

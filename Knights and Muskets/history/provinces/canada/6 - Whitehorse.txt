@@ -1,5 +1,7 @@
-owner = MSL
-controller = MSL
+owner = JAZ
+controller = JAZ
+add_core = JAZ
 add_core = MSL
+add_core = IRQ
 trade_goods = grain
 life_rating = 35

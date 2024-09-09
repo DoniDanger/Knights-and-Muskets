@@ -1,5 +1,6 @@
-owner = MSL
-controller = MSL
+owner = AHL
+controller = AHL
+add_core = AHL
 add_core = MSL
 add_core = ARM
 add_core = IRQ

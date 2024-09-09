@@ -23,3 +23,4 @@ Generic
 LatinGC
 PolishGC
 ByzantineGC
+HungarianGC

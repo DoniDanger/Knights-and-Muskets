@@ -1,5 +1,5 @@
 capital = 411
-primary_culture = french
+primary_culture = lorrain
 religion = catholic
 government = absolute_monarchy
 plurality = 25.0

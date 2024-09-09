@@ -1,5 +1,5 @@
-owner = ENL
-controller = ENL
-add_core = ENL
+owner = LOI
+controller = LOI
+add_core = LOI
 trade_goods = fish
 life_rating = 35

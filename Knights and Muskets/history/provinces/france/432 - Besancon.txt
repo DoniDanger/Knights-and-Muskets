@@ -3,6 +3,5 @@ controller = FCM
 add_core = FCM
 add_core = ARP
 add_core = NNN
-trade_goods = salt
-life_rating = 30
-1861.1.1 = { railroad = 3 }
+trade_goods = apiculture
+life_rating = 35

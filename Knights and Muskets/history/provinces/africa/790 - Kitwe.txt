@@ -1,2 +1,6 @@
-trade_goods = tobacco
+owner = ARB
+controller = ARB
+add_core = ARB
+add_core = SRD
+trade_goods = grain
 life_rating = 35

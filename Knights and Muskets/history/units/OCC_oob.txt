@@ -1,0 +1,84 @@
+CRC = { value = -200 }
+PAP = { value = -150 }
+FRA = { value = -160 }
+ENL = { value = 80 }
+ARN = { value = 90 }
+
+army = {
+    name = "Esercito Toulouse"
+    location = 455
+    regiment = {
+		name= "Occitan Guards Cavalry"
+		type = cavalry
+		home = 2286
+	}
+	regiment = {
+		name= "Occitan Guards Cavalry"
+		type = cavalry
+		home = 456
+	}
+	regiment = {
+		name= "English Mercenaries"
+		type = plane
+		home = 455
+	}
+	regiment = {
+		name= "Occitan Infantry"
+		type = infantry
+		home = 455
+	}
+	regiment = {
+		name= "Occitan Infantry"
+		type = infantry
+		home = 450
+	}
+	regiment = {
+		name= "Occitan Archers"
+		type = artillery
+		home = 462
+	}
+	regiment = {
+		name= "Occitan Archers"
+		type = artillery
+		home = 2284
+	}
+	regiment = {
+		name= "Occitan Archers"
+		type = artillery
+		home = 2313
+	}
+}
+
+army = {
+    name = "Esercito Vivarais"
+    location = 2311
+	regiment = {
+		name= "Occitan Infantry"
+		type = infantry
+		home = 2311
+	}
+	regiment = {
+		name= "Occitan Infantry"
+		type = infantry
+		home = 2137
+	}
+	regiment = {
+		name= "Occitan Archers"
+		type = artillery
+		home = 2326
+	}
+	regiment = {
+		name= "Occitan Cavalry"
+		type = cavalry
+		home = 468
+	}
+}
+
+leader = {
+	name = "Raymond Rogierto"
+	date = 1212.1.1
+	type = land
+	personality = active_p
+	background = drillmaster
+	prestige = 0.1
+}

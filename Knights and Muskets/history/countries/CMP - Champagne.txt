@@ -1,5 +1,5 @@
 capital = 406
-primary_culture = french
+primary_culture = champenois
 religion = catholic
 government = feudal_monarchy
 plurality = 25

@@ -1,0 +1,135 @@
+#
+# V2ME Cleanup 1.0.3b by Bob Bobington and Dr, configured for GFM
+#
+# Features:
+#
+#	-Nearly invisible cleanup tag
+#	-Zero performance degradation
+#	-Immersion will not be ruined, player interaction with cleanup is kept to an absolute minimum
+#	-Multiple stability improvements and bug fixes
+#	-Easy to customize for new content
+#	-Handles backend tasks (i.e. setting govflags, invention flags, etc) on a daily, monthly, or yearly tick, as needed
+#	-Handles vassal interactions with one decision instead of hundreds
+#
+# Notable bugs addressed:
+#
+#	-Ghost units and ships of non-existing nations cleaned monthly
+#	-Prevent uncivs from gaining colonial states/capitals incorrectly
+#	-Prevent countries with slavery outlawed from having bugged slave states
+#	-Prevents existing countries from having non-existing overlords
+#	-Prevents existing countries from having non-existing vassals (disabled by default, this is intended in some mods)
+#
+# Upcoming features (TBA):
+#	-Permanent fix to craftsmen exploit/bug, without player interaction
+#	-Dynamically adressing the liquidity crisis, effectively
+#
+# Most Recent Version Change:
+#	-1.0.3b: GFM Version Only, Added Indochina Organization
+#
+
+##vassal interactions events
+
+country_event = {
+	id = 477877788
+	title = "Freedom"
+	desc = "We have acquired independence!"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Nice."
+		overlord = { release_vassal = THIS }
+	}
+}
+
+country_event = {
+	id = 477877792
+	title = "Vassal Interactions: $FROMCOUNTRY$"
+	desc = "If $FROMCOUNTRY$ is the country you want to interact with, select an option. Otherwise, select 'Next country' to cycle through, or select 'Exit options' to return to the game."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Release this country"
+		FROM = {
+			country_event = 477877788
+		}
+		any_country = {
+			limit = {
+				exists = yes
+				vassal_of = THIS
+				#NOT = { substate_of = THIS }
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+
+	option = {
+		name = "Return cores to this country"
+		any_owned = {
+			limit = {
+				is_core = FROM
+				NOT = { is_core = THIS }
+				#NOT = { substate_of = THIS }
+			}
+			secede_province = FROM
+		}
+		any_country = {
+			limit = {
+				exists = yes
+				vassal_of = THIS
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+
+	option = {
+		name = "Next country"
+		random_country = {
+			limit = {
+				vassal_of = THIS
+				#NOT = { substate_of = THIS }
+				exists = yes
+				NOT = { has_country_flag = interacted_with }
+			}
+			country_event = 477877793
+			THIS = { set_country_flag = possible_interactions }
+		}
+		any_country = {
+			limit = {
+				vassal_of = THIS
+				#NOT = { substate_of = THIS }
+				exists = yes
+				THIS = { NOT = { has_country_flag = possible_interactions } }
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+
+	option = {
+		name = "Exit options"
+		any_country = {
+			limit = {
+				exists = yes
+				vassal_of = THIS
+				#NOT = { substate_of = THIS }
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+}
+
+country_event = {
+	id = 477877793
+	title = "AI: Vassal Interactions"
+	desc = "This event lets your overlord interact with you. If you are a player, just close this."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "OK"
+		set_country_flag = interacted_with
+		FROM = { clr_country_flag = possible_interactions }
+		overlord = { country_event = 477877792 }
+	}
+}

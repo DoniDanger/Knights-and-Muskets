@@ -184,16 +184,16 @@ theocracy = {
 }
 
 oligarchic_republic = {
-    liberal = yes
+    	liberal = yes
 	anarcho_liberal = yes
 	conservative = yes
-	reactionary = no
+	reactionary = yes
 	fascist = no
-	#clergy = no
-	fervent_clergy = no
+	clergy = yes
+	fervent_clergy = yes
 	gentry = yes
 	
-	#socialist = no 
+	socialist = yes
 	#communist = no
 
     election = yes

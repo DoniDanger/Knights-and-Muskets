@@ -1,0 +1,204 @@
+army = {
+	name = "Esercito Veneziano"
+	location = 729
+	regiment = {
+		name= "Venetian Guards Cavalry"
+		type = cuirassier
+		home = 729
+	}
+	regiment = {
+		name= "Venetian Knights"
+		type = plane
+		home = 729
+	}
+	regiment = {
+		name= "Venetian Infantry"
+		type = infantry
+		home = 729
+	}
+	regiment = {
+		name= "Venetian Crossbowmen"
+		type = tank
+		home = 729
+	}
+}
+army = {
+	name = "Esercito Candia"
+	location = 848
+	regiment = {
+		name= "Venetian Infantry"
+		type = infantry
+		home = 826
+	}
+	regiment = {
+		name= "Venetian Infantry"
+		type = infantry
+		home = 845
+	}
+}
+
+navy = {
+	name = "Marina Veneziana"
+	location = 729
+	ship = {
+		name= "Giorno"
+		type = manowar
+	}
+	ship = {
+		name= "Abbachio"
+		type = manowar
+	}
+	ship = {
+		name= "Bucciarati"
+		type = manowar
+	}
+	ship = {
+		name= "Mista"
+		type = manowar
+	}
+	ship = {
+		name= "Narancia"
+		type = manowar
+	}
+	ship = {
+		name= "Giorno"
+		type = manowar
+	}
+	ship = {
+		name= "Abbachio"
+		type = manowar
+	}
+	ship = {
+		name= "Bucciarati"
+		type = manowar
+	}
+	ship = {
+		name= "Mista"
+		type = manowar
+	}
+	ship = {
+		name= "Narancia"
+		type = manowar
+	}
+	ship = {
+		name= "Fregata 1"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 2"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 3"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 4"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 1"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 2"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 3"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 4"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 1"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 2"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 3"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 4"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 1"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 2"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 3"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 4"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 1"
+		type = frigate
+	}
+	ship = {
+		name= "Fregata 2"
+		type = frigate
+	}
+	ship = {
+		name= "Trasporto 1"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Trasporto 2"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Trasporto 3"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Trasporto 4"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Trasporto 5"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Trasporto 6"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Trasporto 7"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Trasporto 8"
+		type = clipper_transport
+	}
+}
+
+leader = {
+	name = "Pietro Ziani"
+	date = 1212.1.1
+	type = land
+	personality = active_p
+	background = drillmaster
+	prestige = 0.1
+}
+leader = {
+	name = "Andrea Pisani"
+	date = 1212.1.1
+	type = sea
+	personality = active_p
+	background = drillmaster
+	prestige = 0.1
+}

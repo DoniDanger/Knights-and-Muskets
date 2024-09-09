@@ -1,6 +1,7 @@
 owner = VEN
 controller = VEN
 add_core = VEN
+add_core = DLM
 add_core = SER
 trade_goods = salt
 life_rating = 35

@@ -1,0 +1,53 @@
+OCC = { value = -180 }
+PAP = { value = 150 }
+FRA = { value = 160 }
+ENL = { value = -80 }
+ARN = { value = -90 }
+
+army = {
+    name = "Esercito Carcassonne"
+    location = 463
+    regiment = {
+		name= "Crusader Guards Cavalry"
+		type = cuirassier
+		home = 463
+	}
+	regiment = {
+		name= "Crusader Men-at-Arms"
+		type = plane
+		home = 2277
+	}
+	regiment = {
+		name= "Crusader Men-at-Arms"
+		type = plane
+		home = 2300
+	}
+	regiment = {
+		name= "Crusader Archers"
+		type = artillery
+		home = 461
+	}
+	regiment = {
+		name= "Crusader Archers"
+		type = artillery
+		home = 2329
+	}
+}
+
+leader = {
+	name = "Amaury de Montfort"
+	date = 1212.1.1
+	type = land
+	personality = active_p
+	background = drillmaster
+	prestige = 0.1
+}
+
+leader = {
+	name = "Arnaud Amalric"
+	date = 1212.1.1
+	type = land
+	personality = active_p
+	background = drillmaster
+	prestige = 0.1
+}

@@ -1,0 +1,434 @@
+#Sphere of Influence
+FRA = { value = -150 truce_until = 1224.4.1 }
+SIC = { value = -55 }
+SAX = { value = 125 }
+FLA = { value = 125 }
+PAP = { value = 45 }
+SCO = { value = -45 }
+GWY = { value = -125 }
+
+DRH = {
+    value = 85
+    level = 5
+    influence_value = 0
+}
+CHT = {
+    value = 95
+    level = 5
+    influence_value = 0
+}
+WMC = {
+    value = 65
+    level = 5
+    influence_value = 0
+}
+IRL = {
+    value = 105
+    level = 5
+    influence_value = 0
+}
+
+POI = {
+    value = 50
+    level = 4
+    influence_value = 0
+}
+
+BRT = {
+    value = 50
+    level = 4
+    influence_value = 0
+}
+
+OCC = {
+    value = 70
+    level = 3
+    influence_value = 0
+}
+
+leader = {
+    name = "John III"
+    date = 1212.1.1
+    type = land
+    personality = daring
+    background = artillery_school
+    prestige = 0.4
+}
+
+leader = {
+    name = "Edward Russell"
+    picture = eng_adm_cockburn
+    date = 1212.1.1
+    type = sea
+    personality = defence_2.1
+    background = attack_1.1
+    prestige = 0.3
+}
+
+army = {
+    name = "1st Corps"
+    location = 300
+    regiment = {
+        name= "1st Life Guards"
+        type = cuirassier
+        home = 300
+    }
+
+    regiment = {
+        name= "1.Knights"
+        type = cuirassier
+        home = 300
+    }
+
+    regiment = {
+        name= "2.Siege Corps"
+        type = engineer
+        home = 301
+    }
+
+    regiment = {
+        name= "4th Longbowmen"
+        type = engineer
+        home = 302
+    }
+
+    regiment = {
+        name= "2.1st Division"
+        type = artillery
+        home = 303
+    }
+
+    regiment = {
+        name= "3.1st Division"
+        type = artillery
+        home = 294
+    }
+
+    regiment = {
+        name= "1st Longbowmen"
+        type = artillery
+        home = 291
+    }
+
+    regiment = {
+        name= "2nd Foot Guards"
+        type = plane
+        home = 292
+    }
+
+    regiment = {
+        name= "Scots Guards"
+        type = plane
+        home = 296
+    }
+
+    regiment = {
+        name= "Royal Foot"
+        type = infantry
+        home = 298
+    }
+
+}
+
+army = {
+    name = "2nd Corps"
+    location = 277
+    regiment = {
+        name= "Royal Guards Cavalry"
+        type = cuirassier
+        home = 299
+    }
+
+    regiment = {
+        name= "Royal Sappers"
+        type = engineer
+        home = 277
+    }
+
+    regiment = {
+        name= "Sapper Brigade"
+        type = cavalry
+        home = 278
+    }
+
+    regiment = {
+        name= "1.1st Division"
+        type = cavalry
+        home = 283
+    }
+
+    regiment = {
+        name= "2.1st Division"
+        type = artillery
+        home = 281
+    }
+
+    regiment = {
+        name= "3.1st Division"
+        type = artillery
+        home = 288
+    }
+
+    regiment = {
+        name= "1.2nd Division"
+        type = artillery
+        home = 290
+    }
+
+    regiment = {
+        name= "2.2nd Division"
+        type = plane
+        home = 284
+    }
+
+    regiment = {
+        name= "3.2nd Division"
+        type = infantry
+        home = 286
+    }
+
+    regiment = {
+        name= "3.3rd Division"
+        type = infantry
+        home = 287
+    }
+
+}
+
+army = {
+    name = "Army of Gascony"
+    location = 458
+    regiment = {
+        name= "1.3rd Division"
+        type = cuirassier
+        home = 458
+    }
+
+    regiment = {
+        name= "2.3rd Division"
+        type = plane
+        home = 2141
+    }
+
+    regiment = {
+        name= "3.3rd Division"
+        type = plane
+        home = 2289
+    }
+
+    regiment = {
+        name= "1.4th Division"
+        type = artillery
+        home = 2321
+    }
+
+    regiment = {
+        name= "2.4th Division"
+        type = artillery
+        home = 2310
+    }
+
+    regiment = {
+        name= "3.4th Division"
+        type = artillery
+        home = 112
+    }
+	
+	regiment = {
+        name= "2.4th Division"
+        type = cavalry
+        home = 280
+    }
+
+    regiment = {
+        name= "3.4th Division"
+        type = infantry
+        home = 289
+    }
+}
+	
+navy = {
+    name = "Channel Fleet"
+    location = 303
+    ship = {
+        name= "HMS Royal George"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Royal William"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Russell"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Talavera"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Thunderer"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Vanguard"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Vengeance"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Waterloo"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS America"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Castor"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Medway"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Mulgrave"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Pembroke"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Queen Charlotte"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Scarborough"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Alfred"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Andromeda"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS President"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Proserpine"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Salamander"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Africaine"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Cerberus"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Nemesis"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Saint Vincent"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Wellesley"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Aeolus"
+        type = frigate
+    }
+
+    ship = {
+        name= "1st Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "2nd Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "3rd Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "4th Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "5th Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "6th Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "23th Transport Flotilla"
+        type = clipper_transport
+    }
+    ship = {
+        name= "24th Transport Flotilla"
+        type = clipper_transport
+    }
+    ship = {
+        name= "25th Transport Flotilla"
+        type = clipper_transport
+    }
+    ship = {
+        name= "26th Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "22th Transport Flotilla"
+        type = clipper_transport
+    }
+}

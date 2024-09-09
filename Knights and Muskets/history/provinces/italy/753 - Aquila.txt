@@ -2,5 +2,5 @@ owner = SIC
 controller = SIC
 add_core = NAP
 add_core = SIC
-trade_goods = wool
+trade_goods = iron
 life_rating = 35

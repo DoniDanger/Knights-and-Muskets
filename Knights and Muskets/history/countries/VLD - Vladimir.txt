@@ -5,11 +5,10 @@ religion = orthodox
 government = absolute_monarchy
 plurality = 5.0
 nationalvalue = nv_might
-literacy = 0.075
+literacy = 0.08
 non_state_culture_literacy = 0.01
 civilized = yes
-#GreaterPower = yes
-prestige = 25
+prestige = 12
 
 # Political reforms
 slavery = no_slavery

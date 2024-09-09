@@ -1,5 +1,5 @@
 owner = SIE
 controller = SIE
 add_core = SIE
-trade_goods = cattle
+trade_goods = oil
 life_rating = 35

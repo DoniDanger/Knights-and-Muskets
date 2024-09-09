@@ -1,2 +1,5 @@
-trade_goods = coal
+owner = ENL
+controller = ENL
+add_core = ENL
+trade_goods = grain
 life_rating = 35

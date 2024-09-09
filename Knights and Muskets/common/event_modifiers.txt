@@ -865,3 +865,9 @@ almohad_anarchy = {
 	core_pop_militancy_modifier = 0.2
 	icon = 8
 }
+hired_mercenary_company = {
+	icon = 8
+}
+mercenary_hiring_cooldown = {
+	icon = 8
+}

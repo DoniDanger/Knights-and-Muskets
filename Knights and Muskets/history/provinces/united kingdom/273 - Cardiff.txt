@@ -1,8 +1,8 @@
-owner = ENL
-controller = ENL
-add_core = ENL
+owner = WMC
+controller = WMC
+add_core = WMC
 add_core = WHA
-trade_goods = timber
+trade_goods = iron
 naval_base = 1
 life_rating = 35
 state_building = {
@@ -10,13 +10,8 @@ state_building = {
 	building = steel_factory
 	upgrade = yes
 }
-1861.1.1 = {
-	state_building = {
-		level = 1
-		building = furniture_factory
-		upgrade = yes
-	}
-}
-1861.1.1 = { 
-	railroad = 3 
+state_building = {
+	level = 1
+	building = furniture_factory
+	upgrade = yes
 }

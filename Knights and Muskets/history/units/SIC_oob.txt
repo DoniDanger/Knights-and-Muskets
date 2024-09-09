@@ -123,6 +123,7 @@ CRM = {
 DEN = {
     value = 40
 }
+PAP = { value = 30 truce_until = 1225.4.1 }
 
 #Other GP's
 ENG = { value = 25 }
@@ -150,12 +151,12 @@ army = {
     regiment = {
         name = "2. Fanteria di Linea - Duca di Calabria"
         type = infantry
-        home = 757
+        home = 226
     }
 
     regiment = {
         name = "3. Fanteria di Linea - Duca di Noto"
-        type = infantry
+        type = plane
         home = 755
     }
 
@@ -168,12 +169,12 @@ army = {
 	regiment = {
         name = "5. Fanteria di Linea"
         type = artillery
-        home = 95
+        home = 2075
     }
 	regiment = {
         name = "6. Fanteria di Linea"
         type = artillery
-        home = 102
+        home = 2077
     }
 	
     regiment = {
@@ -197,6 +198,64 @@ army = {
 }
 
 army = {
+    name = "Esercito delle Taranto"
+    location = 758
+    regiment = {
+        name = "1. Fanteria di Linea - Re e Regina"
+        type = infantry
+        home = 2076
+    }
+
+    regiment = {
+        name = "2. Fanteria di Linea - Duca di Calabria"
+        type = infantry
+        home = 761
+    }
+
+    regiment = {
+        name = "3. Fanteria di Linea - Duca di Noto"
+        type = plane
+        home = 758
+    }
+
+    regiment = {
+        name = "4. Fanteria di Linea"
+        type = artillery
+        home = 2012
+    }
+
+	regiment = {
+        name = "5. Fanteria di Linea"
+        type = artillery
+        home = 760
+    }
+	regiment = {
+        name = "6. Fanteria di Linea"
+        type = tank
+        home = 2014
+    }
+	
+    regiment = {
+        name = "1. Cavalleria di Linea"
+        type = cuirassier
+        home = 2015
+    }
+
+    regiment = {
+        name = "2. Cavalleria di Linea"
+        type = cavalry
+        home = 2013
+    }
+
+    regiment = {
+        name = "3. Cavalleria di Linea"
+        type = cavalry
+        home = 854
+    }
+
+}
+
+army = {
     name = "Guardia Reale"
     location = 762
     regiment = {
@@ -207,32 +266,50 @@ army = {
 
     regiment = {
         name = "1. Truppe Svizzere"
-        type = infantry
+        type = plane
         home = 762
     }
 
     regiment = {
         name = "2. Truppe Svizzere"
-        type = infantry
+        type = plane
         home = 763
     }
 
     regiment = {
-        name = "3. Truppe Svizzere"
+        name = "3. Truppe Saracen"
         type = artillery
         home = 764
     }
 
     regiment = {
-        name = "4. Truppe Svizzere"
+        name = "4. Truppe Saracen"
         type = artillery
         home = 763
     }
 
 	regiment = {
+        name = "5. Truppe Saracen"
+        type = tank
+        home = 2015
+    }
+	
+	regiment = {
         name = "1. Cavalleria di Linea"
         type = cavalry
         home = 764
+    }
+	
+	regiment = {
+        name = "2. Cavalleria di Linea"
+        type = cuirassier
+        home = 762
+    }
+
+    regiment = {
+        name = "3. Cavalleria di Linea"
+        type = cuirassier
+        home = 759
     }
 }
 
@@ -244,6 +321,16 @@ navy = {
         type = manowar
     }
 
+	ship = {
+        name = "Ferdinando II"
+        type = manowar
+    }
+	
+	ship = {
+        name = "Ferdinando II"
+        type = manowar
+    }
+	
     ship = {
         name = "Christina"
         type = frigate
@@ -269,6 +356,21 @@ navy = {
         type = frigate
     }
 
+	ship = {
+        name = "Principe Carlo"
+        type = frigate
+    }
+
+    ship = {
+        name = "Partenope"
+        type = frigate
+    }
+
+    ship = {
+        name = "Caracciolo"
+        type = frigate
+    }
+	
     ship = {
         name = "1a Squadrone Transporti"
         type = clipper_transport
@@ -284,4 +386,33 @@ navy = {
         type = clipper_transport
     }
 
+	ship = {
+        name = "4a Squadrone Transporti"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "5a Squadrone Transporti"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "6a Squadrone Transporti"
+        type = clipper_transport
+    }
+	
+	 ship = {
+        name = "7a Squadrone Transporti"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "8a Squadrone Transporti"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "9a Squadrone Transporti"
+        type = clipper_transport
+    }
 }

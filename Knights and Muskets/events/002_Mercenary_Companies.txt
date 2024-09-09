@@ -1,0 +1,538 @@
+country_event = {
+	id = 650000
+	is_triggered_only = yes
+ 
+	title = "Hire Mercenary Company?"
+	desc = "I LOVE MERCENARIES!"
+
+	option = {
+        name = "Give me the hardiest men you have."
+		add_country_modifier = {
+            name = hired_mercenary_company 
+            duration = 365
+        }
+		add_country_modifier = {
+            name = mercenary_hiring_cooldown 
+            duration = 730
+        }
+		set_country_flag = hiring_mercenary_company
+		money = -150000
+		2516 = { add_core = MC1 }
+		random_owned = {
+				limit = {
+					owner = {
+						OR = {
+							2516 = { empty = yes }
+							2516 = { owner = { civilized = no } }
+						}
+					}
+				}
+				owner = {
+					2516 = { secede_province = THIS }
+				}
+		}
+		MC1 = {
+			all_core = {
+				secede_province = MC1
+			}
+		}
+		create_alliance = MC1
+		create_vassal = MC1
+		MC1 = { military_access = THIS }
+		MC1 = { country_event = 650001 }
+		MC1 = { set_country_flag = mercenary_contract_started }
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+        name = "We don't have the treasury to afford this."
+		ai_chance = { factor = 10 }
+	}
+}
+country_event = {
+	id = 650001
+	is_triggered_only = yes
+	
+	title = "Mercenary setup"
+	desc = "give soldiers, goods, and troops"
+
+	option = {
+		name = "Set up the mercenary company." 	
+			set_country_flag = mercenary_contract_started
+			any_pop = { limit = { type = soldiers } reduce_pop = 1.2 }
+			FROM = {
+			diplomatic_influence = {
+				who = THIS
+				value = 400
+				}
+			}
+			leadership = 60
+			overlord = {
+				capital_scope = {
+					secede_province = THIS #vassal tag
+					sub_unit = { type = plane value = current }
+					sub_unit = { type = plane value = current }
+					sub_unit = { type = plane value = current }
+					sub_unit = { type = infantry value = current }
+					sub_unit = { type = cavalry value = current }
+					sub_unit = { type = cuirassier value = current }
+					sub_unit = { type = cuirassier value = current }
+					sub_unit = { type = tank value = current }
+					sub_unit = { type = artillery value = current }
+					sub_unit = { type = artillery value = current }
+					secede_province = FROM #overlord tag
+				}
+			}
+			artillery = 80
+			canned_food = 80
+			crossbows = 80
+			infantry_arms = 80
+			wine = 50
+			liquor = 50
+			regular_clothes = 50
+			luxury_clothes = 50
+			horses = 50
+			barding = 30
+			money = 150000
+			#2516 = {
+			#		secede_province = FROM #overlord tag
+			#}
+		}
+}
+
+country_event = {
+	id = 650002
+	trigger = {
+		NOT = { has_country_modifier = hired_mercenary_company }
+		has_country_flag = hiring_mercenary_company
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	title = "Mercenary Contract Nearing End"
+	desc = "The termination date of our mercenary contract is approaching."
+
+	option = {
+		name = "We will extend the contract for another year." 	
+		remove_country_modifier = hired_mercenary_company
+		remove_country_modifier = mercenary_hiring_cooldown
+		add_country_modifier = {
+            name = hired_mercenary_company 
+            duration = 365
+        }
+		add_country_modifier = {
+            name = mercenary_hiring_cooldown 
+            duration = 730
+        }
+		money = -100000
+		any_country = {
+            limit = {
+                exists = yes
+                is_greater_power = no
+                has_country_flag = mercenary_company
+				has_country_flag = mercenary_contract_started
+				vassal_of = THIS
+            }
+            country_event = 650005
+		}
+	}
+	
+	option = {
+		name = "We will not extend the contract." 	
+			any_country = {
+            limit = {
+                exists = yes
+                is_greater_power = no
+                has_country_flag = mercenary_company
+				has_country_flag = mercenary_contract_started
+				vassal_of = THIS
+            }
+            annex_to = REB
+			set_country_flag = mercenary_payment_ended
+        }
+		clr_country_flag = hiring_mercenary_company
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+	id = 650003
+	title = "End of Employer Contract"
+	desc = "With the end of the contract with our employer, it's time to seek some new service."
+	picture = "greatpowers"
+	
+	trigger = {
+		ai = yes
+		vassal = yes
+		has_country_flag = mercenary_company
+		has_country_flag = mercenary_contract_started
+		has_country_flag = mercenary_payment_ended
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Finalize the contract's end."
+		clr_country_flag = mercenary_contract_started
+		clr_country_flag = mercenary_payment_ended
+		overlord = {
+			country_event = { id=650004 days=0 }
+			release_vassal = THIS
+		}
+	}
+}
+
+country_event = {
+	id = 650004
+	title = "Mercenary Company Ends Their Service."
+	desc = "With the end of their contract, our hired mercenary company has ended their services for us."
+	picture = "greatpowers"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Let's hope they don't end up contracting with the enemy."
+		inherit = FROM
+	}
+}
+
+country_event = {
+	id = 650005
+	is_triggered_only = yes
+	
+	title = "Contract Renewed"
+	desc = "Our employers have renewed their contract with us."
+
+	option = {
+		name = "Reinforcements and money have been provided." 	
+			any_pop = { limit = { type = soldiers } reduce_pop = 1.2 }
+			artillery = 80
+			canned_food = 80
+			crossbows = 80
+			infantry_arms = 80
+			wine = 50
+			liquor = 50
+			regular_clothes = 50
+			luxury_clothes = 50
+			horses = 50
+			barding = 30
+			money = 100000
+		}
+}
+
+country_event = {
+	id = 650006
+	title = "Company in Dire Straits"
+	desc = "With the rising costs of the company, we risk losing our combat effectiveness if we run out of money Let us renegotiate with our employer to prevent bankruptcy."
+	picture = "greatpowers"
+	
+	trigger = {
+		ai = yes
+		vassal = yes
+		has_country_flag = mercenary_company
+		has_country_flag = mercenary_contract_started
+		NOT = { has_country_flag = mercenary_payment_ended }
+		NOT = { money = 10000 }
+	}
+	
+	mean_time_to_happen = {
+		days = 6
+	}
+	
+	option = {
+		name = "Let's renegotiate the contract."
+		overlord = {
+			country_event = { id=650007 days=3 }
+			release_vassal = THIS
+		}
+	}
+}
+
+country_event = {
+	id = 650007
+	is_triggered_only = yes
+	title = "Mercenary Company Wants to Renegotiate"
+	desc = "The captain of our mercenary company has told us that his coffers have run dry. If we want his company to continue fighting, we'll have to pay them more."
+	
+	option = {
+		name = "Fine, we'll renegotiate the contract for another year." 
+		remove_country_modifier = hired_mercenary_company
+		remove_country_modifier = mercenary_hiring_cooldown
+		add_country_modifier = {
+            name = hired_mercenary_company 
+            duration = 365
+        }
+		add_country_modifier = {
+            name = mercenary_hiring_cooldown 
+            duration = 730
+        }
+		money = -100000
+		any_country = {
+            limit = {
+                exists = yes
+                is_greater_power = no
+                has_country_flag = mercenary_company
+				has_country_flag = mercenary_contract_started
+				vassal_of = THIS
+            }
+            country_event = 650005
+		}
+	}
+	
+	option = {
+		name = "We will not extend the contract." 	
+			any_country = {
+            limit = {
+                exists = yes
+                is_greater_power = no
+                has_country_flag = mercenary_company
+				has_country_flag = mercenary_contract_started
+				vassal_of = THIS
+            }
+            annex_to = REB
+			set_country_flag = mercenary_payment_ended
+        }
+		clr_country_flag = hiring_mercenary_company
+		ai_chance = { factor = 80 }
+	}
+}
+country_event = {
+	id = 650008
+	is_triggered_only = yes
+ 
+	title = "Hire Mercenary Company?"
+	desc = "I LOVE MERCENARIES!"
+
+	option = {
+        name = "Give me the hardiest men you have."
+		add_country_modifier = {
+            name = hired_mercenary_company 
+            duration = 365
+        }
+		add_country_modifier = {
+            name = mercenary_hiring_cooldown 
+            duration = 730
+        }
+		set_country_flag = hiring_mercenary_company
+		money = -150000
+		2515 = { add_core = MC2 }
+		random_owned = {
+				limit = {
+					owner = {
+						OR = {
+							2515 = { empty = yes }
+							2515 = { owner = { civilized = no } }
+						}
+					}
+				}
+				owner = {
+					2515 = { secede_province = THIS }
+				}
+		}
+		MC2 = {
+			all_core = {
+				secede_province = MC2
+			}
+		}
+		create_alliance = MC2
+		create_vassal = MC2
+		MC2 = { military_access = THIS }
+		MC2 = { country_event = 650001 }
+		MC2 = { set_country_flag = mercenary_contract_started }
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+        name = "We don't have the treasury to afford this."
+		ai_chance = { factor = 10 }
+	}
+}
+country_event = {
+	id = 650009
+	is_triggered_only = yes
+ 
+	title = "Hire Mercenary Company?"
+	desc = "I LOVE MERCENARIES!"
+
+	option = {
+        name = "Give me the hardiest men you have."
+		add_country_modifier = {
+            name = hired_mercenary_company 
+            duration = 365
+        }
+		add_country_modifier = {
+            name = mercenary_hiring_cooldown 
+            duration = 730
+        }
+		set_country_flag = hiring_mercenary_company
+		money = -150000
+		2513 = { add_core = MC3 }
+		random_owned = {
+				limit = {
+					owner = {
+						OR = {
+							2513 = { empty = yes }
+							2513 = { owner = { civilized = no } }
+						}
+					}
+				}
+				owner = {
+					2513 = { secede_province = THIS }
+				}
+		}
+		MC3 = {
+			all_core = {
+				secede_province = MC3
+			}
+		}
+		create_alliance = MC3
+		create_vassal = MC3
+		MC3 = { military_access = THIS }
+		MC3 = { country_event = 650001 }
+		MC3 = { set_country_flag = mercenary_contract_started }
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+        name = "We don't have the treasury to afford this."
+		ai_chance = { factor = 10 }
+	}
+}
+country_event = {
+	id = 650010
+	is_triggered_only = yes
+ 
+	title = "Hire Mercenary Company?"
+	desc = "I LOVE MERCENARIES!"
+
+	option = {
+        name = "Give me the hardiest men you have."
+		add_country_modifier = {
+            name = hired_mercenary_company 
+            duration = 365
+        }
+		add_country_modifier = {
+            name = mercenary_hiring_cooldown 
+            duration = 730
+        }
+		set_country_flag = hiring_mercenary_company
+		money = -150000
+		2514 = { add_core = MC4 }
+		random_owned = {
+				limit = {
+					owner = {
+						OR = {
+							2514 = { empty = yes }
+							2514 = { owner = { civilized = no } }
+						}
+					}
+				}
+				owner = {
+					2514 = { secede_province = THIS }
+				}
+		}
+		MC4 = {
+			all_core = {
+				secede_province = MC4
+			}
+		}
+		create_alliance = MC4
+		create_vassal = MC4
+		MC4 = { military_access = THIS }
+		MC4 = { country_event = 650001 }
+		MC4 = { set_country_flag = mercenary_contract_started }
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+        name = "We don't have the treasury to afford this."
+		ai_chance = { factor = 10 }
+	}
+}
+country_event = {
+	id = 650011
+	is_triggered_only = yes
+ 
+	title = "Hire Mercenary Company?"
+	desc = "I LOVE MERCENARIES!"
+
+	option = {
+        name = "Give me the hardiest men you have."
+		add_country_modifier = {
+            name = hired_mercenary_company 
+            duration = 365
+        }
+		add_country_modifier = {
+            name = mercenary_hiring_cooldown 
+            duration = 730
+        }
+		set_country_flag = hiring_mercenary_company
+		money = -150000
+		2512 = { add_core = MC5 }
+		random_owned = {
+				limit = {
+					owner = {
+						OR = {
+							2512 = { empty = yes }
+							2512 = { owner = { civilized = no } }
+						}
+					}
+				}
+				owner = {
+					2512 = { secede_province = THIS }
+				}
+		}
+		MC5 = {
+			all_core = {
+				secede_province = MC5
+			}
+		}
+		create_alliance = MC5
+		create_vassal = MC5
+		MC5 = { military_access = THIS }
+		MC5 = { country_event = 650001 }
+		MC5 = { set_country_flag = mercenary_contract_started }
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+        name = "We don't have the treasury to afford this."
+		ai_chance = { factor = 10 }
+	}
+}
+
+#country_event = {
+#	id = 650012
+#	title = "End of Employer Contract"
+#	desc = "With the end of the contract with our employer, it's time to seek some new service."
+#	picture = "greatpowers"
+#	
+#	trigger = {
+#		ai = yes
+#		vassal = no
+#		exists = yes
+#		AND = {
+#			has_country_flag = mercenary_company
+#3			has_country_flag = mercenary_contract_started
+#3			#has_country_flag = mercenary_payment_ended
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	option = {
+#		name = "Finalize the contract's end."
+#		clr_country_flag = mercenary_contract_started
+#		clr_country_flag = mercenary_payment_ended
+#		UTI = {
+#			country_event = { id=650004 days=0 }
+#			release_vassal = THIS
+#		}
+#	}
+#}

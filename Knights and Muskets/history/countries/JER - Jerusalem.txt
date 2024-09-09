@@ -1,4 +1,4 @@
-capital = 917
+capital = 916
 primary_culture = outremer
 culture = cypriot
 culture = latin

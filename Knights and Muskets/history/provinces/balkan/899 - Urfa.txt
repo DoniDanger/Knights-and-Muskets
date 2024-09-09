@@ -1,6 +1,6 @@
-owner = SYR
-controller = SYR
-add_core = EGY
+owner = JAZ
+controller = JAZ
+add_core = JAZ
 add_core = SYR
 add_core = CLC
 trade_goods = grain

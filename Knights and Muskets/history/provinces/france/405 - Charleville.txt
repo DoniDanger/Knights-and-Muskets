@@ -1,6 +1,6 @@
 owner = CMP
 controller = CMP
 add_core = CMP
-trade_goods = coal
-life_rating = 32
+trade_goods = iron
+life_rating = 35
 

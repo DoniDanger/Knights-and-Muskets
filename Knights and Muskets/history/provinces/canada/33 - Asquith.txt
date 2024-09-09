@@ -1,5 +1,7 @@
-owner = SYR
-controller = SYR
+owner = ALP
+controller = ALP
+add_core = ALP
+add_core = JER
 add_core = SYR
 trade_goods = grain
 life_rating = 35

@@ -1,5 +1,5 @@
 owner = SER
 controller = SER
 add_core = SER
-trade_goods = timber
+trade_goods = stone
 life_rating = 35

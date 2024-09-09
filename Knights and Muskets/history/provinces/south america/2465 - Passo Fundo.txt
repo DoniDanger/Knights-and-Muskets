@@ -1,5 +1,6 @@
-owner = PER
-controller = PER
+owner = YZD
+controller = YZD
+add_core = YZD
 add_core = PER
 trade_goods = tobacco
 life_rating = 35

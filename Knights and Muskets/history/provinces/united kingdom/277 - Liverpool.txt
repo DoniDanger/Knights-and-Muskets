@@ -1,10 +1,9 @@
 owner = ENL
 controller = ENL
 add_core = ENL
-add_core = SCO
 trade_goods = fish
 life_rating = 35
-railroad = 1
+naval_base = 1
 state_building = {
 	level = 2
 	building = fabric_factory
@@ -24,9 +23,4 @@ state_building = {
 	level = 1
 	building = cement_factory
 	upgrade = yes
-}
-naval_base = 2
-1861.1.1 = { 
-	railroad = 3 
-	naval_base = 2
 }

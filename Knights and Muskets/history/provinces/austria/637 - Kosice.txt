@@ -2,5 +2,5 @@ owner = HUN
 controller = HUN
 add_core = HUN
 add_core = SLV
-trade_goods = coal
+trade_goods = salt
 life_rating = 35

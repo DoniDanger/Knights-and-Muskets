@@ -3,7 +3,6 @@ country_event = {
 	id = 133000
 	title = "Muslim Rebellion in Sicily"
 	desc = "133000_DESC"
-	major = yes
 
 	fire_only_once = yes
 	mean_time_to_happen = { months = 3 }
@@ -14,21 +13,44 @@ country_event = {
 
 	option = {
 	    name = "We must crush the Saracens."
-		any_owned = {
+		any_pop = {
 			limit = {
-				AND = {
-					is_core = SYC
-					NOT = { province_id = 854 }
-				}
+				culture = sicilian_arab
 			}
-			secede_province = SYC
+			militancy = 7.5
 		}
-		SYC = { capital = 762 }
-		SYC = { primary_culture = sicilian_arab religion = sunni }
-		war = {
-            target = SYC
-            attacker_goal = { casus_belli = annex_core_country }
-        }
+		random_owned = {
+			limit = {
+				controlled_by = THIS
+				pop_majority_culture = sicilian_arab
+				NOT = { country_units_in_province = THIS }
+			}
+			change_controller = REB
+		}
+		random_owned = {
+			limit = {
+				controlled_by = THIS
+				pop_majority_culture = sicilian_arab
+				NOT = { country_units_in_province = THIS }
+			}
+			change_controller = REB
+		}
+		random_owned = {
+			limit = {
+				controlled_by = THIS
+				pop_majority_culture = sicilian_arab
+				NOT = { country_units_in_province = THIS }
+			}
+			change_controller = REB
+		}
+		random_owned = {
+			limit = {
+				controlled_by = THIS
+				pop_majority_culture = sicilian_arab
+				NOT = { country_units_in_province = THIS }
+			}
+			change_controller = REB
+		}
 		SIC = { 
             any_pop = { limit = { has_pop_religion = catholic }
                 militancy = 3
@@ -41,7 +63,7 @@ country_event = {
 
 country_event = {
 	id = 133001
-	title = "Sicilian Rebellion Crushed"
+	title = "Muslim Rebellion Crushed"
 	desc = "133001_DESC"
 
 	fire_only_once = yes
@@ -51,6 +73,7 @@ country_event = {
 		tag = SIC
 		has_country_flag = sicilian_muslim_rebellion
 		SYC = { exists = no }
+		SYC = { all_core = { controlled_by = THIS }}
 	}
 
 	option = {
@@ -62,13 +85,17 @@ country_event = {
                 militancy = -3
             }
         }
+		SIC = { 
+            any_pop = { limit = { culture = sicilian_arab }
+                militancy = -3
+            }
+        }
 		set_country_flag = sicilian_muslims_crushed
 		ai_chance = { factor = 100 }
 	}
 }
 
 country_event = {
-
     id = 133002
     title = "Expulsion of Sicilian Muslims"
 	desc = "133002_DESC"
@@ -104,6 +131,7 @@ country_event = {
 					move_pop = 757 
                 }
         }
+		add_accepted_culture = sicilian_arab
 		ai_chance = { factor = 80 }
 	}
 }
@@ -200,7 +228,7 @@ country_event = {
 			months = 12
 		}
 		casus_belli = {
-			target = SYR
+			target = DMC
 			type = cut_down_to_size
 			months = 12
 		}
@@ -335,13 +363,13 @@ country_event = {
 	major = yes
 	
 	fire_only_once = yes
-	mean_time_to_happen = { days = 2 }
+	mean_time_to_happen = { days = 5 }
 
 	trigger = {
 		tag = SIC
 		has_global_flag = henry_vii_crowned
 		year = 1228
-		month = 12
+		month = 11
 	}
 
 	option = {
@@ -422,6 +450,10 @@ country_event = {
 
 	trigger = {
 		tag = SIC
+		OR = {
+			NOT = { has_country_flag = returned_to_germany }
+			has_country_flag = conrad_rules_swabia
+		}
 		GER = { any_core = { owned_by = SIC }}
 	}
 
@@ -433,6 +465,10 @@ country_event = {
                 limit = { is_core = GER }
                 secede_province = SGF
             }
+        }
+		any_owned = {
+            limit = { is_core = GER }
+            secede_province = SGF
         }
 		ai_chance = { factor = 85 }
 	}

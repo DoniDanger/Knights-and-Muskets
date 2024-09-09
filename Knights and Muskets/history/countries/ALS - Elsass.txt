@@ -1,5 +1,5 @@
 capital = 409
-primary_culture = central_franconian
+primary_culture = alemannic
 religion = catholic
 government = feudal_monarchy
 plurality = 0.0

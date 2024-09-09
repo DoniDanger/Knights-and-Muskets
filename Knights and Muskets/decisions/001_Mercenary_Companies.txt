@@ -1,0 +1,137 @@
+political_decisions = {
+	enable_mercenary_hiring = {
+		alert = no
+        potential = {
+            ai = no
+            NOT = { has_country_flag = looking_mercenary_options }
+        }
+
+        allow = {
+        }
+
+        effect = {
+            set_country_flag = looking_mercenary_options
+        }
+    }
+
+    disable_mercenary_hiring = {
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = looking_mercenary_options
+            NOT = { year = 1837 }
+        }
+
+        allow = {
+        }
+
+        effect = {
+            clr_country_flag = looking_mercenary_options
+        }
+    }
+	
+	hire_mercenary_company1 = {
+		potential = {
+			ai = no
+			has_country_flag = looking_mercenary_options
+			NOT = { has_country_modifier = mercenary_hiring_cooldown }
+			NOT = { has_country_flag = hiring_mercenary_company }
+			NOT = { MC1 { exists = yes }}
+			NOT = { MC1 = { has_country_flag = mercenary_contract_started }}
+		}
+		
+		allow = {
+			war = yes
+			money = 150000
+		}
+		
+		effect = {
+			country_event = 650000
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	hire_mercenary_company2 = {
+		potential = {
+			ai = no
+			has_country_flag = looking_mercenary_options
+			NOT = { has_country_modifier = mercenary_hiring_cooldown }
+			NOT = { has_country_flag = hiring_mercenary_company }
+			NOT = { MC2 { exists = yes }}
+			NOT = { MC2 = { has_country_flag = mercenary_contract_started }}
+		}
+		
+		allow = {
+			war = yes
+			money = 150000
+		}
+		
+		effect = {
+			country_event = 650008
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	hire_mercenary_company3 = {
+		potential = {
+			ai = no
+			has_country_flag = looking_mercenary_options
+			NOT = { has_country_modifier = mercenary_hiring_cooldown }
+			NOT = { has_country_flag = hiring_mercenary_company }
+			NOT = { MC3 { exists = yes }}
+			NOT = { MC3 = { has_country_flag = mercenary_contract_started }}
+		}
+		
+		allow = {
+			war = yes
+			money = 150000
+		}
+		
+		effect = {
+			country_event = 650009
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	hire_mercenary_company4 = {
+		potential = {
+			ai = no
+			has_country_flag = looking_mercenary_options
+			NOT = { has_country_modifier = mercenary_hiring_cooldown }
+			NOT = { has_country_flag = hiring_mercenary_company }
+			NOT = { MC4 { exists = yes }}
+			NOT = { MC4 = { has_country_flag = mercenary_contract_started }}
+		}
+		
+		allow = {
+			war = yes
+			money = 150000
+		}
+		
+		effect = {
+			country_event = 650010
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	hire_mercenary_company5 = {
+		potential = {
+			ai = no
+			has_country_flag = looking_mercenary_options
+			NOT = { has_country_modifier = mercenary_hiring_cooldown }
+			NOT = { has_country_flag = hiring_mercenary_company }
+			NOT = { MC5 { exists = yes }}
+			NOT = { MC5 = { has_country_flag = mercenary_contract_started }}
+		}
+		
+		allow = {
+			war = yes
+			money = 150000
+		}
+		
+		effect = {
+			country_event = 650011
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

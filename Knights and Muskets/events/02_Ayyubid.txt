@@ -9,7 +9,7 @@ country_event = {
 	mean_time_to_happen = { days = 2 }
 
 	trigger = {
-		tag = SYR
+		tag = DMC
 		month = 11
 		year = 1227
 	}
@@ -57,12 +57,14 @@ country_event = {
         name = "We will follow through on Ashraf's partition of Damascus."
 		prestige = 5
 		inherit = PLS
-		SYR = { country_event = 132003 }
+		inherit = JAZ
+		DMC = { country_event = 132003 }
 		PLS = { all_core = { add_core = THIS } }
-		release_vassal = SYR
-		leave_alliance = SYR
+		JAZ = { all_core = { add_core = THIS } }
+		release_vassal = DMC
+		leave_alliance = DMC
 		war = {
-            target = SYR
+            target = DMC
             attacker_goal = { casus_belli = make_puppet  }
         }
 		any_country = {
@@ -86,13 +88,13 @@ country_event = {
 	option = {
         name = "All of the Levant will kneel to al-Kamil, even Ashraf."
 		prestige = 5
-		SYR = { country_event = 132004 }
-		release_vassal = SYR
-		leave_alliance = SYR
+		DMC = { country_event = 132004 }
+		release_vassal = DMC
+		leave_alliance = DMC
 		release_vassal = PLS
 		leave_alliance = PLS
 		war = {
-            target = SYR
+            target = DMC
             attacker_goal = { casus_belli = make_puppet  }
         }
 		war = {
@@ -144,7 +146,7 @@ country_event = {
         name = "Damascus shall be the center of the Empire, as Saladin intended."
 		prestige = 5
 		PLS = { all_core = { add_core = THIS } }
-		EGY = { release_vassal = SYR }
+		EGY = { release_vassal = DMC }
 		leave_alliance = EGY
 		EGY = { country_event = 132006 }
 		set_country_flag = damascus_indep_demand
@@ -164,11 +166,11 @@ country_event = {
     option = {
         name = "These Syrian traitors will be put to the sword."
 		prestige = 5
-		release_vassal = SYR
-		leave_alliance = SYR
+		release_vassal = DMC
+		leave_alliance = DMC
 		inherit = PLS
 		war = {
-            target = SYR
+            target = DMC
             attacker_goal = { casus_belli = civil_war  }
             defender_goal = { casus_belli = civil_war  }
         }
@@ -179,8 +181,8 @@ country_event = {
 	option = {
         name = "We must focus on defending Egypt."
 		prestige = -15
-		release_vassal = SYR
-		leave_alliance = SYR
+		release_vassal = DMC
+		leave_alliance = DMC
 		release_vassal = PLS
 		leave_alliance = PLS
 		ai_chance = { factor = 5 }
@@ -204,8 +206,18 @@ country_event = {
 	}
 	
 	option = {
-        name = "Instigate the Ayyubids of Syria into action."
+        name = "Instigate the emirs of Syria into action."
 		SYR = { country_event = 132009 }
+		casus_belli = {
+			target = EGY
+			type = cut_down_to_size
+			months = 12
+		}
+		casus_belli = {
+			target = DMC
+			type = cut_down_to_size
+			months = 12
+		}
 		ai_chance = { factor = 15 }
 	}
 }

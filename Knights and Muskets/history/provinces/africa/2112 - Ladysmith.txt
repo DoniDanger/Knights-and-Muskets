@@ -1,3 +1,5 @@
-trade_goods = grain
+owner = DRH
+controller = DRH
+add_core = DRH
+trade_goods = iron
 life_rating = 35
-terrain = hills

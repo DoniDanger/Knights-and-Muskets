@@ -3,6 +3,6 @@ controller = BSL
 add_core = BSL
 add_core = ARP
 add_core = NNN
-trade_goods = coal
+trade_goods = wool
 life_rating = 35
 

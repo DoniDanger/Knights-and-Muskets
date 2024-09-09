@@ -1,0 +1,19 @@
+army = {
+    name = "Army of Poitiers"
+    location = 433
+    regiment = {
+        name= "Poitevin Infantry"
+        type = infantry
+        home = 443
+    }
+    regiment = {
+        name= "Poitevin Infantry"
+        type = infantry
+        home = 437
+    }
+    regiment = {
+        name= "Poitevin Archers"
+        type = artillery
+        home = 442
+    }
+}

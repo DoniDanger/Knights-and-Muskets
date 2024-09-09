@@ -1,2 +1,6 @@
-trade_goods = wool
-life_rating = 10
+owner = LOI
+controller = LOI
+add_core = LOI
+add_core = SCO
+trade_goods = fish
+life_rating = 35

@@ -2,5 +2,5 @@ owner = CRO
 controller = CRO
 add_core = CRO
 add_core = BOS
-trade_goods = grain
+trade_goods = stone
 life_rating = 35

@@ -1,5 +1,7 @@
+owner = TIB
+controller = TIB
+add_core = TIB
+add_core = XBI
+trade_goods = grain
+life_rating = 32
 
-add_core = AST
-trade_goods = coal
-life_rating = 30
-colonial = 2

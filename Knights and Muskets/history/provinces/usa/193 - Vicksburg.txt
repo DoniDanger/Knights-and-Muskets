@@ -3,5 +3,5 @@ controller = KYB
 add_core = KYB
 add_core = GER
 add_core = NNN
-trade_goods = grain
+trade_goods = wool
 life_rating = 35

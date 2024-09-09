@@ -1,6 +1,6 @@
 capital = 457
 primary_culture = occitan
-culture = basque
+culture = gascon
 religion = catholic
 government = feudal_monarchy
 plurality = 5.0

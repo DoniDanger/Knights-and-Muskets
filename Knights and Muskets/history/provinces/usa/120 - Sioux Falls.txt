@@ -1,6 +1,6 @@
-owner = SVY
-controller = SVY
-add_core = SVY
+owner = SLZ
+controller = SLZ
+add_core = SLZ
 add_core = ITA
 add_core = NNN
 trade_goods = grain

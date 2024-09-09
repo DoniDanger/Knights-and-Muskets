@@ -1,0 +1,33 @@
+army = {
+    name = "Esercito Milan"
+    location = 726
+    regiment = {
+		name= "Milanese Guards Cavalry"
+		type = cavalry
+		home = 726
+	}
+	regiment = {
+		name= "Milanese Knights"
+		type = guard
+		home = 726
+	}
+	regiment = {
+		name= "Milanese Infantry"
+		type = guard
+		home = 726
+	}
+	regiment = {
+		name= "Milanese Crossbowmen"
+		type = tank
+		home = 726
+	}
+}
+
+leader = {
+	name = "Pietro Tiepolo"
+	date = 1212.1.1
+	type = land
+	personality = active_p
+	background = drillmaster
+	prestige = 0.1
+}

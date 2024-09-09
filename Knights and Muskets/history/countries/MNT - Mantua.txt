@@ -1,6 +1,6 @@
 capital = 3372
 primary_culture = north_italian
-culture = south_italian
+culture = venetian
 religion = catholic
 government = absolute_monarchy
 plurality = 0.10

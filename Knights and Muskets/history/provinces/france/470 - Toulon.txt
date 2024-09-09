@@ -5,4 +5,4 @@ add_core = PRO
 add_core = NNN
 trade_goods = silk
 life_rating = 35
-naval_base = 2
+

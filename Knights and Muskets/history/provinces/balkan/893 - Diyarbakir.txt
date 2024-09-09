@@ -1,7 +1,6 @@
-owner = SYR
-controller = SYR
-add_core = EGY
-add_core = SYR
+owner = ARQ
+controller = ARQ
+add_core = ARQ
 add_core = ARM
 trade_goods = iron
 life_rating = 35

@@ -1,7 +1,2 @@
-owner = WMG
-controller = WMG
-add_core = GOL
-add_core = WMG
-add_core = MGE
 trade_goods = iron
-life_rating = 35
+life_rating = 15

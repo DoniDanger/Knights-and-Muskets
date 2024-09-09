@@ -1,7 +1,7 @@
 political_decisions = {
 	adopt_steppe_warfare = {
 		potential = {
-			post_napoleonic_thought  = 1
+			primary_culture = mongol
 			NOT = {
 				has_country_flag = mongol_empire
 				has_country_flag = great_khan_mongolia
@@ -11,7 +11,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			strategic_mobility = 1
+			mongol_lesson = 1
 			AND = {
 			war = yes
 			war_countries = { invention = gas_attack_capability }
@@ -27,7 +27,7 @@ political_decisions = {
 	
 	adopt_steppe_defense = {
 		potential = {
-			post_napoleonic_thought  = 1
+			year = 1240
 			NOT = {
 				has_country_flag = mongol_empire
 				has_country_flag = great_khan_mongolia
@@ -36,7 +36,7 @@ political_decisions = {
 			}
 		}	
 		allow = {
-			strategic_mobility = 1
+			mongol_lesson = 1
 			AND = {
 			war = yes
 			war_countries = { invention = gas_attack_capability }

@@ -1,10 +1,11 @@
 capital = 466
-primary_culture = north_italian
+primary_culture = piedmontese
+culture = arpitan
 religion = catholic
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.45
+literacy = 0.22
 civilized = yes
 
 # Political reforms

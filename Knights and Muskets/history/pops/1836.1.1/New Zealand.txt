@@ -24,7 +24,7 @@
 	soldiers = {
 		culture = maori
 		religion = animist
-		size = 100
+		size = 30100
 	}
 
 	farmers = {
@@ -62,7 +62,7 @@
 	soldiers = {
 		culture = maori
 		religion = animist
-		size = 50
+		size = 30100
 	}
 
 	farmers = {
@@ -94,7 +94,7 @@
 	soldiers = {
 		culture = maori
 		religion = animist
-		size = 75
+		size = 30100
 	}
 
 	farmers = {
@@ -126,7 +126,7 @@
 	soldiers = {
 		culture = maori
 		religion = animist
-		size = 75
+		size = 30075
 	}
 
 	farmers = {
@@ -158,7 +158,7 @@
 	soldiers = {
 		culture = maori
 		religion = animist
-		size = 75
+		size = 30100
 	}
 
 	farmers = {
@@ -192,7 +192,7 @@
 	soldiers = {
 		culture = maori
 		religion = animist
-		size = 15
+		size = 30015
 	}
 
 	farmers = {
@@ -224,13 +224,13 @@
 	soldiers = {
 		culture = maori
 		religion = animist
-		size = 15
+		size = 30100
 	}
 
 	farmers = {
 		culture = maori
 		religion = animist
-		size = 900
+		size = 2900
 	}
 }
 #Christchurch (4000/1000 POPS)
@@ -256,7 +256,7 @@
 	soldiers = {
 		culture = maori
 		religion = animist
-		size = 50
+		size = 30150
 	}
 
 	farmers = {
@@ -288,7 +288,7 @@
 	soldiers = {
 		culture = maori
 		religion = animist
-		size = 75
+		size = 30175
 	}
 
 	farmers = {

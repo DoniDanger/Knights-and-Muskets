@@ -1,10 +1,10 @@
-capital = 726  
-primary_culture = north_italian
+capital = 723 
+primary_culture = emilian
 religion = catholic
 government = absolute_monarchy
 plurality = 15.0
 nationalvalue = nv_order
-literacy = 0.4 
+literacy = 0.17
 non_state_culture_literacy = 0.01 
 civilized = yes
 
@@ -88,4 +88,4 @@ experimental_railroad = 1
 consciousness = 2
 nonstate_consciousness = 0
 
-oob = "MLN_oob.txt"
+oob = "ASD_oob.txt"

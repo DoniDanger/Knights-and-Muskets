@@ -1,12 +1,13 @@
 capital = 269
 primary_culture = scottish
+culture = highlander
+culture = norse_gael
 religion = catholic
-government = hms_government
+government = feudal_monarchy
 plurality = 0.1
 nationalvalue = nv_order
-literacy = 0.55
+literacy = 0.18
 civilized = yes
-
 
 # Political reforms
 slavery = no_slavery
@@ -66,5 +67,10 @@ mechanical_production = 1
 mechanized_mining = 1
 basic_chemistry = 1
 experimental_railroad = 1
+grain_banks = 1
+hammered_coinage = 1
+manorialism = 1
+trade_fairs = 1
+medical_universities = 1
 
 oob = "SCO_oob.txt"

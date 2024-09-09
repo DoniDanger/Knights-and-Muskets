@@ -5,13 +5,13 @@ culture = persian
 religion = shiite
 government = absolute_monarchy
 plurality = 15.0
-nationalvalue = nv_tradition
-literacy = 0.6
+nationalvalue = nv_order
+literacy = 0.07
 non_state_culture_literacy = 0.01
-civilized = no
+civilized = yes
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -21,67 +21,65 @@ voting_system = first_past_the_post
 political_parties = underground_parties
 
 # Social Reforms
-wage_reform = trinket_wage
-work_hours = fourteen_hours
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
 safety_regulations = no_safety
-health_care = trinket_health_care
-unemployment_subsidies = trinket_subsidies
-pensions = acceptable_pensions
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
 school_reforms = no_schools
 
-# New Reforms
-conscription = four_year_draft
-debt_law = peonage
-penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = primary_culture_only
-border_policy = open_borders
-centralization = regionalism
-colonial_policy = no_colonies
-
-ruling_party = PER_reactionary
+ruling_party = "Royalist"
 upper_house = {
 	fascist = 0
-	liberal = 13
-	conservative = 3
-	reactionary = 84
+	liberal = 12
+	conservative = 60
+	reactionary = 28
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
 }
 
-set_country_flag = shiite_country
-
-foreign_officers = yes_foreign_officers
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-military_constructions = yes_military_constructions
-admin_reform = yes_admin_reform
-education_reform = yes_education_reform
-industrial_construction = yes_western_science
-finance_reform = yes_finance_reform
+set_country_flag = existing_country
 
 # Technologies
-post_napoleonic_thought = 1
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-army_command_principle = 1
+motte_and_bailey = 1
+medieval_infantry = 1
+medieval_cavalry = 1
+feudal_levy = 1
+early_medieval_tactics = 1
 post_nelsonian_thought = 1
+clipper_design = 1
+naval_design_bureaus = 1
+alphabetic_flag_signaling = 1
+the_command_principle = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+malthusian_thought = 1
+enlightenment_thought = 1
+introspectionism = 1
 private_banks = 1
 no_standard = 1
+early_classical_theory_and_critique = 1
+freedom_of_trade = 1
 guild_based_production = 1
-late_enlightenment_philosophy = 1
-enlightenment_thought = 1
+water_wheel_power = 1
+publishing_industry = 1
 piston_steam_engine = 1
-#mechanical_production = 1
-clipper_design = 1
-malthusian_thought = 1
+mechanical_production = 1
+mechanized_mining = 1
 basic_chemistry = 1
+experimental_railroad = 1
+grain_banks = 1
+hammered_coinage = 1
+manorialism = 1
+trade_fairs = 1
+medical_universities = 1
 
-# Inventions
-test_irregular = yes
-dragoon_activation = yes
+#Inventions
 
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
+
+oob = "YZD_oob.txt"

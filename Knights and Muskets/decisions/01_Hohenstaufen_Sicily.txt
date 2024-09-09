@@ -17,24 +17,6 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	diet_of_cremona = {
-		potential = {
-			tag = SIC
-			NOT = { has_global_flag = cremona_diet_summoned }
-		}
-		
-		allow = {
-			has_global_flag = sixth_crusade_forming
-			LOM = { exists = no }
-		}
-		
-		effect = {
-			prestige = 5
-			set_global_flag = cremona_diet_summoned
-		}
-		ai_will_do = { factor = 1 }
-	}
-	
 	dispossess_king_of_jerusalem = {
 		potential = {
 			tag = SIC
@@ -90,6 +72,7 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			#give reforms and shit
+			add_accepted_culture = griko
 			set_country_flag = liber_augustalis
 		}
 		ai_will_do = { factor = 1 }
@@ -129,8 +112,53 @@ political_decisions = {
 		
 		effect = {
 			prestige = 5
-			country_event = 133018 
+			country_event = 133019
 			set_country_flag = returned_to_germany
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	subjugate_lombard_league = {
+		potential = {
+			tag = SIC
+			LOM = { exists = yes }
+			NOT = { has_global_flag = lombard_league_destroyed }
+			NOT = { has_country_flag = lombard_league_subjugation }
+		}
+		
+		allow = {
+			war = no
+			has_country_flag = returned_to_germany
+		}
+		
+		effect = {
+			casus_belli = {
+                target = LOM
+                type = cut_down_to_size
+                months = 60
+            }
+			set_country_flag = lombard_league_subjugation
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	destroy_lombard_league = {
+		potential = {
+			tag = SIC
+			NOT = { has_global_flag = lombard_league_destroyed }
+			LOM = { exists = yes }
+		}
+		
+		allow = {
+			war = no
+			has_country_flag = lombard_league_subjugation
+			LOM = { truce_with = THIS }
+			LOM = { is_disarmed = yes }
+		}
+		
+		effect = {
+			prestige = 10
+			LOM = { country_event = 134002 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -143,6 +171,7 @@ political_decisions = {
 		}
 		
 		allow = {
+			war_exhaustion = 20
 			OR = {
 				ai = no
 				AND = {
@@ -176,6 +205,7 @@ political_decisions = {
 	jerk_off = {
 		potential = {
 			tag = SIC
+			prestige = 999
 			NOT = { has_country_flag = jerked_off }
 		}
 		

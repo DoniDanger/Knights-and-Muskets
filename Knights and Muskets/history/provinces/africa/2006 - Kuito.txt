@@ -1,3 +1,6 @@
-trade_goods = fruit
-life_rating = 15
-colonial = 2
+owner = PIS
+controller = PIS
+add_core = PIS
+add_core = CRS
+trade_goods = grain
+life_rating = 35

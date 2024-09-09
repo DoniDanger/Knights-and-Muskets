@@ -38,6 +38,7 @@ upper_house = {
 	communist = 0
 }
 
+oob = "OCC_oob.txt"
 
 # Technologies
 motte_and_bailey = 1

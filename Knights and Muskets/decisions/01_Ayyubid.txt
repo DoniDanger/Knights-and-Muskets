@@ -3,7 +3,7 @@ political_decisions = {
 		potential = {
 			tag = EGY
 			NOT = { has_country_flag = egy_damascus_succession }
-			NOT = { SYR = { has_country_flag = syr_damascus_succession } }
+			NOT = { DMC = { has_country_flag = syr_damascus_succession } }
 			NOT = { has_global_flag = syr_ayyubid_civil_war }
 		}
 		
@@ -21,7 +21,7 @@ political_decisions = {
 					917 = { owned_by = JER }
 				}
 			}
-			NOT = { war_with = SYR }
+			NOT = { war_with = DMC }
 			NOT = { war_with = PLS }
 		}
 		
@@ -33,16 +33,61 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	incorporate_erzurum_appanage = {
+		potential = {
+			tag = RUM
+			ERZ = { exists = yes }
+			NOT = { has_country_flag = incorporated_erzurum_appanage }
+		}
+		
+		allow = {
+			war = no
+			ERZ = { vassal_of = THIS }
+			year = 1228
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = ERZ
+			ERZ = { all_core = { add_core = THIS } }
+			set_country_flag = incorporated_erzurum_appanage
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	annex_zakarid_armenia = {
+		potential = {
+			tag = GEO
+			ARM = { exists = yes }
+			NOT = { has_country_flag = annex_zakarid_armenia }
+		}
+		
+		allow = {
+			war = no
+			ARM = { vassal_of = THIS }
+			year = 1248
+		}
+		
+		effect = {
+			prestige = 5
+			add_accepted_culture = armenian
+			inherit = ARM
+			ARM = { all_core = { add_core = THIS } }
+			set_country_flag = annex_zakarid_armenia
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
 	subjugate_damascus_emirs = {
 		potential = {
 			tag = EGY
-			SYR = { exists = yes }
+			DMC = { exists = yes }
 			NOT = { has_country_flag = egy_subjugate_damascus }
 		}
 		
 		allow = {
 			war = no
-			SYR = { vassal_of = THIS }
+			DMC = { vassal_of = THIS }
 			year = 1244
 			OR = {
 				AND = {
@@ -55,7 +100,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 5
-			inherit = SYR
+			inherit = DMC
 			set_country_flag = egy_subjugate_damascus
 		}
 		ai_will_do = { factor = 1 }
@@ -89,12 +134,16 @@ political_decisions = {
 		
 		allow = {
 			war = no
+			DMC = { exists = no }
 			SYR = { exists = no }
 			SYR = { all_core = { owned_by = THIS } }
 		}
 		
 		effect = {
 			prestige = 5
+			inherit = DMC
+			inherit = ALP
+			inherit = JAZ
 			SYR = { all_core = { add_core = THIS } }
 			add_accepted_culture = levantine
 			set_country_flag = egy_damascus_integration
@@ -161,6 +210,7 @@ political_decisions = {
 		
 		allow = {
 			war = no
+			year = 1244
 			OR = {
 				MSL = { vassal_of = THIS }
 				MSL = { all_core = { owned_by = THIS } }
@@ -176,9 +226,39 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	ayy_integrate_anatolian_beyliks = {
+		potential = {
+			tag = EGY
+			NOT = { has_country_flag = ayy_integrated_anatolian_beyliks }
+		}
+		
+		allow = {
+			war = no
+			year = 1248
+			OR = {
+				ARQ = { vassal_of = THIS }
+				ARQ = { all_core = { owned_by = THIS } }
+			}
+			OR = {
+				AHL = { vassal_of = THIS }
+				AHL = { all_core = { owned_by = THIS } }
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = AHL
+			inherit = ARQ
+			ARQ = { all_core = { add_core = THIS } }
+			AHL = { all_core = { add_core = THIS } }
+			set_country_flag = ayy_integrated_anatolian_beyliks
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
 	struggle_with_al_kamil = {
 		potential = {
-			tag = SYR
+			tag = DMC
 			NOT = { has_country_flag = syr_damascus_succession }
 		}
 		

@@ -2,6 +2,10 @@ owner = SIC
 controller = SIC
 add_core = NAP
 add_core = SIC
-trade_goods = tobacco
+trade_goods = stone
 life_rating = 35
-1861.1.1 = { railroad = 3 }
+state_building = {
+	level = 1
+	building = leather_tannery
+	upgrade = yes
+}

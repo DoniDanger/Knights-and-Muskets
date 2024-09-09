@@ -1,5 +1,6 @@
-owner = WHA
-controller = WHA
+owner = GWY
+controller = GWY
+add_core = GWY
 add_core = WHA
 trade_goods = fish
 life_rating = 35

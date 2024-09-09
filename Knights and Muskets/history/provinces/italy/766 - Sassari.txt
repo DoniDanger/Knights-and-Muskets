@@ -1,6 +1,7 @@
 owner = PIS
 controller = PIS
 add_core = PIS
+add_core = GLL
 add_core = SRD
 trade_goods = grain
 life_rating = 35

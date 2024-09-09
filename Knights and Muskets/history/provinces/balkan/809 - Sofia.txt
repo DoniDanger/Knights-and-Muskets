@@ -2,5 +2,5 @@ owner = BUL
 controller = BUL
 add_core = BUL
 add_core = BYZ
-trade_goods = timber
+trade_goods = stone
 life_rating = 35

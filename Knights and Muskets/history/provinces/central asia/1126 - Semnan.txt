@@ -3,5 +3,6 @@ controller = WMG
 add_core = ILK
 add_core = WMG
 add_core = PER
+add_core = KHR
 trade_goods = coal
 life_rating = 35

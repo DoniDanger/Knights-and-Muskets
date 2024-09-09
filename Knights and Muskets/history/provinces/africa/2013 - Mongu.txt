@@ -1,3 +1,6 @@
-add_core = KZB
-trade_goods = cattle
-life_rating = 15
+owner = SIC
+controller = SIC
+add_core = SIC
+add_core = SYC
+trade_goods = salt
+life_rating = 35

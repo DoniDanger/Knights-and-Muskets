@@ -6838,7 +6838,7 @@
 	}
 
 	farmers = {
-		culture = ligurian
+		culture = piedmontese
 		religion = catholic
 		size = 15130
 	}
@@ -6857,6 +6857,12 @@
 		size = 550
 	}
 
+	bureaucrats = {
+		culture = arpitan
+		religion = catholic
+		size = 475
+	}
+	
 	clergymen = {
 		culture = arpitan
 		religion = catholic
@@ -6914,11 +6920,23 @@
 		religion = catholic
 		size = 900
 	}
+	
+	capitalists = {
+		culture = provencal
+		religion = catholic
+		size = 1800
+	}
 
-	artisans = {
+	craftsmen = {
 		culture = provencal
 		religion = catholic
 		size = 9500
+	}
+	
+	craftsmen = {
+		culture = provencal
+		religion = catholic
+		size = 4500
 	}
 	
 	artisans = {
@@ -6948,7 +6966,7 @@
 	farmers = {
 		culture = provencal
 		religion = catholic
-		size = 26500
+		size = 16500
 	}
 
 	farmers = {
@@ -7343,7 +7361,7 @@
 
 }
 #Corsica Region (210000)
-#Corsica (210000/52500 POPS)
+#Corti (210000/52500 POPS)
 473 = {
 	aristocrats = {
 		culture = tuscan
@@ -7406,4 +7424,66 @@
 	}
 
 }
+#Ajaccio (210000/52500 POPS)
+2006 = {
+	aristocrats = {
+		culture = tuscan
+		religion = catholic
+		size = 400
+	}
 
+	aristocrats = {
+		culture = tuscan
+		religion = catholic
+		size = 150
+	}
+
+	officers = {
+		culture = tuscan
+		religion = catholic
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = tuscan
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = tuscan
+		religion = catholic
+		size = 500
+	}
+
+	artisans = {
+		culture = tuscan
+		religion = catholic
+		size = 1500
+	}
+
+	artisans = {
+		culture = tuscan
+		religion = catholic
+		size = 1100
+	}
+
+	soldiers = {
+		culture = tuscan
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = sardinian
+		religion = catholic
+		size = 9080
+	}
+
+	farmers = {
+		culture = tuscan
+		religion = catholic
+		size = 16550
+	}
+
+}

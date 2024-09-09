@@ -1,3 +1,5 @@
-trade_goods = grain
-life_rating = 15
-add_core = TSW
+owner = ENL
+controller = ENL
+add_core = ENL
+trade_goods = tin
+life_rating = 35

@@ -3,5 +3,5 @@ controller = SVY
 add_core = SVY
 add_core = NNN
 add_core = ITA
-trade_goods = wool
+trade_goods = fruit
 life_rating = 35

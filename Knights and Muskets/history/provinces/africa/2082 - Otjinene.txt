@@ -1,2 +1,6 @@
-trade_goods = grain
-life_rating = 10
+owner = SCO
+controller = SCO
+add_core = LOI
+add_core = SCO
+trade_goods = fish
+life_rating = 35

@@ -427,6 +427,27 @@ british = {
         Moresby Mundy Napier Odoni "of Hannover" "of Saxe-Coburg-Gotha" Plummer Ragland Roberts Seaton Seymour
         Smith Smith-Dorrien Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood }
     }
+	anglo_norman = {
+		color = { 195 144 255 }
+		
+		first_names = { "Âbréhan" "Achard" "Âdam" "Aimablle" "Aimé" "Albé" "Albéric" "Albèrt" "Alcide" "Alcine" "Alfred" "Almire" "Andrâ" "Arsène" "Arthur" "Aubert" "Aubîn" "Barnabé" "Batistin" "Bazile" "Bênardin" "Benjamîn" "Bénoni" "Benouét" "Bèrnabé" "Bertin" "Bêtinet" "Bon" "Bouonot" "Bram" "Cénéric" "César" "Charles" "Charlot" "Chinot" "Cliément" "Cllément" "Cllémentin" "Clovis" "Colas" "Constant" "Dâlpheusse" "Dannié" "Dardinne" "Dardot" "Darri" "Darrique" "Dâvi" "Delphin" "Dénin" "Désiré" "Dgibèrt" "Dgilliaume" "Dol" "Edelmir" "Êdouard" "Élyie" "Elysée" "Ernest" "Èrthu" "Eudes" "Evroult" "Félix" "Firmin" "Fllipin" "Fllocé" "Françot" "Françouais" "Fraunchinot" "Fraunçouès" "Frédéris" "Frédo" "Fréton" "Gabriel" "Geffrai" "Génotin" "German" "Gérold" "Gllâome" "Gllâomin" "Guérôme" "Guian" "Guilbert" "Guustave" "Guuste" "Guustin" "Guy" "Guytounet" "Hébèrt" "Henri" "Hippolyte" "Hubèrt" "Hyacynthe" "Isidore" "Jâcob" "Jacot" "Jacques" "Jâosé" "Jâoséphin" "Jaques" "Jaquinot" "Jean" "Jeannot" "Jeaun" "Jeustin" "Jimce" 		"Jînmîn" "Jônas" "Josué" "Jules" "Julot" "Laïesse" "Laud" "Léan" "Léonche" "Lexaundre" "Lexis" "Liyoun" "Louis" "Louisot" "Louisotin" "Louothains" "Luc" "Ludovi" "Mabire" "Mar" "Martîn" "Matchi" "Mathurin" "Médée" "Médéric" "Miché" "Michi" "Moïse" "Napoliyoun" "Nic" "Nic'lesse" "Nico" "Nicolas" "Noré" "Noué" "Olivyi" "Olympe" "Onésipe" "Ortaire" "Ouesslé" "Pâolin" "Pèrrotîn" "Ph'lippe" "Piérin" "Piérotin" "Pièrre" "Pièrrot" "Piteur" "Pllacide" "Polydor" "Polyte" "Prudent" "Pyire" "Rasiphe" "Raven" "R'chard" "Rémin" "Réné" "Robèrt" "Rollon" "Rou" "Sosthène" "Tam" "Tancrède" "Tanme" "Tanmîn" "Tanminne" "Tchèrli" "Théodore" "Thimothée" "Thiophile" "Thiry" "Thonmas" "Timothée" "Touénot" "Ugène" "Valentîn" "Victorin" "Wandrille" "Zéphyr" "Zidore" }
+		
+		last_names = { "Anquetil" "Auber" "Aubert" "Auffray" "Baskerville" "Beaman" "Beaumont" "Beausire" "Bellamy" "Bennett" "Bérubé" "Bettencourt" "Bidault" "Bourgault" "Bowell" "Bowles" "Bowser" "Boyle" "Brebeuf" "Buffett" "Burnouf" "Butler" "Campion" "Carteret" "Cheney" "Churchill" "Coffin" "Cruwys" "Dagobert" "De la Hay" "Delahaye" "Deveraux" "Devereaux" "Devereux" "Dior" "Dubosc" "Duclos" "Duhamel" "Farnfold" "FitzAlan" "FitzGerald" "French" "Gilbert" "Gosselin" "Grosvenor" "Groult" "Hamel" "Hamill" "Harcourt" "Harcourt-Vernon" "Hardouin" "Hébert" "Hewlett" "Hubert" "Humphrey" "Karr" "Lambert" "Langlois" "Le Sueur" "Leavitt" "Lefébure" "Levesque" "Levett" "Lewis" "Lovett" "Lush" "Magnay" "Massey" "Molyneux" "Montgomery" "Mortimer" "Neel" "Neville" "Orpen" "Petty-Fitzmaurice" "Poleon" "Pomeroy" "Prendergast" "Renouf" "Restout" "Roy" "Sinclair" "Speakman" "Spence" "Spencer" "Squire" "Squires" "Sturgis" "Talbot" "Tanqueray" "Taylor" "Tiffen" "Turgis" "Turgot" "Venables-Vernon" "Venables-Vernon-Harcourt" "Vernon" 		"Vernon-Harcourt" "Vimont" "Woodville" "de Normandie" }
+	}
+	cambro_norman = {
+		color = { 195 84 205 }
+		
+		first_names = { "Âbréhan" "Achard" "Âdam" "Aimablle" "Aimé" "Albé" "Albéric" "Albèrt" "Alcide" "Alcine" "Alfred" "Almire" "Andrâ" "Arsène" "Arthur" "Aubert" "Aubîn" "Barnabé" "Batistin" "Bazile" "Bênardin" "Benjamîn" "Bénoni" "Benouét" "Bèrnabé" "Bertin" "Bêtinet" "Bon" "Bouonot" "Bram" "Cénéric" "César" "Charles" "Charlot" "Chinot" "Cliément" "Cllément" "Cllémentin" "Clovis" "Colas" "Constant" "Dâlpheusse" "Dannié" "Dardinne" "Dardot" "Darri" "Darrique" "Dâvi" "Delphin" "Dénin" "Désiré" "Dgibèrt" "Dgilliaume" "Dol" "Edelmir" "Êdouard" "Élyie" "Elysée" "Ernest" "Èrthu" "Eudes" "Evroult" "Félix" "Firmin" "Fllipin" "Fllocé" "Françot" "Françouais" "Fraunchinot" "Fraunçouès" "Frédéris" "Frédo" "Fréton" "Gabriel" "Geffrai" "Génotin" "German" "Gérold" "Gllâome" "Gllâomin" "Guérôme" "Guian" "Guilbert" "Guustave" "Guuste" "Guustin" "Guy" "Guytounet" "Hébèrt" "Henri" "Hippolyte" "Hubèrt" "Hyacynthe" "Isidore" "Jâcob" "Jacot" "Jacques" "Jâosé" "Jâoséphin" "Jaques" "Jaquinot" "Jean" "Jeannot" "Jeaun" "Jeustin" "Jimce" 		"Jînmîn" "Jônas" "Josué" "Jules" "Julot" "Laïesse" "Laud" "Léan" "Léonche" "Lexaundre" "Lexis" "Liyoun" "Louis" "Louisot" "Louisotin" "Louothains" "Luc" "Ludovi" "Mabire" "Mar" "Martîn" "Matchi" "Mathurin" "Médée" "Médéric" "Miché" "Michi" "Moïse" "Napoliyoun" "Nic" "Nic'lesse" "Nico" "Nicolas" "Noré" "Noué" "Olivyi" "Olympe" "Onésipe" "Ortaire" "Ouesslé" "Pâolin" "Pèrrotîn" "Ph'lippe" "Piérin" "Piérotin" "Pièrre" "Pièrrot" "Piteur" "Pllacide" "Polydor" "Polyte" "Prudent" "Pyire" "Rasiphe" "Raven" "R'chard" "Rémin" "Réné" "Robèrt" "Rollon" "Rou" "Sosthène" "Tam" "Tancrède" "Tanme" "Tanmîn" "Tanminne" "Tchèrli" "Théodore" "Thimothée" "Thiophile" "Thiry" "Thonmas" "Timothée" "Touénot" "Ugène" "Valentîn" "Victorin" "Wandrille" "Zéphyr" "Zidore" }
+		
+		last_names = { "Anquetil" "Auber" "Aubert" "Auffray" "Baskerville" "Beaman" "Beaumont" "Beausire" "Bellamy" "Bennett" "Bérubé" "Bettencourt" "Bidault" "Bourgault" "Bowell" "Bowles" "Bowser" "Boyle" "Brebeuf" "Buffett" "Burnouf" "Butler" "Campion" "Carteret" "Cheney" "Churchill" "Coffin" "Cruwys" "Dagobert" "De la Hay" "Delahaye" "Deveraux" "Devereaux" "Devereux" "Dior" "Dubosc" "Duclos" "Duhamel" "Farnfold" "FitzAlan" "FitzGerald" "French" "Gilbert" "Gosselin" "Grosvenor" "Groult" "Hamel" "Hamill" "Harcourt" "Harcourt-Vernon" "Hardouin" "Hébert" "Hewlett" "Hubert" "Humphrey" "Karr" "Lambert" "Langlois" "Le Sueur" "Leavitt" "Lefébure" "Levesque" "Levett" "Lewis" "Lovett" "Lush" "Magnay" "Massey" "Molyneux" "Montgomery" "Mortimer" "Neel" "Neville" "Orpen" "Petty-Fitzmaurice" "Poleon" "Pomeroy" "Prendergast" "Renouf" "Restout" "Roy" "Sinclair" "Speakman" "Spence" "Spencer" "Squire" "Squires" "Sturgis" "Talbot" "Tanqueray" "Taylor" "Tiffen" "Turgis" "Turgot" "Venables-Vernon" "Venables-Vernon-Harcourt" "Vernon" 		"Vernon-Harcourt" "Vimont" "Woodville" "de Normandie" }
+	}
+	hiberno_norman = {
+		color = { 195 84 205 }
+		
+		first_names = { "Âbréhan" "Achard" "Âdam" "Aimablle" "Aimé" "Albé" "Albéric" "Albèrt" "Alcide" "Alcine" "Alfred" "Almire" "Andrâ" "Arsène" "Arthur" "Aubert" "Aubîn" "Barnabé" "Batistin" "Bazile" "Bênardin" "Benjamîn" "Bénoni" "Benouét" "Bèrnabé" "Bertin" "Bêtinet" "Bon" "Bouonot" "Bram" "Cénéric" "César" "Charles" "Charlot" "Chinot" "Cliément" "Cllément" "Cllémentin" "Clovis" "Colas" "Constant" "Dâlpheusse" "Dannié" "Dardinne" "Dardot" "Darri" "Darrique" "Dâvi" "Delphin" "Dénin" "Désiré" "Dgibèrt" "Dgilliaume" "Dol" "Edelmir" "Êdouard" "Élyie" "Elysée" "Ernest" "Èrthu" "Eudes" "Evroult" "Félix" "Firmin" "Fllipin" "Fllocé" "Françot" "Françouais" "Fraunchinot" "Fraunçouès" "Frédéris" "Frédo" "Fréton" "Gabriel" "Geffrai" "Génotin" "German" "Gérold" "Gllâome" "Gllâomin" "Guérôme" "Guian" "Guilbert" "Guustave" "Guuste" "Guustin" "Guy" "Guytounet" "Hébèrt" "Henri" "Hippolyte" "Hubèrt" "Hyacynthe" "Isidore" "Jâcob" "Jacot" "Jacques" "Jâosé" "Jâoséphin" "Jaques" "Jaquinot" "Jean" "Jeannot" "Jeaun" "Jeustin" "Jimce" 		"Jînmîn" "Jônas" "Josué" "Jules" "Julot" "Laïesse" "Laud" "Léan" "Léonche" "Lexaundre" "Lexis" "Liyoun" "Louis" "Louisot" "Louisotin" "Louothains" "Luc" "Ludovi" "Mabire" "Mar" "Martîn" "Matchi" "Mathurin" "Médée" "Médéric" "Miché" "Michi" "Moïse" "Napoliyoun" "Nic" "Nic'lesse" "Nico" "Nicolas" "Noré" "Noué" "Olivyi" "Olympe" "Onésipe" "Ortaire" "Ouesslé" "Pâolin" "Pèrrotîn" "Ph'lippe" "Piérin" "Piérotin" "Pièrre" "Pièrrot" "Piteur" "Pllacide" "Polydor" "Polyte" "Prudent" "Pyire" "Rasiphe" "Raven" "R'chard" "Rémin" "Réné" "Robèrt" "Rollon" "Rou" "Sosthène" "Tam" "Tancrède" "Tanme" "Tanmîn" "Tanminne" "Tchèrli" "Théodore" "Thimothée" "Thiophile" "Thiry" "Thonmas" "Timothée" "Touénot" "Ugène" "Valentîn" "Victorin" "Wandrille" "Zéphyr" "Zidore" }
+		
+		last_names = { "Anquetil" "Auber" "Aubert" "Auffray" "Baskerville" "Beaman" "Beaumont" "Beausire" "Bellamy" "Bennett" "Bérubé" "Bettencourt" "Bidault" "Bourgault" "Bowell" "Bowles" "Bowser" "Boyle" "Brebeuf" "Buffett" "Burnouf" "Butler" "Campion" "Carteret" "Cheney" "Churchill" "Coffin" "Cruwys" "Dagobert" "De la Hay" "Delahaye" "Deveraux" "Devereaux" "Devereux" "Dior" "Dubosc" "Duclos" "Duhamel" "Farnfold" "FitzAlan" "FitzGerald" "French" "Gilbert" "Gosselin" "Grosvenor" "Groult" "Hamel" "Hamill" "Harcourt" "Harcourt-Vernon" "Hardouin" "Hébert" "Hewlett" "Hubert" "Humphrey" "Karr" "Lambert" "Langlois" "Le Sueur" "Leavitt" "Lefébure" "Levesque" "Levett" "Lewis" "Lovett" "Lush" "Magnay" "Massey" "Molyneux" "Montgomery" "Mortimer" "Neel" "Neville" "Orpen" "Petty-Fitzmaurice" "Poleon" "Pomeroy" "Prendergast" "Renouf" "Restout" "Roy" "Sinclair" "Speakman" "Spence" "Spencer" "Squire" "Squires" "Sturgis" "Talbot" "Tanqueray" "Taylor" "Tiffen" "Turgis" "Turgot" "Venables-Vernon" "Venables-Vernon-Harcourt" "Vernon" 		"Vernon-Harcourt" "Vimont" "Woodville" "de Normandie" }
+	}
 	scottish = {
         color = { 0 71 182 }
         radicalism = 5
@@ -434,6 +455,36 @@ british = {
 
         last_names = { Smith Brown Wilson Robertson Thomson Campbell Stewart Anderson Scott Murray MacDonald Reid Taylor Clark Ross Young Mitchell Watson Paterson Morrison Sanders    }
     }
+	highlander = {
+		color = { 0 10 180 }
+		radicalism = 5
+		first_names = { Adair Ahearn Alby Annan Aodh Arlan Ayden Baird Bendigeidfran Befan Bricriu Bryce Burgess Cadell Cadman Cassivellaunus Chad Conall Conan Conn Cuinn Cullen Dearg Dorran Doughlas Drem Driscol Duane Dughall Elgin Emrys Eoin Fergus Fiacre Finnobarr Gall Gorsedd Herne Hueil Keaghan Kearney Keir Leigh Luxovious Mac Neale Phelan Pryderi Quinn Taliesin Torsten Ulfred Winsor Wynter }
+		
+		last_names = { Aileanach Ailpeanach Allanach Anam Anndrasdan Arasgain Barrach Beitean Bhodhsa Blacach Bochanan Breac Breathnach Brothaigh Buideach Cailbhin Caileanach Caimbeulach Camshronach Cananach Caoidheach Catach Ceallach Ceannaideach Ceiteach Cuimeineach Druimeineach Dubhach Dunaidh Donnchadh Eabarcrombaigh Fionnlasdan Flimean Foirbeiseach Frisealach Gallach Geadais Geadasach Gearailteach Gilios Giobsan Glas Gobha Granndach Greumach Guaire Gutraidh Latharnach Leamhanach Lobhdain Loganach Munna Niocalsan Rathais Roid Ros Ruadh Seadh Seagha Singleir Sutharlan Todt Talmhach Tulach Ualas Umphraidh Urchadainn }
+	}
+	norse_gael = {
+		color = {208 12 39}
+		first_names = { Abban Aedan Aleyn Aspallan Aulay Carbry Connaghyn Cristen Dolyn Donal Doolish Eamon 
+		Ean Fiac Fynlo Gibbon Gilcrist Gorry Hane Illiam Inry Jamys Jole Juan Kerran Lonan Mian Mannanan 
+		Nellyn Olyn Pheric Quisten Rory Robyn Sandulf Teige Thomase Urmen Yvar Yvor Yveno}
+		
+		last_names = { Allen Bell Boyd Brew Bridson Caine Calcott Caley Callin Callister Callow Cammaish 
+		Cannan Cannell Cannon Carine Carran Casement Cashen Cashin Castell Caveen Christian Christory 
+		Clague Clarke Cleator Clegg Clerk Clucas Cogeen Collister Colvin Comish Connelly Cooil Coole Corjeag 
+		Corkhill Corkish Corlett Cormode Corooin Corran Corrin Corris Corteen Cosnahan Costain Costean Cotteen 
+		Cotter Cottier Cowell Cowen Cowin Cowle Cowley Craig Craine Crebbin Creer Creetch Cregeen Crellin 
+		Crennell Cretney Criggal Cringle Croghan Crowe Crye Crystal Cubbon Curghey Curphey Daley Dougherty 
+		Duggan Duke Ellison Faragher Fargher Farrant Fayle Fell Freer Gale Garret Gawne Gell Gelling Gick 
+		Gill Gorree Gorry Graves Halsall Hampton Harrison Howland Hudgeon Hutchen Hutchin Joughin Kaighan 
+		Kaighin Kaneen Karran Kay Kee Kegeen Kegg Keig Keigeen Kelly Kennaugh Kennish Kermeen Kermode 
+		Kerruish Kew Kewin Kewish Kewley Key Kie Killey Killip Kinley Kinnish Kinred Kinry Kinvig Kissack 
+		Kneale Kneen Knickell Lace Leece Lewin Looney Lowey Lucas Maddrell Martin Moore Morrison Morton 
+		Moughtin Mughtin Murray Mylchraine Mylchreest Mylecharaine Mylechreest Mylrea Mylroie Mylvorrey 
+		Nelson Norris Oates Quaggin Qualtrough Quane Quark Quarry Quay Quayle Quiggin Quill Quilleash 
+		Quilliam Quillin Quine Quinney Quirk Radcliff Ratcliff Sansbury Sayle Scarff Shimmin Skelly 
+		Skillicorne Skinner Stean Stephen Stephenson Stevenson Stole Stowell Taggart Taubman Teare Thompson 
+		Vondy Ward Waterson Watterson Wattleworth Woods }
+	}
 	welsh = {
         color = { 35 100 20 }
         first_names = { Huw David Dafydd Iwan Bartholemew Henry John Morgan James Owen
@@ -442,6 +493,20 @@ british = {
         last_names = { Griffiths Gruffydd Griffin Roberts Jones Davids Davies "ap Morgan" Welsh
         Peters George Morgannwg Evans Williams}
     }
+	cornish = {
+		color = {55 120 40}
+		first_names = { Arthek Arthyen Austol Benesek Branok Bryok Breok Brioc Cadan Cador Carantok Casek Casworon 
+		Clemo Clesek Corentyn Costentyn De Day Edern Enyon Gerens Gerren Goron Gryffyn Gwalather Hedrek Hedrok Jago 
+		Jory Jowan Kenal Keneder Kenver Kitto Locryn Lowen Madern Massen Meryasek Peran Perran Piran Pasco Pascow 
+		Santo Treeve Treave }
+		
+		last_names = {Angove Angwin Argus Bligh Bolitho Bosanko Cardy Carew Carlyon Carne Chenoweth Chenowith Chynoweth 
+		Couch Cuff Curnow Eudy Geen Grose Gummo Keast Kellow Kevern Kimbrel Kimbrell Kitto Lamphier Lanyon Lower Moon 
+		Moyle Nancarrow Nankervis Opie Oppy Pedrick Pengelly Penhollow Penna Penrose Pethick Polkinghorn Polkinghorne 
+		Prideaux Quick Retallick Rosevear Roskelley Sholl Skewes Skuse Spargo Teague Trebilcock Tredinnick Treen 
+		Tregoning Trelease Treleven Treloar Tremaine Tremayne Trembath Trenary Tretheway Trethewey Trevarthen 
+		Trevena Trevethan Trevithick Trevorrow Trezise Truscott Verran Vigus Woon }
+	}
 	irish = { 
 		color = { 35 140 50}
 		radicalism = 15
@@ -1475,6 +1540,23 @@ levantine = {
 		Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
 		}
 		union = BYZ
+	}
+	griko = {
+		color = { 80 150 185 }
+		first_names = { Adamantios Alexandros Anastasios Andreas Andra Antonios Aristidis Athanasios Augustinos Arbehan Bazile Benizelos Bram Charalambos
+		Charilaos Dalpheusse Dimitrios Diomidis Eleftherios Elyie Emmanouil Epameinontas Evripidis Freton Gennaios Georgios Ilias
+		Ionnis Kitsos Klovis Konstantinos Kyriakos Kyriakoulis Leonidas Makarios Markos Mikhael Militiadis
+		Nikolaos Odysseas Othon Panagiotis Pavlos Petros Sofoklis Sotiris Spyridion Spyros
+		Staikos Stefanos Stylianos Themistoklis Theodoros Tharyvoulos Tzannis Vasos Viktor Zinovios
+		}
+
+		last_names = { Charalambis Christakis-Zografos Danglis Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
+		Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
+		Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
+		Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas "tes Elladas"
+		Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
+		}
+		radicalism = 10
 	}
 	cypriot = {
 		color = { 80 150 185 }

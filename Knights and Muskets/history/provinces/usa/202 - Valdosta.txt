@@ -2,5 +2,5 @@ owner = FLA
 controller = FLA
 add_core = FLA
 add_core = NNN
-trade_goods = cotton
+trade_goods = cattle
 life_rating = 35

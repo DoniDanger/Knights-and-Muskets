@@ -1,0 +1,49 @@
+army = {
+    name = "Army of Champagne"
+    location = 406
+    regiment = {
+        name= "Champagne Guards"
+        type = plane
+        home = 406
+    }
+	regiment = {
+        name= "Champagne Guards"
+        type = plane
+        home = 407
+    }
+    regiment = {
+        name= "Champagne Infantry"
+        type = infantry
+        home = 2593
+    }
+	 regiment = {
+        name= "Champagne Infantry"
+        type = infantry
+        home = 427
+    }
+    regiment = {
+        name= "Champagne Archers"
+        type = artillery
+        home = 2592
+    }
+	regiment = {
+        name= "Champagne Archers"
+        type = artillery
+        home = 69
+    }
+	regiment = {
+        name= "Champagne Archers"
+        type = artillery
+        home = 405
+    }
+	regiment = {
+        name= "Champagne Crossbowmen"
+        type = tank
+        home = 200
+    }
+	regiment = {
+        name= "Champagne Knights"
+        type = cuirassier
+        home = 408
+    }
+}

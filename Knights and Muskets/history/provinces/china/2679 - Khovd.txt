@@ -1,7 +1,5 @@
-owner = WMG
-controller = WMG
-add_core = CHG
-add_core = WMG
-add_core = MGE
+owner = MGL
+controller = MGL
+add_core = MGL
 trade_goods = horses
 life_rating = 32

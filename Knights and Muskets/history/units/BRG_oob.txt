@@ -1,0 +1,39 @@
+army = {
+    name = "Army of Burgundy"
+    location = 428
+    regiment = {
+        name= "Burgundian Guards"
+        type = plane
+        home = 428
+    }
+    regiment = {
+        name= "Burgundian Infantry"
+        type = infantry
+        home = 428
+    }
+	 regiment = {
+        name= "Burgundian Infantry"
+        type = infantry
+        home = 198
+    }
+    regiment = {
+        name= "Burgundian Archers"
+        type = artillery
+        home = 430
+    }
+	regiment = {
+        name= "Burgundian Archers"
+        type = artillery
+        home = 429
+    }
+	regiment = {
+        name= "Burgundian Archers"
+        type = artillery
+        home = 76
+    }
+	regiment = {
+        name= "Burgundian Knights"
+        type = cuirassier
+        home = 431
+    }
+}

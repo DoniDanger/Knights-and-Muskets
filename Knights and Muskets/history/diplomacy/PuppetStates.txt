@@ -24,6 +24,13 @@ vassal = {
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
+#Georgia-Zakarid Armenia
+vassal = {
+	first = GEO
+	second = ARM
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
 
 ### Danish Kingdom ###
 #Denmark-Holstein
@@ -77,7 +84,21 @@ substate = {
 #Ayyubid-Damascus
 substate = {
 	first = EGY
-	second = SYR
+	second = DMC
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Ayyubid-Aleppo
+substate = {
+	first = EGY
+	second = ALP
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Ayyubid-Jazira
+substate = {
+	first = EGY
+	second = JAZ
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
@@ -85,6 +106,27 @@ substate = {
 substate = {
 	first = EGY
 	second = PLS
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Ayyubid-Artuqids
+vassal = {
+	first = EGY
+	second = ARQ
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Ayyubid-Shah-Armens
+vassal = {
+	first = EGY
+	second = AHL
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Ayyubid-Zengid Mosul
+vassal = {
+	first = EGY
+	second = MSL
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
@@ -99,6 +141,15 @@ vassal = {
 vassal = {
 	first = EGY
 	second = YEM
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+### Rum ###
+#Rum-Erzurum
+substate = {
+	first = RUM
+	second = ERZ
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
@@ -145,6 +196,45 @@ substate = {
 substate = {
 	first = ENL
 	second = IRL
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#England-Marcher Lords
+substate = {
+	first = ENL
+	second = WMC
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#England-County Palatine of Durham
+vassal = {
+	first = ENL
+	second = DRH
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#England-County Palatine of Chester
+vassal = {
+	first = ENL
+	second = CHT
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+## Whales ##
+#Gwynedd-Powys
+vassal = {
+	first = GWY
+	second = PWY
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+
+### Norway ###
+#Norway-Kingdom of the Isles
+vassal = {
+	first = NOR
+	second = LOI
 	start_date = 1212.1.1
 	end_date = 1859.1.24	
 }
@@ -285,11 +375,32 @@ vassal = {
 
 ### Mongol Empire ###
 #Mongol Empire-Western Mongol Empire
-#vassal = {
-#	first = MGL
-#	second = WMG
-#	start_date = 1212.1.1
-#	end_date = 1859.1.24	
-#}
+substate = {
+	first = MGL
+	second = WMG
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Mongol Empire-Eastern Liao
+vassal = {
+	first = MGL
+	second = ELI
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Mongol Empire-Eastern Xia
+vassal = {
+	first = MGL
+	second = EXI
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
+#Mongol Empire-Western Xia
+vassal = {
+	first = MGL
+	second = XBI
+	start_date = 1212.1.1
+	end_date = 1859.1.24	
+}
 
 ### Kievan' Rus ###

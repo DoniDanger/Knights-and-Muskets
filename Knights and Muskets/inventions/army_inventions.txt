@@ -49,7 +49,7 @@ cheval_de_frise = {
 			defence = 1
 		}
 		artillery = {
-			defence = 1
+			defence = 0.5
 		}
 		engineer = {
 			defence = 2
@@ -58,7 +58,7 @@ cheval_de_frise = {
 			defence = 1
 		}
 		tank = {
-			defence = 1
+			defence = 0.5
 		}
 		plane = {
 			defence = 1
@@ -341,8 +341,8 @@ welsh_bow = {
 	}
 	effect = {
 		artillery = {
-		attack = 0.25
-		defence = 0.5
+		attack = 0.5
+		defence = 0.25
 		support = 0.25
 		}
 	}	
@@ -411,9 +411,9 @@ bodkin_arrowhead = {
 		}
 	effect = {
 		artillery = {
-			attack = 0.25
-			defence = 1.5
-			support = 0.5
+			attack = 0.5
+			defence = 0.25
+			support = 0.25
 			}
 	}
 }
@@ -424,8 +424,8 @@ crossbow_advance = {
 		}
 	effect = {
 		tank = {
-			attack = 0.5
-			defence = 1
+			attack = 0.75
+			defence = 0.5
 			support = 0.25
 			}
 	}
@@ -474,8 +474,8 @@ genoa_tactic = {
 		}
 	effect = {
 		tank = {
-			attack = 0.5
-			defence = 2
+			attack = 0.75
+			defence = 1.5
 			support = 0.25
 			maximum_speed = 1
 		}
@@ -919,7 +919,7 @@ archer_platform = {
 		}
 }
 gas_attack_capability = {
-	limit = { lamellar_armour = 1 }
+	limit = { mongol_lesson = 1 }
 	chance = {
 		base = 0
 		modifier = {

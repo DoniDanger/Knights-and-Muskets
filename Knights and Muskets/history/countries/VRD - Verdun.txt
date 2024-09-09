@@ -1,5 +1,5 @@
 capital = 411
-primary_culture = north_german
+primary_culture = lorrain
 religion = catholic
 government = absolute_monarchy
 plurality = 0.0

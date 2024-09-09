@@ -1,8 +1,5 @@
+owner = EXI
+controller = EXI
+add_core = EXI
 trade_goods = fish
-life_rating = 20
-colonial = 1
-1861.1.1 = {
-	
-	
-	
-}
+life_rating = 32

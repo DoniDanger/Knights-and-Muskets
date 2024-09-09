@@ -1,8 +1,9 @@
-owner = FRK
-controller = FRK
-add_core = FRK
+owner = TIR
+controller = TIR
+add_core = TIR
+add_core = NNN
 add_core = GER
 trade_goods = fruit
-life_rating = 40
+life_rating = 35
 fort = 1
 1861.1.1 = { railroad = 3 }

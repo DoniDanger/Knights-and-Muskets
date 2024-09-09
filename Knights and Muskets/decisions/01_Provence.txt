@@ -28,12 +28,48 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			prestige = 20
+			FRA = {
+                relation = {
+                    who = THIS
+                    value = 80
+                }
+            }
+			prestige = 15
 		}
 		
 		effect = {
 			create_alliance = FRA
 			set_country_flag = provencal_valois_marriage
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	conquer_the_regno = {
+		potential = {	
+			tag = PRO
+			NOT = { has_country_flag = conquered_the_regno }
+		}
+		
+		allow = {
+			war = no
+			SIC = { exists = yes }
+			PAP = {
+                relation = {
+                    who = THIS
+                    value = 80
+                }
+            }
+			prestige = 20
+		}
+		
+		effect = {
+			badboy = 12
+			casus_belli = {
+                target = SIC
+                type = conquest_any
+                months = 60
+            }
+			set_country_flag = conquered_the_regno
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -54,6 +90,7 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			change_tag = NAP
+			primary_culture = south_italian
 			add_accepted_culture = provencal
 			add_accepted_culture = south_italian
 			set_country_flag = seized_sicilian_throne

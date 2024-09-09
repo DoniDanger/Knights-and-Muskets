@@ -2,5 +2,5 @@ owner = CMN
 controller = CMN
 add_core = CMN
 add_core = WAL
-trade_goods = coal
+trade_goods = fruit
 life_rating = 35

@@ -1,3 +1,6 @@
-trade_goods = fruit
-life_rating = 15
-colonial = 2
+owner = URB
+controller = URB
+add_core = URB
+add_core = ITA
+trade_goods = salt
+life_rating = 35

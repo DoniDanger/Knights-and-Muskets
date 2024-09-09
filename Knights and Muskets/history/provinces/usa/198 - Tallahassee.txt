@@ -1,5 +1,5 @@
 owner = BRG
 controller = BRG
 add_core = BRG
-trade_goods = cotton
+trade_goods = salt
 life_rating = 35

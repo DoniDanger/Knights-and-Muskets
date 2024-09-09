@@ -1,72 +1,6 @@
-#Rio Negro Region (12000) #see Colombia.txt for balance of region
-#Under loose authority of Colombia 1836
-#Marabitanas (12000/3000 POPS) #now part of Brazil
-2401 = {
-	aristocrats = {
-		culture = amazonian
-		religion = animist
-		size = 50
-	}
-
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 75
-	}
-
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 150
-	}
-
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 25
-	}
-
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 2700
-	}
-}
 #Amazonas Region (80000)
 #Under rule of Brazil 1836
 #Under loose authority of Brazil 1836
-#Cachoeira (8000/2000 POPS)
-2403 = {
-	aristocrats = {
-		culture = amazonian
-		religion = animist
-		size = 25
-	}
-
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 50
-	}
-
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 100
-	}
-
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 25
-	}
-
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 1800
-	}
-}
 #Tefe (4000/1000 POPS)
 2404 = {
 	aristocrats = {
@@ -131,38 +65,6 @@
 		size = 2700
 	}
 }
-#Tabatinga (4000/1000 POPS)
-2407 = {
-	aristocrats = {
-		culture = amazonian
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 25
-	}
-
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 900
-	}
-}
 #Oriximina (8000/2000 POPS)
 2408 = {
 	aristocrats = {
@@ -193,38 +95,6 @@
 		culture = amazonian
 		religion = animist
 		size = 1800
-	}
-}
-#Forte Sao Joaquim (4000/1000 POPS) #now Roraima state Brazil 
-2532 = {
-	aristocrats = {
-		culture = amazonian
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 25
-	}
-
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 900
 	}
 }
 #Para Region (128000)
@@ -4058,40 +3928,6 @@
 		culture = guarani
 		religion = animist
 		size = 4575
-	}
-}
-#Beni Region (32000) #see Bolivia.txt for balance of region
-#Under loose authority of Bolivia 1836
-#Tarauaca (16000/4000 POPS) #now part of Brazil - Acre State
-2549 = {
-	aristocrats = {
-		culture = amazonian
-		religion = animist
-		size = 75
-	}
-
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 50
-	}
-
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 200
-	}
-
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 50
-	}
-
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 3625
 	}
 }
 #Forte do Principe (16000/4000 POPS) #now part of Brazil - Rondonia State

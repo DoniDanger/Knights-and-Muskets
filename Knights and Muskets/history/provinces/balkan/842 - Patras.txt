@@ -3,5 +3,5 @@ controller = MEA
 add_core = MEA
 add_core = LTN
 add_core = BYZ
-trade_goods = fruit
+trade_goods = stone
 life_rating = 35

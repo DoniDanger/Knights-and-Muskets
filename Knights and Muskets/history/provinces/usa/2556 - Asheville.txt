@@ -3,5 +3,5 @@ controller = SVY
 add_core = SVY
 add_core = ARP
 add_core = NNN
-trade_goods = tobacco
+trade_goods = cattle
 life_rating = 35

@@ -1,7 +1,6 @@
-owner = MGL
-controller = MGL
-add_core = MGL
-add_core = MGE
+owner = EXI
+controller = EXI
+add_core = EXI
 add_core = MCK
 add_core = SXI
 trade_goods = tin

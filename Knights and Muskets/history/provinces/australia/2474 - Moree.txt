@@ -1,5 +1,5 @@
-
-add_core = AST
+owner = MGL
+controller = MGL
+add_core = MGL
 trade_goods = grain
-life_rating = 30
-colonial = 2
+life_rating = 32

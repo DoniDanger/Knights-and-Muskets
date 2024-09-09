@@ -1,0 +1,89 @@
+army = {
+    name = "Army of Scotland"
+    location = 269
+    regiment = {
+        name= "Scottish Infantry"
+        type = guard
+        home = 269
+    }
+    regiment = {
+        name= "Scottish Artillery"
+        type = artillery
+        home = 270
+    }
+    regiment = {
+        name= "2nd Scottish Artillery"
+        type = artillery
+        home = 268
+    }
+    regiment = {
+        name= "2nd Scottish Infantry"
+        type = guard
+        home = 271
+    }
+    regiment = {
+        name= "3rd Scottish Infantry"
+        type = guard
+        home = 266
+    }
+    regiment = {
+        name= "4th Scottish Infantry"
+        type = infantry
+        home = 267
+    }
+    regiment = {
+        name= "3rd Scottish Artillery"
+        type = artillery
+        home = 2085
+    }
+	regiment = {
+        name= "3rd Scottish Artillery"
+        type = artillery
+        home = 272
+    }
+	regiment = {
+        name= "1st Scottish Cavalry"
+        type = cavalry
+        home = 2083
+    }
+}
+
+army = {
+    name = "Army of The Highlands"
+    location = 267
+    regiment = {
+        name= "Scottish Infantry"
+        type = guard
+        home = 2005
+    }
+    regiment = {
+        name= "Scottish Artillery"
+        type = artillery
+        home = 1996
+    }
+    regiment = {
+        name= "2nd Scottish Artillery"
+        type = artillery
+        home = 1990
+    }
+	regiment = {
+        name= "3rd Scottish Artillery"
+        type = artillery
+        home = 269
+    }
+    regiment = {
+        name= "3rd Scottish Infantry"
+        type = infantry
+        home = 2008
+    }
+    regiment = {
+        name= "4th Scottish Infantry"
+        type = infantry
+        home = 271
+    }
+	regiment = {
+        name= "1st Scottish Cavalry"
+        type = cavalry
+        home = 2078
+    }
+}

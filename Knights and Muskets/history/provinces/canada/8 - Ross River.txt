@@ -1,5 +1,6 @@
-owner = SYR
-controller = SYR
+owner = JAZ
+controller = JAZ
+add_core = JAZ
 add_core = SYR
 trade_goods = grain
 life_rating = 35

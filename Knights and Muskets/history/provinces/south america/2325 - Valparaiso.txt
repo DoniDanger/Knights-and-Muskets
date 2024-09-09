@@ -1,6 +1,6 @@
-owner = SVY
-controller = SVY
-add_core = SVY
+owner = ATI
+controller = ATI
+add_core = ATI
 add_core = NNN
 add_core = ITA
 trade_goods = fruit

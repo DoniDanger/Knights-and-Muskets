@@ -17,6 +17,201 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	abolish_liao_titles = {
+		potential = {
+			tag = MGL
+			NOT = { has_country_flag = abolished_liao_titles }
+		}
+		
+		allow = {
+			war = no
+			year = 1236
+			OR = {
+				ELI = { exists = NO }
+				ELI = { vassal_of = THIS }
+			}
+		}
+		
+		effect = {
+			inherit = ELI
+			set_country_flag = abolished_liao_titles
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	conquer_jin_empire = {
+		potential = {
+			tag = MGL
+			SXI = { exists = yes }
+			NOT = { has_country_flag = conquered_jin_empire }
+		}
+		
+		allow = {
+			NOT = { truce_with = SXI } 
+			year = 1232
+			NOT = { badboy = 0.6 }
+		}
+		
+		effect = {
+			release_vassal = SXI
+			random_owned = {
+				limit = {
+					tag = MGL
+				}
+				owner = {
+					casus_belli = {
+						target = SXI
+						type = conquest
+						months = 60
+					}
+				}
+			}
+			war = {
+				target = SXI
+				attacker_goal = { casus_belli = conquest }
+				call_ally = yes
+			}
+			badboy = -22
+			set_country_flag = conquered_jin_empire
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	conquer_eastern_xia = {
+		potential = {
+			tag = MGL
+			EXI = { exists = yes }
+			NOT = { has_country_flag = conquered_eastern_xia }
+		}
+		
+		allow = {
+			NOT = { truce_with = EXI } 
+			year = 1232
+			NOT = { badboy = 0.6 }
+		}
+		
+		effect = {
+			release_vassal = EXI
+			random_owned = {
+				limit = {
+					tag = MGL
+				}
+				owner = {
+					casus_belli = {
+						target = EXI
+						type = conquest
+						months = 60
+					}
+				}
+			}
+			war = {
+				target = EXI
+				attacker_goal = { casus_belli = conquest }
+				call_ally = yes
+			}
+			badboy = -22
+			set_country_flag = conquered_eastern_xia
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	conquer_western_xia = {
+		potential = {
+			tag = MGL
+			XBI = { exists = yes }
+			NOT = { has_country_flag = conquered_western_xia }
+		}
+		
+		allow = {
+			NOT = { truce_with = XBI } 
+			year = 1226
+			NOT = { badboy = 0.6 }
+		}
+		
+		effect = {
+			release_vassal = XBI
+			random_owned = {
+				limit = {
+					tag = MGL
+				}
+				owner = {
+					casus_belli = {
+						target = XBI
+						type = conquest
+						months = 60
+					}
+				}
+			}
+			war = {
+				target = XBI
+				attacker_goal = { casus_belli = conquest }
+				call_ally = yes
+			}
+			badboy = -22
+			set_country_flag = conquered_western_xia
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	subjugate_goryeo = {
+		potential = {
+			tag = MGL
+			BSK = { exists = yes }
+			NOT = { has_country_flag = goryeo_subjugated }
+		}
+		
+		allow = {
+			year = 1231
+			NOT = { truce_with = KOR } 
+			has_global_flag = kurultai_of_1235
+			NOT = { badboy = 0.8 }
+		}
+		
+		effect = {
+			badboy = 5
+			random_owned = {
+				limit = {
+					tag = MGL
+				}
+				owner = {
+					casus_belli = {
+						target = KOR
+						type = make_puppet
+						months = 60
+					}
+				}
+			}
+			war = {
+				target = KOR
+				attacker_goal = { casus_belli = make_puppet }
+				call_ally = yes
+			}
+			badboy = -10
+			set_country_flag = goryeo_subjugated
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	consolidate_jurchen_tribes = {
+		potential = {
+			tag = MGL
+			NOT = { has_country_flag = jurchen_tribes_consolidated }
+		}
+		
+		allow = {
+			EXI = { exists = no }
+			ELI = { exists = no }
+		}
+		
+		effect = {
+			add_accepted_culture = manchu
+			EXI = { all_core = { add_core = THIS }}
+			ELI = { all_core = { add_core = THIS }}
+			set_country_flag = jurchen_tribes_consolidated
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
 	subjugate_bashkiria = {
 		potential = {
 			tag = WMG

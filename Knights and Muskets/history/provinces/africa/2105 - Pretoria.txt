@@ -1,3 +1,6 @@
-trade_goods = grain
+owner = GWY
+controller = GWY
+add_core = GWY
+add_core = WHA
+trade_goods = wool
 life_rating = 35
-terrain = hills

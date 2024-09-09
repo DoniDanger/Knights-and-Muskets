@@ -4,5 +4,5 @@ add_core = HBS
 add_core = URI
 add_core = GER
 add_core = NNN
-trade_goods = fruit
+trade_goods = cattle
 life_rating = 35

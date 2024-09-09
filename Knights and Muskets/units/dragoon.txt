@@ -41,8 +41,8 @@ dragoon = { #horse archers
 
 	#Land Abilties
 	reconnaissance = 2
-	attack = 7
-	defence = 5
+	attack = 5
+	defence = 3
 	discipline = 1.0
 	support = 1
 	maneuver = 3

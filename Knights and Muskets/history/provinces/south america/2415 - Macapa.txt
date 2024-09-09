@@ -3,5 +3,5 @@ controller = PRO
 add_core = ARP
 add_core = PRO
 add_core = NNN
-trade_goods = tropical_wood
+trade_goods = grain
 life_rating = 35

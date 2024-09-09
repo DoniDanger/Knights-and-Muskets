@@ -1,5 +1,5 @@
 capital = 2278
-primary_culture = french
+primary_culture = limousin
 religion = catholic
 government = absolute_monarchy
 plurality = 25

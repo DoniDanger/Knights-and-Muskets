@@ -1,4 +1,4 @@
-capital = 726  
+capital = 722
 primary_culture = north_italian
 religion = catholic
 government = absolute_monarchy
@@ -87,4 +87,4 @@ experimental_railroad = 1
 consciousness = 2
 nonstate_consciousness = 0
 
-oob = "MLN_oob.txt"
+oob = "NVR_oob.txt"

@@ -4,6 +4,95 @@ south_german;Austro-Bavarian;x
 north_german;Saxon;x    
 spanish;Castillian;x 
 swiss;High Alemannic;x 
+north_italian;Lombard;x 
+south_italian;Neapolitan;x 
+PLS;Emirate of Ajlun;x
+PLS_ADJ;Ajlun;x 
+ALP;Emirate of Aleppo;x
+ALP_ADJ;Aleppo;x
+DMC;Emirate of Damascus;x
+DMC_ADJ;Damascus;x
+JAZ;Emirate of Jazira;x
+JAZ_ADJ;Jaziran;x
+ARQ;Aqtuqids;x
+ARQ_ADJ;Aqtuqid;x
+ERZ;Erzurum;x
+ERZ_ADJ;Erzurumi;x
+AHL;Armen-Shahs;x
+AHL_ADJ;Armen-Shah;x
+MRN;Marinid Sultanate;x
+MRN_dominion;Marinids;x
+MRN_ADJ;Marinid;x
+ARM;Zakarid Armenia;x
+ARM_ADJ;Armenian;x
+MIN;The Ming Empire;x
+MIN_ADJ;Ming;x
+EXI;Eastern Xia;x
+EXI_ADJ;Xianxi;x
+ELI;Eastern Liao;x
+ELI_ADJ;Liao;x
+TLY;Talyshistan;x
+TLY_ADJ;Talysh;x
+SST;Sistan;x
+SST_ADJ;Sistani;x
+MZN;Mazandaran;x
+MZN_ADJ;Mazandarani;x
+FRS;Salghurids;x
+FRS_ADJ;Salghurid;x
+RAY;Rayy;x
+RAY_ADJ;Rayyanid;x
+KMN;Kerman;x
+KMN_ADJ;Kermanid;x
+AJM;Qazvin;x
+AJM_ADJ;Qazvinid;x
+YZD;Yazd;x
+YZD_ADJ;Yazdi;x
+KHR;Khorasan;x
+KHR_ADJ;Khorasanian;x
+GBL;Ghibelline League;x
+GBL_ADJ;Ghibelline;x
+IT1;Guelph City;x
+IT1_ADJ;Guelph;x
+IT2;Ghibelline City;x
+IT2_ADJ;Ghibelline;x
+MC1;Routiers;x
+MC1_ADJ;Routier;x
+MC2;Catalan Company;x
+MC2_ADJ;Catalan;x
+MC3;Guelph Condottiero;x
+MC3_ADJ;Condottiero;x
+MC4;Ghibelline Condottiero;x
+MC4_ADJ;Condottiero;x
+MC5;Landsknecht;x
+MC5_ADJ;Landsknecht;x
+LOI;Kingdom of the Isles;x
+LOI_ADJ;Isles;x
+AVE;The Angevin Empire;x                                
+AVE_ADJ;Angevin;x
+BGM;Bergamo;x
+BGM_ADJ;Bergamo;x
+BSC;Brescia;x
+BSC_ADJ;Brescian;x
+CAG;Cagliari;x
+CAG_ADJ;Cagliarian;x
+ARB;Arborea;x
+ARB_ADJ;Arborean;x
+GLL;Gallura;x
+GLL_ADJ;Galluran;x
+LGD;Logudoro;x
+LGD_ADJ;Logudoron;x
+WMC;Marcher Lords;x
+WMC_ADJ;Marcher;x
+CHT;Chester;x
+CHT_ADJ;Chester;x
+DRH;Durham;x
+DRH_ADJ;Durham;x
+EOL;Earldom of Leicester;x
+EOL_ADJ;Leicester;x
+GWY;Gwynedd;x
+GWY_ADJ;Gwyneddian;x
+PWY;Powys;x
+PWY_ADJ;Powysian;x
 BAN;Banat of Mačva;x
 BAN_ADJ;Macvan;x
 ALS;Lower Alsace;x                                
@@ -783,8 +872,8 @@ PER;Persia;x
 PER_ADJ;Persian;x
 PER_absolute_monarchy;The Khwarazmian Empire;x
 PER_absolute_monarchy_ADJ;Khwarazmian;x
-SYR;Emirate of Damascus;x
-SYR_ADJ;Damascus;x
+SYR;Sultanate of Syria;x
+SYR_ADJ;Syrian;x
 MSL;Emirate of Mosul;x
 MSL_ADJ;Zengid;x
 IRQ;Iraq;x

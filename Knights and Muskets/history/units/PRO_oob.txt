@@ -1,0 +1,33 @@
+army = {
+    name = "Esercito Provencal"
+    location = 2415
+    regiment = {
+		name= "Provencal Guards Cavalry"
+		type = cavalry
+		home = 467
+	}
+	regiment = {
+		name= "Provencal Infantry"
+		type = infantry
+		home = 2328
+	}
+	regiment = {
+		name= "Provencal Infantry"
+		type = infantry
+		home = 470
+	}
+	regiment = {
+		name= "Provencal Archers"
+		type = artillery
+		home = 472
+	}
+}
+
+leader = {
+	name = "Raymond Rogierto"
+	date = 1212.1.1
+	type = land
+	personality = active_p
+	background = drillmaster
+	prestige = 0.1
+}

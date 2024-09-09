@@ -3,5 +3,5 @@ controller = GNV
 add_core = GNV
 add_core = ARP
 add_core = NNN
-trade_goods = sulphur
+trade_goods = cattle
 life_rating = 35

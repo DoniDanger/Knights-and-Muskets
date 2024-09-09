@@ -1,0 +1,214 @@
+political_decisions = {
+	dominate_verona = {
+		potential = {	
+			tag = VEN
+			NOT = { has_country_flag = dominated_verona }
+		}
+		
+		allow = {
+			war = no
+			owns = 730
+			owns = 733
+		}
+		
+		effect = {
+			prestige = 5
+			VER = { all_core = { add_core = THIS } }
+			AQU = { all_core = { add_core = THIS } }
+			set_country_flag = dominated_verona
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	intervene_latin_empire = {
+		potential = {	
+			tag = VEN
+			NOT = { has_country_flag = intervention_latin_empire }
+		}
+		
+		allow = {
+			LTN = {
+                relation = {
+                    who = THIS
+                    value = 80
+                }
+            }
+		}
+		
+		effect = {
+			create_alliance = LTN
+			casus_belli = {
+				target = EPI
+				type = liberate_country
+				months = 60
+			}
+			casus_belli = {
+				target = NCE
+				type = liberate_country
+				months = 60
+			}
+			set_country_flag = intervention_latin_empire
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	protect_latin_throne = {
+		potential = {	
+			tag = VEN
+			NOT = { has_country_flag = protected_latin_throne }
+		}
+		
+		allow = {
+			war = no
+			LTN = { 
+				ai = yes
+				war = no 
+				OR = {
+					all_core = { owned_by = LTN }
+					AND = {
+						OR = {
+							132 = { owned_by = MCD }
+							132 = { owned_by = LTN }
+						}
+						OR = {
+							831 = { owned_by = MCD }
+							831 = { owned_by = LTN }
+						}
+						OR = {
+							863 = { owned_by = MCD }
+							863 = { owned_by = LTN }
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			LTN = { inherit = MCD inherit = PHI inherit = RHO }
+			create_vassal = LTN
+			add_accepted_culture = latin
+			inherit = MEA
+			inherit = ATH
+			MEA = { all_core = { add_core = THIS }}
+			ATH = { all_core = { add_core = THIS }}
+			set_country_flag = protected_latin_throne
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	assume_latin_throne = {
+		potential = {	
+			tag = VEN
+			NOT = { has_country_flag = assumed_latin_throne }
+		}
+		
+		allow = {
+			war = no
+			LTN = { vassal_of = THIS }
+			prestige = 45
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = LTN
+			add_accepted_culture = greek
+			add_accepted_culture = latin
+			LTN = { all_core = { add_core = THIS }}
+			set_country_flag = assumed_latin_throne
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	purchase_cypriot_kingdom = {
+		potential = {	
+			tag = VEN
+			NOT = { has_country_flag = purchased_cypriot_kingdom }
+		}
+		
+		allow = {
+			war = no
+			CYP = { exists = yes }
+			money = 150000
+		}
+		
+		effect = {
+			prestige = 5
+			add_accepted_culture = cypriot
+			inherit = CYP
+			CYP = { all_core = { add_core = THIS }}
+			money = -150000
+			set_country_flag = purchased_cypriot_kingdom
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	expand_adriatic_empire1 = {
+		potential = {	
+			tag = VEN
+			NOT = { has_country_flag = expanded_adriatic_empire1 }
+		}
+		
+		allow = {
+			war = no
+			owns = 781
+			owns = 780
+			owns = 782
+			owns = 770
+		}
+		
+		effect = {
+			prestige = 5
+			TRE = { all_core = { add_core = THIS } }
+			DLM = { all_core = { add_core = THIS } }
+			2582 = { add_core = THIS } 
+			2583 = { add_core = THIS } 
+			add_accepted_culture = dalmatian
+			set_country_flag = expanded_adriatic_empire1
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	expand_adriatic_empire2 = {
+		potential = {	
+			tag = VEN
+			NOT = { has_country_flag = expanded_adriatic_empire2 }
+		}
+		
+		allow = {
+			war = no
+			owns = 851
+			owns = 800
+			owns = 824
+		}
+		
+		effect = {
+			prestige = 5
+			ALB = { all_core = { add_core = THIS } }
+			add_accepted_culture = albanian
+			set_country_flag = expanded_adriatic_empire2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	eliminate_epirote_state = {
+		potential = {	
+			tag = VEN
+			NOT = { has_country_flag = eliminated_epirote_state }
+		}
+		
+		allow = {
+			war = no
+			owns = 837
+			owns = 132
+			owns = 824
+		}
+		
+		effect = {
+			prestige = 5
+			EPI = { all_core = { add_core = THIS } }
+			set_country_flag = eliminated_epirote_state
+		}
+		ai_will_do = { factor = 1 }
+	}
+}
