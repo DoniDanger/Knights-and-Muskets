@@ -12,6 +12,10 @@ MC3		= "countries/MC3.txt"
 MC4		= "countries/MC4.txt"
 MC5		= "countries/MC5.txt"
 
+GLW             ="countries/Gallloway.txt"
+GAE             ="countries/Gaelic Union.txt"
+ORK             ="countries/Orkney.txt"
+
 ARQ             ="countries/Artuqid.txt"
 AHL             ="countries/Ahlat.txt"
 ERZ             ="countries/Erzurum.txt"
