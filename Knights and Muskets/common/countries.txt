@@ -15,6 +15,7 @@ MC5		= "countries/MC5.txt"
 GLW             ="countries/Gallloway.txt"
 GAE             ="countries/Gaelic Union.txt"
 ORK             ="countries/Orkney.txt"
+PMB             ="countries/Pembroke.txt"
 
 ARQ             ="countries/Artuqid.txt"
 AHL             ="countries/Ahlat.txt"
