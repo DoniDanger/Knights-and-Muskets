@@ -1,6 +1,6 @@
 owner = WMG
 controller = WMG
-add_core = KAZ
-add_core = WMG
+add_core = GOL
+add_core = WMG
 trade_goods = fruit
 life_rating = 305

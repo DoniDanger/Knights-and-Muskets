@@ -1,2 +1,7 @@
-trade_goods = grain
-life_rating = 15
+owner = IRL
+controller = IRL
+add_core = IRL
+add_core = ORD
+add_core = IRE
+trade_goods = iron
+life_rating = 35

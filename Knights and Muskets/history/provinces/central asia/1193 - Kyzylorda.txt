@@ -1,6 +1,6 @@
 owner = WMG
 controller = WMG
-add_core = GOL
+add_core = CHG
 add_core = WMG
 trade_goods = coal
 life_rating = 35

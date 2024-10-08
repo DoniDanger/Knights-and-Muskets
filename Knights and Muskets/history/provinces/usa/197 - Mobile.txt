@@ -3,5 +3,5 @@ controller = MFT
 add_core = MFT
 add_core = NNN
 add_core = ITA
-trade_goods = cotton
+trade_goods = cattle
 life_rating = 35

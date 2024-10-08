@@ -1,0 +1,327 @@
+political_decisions = {
+	assert_authority_toulouse = {
+		potential = {
+			tag = ARN
+			NOT = { has_country_flag = authority_asserted_toulouse }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					OCC = { exists = no }
+					OCC = { all_core = { owned_by = THIS }}
+				}
+				AND = {
+					OCC = { vassal_of = THIS war = no }
+				}
+			}
+			war = no
+		}
+		
+		effect = {
+			inherit = OCC
+			OCC = { all_core = { add_core = THIS }}
+			set_country_flag = authority_asserted_toulouse
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	restore_authority_gevaudan = {
+		potential = {
+			tag = ARN
+			NOT = { has_country_flag = dominated_franche_comte }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					GVD = { exists = no }
+					GVD = { all_core = { owned_by = THIS }}
+				}
+				GVD = { vassal_of = THIS }
+			}
+			war = no
+		}
+		
+		effect = {
+			inherit = GVD
+			GVD = { all_core = { add_core = THIS }}
+			set_country_flag = authority_restored_gevaudan
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	aragon_dominate_pyrenees = {
+		potential = {
+			tag = ARN
+			NOT = { has_country_flag = aragon_dominated_pyrenees }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					FOI = { exists = no }
+					FOI = { all_core = { owned_by = THIS }}
+				}
+				FOI = { vassal_of = THIS }
+			}
+			war = no
+		}
+		
+		effect = {
+			inherit = FOI
+			FOI = { all_core = { add_core = THIS }}
+			set_country_flag = aragon_dominated_pyrenees
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	inherit_kingdom_of_navarre = {
+		potential = {
+			tag = ARN
+			NOT = { has_country_flag = navarre_kingdom_inherited }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					BSQ = { exists = no }
+					BSQ = { all_core = { owned_by = THIS }}
+				}
+				BSQ = { vassal_of = THIS }
+			}
+			war = no
+		}
+		
+		effect = {
+			inherit = BSQ
+			BSQ = { all_core = { add_core = THIS }}
+			add_accepted_culture = basque
+			set_country_flag = navarre_kingdom_inherited
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	assert_control_provence = {
+		potential = {
+			tag = ARN
+			NOT = { has_country_flag = provence_control_asserted }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					PRO = { exists = no }
+					PRO = { all_core = { owned_by = THIS }}
+				}
+				PRO = { vassal_of = THIS }
+			}
+			war = no
+		}
+		
+		effect = {
+			inherit = PRO
+			PRO = { all_core = { add_core = THIS }}
+			add_accepted_culture = provencal
+			set_country_flag = provence_control_asserted
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	dominate_sardinian_judicates = {
+		potential = {
+			tag = ARN
+			NOT = { has_country_flag = dominated_sardinian_judicates }
+		}
+		
+		allow = {
+			SRD = { exists = no }
+			war = no
+			owns = 766
+			owns = 765
+		}
+		
+		effect = {
+			prestige = 5
+			SRD = { all_core = { add_core = THIS }}
+			CRS = { all_core = { add_core = THIS }}
+			add_accepted_culture = sardinian
+			set_country_flag = dominated_sardinian_judicates
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	accept_sicilian_rule = {
+		potential = {
+			tag = ARN
+			NOT = { has_country_flag = accepted_sicilian_rule }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					SYC = { exists = no }
+					SYC = { all_core = { owned_by = THIS }}
+				}
+				AND = {
+					SYC = { vassal_of = THIS war = no }
+				}
+			}
+			war = no
+		}
+		
+		effect = {
+			SYC = { all_core = { add_core = THIS }}
+			add_accepted_culture = sicilian
+			set_country_flag = accepted_sicilian_rule
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	conquer_latin_remnants = {
+		potential = {
+			tag = ARN
+			NOT = { has_country_flag = conquered_latin_remnants }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					ATH = { exists = no }
+					ATH = { all_core = { owned_by = THIS }}
+					MEA = { exists = no }
+					MEA = { all_core = { owned_by = THIS }}
+				}
+				AND = {
+					ATH = { vassal_of = THIS war = no }
+					MEA = { vassal_of = THIS war = no }
+				}
+			}
+			war = no
+		}
+		
+		effect = {
+			inherit = MEA
+			inherit = ATH
+			ATH = { all_core = { add_core = THIS }}
+			MEA = { all_core = { add_core = THIS }}
+			add_accepted_culture = latin
+			set_country_flag = conquered_latin_remnants
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	aragon_union_castille = {
+		potential = {
+			tag = ARN
+			NOT = { has_country_flag = aragonese_union_over_castille }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					CST = { exists = no }
+					CST = { all_core = { owned_by = THIS }}
+				}
+				AND = {
+					CST = { vassal_of = THIS war = no }
+				}
+			}
+			war = no
+		}
+		
+		effect = {
+			inherit = CST
+			CST = { all_core = { add_core = THIS }}
+			add_accepted_culture = spanish
+			set_country_flag = aragonese_union_over_castille
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	union_leon_castille = {
+		potential = {
+			tag = CST
+			NOT = { has_country_flag = united_leon_castille }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					LEO = { exists = no }
+					LEO = { all_core = { owned_by = THIS }}
+				}
+				AND = {
+					LEO = { vassal_of = THIS war = no }
+				}
+			}
+			war = no
+		}
+		
+		effect = {
+			inherit = LEO
+			LEO = { all_core = { add_core = THIS }}
+			add_accepted_culture = asturleonese
+			set_country_flag = united_leon_castille
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	castille_subjugate_galicia = {
+		potential = {
+			tag = CST
+			has_country_flag = united_leon_castille
+			NOT = { has_country_flag = castille_subjugated_galicia }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					GLC = { exists = no }
+					GLC = { all_core = { owned_by = THIS }}
+				}
+				AND = {
+					GLC = { vassal_of = THIS war = no }
+				}
+			}
+			war = no
+		}
+		
+		effect = {
+			inherit = GLC
+			GLC = { all_core = { add_core = THIS }}
+			add_accepted_culture = galician
+			set_country_flag = castille_subjugated_galicia
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	castille_union_aragon = {
+		potential = {
+			tag = CST
+			NOT = { has_country_flag = aragonese_union_over_castille }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					ARN = { exists = no }
+					ARN = { all_core = { owned_by = THIS }}
+				}
+				AND = {
+					ARN = { vassal_of = THIS war = no }
+				}
+			}
+			war = no
+		}
+		
+		effect = {
+			inherit = ARN
+			ARN = { all_core = { add_core = THIS }}
+			add_accepted_culture = catalan
+			add_accepted_culture = aragonese
+			set_country_flag = aragonese_union_over_castille
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

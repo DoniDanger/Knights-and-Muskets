@@ -1,5 +1,5 @@
-owner = SCO
-controller = SCO
-add_core = SCO
+owner = GLW
+controller = GLW
+add_core = GLW
 trade_goods = cattle
 life_rating = 35

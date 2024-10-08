@@ -1,3 +1,7 @@
-trade_goods = cotton
-life_rating = 15
-add_core = MNG
+owner = IRL
+controller = IRL
+add_core = IRL
+add_core = ORD
+add_core = IRE
+trade_goods = cattle
+life_rating = 35

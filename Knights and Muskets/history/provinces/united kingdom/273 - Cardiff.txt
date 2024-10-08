@@ -15,3 +15,4 @@ state_building = {
 	building = furniture_factory
 	upgrade = yes
 }
+fort = 1

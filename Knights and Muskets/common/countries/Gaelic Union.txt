@@ -1,7 +1,6 @@
-color = { 20 80 162 }
-#color = { 199  175  12 }
+#color = { 161 51 177 }
+color = { 184 189 196 }
 graphical_culture = EuropeanGC
-##
 
 party = {
     name = "Royalist"

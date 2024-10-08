@@ -1,5 +1,6 @@
-owner = IRE
-controller = IRE
+owner = AGL
+controller = AGL
+add_core = AGL
 add_core = IRE
 trade_goods = cattle
 life_rating = 35

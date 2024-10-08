@@ -1,6 +1,7 @@
 owner = IRL
 controller = IRL
 add_core = IRL
+add_core = KID
 add_core = IRE
 trade_goods = apiculture
 life_rating = 35

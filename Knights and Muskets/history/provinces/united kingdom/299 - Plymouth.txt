@@ -1,6 +1,7 @@
 owner = ENL
 controller = ENL
 add_core = ENL
+add_core = CRW
 trade_goods = tin
 life_rating = 35
 naval_base = 1

@@ -4,6 +4,37 @@
 REB 	= 	"countries/rebels.txt"
 UTI	=       "countries/Utility Tag.txt"
 
+OFF 		="countries/Offaly.txt" 
+MTH 		="countries/Meath.txt"
+BRF 		="countries/Breffny.txt" 
+AGL 		="countries/Oriel.txt"
+FGH 		="countries/Fermanagh.txt"
+GLY 		="countries/Galway.txt"
+THM 		="countries/Thomond.txt"
+CLD 		="countries/Clandeboye.txt"
+CRD 		="countries/Clanricarde.txt"
+MYO 		="countries/Mayo.txt"
+CNM 		="countries/Connemara.txt"
+PMB         ="countries/Pembroke.txt"
+
+CRW 		="countries/Cornwall.txt" #CRN
+CNN 		="countries/Connacht.txt"
+DSM 		="countries/Desmond.txt" #DMS
+KID 		="countries/Kildare.txt"
+LEI 		="countries/Leinster.txt"
+MNS 		="countries/South Munster.txt"
+ORD 		="countries/Ormond.txt"
+SLG 		="countries/Sligo.txt" #SLN
+ULS 		="countries/Ulster.txt"
+TYC	 		="countries/Tyrconnell.txt" #TRY
+TYR 		="countries/Tyrone.txt"
+
+AYY             ="countries/Ayyubid Sultanate.txt"
+SLJ             ="countries/Seljuk Sultanate.txt"
+GLW             ="countries/Galloway.txt"
+GAE             ="countries/Gaelic Union.txt"
+ORK             ="countries/Orkney.txt"
+
 IT1		= "countries/IT1.txt"
 IT2		= "countries/IT2.txt"
 MC1		= "countries/MC1.txt"
@@ -11,11 +42,6 @@ MC2		= "countries/MC2.txt"
 MC3		= "countries/MC3.txt"
 MC4		= "countries/MC4.txt"
 MC5		= "countries/MC5.txt"
-
-GLW             ="countries/Gallloway.txt"
-GAE             ="countries/Gaelic Union.txt"
-ORK             ="countries/Orkney.txt"
-PMB             ="countries/Pembroke.txt"
 
 ARQ             ="countries/Artuqid.txt"
 AHL             ="countries/Ahlat.txt"

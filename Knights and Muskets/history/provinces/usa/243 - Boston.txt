@@ -1,11 +1,9 @@
-
-
-
-add_core = NEN
+owner = ULS
+controller = ULS
+add_core = ULS
+add_core = IRE
 trade_goods = grain
-life_rating = 40
-railroad = 1
-naval_base = 1
+life_rating = 35
 state_building = {
 	level = 1
 	building = canned_food_factory
@@ -15,8 +13,4 @@ state_building = {
 	level = 1
 	building = glass_factory
 	upgrade = yes
-}
-1861.1.1 = { 
-	railroad = 3 
-	naval_base = 2
 }

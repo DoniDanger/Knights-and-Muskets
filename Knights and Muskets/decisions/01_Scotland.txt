@@ -1,0 +1,167 @@
+political_decisions = {
+	expansion_western_isles = {
+		potential = {
+			tag = SCO
+			NOT = { has_country_flag = western_isles_conquest }
+			NOT = { 2080 = { owned_by = THIS }}
+		}
+		
+		allow = {
+			war = no
+			money = 120000
+			NOT = { truce_with = NOR }
+			GLW = { exists = no }
+		}
+		
+		effect = {
+		    country_event = 139003 
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	expansion_orkney_islands = {
+		potential = {
+			tag = SCO
+			NOT = { has_country_flag = orkney_island_conquest }
+			NOT = { 1991 = { owned_by = THIS }}
+		}
+		
+		allow = {
+			war = no
+			money = 120000
+			NOT = { truce_with = NOR }
+			AND = {
+				GLW = { exists = no }
+				LOI = { exists = no }
+			}
+		}
+		
+		effect = {
+		    country_event = 139003 
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	sco_conquer_western_isles = {
+		potential = {
+			tag = SCO
+			NOR = { exists = yes }
+			has_country_flag = western_isles_conquest
+			NOT = { has_global_flag = treaty_of_perth }
+			NOT = { has_country_flag = conquered_western_isles }
+		}
+		
+		allow = {
+			war = no
+			NOT = { truce_with = NOR }
+			LOI = { all_core = { is_core = THIS } }
+		}
+		
+		effect = {
+			country_event = 139011
+			set_country_flag = conquered_western_isles
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	king_of_the_north = {
+		potential = {
+			tag = SCO
+			NOT = { has_country_flag = the_northern_king }
+		}
+		
+		allow = {
+			war = no
+			LOI = { all_core = { owned_by = THIS } }
+			ORK = { all_core = { owned_by = THIS } }
+			OR = {
+				GLW = { vassal_of = THIS }
+				GLW = { all_core = { owned_by = THIS } }
+			}
+		}
+		
+		effect = {
+			add_accepted_culture = norse_gael
+			add_accepted_culture = highlander
+			inherit = GLW
+			LOI = { all_core = { add_core = THIS } }
+			ORK = { all_core = { add_core = THIS } }
+			GLW = { all_core = { add_core = THIS } }
+			223 = { remove_core = ORK }
+			set_country_flag = the_northern_king
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	dominate_durham_palatine = {
+		potential = {
+			OR = {
+				tag = SCO
+				tag = GAE
+			}
+			NOT = { has_country_flag = dominated_durham_palatine }
+		}
+		
+		allow = {
+			DRH = { all_core = { controlled_by = THIS } }
+		}
+		
+		effect = {
+			DRH = { all_core = { add_core = THIS } }
+			set_country_flag = dominated_durham_palatine
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	form_gaelic_alliance = {
+		potential = {
+			OR = {
+				primary_culture = scottish 
+				primary_culture = highlander 
+				primary_culture = irish
+			}
+			NOT = { has_global_flag = gaelic_alliance_formed }
+			GAE = { exists = no }
+		}
+		
+		allow = {
+			IRE = { all_core = { owned_by = THIS }}
+			SCO = { all_core = { owned_by = THIS }}
+			war = no
+		}
+		
+		effect = {
+			prestige = 10
+			any_owned = { limit = { is_core = WHA } add_core = GAE }
+			change_tag = GAE
+			add_accepted_culture = irish
+			add_accepted_culture = scottish
+			add_accepted_culture = highlander
+			add_accepted_culture = welsh
+			set_global_flag = gaelic_alliance_formed
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	form_irish_kingdom = {
+		potential = {
+			primary_culture = irish
+			NOT = { has_global_flag = gaelic_alliance_formed }
+			NOT = { has_global_flag = irish_kingdom_formed }
+			IRE = { exists = no }
+		}
+		
+		allow = {
+			IRE = { all_core = { owned_by = THIS }}
+			war = no
+		}
+		
+		effect = {
+			prestige = 10
+			change_tag = IRE
+			add_accepted_culture = irish
+			set_global_flag = irish_kingdom_formed
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

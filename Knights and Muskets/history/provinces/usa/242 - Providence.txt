@@ -1,7 +1,8 @@
-
-
-
-add_core = NEN
-trade_goods = grain
+owner = ULS
+controller = ULS
+add_core = ULS
+add_core = CLD
+add_core = IRE
+trade_goods = wool
 life_rating = 35
 1861.1.1 = { railroad = 3 }

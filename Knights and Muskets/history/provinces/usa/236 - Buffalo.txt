@@ -1,6 +1,8 @@
-owner = IRE
-controller = IRE
+owner = CNN
+controller = CNN
+add_core = CNN
+add_core = CNM
 add_core = IRE
-trade_goods = timber
+trade_goods = apiculture
 life_rating = 35
 1861.1.1 = { railroad = 3 }

@@ -113,6 +113,22 @@ spriteTypes = {
 		name = "GFX_politics_polparties"
 		texturefile = "gfx\\interface\\politics_polparties.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_politics_apprenticeship"
+		texturefile = "gfx\\interface\\apprenticeship.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_politics_military_tenure"
+		texturefile = "gfx\\interface\\knight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_politics_feudal_relief"
+		texturefile = "gfx\\interface\\inheritance_icon.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_politics_tradeunions"
 		texturefile = "gfx\\interface\\politics_tradeunions.dds"
@@ -123,11 +139,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_politics_publicmeet"
-		texturefile = "gfx\\interface\\politics_publicmeet.dds"
+		texturefile = "gfx\\interface\\public_arms.dds"
 	}
 	spriteType = {
 		name = "GFX_politics_votingsys"
-		texturefile = "gfx\\interface\\politics_votingsys.dds"
+		texturefile = "gfx\\interface\\icon_stewardship.dds"
 	}
 	spriteType = {
 		name = "GFX_politics_votefran"
@@ -135,7 +151,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_politics_upperhouse"
-		texturefile = "gfx\\interface\\politics_upperhouse.dds"
+		texturefile = "gfx\\interface\\crown.dds"
 	}
 	spriteType = {
 		name = "GFX_politics_slavery"
@@ -170,6 +186,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_politics_penal"
 		texturefile = "gfx\\interface\\politics_penal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_politics_castle"
+		texturefile = "gfx\\interface\\garrison.dds"
 	}
 	
 	spriteType = {
@@ -218,12 +239,28 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_politics_school"
-		texturefile = "gfx\\interface\\politics_school.dds"
+		texturefile = "gfx\\interface\\education.dds"
 	}
 	spriteType = {
 		name = "GFX_politics_centralization"
 		texturefile = "gfx\\interface\\politics_centralization.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_politics_trade_privileges"
+		texturefile = "gfx\\interface\\merchant_trade.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_politics_city_privileges"
+		texturefile = "gfx\\interface\\icon_diplomacy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_politics_noble_taxes"
+		texturefile = "gfx\\interface\\icon_gold.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_politics_industrial_regulations"
 		texturefile = "gfx\\interface\\politics_industrial_regulations.dds"

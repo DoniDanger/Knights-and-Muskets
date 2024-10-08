@@ -206,6 +206,7 @@ political_decisions = {
 	}
 	
 	restore_hungarian_authority_bosnia = {
+		picture = bosnian_crusade
 		potential = {	
 			tag = HUN
 			NOT = { has_country_flag = hun_restored_authority_bosnia }

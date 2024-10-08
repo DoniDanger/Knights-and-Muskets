@@ -1,0 +1,480 @@
+###ENGLAND, SCOTLAND, WALES###
+country_event = {
+	id = 138000
+	title = "Death of the Earl of Chester"
+	desc = "138000_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = ENL
+		year = 1237
+		CHT = { vassal_of = THIS }
+	}
+
+	option = {
+	    name = "It shall fall to the crown, lest so fair a dominion be divided among women."
+		inherit = CHT
+		CHT = { all_core = { add_core = THIS }}
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 138001
+	title = "Siege of Bedford Castle"
+	desc = "138001_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = ENL
+		controls = 289
+		year = 1224
+	}
+
+	option = {
+	    name = "A show of force is necessary to put the barons in their place."
+		289 = {
+			fort = 3
+			change_controller = REB
+		}
+		scaled_militancy = { factor = 2 ideology = conservative }
+		set_country_flag = siege_of_bedford
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 138002
+	title = "Capture of Bedford Castle"
+	desc = "138002_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 3 }
+
+	trigger = {
+		tag = ENL
+		controls = 289
+		has_country_flag = siege_of_bedford
+	}
+	
+	option = {
+	    name = "These barons will learn to respect the crown."
+		prestige = 10
+		random_owned = {
+            limit = { province_id = 289 has_building = fort }
+            random_list = {
+                80 = { fort = -3 }
+                20 = { fort = -2 }
+            }
+        }
+		289 = { any_pop = { limit = { pop_type = soldiers } reduce_pop = 0.97 } }
+		scaled_militancy = { factor = -3 ideology = conservative }
+		ai_chance = {
+			factor = 95
+        }
+    }
+}
+
+country_event = {
+	id = 138003
+	title = "Henry III Comes of Age"
+	desc = "138003_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 15 }
+
+	trigger = {
+		tag = ENL
+		year = 1227
+	}
+
+	option = {
+	    name = "My righteous lands in France will be restored to me, no matter the cost."
+		ruling_party_ideology = reactionary
+		set_country_flag = john_iii_rule
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 138004
+	title = "Submission of Peter I, Duke of Brittany"
+	desc = "138004_DESC"
+	picture = "hugh_de_lusignan"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		tag = ENL
+		has_country_flag = john_iii_rule
+		year = 1228
+		month = 10
+	}
+
+	option = {
+	    name = "Brittany will become the staging point for the invasion of France."
+		diplomatic_influence = { who = BRT value = 400 }
+		set_global_flag = brittany_submit_england
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 138005
+	title = "Revolt of Richard Marshal"
+	desc = "138005_DESC"
+	picture = "marshal_war"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = ENL
+		has_country_flag = john_iii_rule
+		year = 1233
+	}
+
+	option = {
+	    name = "Any who question my authority must be smashed."
+		prestige = 10
+		any_owned = {
+            limit = {
+                province_id = 2107
+				province_id = 2102
+				province_id = 273
+				province_id = 244
+            }
+            secede_province = PMB
+        }
+		PMB = { inherit = LEI }
+		PMB = { create_alliance = GWY }
+		any_country = {
+			limit = {
+				exists = yes
+				ai = yes
+				tag = WMC
+			}
+			country_event = 138006
+		}
+		casus_belli = { target = PMB type = conquest months = 20 }
+		war = {
+			target = PMB
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+		}
+		set_country_flag = engage_marshal_war
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+	    name = "Submit to Marshal's demands."
+		prestige = -10
+		set_country_flag = submitted_marshal_war
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+	id = 138006
+	title = "Invasion of Richard Marshal"
+	desc = "139006_DESC"
+	picture = "marshal_war"
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+	    name = "Hold Monmouth until reinforcements arrive."
+		2107 = { secede_province = PMB }
+		2102 = { secede_province = PMB }
+		273 = { secede_province = PMB }
+		capital = 2103
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 138007
+	title = "End of the Marshal War"
+	desc = "138007_DESC"
+	picture = "marshal_war"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = ENL
+		has_country_flag = engage_marshal_war
+		PMB = { exists = no }
+	}
+
+	option = {
+	    name = "Grant amnesty to Gilbert Marshal."
+		prestige = -5
+		badboy = -3
+		any_pop = { limit = { has_pop_culture = cambro_norman } militancy = -2 consciousness = -3 }
+		WMC = { capital = 273 }
+		2107 = { secede_province = WMC }
+		2102 = { secede_province = WMC }
+		273 = { secede_province = WMC }
+		244 = { secede_province = IRL }
+		set_country_flag = victory_marshal_war
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+	    name = "Exile the Marshal family from England."
+		prestige = 5
+		any_pop = { limit = { has_pop_culture = cambro_norman } militancy = 2 consciousness = 3 }
+		WMC = { capital = 273 }
+		2107 = { secede_province = WMC }
+		2102 = { secede_province = WMC }
+		273 = { secede_province = WMC }
+		244 = { secede_province = IRL }
+		set_country_flag = victory_marshal_war
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+	id = 138008
+	title = "Invasion of the Kingdom of Connacht"
+	desc = "138008_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = ENL
+		has_country_flag = john_iii_rule
+		year = 1235
+		NOT = { truce_with = CNN }
+	}
+
+	option = {
+	    name = "Connacht will submit to the Crown or be destroyed."
+		CNN = { create_alliance = THM }
+		casus_belli = { target = CNN type = conquest months = 20 }
+		war = {
+			target = CNN
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+		}
+		set_country_flag = invasion_of_connacht
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+	    name = "We won't support such a brash invasion."
+		prestige = -5
+		any_pop = { limit = { has_pop_culture = hiberno_norman } militancy = 2 consciousness = 3 }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 138009
+	title = "Submission of Felim O'Connor"
+	desc = "138009_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = ENL
+		has_country_flag = invasion_of_connacht
+		CNN = { exists = no }
+	}
+
+	option = {
+	    name = "That pesky Connacht will never trouble us again."
+		233 = { secede_province = CNN }
+		create_vassal = CNN
+		any_owned = {
+            limit = {
+				AND = {
+					NOT = { province_id = 233 }
+					is_core = CNN
+				}
+            }
+            secede_province = IRL
+        }
+		IRL = { country_event = 138011 }
+		set_country_flag = connact_kingdom_submission
+		ai_chance = { factor = 95 }
+	}
+}
+
+country_event = {
+	id = 138010
+	title = "Anglo-Norman Expansion"
+	desc = "138010_DESC"
+	
+	fire_only_once = no
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = ENL
+		OR = {
+			NOT = { has_country_flag = direct_control_ireland }
+			has_country_flag = ireland_lordship_expansion
+		}
+		NOT = { has_global_flag = collapse_ulster_earldom }
+		#IRL = { exists = yes vassal_of = THIS }
+		IRE = { any_core = { owned_by = THIS }}
+	}
+
+	option = {
+	    name = "Anglo-Norman expansion in Ireland continues."
+		random_country = {
+            limit = { exists = yes tag = ENL }
+            any_owned = {
+                limit = { is_core = IRE NOT = { is_core = ULS } }
+                secede_province = IRL
+            }
+        }
+		any_owned = {
+            limit = { is_core = IRE NOT = { is_core = ULS } }
+            secede_province = IRL
+        }
+		random_country = {
+            limit = { exists = yes tag = ENL }
+            any_owned = {
+                limit = { is_core = ULS }
+                secede_province = ULS
+            }
+        }
+		any_owned = {
+            limit = { is_core = ULS }
+            secede_province = ULS
+        }
+		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+	id = 138011
+	title = "Burke Control of Connacht"
+	desc = "138011_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "Our control of Connacht is solidified."
+		233 = { secede_province = CNN }
+		FROM = { create_vassal = CNN }
+		any_owned = {
+            limit = {
+				AND = {
+					NOT = { province_id = 233 }
+					is_core = CNN
+				}
+            }
+            secede_province = IRL
+        }
+		set_country_flag = connact_kingdom_submission
+		ai_chance = { factor = 95 }
+	}
+}
+
+country_event = {
+	id = 138012
+	title = "Invasion of Gwynedd"
+	desc = "138012_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = ENL
+		has_country_flag = john_iii_rule
+		year = 1241
+		NOT = { truce_with = GWY }
+	}
+
+	option = {
+	    name = "Install Gruffydd in Powys and curb the power of Dafydd II."
+		casus_belli = { target = GWY type = cut_down_to_size months = 20 }
+		war = {
+			target = GWY
+			attacker_goal = { casus_belli = cut_down_to_size }
+			defender_goal = { casus_belli = cut_down_to_size }
+		}
+		set_country_flag = invasion_of_gwynedd_1241
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+	    name = "Such a move would disturb our peace with Dafydd II."
+		prestige = -5
+		any_pop = { limit = { has_pop_culture = cambro_norman } militancy = 2 consciousness = 3 }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+
+    id = 138013
+    title = "Treaty of Gwerneigron"
+	desc = "138013_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	major = yes
+	
+	trigger = {
+		tag = ENL
+		GWY = { is_disarmed = yes }
+		NOT = { war_with = THIS }
+		has_country_flag = invasion_of_gwynedd_1241
+	}
+	
+    option = {
+        name = "The power of Gwynedd is waning."
+		prestige = 5
+		GWY = { release_vassal = PWY }
+		THIS = { create_vassal = PWY }
+		diplomatic_influence = { who = GWY value = 400 }
+		diplomatic_influence = { who = PWY value = 400 }
+		GWY = { any_owned = { limit = { OR = { province_id = 2106 is_core = PWY } } secede_province = THIS } }
+		set_global_flag = treaty_of_perth
+		ai_chance = { factor = 95 }
+	}
+}
+
+country_event = {
+	id = 138014
+	title = "Conquest of Wales"
+	desc = "138014_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = ENL
+		has_country_flag = john_iii_rule
+		year = 1283
+		NOT = { truce_with = GWY }
+	}
+
+	option = {
+	    name = "Destroy Gwynedd my guy."
+		casus_belli = { target = GWY type = conquest months = 20 }
+		war = {
+			target = GWY
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = cut_down_to_size }
+		}
+		set_country_flag = invasion_of_gwynedd_1283
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+	    name = "I'm lazy and dont wanna."
+		prestige = -5
+		any_pop = { limit = { has_pop_culture = cambro_norman } militancy = 2 consciousness = 3 }
+		ai_chance = { factor = 0 }
+	}
+}

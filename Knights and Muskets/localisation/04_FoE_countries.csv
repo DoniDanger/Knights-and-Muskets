@@ -5,7 +5,41 @@ north_german;Saxon;x
 spanish;Castillian;x 
 swiss;High Alemannic;x 
 north_italian;Lombard;x 
-south_italian;Neapolitan;x 
+south_italian;Neapolitan;x
+PMB;Pembroke;x
+PMB_ADJ;Pembroke;x 
+GLY;Galway;x
+GLY_ADJ;Galwegian;x
+MYO;Mayo-Burke;x
+MYO_ADJ;Mayo-Burke;x
+CNM;Connemara;x
+CNM_ADJ;Connemaran;x
+CLD;Clandeboye;x
+CLD_ADJ;Clandeboyan;x
+THM;Thomond;x
+THM_ADJ;Thomond;x
+FGH;Fermanagh;x
+FGH_ADJ;Fermanagh;x
+BRF;Breffny;x
+BRF_ADJ;Breffny;x
+MTH;Meath;x
+MTH_ADJ;Meath;x
+OFF;Offaly;x
+OFF_ADJ;Offaly;x
+AGL;Airgialla;x
+AGL_ADJ;Airgiallan;x
+MNS;Deasmhumhain;x
+MNS_ADJ;Deasmhumhain;x 
+GAE;Gaelic Union;x
+GAE_ADJ;Gaelic;x 
+GLW;Galloway;x
+GLW_ADJ;Galwegian;x
+ORK;Jarldom of Orkney;x
+ORK_ADJ;Orkneyan;x 
+AYY;The Ayyubid Empire;x
+AYY_ADJ;Ayyubid;x
+SLJ;The Seljuk Sultanate;x
+SLJ_ADJ;Seljuk;x
 PLS;Emirate of Ajlun;x
 PLS_ADJ;Ajlun;x 
 ALP;Emirate of Aleppo;x
@@ -558,10 +592,12 @@ UES;Uesugi;x
 UES_ADJ;Uesugi;x
 YMN;Yamana;x
 YMN_ADJ;Yamana;x
-CRN;Cornwall;x
-CRN_ADJ;Cornish;x
-CNN;Clanricarde;x
-CNN_ADJ;Clanricarde;x
+CRW;Cornwall;x
+CRW_ADJ;Cornish;x
+CNN;Connacht;x
+CNN_ADJ;Connacht;x
+CRD;Clanricarde;x
+CRD_ADJ;Clanricarde;x
 KID;Kildare;x
 KID_ADJ;Kildare;x
 LEI;Leinster;x
@@ -570,10 +606,10 @@ MNS;Munster;x
 MNS_ADJ;Munster;x
 ORD;Ormond;x
 ORD_ADJ;Ormond;x
-SLN;Sligo;x
-SLN_ADJ;Sligo;x
-TRY;Tyrconnell;x
-TRY_ADJ;Tyrconnell;x
+SLG;Sligo;x
+SLG_ADJ;Sligo;x
+TYC;Tyrconnell;x
+TYC_ADJ;Tyrconnell;x
 TYR;Tyrone;x
 TYR_ADJ;Tyrone;x
 CGC;Capitania General de Chile;x
@@ -892,8 +928,8 @@ ARN;Aragon;x
 ARN_ADJ;Aragonese;x
 BSQ;Navarre;x
 BSQ_ADJ;Navarrian;x
-DMS;Desmond;x
-DMS_ADJ;Desmondian;x
+DSM;Desmond;x
+DSM_ADJ;Desmondian;x
 HSC;Highlands;x
 HSC_ADJ;Highlander;x
 KOI;Mann;x

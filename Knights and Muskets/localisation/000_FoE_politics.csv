@@ -235,7 +235,7 @@ harassment;Extortionate Relief;;;;;;;;;;;x
 harassment_desc;The taxation fee associated with enfeoffment is extortionate, but based on acceptable limits.;;;;;;;;;;;x
 harassment_l;Extortionate Relief;;;;;;;;;;;x
 gerrymandering;Regulated Relief;;;;;;;;;;;x
-gerrymandering;The taxation fee associated with enfeoffment is regulated, and nobles pay an acceptable set rate.;;;;;;;;;;;x
+gerrymandering_desc;The taxation fee associated with enfeoffment is regulated, and nobles pay an acceptable set rate.;;;;;;;;;;;x
 gerrymandering_l;Regulated Relief;;;;;;;;;;;x
 absolutism;§PAbsolutist Rule§!;;;;;;;;;;;x
 no_absolutism;§PNo Absolutism§!;;;;;;;;;;;x
@@ -338,9 +338,9 @@ state_press_desc;Laws are passed through oral tradition and can only be interpet
 censored_press;Civil Law;;;;;;;;;x;;;;
 censored_press_l;Civil Law;;;;;;;;;x;;;;
 censored_press_desc;We believe in civil law.;;;;;;;;;x;;;;
-free_press;Common Law;;;;;;;;;x;;;;
-free_press_l;Common Law;;;;;;;;;x;;;;
-free_press_desc;We believe in common law.;;;;;;;;;x;;;;
+free_press;Canon Law;;;;;;;;;x;;;;
+free_press_l;Canon Law;;;;;;;;;x;;;;
+free_press_desc;We believe in Canon law.;;;;;;;;;x;;;;
 school_reforms;Education System;;;;;;;;;x;;;;
 no_schools;No School System;;;;;;;;;x;;;;
 no_schools_l;No School System;;;;;;;;;x;;;;
@@ -384,6 +384,39 @@ landed_voting_desc;Knights can pay a special tax in lieu of service.;;;;;;;;;x;;
 wealth_weighted_voting;Lump-sum Payments;;;;;;;;;x;;;;
 wealth_weighted_voting_l;Lump-sum Payments;;;;;;;;;x;;;;
 wealth_weighted_voting_desc;Rather than paying a special tax, knights pay a lump-sum in lieu of service. A simplified system that disentangles itself from the devolvement of fuedalism.;;;;;;;;;x;;;;
+noble_tax_contribution;Nobility Taxation;;;;;;;;;x;;;;
+small_tax_contribution;Restricted Taxation;;;;;;;;;x;;;;
+small_tax_contribution_l;Restricted Taxation;;;;;;;;;x;;;;
+small_tax_contribution_desc;Nobility are absolved of paying taxes.;;;;;;;;;x;;;;
+medium_tax_contribution;Limited Taxation;;;;;;;;;x;;;;
+medium_tax_contribution_l;Limited Taxation;;;;;;;;;x;;;;
+medium_tax_contribution_desc;Nobility pay a limited form of taxes.;;;;;;;;;x;;;;
+large_tax_contribution;Normal Taxation;;;;;;;;;x;;;;
+large_tax_contribution_l;Normal Taxation;;;;;;;;;x;;;;
+large_tax_contribution_desc;Nobility have to contribute normally to taxes.;;;;;;;;;x;;;;
+guild_monopolies;Guild Control;;;;;;;;;x;;;;
+privileged_guild_monopolies;Guild Monopolies;;;;;;;;;x;;;;
+privileged_guild_monopolies_l;Guild Monopolies;;;;;;;;;x;;;;
+privileged_guild_monopolies_desc;Guilds are heavily monopolized, and control major aspects of the economes of towns, such as labor, production, and trade.;;;;;;;;;x;;;;
+limited_guild_monopolies;Influential Guilds;;;;;;;;;x;;;;
+limited_guild_monopolies_l;Influential Guilds;;;;;;;;;x;;;;
+limited_guild_monopolies_desc;Guilds are inluential in the city's economy, but do not have the total power to dictate labor and trade freely.;;;;;;;;;x;;;;
+restricted_guild_monopolies;Free Competition;;;;;;;;;x;;;;
+restricted_guild_monopolies_l;Free Competition;;;;;;;;;x;;;;
+restricted_guild_monopolies_desc;Guilds do not control major aspects of the city economy, and free competition is enjoyed without intervention from the guilds.;;;;;;;;;x;;;;
+city_privileges;City Privileges;;;;;;;;;x;;;;
+independent_cities;Free Cities;;;;;;;;;x;;;;
+chartered_cities;Chartered Cities;;;;;;;;;x;;;;
+territorial_cities;Territorial Cities;;;;;;;;;x;;;;
+royal_cities;Royal Cities;;;;;;;;;x;;;;
+apprenticeship;Apprenticeship;;;;;;;;;x;;;;
+hereditary;Hereditary;;;;;;;;;x;;;;
+appointment;Appointment;;;;;;;;;x;;;;
+guild_school;Guild Schools;;;;;;;;;x;;;;
+merchant_trade_privileges;Trade Rights;;;;;;;;;x;;;;
+restricted_trade_rights;No Privileges;;;;;;;;;x;;;;
+limited_trade_rights;Trade Privileges;;;;;;;;;x;;;;
+privileged_trade_rights;Exclusive Trade;;;;;;;;;x;;;;
 laissez_faire;Mercantile-Oriented;;;;;;;;;x;;;;
 fascist;Absolutist;;;;;;;;;x;;;;
 reactionary;Royalist;;;;;;;;;x;;;;

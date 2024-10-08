@@ -1,7 +1,6 @@
 owner = WMG
 controller = WMG
-add_core = ILK
-add_core = MGE
+add_core = CHG
 add_core = WMG
 trade_goods = wool
 life_rating = 35

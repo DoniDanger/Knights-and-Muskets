@@ -1,7 +1,9 @@
 owner = IRL
 controller = IRL
 add_core = IRL
+add_core = DSM
 add_core = IRE
-trade_goods = fish
+trade_goods = cattle
 life_rating = 35
+fort = 1
 naval_base = 1

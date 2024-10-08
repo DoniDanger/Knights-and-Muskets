@@ -72,4 +72,4 @@ manorialism = 1
 trade_fairs = 1
 medical_universities = 1
 
-oob = "SCO_oob.txt"
+oob = "GLW_oob.txt"

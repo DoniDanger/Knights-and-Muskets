@@ -1,2 +1,7 @@
-trade_goods = grain
-life_rating = 25
+owner = CNN
+controller = CNN
+add_core = CNN
+add_core = MYO
+add_core = IRE
+trade_goods = cattle
+life_rating = 35

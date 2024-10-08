@@ -1785,14 +1785,14 @@ PROV144;Vawkavysk;x
 PROV160;Navahrudak;x
 PROV2416;Qeshm;x
 PROV2463;Darab;x
-PROV262;Kilkenny;x
-PROV234;Cork;x
-PROV265;Waterford;x
-PROV260;Limerick;x	
+PROV262;Waterford;x
+PROV234;Cill Airne;x
+PROV265;Wexford;x
+PROV260;Cork;x	
 PROV256;Ard Mhacha;x
-PROV237;Átha Luain;x
-PROV236;Inis;x
-PROV261;Cionn tSáile;x
+PROV237;Mide;x #Átha Luain
+PROV236;Connemara;x
+PROV261;Limerick;x
 PROV524;Shatubar;x
 PROV527;al-Gharb;x
 PROV526;Baja;x
@@ -2018,3 +2018,19 @@ PROV575;Köln;x
 PROV619;Wien;x
 PROV599;München;x
 PROV606;Luzern;x
+PROV1986;Tuamhain;x
+PROV1985;Tír Amhlaidh;x
+PROV1984;Offaly;x
+PROV1994;Ormonde;x
+PROV1995;Kilkenny;x
+PROV244;Leinster;x
+PROV233;Ros Comalin;x
+PROV229;Breifne;x
+PROV230;Fir Manach;x
+PROV231;Muineachan;x
+PROV243;Iveagh;x
+PROV242;Aontroim;x
+PROV241;Cuil Rathain;x
+PROV223;Caithness;x
+ENG_263;Leinster;x
+ENG_258;Connacht;x

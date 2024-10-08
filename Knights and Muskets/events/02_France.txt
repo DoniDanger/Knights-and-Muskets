@@ -3,8 +3,9 @@ country_event = {
 	id = 135000
 	title = "The Cathar Reclamation"
 	desc = "135000_DESC"
+	picture = "albigensian_crusade"
 	major = yes
-
+	
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 
@@ -30,8 +31,9 @@ country_event = {
 	id = 135001
 	title = "Amaury de Montfort Flees Carcassonne"
 	desc = "135001_DESC"
+	picture = "albigensian_crusade"
 	major = yes
-
+	
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 
@@ -54,8 +56,9 @@ country_event = {
 	id = 135002
 	title = "The Albigensian Crusade Successful"
 	desc = "135002_DESC"
+	picture = "albigensian_crusade"
 	major = yes
-
+	
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 
@@ -79,8 +82,9 @@ country_event = {
 	id = 135003
 	title = "The Albigensian Crusade Successful"
 	desc = "135003_DESC"
+	picture = "albigensian_crusade"
 	major = yes
-
+	
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 
@@ -114,8 +118,9 @@ country_event = {
 	id = 135004
 	title = "Siege of Avignon"
 	desc = "135004_DESC"
+	picture = "siege_of_avignon"
 	major = yes
-
+	
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 
@@ -138,8 +143,9 @@ country_event = {
 	id = 135005
 	title = "Death of Philip II"
 	desc = "135005_DESC"
+	picture = "philip_ii"
 	major = yes
-
+	
 	fire_only_once = yes
 	mean_time_to_happen = { days = 5 }
 
@@ -162,9 +168,11 @@ country_event = {
 	id = 135006
 	title = "Ascension of Louis VIII, The Lion"
 	desc = "135006_DESC"
+	picture = "louis_the_lion"
+	
 	fire_only_once = yes
 	mean_time_to_happen = { days = 3 }
-
+	
 	trigger = {
 		tag = FRA
 		year = 1223
@@ -184,9 +192,11 @@ country_event = {
 	id = 135007
 	title = "Death of Louis VIII"
 	desc = "135007_DESC"
+	picture = "louis_the_lion"
+	
 	fire_only_once = yes
 	mean_time_to_happen = { days = 3 }
-
+	
 	trigger = {
 		tag = FRA
 		year = 1226
@@ -207,6 +217,7 @@ country_event = {
 	id = 135008
 	title = "Regency of Louis IX"
 	desc = "135008_DESC"
+	picture = "blanche_of_castille"
 	major = yes
 	
 	fire_only_once = yes
@@ -280,6 +291,7 @@ country_event = {
 	id = 135011
 	title = "End of the Plantagenet Truce"
 	desc = "135011_DESC"
+	picture = "bouvines"
 	major = yes
 	
 	fire_only_once = yes

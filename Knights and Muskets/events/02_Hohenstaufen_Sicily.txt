@@ -454,11 +454,12 @@ country_event = {
 			NOT = { has_country_flag = returned_to_germany }
 			has_country_flag = conrad_rules_swabia
 		}
+		#SGF = { exists = yes vassal_of = THIS }
 		GER = { any_core = { owned_by = SIC }}
 	}
 
 	option = {
-	    name = "I love land."
+	    name = "Swabia shall expand."
 		random_country = {
             limit = { exists = yes tag = SIC }
             any_owned = {

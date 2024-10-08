@@ -1,5 +1,7 @@
-owner = IRE
-controller = IRE
+owner = CNN
+controller = CNN
+add_core = CNN
+add_core = SLG
 add_core = IRE
-trade_goods = cattle
+trade_goods = fish
 life_rating = 35

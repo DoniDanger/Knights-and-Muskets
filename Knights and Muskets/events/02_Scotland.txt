@@ -1,0 +1,273 @@
+###SCOTLAND###
+country_event = {
+	id = 139000
+	title = "Burning of the Bishop of Caithness"
+	desc = "139000_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 11 }
+
+	trigger = {
+		tag = SCO
+		month = 9
+		year = 1222
+	}
+
+	option = {
+	    name = "Use the opportunity to lay claim to Caithness."
+		223 = { add_core = SCO }
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 139001
+	title = "Succession of Galloway"
+	desc = "139001_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { month = 4 }
+
+	trigger = {
+		tag = SCO
+		GLW = { exists = yes vassal_of = THIS }
+		year = 1234
+	}
+
+	option = {
+	    name = "Partition Galloway amongst Alan's daughters."
+		GLW = { all_core = { add_core = THIS } }
+		release_vassal = GLW
+		leave_alliance = GLW
+		war = {
+            target = GLW
+            attacker_goal = { casus_belli = annex_core_country  }
+        }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+
+    id = 139002
+    title = "Scotland Requests Purchase of the Western Isles"
+	desc = "139002_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+    option = {
+        name = "We have little coin and little love for the isles."
+		money = 100000
+		LOI = { all_core = { remove_core = THIS }}
+		SCO = { country_event = 139004 }
+		set_country_flag = nor_sold_western_isles
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+        name = "If that Scottish oaf wants my land he'll have to take it from me."
+		prestige = 5
+		SCO = { country_event = 139005 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+
+    id = 139003
+    title = "The Kingdom of the Western Isles"
+	desc = "139003_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+    option = {
+        name = "Attempt to purchase the isles from the Norwegian king."
+		NOR = { country_event = 139002 }
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+        name = "Why give them coin when we can take the Isles ourselves?"
+		LOI = { all_core = { add_core = THIS }}
+		badboy = 5
+		set_country_flag = western_isles_conquest
+		ai_chance = { factor = 20 }
+	}
+	
+	option = {
+        name = "This issue is not of concern to us for now."
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 139004
+	title = "Norway Sells the Western Isles"
+	desc = "139004_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "The Isles are under our control."
+		prestige = 5
+		LOI = { all_core = { add_core = THIS }}
+		inherit = LOI
+		money = -100000
+		set_country_flag = western_isles_conquest
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 139005
+	title = "Norway Refuses our Offer"
+	desc = "139005_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "Then we'll conquer the damn isles."
+		LOI = { all_core = { add_core = THIS }}
+		prestige = -5
+		set_country_flag = western_isles_conquest
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+
+    id = 139006
+    title = "Treaty of Perth"
+	desc = "139006_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	major = yes
+	
+	trigger = {
+		tag = SCO
+		NOR = { is_disarmed = yes }
+		NOT = { war_with = NOR }
+		has_country_flag = conquered_western_isles
+	}
+	
+    option = {
+        name = "An end to Norse threats to Scotland."
+		prestige = 15
+		add_accepted_culture = norse_gael
+		LOI = { all_core = { add_core = THIS }}
+		223 = { add_core = THIS remove_core = ORK }
+		inherit = LOI
+		NOR = { any_owned = { limit = { OR = { is_core = ORK is_core = LOI } } remove_core = NOR secede_province = SCO } }
+		ORK = { any_owned = { limit = { province_id = 223 } remove_core = ORK secede_province = SCO } }
+		set_global_flag = treaty_of_perth
+		ai_chance = { factor = 95 }
+	}
+}
+
+country_event = {
+
+    id = 139007
+    title = "Scotland Requests Purchase of the Orkney Islands"
+	desc = "139007_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+    option = {
+        name = "We have little coin and little love for the islands."
+		money = 100000
+		ORK = { all_core = { remove_core = THIS }}
+		SCO = { country_event = 139009 }
+		set_country_flag = nor_sold_western_isles
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+        name = "If that Scottish oaf wants my land he'll have to take it from me."
+		prestige = 5
+		SCO = { country_event = 139010 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+
+    id = 139008
+    title = "The Orkney and Shetland Islands"
+	desc = "139008_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+    option = {
+        name = "Attempt to purchase the islands from the Norwegian king."
+		NOR = { country_event = 139002 }
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+        name = "Why give them coin when we can take the islands ourselves?"
+		ORK = { all_core = { add_core = THIS }}
+		badboy = 5
+		set_country_flag = orkney_island_conquest
+		ai_chance = { factor = 20 }
+	}
+	
+	option = {
+        name = "This issue is not of concern to us for now."
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 139009
+	title = "Norway Sells the Orkney Islands"
+	desc = "139009_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "Orkney and Shetland are under our control."
+		prestige = 5
+		ORK = { all_core = { add_core = THIS }}
+		inherit = ORK
+		money = -100000
+		set_country_flag = orkney_island_conquest
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 139010
+	title = "Norway Refuses our Offer"
+	desc = "139010_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "Then we'll conquer the damn isles."
+		ORK = { all_core = { add_core = THIS }}
+		prestige = -5
+		set_country_flag = orkney_island_conquest
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 139011
+	title = "Norway Refuses our Offer"
+	desc = "139011_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "The time is now to evict the Norwegian conquerers."
+		casus_belli = { target = NOR type = cut_down_to_size months = 20 }
+		war = {
+			target = NOR
+			attacker_goal = { casus_belli = cut_down_to_size }
+			defender_goal = { casus_belli = cut_down_to_size }
+		}
+		set_country_flag = western_isles_conquest
+		ai_chance = { factor = 100 }
+	}
+}

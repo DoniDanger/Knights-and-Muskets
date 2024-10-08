@@ -1,0 +1,26 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = NRM
+trade_goods = cattle
+life_rating = 35
+state_building = {
+	level = 1
+	building = tar_workshop
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = naval_supplies_workshop
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}

@@ -1,12 +1,6 @@
 owner = WMG
 controller = WMG
-add_core = ILK
-add_core = MGE
+add_core = GOL
 add_core = WMG
 trade_goods = grain
 life_rating = 35
-1861.1.1 = {
-	
-	
-	colonial = 2
-}

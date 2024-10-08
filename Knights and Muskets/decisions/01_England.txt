@@ -1,0 +1,380 @@
+political_decisions = {
+	unite_welsh_kingdom = {
+		potential = {
+			primary_culture = welsh
+			WHA = { exists = no }
+			NOT = { has_global_flag = united_welsh_kingdom }
+			NOT = { has_global_flag = created_welsh_principality }
+		}
+		
+		allow = {
+			war = no
+			PWY = { all_core = { owned_by = THIS }}
+			GWY = { all_core = { owned_by = THIS }}
+			WMC = { all_core = { owned_by = THIS }}
+		}
+		
+		effect = {
+			prestige = 15
+			change_tag = WHA
+			add_accepted_culture = cambro_norman
+			add_accepted_culture = welsh
+			286 = { add_core = WHA }
+			2092 = { add_core = WHA }
+			random_country = {
+                limit = {
+                    primary_culture = cambro_norman
+                    vassal_of = THIS
+                }
+                annex_to = THIS
+            }
+			random_country = {
+                limit = {
+                    primary_culture = welsh
+                    vassal_of = THIS
+                }
+                annex_to = THIS
+            }
+			set_global_flag = united_welsh_kingdom
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	seize_powys_kingdom = {
+		potential = {
+			tag = GWY
+			NOT = { has_country_flag = seized_powys_kingdom }
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				AND = {
+					PWY = { vassal_of = THIS }
+					year = 1242
+				}
+				AND = {
+					PWY = { vassal_of = THIS }
+					owns = 273
+				}
+				PWY = { all_core = { owned_by = THIS }}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = PWY
+			PWY = { all_core = { add_core = THIS }}
+			set_country_flag = seized_powys_kingdom
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	repulse_marcher_lords = {
+		potential = {
+			primary_culture = welsh
+			NOT = { has_country_flag = repulsed_marcher_lords }
+		}
+		
+		allow = {
+			war = no
+			owns = 273
+			owns = 274
+			owns = 2102
+		}
+		
+		effect = {
+			prestige = 5
+			WMC = { all_core = { add_core = THIS }}
+			set_country_flag = repulsed_marcher_lords
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	accept_marcher_fealty = {
+		potential = {
+			primary_culture = welsh
+			NOT = { has_country_flag = accepted_marcher_fealty }
+		}
+		
+		allow = {
+			war = no
+			WMC = { all_core = { owned_by = THIS }}
+		}
+		
+		effect = {
+			prestige = -5
+			add_accepted_culture = cambro_norman
+			set_country_flag = accepted_marcher_fealty
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	seize_palatine_chester = {
+		potential = {
+			primary_culture = welsh
+			NOT = { has_country_flag = seized_palatine_chester }
+		}
+		
+		allow = {
+			has_country_flag = repulsed_marcher_lords
+			CHT = { all_core = { controlled_by = THIS }}
+		}
+		
+		effect = {
+			CHT = { all_core = { add_core = THIS }}
+			set_country_flag = seized_palatine_chester
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	accept_cornish_tribes = {
+		potential = {
+			tag = WHA
+			NOT = { has_country_flag = accepted_cornish_tribes }
+		}
+		
+		allow = {
+			war = no
+			controls = 299
+			controls = 2095
+		}
+		
+		effect = {
+			299 = { add_core = WHA }
+			2095 = { add_core = WHA }
+			add_accepted_culture = cornish
+			set_country_flag = accepted_cornish_tribes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	peace_of_middle = {
+		potential = {
+			tag = WHA
+			NOT = { has_country_flag = accepted_cornish_tribes }
+		}
+		
+		allow = {
+			war = no
+			controls = 299
+			controls = 181
+		}
+		
+		effect = {
+			299 = { add_core = WHA }
+			2095 = { add_core = WHA }
+			add_accepted_culture = cornish
+			set_country_flag = accepted_cornish_tribes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	bolster_gwynedd_forts = {
+		potential = {
+			tag = WHA
+			NOT = { has_country_flag = accepted_cornish_tribes }
+		}
+		
+		allow = {
+			war = no
+			controls = 299
+			controls = 181
+		}
+		
+		effect = {
+			299 = { add_core = WHA }
+			2095 = { add_core = WHA }
+			add_accepted_culture = cornish
+			set_country_flag = accepted_cornish_tribes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	create_principality_whales = {
+		potential = {
+			tag = ENL
+			NOT = { has_global_flag = created_welsh_principality }
+		}
+		
+		allow = {
+			war = no
+			PMB = { exists = no }
+			OR = {
+				AND = {
+					PWY = { vassal_of = THIS }
+					year = 1244
+				}
+				PWY = { all_core = { owned_by = THIS }}
+			}
+			OR = {
+				AND = {
+					GWY = { vassal_of = THIS }
+					year = 1244
+				}
+				GWY = { all_core = { owned_by = THIS }}
+			}
+			OR = {
+				AND = {
+					WMC = { vassal_of = THIS }
+					year = 1244
+				}
+				WMC = { all_core = { owned_by = THIS }}
+			}
+		}
+		
+		effect = {
+			prestige = 15
+			add_accepted_culture = welsh
+			add_accepted_culture = cambro_norman
+			inherit = PWY
+			inherit = GWY
+			inherit = WMC
+			PWY = { all_core = { add_core = THIS }}
+			WMC = { all_core = { add_core = THIS }}
+			GWY = { all_core = { add_core = THIS }}
+			set_global_flag = created_welsh_principality
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	incorporate_county_palatines = {
+		potential = {
+			tag = ENL
+			NOT = { has_country_flag = incorporated_county_palatines }
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				AND = {
+					CHT = { vassal_of = THIS }
+					year = 1244
+				}
+				CHT = { all_core = { owned_by = THIS }}
+			}
+			OR = {
+				AND = {
+					DRH = { vassal_of = THIS }
+					year = 1244
+				}
+				DRH = { all_core = { owned_by = THIS }}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = CHT
+			inherit = DRH
+			CHT = { all_core = { add_core = THIS }}
+			DRH = { all_core = { add_core = THIS }}
+			set_country_flag = incorporated_county_palatines
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	reconquer_norman_claims = {
+		potential = {
+			tag = ENL
+			NOT = { has_country_flag = reconquered_norman_claims }
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				NRM = { vassal_of = THIS owns = 415 owns = 418 }
+				NRM = { all_core = { owned_by = THIS }}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = NRM
+			add_accepted_culture = norman
+			NRM = { all_core = { add_core = THIS }}
+			set_country_flag = reconquered_norman_claims
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	dominate_poitevin_nobility = {
+		potential = {
+			tag = ENL
+			NOT = { has_country_flag = dominated_poitevin_nobility }
+		}
+		
+		allow = {
+			war = no
+			year = 1244
+			OR = {
+				POI = { vassal_of = THIS }
+				POI = { all_core = { owned_by = THIS }}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = POI
+			add_accepted_culture = poitevin
+			POI = { all_core = { add_core = THIS }}
+			set_country_flag = dominated_poitevin_nobility
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	dominate_maine = {
+		potential = {
+			tag = ENL
+			NOT = { has_country_flag = dominated_maine }
+		}
+		
+		allow = {
+			war = no
+			year = 1244
+			OR = {
+				MAI = { vassal_of = THIS }
+				MAI = { all_core = { owned_by = THIS }}
+			}
+			OR = {
+				ANJ = { vassal_of = THIS }
+				ANJ = { all_core = { owned_by = THIS }}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = MAI
+			inherit = ANJ
+			add_accepted_culture = angevin
+			MAI = { all_core = { add_core = THIS }}
+			ANJ = { all_core = { add_core = THIS }}
+			set_country_flag = dominated_maine
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	dominate_brittany = {
+		potential = {
+			tag = ENL
+			NOT = { has_country_flag = dominated_maine }
+		}
+		
+		allow = {
+			war = no
+			year = 1244
+			OR = {
+				BRT = { vassal_of = THIS }
+				BRT = { all_core = { owned_by = THIS }}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			inherit = BRT
+			add_accepted_culture = breton
+			BRT = { all_core = { add_core = THIS }}
+			set_country_flag = dominated_maine
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

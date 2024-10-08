@@ -15,13 +15,14 @@
 #
 # European Straits  
 #
-254;2082;sea;2737;0;Irish Strait
+242;2082;sea;2737;0;Irish Strait
 254;2083;sea;2737;0;Irish Strait
+243;2083;sea;2737;0;Irish Strait
 2083;304;sea;2737;0;Mann Strait
 2082;2080;sea;2736;0;Hebrides Strait
 2005;2080;sea;2736;0;Hebrides Strait
 2080;2079;sea;2736;0;Hebrides Strait
-1990;1991;sea;2735;0;Hebrides Strait
+223;1991;sea;2735;0;Hebrides Strait
 324;348;sea;2706;0;Aland Strait #Uppsala to Aland #these were in V1
 334;372;sea;0;0;Öresund
 335;374;sea;2710;0;Bornholmsfärjan

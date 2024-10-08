@@ -1,5 +1,6 @@
-owner = IRE
-controller = IRE
+owner = TYC
+controller = TYC
+add_core = TYC
 add_core = IRE
-trade_goods = cattle
+trade_goods = fish
 life_rating = 35

@@ -2,6 +2,7 @@ owner = FRA
 controller = FRA
 add_core = FRA
 add_core = NRM
+add_core = ENL
 trade_goods = fish
 life_rating = 35
 naval_base = 2
