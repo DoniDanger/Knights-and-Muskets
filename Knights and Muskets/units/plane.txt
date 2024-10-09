@@ -6,6 +6,7 @@ plane = { #men-at-arms
 	active = no
 	unit_type = infantry
 	floating_flag = no
+	primary_culture = yes
 	
 	#Core Abilities
 	priority = 45

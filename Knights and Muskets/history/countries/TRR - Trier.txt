@@ -1,10 +1,10 @@
 capital = 572
-primary_culture = north_german
+primary_culture = central_franconian
 religion = catholic
 government = theocracy
 plurality = 0.25
 nationalvalue = pm_no_minister
-literacy = 0.45
+literacy = 0.25
 civilized = yes
 prestige = 5
 

@@ -1,7 +1,6 @@
 capital = 269
 primary_culture = scottish
 culture = highlander
-culture = norse_gael
 religion = catholic
 government = feudal_monarchy
 plurality = 0.1

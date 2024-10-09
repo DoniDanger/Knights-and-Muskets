@@ -5,7 +5,7 @@ religion = catholic
 government = feudal_monarchy
 plurality = 25.0
 nationalvalue = nv_might
-literacy = 0.80
+literacy = 0.12
 non_state_culture_literacy = 0.25
 civilized = yes
 

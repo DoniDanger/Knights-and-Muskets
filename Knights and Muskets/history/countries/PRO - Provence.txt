@@ -9,31 +9,45 @@ literacy = 0.18
 civilized = yes
 
 # Political reforms
-slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = wealth_voting
-public_meetings = yes_meeting
-press_rights = censored_press
-trade_unions = non_socialist
-voting_system = first_past_the_post
-political_parties = non_secret_ballots
+slavery = yes_slavery
+upper_house_composition = party_appointed #head of state, despotic
+vote_franschise = none_voting #military tenure, knight-service
+public_meetings = no_meeting #public arms, allowed
+press_rights = censored_press #law codification, civil law
+trade_unions = no_trade_unions #executive power, no council
+voting_system = first_past_the_post #feudal tenure, subinfeudation
+political_parties = underground_parties #feudal relief, unlimited
 
 # Social Reforms
-wage_reform = no_minimum_wage
-work_hours = no_work_hour_limit
-safety_regulations = no_safety
-health_care = trinket_health_care
-unemployment_subsidies = trinket_subsidies
-pensions = no_pensions
+wage_reform = no_minimum_wage #very influential church
+work_hours = no_work_hour_limit #irrelevant gentry
+safety_regulations = no_safety #very influential nobility
+unemployment_subsidies = trinket_subsidies #marginally relevant burghers
+pensions = no_pensions # feudal levies
+health_care = trinket_health_care #low centralization
 school_reforms = no_schools
+
+#New Reforms
+debt_law = serfdom
+penal_system = capital_punishment #castle charters, noble castellans
+citizens_rights = primary_culture_only
+religious_minorities = no_rights
+promotion_laws = privlage_benefits
+church_and_state = state_religion
+
+set_country_flag = catholic_country
+set_country_flag = hre_member
 
 ruling_party = "Royalist"
 upper_house = {
-	fascist = 1
-	liberal = 49
-	conservative = 39
-	reactionary = 12
+	fascist = 0
+	liberal = 4
+	conservative = 36
+	fervent_clergy = 14
+	clergy = 20
+	reactionary = 26
 	anarcho_liberal = 0
+	gentry = 0
 	socialist = 0
 	communist = 0
 }

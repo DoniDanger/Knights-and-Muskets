@@ -37,6 +37,9 @@ upper_house = {
 	communist = 0
 }
 
+set_country_flag = existing_country
+set_country_flag = hre_member
+
 # Technologies
 motte_and_bailey = 1
 medieval_infantry = 1

@@ -49,6 +49,7 @@ conquest
 conquest_any
 civil_war 
 acquire_core_state 
+acquire_core_substate
 annex_core_country
 acquire_state
 acquire_substate_region
@@ -84,6 +85,7 @@ negotiated_transfer
 3_way_transfer
 seperate_truce
 polish_unification_cb
+imperial_liberation
 }
 
 gunboat = {
@@ -538,7 +540,7 @@ acquire_substate_region = {
 	
 	allowed_substate_regions = {
 		is_colonial = no
-		owner = { NOT = { in_sphere = THIS } }
+		#owner = { NOT = { in_sphere = THIS } }
 		any_owned_province = {
 			not = {	is_core = THIS }
 			is_colonial = no
@@ -558,6 +560,61 @@ acquire_substate_region = {
 	}
 }
 
+# Gain control of Core Substate
+acquire_core_substate = {
+	sprite_index = 6
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 0.5
+	always = yes
+	
+	badboy_factor = 0
+	prestige_factor = 2
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		num_of_substates = 1 # if has any substate
+		any_substate = {
+			number_of_states = 1
+			any_owned_province = {
+				is_core = THIS 
+				is_colonial = no
+			}
+		}
+	}
+	
+	allowed_substate_regions = {
+		is_colonial = no
+		#owner = { NOT = { in_sphere = THIS } }
+		any_owned_province = {
+			is_core = THIS 
+			is_colonial = no
+		}
+	}
+
+	po_demand_state = yes
+	
+	war_name = WAR_TAKE_CORE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
 
 # Gain control of State
 acquire_state = {
@@ -2482,4 +2539,111 @@ polish_unification_cb = {
 
    po_make_puppet = yes
    po_add_to_sphere = yes
+}
+
+# Imperial Liberation
+imperial_liberation = {
+	sprite_index = 9
+	is_triggered_only = yes
+	months = 12
+	
+	badboy_factor = 0
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+	crisis = no
+	always = yes
+	
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		any_owned_province = { is_core = NNN }
+		is_vassal = no
+		
+		NOT = {
+			tag = VEN
+			tag = OCC
+			tag = PAP
+		}
+		
+		NOT = { number_of_states = 1 }
+		NOT = { has_country_flag = hre_member }
+		NOT = { has_country_flag = hre_emperor }
+		NOT = { has_country_flag = hre_territory_allowed }
+		
+		THIS = {
+			has_country_flag = hre_emperor
+		}
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+		number_of_states = 2
+		NOT = {
+			tag = FROM
+			this_culture_union = FROM	
+		}
+		from = {
+			OR = {
+				AND = {
+					has_country_flag = hre_member
+					exists = yes
+				}
+				NOT = {
+						OR = {
+							tag = NNN
+							tag = GER
+							tag = ITA
+							tag = FRA
+							tag = ARP
+							tag = NGF
+							tag = LOM
+						}
+					}
+				}
+			}
+		
+		any_owned_province = {
+			is_core = FROM
+			is_core = NNN
+			NOT =
+			{
+				is_core = THIS
+			}
+		}
+		is_releasable_vassal = FROM
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal's state
+	allowed_states = {
+		any_owned_province = {
+			is_core = FROM
+			is_core = NNN
+		}
+	}
+
+	po_transfer_provinces = yes
+
+	war_name = WAR_FREE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
 }
