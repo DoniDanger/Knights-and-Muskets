@@ -2562,92 +2562,6 @@
 }
 #Hesse Region (1719600) 
 #under the rule of Frankfurt 1836  
-#Frankfurt-am-Main (64000/16000 POPS)
-564 = {
-	aristocrats = {
-		culture = central_franconian
-		religion = catholic
-		size = 200
-	}
-
-	bureaucrats = {
-		culture = central_franconian
-		religion = catholic
-		size = 50 
-	}
-
-	officers = {
-		culture = central_franconian
-		religion = catholic
-		size = 10 
-	}
-
-	clergymen = {
-		culture = central_franconian
-		religion = catholic
-		size = 75 
-	}
-
-	artisans = {
-		culture = central_franconian
-		religion = catholic
-		size = 11000
-	}
-	
-	artisans = {
-		culture = central_franconian
-		religion = catholic
-		size = 1250
-	}
-
-	soldiers = {
-		culture = central_franconian
-		religion = catholic
-		size = 1100 
-	}
-
-	farmers = {
-		culture = central_franconian
-		religion = catholic
-		size = 4625
-	}
-
-	clergymen = {
-		culture = central_franconian
-		religion = catholic
-		size = 40       
-	}
-
-	artisans = {
-		culture = central_franconian
-		religion = catholic
-		size = 3800       
-	}
-
-	soldiers = {
-		culture = central_franconian
-		religion = catholic
-		size = 20       
-	}
-
-	farmers = {
-		culture = central_franconian
-		religion = catholic
-		size = 3140       
-	}
-
-	clergymen = {
-		culture = ashkenazi
-		religion = jewish
-		size = 10     
-	}
-
-	artisans = {
-		culture = ashkenazi
-		religion = jewish
-		size = 1990    
-	}
-}
 #under the rule of Nassau 1836  
 #Wiesbaden (402400/100600 POPS)
 565 = {
@@ -3249,6 +3163,80 @@
 		size = 21930 
 	}
 }
+#Wittlich (220000/55000 POPS)
+2281 = {
+	aristocrats = {
+		culture = central_franconian
+		religion = catholic
+		size = 300 
+	}
+
+	bureaucrats = {
+		culture = central_franconian
+		religion = catholic
+		size = 850
+	}
+
+	officers = {
+		culture = central_franconian
+		religion = catholic
+		size = 200 
+	}
+
+	clergymen = {
+		culture = central_franconian
+		religion = catholic
+		size = 250 
+	}
+
+	artisans = {
+		culture = central_franconian
+		religion = catholic
+		size = 1350
+	}
+
+	soldiers = {
+		culture = central_franconian
+		religion = catholic
+		size = 1275 
+	}
+
+	farmers = {
+		culture = central_franconian
+		religion = catholic
+		size = 20210
+	}
+
+	aristocrats = {
+		culture = central_franconian
+		religion = catholic
+		size = 250 
+	}
+
+	clergymen = {
+		culture = central_franconian
+		religion = catholic
+		size = 275
+	}
+
+	artisans = {
+		culture = central_franconian
+		religion = catholic
+		size = 1400
+	}
+
+	soldiers = {
+		culture = central_franconian
+		religion = catholic
+		size = 275 
+	}
+
+	farmers = {
+		culture = central_franconian
+		religion = catholic
+		size = 11930 
+	}
+}
 #Saarbrucken (308000/77000 POPS)
 573 = {
 	aristocrats = {
@@ -3502,19 +3490,19 @@
 	artisans = {
 		culture = central_franconian
 		religion = catholic
-		size = 4500
+		size = 9500
 	}
 
 	soldiers = {
 		culture = central_franconian
 		religion = catholic
-		size = 2000
+		size = 3000
 	}
 
 	farmers = {
 		culture = central_franconian
 		religion = catholic
-		size = 67850
+		size = 47850
 	}
 
 	clergymen = {
@@ -3529,7 +3517,50 @@
 		size = 990 
 	}
 }
+#Prum (400000/100000 POPS)
+2279 = {
+	aristocrats = {
+		culture = central_franconian
+		religion = catholic
+		size = 1100 
+	}
 
+	clergymen = {
+		culture = central_franconian
+		religion = catholic
+		size = 850
+	}
+
+	artisans = {
+		culture = central_franconian
+		religion = catholic
+		size = 7500
+	}
+
+	soldiers = {
+		culture = central_franconian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = central_franconian
+		religion = catholic
+		size = 32850
+	}
+
+	clergymen = {
+		culture = wallonian
+		religion = catholic
+		size = 10 
+	}
+
+	farmers = {
+		culture = wallonian
+		religion = catholic
+		size = 990 
+	}
+}
 #Bonn 
 183 = {
 	aristocrats = {
@@ -5225,7 +5256,7 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 65630
+		size = 45630
 	}
 
 	clergymen = {
@@ -5262,6 +5293,92 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 1225     
+	}
+}
+#Andechs (64000/16000 POPS)
+564 = {
+	aristocrats = {
+		culture = tyrolean
+		religion = catholic
+		size = 600
+	}
+
+	bureaucrats = {
+		culture = tyrolean
+		religion = catholic
+		size = 250 
+	}
+
+	officers = {
+		culture = tyrolean
+		religion = catholic
+		size = 60 
+	}
+
+	clergymen = {
+		culture = tyrolean
+		religion = catholic
+		size = 475 
+	}
+
+	artisans = {
+		culture = tyrolean
+		religion = catholic
+		size = 6000
+	}
+	
+	artisans = {
+		culture = tyrolean
+		religion = catholic
+		size = 4250
+	}
+
+	soldiers = {
+		culture = tyrolean
+		religion = catholic
+		size = 2100 
+	}
+
+	farmers = {
+		culture = tyrolean
+		religion = catholic
+		size = 16625
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 240       
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 3800       
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 420       
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 5140       
+	}
+
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 40     
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1290    
 	}
 }
 #Landshut (164000/41000 POPS)
@@ -5346,7 +5463,56 @@
 		size = 5350 
 	}
 }
+#Sulzbach (208000/52000 POPS)
+245 = {
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 110 
+	}
+	
+	bureaucrats = {
+		culture = south_german
+		religion = catholic
+		size = 35
+	}
 
+	officers = {
+		culture = south_german
+		religion = catholic
+		size = 27
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 200 
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 5200
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 900
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 22000 
+	}
+	
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 7350 
+	}
+}
 #Ingolstadt (164000/41000 POPS)
 601 = {
 	aristocrats = {

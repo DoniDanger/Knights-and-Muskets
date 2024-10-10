@@ -1,11 +1,11 @@
 capital = 455
 primary_culture = occitan
-culture = french
+culture = provencal
 religion = catholic
 government = absolute_monarchy
 plurality = 0.1
 nationalvalue = nv_equality
-literacy = 0.48
+literacy = 0.38
 civilized = yes
 
 # Political reforms
@@ -68,4 +68,8 @@ mechanical_production = 1
 mechanized_mining = 1
 basic_chemistry = 1
 experimental_railroad = 1
-
+grain_banks = 1
+hammered_coinage = 1
+manorialism = 1
+trade_fairs = 1
+medical_universities = 1

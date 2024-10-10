@@ -1,7 +1,5 @@
-trade_goods = sulphur
+owner = AXN
+controller = AXN
+add_core = AXN
+trade_goods = salt
 life_rating = 35
-1860.1.1 = {
-	
-	
-	remove_core = SPU
-}

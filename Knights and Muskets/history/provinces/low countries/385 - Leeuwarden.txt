@@ -1,11 +1,12 @@
 owner = FRI
 controller = FRI
 add_core = FRI
+add_core = NNN
 add_core = GER
 trade_goods = cattle
 life_rating = 35
-#state_building = {
-#	level = 1
-#	building = glass_factory
-#	upgrade = yes
-#}
+state_building = {
+	level = 1
+	building = glass_factory
+	upgrade = yes
+}

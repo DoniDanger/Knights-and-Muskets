@@ -1,9 +1,7 @@
-owner = LIG
-controller = LIG
-add_core = LIG
+owner = LBG
+controller = LBG
+add_core = LBG
 add_core = GER
-add_core = WLL
-trade_goods = coal
+add_core = NNN
+trade_goods = timber
 life_rating = 35
-1861.1.1 = { railroad = 3 }
-1861.1.1 = { remove_core = NET }

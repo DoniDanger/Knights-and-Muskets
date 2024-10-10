@@ -3,5 +3,5 @@ controller = LOR
 add_core = LOR
 add_core = NNN
 add_core = GER
-trade_goods = cotton
+trade_goods = salt
 life_rating = 35

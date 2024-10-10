@@ -1,10 +1,11 @@
 owner = MAG
 controller = MAG
 add_core = MAG
+add_core = NNN
 add_core = GER
 trade_goods = cattle
-life_rating = 40
-1861.1.1 = {
+life_rating = 35
+
 	state_building = {
 		level = 1
 		building = lumber_mill
@@ -25,5 +26,5 @@ life_rating = 40
 		building = liquor_distillery
 		upgrade = yes
 	}
-}
+
 1861.1.1 = { railroad = 3 }

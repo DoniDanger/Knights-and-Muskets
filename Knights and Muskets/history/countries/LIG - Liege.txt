@@ -1,6 +1,6 @@
 capital = 395
 primary_culture = wallonian
-culture = dutch
+culture = flemish
 religion = catholic
 government = theocracy
 plurality = 0.05
@@ -86,3 +86,4 @@ manorialism = 1
 trade_fairs = 1
 medical_universities = 1
 
+oob = "LIG_oob.txt"

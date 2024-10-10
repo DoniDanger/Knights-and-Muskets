@@ -85,7 +85,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 5
-			LTN = { inherit = MCD inherit = PHI inherit = RHO }
+			LTN = { inherit = MCD inherit = PHI inherit = RDP }
 			create_vassal = LTN
 			add_accepted_culture = latin
 			inherit = MEA

@@ -40,19 +40,19 @@
 	soldiers = {
 		culture = picard
 		religion = catholic
-		size = 7000
+		size = 3500
 	}
 
 	labourers = {
 		culture = picard
 		religion = catholic
-		size = 72000
+		size = 32000
 	}
 	
 	labourers = {
 		culture = flemish
 		religion = catholic
-		size = 29750
+		size = 24750
 	}
 }
 #Dunkirk (396000/99000 POPS)
@@ -78,13 +78,13 @@
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 6000
+		size = 3800
 	}
 
 	farmers = {
 		culture = picard
 		religion = catholic
-		size = 27850
+		size = 17850
 	}
 
 	artisans = {
@@ -102,7 +102,7 @@
 	farmers = {
 		culture = flemish
 		religion = catholic
-		size = 38750
+		size = 28750
 	}
 }
 #Calais (4000/1000 POPS)
@@ -3275,6 +3275,82 @@
 		size = 9430
 	}
 }
+#Charolais (536000/134000 POPS)
+2304 = {
+	aristocrats = {
+		culture = burgundian
+		religion = catholic
+		size = 1050
+	}
+
+	clergymen = {
+		culture = burgundian
+		religion = catholic
+		size = 750
+	}
+
+	artisans = {
+		culture = burgundian
+		religion = catholic
+		size = 5200
+	}
+
+	soldiers = {
+		culture = burgundian
+		religion = catholic
+		size = 2200
+	}
+
+	farmers = {
+		culture = burgundian
+		religion = catholic
+		size = 28180
+	}
+	
+	farmers = {
+		culture = arpitan
+		religion = catholic
+		size = 3430
+	}
+}
+#Chalons (536000/134000 POPS)
+2302 = {
+	aristocrats = {
+		culture = burgundian
+		religion = catholic
+		size = 1150
+	}
+
+	clergymen = {
+		culture = burgundian
+		religion = catholic
+		size = 850
+	}
+
+	artisans = {
+		culture = burgundian
+		religion = catholic
+		size = 6200
+	}
+
+	soldiers = {
+		culture = burgundian
+		religion = catholic
+		size = 2200
+	}
+
+	farmers = {
+		culture = burgundian
+		religion = catholic
+		size = 32180
+	}
+	
+	farmers = {
+		culture = arpitan
+		religion = catholic
+		size = 6430
+	}
+}
 #Franche Comte Region (914000)
 #Besancon (600000/150000 POPS)
 432 = {
@@ -3330,6 +3406,62 @@
 		culture = arpitan
 		religion = catholic
 		size = 32320
+	}
+}
+#Auxonne (340000/85000 POPS)
+2299 = {
+	aristocrats = {
+		culture = burgundian
+		religion = catholic
+		size = 1100
+	}
+
+	officers = {
+		culture = burgundian
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = burgundian
+		religion = catholic
+		size = 300
+	}
+
+	artisans = {
+		culture = burgundian
+		religion = catholic
+		size = 1675
+	}
+
+	soldiers = {
+		culture = burgundian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = burgundian
+		religion = catholic
+		size = 33575
+	}
+
+	clergymen = {
+		culture = arpitan
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = arpitan
+		religion = catholic
+		size = 500
+	}
+
+	farmers = {
+		culture = arpitan
+		religion = catholic
+		size = 9450
 	}
 }
 #Vesoul (340000/85000 POPS)

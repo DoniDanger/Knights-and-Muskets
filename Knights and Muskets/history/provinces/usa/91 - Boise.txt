@@ -2,5 +2,7 @@ owner = FLA
 controller = FLA
 add_core = FLA
 add_core = BRB
+add_core = NNN
+add_core = GER
 trade_goods = wool
 life_rating = 35

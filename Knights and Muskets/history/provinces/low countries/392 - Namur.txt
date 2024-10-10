@@ -1,10 +1,7 @@
-owner = FLA
-controller = FLA
-add_core = FLA
-add_core = HNT
+owner = NMR
+controller = NMR
+add_core = NMR
+add_core = GER
 add_core = NNN
-add_core = WLL
 trade_goods = iron
 life_rating = 35
-1861.1.1 = { railroad = 3 }
-1861.1.1 = { remove_core = NET }

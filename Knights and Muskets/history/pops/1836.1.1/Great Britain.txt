@@ -101,6 +101,44 @@
 		size = 22550
 	}
 }
+#Caithness (328000/82000 POPS)
+223 = {
+	aristocrats = {
+		culture = highlander
+		religion = catholic
+		size = 300
+	}
+
+	bureaucrats = {
+		culture = highlander
+		religion = catholic
+		size = 80
+	}
+	
+	clergymen = {
+		culture = highlander
+		religion = catholic
+		size = 250
+	}
+
+	soldiers = {
+		culture = highlander
+		religion = catholic
+		size = 550
+	}
+
+	artisans = {
+		culture = highlander
+		religion = catholic
+		size = 1500
+	}
+
+	farmers = {
+		culture = highlander
+		religion = catholic
+		size = 17550
+	}
+}
 #Orkney and Shetland (328000/82000 POPS)
 1991 = {
 	aristocrats = {

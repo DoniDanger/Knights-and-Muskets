@@ -1,6 +1,8 @@
 owner = UTR
 controller = UTR
 add_core = UTR
+add_core = DRN
+add_core = NNN
 add_core = GER
 trade_goods = wool
 life_rating = 35

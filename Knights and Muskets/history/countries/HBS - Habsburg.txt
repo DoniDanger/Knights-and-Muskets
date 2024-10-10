@@ -1,6 +1,6 @@
 capital = 606
 primary_culture = alemannic
-culture = arpitan
+culture = swiss
 religion = catholic
 government = feudal_monarchy
 plurality = 0.25

@@ -1,7 +1,7 @@
-owner = FLA
-controller = FLA
-add_core = FLA
-add_core = HNT
+owner = CBR
+controller = CBR
+add_core = CBR
+add_core = GER
 add_core = NNN
 trade_goods = timber
 life_rating = 35

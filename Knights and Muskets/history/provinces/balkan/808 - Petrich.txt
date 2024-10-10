@@ -1,6 +1,6 @@
-owner = RHO
-controller = RHO
-add_core = RHO
+owner = RDP
+controller = RDP
+add_core = RDP
 add_core = LTN
 add_core = BUL
 add_core = BYZ

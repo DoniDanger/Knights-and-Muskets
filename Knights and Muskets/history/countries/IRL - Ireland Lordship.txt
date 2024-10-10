@@ -1,6 +1,6 @@
 capital = 263
-primary_culture = english
-culture = irish
+primary_culture = hiberno_norman
+culture = english
 religion = catholic
 government = feudal_monarchy
 plurality = 0.1

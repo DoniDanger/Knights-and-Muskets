@@ -1,7 +1,5 @@
+owner = FLA
+controller = FLA
+add_core = FLA
 trade_goods = fish
 life_rating = 35
-1860.1.1 = {
-	
-	
-	remove_core = SPU
-}
