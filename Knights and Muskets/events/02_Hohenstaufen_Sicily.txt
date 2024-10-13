@@ -398,6 +398,11 @@ country_event = {
 		release_vassal = BAV
 		leave_alliance = BAV
 		diplomatic_influence = { who = BAV value = -200 }
+		casus_belli = {
+				target = BAV
+				type = make_puppet
+				months = 12
+		}
 		war = {
             target = BAV
             attacker_goal = { casus_belli = make_puppet }

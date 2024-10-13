@@ -2,6 +2,6 @@ owner = WMG
 controller = WMG
 add_core = CHG
 add_core = WMG
-add_core = MGE
+add_core = PER
 trade_goods = grain
 life_rating = 35

@@ -1,0 +1,8 @@
+owner = WMG
+controller = WMG
+add_core = ILK
+add_core = WMG
+add_core = SST
+add_core = AFG
+trade_goods = cotton
+life_rating = 35

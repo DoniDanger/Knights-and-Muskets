@@ -1,0 +1,57 @@
+political_decisions = {
+	invite_mingburnu_persia = {
+		potential = {
+			primary_culture = persian
+			NOT = { PER = { exists = yes }}
+			NOT = { has_global_flag = jalal_returns_persia }
+		}
+		
+		allow = {
+			prestige = 10
+			war = no
+			year = 1224
+		}
+		
+		effect = {
+			change_tag = PER
+			government = empire
+			any_country = {
+				limit = {
+					OR = {
+						tag = KMN
+						tag = MAK
+						tag = AJM
+						tag = MUL
+						tag = FRS
+						tag = SST
+						tag = YZD
+						tag = RAY
+					}
+					NOT = { tag = THIS }
+					exists = yes
+					war = no
+				}
+            country_event = { id = 140001 }
+			}
+			set_global_flag = jalal_returns_persia
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	kerman_submit_mongol_empire = {
+		potential = {
+			tag = KMN
+			ai = yes
+		}
+		
+		allow = {
+			war = no
+			year = 1228
+		}
+		
+		effect = {
+			WMG = { inherit = KMN }
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

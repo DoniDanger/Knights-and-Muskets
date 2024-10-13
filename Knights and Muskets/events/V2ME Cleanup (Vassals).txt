@@ -58,7 +58,7 @@ country_event = {
 			limit = {
 				exists = yes
 				vassal_of = THIS
-				#NOT = { substate_of = THIS }
+				NOT = { substate_of = THIS }
 			}
 			clr_country_flag = interacted_with
 		}
@@ -70,7 +70,7 @@ country_event = {
 			limit = {
 				is_core = FROM
 				NOT = { is_core = THIS }
-				#NOT = { substate_of = THIS }
+				NOT = { substate_of = THIS }
 			}
 			secede_province = FROM
 		}
@@ -88,7 +88,7 @@ country_event = {
 		random_country = {
 			limit = {
 				vassal_of = THIS
-				#NOT = { substate_of = THIS }
+				NOT = { substate_of = THIS }
 				exists = yes
 				NOT = { has_country_flag = interacted_with }
 			}
@@ -98,7 +98,7 @@ country_event = {
 		any_country = {
 			limit = {
 				vassal_of = THIS
-				#NOT = { substate_of = THIS }
+				NOT = { substate_of = THIS }
 				exists = yes
 				THIS = { NOT = { has_country_flag = possible_interactions } }
 			}
@@ -112,7 +112,7 @@ country_event = {
 			limit = {
 				exists = yes
 				vassal_of = THIS
-				#NOT = { substate_of = THIS }
+				NOT = { substate_of = THIS }
 			}
 			clr_country_flag = interacted_with
 		}

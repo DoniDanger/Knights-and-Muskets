@@ -1,0 +1,44 @@
+cannon = {
+	icon = 24
+	
+	type = land
+	sprite = Artillery
+	active = no
+	unit_type = special
+	#Core Abilities
+	priority = 15
+	max_strength = 3
+	default_organisation = 30
+	maximum_speed = 3.00
+	weighted_value = 3.0
+	floating_flag = no
+
+
+	#Building Costs
+	build_time = 120
+	build_cost = {
+		bombards = 20
+		explosives = 10
+		canned_food = 10
+		siege_engines = 5
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		bombards = 0.2 #0.01
+		canned_food = 0.06 # 0.02
+		explosives = 0.06 # 0.02
+		siege_engines = 0.012
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 0
+	attack = 6
+	defence = 4
+	discipline = 1.0
+	support = 1
+	maneuver = 1
+	siege = 2
+
+}

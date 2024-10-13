@@ -17,6 +17,119 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	appoint_chormaqan_persia = {
+		potential = {
+			tag = WMG
+			NOT = { has_country_flag = appointed_chormaqan_persia }
+		}
+		
+		allow = {
+			year = 1230
+			month = 11
+			OR = {
+				has_country_flag = noyan_persian_expedition
+				owns = 1108
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			war_exhaustion = -10
+			set_country_flag = appointed_chormaqan_persia
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	submission_of_kermanids = {
+		potential = {
+			tag = WMG
+			NOT = { has_country_flag = mgl_kermanids_submission }
+		}
+		
+		allow = {
+			has_country_flag = appointed_chormaqan_persia
+			KMN = { all_core = { controlled_by = THIS }}
+		}
+		
+		effect = {
+			KMN = { all_core = { add_core = THIS add_core = ILK }}
+			set_country_flag = mgl_kermanids_submission
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	submission_of_rayy = {
+		potential = {
+			tag = WMG
+			NOT = { has_country_flag = mgl_rayy_submission }
+		}
+		
+		allow = {
+			has_country_flag = appointed_chormaqan_persia
+			RAY = { all_core = { controlled_by = THIS }}
+		}
+		
+		effect = {
+			RAY = { all_core = { add_core = THIS add_core = ILK }}
+			set_country_flag = mgl_rayy_submission
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	submission_of_makran = {
+		potential = {
+			tag = WMG
+			NOT = { has_country_flag = mgl_makran_submission }
+		}
+		
+		allow = {
+			has_country_flag = appointed_chormaqan_persia
+			MAK = { all_core = { controlled_by = THIS }}
+		}
+		
+		effect = {
+			MAK = { all_core = { add_core = THIS add_core = ILK }}
+			set_country_flag = mgl_makran_submission
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	submission_of_qazvin = {
+		potential = {
+			tag = WMG
+			NOT = { has_country_flag = mgl_qazvin_submission }
+		}
+		
+		allow = {
+			has_country_flag = appointed_chormaqan_persia
+			AJM = { all_core = { controlled_by = THIS }}
+		}
+		
+		effect = {
+			AJM = { all_core = { add_core = THIS add_core = ILK }}
+			set_country_flag = mgl_qazvin_submission
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	submission_of_mazandaran = {
+		potential = {
+			tag = WMG
+			NOT = { has_country_flag = mgl_qazvin_submission }
+		}
+		
+		allow = {
+			has_country_flag = appointed_chormaqan_persia
+			MZN = { all_core = { controlled_by = THIS }}
+		}
+		
+		effect = {
+			MZN = { all_core = { add_core = THIS add_core = ILK }}
+			set_country_flag = mgl_mazandaran_submission
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
 	abolish_liao_titles = {
 		potential = {
 			tag = MGL

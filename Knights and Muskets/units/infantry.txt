@@ -1,4 +1,4 @@
-infantry = {
+infantry = { #militia
 	icon = 1
 	
 	type = land

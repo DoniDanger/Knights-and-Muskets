@@ -1,5 +1,5 @@
 leather_tanneries = {
-	limit = { piston_steam_engine = 1 }
+	limit = { manorialism = 1 }
 	chance = {
 		base = 15
 	}
@@ -8,7 +8,7 @@ leather_tanneries = {
 	}
 }
 wool_fabric_weaveries = {
-	limit = { piston_steam_engine = 1 }
+	limit = { manorialism = 1 }
 	chance = {
 		base = 15
 	}
@@ -17,7 +17,7 @@ wool_fabric_weaveries = {
 	}
 }
 barding_smiths = {
-	limit = { piston_steam_engine = 1 }
+	limit = { open_cast_mining = 1 }
 	chance = {
 		base = 15
 	}
@@ -25,4 +25,12 @@ barding_smiths = {
 		activate_building = barding_weaponsmith 
 	}
 }
-
+tar_kilns = {
+	limit = { open_cast_mining = 1 }
+	chance = {
+		base = 15
+	}
+	effect = {
+		activate_building = tar_workshop 
+	}
+}

@@ -5,6 +5,10 @@ gas_attack;Steppe Warfare;;;;;;;;;;;;;
 gas;Steppe Warfare;Steppe Warfare;Steppe Warfare;;Steppe Warfare;;;;;;;;x;;;
 COMBAT_GAS;Mobile Steppe armies employing hit-and-run tactics and feigned retreats while the opponent lacks the experience to defend against them may be devastating.;;;;;;;;;;;x
 tank;Crossbowmen;;;;;;;;;;;;;
+infantry;Militia;;;;;;;;;;;;;
+regular;Infantry;;;;;;;;;;;;;
+handgunner;Handgunner;;;;;;;;;;;;;
+cannon;Bombard;;;;;;;;;;;;;
 bowmen;Archers;;;;;;;;;;;;;
 engineer;Mangonel;;;;;;;;;;;;;
 plane;Men-at-Arms;;;;;;;;;;;;;
@@ -30,4 +34,6 @@ tar;Tar;;;;;;;;;;;;;
 salt;Salt;;;;;;;;;;;;;
 chinaware;Chinaware;;;;;;;;;;;;;
 luxury_furniture;Rugs;;;;;;;;;;;;;
-commerce_tech;Agriculture;;;;;;;;;;;;;
+sulphur;Saltpeter;;;;;;;;;;;;;
+commerce_tech;Commerce;;;;;;;;;;;;;
+industry_tech;Agriculture;;;;;;;;;;;;;

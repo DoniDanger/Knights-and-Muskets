@@ -54,6 +54,7 @@ guild_based_production = 1
 basic_chemistry = 1
 
 # Inventions
+handcannon = yes
 
 # Starting Consciousness
 consciousness = 0

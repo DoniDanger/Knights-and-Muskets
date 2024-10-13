@@ -190,6 +190,11 @@ country_event = {
 		release_vassal = HLY
 		leave_alliance = HLY
 		diplomatic_influence = { who = HLY value = -200 }
+		casus_belli = {
+				target = HLY
+				type = make_puppet
+				months = 12
+		}
 		war = {
             target = HLY
             attacker_goal = { casus_belli = make_puppet }

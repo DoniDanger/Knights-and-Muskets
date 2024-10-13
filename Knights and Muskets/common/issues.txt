@@ -806,6 +806,10 @@ social_reforms = {
 			land_organisation = -0.05
             org_regain = -0.05
             mobilisation_size = 0.025
+			allow = {
+				NOT = { has_country_flag = steppe_government }
+               	NOT = { has_country_flag = feudal_army_reform }
+            }
         }
         trinket_pensions = { #nomadic_levies
             land_organisation = -0.05
@@ -813,6 +817,7 @@ social_reforms = {
             mobilisation_size = 0.02
 			allow = {
                	has_country_flag = steppe_government
+				NOT = { has_country_flag = feudal_army_reform }
             }
         }
         low_pensions = { #noble_retinues
@@ -823,6 +828,7 @@ social_reforms = {
             mobilisation_size = 0.02
 			allow = {
                	has_country_flag = mob_noble_retinues
+				has_country_flag = feudal_army_reform
             }
         }
         acceptable_pensions = { #free_companies
@@ -833,6 +839,7 @@ social_reforms = {
             mobilisation_size = 0.025
 			allow = {
                	has_country_flag = mob_free_companies
+				has_country_flag = feudal_army_reform
             }
         }
         good_pensions = { #standing_armies
@@ -843,6 +850,7 @@ social_reforms = {
             mobilisation_size = 0.03
 			allow = {
                	has_country_flag = mob_standing_armies
+				has_country_flag = feudal_army_reform
             }
         }
     }

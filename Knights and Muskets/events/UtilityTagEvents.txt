@@ -251,7 +251,10 @@ country_event = {
 			#cleanup vassals with nonexistant overlords
 			any_country = {
 				limit = {
-					is_vassal = yes
+					OR = {
+						is_vassal = yes
+						is_substate = yes
+					}
 					exists = yes
 					overlord = { exists = no }
 				}

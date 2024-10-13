@@ -168,6 +168,7 @@ bombard_foundry = {
 	input_goods = {
 		machine_parts = 1.11	#38.69
 		tin = 8	#32
+		#explosives = 8
 		iron = 8  		#7
 		lumber = 4 		#3.3	total input+maint = 90
 	}
@@ -487,8 +488,9 @@ paper_mill = {
 regular_clothes_factory = {       
 	template = factory_template
 	input_goods = {  
-		leather = 6
-		fabric = 40		#18	total input+maint = 72
+		leather = 3
+		wool = 3
+		fabric = 30		#18	total input+maint = 72
 	}
 	output_goods = regular_clothes 
 	value = 15			#87
@@ -501,7 +503,7 @@ regular_clothes_factory = {
 leather_tannery = {       
 	template = rural_workshop_template
 	input_goods = {  
-		cattle = 20		#72	total input+maint = 72
+		cattle = 10		#72	total input+maint = 72
 	}
 	output_goods = leather 
 	value = 12			#87
@@ -708,8 +710,9 @@ cement_factory = {
 
 glass_factory = {       
 	template = factory_template
-	input_goods = {            
-		coal = 14		#32.2		total input+maint = 42
+	input_goods = {   
+		timber = 10
+		coal = 2		#32.2		total input+maint = 42
 	}
 	output_goods = glass 
 	value = 18			#52.2
@@ -722,12 +725,12 @@ glass_factory = {
 fertilizer_factory = {       
 	template = factory_template
 	input_goods = {   
-		sulphur = 6		#36		total input+maint = 46
+		cattle = 6		#36		total input+maint = 46
 	}
 	output_goods = fertilizer 
 	value = 5			#50
 	bonus = {
-		trigger = { trade_goods_in_state = sulphur }
+		trigger = { trade_goods_in_state = cattle }
 		value = 0.25
 	}
 }
@@ -822,7 +825,7 @@ dye_plantation = {
 fishing_wharf = {
 	template = RGO_template_farmers
 	output_goods = fish 
-	value = 1.6
+	value = 1.2
 	farm = yes
 }
 
@@ -1014,6 +1017,7 @@ artisan_bombards = {
 	input_goods = {
 		machine_parts = 1.11	#38.69
 		tin = 8	#32
+		#explosives = 8
 		iron = 12  		#7
 		lumber = 4 		#3.3	total input+maint = 90
 	}
@@ -1343,8 +1347,9 @@ artisan_paper = {
 
 artisan_regular_clothes = {       
 	input_goods = {  
-		leather = 6
-		fabric = 40		#72	total input+maint = 72
+		leather = 3
+		wool = 3
+		fabric = 30		#72	total input+maint = 72
 	}
 	output_goods = regular_clothes 
 	value = 15			#87
@@ -1380,7 +1385,7 @@ artisan_explosives = {
 
 artisan_leather = {       
 	input_goods = {  
-		cattle = 20		#72	total input+maint = 72
+		cattle = 14		#72	total input+maint = 72
 	}
 	output_goods = leather 
 	value = 12			#87
@@ -1418,10 +1423,10 @@ artisan_infantry_arms = {
 
 artisan_canned_food = {       
 	input_goods = { 
-		salt = 6 		#7
-		cattle = 8 		#24
-		grain = 8 		#26.4
-		fish = 8 		#18	total input+maint = 85
+		salt = 4 		#7
+		cattle = 6 		#24
+		grain = 6 		#26.4
+		fish = 6 		#18	total input+maint = 85
 	}
 	output_goods = canned_food 
 	value = 8			#96
@@ -1529,8 +1534,9 @@ artisan_cement = {
 }
 
 artisan_glass = {       
-	input_goods = {            
-		coal = 14		#32.2		total input+maint = 42
+	input_goods = {         
+		timber = 10
+		coal = 2		#32.2		total input+maint = 42
 	}
 	output_goods = glass 
 	value = 18			#52.2
@@ -1547,7 +1553,7 @@ artisan_glass = {
 
 artisan_fertilizer = {       
 	input_goods = {   
-		sulphur = 6		#36		total input+maint = 46
+		cattle = 6		#36		total input+maint = 46
 	}
 	output_goods = fertilizer 
 	value = 5			#50

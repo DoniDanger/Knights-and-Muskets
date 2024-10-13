@@ -2,6 +2,5 @@ owner = SIN
 controller = SIN
 add_core = SIN
 add_core = MAK
-add_core = PER
 trade_goods = tea
 life_rating = 35

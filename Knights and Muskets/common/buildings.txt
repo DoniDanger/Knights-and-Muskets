@@ -56,49 +56,6 @@ siege_engine_workshop = {
 	advanced_factory = yes
 }
 
-automobile_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost =
-	{
-		machine_parts = 100
-		tar = 200
-		steel = 400
-		cement = 400
-	}
-	time = 365
-	visibility = yes
-	onmap = no
-
-	production_type = automobile_factory
-	pop_build_factory = yes
-	advanced_factory = yes
-}
-
-telephone_factory = {
-	type = factory
-
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost =
-	{
-		machine_parts = 100
-		tar = 200
-		steel = 200
-		cement = 100
-	}
-	time = 182
-	visibility = yes
-	onmap = no
-
-	production_type = telephone_factory
-	pop_build_factory = yes
-	advanced_factory = yes
-}
-
 ############# STRATEGIC FACTORIES
 
 tar_workshop = {

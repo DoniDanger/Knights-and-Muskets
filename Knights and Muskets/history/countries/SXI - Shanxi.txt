@@ -54,3 +54,6 @@ private_banks = 1
 no_standard = 1
 guild_based_production = 1
 basic_chemistry = 1
+
+#inventions
+handcannon = yes

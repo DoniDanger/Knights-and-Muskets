@@ -27,20 +27,20 @@ folders = {
 		psychology
 	}
 	
-	commerce_tech = { #Agriculture
+	commerce_tech = { 
 		financial_institutions
         monetary_system
-		tech_power
+		economic_thought_and_critique
 		market_functionality
-		chemistry_and_electricity
+		tech_organization
 	}
 	
-	industry_tech = {
-		economic_thought_and_critique
+	industry_tech = { #Agriculture
+		tech_power
 		metallurgy
 		mechanization
-        tech_organization
 		tech_infrastructure
+		chemistry_and_electricity
 	}
 	
 	

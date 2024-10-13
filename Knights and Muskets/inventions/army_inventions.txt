@@ -160,7 +160,13 @@ bombard_activation = {
 		base = 5
 		}
 	effect = {
+		activate_unit = cannon
 		engineer = {
+		attack = 2
+		defence = 1
+		siege = 1
+		}
+		cannon = {
 		attack = 4
 		defence = 3
 		siege = 2
@@ -177,6 +183,10 @@ bombard_carriage = {
 		maneuver = 1
 		maximum_speed = 1
 		}
+		cannon = {
+		maneuver = 1
+		maximum_speed = 3
+		}
 	}
 }
 #late_castle
@@ -190,6 +200,11 @@ culverin = {
 		attack = 1
 		defence = 1
 		}
+		cannon = {
+		attack = 3
+		defence = 3
+		support = 0.5
+		}
 	}
 }
 corned_gunpowder = {
@@ -201,6 +216,9 @@ corned_gunpowder = {
 		engineer = {
 		siege = 1
 		}
+		cannon = {
+		siege = 3
+		}
 	}
 }
 #artillery_castle
@@ -210,8 +228,11 @@ sappers = {
 		base = 5
 		}
 	effect = {
-		infantry = {
+		regular = {
 			siege = 4
+		}
+		infantry = {
+			siege = 2
 		}
 		irregular = {
 			siege = 1
@@ -225,8 +246,14 @@ ribauldequin = {
 		}
 	effect = {
 		engineer = {
+		attack = 1
+		defence = 1
+		supply_consumption = 0.1
+		}
+		cannon = {
 		attack = 2
 		defence = 2
+		support = 0.5
 		supply_consumption = 0.2
 		}
 	}
@@ -241,6 +268,10 @@ flaming_projectile = {
 		siege = 1
 		supply_consumption = 0.1
 		}
+		cannon = {
+		siege = 2
+		supply_consumption = 0.2
+		}
 	}
 }
 #gunpowder_siege
@@ -251,9 +282,16 @@ large_calibre_cannon = {
 		}
 	effect = {
 		engineer = {
+			attack = 2
+			defence = 2
+			siege = 1
+			supply_consumption = 0.15
+		}
+		cannon = {
 			attack = 4
 			defence = 4
 			siege = 2
+			support = 0.5
 			supply_consumption = 0.25
 		}
 	}
@@ -265,6 +303,11 @@ royal_engineer = {
 		}
 	effect = {
 		engineer = {
+			maneuver = 1
+			maximum_speed = 1
+			supply_consumption = 0.1
+		}
+		cannon = {
 			maneuver = 1
 			maximum_speed = 1
 			supply_consumption = 0.1
@@ -286,25 +329,25 @@ early_medieval_infantry = {
 		}
 	}
 }
-infantry_activation = {
+regular_infantry = {
 	limit = { medieval_infantry = 1 }
 	chance = {
-		base = 5
+		base = 20
 	}
 	effect = {
-	activate_unit = infantry
+	activate_unit = regular
 	}
 }
 archer_activation = {
 	limit = { medieval_infantry = 1 }
 	chance = {
-		base = 5
+		base = 20
 	}
 	effect = {
 	activate_unit = artillery
 	}
 }
-#specialised_infantry
+## specialised_infantry
 pikeman_activation = {
 	limit = { specialised_infantry = 1 }
 	chance = {
@@ -356,6 +399,9 @@ longsword = {
 		infantry = {
 			attack = 1
 		}
+		regular = {
+			attack = 1
+		}
 		irregular = {
 			attack = 0.5
 		}
@@ -373,6 +419,9 @@ flanged_mace = {
 		}
 	effect = {
 		infantry = {
+			attack = 1
+		}
+		regular = {
 			attack = 1
 		}
 		guard = {
@@ -394,6 +443,9 @@ fechtbuch = {
 		}
 	effect = {
 		infantry = {
+			defence = 2
+		}
+		regular = {
 			defence = 2
 		}
 		guard = {
@@ -454,6 +506,9 @@ brigandine = {
 		infantry = {
 			defence = 1
 		}
+		regular = {
+			defence = 1
+		}
 		guard = {
 			attack = 1
 			defence = 3
@@ -481,6 +536,19 @@ genoa_tactic = {
 		}
 	}
 }
+fire_lances = {
+	limit = {longbow = 1}
+	chance = {
+		base = 10
+		}
+	effect = {
+		handgunner = {
+			attack = 2
+			defence = 1
+			support = 0.25
+		}
+	}
+}
 
 #banded_mail
 banded_mail_hauberk = {
@@ -490,6 +558,9 @@ banded_mail_hauberk = {
 		}
 	effect = {
 		infantry = {
+			defence = 2
+		}
+		regular = {
 			defence = 2
 		}
 		guard = {
@@ -513,6 +584,9 @@ banded_mail_coif = {
 		infantry = {
 			defence = 1
 		}
+		regular = {
+			defence = 1
+		}
 		guard = {
 			defence = 1
 		}
@@ -528,6 +602,10 @@ falchion = {
 			attack = 1
 		}
 		infantry = {
+			attack = 1
+			defence = 1
+		}
+		regular = {
 			attack = 1
 			defence = 1
 		}
@@ -571,6 +649,10 @@ walpurgis_manuscript = {
 			attack = 2
 			defence = 1
 		}
+		regular = {
+			attack = 2
+			defence = 1
+		}
 		plane = {
 			attack = 3
 			defence = 1
@@ -600,6 +682,10 @@ goedendag = {
 			defence = 2
 		}
 		infantry = {
+			attack = 1
+			defence = 1
+		}
+		regular = {
 			attack = 1
 			defence = 1
 		}
@@ -671,6 +757,9 @@ bascinet = {
 		infantry = {
 			defence = 2
 		}
+		regular = {
+			defence = 2
+		}
 		guard = {
 			defence = 2
 		}
@@ -711,6 +800,15 @@ masterwork_crossbow = {
 handcannon = {
 	limit = {gunpowder_infantry = 1}
 	chance = {
+		base = 10
+		}
+	effect = {
+		activate_unit = handgunner
+	}
+}
+handcannon_adoption = {
+	limit = {gunpowder_infantry = 1}
+	chance = {
 		base = 5
 		}
 	effect = {
@@ -718,6 +816,11 @@ handcannon = {
 			attack = 0.75
 			defence = 2
 			support = 0.5
+		}
+		handgunner = {
+			attack = 3
+			defence = 2
+			support = 0.25
 		}
 	}
 }
@@ -732,6 +835,10 @@ bill = {
 			defence = 2
 		}
 		infantry = {
+			attack = 2
+			defence = 2
+		}
+		regular = {
 			attack = 2
 			defence = 2
 		}
@@ -757,6 +864,11 @@ baton_a_feu = {
 			defence = 3
 			support = 0.5
 		}
+		handgunner = {
+			attack = 2
+			defence = 4
+			support = 0.5
+		}
 	}
 }
 bardiche = {
@@ -766,6 +878,10 @@ bardiche = {
 		}
 	effect = {
 		infantry = {
+			attack = 2
+			defence = 4
+		}
+		regular = {
 			attack = 2
 			defence = 4
 		}
@@ -799,6 +915,10 @@ le_jeu_de_la_hache = {
 			attack = 1
 			defence = 1
 		}
+		regular = {
+			attack = 1
+			defence = 1
+		}
 		guard = {
 			attack = 2
 			defence = 4
@@ -816,6 +936,10 @@ flos_duellatorum = {
 		}
 	effect = {
 		infantry = {
+			attack = 2
+			defence = 2
+		}
+		regular = {
 			attack = 2
 			defence = 2
 		}
@@ -858,6 +982,11 @@ late_medieval_firearm = {
 		tank = {
 			attack = 1.5
 			defence = 3
+			support = 0.5
+		}
+		handgunner = {
+			attack = 3
+			defence = 4
 			support = 0.5
 		}
 	}
@@ -1295,6 +1424,28 @@ noble_leadership = {
 }
 
 #guild_militia
+urban_militia = {
+	limit = { 
+		guild_militia = 1 
+		OR = {
+			NOT = { pensions = no_pensions } 
+			NOT = { pensions = trinket_pensions } 
+		}
+	}
+	chance = {
+		base = 50
+		modifier = {
+			factor = -100
+			OR = {
+				pensions = no_pensions
+				pensions = trinket_pensions
+			}
+		}
+	}
+	effect = {
+	activate_unit = infantry
+	}
+}
 guild_equipment = {
 	limit = { guild_militia = 1 }
 	chance = {
@@ -1430,6 +1581,9 @@ company_excercise = {
 		infantry = {
 			max_speed = 1
 			}
+		regular = {
+			max_speed = 1
+			}
 		guard = {
 			max_speed = 1
 			}
@@ -1482,6 +1636,10 @@ semi_professional_army = {
 			attack = 2
 			defence = 2
 			}
+		regular = {
+			attack = 2
+			defence = 2
+			}
 		guard = {
 			attack = 1
 			defence = 1
@@ -1527,6 +1685,9 @@ motivated_merc = {
 		infantry = {
 			max_speed = 1
 			}
+		regular = {
+			max_speed = 1
+			}
 		guard = {
 			max_speed = 1
 			}
@@ -1555,6 +1716,9 @@ schiltron_formation = {
 		infantry = {
 			defence = 2
 			}
+		regular = {
+			defence = 2
+			}
 		guard = {
 			defence = 2
 			}
@@ -1571,6 +1735,10 @@ cavalry_supression = {
 			defence = 2
 			}
 		infantry = {
+			attack = 1
+			defence = 2
+			}
+		regular = {
 			attack = 1
 			defence = 2
 			}
@@ -1614,6 +1782,11 @@ battlefield_manoeuvre = {
 			defence = 2
 			maximum_speed = 1
 			}
+		regular = {
+			attack = 2
+			defence = 2
+			maximum_speed = 1
+			}
 		guard = {
 			attack = 2
 			defence = 5
@@ -1639,6 +1812,9 @@ deep_defense_line = {
 			defence = 5
 			}
 		infantry = {
+			defence = 2
+			}
+		regular = {
 			defence = 2
 			}
 		guard = {

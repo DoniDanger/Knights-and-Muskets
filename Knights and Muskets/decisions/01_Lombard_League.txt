@@ -160,6 +160,7 @@ political_decisions = {
                 limit = {
                     is_culture_group = italian 
                     exists = yes
+					war = no
 					NOT = { tag = THIS tag = PAP }                   
                     has_country_flag = guelph_supporter                        
                 }

@@ -1,0 +1,684 @@
+###MONGOL EMPIRE###
+country_event = {
+	id = 140000
+	title = "Return of Jalal al-Din Mangburni"
+	desc = "140000_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 10 }
+
+	trigger = {
+		PER = { exists = no }
+		tag = RAY
+		year = 1224
+		month = 8
+	}
+
+	option = {
+	    name = "Jalal al-Din will save our empire from the Mongol scourge."
+		change_tag = PER
+		government = empire
+		any_country = {
+            limit = {
+				OR = {
+					tag = KMN
+					tag = MAK
+					tag = AJM
+					tag = MUL
+					tag = FRS
+					tag = SST
+					tag = YZD
+				}
+				NOT = { tag = THIS }
+                exists = yes
+				war = no
+            }
+            country_event = { id = 140001 }
+        }
+		set_global_flag = jalal_returns_persia
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 140001
+	title = "Khwarazmshah Demands Submission"
+	desc = "140001_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "We must rally to the aid of the Shah."
+		THIS = { all_core = { add_core = PER }}
+		FROM = {
+                inherit = THIS
+        }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "We will not surrender power to a lost cause."
+		relation = { who = PER value = -50 }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 140002
+	title = "Khwarazmshah Demands Submission"
+	desc = "140002_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "We must rally to the aid of the Shah."
+		FROM = {
+                create_vassal = THIS
+        }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "We will not surrender power to a lost cause."
+		relation = { who = PER value = -50 }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 140003
+	title = "Dethroning of Uzbek Muzaffar al-Din"
+	desc = "140003_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 10 }
+
+	trigger = {
+		tag = PER
+		year = 1225
+		month = 6
+	}
+
+	option = {
+	    name = "We must advance onwards to Georgia."
+		AZB = { all_core = { add_core = THIS }}
+		any_country = {
+            limit = {
+				tag = AZB
+                exists = yes
+				war = no
+            }
+            country_event = { id = 140004 }
+        }
+		ai_chance = { factor = 85 }
+	}
+}
+
+country_event = {
+	id = 140004
+	title = "Khwarazmshah Dethrones Uzbek Muzaffar"
+	desc = "140004_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "We are in no state to resist this."
+		FROM = {
+                inherit = THIS
+        }
+		PER = { capital = 1108 }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "We must rally to the aid of our Atabeg."
+		relation = { who = PER value = -50 }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 140005
+	title = "Letter to the Georgian Queen"
+	desc = "140005_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = PER
+		owns = 1108
+		year = 1225
+		NOT = { truce_with = GEO }
+	}
+
+	option = {
+	    name = "She will surrender if she values her kingdom."
+		GEO = { country_event = { id = 140006 } }
+		any_country = {
+            limit = {
+				tag = SRV
+				NOT = { tag = THIS }
+                exists = yes
+				war = no
+            }
+            country_event = { id = 140001 days = 3 }
+        }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+	    name = "We must focus on the coming Mongol threat."
+		prestige = -10
+		war_exhaustion = -10
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 140006
+	title = "Letter from the Khwarazmshah"
+	desc = "140006_DESC"
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+	    name = "And we should listen to a dog who lost his Empire to the Mongols?"
+		relation = { who = PER value = -100 }
+		PER = { country_event = { id = 140007 } }
+		ai_chance = {
+			factor = 100
+        }
+    }
+	
+	option = {
+	    name = "We have little to defend against the Khwarazmian threat."
+		capital = 1092
+		ARM = { country_event = { id = 140008 } }
+		1104 = { secede_province = PER }
+		1105 = { secede_province = PER }
+		11 = { secede_province = PER }
+		48 = { secede_province = PER }
+		1090 = { secede_province = PER }
+		31 = { secede_province = PER }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 140007
+	title = "The Georgian Queen Refuses!"
+	desc = "140007_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "We will cut down the Georgians by the thousands."
+		leave_alliance = GEO
+		casus_belli = {
+			target = GEO
+			type = cut_down_to_size
+			months = 12
+		}
+		war = {
+            target = GEO
+            attacker_goal = { casus_belli = cut_down_to_size }
+			call_ally = yes
+        }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "Enough of this nonsense."
+		relation = { who = GEO value = -50 }
+		prestige = -10
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 140008
+	title = "Defeat of the Georgians"
+	desc = "140008_DESC"
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+	    name = "And so we are betrayed."
+		30 = { secede_province = PER }
+		32 = { secede_province = PER }
+		1101 = { secede_province = PER }
+		1100 = { secede_province = PER }
+		1106 = { secede_province = PER }
+		relation = { who = PER value = -100 }
+		relation = { who = GEO value = -60 }
+		ai_chance = {
+			factor = 100
+        }
+    }
+}
+
+country_event = {
+	id = 140009
+	title = "Tbilisi has Fallen"
+	desc = "140009_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = GEO
+		is_disarmed = yes 
+		truce_with = PER
+	}
+	
+	option = {
+	    name = "We must rebuild in Western Georgia."
+		capital = 1092
+		ARM = { country_event = { id = 140008 } }
+		1104 = { secede_province = PER }
+		1105 = { secede_province = PER }
+		11 = { secede_province = PER }
+		48 = { secede_province = PER }
+		1090 = { secede_province = PER }
+		31 = { secede_province = PER }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 140010
+	title = "Conflict with Caliph Nasser"
+	desc = "140010_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = PER
+		year = 1224
+		NOT = { truce_with = ABB }
+	}
+
+	option = {
+	    name = "The Caliph abandoned us, so we will destroy him."
+		leave_alliance = ABB
+		casus_belli = {
+			target = ABB
+			type = cut_down_to_size
+			months = 12
+		}
+		war = {
+            target = ABB
+            attacker_goal = { casus_belli = cut_down_to_size }
+			call_ally = yes
+        }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+	    name = "We must focus on the coming Mongol threat."
+		prestige = -5
+		war_exhaustion = -5
+		ai_chance = { factor = 0 }
+	}
+}
+		
+country_event = {
+	id = 140011
+	title = "Fall of Western Persia"
+	desc = "140011_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = ABB
+		is_disarmed = yes 
+		truce_with = PER
+	}
+	
+	option = {
+	    name = "We have lost our dominions in Western Persia."
+		16 = { secede_province = PER }
+		2629 = { secede_province = PER }
+		19 = { secede_province = PER }
+		1131 = { secede_province = PER }
+		1132 = { secede_province = PER }
+		1133 = { secede_province = PER }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 140012
+	title = "Rebellion of Burak Hadjib"
+	desc = "140012_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = PER
+		year = 1226
+	}
+	
+	option = {
+	    name = "We have lost our dominions in Western Persia."
+		any_owned = {
+			limit = {
+				is_core = KMN
+			}
+			secede_province = KMN
+		}
+		release_vassal = KMN
+		leave_alliance = KMN
+		diplomatic_influence = { who = KMN value = -200 }
+		war = {
+            target = KMN
+            attacker_goal = { casus_belli = annex_core_country }
+			call_ally = yes
+        }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 140013
+	title = "Rebellion of Ghiyath al-Din Pirshah"
+	desc = "140013_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = PER
+		year = 1228
+	}
+	
+	option = {
+	    name = "We have lost our dominions in Western Persia."
+		any_pop = {
+			limit = {
+				culture = persian
+			}
+			militancy = 2
+		}
+		random_owned = {
+			limit = {
+				controlled_by = THIS
+				is_core = FRS
+				NOT = { country_units_in_province = THIS }
+			}
+			change_controller = REB
+		}
+		random_owned = {
+			limit = {
+				controlled_by = THIS
+				is_core = FRS
+				NOT = { country_units_in_province = THIS }
+			}
+			change_controller = REB
+		}
+		random_owned = {
+			limit = {
+				controlled_by = THIS
+				is_core = FRS
+				NOT = { country_units_in_province = THIS }
+			}
+			change_controller = REB
+		}
+		random_owned = {
+			limit = {
+				controlled_by = THIS
+				is_core = FRS
+				NOT = { country_units_in_province = THIS }
+			}
+			change_controller = REB
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 140014
+	title = "Siege of Ahlat"
+	desc = "140014_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = PER
+		owns = 1108
+		year = 1230
+		NOT = { truce_with = AHL }
+		OR = {
+			AHL = { exists = yes }
+			NOT = { 891 = { owned_by = THIS }}
+		}
+	}
+
+	option = {
+	    name = "Ahlat will be our launching point into Anatolia."
+		EGY = { release_vassal = AHL }
+		war = {
+            target = AHL
+            attacker_goal = { casus_belli = conquest_any }
+			call_ally = yes
+        }
+		EGY = { country_event = { id = 140015  days = 20 } }
+		set_global_flag = jalal_invades_anatolia
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+	    name = "We must focus on the coming Mongol threat."
+		prestige = -10
+		war_exhaustion = -10
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 140015
+	title = "Fall of Ahlat"
+	desc = "140015_DESC"
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+	    name = "We must ally with the Seljuks of Rum to contain this threat."
+		RUM = { country_event = { id = 140016 } }
+		ai_chance = {
+			factor = 100
+        }
+    }
+	
+	option = {
+	    name = "We have more pressing concerns than Anatolia."
+		prestige = -10
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 140016
+	title = "The Advance of Jalal al-Din into Anatolia!"
+	desc = "140016_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "Our alliance will crush the Khwarazmian upstarts."
+		relation = { who = EGY value = 100 }
+		create_alliance = EGY
+		leave_alliance = PER
+		EGY = {
+			casus_belli = {
+				target = PER
+				type = cut_down_to_size
+				months = 12
+			}
+			war = {
+				target = PER
+				attacker_goal = { casus_belli = cut_down_to_size }
+				call_ally = yes
+			}
+		}
+		set_country_flag = rum_defend_ahlat
+		ai_chance = { factor = 60 }
+	}
+	
+	option = {
+	    name = "We'll crush the Khwarazmians on our own."
+		relation = { who = EGY value = -30 }
+		leave_alliance = PER
+		casus_belli = {
+			target = PER
+			type = cut_down_to_size
+			months = 12
+		}
+		war = {
+			target = PER
+			attacker_goal = { casus_belli = cut_down_to_size }
+			call_ally = yes
+		}
+		EGY = { country_event = { id = 140017 } }
+		set_country_flag = rum_defend_ahlat
+		ai_chance = { factor = 30 }
+	}
+	
+	option = {
+	    name = "As if we'd ally with this Ayyubid rabble."
+		relation = { who = EGY value = -50 }
+		prestige = -10
+		EGY = { country_event = { id = 140017 } }
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 140017
+	title = "Seljuks Reject our Alliance"
+	desc = "140017_DESC"
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+	    name = "We must defend Anatolia in our own initiative, then."
+		casus_belli = {
+			target = PER
+			type = cut_down_to_size
+			months = 12
+		}
+		war = {
+			target = PER
+			attacker_goal = { casus_belli = cut_down_to_size }
+			call_ally = yes
+		}
+		ai_chance = {
+			factor = 100
+        }
+    }
+	
+	option = {
+	    name = "Then we'll abandon the Seljuks to the Khwarazmians."
+		prestige = -10
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 140018
+	title = "Battle of Yassicemen"
+	desc = "140018_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	major = yes
+	
+	trigger = {
+		tag = PER
+		is_disarmed = yes 
+		RUM = { has_country_flag = rum_defend_ahlat }
+		AND = {
+			truce_with = EGY
+			OR = {
+				truce_with = RUM
+				war_with = RUM
+			}
+		}
+		
+	}
+	
+	option = {
+	    name = "Our armies have been ravaged. We must abandon Anatolia."
+		any_owned = {
+			limit = {
+				is_core = AHL
+			}
+			secede_province = RUM
+		}
+		set_global_flag = jalal_defeated_anatolia
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 140019
+	title = "Battle of Yassicemen"
+	desc = "140019_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	major = yes
+	
+	trigger = {
+		tag = PER
+		is_disarmed = yes 
+		truce_with = EGY
+		NOT = { RUM = { has_country_flag = rum_defend_ahlat }}
+		NOT = { truce_with = RUM war_with = RUM }
+	}
+	
+	option = {
+	    name = "Our armies have been ravaged. We must abandon Anatolia."
+		any_owned = {
+			limit = {
+				is_core = AHL
+			}
+			secede_province = EGY
+		}
+		set_global_flag = jalal_defeated_anatolia
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 140020
+	title = "Death of Jalal ad-Din"
+	desc = "140020_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+	major = yes
+	
+	trigger = {
+		owns = 891
+		OR = {
+			has_global_flag = jalal_defeated_anatolia
+			year = 1231
+		}
+	}
+	
+	option = {
+	    name = "The lion of Khwarazmia, killed by a beggar."
+		ai_chance = { factor = 100 }
+	}
+}

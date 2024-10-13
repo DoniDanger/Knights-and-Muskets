@@ -6,6 +6,34 @@ spanish;Castillian;x
 swiss;High Alemannic;x 
 north_italian;Lombard;x 
 south_italian;Neapolitan;x
+LOT;Lotharingia;x
+LOT_ADJ;Lotharingian;x 
+AXN;Auxonne;x
+AXN_ADJ;Auxonne;x
+CBR;Cambrai;x
+CBR_ADJ;Cambrai;x
+TNI;Tournai;x
+TNI_ADJ;Tournai;x
+LBG;Limburg;x
+LBG_ADJ;Limburgian;x
+DRN;Drenthe;x
+DRN_ADJ;Drenthe;x
+STD;Stedingen;x
+STD_ADJ;Stedingener;x
+LAO;Laon;x
+LAO_ADJ;Laon;x
+RTH;Rethel;x
+RTH_ADJ;Rethel;x
+GUI;Guise;x
+GUI_ADJ;Guise;x
+VVR;Vivarais;x
+VVR_ADJ;Viviers;x
+NMR;Namur;x
+NMR_ADJ;Namur;x 
+REI;Reims;x
+REI_ADJ;Reims;x 
+LNG;Langres;x
+LNG_ADJ;Langres;x
 PMB;Pembroke;x
 PMB_ADJ;Pembroke;x 
 GLY;Galway;x
@@ -48,8 +76,8 @@ DMC;Emirate of Damascus;x
 DMC_ADJ;Damascus;x
 JAZ;Emirate of Jazira;x
 JAZ_ADJ;Jaziran;x
-ARQ;Aqtuqids;x
-ARQ_ADJ;Aqtuqid;x
+ARQ;Artuqids;x
+ARQ_ADJ;Artuqid;x
 ERZ;Erzurum;x
 ERZ_ADJ;Erzurumi;x
 AHL;Armen-Shahs;x
@@ -261,8 +289,8 @@ BSK;Bashkiria;x
 BSK_ADJ;Bashkirian;x
 NOG;Noghai Horde;x                                 
 NOG_ADJ;Noghai;x
-RHO;Alexius Slav;x                                 
-RHO_ADJ;Rhodopian;x
+RDP;Alexius Slav;x                                 
+RDP_ADJ;Rhodopes;x
 PHI;Duchy of Philippopolis;x                                 
 PHI_ADJ;Philippopolisian;x
 KMY;Kumyk;x                                 
@@ -906,8 +934,10 @@ NAP;Kingdom of Naples;x
 NAP_ADJ;Neapolitan;x
 PER;Persia;x
 PER_ADJ;Persian;x
-PER_absolute_monarchy;The Khwarazmian Empire;x
-PER_absolute_monarchy_ADJ;Khwarazmian;x
+PER_feudal_monarchy;The Khwarazmian Empire;x
+PER_feudal_monarchy_ADJ;Khwarazmian;x
+PER_empire;The Khwarazmian Empire;x
+PER_empire_ADJ;Khwarazmian;x
 SYR;Sultanate of Syria;x
 SYR_ADJ;Syrian;x
 MSL;Emirate of Mosul;x
