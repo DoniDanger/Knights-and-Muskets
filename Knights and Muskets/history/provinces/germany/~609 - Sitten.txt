@@ -1,7 +1,0 @@
-owner = SVY
-controller = SVY
-add_core = SVY
-add_core = ARP
-add_core = NNN
-trade_goods = coal
-life_rating = 35

@@ -1,6 +1,0 @@
-owner = WMG
-controller = WMG
-add_core = KAZ
-add_core = WMG
-trade_goods = horses
-life_rating = 35

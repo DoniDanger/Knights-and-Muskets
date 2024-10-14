@@ -1,7 +1,0 @@
-owner = CRC
-controller = CRC
-add_core = OCC
-add_core = CRC
-trade_goods = cattle
-life_rating = 35
-naval_base = 1

@@ -1,7 +1,0 @@
-owner = WMC
-controller = WMC
-add_core = WMC
-add_core = WHA
-trade_goods = wool
-life_rating = 35
-

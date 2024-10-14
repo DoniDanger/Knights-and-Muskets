@@ -4,6 +4,10 @@
 REB 	= 	"countries/rebels.txt"
 UTI	=       "countries/Utility Tag.txt"
 
+OPL 		="countries/Opole.txt" 
+RBZ 		="countries/Raciborz.txt"
+GRD 		="countries/Grodno.txt" 
+
 AXN 		="countries/Auxonne.txt" 
 CBR 		="countries/Cambrai.txt"
 TNI 		="countries/Tournai.txt" 

@@ -1,6 +1,0 @@
-owner = WMG
-controller = WMG
-add_core = ILK
-add_core = WMG
-trade_goods = tropical_wood
-life_rating = 35

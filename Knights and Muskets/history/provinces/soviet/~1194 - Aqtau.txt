@@ -1,7 +1,0 @@
-owner = WMG
-controller = WMG
-add_core = KAZ
-add_core = MGE
-add_core = WMG
-trade_goods = opium
-life_rating = 25

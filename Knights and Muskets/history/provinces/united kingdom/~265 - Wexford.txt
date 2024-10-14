@@ -1,6 +1,0 @@
-owner = IRL
-controller = IRL
-add_core = IRL
-add_core = IRE
-trade_goods = fish
-life_rating = 35

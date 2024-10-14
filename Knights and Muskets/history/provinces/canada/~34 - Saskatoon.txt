@@ -1,5 +1,0 @@
-owner = SRV
-controller = SRV
-add_core = SRV
-trade_goods = grain
-life_rating = 35

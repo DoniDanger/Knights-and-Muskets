@@ -1,7 +1,0 @@
-owner = WMG
-controller = WMG
-add_core = CHG
-add_core = WMG
-trade_goods = tobacco
-life_rating = 35
-

@@ -1,7 +1,0 @@
-owner = MFT
-controller = MFT
-add_core = MFT
-add_core = NNN
-add_core = ITA
-trade_goods = cotton
-life_rating = 35

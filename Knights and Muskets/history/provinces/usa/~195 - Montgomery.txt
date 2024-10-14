@@ -1,7 +1,0 @@
-owner = BNN
-controller = BNN
-add_core = BNN
-add_core = ARP
-add_core = NNN
-trade_goods = cotton
-life_rating = 35

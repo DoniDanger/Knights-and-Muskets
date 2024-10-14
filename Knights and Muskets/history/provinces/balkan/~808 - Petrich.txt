@@ -1,8 +1,0 @@
-owner = RHO
-controller = RHO
-add_core = RHO
-add_core = LTN
-add_core = BUL
-add_core = BYZ
-trade_goods = wool
-life_rating = 35
