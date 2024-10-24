@@ -1,0 +1,102 @@
+#Contents and brief summary
+
+#110000 = militia and levy system
+
+country_event = {
+	
+	id = 110000
+	title = "A Change in Warfare"	
+	desc = "You mob militia now instead of levies."	
+	is_triggered_only = yes		
+	fire_only_once = yes
+
+	option = {
+		name = "An army centered around the nobility."
+		set_country_flag = feudal_army_reform
+		set_country_flag = mob_noble_retinues
+		clr_country_flag = mob_standing_armies
+		clr_country_flag = mob_free_companies
+		social_reform = low_pensions
+		add_country_modifier = {
+			name = national_confusion
+			duration = 3650
+		}
+		ai_chance = { factor = 33 } 
+	}	
+	
+	option = {
+		name = "An army centered around mercenaries."
+		set_country_flag = feudal_army_reform
+		clr_country_flag = mob_noble_retinues
+		clr_country_flag = mob_standing_armies
+		set_country_flag = mob_free_companies
+		social_reform = acceptable_pensions
+		add_country_modifier = {
+			name = national_confusion
+			duration = 3650
+		}
+		ai_chance = { factor = 33 } 
+	}	
+	
+	option = {
+		name = "An army centered around a standing army."
+		set_country_flag = feudal_army_reform
+		clr_country_flag = mob_noble_retinues
+		set_country_flag = mob_standing_armies
+		clr_country_flag = mob_free_companies
+		social_reform = good_pensions
+		add_country_modifier = {
+			name = national_confusion
+			duration = 3650
+		}
+		ai_chance = { factor = 33 } 
+	}	
+}
+
+country_event = {
+	
+	id = 110000
+	title = "New Army Doctrine"	
+	desc = "Reform your levy system."	
+	is_triggered_only = yes		
+	allow_multiple_instances = yes	
+
+	option = {
+		name = "An army centered around the nobility."
+		set_country_flag = mob_noble_retinues
+		clr_country_flag = mob_standing_armies
+		clr_country_flag = mob_free_companies
+		social_reform = low_pensions
+		add_country_modifier = {
+			name = national_confusion
+			duration = 3650
+		}
+		ai_chance = { factor = 33 } 
+	}	
+	
+	option = {
+		name = "An army centered around mercenaries."
+		clr_country_flag = mob_noble_retinues
+		clr_country_flag = mob_standing_armies
+		set_country_flag = mob_free_companies
+		social_reform = acceptable_pensions
+		add_country_modifier = {
+			name = national_confusion
+			duration = 3650
+		}
+		ai_chance = { factor = 33 } 
+	}	
+	
+	option = {
+		name = "An army centered around a standing army."
+		clr_country_flag = mob_noble_retinues
+		set_country_flag = mob_standing_armies
+		clr_country_flag = mob_free_companies
+		social_reform = good_pensions
+		add_country_modifier = {
+			name = national_confusion
+			duration = 3650
+		}
+		ai_chance = { factor = 33 } 
+	}	
+}
