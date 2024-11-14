@@ -39,18 +39,18 @@ political_decisions = {
             exists = yes
             promotion_laws = privlage_benefits
             NOT = { has_country_flag = nepotism_allowed }
-            NOT =  { wage_reform = no_minimum_wage }
-            NOT =  { safety_regulations = no_safety }
-            NOT =  { safety_regulations = trinket_safety }
         }
         allow = {
             war = no
+			NOT =  { wage_reform = no_minimum_wage }
+            NOT =  { safety_regulations = no_safety }
+            NOT =  { safety_regulations = trinket_safety }
             OR = {
-                NOT = {
-                    government = absolute_monarchy
-                    government = prussian_constitutionalism
-                    government = hms_government
-                }
+               #NOT = {
+               #    government = absolute_monarchy
+               #    government = prussian_constitutionalism
+               #    government = hms_government
+               #}
                 nationalism_n_imperialism = 1
             }
         }
@@ -73,6 +73,9 @@ political_decisions = {
             exists = yes
             promotion_laws = nepotism
             NOT = { has_country_flag = skill_and_merit_allowed }
+        }
+        allow = {
+            war = no
             NOT =  { wage_reform = no_minimum_wage }
             NOT =  { safety_regulations = no_safety }
             NOT =  { safety_regulations = trinket_safety }
@@ -80,15 +83,12 @@ political_decisions = {
                 health_care = acceptable_health_care
                 health_care = good_health_care
             }
-        }
-        allow = {
-            war = no
             OR = {
-                NOT = {
-                    government = absolute_monarchy
-                    government = prussian_constitutionalism
-                    government = hms_government
-                }
+                #NOT = {
+               #    government = absolute_monarchy
+               #    government = prussian_constitutionalism
+               #    government = hms_government
+               #}
                 revolution_n_counterrevolution = 1
             }
         }

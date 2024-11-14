@@ -62,36 +62,6 @@ political_decisions = {
 					reduce_pop = 0.5
 				}
 			}
-			SXI = {
-				any_pop = {
-					limit = {
-						NOT = { has_pop_culture = mongol }
-					}
-					reduce_pop = 0.45
-				}
-			}
-			XBI = {
-				any_pop = {
-					limit = {
-						NOT = { has_pop_culture = mongol }
-					}
-					reduce_pop = 0.48
-				}
-			}
-			MGL = {
-				any_pop = {
-					limit = {
-						NOT = { has_pop_culture = mongol }
-					}
-					reduce_pop = 0.55
-				}
-				any_pop = {
-					limit = {
-						type = soldiers 
-					}	
-					reduce_pop = 1.8
-				}
-			}
 		}
 	}
 	india_pop_nerf = {

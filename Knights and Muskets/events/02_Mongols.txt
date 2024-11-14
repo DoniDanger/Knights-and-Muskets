@@ -60,7 +60,7 @@ country_event = {
 	    name = "Our warriors are weary, we have no choice but to submit."
 		prestige = -5
 		FROM = { money = 5000 }
-		MGL = {
+		FROM = {
 			diplomatic_influence = {
 				who = THIS
 				value = 200
@@ -145,6 +145,7 @@ country_event = {
 		tag = WMG
 		year = 1228
 		month = 8
+		PER = { exists = yes }
 	}
 
 	option = {
@@ -156,7 +157,7 @@ country_event = {
         }
 		war = {
             target = PER
-            attacker_goal = { casus_belli = conquest_any   }
+            attacker_goal = { casus_belli = conquest_any }
 			call_ally = yes
         }
 		set_country_flag = noyan_persian_expedition
@@ -170,5 +171,565 @@ country_event = {
 		ai_chance = {
 			factor = 0
         }
+	}
+}
+
+country_event = {
+	id = 130006
+	title = "Death of Genghis Khan!"
+	desc = "130006_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 15 }
+	major = yes
+	
+	trigger = {
+		tag = MGL
+		year = 1227
+		month = 8
+	}
+
+	option = {
+	    name = "May his sons trample the world."
+		set_global_flag = death_of_genghis
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130007
+	title = "Kurultai of 1229"
+	desc = "130007_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 6 }
+	
+	trigger = {
+		tag = MGL
+		year = 1229
+		month = 9
+		has_global_flag = death_of_genghis
+	}
+
+	option = {
+	    name = "Ögedei Khan is the rightful successor to the Empire."
+		set_country_flag = ogedei_mgl_ruler
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+	    name = "Tolui will lead the empire to glory."
+		set_country_flag = tolui_mgl_ruler
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 130008
+	title = "Death of Tolui Khan"
+	desc = "130008_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 4 }
+	
+	trigger = {
+		tag = MGL
+		year = 1232
+		has_country_flag = tolui_mgl_ruler
+	}
+
+	option = {
+	    name = "Ögedei will take control."
+		clr_country_flag = tolui_mgl_ruler
+		set_country_flag = ogedei_mgl_ruler
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130009
+	title = "Death of Ögedei Khan!"
+	desc = "130009_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 6 }
+	major = yes
+	
+	trigger = {
+		tag = MGL
+		year = 1241
+		month = 12
+	}
+
+	option = {
+	    name = "We hvae lost another great Khan."
+		set_global_flag = death_of_ogedei
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130009
+	title = "Death of Ögedei Khan!"
+	desc = "130009_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 6 }
+	
+	trigger = {
+		tag = MGL
+		year = 1241
+		month = 12
+	}
+
+	option = {
+	    name = "We have lost another great Khan."
+		set_global_flag = death_of_ogedei
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130010
+	title = "Regency of Great Khatun Töregene"
+	desc = "130010_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 15 }
+	
+	trigger = {
+		tag = MGL
+		year = 1242
+		month = 5
+	}
+
+	option = {
+	    name = "The fate of the empire is precarious."
+		set_global_flag = death_of_ogedei
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130011
+	title = "You should be allied for now"
+	desc = "130011_DESC"
+
+	#fire_only_once = yes
+	mean_time_to_happen = { months = 1 }
+	
+	trigger = {
+		tag = MGL
+		OR = {
+			NOT = { has_global_flag = toluid_revolution }
+			NOT = { has_global_flag = toluid_civil_war }
+		}
+		NOT = { alliance_with = WMG }
+	}
+
+	option = {
+	    name = "We should be friends bro."
+		create_alliance = WMG
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130012
+	title = "Conquest of Eastern Xia"
+	desc = "130012_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 5 }
+
+	trigger = {
+		tag = MGL
+		year = 1233
+		NOT = { truce_with = EXI }
+		EXI = { exists = yes }
+	}
+
+	option = {
+	    name = "Put down the warlord Puxian Wannu."
+		release_vassal = EXI
+		leave_alliance = EXI
+		casus_belli = {
+            target = EXI
+            type = conquest_any
+            months = 60
+        }
+		war = {
+            target = EXI
+            attacker_goal = { casus_belli = conquest_any }
+			call_ally = yes
+        }
+		set_country_flag = mgl_conquest_eastern_xia
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+        name = "The Jin should occupy our total focus."
+		prestige = -5
+		war_exhaustion = -5
+		ai_chance = {
+			factor = 0
+        }
+	}
+}
+
+country_event = {
+	id = 130013
+	title = "Conquest of Western Xia"
+	desc = "130013_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 6 }
+
+	trigger = {
+		tag = MGL
+		year = 1226
+		XBI = { exists = yes }
+	}
+
+	option = {
+	    name = "The Tanguts will be punished for their insolence."
+		release_vassal = XBI
+		leave_alliance = XBI
+		casus_belli = {
+            target = XBI
+            type = conquest_any
+            months = 60
+        }
+		war = {
+            target = XBI
+            attacker_goal = { casus_belli = conquest_any }
+			call_ally = yes
+        }
+		set_country_flag = mgl_conquest_western_xia
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130014
+	title = "Arrival of Master Changchun"
+	desc = "130014_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 6 }
+
+	trigger = {
+		tag = MGL
+		year = 1222
+	}
+
+	option = {
+	    name = "A wise master indeed."
+		prestige = 10
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130015
+	title = "Conquest of the Jin Empire"
+	desc = "130015_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 6 }
+
+	trigger = {
+		tag = MGL
+		year = 1229
+		SXI = { exists = yes }
+		NOT = { truce_with = SXI }
+	}
+
+	option = {
+	    name = "The Jin will crumble under our armies."
+		release_vassal = SXI
+		leave_alliance = SXI
+		casus_belli = {
+            target = SXI
+            type = conquest_any
+            months = 60
+        }
+		war = {
+            target = SXI
+            attacker_goal = { casus_belli = conquest_any }
+			call_ally = yes
+        }
+		set_country_flag = mgl_conquest_jin
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130016
+	title = "Execution of Puxian Wannu"
+	desc = "130016_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 3 }
+
+	trigger = {
+		tag = MGL
+		has_country_flag = mgl_conquest_eastern_xia
+		EXI = { exists = no }
+		EXI = { all_core = { owned_by = THIS }}
+	}
+
+	option = {
+	    name = "The Jurchens are soon to fall in line."
+		EXI = { all_core = { add_core = THIS }}
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130017
+	title = "Fall of the Tangut Kingdom"
+	desc = "130017_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 3 }
+
+	trigger = {
+		tag = MGL
+		has_country_flag = mgl_conquest_western_xia
+		XBI = { exists = no }
+		XBI = { all_core = { owned_by = THIS }}
+	}
+
+	option = {
+	    name = "The Tanguts will have no mercy from us."
+		XBI = { all_core = { add_core = THIS }}
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130018
+	title = "Subjugation of Goryeo"
+	desc = "130018_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = MGL
+		owns = 2497
+		year = 1232
+		NOT = { truce_with = KOR }
+		KOR = { exists = yes }
+	}
+
+	option = {
+	    name = "Goryeo will fall under our heel."
+		release_vassal = KOR
+		leave_alliance = KOR
+		casus_belli = {
+            target = KOR
+            type = make_puppet
+            months = 60
+        }
+		war = {
+            target = KOR
+            attacker_goal = { casus_belli = make_puppet }
+			call_ally = yes
+        }
+		set_country_flag = mgl_subjugate_goryeo
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130019
+	title = "Subjugation of Bashkiria"
+	desc = "130019_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = WMG
+		has_global_flag = kurultai_of_1235
+		year = 1236
+		NOT = { truce_with = BSK }
+		BSK = { exists = yes }
+		BSK = { NOT = { vassal_of = THIS }}
+		NOT = { has_country_flag = mgl_subjugate_bashkiria }
+	}
+
+	option = {
+	    name = "The Bashkirians will join our conquest."
+		release_vassal = BSK
+		leave_alliance = BSK
+		casus_belli = {
+            target = BSK
+            type = make_puppet
+            months = 60
+        }
+		war = {
+            target = BSK
+            attacker_goal = { casus_belli = make_puppet }
+			call_ally = yes
+        }
+		set_country_flag = mgl_subjugate_bashkiria
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130020
+	title = "Destruction of Volga Bolgharia"
+	desc = "130020_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 14 }
+
+	trigger = {
+		tag = WMG
+		has_global_flag = kurultai_of_1235
+		year = 1236
+		month = 8
+		NOT = { truce_with = VLG }
+		VLG = { exists = yes }
+		OR = {
+			BSK = { vassal_of = THIS }
+			BSK = { exists = NO }
+		}
+		NOT = { has_country_flag = mgl_conquest_volga_bolgharia }
+	}
+
+	option = {
+	    name = "We will avenge our defeat against the Bolghars."
+		release_vassal = VLG
+		leave_alliance = VLG
+		casus_belli = {
+				target = VLG
+				type = conquest
+				months = 60
+			}
+		war = {
+			target = VLG
+			attacker_goal = { casus_belli = conquest }
+			call_ally = yes
+		}
+		set_country_flag = mgl_conquest_volga_bolgharia
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130021
+	title = "Campaign against the Cumans"
+	desc = "130020_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 14 }
+
+	trigger = {
+		tag = WMG
+		has_global_flag = kurultai_of_1235
+		year = 1237
+		CUM = { exists = yes }
+		NOT = { truce_with = CUM }
+		NOT = { has_country_flag = mgl_conquest_cumania }
+	}
+
+	option = {
+	    name = "We will crush the Cumans."
+		release_vassal = CUM
+		leave_alliance = CUM
+		casus_belli = {
+				target = CUM
+				type = conquest
+				months = 60
+			}
+		war = {
+			target = CUM
+			attacker_goal = { casus_belli = conquest }
+			call_ally = yes
+		}
+		set_country_flag = mgl_conquest_cumania
+		ai_chance = { 
+			factor = 100 
+			
+			modifier = {
+				factor = 0
+				war_with = CUM
+			}
+		}
+	}
+	
+	option = {
+	    name = "We will keep the opportunity in mind."
+		release_vassal = CUM
+		leave_alliance = CUM
+		casus_belli = {
+				target = CUM
+				type = conquest_any
+				months = 60
+			}
+		set_country_flag = mgl_conquest_cumania
+		ai_chance = { 
+			factor = 0 
+			
+			modifier = {
+				factor = 100
+				war_with = CUM
+			}
+		}
+	}
+	
+	option = {
+	    name = "We have no interest in killing Cumans. (kill yourself if you pick this)."
+		ai_chance = { 
+			factor = 0 
+		}
+	}
+}
+
+country_event = {
+	id = 130021
+	title = "Conquest of Alania"
+	desc = "130021_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 14 }
+
+	trigger = {
+		tag = WMG
+		has_global_flag = kurultai_of_1235
+		year = 1237
+		NOT = { truce_with = ALN }
+		ALN = { exists = yes }
+		NOT = { has_country_flag = mgl_conquest_alania }
+	}
+
+	option = {
+	    name = "They will be crushed just like the Cumans."
+		release_vassal = ALN
+		leave_alliance = ALN
+		casus_belli = {
+				target = ALN
+				type = conquest
+				months = 60
+			}
+		war = {
+			target = ALN
+			attacker_goal = { casus_belli = conquest }
+			call_ally = yes
+		}
+		set_country_flag = mgl_conquest_alania
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+	    name = "The Alans are a waste of our time."
+		ai_chance = { 
+			factor = 0 
+		}
 	}
 }

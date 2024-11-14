@@ -356,7 +356,7 @@ political_decisions = {
 	dominate_brittany = {
 		potential = {
 			tag = ENL
-			NOT = { has_country_flag = dominated_maine }
+			NOT = { has_country_flag = dominated_brittany }
 		}
 		
 		allow = {
@@ -373,7 +373,61 @@ political_decisions = {
 			inherit = BRT
 			add_accepted_culture = breton
 			BRT = { all_core = { add_core = THIS }}
-			set_country_flag = dominated_maine
+			set_country_flag = dominated_brittany
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	reform_angevin_empire = {
+		potential = {
+			tag = ENL
+			AVE = { exists = no }
+		}
+		
+		allow = {
+			FRA = { all_core = { owned_by = THIS }}
+			BRT = { all_core = { owned_by = THIS }}
+			MAI = { all_core = { owned_by = THIS }}
+			ANJ = { all_core = { owned_by = THIS }}
+			POI = { all_core = { owned_by = THIS }}
+			NRM = { all_core = { owned_by = THIS }}
+		}
+		
+		effect = {
+			prestige = 15
+			change_tag = AVE
+			FRA = { all_core = { add_core = AVE }}
+			BRT = { all_core = { add_core = AVE }}
+			POI = { all_core = { add_core = AVE }}
+			NRM = { all_core = { add_core = AVE }}
+			add_accepted_culture = poitevin
+			add_accepted_culture = norman
+			add_accepted_culture = breton
+			add_accepted_culture = angevin
+			set_global_flag = angevin_empire_reformed
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	kill_france_and_stuff = {
+		potential = {
+			tag = ENL
+			prestige = 999
+		}
+		
+		allow = {
+			ai = no
+		}
+		
+		effect = {
+			inherit = MAI
+			inherit = ANJ
+			inherit = OCC
+			inherit = FRA
+			inherit = BRT
+			inherit = NRM
+			inherit = POI
+			prestige = -200
 		}
 		ai_will_do = { factor = 1 }
 	}

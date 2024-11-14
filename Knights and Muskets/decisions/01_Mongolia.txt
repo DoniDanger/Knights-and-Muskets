@@ -24,11 +24,16 @@ political_decisions = {
 		}
 		
 		allow = {
-			year = 1230
-			month = 11
+			OR = {
+				AND = {
+					year = 1230
+					month = 11
+				}
+				year = 1231
+			}
 			OR = {
 				has_country_flag = noyan_persian_expedition
-				owns = 1108
+				controls = 1121
 			}
 		}
 		
@@ -40,92 +45,118 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	submission_of_kermanids = {
+	submission_of_persia = {
 		potential = {
 			tag = WMG
-			NOT = { has_country_flag = mgl_kermanids_submission }
+			OR = {
+				KMN = { exists = yes }
+				RAY = { exists = yes }
+				MAK = { exists = yes }
+				AJM = { exists = yes }
+				MZN = { exists = yes }
+				FRS = { exists = yes }
+				TLY = { exists = yes }
+			}
+			prestige = 500
 		}
 		
 		allow = {
 			has_country_flag = appointed_chormaqan_persia
-			KMN = { all_core = { controlled_by = THIS }}
+			OR = {
+				AND = {
+					KMN = { all_core = { controlled_by = THIS }}
+					KMN = { all_core = { NOT = { is_core = THIS }}}
+				}
+				AND = {
+					RAY = { all_core = { controlled_by = THIS }}
+					RAY = { all_core = { NOT = { is_core = THIS }}}
+				}
+				MAK = { all_core = { controlled_by = THIS }}
+				AJM = { all_core = { controlled_by = THIS }}
+				MZN = { all_core = { controlled_by = THIS }}
+				FRS = { all_core = { controlled_by = THIS }}
+				GLN = { all_core = { controlled_by = THIS }}
+				TLY = { all_core = { controlled_by = THIS }}
+			}
 		}
 		
 		effect = {
-			KMN = { all_core = { add_core = THIS add_core = ILK }}
-			set_country_flag = mgl_kermanids_submission
+			random_country = {
+				limit = {
+					exists = yes
+					KMN = { all_core = { controlled_by = THIS }}
+					KMN = { all_core = { NOT = { is_core = WMG }}}
+				}
+				KMN = { all_core = { add_core = THIS add_core = ILK }}
+			}
+			random_country = {
+				limit = {
+					tag = WMG
+					RAY = { all_core = { controlled_by = THIS }}
+					RAY = { all_core = { NOT = { is_core = THIS }}}
+				}
+				RAY = { all_core = { add_core = THIS add_core = ILK }}
+			}
+			random_country = {
+				limit = {
+					tag = THIS
+					MAK = { all_core = { controlled_by = THIS }}
+				}
+				MAK = { all_core = { add_core = THIS add_core = ILK }}
+			}
+			random_country = {
+				limit = {
+					tag = THIS
+					AJM = { all_core = { controlled_by = THIS }}
+				}
+				AJM = { all_core = { add_core = THIS add_core = ILK }}
+			}
+			random_country = {
+				limit = {
+					tag = THIS
+					MZN = { all_core = { controlled_by = THIS }}
+				}
+				MZN = { all_core = { add_core = THIS add_core = ILK }}
+			}
+			random_country = {
+				limit = {
+					tag = THIS
+					FRS = { all_core = { controlled_by = THIS }}
+				}
+				FRS = { all_core = { add_core = THIS add_core = ILK }}
+			}
+			random_country = {
+				limit = {
+					tag = THIS
+					GLN = { all_core = { controlled_by = THIS }}
+				}
+				GLN = { all_core = { add_core = THIS add_core = ILK }}
+			}
+			random_country = {
+				limit = {
+					tag = THIS
+					TLY = { all_core = { controlled_by = THIS }}
+				}
+				TLY = { all_core = { add_core = THIS add_core = ILK }}
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}
 	
-	submission_of_rayy = {
+	mgl_conquest_of_persia = {
 		potential = {
 			tag = WMG
-			NOT = { has_country_flag = mgl_rayy_submission }
+			NOT = { has_country_flag = mgl_conquest_persia }
 		}
 		
 		allow = {
-			has_country_flag = appointed_chormaqan_persia
-			RAY = { all_core = { controlled_by = THIS }}
+			PER = { all_core = { owned_by = THIS }}
 		}
 		
 		effect = {
-			RAY = { all_core = { add_core = THIS add_core = ILK }}
-			set_country_flag = mgl_rayy_submission
-		}
-		ai_will_do = { factor = 1 }
-	}
-	
-	submission_of_makran = {
-		potential = {
-			tag = WMG
-			NOT = { has_country_flag = mgl_makran_submission }
-		}
-		
-		allow = {
-			has_country_flag = appointed_chormaqan_persia
-			MAK = { all_core = { controlled_by = THIS }}
-		}
-		
-		effect = {
-			MAK = { all_core = { add_core = THIS add_core = ILK }}
-			set_country_flag = mgl_makran_submission
-		}
-		ai_will_do = { factor = 1 }
-	}
-	
-	submission_of_qazvin = {
-		potential = {
-			tag = WMG
-			NOT = { has_country_flag = mgl_qazvin_submission }
-		}
-		
-		allow = {
-			has_country_flag = appointed_chormaqan_persia
-			AJM = { all_core = { controlled_by = THIS }}
-		}
-		
-		effect = {
-			AJM = { all_core = { add_core = THIS add_core = ILK }}
-			set_country_flag = mgl_qazvin_submission
-		}
-		ai_will_do = { factor = 1 }
-	}
-	
-	submission_of_mazandaran = {
-		potential = {
-			tag = WMG
-			NOT = { has_country_flag = mgl_qazvin_submission }
-		}
-		
-		allow = {
-			has_country_flag = appointed_chormaqan_persia
-			MZN = { all_core = { controlled_by = THIS }}
-		}
-		
-		effect = {
-			MZN = { all_core = { add_core = THIS add_core = ILK }}
-			set_country_flag = mgl_mazandaran_submission
+			add_accepted_culture = persian
+			PER = { all_core = { add_core = THIS  add_core = ILK }}
+			set_country_flag = mgl_conquest_persia
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -137,8 +168,8 @@ political_decisions = {
 		}
 		
 		allow = {
-			war = no
 			year = 1236
+			ELI = { war = no }
 			OR = {
 				ELI = { exists = NO }
 				ELI = { vassal_of = THIS }
@@ -147,16 +178,38 @@ political_decisions = {
 		
 		effect = {
 			inherit = ELI
+			add_accepted_culture = khitan
+			ELI = { all_core = { add_core = THIS }}
 			set_country_flag = abolished_liao_titles
 		}
 		ai_will_do = { factor = 1 }
 	}
 	
-	conquer_jin_empire = {
+	integration_of_tanguts = {
+		potential = {
+			tag = MGL
+			NOT = { has_country_flag = integrated_tangut_kingdom }
+		}
+		
+		allow = {
+			war = no
+			year = 1228
+			XBI = { all_core = { owned_by = THIS }}
+		}
+		
+		effect = {
+			XBI = { all_core = { add_core = THIS }}
+			add_accepted_culture = tangut
+			set_country_flag = integrated_tangut_kingdom
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	finish_jin_conquest = {
 		potential = {
 			tag = MGL
 			SXI = { exists = yes }
-			NOT = { has_country_flag = conquered_jin_empire }
+			NOT = { has_country_flag = jin_conquest_finished }
 		}
 		
 		allow = {
@@ -167,25 +220,19 @@ political_decisions = {
 		
 		effect = {
 			release_vassal = SXI
-			random_owned = {
-				limit = {
-					tag = MGL
-				}
-				owner = {
-					casus_belli = {
-						target = SXI
-						type = conquest
-						months = 60
-					}
-				}
+			leave_alliance = SXI
+			badboy = 10
+			casus_belli = {
+				target = SXI
+				type = conquest
+				months = 60
 			}
 			war = {
 				target = SXI
 				attacker_goal = { casus_belli = conquest }
 				call_ally = yes
 			}
-			badboy = -22
-			set_country_flag = conquered_jin_empire
+			set_country_flag = jin_conquest_finished
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -194,36 +241,30 @@ political_decisions = {
 		potential = {
 			tag = MGL
 			EXI = { exists = yes }
-			NOT = { has_country_flag = conquered_eastern_xia }
+			NOT = { has_country_flag = mgl_conquest_eastern_xia }
+			has_global_flag = kurultai_of_1235
 		}
 		
 		allow = {
-			NOT = { truce_with = EXI } 
-			year = 1232
+			NOT = { truce_with = EXI war_with = EXI } 
 			NOT = { badboy = 0.6 }
 		}
 		
 		effect = {
+			badboy = 5
 			release_vassal = EXI
-			random_owned = {
-				limit = {
-					tag = MGL
-				}
-				owner = {
-					casus_belli = {
-						target = EXI
-						type = conquest
-						months = 60
-					}
-				}
+			leave_alliance = EXI
+			casus_belli = {
+				target = EXI
+				type = conquest
+				months = 60
 			}
 			war = {
 				target = EXI
 				attacker_goal = { casus_belli = conquest }
 				call_ally = yes
 			}
-			badboy = -22
-			set_country_flag = conquered_eastern_xia
+			set_country_flag = mgl_conquest_eastern_xia
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -233,35 +274,29 @@ political_decisions = {
 			tag = MGL
 			XBI = { exists = yes }
 			NOT = { has_country_flag = conquered_western_xia }
+			has_global_flag = kurultai_of_1235
 		}
 		
 		allow = {
-			NOT = { truce_with = XBI } 
-			year = 1226
+			NOT = { truce_with = XBI war_with = XBI } 
 			NOT = { badboy = 0.6 }
 		}
 		
 		effect = {
+			badboy = 5
 			release_vassal = XBI
-			random_owned = {
-				limit = {
-					tag = MGL
-				}
-				owner = {
-					casus_belli = {
-						target = XBI
-						type = conquest
-						months = 60
-					}
-				}
+			leave_alliance = XBI
+			casus_belli = {
+				target = XBI
+				type = conquest
+				months = 60
 			}
 			war = {
 				target = XBI
 				attacker_goal = { casus_belli = conquest }
 				call_ally = yes
 			}
-			badboy = -22
-			set_country_flag = conquered_western_xia
+			set_country_flag = mgl_conquest_western_xia
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -269,37 +304,29 @@ political_decisions = {
 	subjugate_goryeo = {
 		potential = {
 			tag = MGL
-			BSK = { exists = yes }
+			KOR = { exists = yes }
 			NOT = { has_country_flag = goryeo_subjugated }
 		}
 		
 		allow = {
-			year = 1231
 			NOT = { truce_with = KOR } 
 			has_global_flag = kurultai_of_1235
-			NOT = { badboy = 0.8 }
+			owns = 2497
 		}
 		
 		effect = {
 			badboy = 5
-			random_owned = {
-				limit = {
-					tag = MGL
-				}
-				owner = {
-					casus_belli = {
-						target = KOR
-						type = make_puppet
-						months = 60
-					}
-				}
+			owns = 2497
+			casus_belli = {
+				target = KOR
+				type = make_puppet
+				months = 60
 			}
 			war = {
 				target = KOR
 				attacker_goal = { casus_belli = make_puppet }
 				call_ally = yes
 			}
-			badboy = -10
 			set_country_flag = goryeo_subjugated
 		}
 		ai_will_do = { factor = 1 }
@@ -312,15 +339,33 @@ political_decisions = {
 		}
 		
 		allow = {
-			EXI = { exists = no }
-			ELI = { exists = no }
+			EXI = { all_core = { owned_by = THIS }}
 		}
 		
 		effect = {
 			add_accepted_culture = manchu
+			add_accepted_culture = oroqen
 			EXI = { all_core = { add_core = THIS }}
-			ELI = { all_core = { add_core = THIS }}
 			set_country_flag = jurchen_tribes_consolidated
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	partition_jin_domains = {
+		potential = {
+			tag = MGL
+			NOT = { has_country_flag = partitioned_jin_domains }
+			#SXI = { exists = no }
+		}
+		
+		allow = {
+			SXI = { all_core = { owned_by = THIS }}
+		}
+		
+		effect = {
+			add_accepted_culture = jin
+			SXI = { all_core = { add_core = THIS }}
+			set_country_flag = partitioned_jin_domains
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -329,36 +374,30 @@ political_decisions = {
 		potential = {
 			tag = WMG
 			BSK = { exists = yes }
-			NOT = { has_country_flag = baskiria_subjugated }
+			NOT = { has_country_flag = mgl_subjugate_bashkiria }
+			BSK = { NOT = { vassal_of = THIS }}
+			has_global_flag = kurultai_of_1235
 		}
 		
 		allow = {
 			NOT = { truce_with = BSK } 
-			has_global_flag = kurultai_of_1235
 			NOT = { badboy = 0.8 }
+			year = 1240
 		}
 		
 		effect = {
 			badboy = 5
-			random_owned = {
-				limit = {
-					tag = WMG
-				}
-				owner = {
-					casus_belli = {
-						target = BSK
-						type = make_puppet
-						months = 60
-					}
-				}
+			casus_belli = {
+				target = BSK
+				type = make_puppet
+				months = 60
 			}
 			war = {
 				target = BSK
 				attacker_goal = { casus_belli = make_puppet }
 				call_ally = yes
 			}
-			badboy = -10
-			set_country_flag = baskiria_subjugated
+			set_country_flag = mgl_subjugate_bashkiria
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -367,35 +406,33 @@ political_decisions = {
 		potential = {
 			tag = WMG
 			CUM = { exists = yes }
-			NOT = { has_country_flag = cuman_conquest_begun }
+			NOT = { has_country_flag = mgl_conquest_cumania }
+			has_global_flag = kurultai_of_1235
 		}
 		
 		allow = {
+			OR = {
+				has_country_flag = mgl_conquest_volga_bolgharia
+				VLG = { exists = no }
+			}
 			NOT = { truce_with = CUM } 
-			has_global_flag = kurultai_of_1235
+			year = 1240
 			NOT = { badboy = 0.6 }
 		}
 		
 		effect = {
-			random_owned = {
-				limit = {
-					tag = WMG
-				}
-				owner = {
-					casus_belli = {
-						target = CUM
-						type = conquest
-						months = 60
-					}
-				}
+			badboy = 10
+			casus_belli = {
+				target = CUM
+				type = conquest
+				months = 60
 			}
 			war = {
 				target = CUM
 				attacker_goal = { casus_belli = conquest }
 				call_ally = yes
 			}
-			badboy = -22
-			set_country_flag = cuman_conquest_begun
+			set_country_flag = mgl_conquest_cumania
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -404,36 +441,37 @@ political_decisions = {
 		potential = {
 			tag = WMG
 			VLG = { exists = yes }
-			NOT = { has_country_flag = volga_bolgharia_destroyed }
+			has_global_flag = kurultai_of_1235
+			NOT = { has_country_flag = mgl_conquest_volga_bolgharia }
+			OR = {
+				has_country_flag = mgl_conquest_volga_bolgharia
+				BSK = { vassal_of = THIS }
+				BSK = { exists = NO }
+			}
 		}
 		
 		allow = {
+			OR = {
+				BSK = { exists = NO }
+				BSK = { vassal_of = THIS }
+			}
 			NOT = { truce_with = VLG } 
-			has_global_flag = kurultai_of_1235
 			NOT = { badboy = 0.8 }
 		}
 		
 		effect = {
 			badboy = 5
-			random_owned = {
-				limit = {
-					tag = WMG
-				}
-				owner = {
-					casus_belli = {
-						target = VLG
-						type = conquest
-						months = 60
-					}
-				}
+			casus_belli = {
+				target = VLG
+				type = conquest
+				months = 60
 			}
 			war = {
 				target = VLG
 				attacker_goal = { casus_belli = conquest }
 				call_ally = yes
 			}
-			badboy = -22
-			set_country_flag = volga_bolgharia_destroyed
+			set_country_flag = mgl_conquest_volga_bolgharia
 		}
 		ai_will_do = { factor = 1 }
 	}

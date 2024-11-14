@@ -55,7 +55,7 @@ country_event = {
 
 country_event = {
 	
-	id = 110000
+	id = 110001
 	title = "New Army Doctrine"	
 	desc = "Reform your levy system."	
 	is_triggered_only = yes		

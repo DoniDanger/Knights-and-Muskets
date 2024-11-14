@@ -18,6 +18,8 @@ merchant_banks = {
 
 	tax_eff = 5.0
 	
+	activate_building = bank
+	
 	ai_chance = {
 		factor = 2
 	}
@@ -28,6 +30,7 @@ negotiable_instrument = {
 	cost = 10800
 
 	tax_eff = 2.5
+	max_bank = 1
 	
 	ai_chance = {
 		factor = 2
@@ -39,6 +42,8 @@ discounting = {
 	cost = 14400
 
 	tax_eff = 2.5
+	max_bank = 1
+	
 	ai_chance = {
 		factor = 1.5
 	}
@@ -49,6 +54,8 @@ financing_n_underwriting = {
 	cost = 18000
 
 	tax_eff = 2.5
+	max_bank = 1
+	
 	ai_chance = {
 		factor = 1.5	
 	}
@@ -59,6 +66,8 @@ triple_contracts = {
 	cost = 21200
 
 	tax_eff = 2.5
+	max_bank = 1
+	
 	ai_chance = {
 		factor = 1.5
 	}
@@ -69,6 +78,8 @@ bills_of_exchange = {
 	cost = 25200
 
 	tax_eff = 2.5
+	max_bank = 1
+	
 	ai_chance = {
 		factor = 1.5	
 	}

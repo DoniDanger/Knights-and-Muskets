@@ -728,3 +728,56 @@ railroad = {
 	pop_build_factory = yes
 	spawn_railway_track = yes
 }
+
+## University
+	university = {
+		type = university
+		cost = 75000
+		goods_cost =
+		{
+			steel = 30
+			lumber = 90
+			cement = 90
+			paper = 20
+			#dye = 10
+			#glass = 10
+		}
+
+		time = 800
+		visibility = yes
+		onmap = no
+		max_level = 6
+		province = yes
+		# Audax Validator "." Ignore_NEXT
+		one_per_state = yes
+		pop_build_factory = yes
+
+		research_points_modifier = 0.001 
+		#education_efficiency_modifier = 0.01
+	}
+
+	## Bank
+	bank = {
+		type = bank
+		cost = 45000
+		goods_cost =
+		{
+			steel = 5
+			lumber = 30
+			cement = 20
+			paper = 5
+		}
+
+		time = 500
+		visibility = yes
+		onmap = no
+		max_level = 6
+		province = yes
+		one_per_state = yes
+		pop_build_factory = yes
+		
+		local_artisan_output = 0.29	
+		local_rgo_output = 0.58		
+		local_factory_throughput = 1.16 
+		
+	}

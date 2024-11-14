@@ -21,6 +21,7 @@ political_decisions = {
 		effect = {
 			inherit = OCC
 			OCC = { all_core = { add_core = THIS }}
+			add_accepted_culture = occitan
 			set_country_flag = authority_asserted_toulouse
 		}
 		ai_will_do = { factor = 1 }
@@ -29,7 +30,7 @@ political_decisions = {
 	restore_authority_gevaudan = {
 		potential = {
 			tag = ARN
-			NOT = { has_country_flag = dominated_franche_comte }
+			NOT = { has_country_flag = authority_restored_gevaudan }
 		}
 		
 		allow = {

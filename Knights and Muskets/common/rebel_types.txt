@@ -115,12 +115,12 @@ reactionary_rebels = {
 			country = { civilized = no }
 		}
 		modifier = {
-			factor = 0.5
-			literacy = 0.4
+			factor = 0.3
+			literacy = 0.2
 		}
 		modifier = {
 			factor = 0.2
-			literacy = 0.6
+			literacy = 0.3
 		}
 		modifier = {
 			factor = 0.3
@@ -198,17 +198,20 @@ reactionary_rebels = {
 	demands_enforced_trigger = {
 		capital_scope = {
 			controlled_by = REB
-			province_control_days = 30
+			province_control_days = 60
 		}
 	}
 	
 	demands_enforced_effect = {
 		political_reform = none_voting
 		political_reform = party_appointed
-		political_reform = no_meeting
-		political_reform = state_press
+		political_reform = censored_press
 		political_reform = no_trade_unions
 		political_reform = underground_parties
+		political_reform = colonial_transportation
+		political_reform = no_parliament
+		social_reform = low_minimum_wage
+		social_reform = low_safety
 	}
 }
 
@@ -417,12 +420,16 @@ noble_rebels = {
 	}
 	
 	demands_enforced_effect = {
-		political_reform = none_voting
-		political_reform = party_appointed
-		political_reform = no_meeting
+		political_reform = appointed
+		political_reform = yes_meeting
 		political_reform = state_press
-		political_reform = no_trade_unions
-		political_reform = underground_parties
+		political_reform = non_socialist
+		political_reform = gerrymandering
+		political_reform = capital_punishment
+		social_reform = no_minimum_wage
+		social_reform = no_safety
+		social_reform = small_tax_contribution
+		social_reform = restricted_trade_rights
 	}
 }
 
@@ -622,12 +629,16 @@ pretender_rebels = {
 	}
 	
 	demands_enforced_effect = {
-		political_reform = none_voting
-		political_reform = party_appointed
-		political_reform = no_meeting
+		political_reform = appointed
+		political_reform = yes_meeting
 		political_reform = state_press
-		political_reform = no_trade_unions
-		political_reform = underground_parties
+		political_reform = non_socialist
+		political_reform = gerrymandering
+		political_reform = capital_punishment
+		social_reform = no_minimum_wage
+		social_reform = no_safety
+		social_reform = small_tax_contribution
+		social_reform = restricted_trade_rights
 	}
 }
 
@@ -828,12 +839,16 @@ fascist_rebels = {
 		}
 	}
 	demands_enforced_effect = {
-		political_reform = none_voting
-		political_reform = party_appointed
-		political_reform = no_meeting
+		political_reform = appointed
+		political_reform = yes_meeting
 		political_reform = state_press
-		political_reform = no_trade_unions
-		political_reform = underground_parties
+		political_reform = non_socialist
+		political_reform = gerrymandering
+		political_reform = capital_punishment
+		social_reform = no_minimum_wage
+		social_reform = no_safety
+		social_reform = small_tax_contribution
+		social_reform = restricted_trade_rights
 	}
 }
 
@@ -2592,7 +2607,7 @@ zealot_rebels = {
 	icon = 1
 	
 	area = nation_religion 					# Stays within the nation
-	break_alliance_on_win = yes
+	break_alliance_on_win = no
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
@@ -2637,7 +2652,17 @@ zealot_rebels = {
 		
 		modifier = {
 			war = yes
-			factor = 0.8
+			factor = 0.5
+		}
+		
+		modifier = {
+			religious_minorities = no_political_rights
+			factor = 0.3
+		}
+		
+		modifier = {
+			religious_minorities = political_rights
+			factor = 0.7
 		}
 		
 		modifier = {
@@ -2691,12 +2716,12 @@ zealot_rebels = {
 			country = { civilized = no }
 		}
 		modifier = {
-			factor = 0.5
-			literacy = 0.4
+			factor = 0.3
+			literacy = 0.25
 		}
 		modifier = {
 			factor = 0.2
-			literacy = 0.6
+			literacy = 0.4
 		}
 		modifier = {
 			factor = 1.0105
@@ -2769,17 +2794,14 @@ zealot_rebels = {
 	demands_enforced_trigger = {
 		capital_scope = {
 			controlled_by = REB
-			province_control_days = 30
+			province_control_days = 60
 		}
 	}
 	
 	demands_enforced_effect = {
-		political_reform = none_voting
-		political_reform = party_appointed
-		political_reform = no_meeting
-		political_reform = state_press
-		political_reform = no_trade_unions
-		political_reform = underground_parties
+		political_reform = state_religion
+		political_reform = no_rights
+		social_reform = no_minimum_wage
 	}
 }
 
@@ -2790,7 +2812,7 @@ heretic_rebels = {
 	icon = 1
 	
 	area = religion 					# Religious conflict
-	break_alliance_on_win = yes
+	break_alliance_on_win = no
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
@@ -2833,7 +2855,17 @@ heretic_rebels = {
 		
 		modifier = {
 			war = yes
-			factor = 0.8
+			factor = 0.5
+		}
+		
+		modifier = {
+			religious_minorities = no_political_rights
+			factor = 0.3
+		}
+		
+		modifier = {
+			religious_minorities = no_rights
+			factor = 0.7
 		}
 		
 		modifier = {
@@ -2874,12 +2906,12 @@ heretic_rebels = {
 			country = { civilized = no }
 		}
 		modifier = {
-			factor = 0.5
-			literacy = 0.4
+			factor = 0.3
+			literacy = 0.15
 		}
 		modifier = {
 			factor = 0.2
-			literacy = 0.6
+			literacy = 0.3
 		}
 		modifier = {
 			factor = 0.8
@@ -2940,16 +2972,11 @@ heretic_rebels = {
 	demands_enforced_trigger = {
 		capital_scope = {
 			controlled_by = REB
-			province_control_days = 30
+			province_control_days = 60
 		}
 	}
 	
 	demands_enforced_effect = {
-		political_reform = none_voting
-		political_reform = party_appointed
-		political_reform = no_meeting
-		political_reform = state_press
-		political_reform = no_trade_unions
-		political_reform = underground_parties
+		political_reform = political_rights
 	}
 }
