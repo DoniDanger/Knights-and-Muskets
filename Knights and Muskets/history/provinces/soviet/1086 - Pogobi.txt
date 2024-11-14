@@ -1,5 +1,5 @@
-owner = EXI
-controller = EXI
-add_core = EXI
+owner = NVK
+controller = NVK
+add_core = NVK
 trade_goods = fish
 life_rating = 32

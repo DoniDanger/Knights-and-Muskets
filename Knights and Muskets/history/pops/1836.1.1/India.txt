@@ -4,20 +4,14 @@
 #Peshawar (476000/119000 POPS)
 1218 = {
 	bureaucrats = {
-		culture = panjabi
-		religion = sikh
+		culture = pashtun
+		religion = sunni
 		size = 50
 	}
 
-	artisans = {
-		culture = panjabi
-		religion = sikh
-		size = 150
-	}
-
 	soldiers = {
-		culture = panjabi
-		religion = sikh
+		culture = pashtun
+		religion = sunni
 		size = 300
 	}
 
@@ -38,17 +32,11 @@
 		religion = sunni
 		size = 1200
 	}
-
+	
 	artisans = {
 		culture = pashtun
 		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = pashtun
-		religion = sunni
-		size = 4500
+		size = 3500
 	}
 
 	soldiers = {
@@ -60,58 +48,108 @@
 	farmers = {
 		culture = pashtun
 		religion = sunni
-		size = 108250
+		size = 58250
 	}
-}
-#Chitral (160000/40000 POPS)
-1223 = {
-	aristocrats = {
-		culture = pashtun
-		religion = sunni
-		size = 500
-	}
-
+	
 	clergymen = {
-		culture = pashtun
+		culture = panjabi
+		religion = sunni
+		size = 100
+	}
+	
+	artisans = {
+		culture = panjabi
 		religion = sunni
 		size = 500
-	}
-
-	artisans = {
-		culture = pashtun
-		religion = sunni
-		size = 2000
 	}
 
 	soldiers = {
-		culture = pashtun
+		culture = panjabi
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = panjabi
+		religion = sunni
+		size = 8250
+	}
+}
+#Dera Ismail Khan (476000/119000 POPS)
+2421 = {
+	soldiers = {
+		culture = panjabi
+		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = panjabi
+		religion = sunni
+		size = 1200
+	}
+	
+	farmers = {
+		culture = panjabi
+		religion = sunni
+		size = 1250
+	}    
+	
+    farmers = {
+		culture = panjabi
+		religion = sunni
+		size = 25000
+	}    
+	
+	clergymen = {
+		culture = panjabi
+		religion = sunni
+		size = 100
+	}
+	
+	artisans = {
+		culture = panjabi
 		religion = sunni
 		size = 500
 	}
 
-	farmers = {
-		culture = pashtun
+	soldiers = {
+		culture = panjabi
 		religion = sunni
-		size = 41000
+		size = 1000
+	}
+	
+	farmers = {
+		culture = panjabi
+		religion = sunni
+		size = 1250
 	}
 
-}
-#Under the Rule of Kalat 1836
-#Quetta (124000/31000 POPS)
-1219 = {
-	aristocrats = {
-		culture = pashtun
+	farmers = {
+		culture = panjabi
 		religion = sunni
-		size = 350
+		size = 12000
 	}
 
 	clergymen = {
 		culture = pashtun
 		religion = sunni
-		size = 325
+		size = 200
 	}
 
+	aristocrats = {
+		culture = pashtun
+		religion = sunni
+		size = 1000
+	}
+	
 	artisans = {
+		culture = pashtun
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
 		culture = pashtun
 		religion = sunni
 		size = 3000
@@ -120,13 +158,668 @@
 	soldiers = {
 		culture = pashtun
 		religion = sunni
-		size = 7000
+		size = 1000
 	}
 
 	farmers = {
 		culture = pashtun
 		religion = sunni
-		size = 20325
+		size = 8000
+	}
+}
+#Muzaffargarh (476000/119000 POPS)
+2441 = {
+	soldiers = {
+		culture = panjabi
+		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = panjabi
+		religion = sunni
+		size = 1200
+	}
+	
+	farmers = {
+		culture = panjabi
+		religion = sunni
+		size = 1250
+	}    
+	
+    farmers = {
+		culture = panjabi
+		religion = sunni
+		size = 25000
+	}    
+	
+	clergymen = {
+		culture = baluchi
+		religion = sunni
+		size = 100
+	}
+	
+	artisans = {
+		culture = baluchi
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = baluchi
+		religion = sunni
+		size = 1000
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 11250
+	}
+
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 7000
+	}
+
+	clergymen = {
+		culture = pashtun
+		religion = sunni
+		size = 20
+	}
+
+	aristocrats = {
+		culture = pashtun
+		religion = sunni
+		size = 10
+	}
+	
+	artisans = {
+		culture = pashtun
+		religion = sunni
+		size = 500
+	}
+	
+	soldiers = {
+		culture = pashtun
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 4000
+	}
+	
+	soldiers = {
+		culture = panjabi
+		religion = sunni
+		size = 1000
+	}
+	
+	farmers = {
+		culture = panjabi
+		religion = sunni
+		size = 2825
+	}
+}
+#Chitral (160000/40000 POPS)
+1223 = {
+	aristocrats = {
+		culture = kashmiri
+		religion = sunni
+		size = 500
+	}
+
+	clergymen = {
+		culture = kashmiri
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = kashmiri
+		religion = sunni
+		size = 2000
+	}
+
+	soldiers = {
+		culture = kashmiri
+		religion = sunni
+		size = 3000
+	}
+
+	farmers = {
+		culture = kashmiri
+		religion = sunni
+		size = 11000
+	}
+	
+	soldiers = {
+		culture = hazara
+		religion = shiite
+		size = 500
+	}
+
+	farmers = {
+		culture = hazara
+		religion = shiite
+		size = 1000
+	}
+	
+	soldiers = {
+		culture = pamiri
+		religion = shiite
+		size = 200
+	}
+
+	farmers = {
+		culture = pamiri
+		religion = shiite
+		size = 3000
+	}
+	
+	soldiers = {
+		culture = kashmiri
+		religion = shiite
+		size = 200
+	}
+
+	farmers = {
+		culture = kashmiri
+		religion = shiite
+		size = 3000
+	}
+	
+	soldiers = {
+		culture = pashtun
+		religion = animist
+		size = 500
+	}
+
+	farmers = {
+		culture = pashtun
+		religion = animist
+		size = 2000
+	}
+}
+#Kohistan (160000/40000 POPS)
+2444 = {
+	aristocrats = {
+		culture = kashmiri
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = kashmiri
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = kashmiri
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = kashmiri
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = kashmiri
+		religion = sunni
+		size = 1000
+	}
+	
+	farmers = {
+		culture = kashmiri
+		religion = sunni
+		size = 5000
+	}
+	
+	farmers = {
+		culture = kashmiri
+		religion = sunni
+		size = 1000
+	}
+	
+	farmers = {
+		culture = kashmiri
+		religion = sunni
+		size = 1500
+	}
+	
+	farmers = {
+		culture = kashmiri
+		religion = sunni
+		size = 1000
+	}
+	
+	farmers = {
+		culture = kashmiri
+		religion = sunni
+		size = 500
+	}
+	
+	bureaucrats = {
+		culture = pashtun
+		religion = sunni
+		size = 50
+	}
+	
+	aristocrats = {
+		culture = pashtun
+		religion = sunni
+		size = 500
+	}
+
+	clergymen = {
+		culture = pashtun
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = pashtun
+		religion = sunni
+		size = 200
+	}
+	
+	soldiers = {
+		culture = pashtun
+		religion = sunni
+		size = 3500
+	}
+
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 25000
+	}
+	
+	farmers = {
+		culture = panjabi
+		religion = sunni
+		size = 3500
+	}
+}
+#Under the Rule of Kalat 1836
+#Quetta (124000/31000 POPS)
+1219 = { 
+    bureaucrats = {
+		culture = tajik
+		religion = sunni
+		size = 50
+	}
+	
+	bureaucrats = {
+		culture = pashtun
+		religion = sunni
+		size = 10
+	}
+	
+	aristocrats = {
+		culture = pashtun
+		religion = sunni
+		size = 300
+	}
+
+	clergymen = {
+		culture = pashtun
+		religion = sunni
+		size = 225
+	}
+
+	artisans = {
+		culture = pashtun
+		religion = sunni
+		size = 800
+	}
+
+	soldiers = {
+		culture = pashtun
+		religion = sunni
+		size = 1800
+	}
+	
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 12000
+	}
+	
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 3500
+	}
+	
+	aristocrats = {
+		culture = pashtun
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = pashtun
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = pashtun
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 1000
+	}
+	
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 5000
+	}
+	
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 1500
+	}
+	
+	soldiers = {
+		culture = baluchi
+		religion = sunni
+		size = 800
+	}
+
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 15000
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 2000
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 3000
+	}
+}
+#Zhob
+2419 = {
+	aristocrats = {
+		culture = pashtun
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = pashtun
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = pashtun
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = pashtun
+		religion = sunni
+		size = 1400
+	}
+	
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 11000
+	}
+	
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 3000
+	}
+	
+	clergymen = {
+		culture = pashtun
+		religion = sunni
+		size = 10
+	}
+
+	artisans = {
+		culture = pashtun
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = pashtun
+		religion = sunni
+		size = 300
+	}
+	
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 1100
+	}
+	
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 300
+	}
+	
+	aristocrats = {
+		culture = baluchi
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = baluchi
+		religion = sunni
+		size = 25
+	}
+	
+	soldiers = {
+		culture = baluchi
+		religion = sunni
+		size = 600
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 2000
+	}
+
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 500
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 800
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 200
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 500
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 2500
+	}
+	
+	soldiers = {
+		culture = baluchi
+		religion = sunni
+		size = 100
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 825
+	}
+}
+#Loralai
+2442 = {
+	aristocrats = {
+		culture = pashtun
+		religion = sunni
+		size = 20
+	}
+
+	clergymen = {
+		culture = pashtun
+		religion = sunni
+		size = 10
+	}
+
+	artisans = {
+		culture = pashtun
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = pashtun
+		religion = sunni
+		size = 100
+	}
+	
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 800
+	}
+	
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 100
+	}
+	
+	clergymen = {
+		culture = pashtun
+		religion = sunni
+		size = 10
+	}
+
+	artisans = {
+		culture = pashtun
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = pashtun
+		religion = sunni
+		size = 100
+	}
+	
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 200
+	}
+	
+	aristocrats = {
+		culture = baluchi
+		religion = sunni
+		size = 70
+	}
+
+	clergymen = {
+		culture = baluchi
+		religion = sunni
+		size = 55
+	}
+	
+	soldiers = {
+		culture = baluchi
+		religion = sunni
+		size = 1000
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 6000
+	}
+
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 500
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 800
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 200
+	}
+	
+	farmers = {
+		culture = panjabi
+		religion = sunni
+		size = 50
+	}
+	
+	farmers = {
+		culture = panjabi
+		religion = sunni
+		size = 500
+	}
+	
+	soldiers = {
+		culture = panjabi
+		religion = sunni
+		size = 100
+	}
+	
+	farmers = {
+		culture = panjabi
+		religion = sunni
+		size = 725
 	}
 }
 #Dalbandin (88000/22000 POPS)
@@ -134,31 +827,215 @@
 	aristocrats = {
 		culture = baluchi
 		religion = sunni
-		size = 250
+		size = 50
 	}
 
 	clergymen = {
 		culture = baluchi
 		religion = sunni
-		size = 250
+		size = 50
 	}
 
 	artisans = {
 		culture = baluchi
 		religion = sunni
-		size = 1100
+		size = 10
 	}
 
 	soldiers = {
 		culture = baluchi
 		religion = sunni
-		size = 7000
+		size = 500
 	}
 
 	farmers = {
 		culture = baluchi
 		religion = sunni
-		size = 13500
+		size = 3000
+	}
+	
+	aristocrats = {
+		culture = pashtun
+		religion = sunni
+		size = 5
+	}
+
+	clergymen = {
+		culture = pashtun
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = pashtun
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = pashtun
+		religion = sunni
+		size = 10
+	}
+	
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 100
+	}
+	
+	aristocrats = {
+		culture = baluchi
+		religion = sunni
+		size = 5
+	}
+
+	clergymen = {
+		culture = baluchi
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = baluchi
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = baluchi
+		religion = sunni
+		size = 10
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 100
+	}
+}
+#Kharan (88000/22000 POPS)
+2450 = {
+	aristocrats = {
+		culture = baluchi
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = baluchi
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = baluchi
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = baluchi
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 8000
+	}
+	
+	aristocrats = {
+		culture = persian
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = persian
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = persian
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+		culture = persian
+		religion = sunni
+		size = 210
+	}
+
+	farmers = {
+		culture = persian
+		religion = sunni
+		size = 4200
+	}
+	
+	aristocrats = {
+		culture = baluchi
+		religion = sunni
+		size = 5
+	}
+
+	clergymen = {
+		culture = baluchi
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = baluchi
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = baluchi
+		religion = sunni
+		size = 10
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 500
+	}
+}
+#Panjgur
+2554 = {
+	aristocrats = {
+		culture = baluchi
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = baluchi
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = baluchi
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = baluchi
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 3500
 	}
 }
 #Kalat (104000/26000 POPS)
@@ -166,13 +1043,13 @@
 	aristocrats = {
 		culture = baluchi
 		religion = sunni
-		size = 250
+		size = 400
 	}
 
 	bureaucrats = {
 		culture = baluchi
 		religion = sunni
-		size = 250
+		size = 100
 	}
 
 	officers = {
@@ -190,19 +1067,105 @@
 	artisans = {
 		culture = baluchi
 		religion = sunni
-		size = 1250
+		size = 250
 	}
 
 	soldiers = {
 		culture = baluchi
 		religion = sunni
-		size = 7000
+		size = 1000
 	}
 
 	farmers = {
 		culture = baluchi
 		religion = sunni
-		size = 16925
+		size = 6500
+	}
+	
+	aristocrats = {
+		culture = persian
+		religion = sunni
+		size = 150
+	}
+
+	bureaucrats = {
+		culture = persian
+		religion = sunni
+		size = 150
+	}
+	
+	farmers = {
+		culture = persian
+		religion = sunni
+		size = 500
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 9925
+	}
+
+	slaves = {
+		culture = pashtun 
+		religion = sunni
+		size = 100
+	}
+}
+#Khuzdar
+2455 = {
+	aristocrats = {
+		culture = baluchi
+		religion = sunni
+		size = 100
+	}
+	
+	clergymen = {
+		culture = baluchi
+		religion = sunni
+		size = 250
+	}
+
+	artisans = {
+		culture = baluchi
+		religion = sunni
+		size = 250
+	}
+
+	soldiers = {
+		culture = baluchi
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 12500
+	}
+	
+	aristocrats = {
+		culture = persian
+		religion = sunni
+		size = 150
+	}
+	
+	farmers = {
+		culture = persian
+		religion = sunni
+		size = 1200
+	}
+	
+	aristocrats = {
+		culture = baluchi
+		religion = sunni
+		size = 100
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 8925
 	}
 }
 #Under the Rule of Makran 1836

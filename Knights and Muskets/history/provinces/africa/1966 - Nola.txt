@@ -1,2 +1,7 @@
+owner = HDR
+controller = HDR
+add_core = HDR
+add_core = SOK
 trade_goods = cattle
-life_rating = 15
+life_rating = 30
+

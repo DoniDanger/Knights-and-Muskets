@@ -55,5 +55,5 @@ oob = "HAW_oob.txt"
 
 	#Technologies
 	water_wheel_power = 1
-	flintlock_rifles = 1
+	medieval_infantry = 1
 }

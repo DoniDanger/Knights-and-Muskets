@@ -64,7 +64,7 @@ land_reform = yes_land_reform
 finance_reform = finance_reform_two
 
 # Technologies
-flintlock_rifles = 1
+medieval_infantry = 1
 post_nelsonian_thought = 1
 
 # Inventions

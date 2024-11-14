@@ -1,6 +1,5 @@
-owner = DEN
-controller = DEN
-add_core = DEN
+owner = MEC
+controller = MEC
 add_core = MEC
 add_core = NNN
 add_core = GER

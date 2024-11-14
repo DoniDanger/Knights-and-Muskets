@@ -1,6 +1,6 @@
-owner = EXI
-controller = EXI
-add_core = EXI
+owner = MYR
+controller = MYR
+add_core = MYR
 add_core = MCK
 trade_goods = coal
 life_rating = 32

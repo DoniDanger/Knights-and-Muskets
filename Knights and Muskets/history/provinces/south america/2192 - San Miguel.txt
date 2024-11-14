@@ -1,9 +1,7 @@
-
-
-add_core = ELS
-trade_goods = tropical_wood
-life_rating = 30
-1861.1.1 = {
-	owner = ELS
-	controller = ELS
-}
+owner = KOL
+controller = KOL
+add_core = KOL
+add_core = NNN
+add_core = GER
+trade_goods = grain
+life_rating = 35

@@ -1,6 +1,7 @@
-owner = BNG
-controller = BNG
-add_core = BNG
+owner = SND
+controller = SND
+add_core = SND
+add_core = CPR
 add_core = HND
 trade_goods = stone
 life_rating = 32

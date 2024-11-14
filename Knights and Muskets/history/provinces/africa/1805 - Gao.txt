@@ -1,5 +1,6 @@
-owner = MLI
-controller = MLI
-add_core = MLI
+owner = GAO
+controller = GAO
+add_core = GAO
 trade_goods = wool
-life_rating = 25
+life_rating = 30
+

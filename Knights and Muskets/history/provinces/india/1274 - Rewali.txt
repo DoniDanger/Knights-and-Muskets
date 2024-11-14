@@ -1,6 +1,6 @@
-owner = BUN
-controller = BUN
-add_core = BUN
+owner = REW
+controller = REW
+add_core = REW
 add_core = HND
 trade_goods = tea
 life_rating = 32

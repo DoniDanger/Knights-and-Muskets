@@ -1,5 +1,6 @@
-owner = JAV
-controller = JAV
+owner = SGH
+controller = SGH
+add_core = SGH
 add_core = JAV
 trade_goods = sulphur
-life_rating = 30
+life_rating = 32

@@ -44,7 +44,7 @@ set_country_flag = existing_country
 foreign_weapons = yes_foreign_weapons
 
 # Technologies
-flintlock_rifles = 1
+medieval_infantry = 1
 
 # Inventions
 
@@ -65,6 +65,6 @@ oob = "BUN_oob.txt"
 	foreign_officers = yes_foreign_officers
 
 	#Technologies
-	flintlock_rifles = 1
-	military_staff_system = 1
+	medieval_infantry = 1
+	feudal_levy = 1
 }

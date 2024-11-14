@@ -1,6 +1,6 @@
-owner = MEW
-controller = MEW
-add_core = MEW
+owner = MAW
+controller = MAW
+add_core = MAW
 add_core = HND
 trade_goods = cotton
 life_rating = 32

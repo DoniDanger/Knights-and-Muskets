@@ -1,3 +1,5 @@
-
+owner = MGW
+controller = MGW
+add_core = MGW
 trade_goods = iron
 life_rating = 30

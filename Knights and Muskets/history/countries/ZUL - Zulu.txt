@@ -50,7 +50,7 @@ oob = "ZUL_oob.txt"
 	oob = "/1861/ZUL_oob.txt"
 	set_country_flag = attack_the_laagers
 	#Technologies
-	army_command_principle = 1
+	early_medieval_tactics = 1
 	
 	#Economic Reforms
 	admin_reform = yes_admin_reform

@@ -1,5 +1,5 @@
-owner = UTR
-controller = UTR
+owner = DRN
+controller = DRN
 add_core = UTR
 add_core = DRN
 add_core = NNN

@@ -1,5 +1,6 @@
-owner = TKG
-controller = TKG
+owner = AIN
+controller = AIN
 add_core = AIN
 trade_goods = timber
-life_rating = 20
+life_rating = 30
+

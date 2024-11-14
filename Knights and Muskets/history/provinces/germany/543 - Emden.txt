@@ -1,6 +1,7 @@
 owner = FRI
 controller = FRI
 add_core = FRI
+add_core = EFR
 add_core = NNN
 add_core = GER
 trade_goods = salt

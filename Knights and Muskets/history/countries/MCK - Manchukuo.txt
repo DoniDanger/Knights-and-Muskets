@@ -46,7 +46,7 @@ foreign_weapons = yes_foreign_weapons
 admin_reform = yes_admin_reform
 
 # Technologies
-flintlock_rifles = 1
+medieval_infantry = 1
 
 #Inventions
 
@@ -66,8 +66,8 @@ oob = "MCK_oob.txt"
 	finance_reform = yes_finance_reform
 
 	# Technologies
-	flintlock_rifles = 1
-	military_staff_system = 1
+	medieval_infantry = 1
+	feudal_levy = 1
 
 # Inventions
 

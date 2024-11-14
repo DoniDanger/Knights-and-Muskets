@@ -1,2 +1,6 @@
-trade_goods = timber
-life_rating = 15
+owner = GHN
+controller = GHN
+add_core = GHN
+trade_goods = grain
+life_rating = 30
+

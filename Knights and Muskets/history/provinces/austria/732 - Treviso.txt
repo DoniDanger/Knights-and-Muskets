@@ -1,6 +1,7 @@
-owner = VER
-controller = VER
-add_core = VER
+owner = TVS
+controller = TVS
+add_core = TVS
 add_core = NNN
+add_core = ITA
 trade_goods = grain
 life_rating = 35

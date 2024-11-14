@@ -1,6 +1,6 @@
-owner = KRN
-controller = KRN
-add_core = KRN
+owner = PND
+controller = PND
+add_core = PND
 add_core = HND
 trade_goods = dye
 life_rating = 32

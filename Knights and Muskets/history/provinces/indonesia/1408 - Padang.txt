@@ -1,5 +1,6 @@
-owner = DJA
-controller = DJA
-add_core = DJA
+owner = MLY
+controller = MLY
+add_core = MLY
+add_core = PYG
 trade_goods = tobacco
-life_rating = 30
+life_rating = 32

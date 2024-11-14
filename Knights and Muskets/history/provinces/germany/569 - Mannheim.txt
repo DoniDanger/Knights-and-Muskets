@@ -1,6 +1,6 @@
-owner = FRK
-controller = FRK
-add_core = FRK
+owner = PAL
+controller = PAL
+add_core = PAL
 add_core = NNN
 add_core = GER
 trade_goods = timber

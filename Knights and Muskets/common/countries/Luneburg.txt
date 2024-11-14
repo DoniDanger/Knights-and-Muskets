@@ -1,5 +1,5 @@
-color = { 195 195 195 }
-#color = { 229 204 255 }
+#color = { 195 195 195 }
+color = { 224 182 85 }
 graphical_culture = EuropeanGC
 
 party = {

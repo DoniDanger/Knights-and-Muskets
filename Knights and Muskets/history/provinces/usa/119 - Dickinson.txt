@@ -1,6 +1,7 @@
-owner = AQU
-controller = AQU
-add_core = AQU
+owner = BLN
+controller = BLN
+add_core = BLN
 add_core = NNN
+add_core = ITA
 trade_goods = cattle
 life_rating = 35

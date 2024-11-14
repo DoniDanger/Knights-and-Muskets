@@ -1,6 +1,7 @@
-owner = SEN
-controller = SEN
-add_core = SEN
+owner = TKG
+controller = TKG
+add_core = SHB
 add_core = TKG
 trade_goods = grain
-life_rating = 35
+life_rating = 32
+

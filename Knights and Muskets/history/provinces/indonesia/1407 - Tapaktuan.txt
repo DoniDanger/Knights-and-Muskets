@@ -1,5 +1,6 @@
-owner = ATJ
-controller = ATJ
-add_core = ATJ
+owner = BRS
+controller = BRS
+add_core = BRS
 trade_goods = tea
-life_rating = 30
+life_rating = 32
+

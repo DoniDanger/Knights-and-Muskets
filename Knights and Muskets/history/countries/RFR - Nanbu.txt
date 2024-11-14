@@ -4,7 +4,8 @@ religion = shinto
 government = daimyo
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.38
+literacy = 0.22
+civilized = yes
 
 # Political reforms
 slavery = no_slavery

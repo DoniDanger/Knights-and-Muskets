@@ -1,4 +1,6 @@
-add_core = SHO
+owner = DVA
+controller = DVA
+add_core = DVA
+add_core = HND
 trade_goods = grain
-life_rating = 15
-colonial = 2
+life_rating = 32

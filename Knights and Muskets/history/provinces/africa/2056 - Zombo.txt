@@ -1,4 +1,6 @@
-add_core = SHO
+owner = CPR
+controller = CPR
+add_core = CPR
+add_core = HND
 trade_goods = coffee
-life_rating = 15
-colonial = 2
+life_rating = 32

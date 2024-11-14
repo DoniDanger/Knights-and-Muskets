@@ -1,10 +1,7 @@
-
-
-add_core = UCA
-add_core = GUA
+owner = ZWB
+controller = ZWB
+add_core = ZWB
+add_core = NNN
+add_core = GER
 trade_goods = fruit
-life_rating = 30
-1861.1.1 = {
-	owner = GUA
-	controller = GUA
-}
+life_rating = 35

@@ -1,6 +1,6 @@
-owner = EXI
-controller = EXI
-add_core = EXI
+owner = EJZ
+controller = EJZ
+add_core = EJZ
 add_core = MCK
 trade_goods = coal
 life_rating = 32

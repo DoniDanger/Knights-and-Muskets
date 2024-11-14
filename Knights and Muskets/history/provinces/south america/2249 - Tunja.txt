@@ -1,6 +1,7 @@
-
-
-
-
-trade_goods = cattle
-life_rating = 30
+owner = RAV
+controller = RAV
+add_core = RAV
+add_core = NNN
+add_core = GER
+trade_goods = wool
+life_rating = 35

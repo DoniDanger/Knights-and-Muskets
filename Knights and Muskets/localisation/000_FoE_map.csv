@@ -1,4 +1,5 @@
-PROV183;Bonn;;;;;;;;;;;;;;;;;;x;;;;
+PROV183;Jülich;;;;;;;;;;;;;;;;;;x;;;;
+PROV183;Jülich;;;;;;;;;;;;;;;;;;x;;;;
 PROV190;Zsolna;;;;;;;;;;;;;;;;;;x;;;;
 PROV164;Rawa;;;;;;;;;;;;;;;;;;x;;;;
 PROV159;Sierac;;;;;;;;;;;;;;;;;;x;;;;
@@ -1586,13 +1587,13 @@ PROV158;Kragujevac;
 PROV163;Príbram;x
 PROV165;Czluchów;x
 PROV167;Kromeríž;
-PROV168;Elmshorn;x
+PROV168;Itzehoe;x
 PROV169;Brandenburg;x
 PROV173;Legnica;x
 PROV174;Jawor;x
 PROV178;Plauen;x
 PROV180;Halle;x
-PROV181;Nordhorn;x
+PROV181;Bentheim;x
 PROV182;Essen;x
 PROV184;Boleslawiec;x
 PROV185;Boleslav;x
@@ -1615,13 +1616,12 @@ PROV294;Oxenford;x
 PROV295;Saint Albans;x
 PROV302;Brighthelmstone;x
 PROV303;Winchester;x
-PROV369;Schleswig;x
 PROV375;Haarlem;x
 PROV376;Den Haag;x
 PROV379;'s-Hertogenbosch;x
 PROV382;Nijmegen;x
 PROV384;Deventer;x
-PROV386;Coevorden;x
+PROV386;Drenthe;x
 PROV394;Mons;x
 PROV396;Malmedy;x
 PROV405;Sedan;x
@@ -1650,14 +1650,14 @@ PROV545;Strelice;x
 PROV546;Szczecin;x
 PROV549;Potsdam;x
 PROV556;Leipzig;x
-PROV559;Torgau;x
+PROV559;Meissen;x
 PROV560;Zwickau;x
 PROV562;Eisenach;x
 PROV563;Suhl;x
 PROV567;Marburg;x
 PROV569;Heidelberg;x
 PROV574;Koblenz;x
-PROV579;Montabaur;x
+PROV579;Katzenelnbogen;x #Montabaur
 PROV586;Bruchsal;x
 PROV588;Rottweil;x
 PROV589;Eslingen;x
@@ -1761,8 +1761,8 @@ PROV694;Bydgoszcz;x
 PROV161;Torun;x
 PROV699;Poznan;x
 PROV188;Srem;x
-PROV692;Pila;x
-PROV681;Gorzów;x
+PROV692;Walcz;x
+PROV681;Gorzów;x #Sternberg
 PROV165;Nowy Szczecin;x
 PROV171;Slupsk;x
 PROV691;Chojnice;x
@@ -1991,7 +1991,7 @@ PROV548;Strzalów;x
 PROV172;Roztoka;x
 PROV179;Wyszomierz;x
 PROV544;Schwerin;x
-PROV547;Naklo;x
+PROV547;Locknitz;x
 PROV353;Øsel;x
 PROV253;Færøerne;x
 PROV252;Island;x
@@ -2054,3 +2054,79 @@ PROV2299;Auxonne;x
 PROV2292;Loon;x
 BEL_394;Hainaut;x
 LIG_395;Liege;x
+PROV2257;Stedingen;x
+PROV2265;Wursten;x
+PROV2268;Nordfriesland;x
+PROV2272;Schleswig;x
+PROV369;Kiel;x
+PROV2253;Trittau;x
+PROV2273;Dithmarschen;x
+PROV2259;Bremervorde;x
+PROV2271;Marschvogtei;x
+PROV2240;Parchim;x
+PROV2241;Gustrow;x
+PROV1973;Treptow;x
+PROV1974;Rugen;x
+PROV1958;Wolgast;x
+PROV1972;Stargard;x
+PROV1977;Dramburg;x
+PROV1982;Zantoch;x
+PROV2001;Landsberg;x
+PROV2206;Lebus;x
+PROV2204;Köpenick;x
+PROV2208;Zossen;x
+PROV2205;Kalava;x
+PROV2201;Gubin;x
+PROV2202;Luban;x
+PROV2203;Crossen;x
+PROV1978;Krajna;x
+PROV2200;Chemnitz;x
+PROV2197;Altenburg;x
+PROV2243;Torgau;x
+PROV2235;Sonderhausen;x
+PROV2239;Duben;x
+PROV2269;Jerichow;x
+PROV2270;Dannenberg;x
+PROV557;Altmark;x
+PROV2276;Mansfeld;x
+PROV2267;Goslar;x
+PROV2266;Hildesheim;x
+PROV2255;Celle;x
+PROV2254;Walsrode;x
+PROV2252;Hoya;x
+PROV2234;Wolpe;x
+PROV2249;Ravensburg;x
+PROV2199;Paderborn;x
+PROV2195;Waldeck;x
+PROV2194;Wetzlar;;x
+PROV2193;Giessen;x
+PROV2196;Marck;x
+PROV2251;Soest;x
+PROV2250;Duisburg;x
+PROV2192;Bonn;x
+PROV2258;Zutphen;x 
+PROV2191;Sponheim;x
+PROV2188;Zweibrücken;x
+PROV2189;Worms;x
+PROV2187;Speyer;x
+PROV2248;Tecklenburg;;x
+PROV2247;Coesfeld;x
+PROV2190;Kissingen;x
+PROV2561;Solingen;x
+PROV584;Arnsberg;x
+HAN_534;Lower Sachsen;x 
+HAM_528;Bremen-Verden;x
+SAX_532;Lower Eastphalia;x 
+DEN_544;Schleswig;x
+MEC_544;Holstein;x 
+HEK_568;Upper Eastphalia;x
+PRU_544;Mecklenburg;x
+PRU_581;Westphalia;x 
+THU_554;Thuringia;x
+LUZ_552;Lusatia;x 
+POL_681;Neumark;x
+PRU_553;Altmark;x
+PRU_575;Lower Rhineland;x 
+PRU_572;Upper Rhineland;x
+SAX_558;Upper Sachsen;x 
+SAX_556;Middle Sachsen;x

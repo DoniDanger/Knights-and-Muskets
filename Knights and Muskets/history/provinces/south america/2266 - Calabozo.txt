@@ -1,6 +1,8 @@
+owner = HLD
+controller = HLD
+add_core = HLD
+add_core = NNN
+add_core = GER
+trade_goods = cattle
+life_rating = 35
 
-
-
-
-trade_goods = coffee
-life_rating = 30

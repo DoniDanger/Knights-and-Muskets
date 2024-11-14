@@ -1,6 +1,8 @@
-
-
-
-
-trade_goods = cattle
-life_rating = 30
+owner = SAX
+controller = SAX
+add_core = SAX
+add_core = LAU
+add_core = NNN
+add_core = GER
+trade_goods = salt
+life_rating = 35

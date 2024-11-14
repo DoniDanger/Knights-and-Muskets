@@ -1,6 +1,8 @@
+owner = VDN
+controller = VDN
+add_core = VDN
+add_core = NNN
+add_core = GER
+trade_goods = grain
+life_rating = 35
 
-
-
-
-trade_goods = cattle
-life_rating = 30

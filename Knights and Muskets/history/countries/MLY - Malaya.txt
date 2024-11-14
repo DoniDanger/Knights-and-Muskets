@@ -2,10 +2,11 @@ capital = 1387
 primary_culture = malay
 culture = yue
 religion = sunni
-government = democracy
+government = feudal_monarchy
 plurality = 0.0
 nationalvalue = nv_equality
 literacy = 0.03
+civilized = yes
 
 # Political reforms
 slavery = no_slavery

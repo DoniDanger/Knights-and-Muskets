@@ -1,6 +1,6 @@
-owner = FRK
-controller = FRK
-add_core = FRK
+owner = FUL
+controller = FUL
+add_core = FUL
 add_core = NNN
 add_core = GER
 trade_goods = grain

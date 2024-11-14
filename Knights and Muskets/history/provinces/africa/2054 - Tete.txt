@@ -1,3 +1,8 @@
+owner = DVA
+controller = DVA
+add_core = DVA
+add_core = HND
 trade_goods = grain
-life_rating = 35
+life_rating = 32
+
 

@@ -1,6 +1,6 @@
-owner = KRN
-controller = KRN
-add_core = KRN
+owner = LCH
+controller = LCH
+add_core = LCH
 add_core = HND
 trade_goods = elephants
 life_rating = 32

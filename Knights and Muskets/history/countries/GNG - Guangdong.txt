@@ -45,7 +45,7 @@ foreign_weapons = yes_foreign_weapons
 admin_reform = yes_admin_reform
 
 # Technologies
-flintlock_rifles = 1
+medieval_infantry = 1
 
 # Inventions
 
@@ -65,7 +65,7 @@ admin_reform = yes_admin_reform
 finance_reform = yes_finance_reform
 
 # Technologies
-flintlock_rifles = 1
+medieval_infantry = 1
 
 # Inventions
 

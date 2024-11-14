@@ -4,6 +4,163 @@
 REB 	= 	"countries/rebels.txt"
 UTI	=       "countries/Utility Tag.txt"
 
+#Nassau #
+#Calenberg/Hannover
+#Saxe-Lauenberg/Ratzeburg
+#Frankfurt/Darmstadt #
+#Brunswick #
+#Landgraviate of Hesse #
+
+SDZ        = "countries/Sandomierz.txt"
+ZWB        = "countries/Zweibrücken.txt"
+ABG		   = "countries/Arnsberg.txt"
+KTZ		   = "countries/Katzenelnbogen.txt"
+PUM		   = "countries/Prum.txt"
+CLV		   = "countries/Cleves.txt"
+TKL        ="countries/Tecklenburg.txt"
+BNH        ="countries/Bentheim.txt"
+ESN        ="countries/Essen.txt"
+MRK		   ="countries/Mark.txt"
+HYA		   ="countries/Hoya.txt"
+MDN		   ="countries/Minden.txt"
+RAV		   ="countries/Ravensberg.txt"
+PDB		   ="countries/Paderborn.txt"
+HLD		   ="countries/Hildesheim.txt"
+DIT		   ="countries/Dithmarschen.txt"
+
+WIT		   ="countries/Saxe-Wittenberg.txt"
+MNF		   ="countries/Mansfeld.txt"
+WRM		   ="countries/Worms.txt"
+WTZ		   ="countries/Wetzlar.txt"
+DNG		   ="countries/Dannenberg.txt"
+SPO		   ="countries/Sponheim.txt"
+JUL		   ="countries/Julich.txt"
+
+GTG        = "countries/Gottingen.txt"
+RGN		   ="countries/Rugen.txt"
+WLG        = "countries/Wolgast.txt"
+GOS        = "countries/Goslar.txt"
+BEG		   ="countries/Berg.txt"
+VDN        ="countries/Verden.txt" 
+
+SPY        = "countries/Speyer.txt"
+OSN		   ="countries/Osnabruck.txt"
+DOR        = "countries/Dortmund.txt"
+FUL        = "countries/Fulda.txt"
+EFR        = "countries/East Frisia.txt"
+SWG        = "countries/Schwarzburg.txt"
+WLD        = "countries/Waldeck.txt"
+SCW		= "countries/Schwerin.txt"
+
+RDZ        ="countries/Rodez.txt"
+FRZ        ="countries/Forez.txt"
+BLN        ="countries/Belluno.txt"
+VCZ        ="countries/Vicenza.txt"
+PDU		   ="countries/Padua.txt"
+TVS		   ="countries/Treviso.txt"
+
+GHN 		="countries/Ghana.txt" 
+SOG		    ="countries/Songhai.txt"
+HJI		= "countries/Hadejia.txt" 
+HKN		= "countries/Kano.txt" 
+HKT		= "countries/Katsina.txt" 
+HZF		= "countries/Zamfara.txt" 
+HZZ		= "countries/Zazzau.txt" 
+HDR		= "countries/Daura.txt" 
+HRO		= "countries/Rano.txt" 
+GBR		= "countries/Gobir.txt"
+
+KJJ		= "countries/Kel Ajjer.txt"
+KDG		= "countries/Kel Adagh.txt"
+KIR		= "countries/Kel Air.txt"
+TUA     = "countries/Kel Ahaggar.txt"
+
+DJN		= "countries/Djenne.txt" 
+GAO		= "countries/Gao.txt" 
+DFU		= "countries/Diafunu.txt" 
+
+HOY 		="countries/Hoysala.txt" 
+LCH 		="countries/Chola.txt"
+KKT 		="countries/Kakatiya.txt" 
+SEU 		="countries/Seuna.txt" 
+PND 		="countries/Pandya.txt"
+CKY 		="countries/Chalukya Empire.txt" 
+SND 		="countries/Sena Dynasty.txt" 
+JAF 		="countries/Jaffna.txt" 
+DVA 		="countries/Deva.txt" 
+
+RTN 		="countries/Ratnapura.txt" 
+CPR 		="countries/Chotanagpur.txt" 
+GRH			="countries/Garha.txt"
+TPI			="countries/Tripuri.txt"
+REW			="countries/Rewa.txt"
+CDS			="countries/Chudasama.txt"
+
+SEU 		="countries/Seuna.txt" 
+PND 		="countries/Pandya.txt"
+CKY 		="countries/Chalukya Empire.txt" 
+SND 		="countries/Sena Dynasty.txt" 
+JAF 		="countries/Jaffna.txt" 
+DVA 		="countries/Deva.txt" 
+
+AHO        = "countries/Ahom.txt"
+ARK        ="countries/Arakan.txt"
+AYO		   ="countries/Ayutthaya.txt"
+CHP		   = "countries/Champa.txt"
+CIT        ="countries/Calicut.txt"
+COC        ="countries/Cochin.txt"
+GUJ        = "countries/Gujarat.txt" 
+LNA        ="countries/Lanna.txt" #LNA
+MAW        = "countries/Malwa.txt" 
+MDR        = "countries/Madurai.txt"
+MGW        = "countries/Maguindanao.txt" 
+MJA        ="countries/Majapahit.txt"
+PEG        ="countries/Pegu.txt"
+PYG        = "countries/Pagaruyung.txt"
+VIJ		   ="countries/Vijaynagar.txt"
+
+MLC 		="countries/Malacca.txt"
+BHM 		="countries/Bahmanis.txt"
+KHD 		="countries/Khandesh.txt"
+EJZ 		="countries/Donghai.txt"
+MHX 		="countries/Haixi.txt"
+MJZ 		="countries/Jianzhou.txt"
+MYR 		="countries/Yeren.txt"
+NHX 		="countries/Udege.txt"
+NVK 		="countries/Nivkh.txt"
+SOL 		="countries/Solon.txt"
+
+BRS        = "countries/Barus.txt"
+PAT        ="countries/Pattani.txt" #Langkasuka
+KED        ="countries/Kedah.txt" 
+PRK        ="countries/Perak.txt" #Beruas/Manjung
+PHG        = "countries/Pahang.txt"
+MNP        = "countries/Manipur.txt"
+
+LGR        = "countries/Ligor.txt" #Tambralinga/Nakhon Si Thammarat
+LVO        = "countries/Lavo.txt"
+SGH        = "countries/Singhasari.txt" 
+
+AVA        ="countries/Ava.txt" 
+MMO        ="countries/Mong Mao.txt" 
+JOS        = "countries/Joseon.txt"
+SGP        = "countries/Singapore.txt"
+SUN        = "countries/Sunda.txt"
+
+#Lavo
+#Singhasari
+#Ligor/Tambralinga/Nakhon Si Thammarat
+#Ava Kingdom
+#Muang Mao
+#Joseon
+
+##Singapore - Singapura
+##Atjeh - Samudera Pasai
+##Maluku - Gapi
+
+###Sunda
+###Singapore
+
 OPL 		="countries/Opole.txt" 
 RBZ 		="countries/Raciborz.txt"
 GRD 		="countries/Grodno.txt" 
@@ -694,17 +851,17 @@ YUG		="countries/Yugoslavia.txt"
 
 # Africa
 ALD		="countries/Aldjazair.txt"
-CNG		="countries/Congo Free State.txt"
+#CNG		="countries/Congo Free State.txt"
 EGY		="countries/Egypt.txt"
 ETH		="countries/Ethiopia.txt"
 MAD		="countries/Madagascar.txt"
 LIB		="countries/Liberia.txt"
 MOR		="countries/Morocco.txt"
-NAL		="countries/Natalia.txt"
-ORA		="countries/Oranje.txt"
-SAF		="countries/South Africa.txt"
+#NAL		="countries/Natalia.txt"
+#ORA		="countries/Oranje.txt"
+#SAF		="countries/South Africa.txt"
 SOK		="countries/Sokoto.txt"
-RHO		="countries/Southern Rhodesia.txt"
+#RHO		="countries/Southern Rhodesia.txt"
 TRI		="countries/Tripoli.txt"
 #TRN		="countries/Transvaal.txt"
 TUN		="countries/Tunis.txt"
@@ -835,20 +992,20 @@ AUS		= "countries/Austria.txt"
 USA		= "countries/USA.txt"
 JAP		= "countries/Japan.txt"
 ITA		= "countries/Italy.txt"
-KUK		= "countries/Austria-Hungary.txt"
+#KUK		= "countries/Austria-Hungary.txt"
 
 
 #new for 1.2
 #ISR		="countries/Israel.txt"
 BYZ		="countries/Byzantium.txt"
 ICL		="countries/Iceland.txt"
-BAB		="countries/Babylonia.txt"
+#BAB		="countries/Babylonia.txt"
 
 #new for AHD
-TPG		="countries/Taiping.txt"
+#TPG		="countries/Taiping.txt"
 
 ##HoD
-JAN 	= "countries/JanMayen.txt"
+#JAN 	= "countries/JanMayen.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

@@ -1,6 +1,6 @@
-owner = SAT
-controller = SAT
-add_core = SAT
+owner = OTM
+controller = OTM
+add_core = OTM
 add_core = TKG
 trade_goods = coal
 life_rating = 35

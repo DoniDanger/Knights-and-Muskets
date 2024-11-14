@@ -1,6 +1,7 @@
-owner = FRK
-controller = FRK
-add_core = FRK
+owner = KTZ
+controller = KTZ
+add_core = KTZ
+add_core = FRM
 add_core = NNN
 add_core = GER
 trade_goods = horses

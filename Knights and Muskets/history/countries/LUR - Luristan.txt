@@ -49,21 +49,21 @@ industrial_construction = yes_western_science
 finance_reform = yes_finance_reform
 
 # Technologies
-post_napoleonic_thought = 1
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-army_command_principle = 1
+motte_and_bailey = 1
+medieval_infantry = 1
+medieval_cavalry = 1
+early_medieval_tactics = 1
 post_nelsonian_thought = 1
-private_banks = 1
-no_standard = 1
+grain_banks = 1
+hammered_coinage = 1
 guild_based_production = 1
 late_enlightenment_philosophy = 1
 enlightenment_thought = 1
-piston_steam_engine = 1
-#mechanical_production = 1
+manorialism = 1
+#water_hammer = 1
 clipper_design = 1
 malthusian_thought = 1
-basic_chemistry = 1
+medical_universities = 1
 
 # Inventions
 test_irregular = yes

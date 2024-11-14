@@ -44,8 +44,8 @@ foreign_weapons = yes_foreign_weapons
 military_constructions = yes_military_constructions
 
 # Technologies
-flintlock_rifles = 1
-post_napoleonic_thought = 1
+medieval_infantry = 1
+motte_and_bailey = 1
 
 # Inventions
 
@@ -64,8 +64,8 @@ oob = "DAI_oob.txt"
 	admin_reform = yes_admin_reform
 
 	# Technologies
-	flintlock_rifles = 1
-	post_napoleonic_thought = 1
+	medieval_infantry = 1
+	motte_and_bailey = 1
 
 	# Inventions
 

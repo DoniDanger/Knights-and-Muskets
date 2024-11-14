@@ -46,8 +46,8 @@ foreign_artillery = yes_foreign_artillery
 
 
 # Technologies
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
+medieval_infantry = 1
+medieval_cavalry = 1
 
 ruling_party = CIR_conservative
 upper_house = {

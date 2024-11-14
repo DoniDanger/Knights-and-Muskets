@@ -58,5 +58,5 @@ oob = "CAM_oob.txt"
 	foreign_weapons = yes_foreign_weapons
 	
 	#Technologies
-	flintlock_rifles = 1
+	medieval_infantry = 1
 }

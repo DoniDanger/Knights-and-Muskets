@@ -55,5 +55,5 @@ oob = "LAN_oob.txt"
 1861.1.1 = {
 	oob = "/1861/LAN_oob.txt"
 	foreign_weapons = yes_foreign_weapons
-	flintlock_rifles = 1
+	medieval_infantry = 1
 }

@@ -1,6 +1,6 @@
-owner = SIK
-controller = SIK
+owner = BHU
+controller = BHU
+add_core = BHU
 add_core = SIK
-add_core = HND
 trade_goods = wool
 life_rating = 25

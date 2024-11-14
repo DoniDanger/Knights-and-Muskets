@@ -1,9 +1,6 @@
-
-
-add_core = COS
-trade_goods = coffee
-life_rating = 30
-1861.1.1 = {
-	owner = COS
-	controller = COS
-}
+owner = SLS
+controller = SLS
+add_core = SLS
+add_core = POL
+trade_goods = grain
+life_rating = 35

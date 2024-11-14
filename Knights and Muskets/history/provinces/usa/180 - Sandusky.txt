@@ -1,8 +1,8 @@
-owner = THU
-controller = THU
-add_core = THU
+owner = MAG
+controller = MAG
+add_core = MAG
 add_core = NNN
 add_core = GER
-trade_goods = timber
+trade_goods = salt
 life_rating = 35
 

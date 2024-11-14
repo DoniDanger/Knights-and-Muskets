@@ -56,6 +56,6 @@ oob = "ETH_oob.txt"
 	admin_reform = yes_admin_reform
 
 	# Technologies
-	flintlock_rifles = 1
+	medieval_infantry = 1
 
 }

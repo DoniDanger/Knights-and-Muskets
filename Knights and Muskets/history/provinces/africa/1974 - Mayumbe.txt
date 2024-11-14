@@ -1,2 +1,8 @@
-trade_goods = timber
-life_rating = 15
+owner = DEN
+controller = DEN
+add_core = DEN
+add_core = RGN
+add_core = POM
+trade_goods = fish
+life_rating = 35
+

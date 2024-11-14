@@ -1,6 +1,6 @@
-owner = DRA
-controller = DRA
-add_core = DRA
+owner = HOY
+controller = HOY
+add_core = HOY
 add_core = HND
 trade_goods = tea
 life_rating = 32

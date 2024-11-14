@@ -3,5 +3,5 @@ controller = PZN
 add_core = PZN
 add_core = POL
 trade_goods = salt
-life_rating = 40
+life_rating = 35
 1861.1.1 = { railroad = 3 }

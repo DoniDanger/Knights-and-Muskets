@@ -1,5 +1,6 @@
-owner = VLN
-controller = VLN
+owner = GRD
+controller = GRD
+add_core = GRD
 add_core = VLN
 add_core = GLM
 add_core = UKR

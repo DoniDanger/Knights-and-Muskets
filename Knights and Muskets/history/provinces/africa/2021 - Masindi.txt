@@ -1,3 +1,7 @@
-add_core = BUG
+owner = LCH
+controller = LCH
+add_core = LCH
+add_core = HND
 trade_goods = coffee
-life_rating = 15
+life_rating = 32
+

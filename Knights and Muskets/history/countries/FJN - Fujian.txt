@@ -48,7 +48,7 @@ nonstate_consciousness = 0
 foreign_weapons = yes_foreign_weapons
 
 # Technologies
-flintlock_rifles = 1
+medieval_infantry = 1
 
 oob = "FJN_oob.txt"
 1861.1.1 = {
@@ -60,8 +60,8 @@ foreign_weapons = yes_foreign_weapons
 foreign_officers = yes_foreign_officers
 
 # Technologies
-flintlock_rifles = 1
-military_staff_system = 1
+medieval_infantry = 1
+feudal_levy = 1
 
 # Inventions
 

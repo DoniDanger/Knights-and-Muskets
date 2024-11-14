@@ -6,8 +6,190 @@ spanish;Castillian;x
 swiss;High Alemannic;x 
 north_italian;Lombard;x 
 south_italian;Neapolitan;x
+qara_kirgiz;Qara Khitan;x
+SDZ;Sandomierz;x
+SDZ_ADJ;Sandomierz;x 
+ZWB;Zweibrücken;x
+ZWB_ADJ;Zweibrücken;x 
+ABG;Arnsberg;x
+ABG_ADJ;Arnsberg;x 
+KTZ;Katzenelnbogen;x
+KTZ_ADJ;Katzenelnbogen;x 
+PUM;Prüm;x
+PUM_ADJ;Prüm;x 
+TKL;Tecklenburg;x
+TKL_ADJ;Tecklenburg;x 
+BNH;Bentheim;x
+BNH_ADJ;Bentheim;x 
+ESN;Essen;x
+ESN_ADJ;Essen;x 
+MRK;Mark;x
+MRK_ADJ;Mark;x 
+HYA;Hoya;x 
+HYA_ADJ;Hoya;x  
+MDN;Minden;x
+MDN_ADJ;Minden;x 
+RAV;Ravensberg;x
+RAV_ADJ;Ravensberg;x 
+PDB;Paderborn;x
+PDB_ADJ;Paderborn;x 
+HLD;Hildesheim;x 
+HLD_ADJ;Hildesheim;x  
+DIT;Dithmarschen;x
+DIT_ADJ;Dithmarschen;x 
+WIT;Saxe-Wittenberg;x
+WIT_ADJ;Saxe-Wittenberg;x
+MNF;Mansfeld;x
+MNF_ADJ;Mansfeld;x 
+WRM;Worms;x
+WRM_ADJ;Worms;x 
+WTZ;Wetzlar;x
+WTZ_ADJ;Wetzlar;x
+DNG;Dannenberg;x
+DNG_ADJ;Dannenberg;x 
+SPO;Sponheim;x
+SPO_ADJ;Sponheim;x 
+JUL;Jülich;x
+JUL_ADJ;Jülich;x 
+GTG;Gottingen;x
+GTG_ADJ;Gottingen;x 
+RGN;Rugen;x 
+RGN_ADJ;Rugen;x  
+WLG;Wolgast;x
+WLG_ADJ;Wolgast;x 
+GOS;Goslar;x
+GOS_ADJ;Goslar;x
+BEG;Berg;x
+BEG_ADJ;Berg;x 
+VDN;Verden-Bremen;x
+VDN_ADJ;Verden;x 
+VDN_theocracy;Archbishopric of Verden-Bremen;x
+SPY;Speyer;x
+SPY_ADJ;Speyer;x 
+OSN;Osnabruck;x
+OSN_ADJ;Osnabruck;x 
+SWG;Schwarzburg;x
+SWG_ADJ;Schwarzburg;x
+WLD;Waldeck;x
+WLD_ADJ;Waldeck;x 
+SCW;Schwerin;x
+SCW_ADJ;Schwerin;x 
+RDZ;Rodez;x
+RDZ_ADJ;Rodezian;x 
+FRZ;Forez;x
+FRZ_ADJ;Forezian;x 
+BLN;Belluno;x
+BLN_ADJ;Belluno;x 
+VCZ;Vicenza;x
+VCZ_ADJ;Vicenzan;x 
+PDU;Padua;x 
+PDU_ADJ;Paduan;x  
+TVS;Treviso;x
+TVS_ADJ;Trevisan;x 
+SEG;Sama;x
+SEG_ADJ;Saman;x 
+DFU;Diafunu;x
+DFU_ADJ;Diafunu;x 
+GAO;Gao;x 
+GAO_ADJ;Gao;x  
+DJN;Djenne;x
+DJN_ADJ;Djenne;x 
+GHN;Sosso;x
+GHN_ADJ;Sosso;x
+SOG;Songhai;x
+SOG_ADJ;Songhai;x 
+SOK;Hausaland;x
+SOK_ADJ;Hausa;x 
+SNG;Kingdom of Sine;x
+SNG_ADJ;Sine;x
+TOO;Takrur;x
+TOO_ADJ;Takruri;x 
+MOS;Wagadagu;x
+MOS_ADJ;Wagadagu;x 
+RTN;Ratnapura;x
+RTN_ADJ;Ratnapuran;x 
+TPI;Tripuri;x
+TPI_ADJ;Tripuri;x 
+CPR;Chotanagpur;x 
+CPR_ADJ;Chotanagpuri;x  
+GRH;Kingdom of Garha;x
+GRH_ADJ;Garhan;x 
+CDS;Chudasama;x
+CDS_ADJ;Chudasaman;x
+REW;Kingdom of Rewa;x
+REW_ADJ;Rewan;x 
+BUN;Jejakabhukti;x
+BUN_ADJ;Jejakabhukti;x 
+LGR;Tambralinga;x
+LGR_ADJ;Tambralingan;x #evolve into Nakhon Si Thammarat
+LVO;Lavo;x
+LVO_ADJ;Lavo;x 
+SGH;Singhasari;x
+SGH_ADJ;Singhasari;x 
+AVA;Kingdom of Ava;x 
+AVA_ADJ;Ava;x  
+MMO;Muang Mao;x
+MMO_ADJ;Muang Mao;x 
+JOS;Kingdom of Joseon;x
+JOS_ADJ;Joseon;x
+SUN;Kingdom of Sunda;x
+SUN_ADJ;Sundan;x 
+MNP;Manipur;x
+MNP_ADJ;Manipuri;x 
+PHG;Pahang;x
+PHG_ADJ;Pahang;x 
+PRK;Beruas;x
+PRK_ADJ;Beruas;x 
+KED;Kedah;x
+KED_ADJ;Kedah;x 
+ARK;Arakan;x
+ARK_ADJ;Arakanese;x
+LUA;Muang Phuan;x
+LUA_ADJ;Muang Phuan;x 
+ATJ;Samudera Pasai;x;
+ATJ_ADJ;Pasai;x
+MAL;Kingdom of Gapi;x;
+MAL_ADJ;Gapi;x
+CIT;Calicut;x
+CIT_ADJ;Calicut;x 
+COC;Cochin;x
+COC_ADJ;Cochin;x 
+JAV;Kediri;x
+JAV_ADJ;Kediri;x 
+MLY;Melayu Kingdom;x
+MLY_ADJ;Melayu;x 
+SGP;Singapura;x
+SGP_ADJ;Singapuran;x 
+BUR;Pagan Kingdom;x
+BUR_ADJ;Pagan;x
+SUL;Lupah Sag;x
+SUL_ADJ;Lupah Sag;x
+AYO;Ayutthaya;x
+AYO_ADJ;Ayutthayan;x
+LCH;Chola;x
+LCH_ADJ;Cholan;x 
+KKT;Kakatiya;x
+KKT_ADJ;Kakatiyan;x 
+SEU;Yadava;x
+SEU_ADJ;Yadavan;x 
+PND;Pandya;x
+PND_ADJ;Pandyan;x
+JAF;Jaffna;x
+JAF_ADJ;Jaffna;x
+DVA;Deva;x
+DVA_ADJ;Deva;x
+SND;Sena;x
+SND_ADJ;Sena;x 
+CKY;Western Chalukya Empire;x
+CKY_ADJ;Chalukyan;x
+HOY;Hoysala;x
+HOY_ADJ;Hoysalan;x 
+ORI;Eastern Gangas;x
+ORI_ADJ;Gangas;x 
 GRD;Grodno;x
-GRD_ADJ;Grodno;x 
+GRD_ADJ;Grodno;x
+BOH;Kingdom of Bohemia;x
+BOH_ADJ;Bohemian;x  
 OPL;Opole;x
 OPL_ADJ;Opole;x
 RBZ;Raciborz;x
@@ -496,8 +678,6 @@ CMA;Colima;x
 CMA_ADJ;Coliman;x
 CNP;Can Pech;x
 CNP_ADJ;Can Pech;x
-COC;Cocomes;x
-COC_ADJ;Cocomes;x
 HST;Huastec;x
 HST_ADJ;Huastec;x
 INC;Inca Empire;x
@@ -707,8 +887,12 @@ MKA;Makuria;x
 MKA_ADJ;Makurian;x
 MAM;The Mamluk Sultanate;x
 MAM_ADJ;Mamluk;x
-SIA_absolute_monarchy;Ayutthaya Kingdom;x
-CAM_absolute_monarchy;Khmer Empire;x
+SIA;Sukothai;x
+SIA_ADJ;Sukothai;x 
+SIA_feudal_monarchy;Sukothai Kingdom;x
+CAM;Khmer Empire;x
+CAM_ADJ;Khmer;x
+CAM_feudal_monarchy;Khmer Empire;x
 DMK;Demak;x
 DMK_ADJ;Demakan;x
 ASK;Ashikaga;x
@@ -719,8 +903,8 @@ CHA;Champa;x
 CHA_ADJ;Champan;x
 MLC;Malacca;x
 MLC_ADJ;Malaccan;x
-PAT;Patani;x
-PAT_ADJ;Patani;x
+PAT;Langkasuka;x #Pattani
+PAT_ADJ;Langkasukan;x
 AHO;Ahom;x;
 AHO_ADJ;Ahomese;x
 BBG;Blambangan;x
@@ -730,9 +914,6 @@ BBG_prussian_constitutionalism;The Blambangan Kingdom;x
 BBG_hms_government;The Blambangan Kingdom;x
 BRS;Barus;x
 BRS_ADJ;Barus;x
-BRS_absolute_monarchy;The Sultanate of Barus;x
-BRS_prussian_constitutionalism;The Sultanate of Barus;x
-BRS_hms_government;The Sultanate of Barus;x
 PYG;Pagaruyung;x
 PYG_ADJ;Minangkabau;x
 BTE;Banten;x
@@ -752,8 +933,8 @@ KND;Kandy;x
 KND_ADJ;Kandi;x
 MDR;Madurai;x
 MDR;Madurai;x
-MGW;Maguindanao;x
-MGW_ADJ;Maguindanaon;x
+MGW;Wenduling;x #Maguindanao
+MGW_ADJ;Wenduling;x #Maguindanaon
 PEG;Hanthawaddy Kingdom;x
 PEG_ADJ;Hanthawaddy;x
 LNA;Lan Na;x
@@ -884,8 +1065,8 @@ MNE;The Ming Empire;x
 MNE_ADJ;Ming;x
 VIJ;Vijayanagar;x
 VIJ_ADJ;Vijayanagara;x
-EJZ;Donghai;x
-EJZ_ADJ;Donghai;x
+EJZ;Nanai;x
+EJZ_ADJ;Nanai;x
 MHX;Haixi;x
 MHX_ADJ;Haixi;x
 MJZ;Jianzhou;x
@@ -904,8 +1085,8 @@ RAM;Ramazan;x
 RAM_ADJ;Ramazanid;x
 SRV;Shirvan;x
 SRV_ADJ;Shirvani;x
-GRH;The Great Horde;x
-GRH_ADJ;Great Horde;x
+#GRH;The Great Horde;x
+#GRH_ADJ;Great Horde;x
 GZK;Gazikumukh;x
 GZK_ADJ;Gazikumukhan;x
 KZN;Kazan Khanate;x

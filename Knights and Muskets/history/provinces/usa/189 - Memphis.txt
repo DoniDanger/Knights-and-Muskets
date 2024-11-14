@@ -2,5 +2,5 @@ owner = SLS
 controller = SLS
 add_core = SLS
 add_core = POL
-trade_goods = cotton
+trade_goods = cattle
 life_rating = 35

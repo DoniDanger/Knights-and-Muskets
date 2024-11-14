@@ -1,7 +1,7 @@
-owner = SAX
-controller = SAX
-add_core = SAX
+owner = LNE
+controller = LNE
 add_core = LNE
+add_core = BRA
 add_core = NNN
 add_core = GER
 trade_goods = fruit

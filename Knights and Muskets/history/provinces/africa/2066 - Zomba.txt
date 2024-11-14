@@ -1,2 +1,7 @@
+owner = AHO
+controller = AHO
+add_core = AHO
+add_core = HND
 trade_goods = tobacco
-life_rating = 15
+life_rating = 32
+

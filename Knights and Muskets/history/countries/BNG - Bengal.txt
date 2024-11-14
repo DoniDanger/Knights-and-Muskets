@@ -1,7 +1,7 @@
 capital = 1251
 primary_culture = bengali
 culture = bihari
-religion = hindu
+religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
@@ -39,12 +39,12 @@ upper_house = {
 }
 
 # Technologies
-flintlock_rifles = 1
+medieval_infantry = 1
 post_nelsonian_thought = 1
 clipper_design = 1
 enlightenment_thought = 1
 introspectionism = 1
-private_banks = 1
-no_standard = 1
+grain_banks = 1
+hammered_coinage = 1
 guild_based_production = 1
-basic_chemistry = 1
+medical_universities = 1

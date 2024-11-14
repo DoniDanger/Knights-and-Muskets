@@ -1,5 +1,5 @@
-owner = XBI
-controller = XBI
-add_core = XBI
+owner = CHI
+controller = CHI
+add_core = CHI
 trade_goods = chinaware
 life_rating = 32

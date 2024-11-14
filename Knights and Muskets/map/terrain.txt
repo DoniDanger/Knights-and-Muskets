@@ -16,6 +16,8 @@ categories =  {
 		mine_rgo_size = -0.0
 		mine_rgo_eff = -0.2
 		min_build_railroad = 1
+		min_build_bank = 1
+		min_build_university = 1
 	}
 
 	farmlands = {
@@ -52,6 +54,8 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 6
 		min_build_railroad = 1
+		min_build_bank = 1
+		min_build_university = 1
 		combat_width = -0.33
 	}
 	
@@ -80,6 +84,8 @@ categories =  {
 		combat_width = -0.66
 		
 		min_build_railroad = 3
+		min_build_bank = 3
+		min_build_university = 3
 	}
 
 
@@ -114,6 +120,8 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 2
 		min_build_railroad = 2
+		min_build_bank = 2
+		min_build_university = 2
 		combat_width = -0.25
 	}	
 	
@@ -128,6 +136,8 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 2
 		min_build_railroad = 2
+		min_build_bank = 2
+		min_build_university = 2
 		combat_width = -0.25
 	}
 	

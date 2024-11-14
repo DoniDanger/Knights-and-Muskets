@@ -1,3 +1,7 @@
-
-trade_goods = tobacco
+owner = SWG
+controller = SWG
+add_core = SWG
+add_core = NNN
+add_core = GER
+trade_goods = salt
 life_rating = 35

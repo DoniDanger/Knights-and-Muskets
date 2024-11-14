@@ -1,2 +1,8 @@
+owner = DLH
+controller = DLH
+add_core = DLH
+add_core = JOD
+add_core = HND
 trade_goods = cattle
-life_rating = 15
+life_rating = 32
+

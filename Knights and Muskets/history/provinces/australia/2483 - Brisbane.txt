@@ -1,6 +1,6 @@
-owner = EXI
-controller = EXI
-add_core = EXI
+owner = NVK
+controller = NVK
+add_core = NVK
 add_core = MCK
 trade_goods = grain
 life_rating = 32

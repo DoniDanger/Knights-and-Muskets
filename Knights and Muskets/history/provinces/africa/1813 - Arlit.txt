@@ -1,2 +1,3 @@
+add_core = KDG
 trade_goods = fruit
-life_rating = 10
+life_rating = 15

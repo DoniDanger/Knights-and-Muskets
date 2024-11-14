@@ -338,24 +338,6 @@ CHO_hms_government;Choshu;;;;;;;;;;;;;x
 CHO_absolute_monarchy_ADJ;Mori;;;;;;;;;;;;;x
 CHO_prussian_constitutionalism_ADJ;Mori;;;;;;;;;;;;;x
 CHO_hms_government_ADJ;Mori;;;;;;;;;;;;;x
-CHP;Chiapas;;;;;;;;;;;;;x
-CHP_ADJ;Chiapan;;;;;;;;;;;;;x
-CHP_liberal;Partido Liberal;Partido Liberal;Partido Liberal;;;;;;;;;;;x
-CHP_socialist;Partido Socialista;Partido Socialista;Partido Socialista;;;;;;;;;;;x
-CHP_conservative;Partido Estadista Republicano;Partido Estadista Republicano;Partido Estadista Republicano;;;;;;;;;;;x
-CHP_anarcho_liberal;Partido Anarchista;Partido Anarchista;Partido Anarchista;;;;;;;;;;;x
-CHP_communist;Partido Comunista;Partido Comunista;Partido Comunista;;;;;;;;;;;x
-CHP_fascist;Partido Nacionalista;Partido Nacionalista;Partido Nacionalista;;;;;;;;;;;x
-CHP_reactionary;Unión Republicana;Unión Republicana;Unión Republicana;;;;;;;;;;;x
-CIR;Circassia;;;;;;;;;;;;;x
-CIR_ADJ;Circassian;;;;;;;;;;;;;x
-CIR_liberal;Liberal Party;;;;;;;;;;;;;x
-CIR_conservative;Conservative Party;;;;;;;;;;;;;x
-CIR_socialist;Socialist Party;;;;;;;;;;;;;x
-CIR_reactionary;Nationalist Party;;;;;;;;;;;;;x
-CIR_anarcho_liberal;Radical Party;;;;;;;;;;;;;x
-CIR_communist;Communist Party;;;;;;;;;;;;;x
-CIR_fascist;Fascist Party;;;;;;;;;;;;;x
 CLC;Cilicia;;;;;;;;;;;;;x
 CLC_ADJ;Cilician;;;;;;;;;;;;;x
 CLM_fascist_dictatorship;Gran Colombia;;;;;;;;;;;;;x
@@ -939,10 +921,6 @@ MAH_anarcho_liberal;The Radical Faction;;;;;;;;;;;;x
 MAH_socialist;The Socialist Faction;;;;;;;;;;;;x
 MAH_communist;Communist Faction;;;;;;;;;;;;x
 MAH_fascist;The Fascist Faction;;;;;;;;;;;;x
-MAL;Maluku;;;;;;;;;;;;x
-MAL_ADJ;Moluccan;;;;;;;;;;;;x
-MAR;Marianas;Marianas;Marianas;;;;;;;;;;;;x
-MAR_ADJ;Marianan;Marianan;Marianan;;;;;;;;;;;;x
 MCK;Manchuria;;;;;;;;;;;;;x
 MCK_absolute_monarchy;Manchukuo;Manchukuo;Manchukuo;;;;;;;;;;;x
 MCK_prussian_constitutionalism;Manchukuo;Manchukuo;Manchukuo;;;;;;;;;;;x
@@ -985,14 +963,6 @@ MLW_hms_government;Nyasaland;;;;;;;;;;;;x
 MLW_absolute_monarchy_ADJ;Nyasa;;;;;;;;;;;;x
 MLW_prussian_constitutionalism_ADJ;Nyasa;;;;;;;;;;;;x
 MLW_hms_government_ADJ;Nyasa;;;;;;;;;;;;x
-MLY;Malaysia;;;;;;;;;;;;x
-MLY_ADJ;Malaysian;;;;;;;;;;;;x
-MLY_absolute_monarchy;Malaya;;;;;;;;;;;;x
-MLY_prussian_constitutionalism;Malaya;;;;;;;;;;;;x
-MLY_hms_government;Malay Federation;;;;;;;;;;;;x
-MLY_absolute_monarchy_ADJ;Malay;;;;;;;;;;;;x
-MLY_prussian_constitutionalism_ADJ;Malay;;;;;;;;;;;;x
-MLY_hms_government_ADJ;Malay;;;;;;;;;;;;x
 MOD_reactionary;Restaurazionisti;Restaurazionisti;Restaurazionisti;;Restaurazionis ti;;;;;;;;;x
 MOD_conservative;Moderati ;Moderati ;Moderati;;Moderati ;;;;;;;;;x
 MOD_liberal;Riformisti ;Riformisti ;Riformisti;;Riformisti ;;;;;;;;;x
@@ -1448,15 +1418,6 @@ SUD_anarcho_liberal;Al Anarkiliberali;;;;;;;;;;;;;x
 SUD_socialist;Al Ishtiraki;;;;;;;;;;;;;x
 SUD_communist;Al Shiu'i;;;;;;;;;;;;;x
 SUD_fascist;Al Fashi;;;;;;;;;;;;;x
-SUL;Sulu;;;;;;;;;;;;;x
-SUL_ADJ;Sulu;;;;;;;;;;;;;x
-SUL_conservative;Conservatist Faction;;;;;;;;;;;;;x
-SUL_liberal;Reformist Faction;;;;;;;;;;;;;x
-SUL_socialist;Progressive Faction;;;;;;;;;;;;;x
-SUL_communist;Communist Faction;;;;;;;;;;;;;x
-SUL_reactionary;Nationalist Faction;;;;;;;;;;;;;x
-SUL_anarcho_liberal;Radical Faction;;;;;;;;;;;;;x
-SUL_fascist;Fascist faction;;;;;;;;;;;;;x
 SVY;Savoy;;;;;;;;;;;;;x
 SVY_ADJ;Savoyard;;;;;;;;;;;;;x
 SWH;Schleswig-Holstein;;;;;;;;;;;;x
@@ -1542,8 +1503,6 @@ TAS_anarcho_liberal;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;
 TAS_fascist;Fascist Party;Fascist Party;Fascist Party;;;;;;;;;;;x
 TCA;Transcaucasia;;;;;;;;;;;;x
 TCA_ADJ;Transcaucasian;;;;;;;;;;;;x
-TKG;Shogunate Japan;;;;;;;;;;;x
-TKG_ADJ;Tokugawa;;;;;;;;;;;x
 TKM;Turkmenistan;;;;;;;;;;;;;x
 TKM_absolute_monarchy;Salor Confederation;;;;;;;;;;;;x
 TKM_hms_government;Salor Confederation;;;;;;;;;;;;x

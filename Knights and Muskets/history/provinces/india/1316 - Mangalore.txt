@@ -1,6 +1,6 @@
-owner = MYS
-controller = MYS
-add_core = MYS
+owner = HOY
+controller = HOY
+add_core = HOY
 add_core = HND
 trade_goods = fruit
 life_rating = 32

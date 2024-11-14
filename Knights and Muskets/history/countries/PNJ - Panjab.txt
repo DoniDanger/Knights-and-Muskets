@@ -26,7 +26,7 @@ nonstate_consciousness = 0
 
 foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons
-flintlock_rifles = 1
+medieval_infantry = 1
 
 oob = "PAN_oob.txt"
 1861.1.1 = {

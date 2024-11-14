@@ -1,6 +1,6 @@
-owner = BNG
-controller = BNG
-add_core = BNG
+owner = DVA
+controller = DVA
+add_core = DVA
 add_core = HND
 trade_goods = wool
 life_rating = 32

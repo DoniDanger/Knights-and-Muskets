@@ -1,8 +1,8 @@
-owner = LBZ
-controller = LBZ
+owner = LUZ
+controller = LUZ
 add_core = LUZ
-add_core = SLS
-add_core = LBZ
-trade_goods = fruit
+add_core = NNN
+add_core = GER
+trade_goods = wool
 life_rating = 35
 1861.1.1 = { railroad = 3 }

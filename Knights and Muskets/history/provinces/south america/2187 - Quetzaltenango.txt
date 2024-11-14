@@ -1,10 +1,7 @@
-
-
-add_core = UCA
-add_core = GUA
+owner = SPY
+controller = SPY
+add_core = SPY
+add_core = GER
+add_core = NNN
 trade_goods = iron
-life_rating = 30
-1861.1.1 = {
-	owner = GUA
-	controller = GUA
-}
+life_rating = 35

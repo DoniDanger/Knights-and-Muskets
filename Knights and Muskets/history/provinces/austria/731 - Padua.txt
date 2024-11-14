@@ -1,6 +1,7 @@
-owner = VER
-controller = VER
-add_core = VER
+owner = PDU
+controller = PDU
+add_core = PDU
 add_core = NNN
+add_core = ITA
 trade_goods = salt
 life_rating = 35

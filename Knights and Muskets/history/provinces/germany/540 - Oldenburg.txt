@@ -1,6 +1,6 @@
-owner = SAX
-controller = SAX
-add_core = SAX
+owner = OLD
+controller = OLD
+add_core = OLD
 add_core = NNN
 add_core = GER
 trade_goods = salt

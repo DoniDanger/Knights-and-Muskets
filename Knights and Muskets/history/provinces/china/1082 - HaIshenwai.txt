@@ -2,6 +2,7 @@ owner = EXI
 controller = EXI
 add_core = EXI
 add_core = MCK
+add_core = EJZ
 add_core = SXI
 trade_goods = tin
 life_rating = 32

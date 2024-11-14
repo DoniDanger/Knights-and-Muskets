@@ -1,5 +1,7 @@
-graphical_culture = UsGC
-color = { 121 163 114 }
+#color = { 121 163 114 }
+##color = { 0 86 148 }
+color = { 25 230 30 }
+graphical_culture = ItalianGC
 
 party = {
     name = "Royalist"

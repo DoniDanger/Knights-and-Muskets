@@ -40,7 +40,7 @@ foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons
 
 # Technologies
-flintlock_rifles = 1
+medieval_infantry = 1
 
 # Inventions
 
@@ -62,8 +62,8 @@ oob = "ALD_oob.txt"
 	army_schools = yes_army_schools
 
 	# Technologies
-	military_staff_system = 1
-	flintlock_rifles = 1
+	feudal_levy = 1
+	medieval_infantry = 1
 
 	# Inventions
 

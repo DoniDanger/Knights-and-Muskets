@@ -1,5 +1,5 @@
-owner = BIM
-controller = BIM
-add_core = BIM
+owner = SUN
+controller = SUN
+add_core = SUN
 trade_goods = coffee
-life_rating = 30
+life_rating = 32

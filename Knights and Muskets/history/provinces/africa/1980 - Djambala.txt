@@ -1,2 +1,5 @@
-trade_goods = timber
-life_rating = 15
+owner = DFU
+controller = DFU
+add_core = DFU
+trade_goods = grain
+life_rating = 30

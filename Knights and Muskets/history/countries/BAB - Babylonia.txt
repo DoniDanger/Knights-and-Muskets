@@ -41,10 +41,10 @@ upper_house = {
 }
 
 # Technologies
-flintlock_rifles = 1
-post_napoleonic_thought = 1
-bronze_muzzle_loaded_artillery = 1
-no_standard = 1
+medieval_infantry = 1
+motte_and_bailey = 1
+medieval_cavalry = 1
+hammered_coinage = 1
 guild_based_production = 1
 classicism_n_early_romanticism = 1
 late_enlightenment_philosophy = 1
@@ -60,10 +60,10 @@ nonstate_consciousness = 1
 }
 1861.1.1 = {
 # Technologies
-	post_napoleonic_thought = 1
-	flintlock_rifles = 1
-	bronze_muzzle_loaded_artillery = 1
-	no_standard = 1
+	motte_and_bailey = 1
+	medieval_infantry = 1
+	medieval_cavalry = 1
+	hammered_coinage = 1
 	guild_based_production = 1
 	classicism_n_early_romanticism = 1
 	late_enlightenment_philosophy = 1

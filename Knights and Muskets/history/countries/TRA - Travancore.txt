@@ -44,7 +44,7 @@ foreign_weapons = yes_foreign_weapons
 army_schools = yes_army_schools
 
 # Technologies
-flintlock_rifles = 1
+medieval_infantry = 1
 
 # Inventions
 
@@ -63,8 +63,8 @@ foreign_weapons = yes_foreign_weapons
 army_schools = yes_army_schools
 
 # Technologies
-military_staff_system = 1
-flintlock_rifles = 1
+feudal_levy = 1
+medieval_infantry = 1
 
 # Inventions
 

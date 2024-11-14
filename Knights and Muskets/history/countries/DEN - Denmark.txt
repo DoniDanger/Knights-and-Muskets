@@ -44,11 +44,11 @@ upper_house = {
 set_country_flag = existing_country
 
 # Technologies
-post_napoleonic_thought = 1
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-military_staff_system = 1
-army_command_principle = 1
+motte_and_bailey = 1
+medieval_infantry = 1
+medieval_cavalry = 1
+feudal_levy = 1
+early_medieval_tactics = 1
 post_nelsonian_thought = 1
 clipper_design = 1
 naval_design_bureaus = 1
@@ -59,18 +59,18 @@ late_enlightenment_philosophy = 1
 malthusian_thought = 1
 enlightenment_thought = 1
 introspectionism = 1
-private_banks = 1
-no_standard = 1
-early_classical_theory_and_critique = 1
-freedom_of_trade = 1
+grain_banks = 1
+hammered_coinage = 1
+metallism = 1
+trade_fairs = 1
 guild_based_production = 1
 water_wheel_power = 1
 publishing_industry = 1
-piston_steam_engine = 1
-mechanical_production = 1
-mechanized_mining = 1
-basic_chemistry = 1
-experimental_railroad = 1
+manorialism = 1
+water_hammer = 1
+open_cast_mining = 1
+medical_universities = 1
+widespread_deforestation = 1
 
 #Inventions
 #corvettes = yes
@@ -119,17 +119,17 @@ decision = danmarks_riges_grundlov
 	
 	
 # Technologies
-	post_napoleonic_thought = 1
+	motte_and_bailey = 1
 	strategic_mobility = 1
 	point_defense_system = 1
-	flintlock_rifles = 1
+	medieval_infantry = 1
 	muzzle_loaded_rifles = 1
-	bronze_muzzle_loaded_artillery = 1
+	medieval_cavalry = 1
 	iron_muzzle_loaded_artillery = 1
 	iron_breech_loaded_artillery = 1
-	military_staff_system = 1
+	feudal_levy = 1
 	military_plans = 1
-	army_command_principle = 1
+	early_medieval_tactics = 1
 	army_professionalism = 1
 	
 	post_nelsonian_thought = 1
@@ -145,14 +145,14 @@ decision = danmarks_riges_grundlov
 	the_command_principle = 1
 	naval_professionalism = 1
 	
-	private_banks = 1
+	grain_banks = 1
 	stock_exchange = 1
 	business_banks = 1
-	no_standard = 1
+	hammered_coinage = 1
 	ad_hoc_money_bill_printing = 1
-	early_classical_theory_and_critique = 1
+	metallism = 1
 	late_classical_theory = 1
-	freedom_of_trade = 1
+	trade_fairs = 1
 	market_structure = 1
 	guild_based_production = 1
 	organized_factories = 1
@@ -176,12 +176,12 @@ decision = danmarks_riges_grundlov
 	water_wheel_power = 1
 	practical_steam_engine = 1
 	publishing_industry = 1
-	mechanical_production = 1
-	mechanized_mining = 1
+	water_hammer = 1
+	open_cast_mining = 1
 	clean_coal = 1
-	experimental_railroad = 1
+	widespread_deforestation = 1
 	early_railroad = 1
-	basic_chemistry = 1
+	medical_universities = 1
 	medicine = 1
 	inorganic_chemistry = 1
 

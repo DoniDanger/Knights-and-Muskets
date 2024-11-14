@@ -1,5 +1,5 @@
-owner = MLI
-controller = MLI
-add_core = MLI
+owner = DJN
+controller = DJN
+add_core = DJN
 trade_goods = grain
 life_rating = 30

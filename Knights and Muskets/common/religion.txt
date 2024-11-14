@@ -9,7 +9,7 @@ christian = {
 		color = { 0.8 0.8 0 }
 	}
 
-	protestant = {
+	protestant = { #lollardy/fraticelli
 		icon = 2
 		color = { 0 0 0.7 }
 	}
@@ -20,11 +20,33 @@ christian = {
 
 	}
 	
-	coptic = {
+	coptic = { #miaphysite?
 		icon = 4
 		color = { 0 0.5 0.7 }
 		
 	}
+	 
+	reformed = { #placeholder
+        icon = 19
+        color = { 0.5 0.5 0.7 }
+    }
+	
+	hussite = {
+        icon = 15
+        color = { 0 0 0.5 }
+    }
+	
+	cathar = {
+        icon = 20
+        color = { 0.5 0.5 0 }
+
+    }
+	
+    nestorian = {
+        icon = 21
+        color = { 0 0.5 0.7 }
+
+    }
 }
 
 muslim = {
@@ -41,10 +63,38 @@ muslim = {
 		
 	}
 
-	jewish = {
-		icon = 7
-		color = { 0.3 0.5 0.3 }
-	}	
+	ibadi = {
+        icon = 17
+        color = { 0.1 0.4 0.6 }
+    }
+
+    druze = {
+        icon = 18
+        color = { 0.7 0.8 0.6 }
+    }
+}
+
+zoroastrian_group = {
+    zoroastrian = {
+        icon = 22
+        color = { 0.7 0.2 0.1 }
+    }
+}
+
+jewish_group = {
+    jewish = {
+        icon = 7
+        color = { 0.3 0.5 0.3 }
+
+    }
+}
+
+yazidi_group = {
+    yazidi = {
+        icon = 16
+        color = { 0.4 0.0 1.0 }
+
+    }
 }
 
 eastern = {
@@ -79,6 +129,15 @@ eastern = {
 		icon = 13
 	}
 
+	jain = {
+        color = { 0 0.1 0 }
+        icon = 23
+    }
+	
+	confucian = {
+        color = { 0.8 0.8 0 }
+        icon = 24
+    }
 }
 
 pagan = {
@@ -88,4 +147,14 @@ pagan = {
 		pagan = yes
 		
 	}
+	fetishist = {
+        icon = 25
+        color = { 0.419 0.247 0.627 }
+        pagan = yes
+    }
+    tengri = {
+        icon = 26
+        color = { 0.1 0.3 0.85 }
+        pagan = yes
+    }
 }

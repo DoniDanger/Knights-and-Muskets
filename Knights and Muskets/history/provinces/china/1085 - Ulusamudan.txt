@@ -1,6 +1,6 @@
-owner = MGL
-controller = MGL
-add_core = MGL
+owner = MYR
+controller = MYR
+add_core = MYR
 add_core = MCK
 trade_goods = grain
 life_rating = 32

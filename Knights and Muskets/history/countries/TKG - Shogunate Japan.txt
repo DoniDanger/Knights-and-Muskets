@@ -4,7 +4,7 @@ religion = shinto
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.40
+literacy = 0.21
 non_state_culture_literacy = 0.10
 civilized = yes
 
@@ -72,7 +72,7 @@ land_reform = yes_land_reform
 finance_reform = finance_reform_two
 
 # Technologies
-flintlock_rifles = 1
+medieval_infantry = 1
 post_nelsonian_thought = 1
 
 # Inventions

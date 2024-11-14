@@ -1,6 +1,7 @@
-owner = YZW
-controller = YZW
-add_core = YZW
+owner = MRI
+controller = MRI
+add_core = MRI
+add_core = UES
 add_core = TKG
 trade_goods = grain
 life_rating = 35

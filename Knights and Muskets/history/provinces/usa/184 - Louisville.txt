@@ -2,5 +2,5 @@ owner = SLS
 controller = SLS
 add_core = SLS
 add_core = POL
-trade_goods = tobacco
+trade_goods = iron
 life_rating = 35

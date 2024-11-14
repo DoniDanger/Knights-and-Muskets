@@ -43,7 +43,7 @@ set_country_flag = existing_country
 foreign_weapons = yes_foreign_weapons
 
 # Technologies
-flintlock_rifles = 1
+medieval_infantry = 1
 
 # Inventions
 
@@ -61,6 +61,6 @@ oob = "HDJ_oob.txt"
 	foreign_weapons = yes_foreign_weapons
 
 	#Technologies
-	flintlock_rifles = 1
+	medieval_infantry = 1
 }
 

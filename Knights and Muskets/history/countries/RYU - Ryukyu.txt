@@ -6,6 +6,7 @@ government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.06
+civilized = yes
 
 # Political reforms
 slavery = no_slavery
@@ -42,7 +43,7 @@ set_country_flag = existing_country
 foreign_weapons = yes_foreign_weapons
 education_reform = yes_education_reform
 # Technologies
-flintlock_rifles = 1
+medieval_infantry = 1
 
 # Starting Consciousness
 consciousness = 0
@@ -60,6 +61,6 @@ land_reform = yes_land_reform
 education_reform = yes_education_reform
 
 # Technologies
-flintlock_rifles = 1
+medieval_infantry = 1
 
 }

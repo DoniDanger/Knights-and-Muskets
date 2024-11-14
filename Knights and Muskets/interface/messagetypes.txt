@@ -1005,7 +1005,7 @@ default=
 {
 	log=yes
 	onmap=yes
-	popup=yes
+	popup=no
 	idle=no
 	option=no
 	pausepopup=no
@@ -1055,7 +1055,7 @@ default=
 {
 	log=yes
 	onmap=yes
-	popup=yes
+	popup=no
 	idle=no
 	option=no
 	pausepopup=no

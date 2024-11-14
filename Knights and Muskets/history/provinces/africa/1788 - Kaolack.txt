@@ -1,5 +1,5 @@
-owner = TOO
-controller = TOO
-add_core = TOO
+owner = SNG
+controller = SNG
+add_core = SNG
 trade_goods = grain
 life_rating = 30

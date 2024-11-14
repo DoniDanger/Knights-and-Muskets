@@ -1,6 +1,6 @@
-owner = DRA
-controller = DRA
-add_core = DRA
+owner = KKT
+controller = KKT
+add_core = KKT
 add_core = HND
 trade_goods = grain
 life_rating = 32

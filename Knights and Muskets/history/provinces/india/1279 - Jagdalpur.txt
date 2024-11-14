@@ -1,6 +1,6 @@
-owner = NAG
-controller = NAG
-add_core = NAG
+owner = KKT
+controller = KKT
+add_core = KKT
 add_core = HND
 trade_goods = grain
 life_rating = 32

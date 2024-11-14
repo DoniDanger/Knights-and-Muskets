@@ -1,5 +1,5 @@
-color = { 117 238 10 }
-#color = { 104  190  222 }
+color = { 218 37 15 }
+##color = { 117 238 10 }
 graphical_culture = PolishGC
 
 party = {

@@ -1,7 +1,8 @@
-owner = PZN
-controller = PZN
-add_core = PZN
+owner = LBZ
+controller = LBZ
+add_core = SLS
 add_core = POL
+add_core = LBZ
 trade_goods = grain
-life_rating = 40
+life_rating = 35
 1861.1.1 = { railroad = 3 }

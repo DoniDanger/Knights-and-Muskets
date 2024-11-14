@@ -1,6 +1,6 @@
-owner = FRK
-controller = FRK
-add_core = FRK
+owner = PUM
+controller = PUM
+add_core = PUM
 add_core = GER
 add_core = NNN
 trade_goods = fruit

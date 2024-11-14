@@ -49,7 +49,7 @@ upper_house =
 }
 
 # Technologies
-flintlock_rifles = 1
+medieval_infantry = 1
 
 # Inventions
 #bottling_process = yes

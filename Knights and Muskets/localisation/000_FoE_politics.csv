@@ -483,6 +483,6 @@ zealot_rebels_name;$COUNTRY$ Zealots;x;
 zealot_rebels_desc;Religous zealots enraged with the spread of heresy and weakening of the Church, they attempt to restore God's grace to the nation.;x;
 zealot_rebels_army;$COUNTRY_ADJ$ Zealot Army;x;
 heretic_rebels_title;Heretic;x;
-heretic_rebels_name;$COUNTRY$ Heretics;x;
+heretic_rebels_name;$RELIGION$ Heretics;x;
 heretic_rebels_desc;Heretics oppressed for their faith, they seek freedom from religious discrimination.;x;
 heretic_rebels_army;$COUNTRY_ADJ$ Heretic Army;x;
