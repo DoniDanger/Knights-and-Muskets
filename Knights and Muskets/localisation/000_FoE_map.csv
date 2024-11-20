@@ -191,7 +191,6 @@ PROV3309;Shupashkar;;;;;;;;;;;;;;;;;;x;;;;
 PROV3310;Arzamas;;;;;;;;;;;;;;;;;;x;;;;
 PROV2468;Henriksby;;;;;;;;;;;;;;;;;;x;;;;
 PROV3268;Kærwik;;;;;;;;;;;;;;;;;;x;;;;
-PROV310;Fredriksund;;;;;;;;;;;;;;;;;;x;;;;
 PROV316;Sarpsborg;;;;;;;;;;;;;;;;;;x;;;;
 PROV274;Aberteifi;;;;;;;;;;;;;;;;;;x;;;; 
 PROV258;Gaillimh;;;;;;;;;;;;;;;;;;x;;;;
@@ -541,7 +540,6 @@ PROV1904;Tumbuktu;;;;;;;;;;;;;;;;;;x;;;;
 PROV1918;Fada N'Gurma;;;;;;;;;;;;;;;;;;x;;;;
 PROV3463;Teotitlan;;;;;;;;;;;;;;;;;;x;;;;
 PROV1714;Kantarawi;;;;;;;;;;;;;;;;;;x;;;;
-PROV1979;Apalai;;;;;;;;;;;;;;;;;;x;;;;
 PROV3485;Tupisa;;;;;;;;;;;;;;;;;;x;;;;
 PROV3486;Quchapampa;;;;;;;;;;;;;;;;;;x;;;; 
 PROV3487;Wanqani;;;;;;;;;;;;;;;;;;x;;;;
@@ -1646,7 +1644,6 @@ PROV520;Viseu;x
 PROV523;Santarém;x
 PROV535;Verden;x
 PROV542;Meppen;x
-PROV545;Strelice;x
 PROV546;Szczecin;x
 PROV549;Potsdam;x
 PROV556;Leipzig;x
@@ -1757,8 +1754,8 @@ PROV175;Czestochowa;x
 PROV716;Sandomierz;x
 PROV711;Czersk;x
 PROV700;Wloclawek;x
-PROV694;Bydgoszcz;x
-PROV161;Torun;x
+PROV694;Chelmno;x
+PROV161;Dobrzyn;x
 PROV699;Poznan;x
 PROV188;Srem;x
 PROV692;Walcz;x
@@ -1766,13 +1763,13 @@ PROV681;Gorzów;x #Sternberg
 PROV165;Nowy Szczecin;x
 PROV171;Slupsk;x
 PROV691;Chojnice;x
-PROV166;Kwedis;x
-PROV693;Truso;x
-PROV695;Twangste;x
-PROV696;Lecbarg;x
-PROV191;Luks;x
+PROV166;Kwedis;x #Marienwerder
+PROV693;Truso;x #Marienburg
+PROV695;Twangste;x #Konigsberg
+PROV696;Lecbarg;x #Osterode
+PROV191;Luks;x #Ortelsburg
 PROV697;Ragnita;x
-PROV2352;Jurbarkas;x
+PROV2352;Tilsit;x
 PROV2385;Kernave;x	
 PROV2351;Koknese;x
 PROV155;Lemisele;x
@@ -1836,7 +1833,7 @@ PROV2167;Ips;;;;;;;;;;;;;;;;;;x;;;;
 PROV2163;Steyr;;;;;;;;;;;;;;;;;;x;;;;
 PROV2274;Spittal;;;;;;;;;;;;;;;;;;x;;;;
 PROV2287;Pettau;;;;;;;;;;;;;;;;;;x;;;;
-PROV1979;Lynediws;;;;;;;;;;;;;;;;;;x;;;;
+PROV1979;Lynediws;;;;;;;;;;;;;;;;;;x;;;; #Lobau
 PROV191;Luka;;;;;;;;;;;;;;;;;;x;;;;
 PROV235;Chelm;;;;;;;;;;;;;;;;;;x;;;;
 PROV2350;Dubrovytsia;;;;;;;;;;;;;;;;;;x;;;;
@@ -2130,3 +2127,44 @@ PRU_575;Lower Rhineland;x
 PRU_572;Upper Rhineland;x
 SAX_558;Upper Sachsen;x 
 SAX_556;Middle Sachsen;x
+PROV307;Tromsø;x
+PROV310;Stavanger;x
+PROV2712;Skagerrack;x	 
+PROV2720;Skagerrack Approach;x
+PROV312;Tønsberg;x
+PROV313;Oslo;x
+PROV545;Strzelce;x
+PROV2711;Kattegat;x
+PROV2182;Rhein;x
+PROV2183;Lyck;x
+PROV2165;Angerburg;x 
+PROV2184;Stalluponen;x
+PROV2170;Jurbarkas;x
+PROV2180;Samland;x
+PROV2174;Georgenburg;x
+PROV2171;Brzesc;;x
+PROV2181;Warmia;;x
+RUS_707;Yotvingia;x
+PRU_690;Pomerelia;x
+POL_700;Kujawy;x
+PRU_682;Lower Silesia;x
+BOH_684;Upper Silesia;x
+RUS_719;Podlachia;x
+RUS_712;Sieradz;x
+RUS_716;Sandomierz;x
+PRU_695;Prusija;x
+PRU_191;Galindia;x
+RUS_715;Red Ruthenia;x
+AUS_662;Halych;x
+AUS_702;Krakow;x
+PRU_697;Nadruvia;x
+KHI_1191;Khwarazm;x
+BUK_1199;Samarqand;x
+BUK_1198;Bukhara;x
+BUK_1207;Khatlon;x
+KOK_1201;Ferghana;x
+KOK_1190;Qara-Kirghiz;x 
+RUS_2611;Dasht-e Ozbeg;x
+RUS_1185;Zhetsyu;x
+RUS_1204;Merv;x
+CHI_2607;Qarashahr;x

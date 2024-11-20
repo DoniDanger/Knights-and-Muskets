@@ -80,3 +80,26 @@ alliance = {
     start_date = 1212.1.5
     end_date = 1259.1.1
 }
+
+### Duke of Poland ###
+##Leszek the White -  Konrad of Mazovia
+alliance = {
+    first = CPL
+    second = MAZ
+    start_date = 1212.1.5
+    end_date = 1259.1.1
+}
+##Leszek the White -  Władysław III Spindleshanks
+alliance = {
+    first = CPL
+    second = PZN
+    start_date = 1212.1.5
+    end_date = 1259.1.1
+}
+##Leszek the White -  Henry I the Bearded
+alliance = {
+    first = CPL
+    second = SLS
+    start_date = 1212.1.5
+    end_date = 1259.1.1
+}

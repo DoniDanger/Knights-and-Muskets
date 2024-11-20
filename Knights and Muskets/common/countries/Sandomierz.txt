@@ -1,4 +1,4 @@
-color = { 119 64 147 }
+color = { 147 16 2 }
 #color = { 255 25 40 }
 graphical_culture = PolishGC
 

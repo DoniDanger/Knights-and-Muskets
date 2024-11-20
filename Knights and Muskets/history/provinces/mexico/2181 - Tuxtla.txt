@@ -1,5 +1,5 @@
-
-
-
+owner = PRU
+controller = PRU
+add_core = PRU
 trade_goods = cotton
-life_rating = 30
+life_rating = 35

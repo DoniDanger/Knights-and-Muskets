@@ -453,6 +453,10 @@ acquire_core_state = {
 			value = 0.25
 		}
 	}
+	
+	on_po_accepted = {
+		plurality = -2
+	}
 }
 
 # Annex Core Country
@@ -558,6 +562,10 @@ acquire_substate_region = {
 			value = 0.25
 		}
 	}
+	
+	on_po_accepted = {
+		plurality = -2
+	}
 }
 
 # Gain control of Core Substate
@@ -613,6 +621,10 @@ acquire_core_substate = {
 			to = pro_military
 			value = 0.25
 		}
+	}
+	
+	on_po_accepted = {
+		plurality = -2
 	}
 }
 
@@ -683,6 +695,10 @@ acquire_state = {
 			value = 0.25
 		}
 	}
+	
+	on_po_accepted = {
+		plurality = -2
+	}
 }
 
 # Place in the Sun
@@ -738,6 +754,10 @@ place_in_the_sun = {
 			value = 0.25
 		}
 	}
+	
+	on_po_accepted = {
+		plurality = -2
+	}
 }
 
 # Colonial competition
@@ -772,6 +792,10 @@ colonial_competition = {
 			to = pro_military
 			value = 0.25
 		}
+	}
+	
+	on_po_accepted = {
+		plurality = -2
 	}
 }
 
@@ -852,6 +876,10 @@ cut_down_to_size_boxer = {
 			to = pro_military
 			value = 0.25
 		}
+	}
+	
+	on_po_accepted = {
+		plurality = -5
 	}
 }
 
@@ -1171,6 +1199,10 @@ make_puppet = {
 			value = 0.25
 		}
 	}
+	
+	on_po_accepted = {
+		plurality = -5
+	}
 }
 
 # Become Independent
@@ -1234,6 +1266,10 @@ become_independent = {
 		leave_alliance = FROM
 		release_vassal = THIS
 	}
+	
+	on_po_accepted = {
+		plurality = -2
+	}
 }
 
 
@@ -1273,6 +1309,10 @@ humiliate = {
 			to = pro_military
 			value = 0.25
 		}
+	}
+	
+	on_po_accepted = {
+		plurality = -2
 	}
 }
 
@@ -1326,6 +1366,10 @@ demand_concession_casus_belli = {
 			to = pro_military
 			value = 0.1
 		}
+	}
+	
+	on_po_accepted = {
+		plurality = -2
 	}
 }
 
@@ -1386,6 +1430,10 @@ establish_protectorate_casus_belli = {
 			value = 0.1
 		}
 	}
+	
+	on_po_accepted = {
+		plurality = -2
+	}
 }
 
 # Unification Humiliate
@@ -1436,6 +1484,10 @@ unification_humiliate_cb = {
 			to = pro_military
 			value = 0.1
 		}
+	}
+	
+	on_po_accepted = {
+		plurality = -5
 	}
 }
 
@@ -1495,6 +1547,10 @@ unification_release_puppet_cb = {
 			to = pro_military
 			value = 0.25
 		}
+	}
+	
+	on_po_accepted = {
+		plurality = -2
 	}
 }
 
@@ -1564,6 +1620,10 @@ unification_casus_belli = {
 			to = pro_military
 			value = 0.1
 		}
+	}
+	
+	on_po_accepted = {
+		plurality = -2
 	}
 }
 
@@ -1666,6 +1726,10 @@ rude_boy = {
 			to = pro_military
 			value = 0.1
 		}
+	}
+	
+	on_po_accepted = {
+		plurality = -5
 	}
 }
 
@@ -1836,6 +1900,10 @@ great_war_penalty_cb = {
 			value = 0.25
 		}
 	}
+	
+	on_po_accepted = {
+		plurality = -2
+	}
 }
 
 #Negotiated Transfer
@@ -1894,6 +1962,7 @@ conquest_low = {
 	
 	can_use = {
 		NOT = {	total_pops = 400000 }
+		total_pops = 145000
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
@@ -2083,6 +2152,10 @@ take_capital = {
 			value = 0.25
 		}
 	}
+	
+	on_po_accepted = {
+		plurality = -10
+	}
 }
 
 # War Reparations
@@ -2126,6 +2199,10 @@ war_reparations = {
 			to = pro_military
 			value = 0.25
 		}
+	}
+	
+	on_po_accepted = {
+		plurality = -2
 	}
 }
 
@@ -2227,6 +2304,10 @@ treaty_port_casus_belli = {
 			THIS = { add_country_modifier = { name = negotiating_treaty duration = 30 } }
 		}
 	}
+	
+	on_po_accepted = {
+		plurality = -5
+	}
 }
 
 demand_concession_capital = {
@@ -2291,6 +2372,10 @@ demand_concession_capital = {
 			to = pro_military
 			value = 0.25
 		}
+	}
+	
+	on_po_accepted = {
+		plurality = -10
 	}
 }
 3_way_transfer = {
@@ -2442,6 +2527,10 @@ make_puppet_large = {
 			value = 0.25
 		}
 	}
+	
+	on_po_accepted = {
+		plurality = -10
+	}
 }
 
 # Make Puppet Small
@@ -2494,6 +2583,10 @@ make_puppet_small = {
 			value = 0.25
 		}
 	}
+	
+	on_po_accepted = {
+		plurality = -10
+	}
 }
 
 polish_unification_cb = {
@@ -2537,6 +2630,10 @@ polish_unification_cb = {
     on_add = {
     }
 
+	on_po_accepted = {
+		plurality = -3
+	}
+	
    po_make_puppet = yes
    po_add_to_sphere = yes
 }
@@ -2645,5 +2742,9 @@ imperial_liberation = {
 			to = pro_military
 			value = 0.25
 		}
+	}
+	
+	on_po_accepted = {
+		plurality = -3
 	}
 }

@@ -1,14 +1,42 @@
 ;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;\
+CIR;Zichia;x
+CIR_ADJ;Zichian;x 
+HJI;Hadejia ;x
+HJI_ADJ;Hadejian;x 
+HKN;Kano;x
+HKN_ADJ;Kano;x 
+HKT;Katsina;x
+HKT_ADJ;Katsinan;x 
+HZF;Zamfara;x
+HZF_ADJ;Zamfaran;x 
+HZZ;Zazzau;x
+HZZ_ADJ;Zazzaun;x 
+HDR;Daura;x
+HDR_ADJ;Dauran;x 
+HRO;Rano;x
+HRO_ADJ;Rano;x 
+GBR;Gobir;x
+GBR_ADJ;Gobiri;x 
+KJJ;Kel Ajjer;x
+KJJ_ADJ;Kel Ajjer;x 
+KDG;Kel Adagh;x
+KDG_ADJ;Kel Adagh;x 
+KIR;Kel Air;x 
+KIR_ADJ;Kel Air;x  
+TUA;Kel Ahaggar;x 
+TUA_ADJ;Kel Ahaggar;x  
+CPL;Malopolska ;x
+CPL_ADJ;Malopolskan;x 
 SDZ;Sandomierz;x
 SDZ_ADJ;Sandomierz;x 
-ZWB;Zweibrücken;x
-ZWB_ADJ;Zweibrücken;x 
+ZWB;Zweibrucken;x
+ZWB_ADJ;Zweibrucken;x 
 ABG;Arnsberg;x
 ABG_ADJ;Arnsberg;x 
 KTZ;Katzenelnbogen;x
 KTZ_ADJ;Katzenelnbogen;x 
-PUM;Prüm;x
-PUM_ADJ;Prüm;x 
+PUM;Prum;x
+PUM_ADJ;Prum;x 
 TKL;Tecklenburg;x
 TKL_ADJ;Tecklenburg;x 
 BNH;Bentheim;x
@@ -41,8 +69,8 @@ DNG;Dannenberg;x
 DNG_ADJ;Dannenberg;x 
 SPO;Sponheim;x
 SPO_ADJ;Sponheim;x 
-JUL;Jülich;x
-JUL_ADJ;Jülich;x 
+JUL;Julich;x
+JUL_ADJ;Julich;x 
 GTG;Gottingen;x
 GTG_ADJ;Gottingen;x 
 RGN;Rugen;x 
@@ -503,13 +531,13 @@ MNK;Minsk;x
 MNK_ADJ;Minskian;x
 CHY;Durdzuketi;x                                 
 CHY_ADJ;Durdzuketian;x
-PZN;Greater Poland;x                                 
-PZN_ADJ;Polish;x
+PZN;Wielkopolska;x                                 
+PZN_ADJ;Wielkopolskan;x
 KRA;Duchy of Krakow;x                                 
 KRA_ADJ;Krakowian;x
 PRU;Pruthenia;x                                 
 PRU_ADJ;Pruthenian;x
-POL;Kingdom of Poland;x                                 
+POL;Crown of Poland;x                                 
 POL_ADJ;Polish;x
 BSQ;Navarre;x                                 
 BSQ_ADJ;Navarre;x
@@ -891,8 +919,8 @@ ASK;Ashikaga;x
 ASK_ADJ;Ashikaga;x
 CBO;Cirebon;x;
 CBO_ADJ;Cirebonese;x
-CHA;Champa;x
-CHA_ADJ;Champan;x
+CHP;Champa;x
+CHP_ADJ;Champan;x 
 MLC;Malacca;x
 MLC_ADJ;Malaccan;x
 PAT;Langkasuka;x #Pattani
@@ -1005,8 +1033,8 @@ WRZ;Wurzburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 WRZ_ADJ;Wurzburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EFR;East Frisia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EFR_ADJ;East Frisian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-GBR;Great Britain;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-GBR_ADJ;British;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+#GBR;Great Britain;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+#GBR_ADJ;British;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 NNN;Holy Roman Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 NNN_ADJ;Imperial;;;;;;;;;;;;;;;;;;;;;;;x;;;
 RAV;Ravensburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;

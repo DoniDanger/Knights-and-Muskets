@@ -1,0 +1,192 @@
+###DENMARK###
+country_event = {
+	id = 141000
+	title = "Kidnapping of King Valdemar"
+	desc = "141000_DESC"
+	major = yes
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = DEN
+		month = 5
+		year = 1223
+	}
+
+	option = {
+	    name = "The army will put down this rebellion."
+		release_vassal = HOL
+		leave_alliance = HOL
+		release_vassal = SCW
+		leave_alliance = SCW
+		release_vassal = LUB
+		leave_alliance = LUB
+		release_vassal = MEC
+		leave_alliance = MEC
+		HOL = {
+			create_alliance = SCW
+			create_alliance = LUB
+			create_alliance = MEC
+		}
+		casus_belli = {
+            target = HOL
+            type = make_puppet
+            months = 60
+        }
+		war = {
+            target = HOL
+            attacker_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = cut_down_to_size  }
+			call_ally = yes
+        }
+		set_country_flag = kidnapping_of_valdemar
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "We must abandon our gains in Pommerania."
+		prestige = -15
+		release_vassal = HOL
+		leave_alliance = HOL
+		release_vassal = SCW
+		leave_alliance = SCW
+		release_vassal = LUB
+		leave_alliance = LUB
+		release_vassal = MEC
+		leave_alliance = MEC
+		release_vassal = POM
+		leave_alliance = POM
+		set_global_flag = battle_of_bornhoved
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 141001
+	title = "Collapse of the German Rebels"
+	desc = "141001_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = DEN
+		OR = {
+			owns = 369
+			HOL = { vassal_of = THIS }
+		}
+		has_country_flag = kidnapping_of_valdemar 
+		NOT = { has_global_flag = battle_of_bornhoved }
+	}
+
+	option = {
+	    name = "The princes will be punished for this treachery."
+		any_country = {
+                limit = {
+                    exists = yes
+					war = no
+					OR = {
+						tag = LUB 
+						tag = SCW 
+						tag = MEC 
+						tag = HOL 
+					}
+                }
+                country_event = { id = 141002 days = 1 }
+            }
+		any_country = {
+                limit = {
+                    exists = yes
+					war = yes
+					NOT = { vassal_of = THIS }
+					OR = {
+						tag = LUB 
+						tag = SCW 
+						tag = MEC 
+						tag = HOL 
+					}
+                }
+                country_event = { id = 134001 days = 1 }
+            }
+		prestige = 15
+		set_country_flag = kidnapping_of_valdemar
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 141002
+	title = "Submission to Valdemar"
+	desc = "141002_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "We have no choice but to serve as vassals of Valdemar."
+		FROM = { create_vasssal = THIS }
+		FROM = { relation = { who = THIS value = 200 }}
+		FROM = { diplomatic_influence = { who = THIS value = 400 } }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+
+    id = 141003
+    title = "Battle of Bornhoved"
+	desc = "141003_DESC"
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		tag = DEN
+		OR = {
+			is_disarmed = yes 
+			AND = {
+				war = no
+				NOT = { owns = 369 }
+				NOT = { HOL = { vassal_of = THIS }}
+			}
+		}
+		has_country_flag = kidnapping_of_valdemar 
+		NOT = { has_global_flag = battle_of_bornhoved }
+	}
+	
+    option = {
+        name = "Our position in Northern Germany has crumbled."
+		prestige = -15
+		release_vassal = HOL
+		leave_alliance = HOL
+		release_vassal = SCW
+		leave_alliance = SCW
+		release_vassal = LUB
+		leave_alliance = LUB
+		release_vassal = MEC
+		leave_alliance = MEC
+		release_vassal = POM
+		leave_alliance = POM
+		set_global_flag = battle_of_bornhoved
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+	id = 141004
+	title = "Valdemar Demands Submission"
+	desc = "141004_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "He'll have to crush us first."
+		FROM = { 
+			casus_belli = {
+				target = THIS
+				type = make_puppet
+				months = 72
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+}
