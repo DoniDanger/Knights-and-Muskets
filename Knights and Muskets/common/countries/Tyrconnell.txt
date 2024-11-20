@@ -1,4 +1,4 @@
-color = { 25 190 31 }
+color = { 75 188 109 }
 #color = { 179 89 89 }
 graphical_culture = Generic
 

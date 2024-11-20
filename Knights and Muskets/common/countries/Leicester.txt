@@ -1,5 +1,5 @@
 #color = { 79 113 174 }
-color = { 255 85 10 }
+color = { 255 119 81 }
 graphical_culture = BritishGC
 
 party = {
