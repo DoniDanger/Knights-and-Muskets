@@ -211,15 +211,14 @@ nepotism_allowed;§YCan Take The "Nepotism" Career Progress Reform§!;x
 skill_and_merit_allowed;§YCan Take The "Based On Skill and Merit" Career Progress Reform§!;x
 pm_militarist;Militarist\n§WIncreases Jingoism Popularity§!\n§WSligthly Increases Soldier Promotion§!;;;;;;;;;;;;;
 pm_gentry;Gentry\n§WIncreases Aristocrat Promotion (If Monarchy)\nMore Pop Types Can Promote to Aristocrat (If Monarchy)\nSlightly Increases Clerk Promotion\nSlightly Increases Craftsmen Promotion§!;;;;;;;;;;;;;
-pm_nobleman;Nobleman\n§WDecreases Rebel Spawn chance\nIncreases Aristocrat Promotion\nIncreases §YTraditionalist§! Ideology in Pops§!;;;;;;;;;;;;;
+pm_nobleman;Nobleman\n§WDecreases Rebel Spawn chance\nIncreases Aristocrat Promotion\nIncreases §YNobility§! Support in Pops§!;;;;;;;;;;;;;
 pm_reformists;Reformist\n§WIncrease §YParlamentarian§! Ideology in Pops§!;;;;;;;;;;;;;
 pm_clergyman;Clergyman\n§WMajorly Decreases Rebel Spawn Chance§!\n§WMajorly Increases Pop Conversion Chance§!;;;;;;;;;;;;;
-pm_no_minister;§R[-]§!;;;;;;;;;;;;;
-POLITICS_NATIONALVALUE_TOOLTIP;Our Leading Minister is a §Y$NATIONALVALUE$§!\n;;;;;;;;;;;x
-LEDGER_COUNTRY_NATIONALVALUE;Leading Minister;;;;;;;;;;;x
-NOT_HAS_NATIONAL_VALUE;Leading Minister is NOT a §Y$NATIONALVALUE$§!.;;;;;;;;;;;x
-CHANGE_NATIONALVALUE;Our Newly Appointed Leading Minister will be a §Y$NATIONALVALUE$§!.\n;;;;;;;;;;;x
-HAS_NATIONAL_VALUE;Leading Minister is a §Y$NATIONALVALUE$§!.;;;;;;;;;;;x
+POLITICS_NATIONALVALUE_TOOLTIP;Our Leading Advisor is a §Y$NATIONALVALUE$§!\n;;;;;;;;;;;x
+LEDGER_COUNTRY_NATIONALVALUE;Leading Advisor;;;;;;;;;;;x
+NOT_HAS_NATIONAL_VALUE;Leading Advisor is NOT a §Y$NATIONALVALUE$§!.;;;;;;;;;;;x
+CHANGE_NATIONALVALUE;Our Newly Appointed Leading Advisor will be a §Y$NATIONALVALUE$§!.\n;;;;;;;;;;;x
+HAS_NATIONAL_VALUE;Leading Advisor is a §Y$NATIONALVALUE$§!.;;;;;;;;;;;x
 upper_house_composition;§YHead Of State§!;;;;;;;;;;;x
 appointed;Non-despotic Executive;;;;;;;;;;;x
 appointed_desc;Our Head Of State is accountable to the Parliment, but still retains influence on our politics;;;;;;;;;;;x
@@ -440,7 +439,7 @@ elective_monarchy_oligarchy;Elective Monarchy;;;;;;;;;x;;;;
 theocracy;Theocracy;;;;;;;;;x;;;;
 oligarchic_republic;Oligarchic Republic;;;;;;;;;x;;;;
 khanate;Khanate;;;;;;;;;x;;;;
-feudal_monarchy_ruler;Your Lord;x;
+feudal_monarchy_ruler;My Lord;x;
 revolutionary_republic_ruler;Your Excellency;x;
 khanate_ruler;The Khan;x;
 parliamentary_monarchy_ruler;Your Majesty;x;
@@ -486,9 +485,27 @@ heretic_rebels_title;Heretic;x;
 heretic_rebels_name;$RELIGION$ Heretics;x;
 heretic_rebels_desc;Heretics oppressed for their faith, they seek freedom from religious discrimination.;x;
 heretic_rebels_army;$COUNTRY_ADJ$ Heretic Army;x;
+plurality;Crown Legitimacy;x;
 PLURALITY_CHANGE;Legitimacy Gain;x;
 PLURALITY_EFFECT;$DIRECTION$ $VALUE$ Crown Legitimacy.\n;x;
 PLURALITY_EXPLANATION;"Crown Legitimacy" represents the level of political control and respect the executive commands, affecting the nation's overall efficiency and potential for unrest or revolt. Losing wars or upsetting the nobility will lower legitimacy.;x;
 NOT_PLURALITY_TR;Crown Legitimacy is lower than §Y$VAL$§W.\n;x;
 POLITICS_PLURALITY_TOOLTIP;Our legitimacy is $PERCENT$%.\n;x;
 TECH_PLURALITY;Crown Legitimacy;x;
+pm_alderman;Alderman;x;
+pm_justiciar;Justiciar;x;
+pm_artist;Artist;x;
+pm_philosopher;Philosopher;x;
+pm_merchant;Merchant;x;
+pm_burgher;Burgher;x;
+pm_spymaster;Spymaster;x;
+pm_diplomat;Diplomat;x;
+pm_nobleman;Nobleman;x;
+pm_marshal;Marshal;x;
+pm_clergyman;Clergyman;x;
+pm_theologian;Theologian;x;
+pm_no_minister;Unemployed;x;
+NORMAL_POLISH_UNIFICATION_WAR_NAME;$ORDER$$FIRST$ Reunification War;x;
+NORMAL_WAR_IMPERIAL_FREE_NAME;$ORDER$ Imperial Liberation of $COUNTRY_ADJ$;x;
+NORMAL_WAR_CATHAR_CRUSADE_NAME;$ORDER$ Albigensian Crusade;x;
+NORMAL_WAR_CATHAR_RECLAMATION_NAME;$ORDER$ Cathar Reclamation;x;

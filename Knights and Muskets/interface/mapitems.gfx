@@ -125,6 +125,16 @@ objectTypes = {
 		scale = 2.5
 	}
 	
+	EMFXActorType = {
+		name = "capital2"
+		actorfile = "gfx\anims\Capital.xac"
+		
+		idle   = "gfx\anims\Static.xsm"
+		use_animation = no
+		
+		scale = 3.0
+	}
+	
 	billboardType = {
 		name = "national_focus"
 		textureFile = "gfx\\interface\\province_natfocus_strip.dds"

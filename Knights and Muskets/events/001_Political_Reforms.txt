@@ -100,3 +100,41 @@ country_event = {
 		ai_chance = { factor = 33 } 
 	}	
 }
+
+country_event = {
+	
+	id = 110002
+	title = "New Army Doctrine"	
+	desc = "Reform your levy system."	
+	is_triggered_only = yes		
+	allow_multiple_instances = yes	
+
+	option = {
+		name = "An army centered around the nobility."
+		add_country_modifier = {
+			name = hre_member
+			duration = 1825
+		}
+		add_country_modifier = {
+			name = catholic_nation
+			duration = 1825
+		}
+		add_country_modifier = {
+			name = read_maxx
+			duration = 1825
+		}
+		add_country_modifier = {
+			name = read_bad
+			duration = 1825
+		}
+		add_country_modifier = {
+			name = scroll_max
+			duration = 1825
+		}
+		add_country_modifier = {
+			name = scroll_bad
+			duration = 3650
+		}
+		ai_chance = { factor = 33 } 
+	}	
+}

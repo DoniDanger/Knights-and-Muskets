@@ -5724,73 +5724,73 @@
 695 = {
 	aristocrats = {
 		culture = pruthenian
-		religion = catholic
+		religion = paganism
 		size = 2250 
 	}
 
 	bureaucrats = {
 		culture = pruthenian
-		religion = catholic
+		religion = paganism
 		size = 1300
 	}
 
 	officers = {
 		culture = pruthenian
-		religion = catholic
+		religion = paganism
 		size = 250  
 	}
 
 	clergymen = {
 		culture = pruthenian
-		religion = catholic
+		religion = paganism
 		size = 825  
 	}
 
 	artisans = {
 		culture = pruthenian
-		religion = catholic
+		religion = paganism
 		size = 10000
 	}
 
 	artisans = {
 		culture = pruthenian
-		religion = catholic
+		religion = paganism
 		size = 5000
 	}
 
 	soldiers = {
 		culture = pruthenian
-		religion = catholic
+		religion = paganism
 		size = 3000
 	}
 
 	farmers = {
 		culture = pruthenian
-		religion = catholic
+		religion = paganism
 		size = 38740
 	}
 
 	clergymen = {
 		culture = pruthenian
-		religion = catholic
+		religion = paganism
 		size = 175   
 	}
 
 	artisans = {
 		culture = pruthenian
-		religion = catholic
+		religion = paganism
 		size = 1100
 	}
 
 	soldiers = {
 		culture = pruthenian
-		religion = catholic
+		religion = paganism
 		size = 1000
 	}
 
 	farmers = {
 		culture = pruthenian
-		religion = catholic
+		religion = paganism
 		size = 13520
 	}
 

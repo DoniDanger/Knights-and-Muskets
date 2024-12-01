@@ -86,6 +86,9 @@ negotiated_transfer
 seperate_truce
 polish_unification_cb
 imperial_liberation
+mongol_conquer_china
+cathar_crusade
+cathar_reclamation
 }
 
 gunboat = {
@@ -255,7 +258,7 @@ conquest_any = {
 
     po_annex = yes
 
-    war_name = WAR_CONQUEST_ANY_NAME
+    war_name = WAR_CONQUEST_NAME
 
     on_add = {
 		move_issue_percentage = { 
@@ -2590,13 +2593,13 @@ make_puppet_small = {
 }
 
 polish_unification_cb = {
-    sprite_index = 10
+    sprite_index = 33
     is_triggered_only = yes
     months = 12
 
     badboy_factor = 0
     prestige_factor = 1
-    peace_cost_factor = 80
+    peace_cost_factor = 60
     penalty_factor = 0
     constructing_cb = no
     crisis = no
@@ -2634,8 +2637,7 @@ polish_unification_cb = {
 		plurality = -3
 	}
 	
-   po_make_puppet = yes
-   po_add_to_sphere = yes
+   po_annex = yes
 }
 
 # Imperial Liberation
@@ -2734,7 +2736,7 @@ imperial_liberation = {
 
 	po_transfer_provinces = yes
 
-	war_name = WAR_FREE_NAME
+	war_name = WAR_IMPERIAL_FREE_NAME
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -2746,5 +2748,173 @@ imperial_liberation = {
 	
 	on_po_accepted = {
 		plurality = -3
+	}
+}
+
+mongol_conquer_china = {
+    sprite_index = 19
+    is_triggered_only = yes
+    months = 12
+
+    construction_speed = 0.8
+
+    badboy_factor = 0
+    prestige_factor = 2
+    peace_cost_factor = 0.02
+    penalty_factor = 1
+    always = yes
+
+    break_truce_prestige_factor = 5
+    break_truce_infamy_factor = 2
+    break_truce_militancy_factor = 2
+    truce_months = 48
+
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    can_use = {
+        NOT = { is_our_vassal = THIS }
+        THIS = {
+            OR = {
+                primary_culture = mongol
+                primary_culture = oirat
+            }
+            #is_culture_group = east_asian
+        }
+		any_neighbor_province = {
+				is_core = CHI
+			}
+        any_owned_province = {
+            is_core = CHI
+        }
+        NOT = { has_country_modifier = neutrality }
+        NOT = { in_sphere = THIS }
+        THIS = { NOT = { has_country_modifier = neutrality } }
+        THIS = { NOT = { has_country_modifier = punitive_effects } }
+        THIS = {
+            NOT = {
+                has_country_flag = in_great_war
+                has_country_modifier = no_more_war
+            }
+        }
+    }
+
+    allowed_states = {
+        any_owned_province = {
+            is_core = CHI
+        }
+    }
+
+    po_demand_state = yes
+	po_gunboat = yes
+
+    war_name = WAR_CHINA_REUNIFICATION
+
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.25
+        }
+    }
+}
+
+## Cathar Crusade ##
+cathar_crusade = {
+	sprite_index = 38
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	always = no
+	
+	badboy_factor = 0.0
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		is_greater_power = no
+		is_vassal = no
+		tag = OCC
+	}
+	
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	#allowed_countries = {
+	#	NOT = { is_our_vassal = FROM }
+		#FROM = { is_substate = no }
+	#}
+	
+	po_make_puppet = yes
+	po_add_to_sphere = yes
+
+	war_name = WAR_CATHAR_CRUSADE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	on_po_accepted = {
+		plurality = -5
+		set_global_flag = albigensian_crusade_successful
+	}
+}
+
+cathar_reclamation = {
+	sprite_index = 36
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	badboy_factor = 0
+	prestige_factor = 5
+	peace_cost_factor = 0.7
+	penalty_factor = 1
+	always = yes
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		any_owned_province = {
+			is_core = THIS
+		}
+		tag = CRC
+	}
+
+	po_annex = yes
+	
+	war_name = WAR_CATHAR_RECLAMATION_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
 	}
 }

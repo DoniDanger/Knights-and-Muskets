@@ -866,8 +866,29 @@ almohad_anarchy = {
 	icon = 8
 }
 hired_mercenary_company = {
-	icon = 8
+	icon = 45
 }
 mercenary_hiring_cooldown = {
+	icon = 46
+}
+advisor_recently_hired = {
 	icon = 8
+}
+hre_member = {
+	icon = 43
+}
+catholic_nation = {
+	icon = 44
+}
+read_maxx = {
+	icon = 24
+}
+read_bad = {
+	icon = 25
+}
+scroll_max = {
+	icon = 26
+}
+scroll_bad = {
+	icon = 27
 }

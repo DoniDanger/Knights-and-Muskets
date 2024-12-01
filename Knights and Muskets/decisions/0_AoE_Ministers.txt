@@ -1,0 +1,186 @@
+political_decisions = {
+	dismiss_lead_pm_tier1 = {
+		picture = ministers
+		potential = {
+			NOT = { nationalvalue = pm_no_minister }
+			NOT = { trade_unions = non_socialist }
+		}
+		allow = {
+			exists = yes
+			prestige = 10
+		}
+		effect = {
+			remove_country_modifier = advisor_recently_hired
+			nationalvalue = pm_no_minister
+			any_pop = { 
+				limit = { 
+					strata = rich
+				}
+				militancy = 2 
+				consciousness = 3
+			}
+			random_owned = {
+				limit = {
+					owner = {
+					NOT = { average_militancy = 2 }
+					}
+				}
+				owner = {
+					prestige = -20
+					any_pop = { consciousness = 3 }
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { average_militancy = 3 }
+						average_militancy = 2
+					}
+				}
+				owner = {
+					prestige = -15
+					any_pop = { consciousness = 2 }
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { average_militancy = 4 }
+						average_militancy = 3
+					}
+				}
+				owner = {
+					prestige = -10
+					any_pop = { consciousness = 1 }
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { average_militancy = 5 }
+						average_militancy = 4
+					}
+				}
+				owner = {
+					prestige = -10
+					any_pop = { militancy = -1 }
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	dismiss_lead_pm_tier2 = {
+		picture = ministers
+		potential = {
+			NOT = { nationalvalue = pm_no_minister }
+			trade_unions = non_socialist
+		}
+		allow = {
+			exists = yes
+			prestige = 20
+		}
+		effect = {
+			remove_country_modifier = advisor_recently_hired
+			nationalvalue = pm_no_minister
+			any_pop = { 
+				limit = { 
+					strata = rich
+				}
+				militancy = 3 
+				consciousness = 4
+			}
+			any_pop = { 
+				limit = { 
+					strata = middle
+				}
+				militancy = 2 
+				consciousness = 3
+			}
+			random_owned = {
+				limit = {
+					owner = {
+					NOT = { average_militancy = 2 }
+					}
+				}
+				owner = {
+					prestige = -20
+					any_pop = { consciousness = 3 }
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { average_militancy = 3 }
+						average_militancy = 2
+					}
+				}
+				owner = {
+					prestige = -15
+					any_pop = { consciousness = 2 }
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { average_militancy = 4 }
+						average_militancy = 3
+					}
+				}
+				owner = {
+					prestige = -10
+					any_pop = { consciousness = 1 }
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { average_militancy = 5 }
+						average_militancy = 4
+					}
+				}
+				owner = {
+					prestige = -10
+					any_pop = { militancy = -1 }
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	appoint_lead_pm_tier1 = {
+		picture = ministers
+		potential = {
+			nationalvalue = pm_no_minister
+			trade_unions = state_controlled
+			NOT = { has_country_flag = choosing_minister }
+		}
+		allow = {
+			exists = yes
+			NOT = { has_country_modifier = advisor_recently_hired }
+		}
+		effect = {
+			country_event = 170217
+			set_country_flag = choosing_minister
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	appoint_lead_pm_tier2 = {
+		picture = ministers
+		potential = {
+			nationalvalue = pm_no_minister
+			trade_unions = non_socialist
+			NOT = { has_country_flag = choosing_minister }
+		}
+		allow = {
+			exists = yes
+			NOT = { has_country_modifier = advisor_recently_hired }
+		}
+		effect = {
+			country_event = 170220
+			set_country_flag = choosing_minister
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

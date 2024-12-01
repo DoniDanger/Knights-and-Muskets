@@ -19,8 +19,8 @@ country_event = {
 		prestige = 5
 		war = {
             target = CRC
-            attacker_goal = { casus_belli = civil_war  }
-            defender_goal = { casus_belli = civil_war  }
+            attacker_goal = { casus_belli = cathar_reclamation  }
+            defender_goal = { casus_belli = conquest_any  }
         }
 		set_country_flag = the_cathar_reclamation
 		ai_chance = { factor = 90 }

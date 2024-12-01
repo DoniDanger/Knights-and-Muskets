@@ -1,44 +1,110 @@
-nv_order = {
+pm_alderman = {
 	mobilisation_size = 0.01
-	mobilisation_economy_impact = 1.0
+	issue_change_speed = 0.05
+	social_reform_desire = 0.1
+	political_reform_desire = 0.1
+	administrative_efficiency_modifier = 0.1
 }
 
-nv_liberty = {
-	mobilisation_size = 0.01
-	mobilisation_economy_impact = 0.75
-}
-
-nv_equality = {
-	mobilisation_size = 0.01
-	mobilisation_economy_impact = 1.25
-}
-
-pm_militarist = {
-	min_military_spending = 0.2
-	mobilisation_size = 0.01
-}
-
-pm_gentry = {
-	min_social_spending = 0.2
-	mobilisation_size = 0.01
-}
-
-pm_nobleman = {
-	mobilisation_size = 0.01
-}
-
-pm_reformists = {
+pm_justiciar = {
 	issue_change_speed = 0.10
 	social_reform_desire = 0.15
 	political_reform_desire = 0.15
+	administrative_efficiency_modifier = 0.2
+	mobilisation_size = 0.015
+}
+
+pm_artist = {
 	mobilisation_size = 0.01
+	min_social_spending = 0.1
+	research_points_modifier = 0.1
+	culture_tech_research_bonus = 0.05
+	prestige = 0.001
+}
+
+pm_philosopher = {
+	min_social_spending = 0.2
+	research_points_modifier = 0.2
+	prestige = 0.002
+	culture_tech_research_bonus = 0.1
+	mobilisation_size = 0.015
+}
+
+pm_merchant = {
+	mobilisation_size = 0.01
+	tax_efficiency = 0.025
+	factory_input = -0.05
+	factory_output = 0.15
+	min_tariff = 0.15
+}
+
+pm_burgher = {
+	mobilisation_size = 0.015
+	tax_efficiency = 0.05
+	factory_input = -0.05
+	factory_output = 0.2
+	commerce_tech_research_bonus = 0.05
+	industry_tech_research_bonus = 0.05
+	min_tariff = 0.25
+}
+
+pm_spymaster = {
+	cb_generation_speed_modifier = 0.1
+	suppression_points_modifier = 0.2
+	diplomatic_points_modifier = 1.5
+	influence_modifier = 0.25
+	badboy = -0.02
+	mobilisation_size = 0.01
+}
+
+pm_diplomat = {
+	mobilisation_size = 0.015
+	diplomatic_points_modifier = 2
+	cb_generation_speed_modifier = 0.2
+	suppression_points_modifier = 0.1
+	influence_modifier = 0.5
+	badboy = -0.05
+}
+
+pm_nobleman = {
+	mobilisation_size = 0.015
+	min_military_spending = 0.15
+	mobilisation_economy_impact = 0.95
+	leadership_modifier = 1
+	org_regain = 0.05
+}
+
+pm_marshal = {
+	min_military_spending = 0.25
+	mobilisation_economy_impact = 0.9
+	supply_consumption = -0.05
+	org_regain = 0.1
+	leadership_modifier = 1.2
+	army_tech_research_bonus = 0.05
+	mobilisation_size = 0.02
 }
 
 pm_clergyman = {
 	global_pop_consciousness_modifier = 0.01
+	education_efficiency_modifier = 0.1
+	culture_tech_research_bonus = 0.025
 	mobilisation_size = 0.01
+}
+
+pm_theologian = {
+	mobilisation_size = 0.015
+	education_efficiency_modifier = 0.2
+	culture_tech_research_bonus = 0.05
 }
 
 pm_no_minister = {
 	mobilisation_size = 0.01
 }
+
+### NV Upgrades:
+# Artist --> Philosopher
+# Spymaster --> Diplomat
+# Clergyman --> Theologian
+# Nobleman --> Marshal
+# Alderman --> Justiciar
+# Merchant --> Burgher
