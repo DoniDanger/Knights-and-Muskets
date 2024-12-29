@@ -296,16 +296,6 @@ BRT_liberal;Strollad Liberal;;;;;;;;;;;;;x
 BRT_anarcho_liberal;Strollad Radical;;;;;;;;;;;;;x
 BRT_conservative;Strollad Mirour;;;;;;;;;;;;;x
 BRU_ADJ;Bruneian;;;;;;;;;;;;;x
-BSQ;Vasconia;;;;;;;;;;;;;x
-BSQ_ADJ;Basque;;;;;;;;;;;;;x
-BSQ_socialist;Abertzale Ekintza;;;;;;;;;;;;;x
-BSQ_conservative;Alderdi Jeltzalea;;;;;;;;;;;;;x
-BSQ_liberal;Alderdi Abertzale Errepublikanoa;;;;;;;;;;;;;x
-BSQ_reactionary;Alderdi Monarkiko;;;;;;;;;;;;;x
-BSQ_communist;Mugimendu Komunista;;;;;;;;;;;;;x
-BSQ_fascist;Euskadi Ta Askatasuna;;;;;;;;;;;;;x
-BSQ_anarcho_liberal;Alderdi Anarkiazale;;;;;;;;;;;;;x
-BSQ_fascist_dictatorship;Euskadi;;;;;;;;;;;;;x
 CAR;Central African Republic;;;;;;;;;;;;x
 CAR_ADJ;Central African;;;;;;;;;;;;x
 CAR_fascist_dictatorship;Central African Empire;;;;;;;;;;;;x
@@ -363,15 +353,6 @@ CSA_fascist_dictatorship;The Confederate States of America;;;;;;;;;;;;x
 CSA_absolute_monarchy;The Imperial Confederacy;;;;;;;;;;;;x
 CSA_prussian_constitutionalism;The Imperial Confederacy;;;;;;;;;;;;x
 CSA_proletarian_dictatorship;The People's Confederacy;;;;;;;;;;;;x
-CYR;Cyrenaica;;;;;;;;;;;;x
-CYR_ADJ;Cyrenaican;;;;;;;;;;;;x
-CYR_conservative;Royal Faction;;;;;;;;;;;;x
-CYR_liberal;The Liberal Faction;;;;;;;;;;;;x
-CYR_reactionary;The Nationalist Faction;;;;;;;;;;;;x
-CYR_anarcho_liberal;The Radical Faction;;;;;;;;;;;;x
-CYR_socialist;The Socialist Faction;;;;;;;;;;;;x
-CYR_communist;The Communist Faction;;;;;;;;;;;;x
-CYR_fascist;The Fascist Faction;;;;;;;;;;;;x
 DAK;Dakota Republic;;;;;;;;;;;;x;;;
 DAK_ADJ;Dakotan;;;;;;;;;;;;x;;;
 DAK_absolute_monarchy;Dakota Commonwealth;;;;;;;;;;;;x;

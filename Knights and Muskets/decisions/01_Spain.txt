@@ -1,0 +1,204 @@
+political_decisions = {
+	unite_leon_castille = {
+		potential = {
+			tag = CST
+			NOT = { has_global_flag = union_leon_castille }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					LEO = { exists = no }
+					LEO = { all_core = { owned_by = THIS }}
+				}
+				LEO = { vassal_of = THIS war = no }
+				LEO = { in_sphere = THIS }
+			}
+			war = no
+		}
+		
+		effect = {
+			inherit = LEO
+			LEO = { all_core = { add_core = THIS }}
+			add_accepted_culture = asturleonese
+			set_global_flag = union_leon_castille
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	castille_integrate_galicia = {
+		potential = {
+			tag = CST
+			has_global_flag = union_leon_castille
+			NOT = { has_country_flag = castille_integrated_galicia }
+		}
+		
+		allow = {
+			year = 1251
+			OR = {
+				AND = {
+					GLC = { exists = no }
+					GLC = { all_core = { owned_by = THIS }}
+				}
+				AND = {
+					GLC = { vassal_of = THIS war = no }
+				}
+			}
+			war = no
+		}
+		
+		effect = {
+			inherit = GLC
+			GLC = { all_core = { add_core = THIS }}
+			add_accepted_culture = galician
+			set_country_flag = castille_integrated_galicia
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	castille_integrate_toledo = {
+		potential = {
+			tag = CST
+			has_global_flag = union_leon_castille
+			NOT = { has_country_flag = castille_integrated_toledo }
+		}
+		
+		allow = {
+			owns = 516
+			owns = 510
+			owns = 484
+			owns = 508
+			OR = {
+				AND = {
+					TOL = { exists = no }
+					TOL = { all_core = { owned_by = THIS }}
+				}
+				TOL = { vassal_of = THIS war = no }
+				TOL = { in_sphere = THIS }
+			}
+			war = no
+		}
+		
+		effect = {
+			inherit = TOL
+			TOL = { all_core = { add_core = THIS }}
+			set_country_flag = castille_integrated_toledo
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	establish_reynos_del_andalusia = {
+		potential = {
+			tag = CST
+			has_global_flag = union_leon_castille
+			NOT = { has_country_flag = established_reynos_del_andalusia }
+		}
+		
+		allow = {
+			war = no
+			owns = 484
+			OR = {
+				AND = {
+					SEV = { exists = no }
+					SEV = { all_core = { owned_by = THIS }}
+				}
+				SEV = { vassal_of = THIS war = no }
+				SEV = { in_sphere = THIS }
+			}
+			OR = {
+				AND = {
+					CDB = { exists = no }
+					CDB = { all_core = { owned_by = THIS }}
+				}
+				CDB = { vassal_of = THIS war = no }
+				CDB = { in_sphere = THIS }
+			}
+			OR = {
+				AND = {
+					JAE = { exists = no }
+					JAE = { all_core = { owned_by = THIS }}
+				}
+				JAE = { vassal_of = THIS war = no }
+				JAE = { in_sphere = THIS }
+			}
+			OR = {
+				AND = {
+					MRC = { exists = no }
+					MRC = { all_core = { owned_by = THIS }}
+				}
+				MRC = { vassal_of = THIS war = no }
+				MRC = { in_sphere = THIS }
+			}
+		}
+		
+		effect = {
+			inherit = SEV
+			inherit = CDB
+			inherit = JAE
+			inherit = MRC
+			SEV = { all_core = { add_core = THIS }}
+			CDB = { all_core = { add_core = THIS }}
+			JAE = { all_core = { add_core = THIS }}
+			MRC = { all_core = { add_core = THIS }}
+			SEV = { primary_culture = spanish religion = catholic }
+			CDB = { primary_culture = spanish religion = catholic }
+			JAE = { primary_culture = spanish religion = catholic }
+			MRC = { primary_culture = spanish religion = catholic }
+			set_country_flag = established_reynos_del_andalusia
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	unite_hispanic_monarchies = {
+		potential = {
+			tag = CST
+			NOT = { has_country_flag = united_hispanic_monarchies }
+		}
+		
+		allow = {
+			war = no
+			is_greater_power = yes
+			has_global_flag = union_leon_castille
+			OR = {
+				AND = {
+					ARN = { exists = no }
+					ARN = { all_core = { owned_by = THIS }}
+				}
+				AND = {
+					ARN = { vassal_of = THIS war = no }
+					ARN = { in_sphere = THIS }
+				}
+			}
+			OR = {
+				AND = {
+					LEO = { exists = no }
+					LEO = { all_core = { owned_by = THIS }}
+				}
+				LEO = { vassal_of = THIS war = no }
+				LEO = { in_sphere = THIS }
+			}
+			OR = {
+				AND = {
+					TOL = { exists = no }
+					TOL = { all_core = { owned_by = THIS }}
+				}
+				TOL = { vassal_of = THIS war = no }
+				TOL = { in_sphere = THIS }
+			}
+		}
+		
+		effect = {
+			inherit = ARN
+			inherit = LEO
+			inherit = TOL
+			change_tag = SPA
+			ARN = { all_core = { add_core = THIS }}
+			TOL = { all_core = { add_core = THIS }}
+			LEO = { all_core = { add_core = THIS }}
+			add_accepted_culture = catalan
+			add_accepted_culture = aragonese
+			set_global_flag = united_hispanic_monarchies
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

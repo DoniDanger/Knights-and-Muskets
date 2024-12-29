@@ -17,7 +17,7 @@
 	bureaucrats = {
 		culture = algaravian
 		religion = sunni
-		size = 50
+		size = 250
 	}
 
 	clergymen = {
@@ -41,7 +41,7 @@
 	farmers = {
 		culture = algaravian
 		religion = sunni
-		size = 2200
+		size = 17200
 	}
 	
 	artisans = {

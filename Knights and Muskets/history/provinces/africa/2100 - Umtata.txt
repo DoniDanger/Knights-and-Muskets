@@ -1,2 +1,7 @@
-trade_goods = wool
+owner = ALA
+controller = ALA
+add_core = ALA
+add_core = GRA
+add_core = LRC
+trade_goods = cattle
 life_rating = 35

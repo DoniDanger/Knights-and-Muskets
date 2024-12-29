@@ -1,5 +1,5 @@
-
-
-
-trade_goods = iron
+owner = POR
+controller = POR
+add_core = POR
+trade_goods = salt
 life_rating = 35

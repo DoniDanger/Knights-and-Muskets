@@ -1,2 +1,5 @@
-trade_goods = coffee
+owner = CST
+controller = CST
+add_core = CST
+trade_goods = wool
 life_rating = 35

@@ -1,2 +1,6 @@
-trade_goods = fish
-life_rating = 30
+owner = CST
+controller = CST
+add_core = CST
+trade_goods = wool
+life_rating = 35
+

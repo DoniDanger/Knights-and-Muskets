@@ -62,24 +62,3 @@
 		size = 84375
 	}
 }
-#Cayman Islands : (1200/300 POPS) #still a British Colony
-2218 = {
-	clergymen = {
-		culture = afro_caribbean
-		religion = protestant
-		size = 5
-	}
-
-	artisans = {
-		culture = afro_caribbean
-		religion = protestant
-		size = 15
-	}
-
-	farmers = {
-		culture = afro_caribbean
-		religion = protestant
-		size = 280
-	}
-
-}

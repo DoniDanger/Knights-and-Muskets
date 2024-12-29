@@ -1,6 +1,5 @@
-owner = ALA
-controller = ALA
-add_core = ALA
+owner = POR
+controller = POR
 add_core = POR
-trade_goods = grain
+trade_goods = salt
 life_rating = 35

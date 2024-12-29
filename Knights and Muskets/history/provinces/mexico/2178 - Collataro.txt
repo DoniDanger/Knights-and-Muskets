@@ -1,5 +1,5 @@
-
-
-
-trade_goods = grain
+owner = LEO
+controller = LEO
+add_core = LEO
+trade_goods = fish
 life_rating = 35

@@ -76,50 +76,6 @@
 		size = 11000
 	}
 }
-#Loango (320000/80000 POPS)
-2624 = {
-	aristocrats = {
-		culture = bakongo
-		religion = animist
-		size = 1500
-	}
-	
-	bureaucrats = {
-		culture = bakongo
-		religion = animist
-		size = 400
-	}
-
-	clergymen = {
-		culture = bakongo
-		religion = animist
-		size = 750
-	}
-
-	artisans = {
-		culture = bakongo
-		religion = animist
-		size = 3250
-	}
-
-	soldiers = {
-		culture = bakongo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = bakongo
-		religion = animist
-		size = 53500
-	}
-
-	slaves = {
-		culture = bakongo
-		religion = animist
-		size = 20000
-	}
-}
 #uncolonized in 1836 
 #Djambala (28000/7000 POPS)
 1980 = {

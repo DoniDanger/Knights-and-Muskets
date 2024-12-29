@@ -1,4 +1,7 @@
-
-trade_goods = cotton
+owner = ALA
+controller = ALA
+add_core = ALA
+add_core = GRA
+add_core = LRC
+trade_goods = wool
 life_rating = 35
-colonial = 2

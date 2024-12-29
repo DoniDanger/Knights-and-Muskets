@@ -1,6 +1,6 @@
-owner = CST
-controller = CST
-add_core = CST
-trade_goods = grain
+owner = TOL
+controller = TOL
+add_core = TOL
+trade_goods = wool
 life_rating = 35
 1861.1.1 = { railroad = 3 }

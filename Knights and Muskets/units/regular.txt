@@ -5,7 +5,7 @@ regular = {
 	sprite = Guard
 	active = no
 	unit_type = infantry
-	primary_culture = yes
+	primary_culture = no
 	floating_flag = no
 
 	#Core Abilities

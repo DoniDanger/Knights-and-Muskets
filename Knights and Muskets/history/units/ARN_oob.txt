@@ -1,0 +1,219 @@
+ENL = {
+	value = 30
+}
+SIC = {
+	value = 20
+}
+CST = {
+	value = 75
+}
+OCC = {
+	value = 60
+}
+MOR = {
+	value = -140
+	truce_until = 1224.4.1
+}
+BSQ = {
+	value = 55
+}
+
+leader = {
+	name = "James I"
+	date = 1212.1.1
+	type = land
+	personality = confident
+	background = professor
+	prestige = 0.1
+}
+
+army = {
+	name = "Army of Aragon"
+	location = 495
+	regiment = {
+		name= "1.Guardia Real"
+		type = plane
+		home = 495
+	}
+
+	regiment = {
+		name= "2.Almughavars"
+		type = regular
+		home = 495
+	}
+
+	regiment = {
+		name= "4.Almughavars"
+		type = regular
+		home = 121
+	}
+	
+	regiment = {
+		name= "3.Cavalerie de la Garde"
+		type = cuirassier
+		home = 497
+	}
+
+	regiment = {
+		name= "4.Alforrats"
+		type = cavalry
+		home = 496
+	}
+	
+	regiment = {
+		name= "3.Alforrats"
+		type = cavalry
+		home = 1895
+	}
+
+	regiment = {
+		name= "4.CAlmughavars"
+		type = artillery
+		home = 434
+	}
+	
+	regiment = {
+		name= "3.Almughavars"
+		type = artillery
+		home = 2000
+	}
+	
+	regiment = {
+		name= "3.Almughavars"
+		type = artillery
+		home = 501
+	}
+	
+}
+
+army = {
+	name = "Army of Catalonia"
+	location = 498
+	regiment = {
+		name= "1.Guardia Real"
+		type = plane
+		home = 498
+	}
+
+	regiment = {
+		name= "2.Almughavars"
+		type = regular
+		home = 498
+	}
+	
+	regiment = {
+		name= "2.Almughavars"
+		type = regular
+		home = 499
+	}
+	
+	regiment = {
+		name= "3. Alforrats"
+		type = cavalry
+		home = 2228
+	}
+
+	regiment = {
+		name= "4.Alforrats"
+		type = cavalry
+		home = 500
+	}
+	
+	regiment = {
+		name= "3.Almughavars"
+		type = artillery
+		home = 2098
+	}
+	
+	regiment = {
+		name= "3.Almughavars"
+		type = artillery
+		home = 464
+	}
+}
+
+navy = {
+	name = "Escadre du Nord"
+	location = 498
+    ship = {
+        name = "Hespérides"
+        type = manowar
+    }
+
+    ship = {
+        name = "Centinela"
+        type = manowar
+    }
+
+    ship = {
+        name = "Centinela"
+        type = manowar
+    }
+    ship = {
+        name = "Isla de Cuba"
+        type = frigate
+    }
+
+    ship = {
+        name = "Cristóbal Colón"
+        type = frigate
+    }
+
+    ship = {
+        name = "Isla de Cuba"
+        type = frigate
+    }
+
+    ship = {
+        name = "Cristóbal Colón"
+        type = frigate
+    }
+
+    ship = {
+        name = "Isla de Cuba"
+        type = frigate
+    }
+
+    ship = {
+        name = "Cristóbal Colón"
+        type = frigate
+    }
+
+    ship = {
+        name = "Isla de Cuba"
+        type = frigate
+    }
+
+    ship = {
+        name = "Cristóbal Colón"
+        type = frigate
+    }
+
+    ship = {
+        name= "1a Flotilla de Transporte"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "2a Flotilla de Transporte"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "3a Flotilla de Transporte"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "1a Flotilla de Transporte"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "2a Flotilla de Transporte"
+        type = clipper_transport
+    }
+
+}
+
+

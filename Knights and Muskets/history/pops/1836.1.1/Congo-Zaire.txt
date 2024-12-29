@@ -50,44 +50,6 @@
 		size = 77000
 	}
 }
-#Boma (396000/99000 POPS)
-1983 = {
-	aristocrats = {
-		culture = bakongo
-		religion = animist
-		size = 640
-	}
-
-	clergymen = {
-		culture = bakongo
-		religion = animist
-		size = 365
-	}
-
-	artisans = {
-		culture = bakongo
-		religion = animist
-		size = 1375
-	}
-
-	soldiers = {
-		culture = bakongo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = bakongo
-		religion = animist
-		size = 19250
-	}
-
-	slaves = {
-		culture = bakongo
-		religion = animist
-		size = 11000
-	}
-}
 
 #Basoko (1324400/331100 POPS)
 1992 = {

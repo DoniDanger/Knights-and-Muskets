@@ -64,24 +64,3 @@
 		size = 550
 	}
 }
-#Saint Martin (4800/1200 POPS)
-2236 = {
-	clergymen = {
-		culture = afro_caribbean
-		religion = protestant
-		size = 25
-	}
-
-	artisans = {
-		culture = afro_caribbean
-		religion = protestant
-		size = 55
-	}
-
-	farmers = {
-		culture = afro_caribbean
-		religion = protestant
-		size = 1120
-	}
-
-}

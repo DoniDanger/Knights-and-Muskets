@@ -1,2 +1,5 @@
-trade_goods = coffee
+owner = LEO
+controller = LEO
+add_core = LEO
+trade_goods = wool
 life_rating = 35

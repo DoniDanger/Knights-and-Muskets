@@ -1,9 +1,8 @@
-trade_goods = wool
-life_rating = 15
-terrain = mountain
-colonial = 2
-1861.1.1 = {
-		
-	add_core = ENG
-	add_core = SAF
-}
+owner = ALA
+controller = ALA
+add_core = GRA
+add_core = ALA
+add_core = MLG
+trade_goods = salt
+life_rating = 35
+

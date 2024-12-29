@@ -11,6 +11,20 @@ UTI	=       "countries/Utility Tag.txt"
 #Brunswick #
 #Landgraviate of Hesse #
 
+MJO        = "countries/Majorca.txt"
+VLC        = "countries/Valencia.txt"
+TOL		   = "countries/Toledo.txt"
+DNI		   = "countries/Denia.txt"
+SEV		   = "countries/Seville.txt"
+CDB		   = "countries/Cordoba.txt"
+MRC		   = "countries/Murcia.txt"
+JAE		   = "countries/Jaen.txt"
+LRC		   = "countries/Lorca.txt"
+MLG		   = "countries/Malaga.txt"
+NIE		   = "countries/Niebla.txt"
+ALG		   = "countries/Algarves.txt"
+BJA		   = "countries/Bejaia.txt"
+
 SDZ        = "countries/Sandomierz.txt"
 ZWB        = "countries/Zweibrücken.txt"
 ABG		   = "countries/Arnsberg.txt"

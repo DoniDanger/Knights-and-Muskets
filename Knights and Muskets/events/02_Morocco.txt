@@ -58,8 +58,8 @@ country_event = {
 		release_vassal = ALA
 		war = {
             target = ALA
-            attacker_goal = { casus_belli = civil_war  }
-            defender_goal = { casus_belli = civil_war  }
+            attacker_goal = { casus_belli = amohad_succession  }
+            defender_goal = { casus_belli = amohad_succession  }
         }
 		set_country_flag = resist_al_adil
 		set_global_flag = the_almohad_anarchy
@@ -180,6 +180,7 @@ country_event = {
 		tag = MOR
 		has_country_flag = al_adil_victorious
 		has_global_flag = the_almohad_anarchy
+		year = 1228
 		OR = {
 			ALA = { war_with = CST }
 			ALA = { war_with = LEO }
@@ -192,8 +193,9 @@ country_event = {
 	    name = "We will defend Andalusia from the Christian invaders."
 		prestige = 10
 		war_exhaustion = 30
+		
 		set_country_flag = almohad_defend_andalusia
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 5 }
 	}
 	
 	option = {
@@ -204,13 +206,13 @@ country_event = {
 		remove_accepted_culture = algaravian
 		ALA = { country_event = 131006 }
 		set_country_flag = almohad_abandon_andalusia
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 95 }
 	}
 }
 
 country_event = {
 	id = 131006
-	title = "al-Adil Abandons Andalusia"
+	title = "Almohads Abandons Andalusia"
 	desc = "131006_DESC"
 	
 	fire_only_once = yes
@@ -219,6 +221,18 @@ country_event = {
 	option = {
 	    name = "We have been abandoned to fight the Christians alone."
 		war_exhaustion = 20
+		release = JAE
+		release = MRC
+		release = DNI
+		release = VLC
+		release = MJO
+		release = ALG
+		release = NIE
+		release = CDB
+		release = MLG
+		release = LRC
+		release = SEV
+		release = GRA
 		ai_chance = {
 			factor = 100
         }
@@ -276,6 +290,7 @@ country_event = {
 		tag = MOR
 		has_country_flag = resist_al_adil
 		has_country_flag = yahya_succession
+		NOT = { has_country_flag = lost_almohad_succession }
 		NOT = { has_country_flag = al_adil_victorious }
 		ALA = { has_country_flag = lost_almohad_succession }
 		has_global_flag = the_almohad_anarchy
@@ -292,7 +307,7 @@ country_event = {
                 who = ALA
                 value = 200
         }
-		prestige = -10
+		prestige = 10
 		primary_culture = maghrebi
 		add_accepted_culture = berber
 		set_country_flag = total_yahya_victory

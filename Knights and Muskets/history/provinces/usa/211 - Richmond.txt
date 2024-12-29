@@ -5,3 +5,4 @@ add_core = NNN
 add_core = ITA
 trade_goods = oil
 life_rating = 35
+university = 1

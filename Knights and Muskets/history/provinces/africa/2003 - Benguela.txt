@@ -1,3 +1,6 @@
-
-trade_goods = grain
+owner = ALA
+controller = ALA
+add_core = ALA
+add_core = MJO
+trade_goods = fish
 life_rating = 35

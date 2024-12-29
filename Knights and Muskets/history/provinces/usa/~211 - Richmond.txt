@@ -1,0 +1,7 @@
+owner = VCZ
+controller = VCZ
+add_core = VCZ
+add_core = NNN
+add_core = ITA
+trade_goods = oil
+life_rating = 35

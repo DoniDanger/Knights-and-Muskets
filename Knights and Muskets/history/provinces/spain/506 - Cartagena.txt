@@ -1,7 +1,8 @@
 owner = ALA
 controller = ALA
 add_core = ALA
-trade_goods = iron
+add_core = MRC
+trade_goods = salt
 life_rating = 35
 naval_base = 1
 1861.1.1 = { 

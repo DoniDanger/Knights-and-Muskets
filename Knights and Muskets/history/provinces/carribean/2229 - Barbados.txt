@@ -1,4 +1,5 @@
-
-trade_goods = tobacco
+owner = TOL
+controller = TOL
+add_core = TOL
+trade_goods = fruit
 life_rating = 35
-colonial = 2

@@ -1,0 +1,329 @@
+###SPAIN###
+country_event = {
+	id = 142000
+	title = "Death of Alfonso IX of Leon"
+	desc = "142000_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 11 }
+
+	trigger = {
+		tag = CST
+		month = 9
+		year = 1229
+	}
+
+	option = {
+	    name = "The thrones of Castille and Leon shall once again be united."
+		CST = { create_vassal = LEO }
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 142001
+	title = "Deposition of Al-Bayyasi"
+	desc = "142001_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = ALA
+		has_global_flag = the_almohad_anarchy
+		year = 1224
+	}
+
+	option = {
+	    name = "His band of rebels pose no threat to us."
+		release = JAE
+		create_vassal = JAE
+		516 = { secede_province = JAE }
+		2233 = { secede_province = JAE }
+		2409 = { secede_province = JAE }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 142002
+	title = "Al-Bayyasi Requests Aid"
+	desc = "142002_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 10 }
+
+	trigger = {
+		tag = CST
+		has_global_flag = the_almohad_anarchy
+		year = 1225
+	}
+
+	option = {
+	    name = "He will be a useful pawn in our conquest of Andalusia."
+		ALA = { release_vassal = JAE leave_alliance = JAE }
+		create_vassal = JAE
+		create_alliance = JAE
+		war = {
+            target = ALA
+            attacker_goal = { casus_belli = cut_down_to_size  }
+			defender_goal = { casus_belli = cut_down_to_size }
+			call_ally = yes
+        }
+		set_country_flag = support_al_bayyasi
+		ALA = { country_event = 142004 }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+	    name = "Get this Moor out of my court."
+		ALA = { country_event = 142003 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 142003
+	title = "Resistance of Al-Bayyasi"
+	desc = "142003_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 4 }
+
+	trigger = {
+		tag = ALA
+		has_global_flag = the_almohad_anarchy
+		year = 1225
+	}
+
+	option = {
+	    name = "We must hunt that rebel down before he disgraces us any further."
+		release = JAE
+		release_vassal = JAE
+		leave_alliance = JAE
+		war = {
+            target = JAE
+            attacker_goal = { casus_belli = annex_core_country  }
+        }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+
+    id = 142004
+    title = "Castille Marches with Al-Bayyasi"
+	desc = "142004_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes 
+	
+    option = {
+        name = "Andalusia will not falter to Christians."
+		516 = { secede_province = THIS }
+		2233 = { secede_province = THIS }
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+	id = 142005
+	title = "Capture of Cordoba"
+	desc = "142005_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 4 }
+
+	trigger = {
+		tag = ALA
+		CST = { has_country_flag = support_al_bayyasi }
+		war_with = CST
+		OR = {
+			510 = { controlled_by = JAE }
+			510 = { controlled_by = THIS }
+		}
+	}
+
+	option = {
+	    name = "Cordoba has been seized."
+		510 = { secede_province = JAE }
+		ai_chance = { factor = 100 }
+	}
+}
+
+
+country_event = {
+	id = 142006
+	title = "Valencia Resists al-Adil"
+	desc = "142006_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = ALA
+		has_global_flag = the_almohad_anarchy
+		year = 1225
+	}
+
+	option = {
+	    name = "Zayd Abu Zayd can rot a Christian slave."
+		release = VLC
+		503 = { secede_province = VLC }
+		504 = { secede_province = VLC }
+		2232 = { secede_province = VLC }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 142007
+	title = "Valencia Requests Vassalage"
+	desc = "142007_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = ARN
+		has_global_flag = the_almohad_anarchy
+		year = 1225
+		VLC = { exists = yes }
+	}
+
+	option = {
+	    name = "We welcome Zayd as our vassal."
+		create_vassal = VLC
+		create_alliance = VLC
+		503 = { secede_province = VLC }
+		504 = { secede_province = VLC }
+		2232 = { secede_province = VLC }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "No Moor can be trusted on our borders."
+		war = {
+            target = VLC
+            attacker_goal = { casus_belli = annex_core_country  }
+        }
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 142008
+	title = "Death of al-Bayyasi"
+	desc = "142008_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 4 }
+
+	trigger = {
+		tag = CST
+		has_country_flag = support_al_bayyasi 
+		war_with = ALA
+		510 = { owned_by = JAE }
+	}
+
+	option = {
+	    name = "Secure the domains of Al-Bayyasi."
+		inherit = JAE
+		510 = { secede_province = CDB }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 142009
+	title = "Instability in al-Andalus"
+	desc = "142009_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = ARN
+		has_global_flag = the_almohad_anarchy
+		year = 1226
+	}
+
+	option = {
+	    name = "It is time to expel the Moors."
+		set_country_flag = begin_reconquista_andalusia
+		MJO = { all_core = { add_core = THIS } }
+		VLC = { all_core = { add_core = THIS } }
+		DNI = { all_core = { add_core = THIS } }
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 142010
+	title = "Instability in al-Andalus"
+	desc = "142010_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = CST
+		has_global_flag = the_almohad_anarchy
+		year = 1226
+	}
+
+	option = {
+	    name = "It is time to expel the Moors."
+		set_country_flag = begin_reconquista_andalusia
+		516 = { add_core = THIS }
+		2233 = { add_core = THIS }
+		2409 = { add_core = THIS }
+		2220 = { add_core = THIS }
+		2226 = { add_core = THIS }
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 142011
+	title = "Instability in al-Andalus"
+	desc = "142011_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = POR
+		has_global_flag = the_almohad_anarchy
+		year = 1225
+	}
+
+	option = {
+	    name = "It is time to expel the Moors."
+		POR_525 = { add_core = THIS } 
+		set_country_flag = begin_reconquista_andalusia
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 142012
+	title = "Instability in al-Andalus"
+	desc = "142012_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = LEO
+		has_global_flag = the_almohad_anarchy
+		year = 1225
+	}
+
+	option = {
+	    name = "It is time to expel the Moors."
+		set_country_flag = begin_reconquista_andalusia
+		SPA_484 = { add_core = THIS } 
+		ai_chance = { factor = 90 }
+	}
+}

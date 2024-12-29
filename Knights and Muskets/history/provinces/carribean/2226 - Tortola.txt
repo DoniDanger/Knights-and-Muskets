@@ -1,4 +1,5 @@
-
-trade_goods = tobacco
+owner = ALA
+controller = ALA
+add_core = ALA
+trade_goods = wool
 life_rating = 35
-colonial = 2

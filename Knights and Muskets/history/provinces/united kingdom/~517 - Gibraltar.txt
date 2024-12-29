@@ -1,0 +1,6 @@
+owner = ALA
+controller = ALA
+add_core = GRA
+add_core = ALA
+trade_goods = fish
+life_rating = 35

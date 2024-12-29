@@ -337,7 +337,13 @@
 		religion = catholic
 		size = 1169
 	}
-
+	
+	craftsmen = {
+		culture = picard
+		religion = catholic
+		size = 11300
+	}
+	
 	artisans = {
 		culture = picard
 		religion = catholic
@@ -3704,6 +3710,12 @@
 		size = 1600
 	}
 
+	craftsmen = {
+		culture = angevin
+		religion = catholic
+		size = 14300
+	}
+	
 	artisans = {
 		culture = angevin
 		religion = catholic
@@ -4077,7 +4089,13 @@
 		religion = catholic
 		size = 650
 	}
-
+	
+	craftsmen = {
+		culture = angevin
+		religion = catholic
+		size = 12300
+	}
+	
 	artisans = {
 		culture = french
 		religion = catholic
@@ -6889,7 +6907,7 @@
 	soldiers = {
 		culture = occitan
 		religion = catholic
-		size = 150
+		size = 1150
 	}
 
 	farmers = {

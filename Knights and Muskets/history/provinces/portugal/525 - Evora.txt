@@ -1,5 +1,5 @@
-owner = ALA
-controller = ALA
+owner = POR
+controller = POR
 add_core = ALA
 add_core = POR
 trade_goods = grain

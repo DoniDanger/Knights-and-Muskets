@@ -1,4 +1,32 @@
 ;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;\
+MRC;Murcia;x
+MRC_ADJ;Murcian;x 
+MJO;Majorca;x
+MJO_ADJ;Majorcan;x 
+VLC;Valencia ;x
+VLC_ADJ;Valencian;x 
+TOL;Toledo;x
+TOL_ADJ;Toledan;x 
+DNI;Denia;x
+DNI_ADJ;Denian;x 
+SEV;Seville;x
+SEV_ADJ;Seville;x 
+CDB;Cordoba;x
+CDB_ADJ;Cordoban;x 
+JAE;Jaen;x
+JAE_ADJ;Jaen;x 
+JAE_autonomous_dependency;Baeza;x
+JAE_autonomous_dependency_ADJ;Baezan;x
+LRC;Lorca;x
+LRC_ADJ;Lorcan;x 
+MLG;Malaga;x
+MLG_ADJ;Malagan;x 
+NIE;Niebla;x
+NIE_ADJ;Nieblan;x 
+ALG;Algarves;x
+ALG_ADJ;Algarve;x 
+BJA;Bejaia;x 
+BJA_ADJ;Bejaia;x  
 CIR;Zichia;x
 CIR_ADJ;Zichian;x 
 HJI;Hadejia ;x
@@ -292,7 +320,7 @@ ERZ;Erzurum;x
 ERZ_ADJ;Erzurumi;x
 AHL;Armen-Shahs;x
 AHL_ADJ;Armen-Shah;x
-MRN;Marinid Sultanate;x
+MRN;Marinids;x
 MRN_dominion;Marinids;x
 MRN_ADJ;Marinid;x
 ARM;Zakarid Armenia;x
@@ -676,8 +704,10 @@ TUN;Hafsid Sultanate;x
 TUN_ADJ;Hafsid;x
 TUN_autonomous_dependency;Ifriqiya;x
 TUN_autonomous_dependency_ADJ;Ifriqiyan;x
-TRI;Banu Sulaym;x
-TRI_ADJ;Banu Sulaymi;x
+TRI;Banu Thabit;x
+TRI_ADJ;Banu Thabit;x
+CYR;Banu Sulaym;x
+CYR_ADJ;Banu Sulaymi;x
 FLR;Florence;x
 FLR_ADJ;Florentine;x
 MFT;Montferrat;x

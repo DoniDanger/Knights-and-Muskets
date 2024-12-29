@@ -1,7 +1,7 @@
 owner = ALA
 controller = ALA
 add_core = ALA
-add_core = ARN
-trade_goods = sugar
+add_core = DNI
+trade_goods = fruit
 life_rating = 35
 1861.1.1 = { railroad = 2 }

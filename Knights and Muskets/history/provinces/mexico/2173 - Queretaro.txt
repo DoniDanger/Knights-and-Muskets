@@ -1,5 +1,7 @@
-
-
-
-trade_goods = fruit
+owner = ALA
+controller = ALA
+add_core = ALA
+add_core = NIE
+trade_goods = iron
 life_rating = 35
+naval_base = 1

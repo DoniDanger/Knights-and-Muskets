@@ -142,7 +142,6 @@ PROV3386;Dasht-e Kavir;;;;;;;;;;;;;;;;;;x;;;;
 PROV3387;Najafabad;;;;;;;;;;;;;;;;;;x;;;;
 PROV3388;Behbahan;;;;;;;;;;;;;;;;;;x;;;;
 PROV475;Uviéu;;;;;;;;;;;;;;;;;;x;;;;
-PROV2220;Lucayas;;;;;;;;;;;;;;;;;;x;;;;
 PROV204;Santa María de Pleiona;;;;;;;;;;;;;;;;;;x;;;;
 PROV3256;Mühlhausen;;;;;;;;;;;;;;;;;;x;;;;
 PROV3255;Naumburg;;;;;;;;;;;;;;;;;;x;;;;
@@ -456,7 +455,6 @@ PROV2581;Namuno;;;;;;;;;;;;;;;;;;x;;;;
 PROV2063;Pemba;;;;;;;;;;;;;;;;;;x;;;;
 PROV2060;Mussambiki;;;;;;;;;;;;;;;;;;x;;;;
 PROV2059;Mkalimani;;;;;;;;;;;;;;;;;;x;;;;
-PROV2033;Garissa;;;;;;;;;;;;;;;;;;x;;;;
 PROV2032;Voi;;;;;;;;;;;;;;;;;;x;;;;
 PROV2046;Ujiji;;;;;;;;;;;;;;;;;;x;;;;
 PROV1867;Hargeysa;;;;;;;;;;;;;;;;;;x;;;;
@@ -1636,11 +1634,10 @@ PROV476;Pontevedra;x
 PROV488;Guadalajara;x
 PROV491;Calatrava;x
 PROV499;Girona;x
-PROV492;Vitoria;x
 PROV495;Saragossa;x
 PROV500;Lleida;x
 PROV518;Porto;x
-PROV520;Viseu;x
+PROV520;Covilha;x
 PROV523;Santarém;x
 PROV535;Verden;x
 PROV542;Meppen;x
@@ -1797,7 +1794,7 @@ PROV517;al-Jazira;x
 PROV512;Qadis;x
 PROV484;Batalyaws;x
 PROV486;Qasrash;x
-PROV485;Maridah;x
+PROV485;Llerena;x
 PROV510;Qurtubah;x
 PROV509;Ishbiliyyah;x
 PROV513;Gharnatah;x
@@ -1807,9 +1804,11 @@ PROV516;Jayyan;x
 PROV511;Walbah;x
 PROV508;al-Basit;x
 PROV503;Balansiyya;x
-PROV505;Daniyyah;x
-PROV506;Mursiyah;x
-PROV507;Lurqa;x
+PROV2096;Daniyyah;x
+PROV505;Alacant;x
+PROV507;Mursiyah;x
+PROV506;Cartagena;x
+PROV2100;Lurqa;x
 PROV521;Lisboa;x
 PROV504;Qashtilyun;x
 PROV2148;Buzau;;;;;;;;;;;;;;;;;;x;;;;
@@ -2168,3 +2167,59 @@ RUS_2611;Dasht-e Ozbeg;x
 RUS_1185;Zhetsyu;x
 RUS_1204;Merv;x
 CHI_2607;Qarashahr;x
+PROV2232;Shatiba;x #Xativa
+PROV2000;Albarraci;x 
+PROV1897;Borja;x 
+PROV1895;Jaca;x 
+PROV2098;Tortosa;x 
+PROV2228;Osona;x 
+PROV2003;Menorca;x 
+PROV502;Medina Mayurqa;x #Palma
+PROV1896;Zangoza;x 
+PROV494;Tutera;x 
+PROV2126;Alava;x 
+PROV492;Vizcaya;x 
+PROV2624;Almazan;x 
+PROV1983;Molina;x 
+PROV2024;Aranjuez;x 
+PROV2229;Alcaraz;x 
+PROV2033;Alcazar;x 
+PROV2233;Ubeda;x 
+PROV2238;Huescar;x 
+PROV2237;Caravaca;x 
+PROV2409;Andujar;x 
+PROV2231;Lucena;x 
+PROV2089;Wadi 'Ashi;x 
+PROV2090;Bastha;x 
+PROV2087;Al-Hammah;x 
+PROV2088;Marbal-la;x 
+PROV2179;Medina Sidonia;x 
+PROV2225;Ecija;x 
+PROV1886;Viseu;x
+PROV2223;Los Pedroches;x 
+PROV2224;Carmona;x 
+PROV2227;Aracena;x 
+PROV2236;Olivenca;x 
+PROV2175;Lagos;x 
+PROV2173;Castro Verde;x 
+PROV2177;Elvas;x 
+PROV2218;Alcantara;x 
+PROV1890;Proenca;x 
+PROV1885;Guarda;x 
+PROV2111;Aveiro;x 
+PROV2164;Braga;x 
+PROV1888;Braganca;x 
+PROV2162;Leiria;x 
+PROV1889;Marvao;x 
+PROV2285;Plasencia;x 
+PROV2220;Trujillo;x 
+PROV2226;Belalcazar;x 
+PROV2118;Talavera;x 
+PROV2116;Segovia;x 
+PROV1999;Cuellar;x 
+PROV1954;Ciudad Rodrigo;x 
+PROV2132;Benavente;x 
+PROV2129;Palencia;x 
+PROV2133;Sahagun;x 
+PROV2178;Aviles;x 
+PROV1891;Lugo;x 

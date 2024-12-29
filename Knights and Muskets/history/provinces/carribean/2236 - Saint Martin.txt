@@ -1,3 +1,5 @@
-
-trade_goods = tobacco
+owner = ALA
+controller = ALA
+add_core = ALA
+trade_goods = cattle
 life_rating = 35

@@ -1,6 +1,7 @@
 owner = ALA
 controller = ALA
 add_core = ALA
-trade_goods = iron
+add_core = MRC
+trade_goods = wool
 life_rating = 35
 1861.1.1 = { railroad = 3 }

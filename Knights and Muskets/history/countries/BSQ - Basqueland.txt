@@ -63,3 +63,5 @@ manorialism = 1
 water_hammer = 1
 open_cast_mining = 1
 medical_universities = 1
+
+oob = "BSQ_oob.txt"

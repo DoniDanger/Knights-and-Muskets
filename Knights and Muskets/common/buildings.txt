@@ -735,12 +735,12 @@ railroad = {
 		cost = 75000
 		goods_cost =
 		{
-			steel = 30
-			lumber = 90
-			cement = 90
-			paper = 20
-			#dye = 10
-			#glass = 10
+			steel = 300
+			lumber = 500
+			cement = 500
+			paper = 200
+			stone = 400
+			glass = 100
 		}
 
 		time = 800
@@ -749,7 +749,7 @@ railroad = {
 		max_level = 6
 		province = yes
 		# Audax Validator "." Ignore_NEXT
-		one_per_state = yes
+		one_per_state = no
 		pop_build_factory = yes
 
 		research_points_modifier = 0.001 
@@ -762,10 +762,12 @@ railroad = {
 		cost = 45000
 		goods_cost =
 		{
-			steel = 5
-			lumber = 30
-			cement = 20
-			paper = 5
+			steel = 250
+			lumber = 300
+			cement = 200
+			paper = 300
+			glass = 50
+			stone = 400
 		}
 
 		time = 500
@@ -773,7 +775,7 @@ railroad = {
 		onmap = no
 		max_level = 6
 		province = yes
-		one_per_state = yes
+		one_per_state = no
 		pop_build_factory = yes
 		
 		local_artisan_output = 0.29	

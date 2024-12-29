@@ -1,4 +1,5 @@
-
-trade_goods = fruit
+owner = LEO
+controller = LEO
+add_core = LEO
+trade_goods = wool
 life_rating = 35
-colonial = 2

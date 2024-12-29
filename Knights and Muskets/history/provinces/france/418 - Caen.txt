@@ -26,3 +26,8 @@ state_building = {
 	building = leather_tannery
 	upgrade = yes
 }
+state_building = {
+	level = 1
+	building = luxury_clothes_factory
+	upgrade = yes
+}

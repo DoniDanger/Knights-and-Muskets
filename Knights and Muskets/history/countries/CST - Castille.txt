@@ -1,4 +1,4 @@
-capital = 489
+capital = 479
 primary_culture = spanish
 religion = catholic
 government = feudal_monarchy

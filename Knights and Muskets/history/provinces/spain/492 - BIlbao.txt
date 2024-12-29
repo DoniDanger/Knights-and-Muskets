@@ -1,19 +1,17 @@
-owner = BSQ
-controller = BSQ
+owner = CST
+controller = CST
+add_core = CST
 add_core = BSQ
-trade_goods = iron
+trade_goods = wool
 life_rating = 35
-
-1861.1.1 = { 
-	state_building = {
-		level = 1
-		building = steamer_shipyard
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = steel_factory
-		upgrade = yes
-	}
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
 }
-1861.1.1 = { railroad = 3 }
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+

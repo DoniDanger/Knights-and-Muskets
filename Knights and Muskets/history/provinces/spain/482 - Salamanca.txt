@@ -3,3 +3,4 @@ controller = LEO
 add_core = LEO
 trade_goods = tin
 life_rating = 35
+university = 1

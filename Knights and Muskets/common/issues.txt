@@ -282,7 +282,6 @@ political_reforms = {
             supply_consumption = 0.10
             org_regain = 0.10
             mobilisation_size = 0.01
-			tax_efficiency = -0.05
             cb_generation_speed_modifier = 0.15
         }
         landed_voting = { #scutage
@@ -293,7 +292,6 @@ political_reforms = {
             cb_generation_speed_modifier = 0.05
         }
         wealth_weighted_voting = { #lump-sum payments
-            mobilisation_size = 0.002
 			tax_efficiency = 0.05   
         }
     }

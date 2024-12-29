@@ -1,2 +1,5 @@
-trade_goods = wool
+owner = ARN
+controller = ARN
+add_core = ARN
+trade_goods = salt
 life_rating = 35
