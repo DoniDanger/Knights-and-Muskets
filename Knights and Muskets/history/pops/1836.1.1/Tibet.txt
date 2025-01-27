@@ -3,185 +3,203 @@
 #Lhasa (892000/223000 POPS)
 1587 = {
 	aristocrats = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
-		size = 4150
+		size = 1150
 	}
 
 	bureaucrats = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 750
 	}
 
 	officers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 950
 	}
 
 	clergymen = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 2150
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
-		size = 10000
-	}
-
-	artisans = {
-		culture = tibetan
-		religion = gelugpa
-		size = 400
+		size = 5400
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
-		size = 4000
+		size = 2000
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
-		size = 18560
+		size = 10560
 	}
 
 	clergymen = {
-		culture = beifaren
-		religion = animist
+		culture = kham
+		religion = gelugpa
 		size = 150
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = kham
 		religion = animist
 		size = 750
 	}
 
 	soldiers = {
-		culture = beifaren
-		religion = animist
+		culture = kham
+		religion = gelugpa
 		size = 150
 	}
 
 	farmers = {
-		culture = beifaren
-		religion = animist
-		size = 13950
+		culture = kham
+		religion = gelugpa
+		size = 21950
 	}
 }
 #Chamdo (624000/156000 POPS)
 1588 = {
 	aristocrats = {
-		culture = tibetan
+		culture = kham
 		religion = gelugpa
 		size = 2750
 	}
 
 	clergymen = {
-		culture = tibetan
+		culture = kham
 		religion = gelugpa
 		size = 1450
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = kham
 		religion = gelugpa
-		size = 7000
+		size = 2000
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = kham
 		religion = gelugpa
 		size = 1400
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = kham
 		religion = gelugpa
-		size = 127400
+		size = 7740
+	}
+	
+	farmers = {
+		culture = kham
+		religion = animist
+		size = 100
+	}
+	
+	farmers = {
+		culture = kham
+		religion = animist
+		size = 540
+	}
+	
+	farmers = {
+		culture = kham
+		religion = animist
+		size = 100
+	}
+	
+	farmers = {
+		culture = kham
+		religion = animist
+		size = 2040
 	}
 
 	clergymen = {
-		culture = beifaren
-		religion = animist
+		culture = u_tsang
+		religion = gelugpa
 		size = 150
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = u_tsang
 		religion = animist
 		size = 800
 	}
 
 	soldiers = {
-		culture = beifaren
-		religion = animist
+		culture = u_tsang
+		religion = gelugpa
 		size = 150
 	}
 
 	farmers = {
-		culture = beifaren
-		religion = animist
-		size = 14900
+		culture = u_tsang
+		religion = gelugpa
+		size = 6490
 	}
 }
 #Shigatse (332000/83000 POPS)
 1589 = {
 	aristocrats = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
-		size = 1600
+		size = 160
 	}
 
 	clergymen = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 875
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
-		size = 4000
+		size = 400
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 800
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
-		size = 72725
+		size = 7725
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = u_tsang
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = u_tsang
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = u_tsang
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = u_tsang
 		religion = animist
 		size = 1775
 	}
@@ -189,189 +207,269 @@
 #Lhodrak (688000/172000 POPS)
 1590 = {
 	aristocrats = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 3375
 	}
 
 	clergymen = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 1750
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 8600
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 1725
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
-		size = 156550
+		size = 5655
+	}
+	
+	farmers = {
+		culture = kham
+		religion = gelugpa
+		size = 10000
+	}
+	
+	farmers = {
+		culture = kham
+		religion = animist
+		size = 100
+	}
+	
+	farmers = {
+		culture = kham
+		religion = animist
+		size = 200
 	}
 }
 #Changtang (76000/19000 POPS)
 1591 = {
 	aristocrats = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 375
 	}
 
+	aristocrats = {
+		culture = u_tsang
+		religion = sunni
+		size = 400
+	}
+
 	clergymen = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 200
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 950
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 175
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
-		size = 17300
+		size = 1730
+	}
+
+	slaves = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 600
 	}
 }
 #Ngari (304000/76000 POPS)
 1592 = {
 	aristocrats = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
-		size = 1500
+		size = 500
 	}
 
 	clergymen = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 775
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 3800
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 750
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
-		size = 69175
+		size = 2175
+	}
+	
+	farmers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 26000
+	}
+	
+	farmers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 85
+	}
+	
+	farmers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 375
+	}
+	
+	farmers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 85
+	}
+	
+	farmers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 475
+	}
+}
+#Zhongba (304000/76000 POPS)
+2622 = {
+	aristocrats = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 15
+	}
+
+	clergymen = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 55
+	}
+
+	artisans = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 130
+	}
+
+	soldiers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 110
+	}
+	
+	farmers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 1260
+	}
+	
+	farmers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 11260
 	}
 }
 #Tawang (836000/209000 POPS) #now NEFA in India  asian_minor = Chin 
 1593 = {
-	aristocrats = {
-		culture = tibetan
-		religion = gelugpa
-		size = 2625
-	}
-
-	clergymen = {
-		culture = tibetan
-		religion = gelugpa
-		size = 1350
-	}
-
-	artisans = {
-		culture = tibetan
-		religion = gelugpa
-		size = 6600
-	}
-
-	soldiers = {
-		culture = tibetan
-		religion = gelugpa
-		size = 1325
-	}
-
-	farmers = {
-		culture = tibetan
-		religion = gelugpa
-		size = 120100
-	}
-
-	aristocrats = {
+    aristocrats = {
 		culture = kachin
 		religion = animist
-		size = 750
+		size = 225
 	}
 
 	clergymen = {
 		culture = kachin
 		religion = animist
-		size = 400
+		size = 220
 	}
 
 	artisans = {
 		culture = kachin
 		religion = animist
-		size = 1950
+		size = 520
 	}
 
 	soldiers = {
 		culture = kachin
 		religion = animist
-		size = 350
+		size = 1225
 	}
 
 	farmers = {
 		culture = kachin
 		religion = animist
-		size = 35550
+		size = 12110
 	}
-
+	
+	farmers = {
+		culture = kachin
+		religion = animist
+		size = 47900
+	}
+	
 	aristocrats = {
 		culture = asian_minor
 		religion = animist
-		size = 750
+		size = 15
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = animist
-		size = 375
+		size = 10
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = animist
-		size = 1900
+		size = 20
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 375
+		size = 225
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 34600
+		size = 210
+	}
+	
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 4500
 	}
 
 }

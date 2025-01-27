@@ -1,8 +1,8 @@
 capital = 1313
-primary_culture = kannada
+primary_culture = tamil
 religion = hindu
 government = feudal_monarchy
-plurality = 1.0
+plurality = 51.0
 nationalvalue = nv_tradition
 literacy = 0.05
 non_state_culture_literacy = 0.03

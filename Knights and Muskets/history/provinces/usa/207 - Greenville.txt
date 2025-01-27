@@ -1,11 +1,6 @@
-
-
-
-trade_goods = tobacco
+owner = BAN
+controller = BAN
+add_core = BAN
+add_core = SER
+trade_goods = cattle
 life_rating = 35
-1861.1.1 = {
-	
-	
-	
-}
-1861.1.1 = { railroad = 3 }

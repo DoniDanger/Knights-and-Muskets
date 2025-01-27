@@ -45,18 +45,33 @@ LMC = {
 	influence_value = 10
 }
 CMP = {
-	value = 100	#relation
-	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	value = 140	#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 10
 }
 BRG = {
 	value = 75	#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 10
 }
 BOU = {
 	value = 80	#relation
 	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+LAO = {
+	value = 180	#relation
+	level = 5		
+	influence_value = 10
+}
+REI = {
+	value = 180	#relation
+	level = 5		
+	influence_value = 10
+}
+LNG = {
+	value = 160	#relation
+	level = 5		
 	influence_value = 10
 }
 ENL = {
@@ -68,12 +83,14 @@ SIC = {
 }
 CST = {
 	value = 65
+	level = 3		
+	influence_value = 10
 }
 ARN = {
-	value = 25
+	value = 45
 }
 OCC = {
-	value = -60
+	value = -90
 }
 MOR = {
 	value = -10

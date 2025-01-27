@@ -1,5 +1,5 @@
-owner = JER
-controller = JER
-add_core = JER
+owner = CTP
+controller = CTP
+add_core = CTP
 trade_goods = iron
 life_rating = 35

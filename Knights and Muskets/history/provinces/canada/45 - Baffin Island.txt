@@ -1,5 +1,5 @@
-
-
-trade_goods = fish
-life_rating = 25
-colonial = 2
+owner = CUM
+controller = CUM
+add_core = CUM
+trade_goods = salt
+life_rating = 35

@@ -1,56 +1,5 @@
 #Congo Region (1804000)
 ##under the rule of Kongo in 1836
-#Kinshasa (1408000/352000 POPS)
-1982 = {
-	aristocrats = {
-		culture = bakongo
-		religion = animist
-		size = 6175
-	}
-	
-	bureaucrats = {
-		culture = bakongo
-		religion = animist
-		size = 700
-	}
-
-	clergymen = {
-		culture = bakongo
-		religion = animist
-		size = 3575
-	}
-
-	artisans = {
-		culture = bakongo
-		religion = animist
-		size = 11000
-	}
-	
-	artisans = {
-		culture = bakongo
-		religion = animist
-		size = 4025
-	}
-
-	soldiers = {
-		culture = bakongo
-		religion = animist
-		size = 3575
-	}
-
-	farmers = {
-		culture = bakongo
-		religion = animist
-		size = 446950
-	}
-
-	slaves = {
-		culture = bakongo
-		religion = animist
-		size = 77000
-	}
-}
-
 #Basoko (1324400/331100 POPS)
 1992 = {
 	aristocrats = {

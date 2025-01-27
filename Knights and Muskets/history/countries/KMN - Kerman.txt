@@ -1,12 +1,13 @@
-capital = 1212
-primary_culture = persian
-culture = azerbaijani
+capital = 1140
+primary_culture = qara_kirgiz
+culture = persian
+culture = khorasani
 culture = hazara
 religion = sunni
-government = absolute_monarchy
-plurality = 1.0
+government = petty_kingdom
+plurality = 50.0
 nationalvalue = nv_enlightenment
-literacy = 0.07
+literacy = 0.11
 non_state_culture_literacy = 0.05
 civilized = yes
 

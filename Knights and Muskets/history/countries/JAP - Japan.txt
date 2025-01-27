@@ -1,7 +1,7 @@
 capital = 1649
 primary_culture = japanese
 religion = shinto
-government = absolute_monarchy
+government = feudal_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.40

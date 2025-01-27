@@ -10,14 +10,14 @@ country_event = {
 
 	trigger = {
 		tag = WMG
-		AND = {
-			war_with = CHY
+		OR = {
 			war_with = CUM
 			war_with = ALN
 		}
 		OR = {
-			controls = 1055
-			CHY = { vassal_of = MGL }
+			CHY = { in_sphere = WMG }
+			CHY = { in_sphere = MGL }
+			NOT = { war_with = CHY }
 		}
 	}
 
@@ -25,14 +25,15 @@ country_event = {
 	    name = "Majar will kneel next."
 		money = 15000
 		prestige = 10
+		create_vassal = CHY
 		casus_belli = {
             target = KMY
-            type = cut_down_to_size
+            type = mongol_tributary_war
             months = 60
         }
 		war = {
             target = KMY
-            attacker_goal = { casus_belli = cut_down_to_size   }
+            attacker_goal = { casus_belli = mongol_tributary_war   }
 			call_ally = yes
         }
 		end_war = ALN
@@ -59,13 +60,14 @@ country_event = {
 	option = {
 	    name = "Our warriors are weary, we have no choice but to submit."
 		prestige = -5
-		FROM = { money = 5000 }
+		FROM = { money = 15000 }
 		FROM = {
 			diplomatic_influence = {
 				who = THIS
 				value = 200
 			}
 		}
+		FROM = { military_access = THIS }
 		ai_chance = { factor = 100 }
 	}
 }
@@ -80,8 +82,9 @@ country_event = {
 	option = {
 	    name = "We must seek the aid of the Rus' princes, or we shall face destruction."
 		prestige = -5
-		FROM = { money = 15000 }
-		money = -15000
+		FROM = { money = 30000 }
+		money = -30000
+		war_exhaustion = 10
 		ai_chance = {
 			factor = 100
         }
@@ -109,6 +112,7 @@ country_event = {
         name = "We can only watch."
 		prestige = -5
 		WMG = { country_event = 130004 }
+		war_exhaustion = 10
 		ai_chance = {
 			factor = 100
         }
@@ -269,27 +273,6 @@ country_event = {
 }
 
 country_event = {
-	id = 130009
-	title = "Death of Ögedei Khan!"
-	desc = "130009_DESC"
-
-	fire_only_once = yes
-	mean_time_to_happen = { days = 6 }
-	
-	trigger = {
-		tag = MGL
-		year = 1241
-		month = 12
-	}
-
-	option = {
-	    name = "We have lost another great Khan."
-		set_global_flag = death_of_ogedei
-		ai_chance = { factor = 100 }
-	}
-}
-
-country_event = {
 	id = 130010
 	title = "Regency of Great Khatun Töregene"
 	desc = "130010_DESC"
@@ -305,7 +288,7 @@ country_event = {
 
 	option = {
 	    name = "The fate of the empire is precarious."
-		set_global_flag = death_of_ogedei
+		set_country_flag = toregene_mgl_ruler
 		ai_chance = { factor = 100 }
 	}
 }
@@ -321,7 +304,7 @@ country_event = {
 	trigger = {
 		tag = MGL
 		OR = {
-			NOT = { has_global_flag = toluid_revolution }
+			NOT = { has_global_flag = the_toluid_revolution }
 			NOT = { has_global_flag = toluid_civil_war }
 		}
 		NOT = { alliance_with = WMG }
@@ -692,9 +675,222 @@ country_event = {
 }
 
 country_event = {
-	id = 130021
+	id = 130022
+	title = "Temüge Attempts to Seize Throne"
+	desc = "130022_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 4 }
+	
+	trigger = {
+		tag = MGL
+		year = 1246
+	}
+
+	option = {
+	    name = "Ensure Güyük becomes the next Khan."
+		set_country_flag = guyuk_mgl_ruler
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130023
+	title = "Möngke Proclaimed Great Khan"
+	desc = "130023_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 3 }
+	
+	trigger = {
+		tag = MGL
+		year = 1252
+		month = 7
+	}
+
+	option = {
+	    name = "Möngke will bring prosperity to the empire."
+		set_country_flag = mongke_mgl_ruler
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130024
+	title = "The Toluid Revolution"
+	desc = "130024_DESC"
+
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+	
+	trigger = {
+		tag = MGL
+		year = 1252
+		has_country_flag = mongke_mgl_ruler
+	}
+
+	option = {
+	    name = "Traitors and enemies of the Great Khan will be slaughtered."
+		set_global_flag = the_toluid_revolution
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130025
+	title = "Fracturing of the Western Empire"
+	desc = "130025_DESC"
+	major = yes 
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+	
+	trigger = {
+		tag = WMG
+		year = 1252
+		has_global_flag = the_toluid_revolution
+	}
+
+	option = {
+	    name = "Batu Khan and the Golden Horde shall support the rule of Möngke."
+		set_global_flag = western_mongols_fractured
+		change_tag = GOL
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = ILK
+					is_core = CHG
+				}
+			}
+			remove_core = THIS
+		}
+		any_owned = {
+			limit = {
+				is_core = PER
+				NOT = { is_core = THIS is_core = CHG }
+			}
+			secede_province = ILK
+		}
+		release = ILK
+		release = CHG
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130026
+	title = "Death of Monge Khan"
+	desc = "130026_DESC"
+
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 8 }
+	
+	trigger = {
+		tag = MGL
+		year = 1259
+		month = 8
+	}
+
+	option = {
+	    name = "An ominous fate is cast over the Empire."
+		set_global_flag = death_of_monge
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130027
+	title = "The Toluid Civil War"
+	desc = "130027_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+	
+	trigger = {
+		tag = MGL
+		year = 1260
+		has_global_flag = death_of_monge
+	}
+
+	option = {
+	    name = "Kublai Khan will lead the Empire from China."
+		set_global_flag = toluid_civil_war
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = SXI
+					is_core = XBI
+					is_core = CHI
+				}
+			}
+			add_core = YUA
+		}
+		release = YUA
+		any_owned = {
+			limit = {
+				is_core = MCK
+			}
+			secede_province = YUA
+		}
+		1534 = { secede_province = YUA }
+		1002 = { secede_province = MGL }
+		release_vassal = KOR
+		YUA = { create_vassal = KOR }
+		release_vassal = CHG
+		YUA = { create_alliance = CHG }
+		war = {
+            target = YUA
+            attacker_goal = { casus_belli = mongol_civil_war  }
+			defender_goal = { casus_belli = mongol_civil_war  }
+			call_ally = yes
+        }
+		change_tag_no_core_switch = YUA
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+	    name = "Mongolia will only prosper under the traditional leadership of Ariq Boke."
+		set_global_flag = toluid_civil_war
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = SXI
+					is_core = XBI
+					is_core = CHI
+				}
+			}
+			add_core = YUA
+		}
+		release = YUA
+		any_owned = {
+			limit = {
+				is_core = MCK
+			}
+			secede_province = YUA
+		}
+		1534 = { secede_province = YUA }
+		1002 = { secede_province = MGL }
+		release_vassal = KOR
+		YUA = { create_vassal = KOR }
+		release_vassal = CHG
+		YUA = { create_alliance = CHG }
+		war = {
+            target = YUA
+            attacker_goal = { casus_belli = mongol_civil_war  }
+			defender_goal = { casus_belli = mongol_civil_war  }
+			call_ally = yes
+        }
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = 130028
 	title = "Conquest of Alania"
-	desc = "130021_DESC"
+	desc = "130028_DESC"
 
 	fire_only_once = yes
 	mean_time_to_happen = { days = 14 }
@@ -731,5 +927,27 @@ country_event = {
 		ai_chance = { 
 			factor = 0 
 		}
+	}
+}
+
+country_event = {
+	id = 130029
+	title = "Conquest of Cumania"
+	desc = "130029_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 3 }
+
+	trigger = {
+		tag = WMG
+		#has_country_flag = mgl_conquest_cumania
+		CUM = { exists = no }
+		CUM = { all_core = { owned_by = THIS }}
+	}
+
+	option = {
+	    name = "The Kipchaks will fall in line."
+		CUM = { all_core = { add_core = THIS add_core = GOL }}
+		ai_chance = { factor = 100 }
 	}
 }

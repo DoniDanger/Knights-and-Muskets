@@ -1,9 +1,11 @@
 capital = 657
 primary_culture = hungarian
-culture = romanian
+culture = transylvanian
+culture = siebenburger
+culture = szekely
 religion = catholic
-government = absolute_monarchy
-plurality = 0.0
+government = feudal_dominion
+plurality = 40.0
 nationalvalue = nv_order
 literacy = 0.1
 civilized = yes

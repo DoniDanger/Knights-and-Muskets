@@ -1,3 +1,6 @@
-add_core = AST
-trade_goods = cattle
-life_rating = 20
+owner = AHL
+controller = AHL
+add_core = AHL
+add_core = ARM
+trade_goods = wool
+life_rating = 35

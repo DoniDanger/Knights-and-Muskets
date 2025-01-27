@@ -54,26 +54,19 @@ country_event = {
 		political_reform = free_press
 		political_reform = non_socialist
 		political_reform = secret_ballots
-		government = hms_government
+		government = feudal_monarchy
 		add_accepted_culture = union
 		prestige = -15
 		badboy = 10
 		ai_chance = {
 			factor = 5
 			modifier = {
-				factor = 200
-				OR = {
-					tag = MOL
-					tag = WAL
-				}
-			}
-			modifier = {
 				factor = 5
-				government = hms_government
+				government = duchy
 			}
 			modifier = {
 				factor = 10
-				government = democracy
+				government = county
 			}
 			modifier = {
 				factor = 2
@@ -96,7 +89,7 @@ country_event = {
 			factor = 95
 			modifier = {
 				factor = 1.5
-				government = absolute_monarchy
+				government = feudal_monarchy
 			}
 		}
 		any_pop = {
@@ -120,7 +113,7 @@ country_event = {
 			inherit = THIS
 		}
 		ai_chance = {
-			factor = 25
+			factor = 75
 		}
 	}
 

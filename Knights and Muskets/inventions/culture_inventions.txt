@@ -400,7 +400,7 @@ socialist_realism = {
 		base = 2
 		modifier = {
 			factor = 2
-			government = proletarian_dictatorship
+			government = peasant_republic
 		}
 		modifier = {
 			factor = 2
@@ -866,7 +866,7 @@ constitutionalism = {
 		base = 3
 		modifier = {
 			factor = 2
-			government = hms_government
+			government = feudal_monarchy
 		}
 		modifier = {
 			factor = 1
@@ -956,7 +956,7 @@ authoritarianism = {
 			OR = {
 				ruling_party_ideology = reactionary
 				AND = {
-					government = absolute_monarchy
+					government = feudal_monarchy
 					ruling_party_ideology = conservative
 					}
 				}
@@ -967,22 +967,13 @@ authoritarianism = {
 hierarchical_order = {
 	news = no
 	limit = { 
-			ideological_thought = 1 
-			OR = { 
-			government = hms_government
-			government = prussian_constitutionalism
-			government = absolute_monarchy
-			}			
+			ideological_thought = 1 		
 	}
 	chance = {
 		base = 1
 		modifier = {
 			factor = 3
-			government = absolute_monarchy
-		}
-		modifier = {
-			factor = 2
-			government = prussian_constitutionalism
+			government = feudal_monarchy
 		}
 	}
 	core_pop_militancy_modifier = -0.01
@@ -1003,11 +994,7 @@ traditionalism = {
 		}
 		modifier = {
 			factor = 2
-			government = absolute_monarchy
-		}
-		modifier = {
-			factor = 1
-			government = prussian_constitutionalism
+			government = feudal_monarchy
 		}
 	}
 	core_pop_consciousness_modifier = -0.01
@@ -1674,7 +1661,7 @@ mass_advertising = {
 		}
 		modifier = {
 			factor = 1
-			government = hms_government
+			government = feudal_monarchy
 		}
 	}
 	effect = {

@@ -1,6 +1,6 @@
-
-
-
-trade_goods = grain
+owner = AQU
+controller = AQU
+add_core = AQU
+add_core = NNN
+trade_goods = fish
 life_rating = 35
-fort = 1

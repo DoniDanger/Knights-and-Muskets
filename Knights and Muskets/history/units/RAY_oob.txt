@@ -1,0 +1,42 @@
+leader = {
+    name = "Ghiyath al-Din Pirshah"
+    date = 1221.8.1
+    type = land
+    personality = defence_2.1
+    background = attack_2.1
+    prestige = 0.10
+}
+
+army = {
+    name = "Army of Rayy"
+    location = 1121
+    regiment = {
+        name = "1. Persian Warrior"
+        type = regular
+        home = 1124
+    }
+
+    regiment = {
+        name = "2. Persian Warrior"
+        type = regular
+        home = 1121
+    }
+	
+	regiment = {
+        name = "4. Persian Warrior"
+        type = irregular
+        home = 1125
+    }
+	
+	regiment = {
+        name = "4. Tribal Warrior"
+        type = artillery
+        home = 1129
+    }
+	
+	regiment = {
+        name = "4. Tribal Warrior"
+        type = cavalry
+        home = 1127
+    }
+}

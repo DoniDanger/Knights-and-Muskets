@@ -1,7 +1,7 @@
 capital = 445
 primary_culture = limousin
 religion = catholic
-government = absolute_monarchy
+government = county
 plurality = 25
 nationalvalue = nv_order
 literacy = 0.5

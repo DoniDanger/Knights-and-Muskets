@@ -1,8 +1,8 @@
 capital = 1024
-primary_culture = russian
+primary_culture = ukrainian
 religion = orthodox
-government = feudal_monarchy
-plurality = 0.02
+government = principality
+plurality = 60
 nationalvalue = nv_might
 literacy = 0.12
 civilized = yes

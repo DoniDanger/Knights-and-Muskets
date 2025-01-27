@@ -20,19 +20,32 @@ reactionary_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = feudal_monarchy
-        absolute_monarchy = absolute_monarchy
+		county = county
+		feudal_dominion = feudal_monarchy
+		lordship = lordship
+		duchy = duchy
+		daimyo = daimyo
+		march = march
+		petty_kingdom = petty_kingdom
+		beylik = beylik
+		principality = principality
+		emirate = emirate
+		tribal_chiefdom = tribal_chiefdom
+		grand_duchy = grand_duchy
+		sultanate = sultanate
 		feudal_monarchy = feudal_monarchy
+        shogunate = shogunate
+		elective_monarchy = feudal_monarchy
+		khanate = khanate
 		empire = empire
-        prussian_constitutionalism = feudal_monarchy
-        hms_government = feudal_monarchy
-        democracy = feudal_monarchy
-        theocracy = theocracy
-        autonomous_dependency = feudal_monarchy
-
-        elective_monarchy_oligarchy = feudal_monarchy
-        oligarchic_republic = feudal_monarchy
-        khanate = khanate
+		caliphate = caliphate
+		peasant_republic = lordship
+		military_dictatorship = feudal_monarchy
+        democracy = lordship	
+        oligarchic_republic = lordship
+		confederation = feudal_monarchy
+		theocracy = theocracy	
+		holy_order = holy_order
 	}
 	
 	
@@ -79,6 +92,38 @@ reactionary_rebels = {
 			factor = 0.95
 		}
 		
+		modifier = {
+			plurality = 90
+			factor = 2
+		}
+		modifier = {
+			plurality = 80
+			factor = 1.75
+		}
+		modifier = {
+			plurality = 70
+			factor = 1.5
+		}
+		modifier = {
+			plurality = 60
+			factor = 1.25
+		}
+		modifier = {
+			NOT = { plurality = 20 }
+			factor = 0.95
+		}
+		modifier = {
+			NOT = { plurality = 10 }
+			factor = 0.80
+		}
+		modifier = {
+			NOT = { plurality = 5 }
+			factor = 0.50
+		}
+		modifier = {
+			NOT = { plurality = 1 }
+			factor = 0.1
+		}
 	}
 	
 	# The rebel type with the highest modifier for this pop gets picked
@@ -145,7 +190,7 @@ reactionary_rebels = {
 		}
 		modifier = {
 			factor = 0.2
-			country = { government = absolute_monarchy}
+			country = { government = duchy}
 		}
 		modifier = {
 			factor = 0.2
@@ -153,7 +198,7 @@ reactionary_rebels = {
 		}
 		modifier = {
 			factor = 1.015
-			country = { plurality = 10 }
+			country = { NOT = { plurality = 35 } }
 		}
 	}
  
@@ -212,6 +257,13 @@ reactionary_rebels = {
 		political_reform = no_parliament
 		social_reform = low_minimum_wage
 		social_reform = low_safety
+		prestige_factor = -0.25
+		any_country = { limit = { tag = THIS NOT = { plurality = 40 } } 
+                         plurality = -100
+                         plurality = 40
+		}    
+		plurality = -20
+		any_pop = { limit = { agree_with_ruling_party = yes } militancy = -4 }
 	}
 }
 
@@ -226,19 +278,32 @@ noble_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = oligarchic_republic
-        absolute_monarchy = feudal_monarchy
-		feudal_monarchy = feudal_monarchy
+		county = county
+		feudal_dominion = feudal_monarchy
+		lordship = lordship
+		duchy = duchy
+		daimyo = daimyo
+		march = march
+		petty_kingdom = petty_kingdom
+		beylik = beylik
+		principality = principality
+		emirate = emirate
+		tribal_chiefdom = tribal_chiefdom
+		grand_duchy = grand_duchy
+		sultanate = sultanate
+		feudal_monarchy = elective_monarchy
+        shogunate = shogunate
+		elective_monarchy = elective_monarchy
+		khanate = khanate
 		empire = empire
-        prussian_constitutionalism = prussian_constitutionalism
-        hms_government = hms_government
-        democracy = democracy
-        theocracy = theocracy
-        autonomous_dependency = autonomous_dependency
-
-        elective_monarchy_oligarchy = elective_monarchy_oligarchy
+		caliphate = caliphate
+		peasant_republic = oligarchic_republic
+		military_dictatorship = feudal_monarchy
+        democracy = oligarchic_republic	
         oligarchic_republic = oligarchic_republic
-        khanate = khanate
+		confederation = confederation
+		theocracy = theocracy	
+		holy_order = holy_order
 	}
 	
 	
@@ -284,7 +349,38 @@ noble_rebels = {
 			war_exhaustion = 8
 			factor = 0.95
 		}
-		
+		modifier = {
+			plurality = 90
+			factor = 2
+		}
+		modifier = {
+			plurality = 80
+			factor = 1.75
+		}
+		modifier = {
+			plurality = 70
+			factor = 1.5
+		}
+		modifier = {
+			plurality = 60
+			factor = 1.25
+		}
+		modifier = {
+			NOT = { plurality = 20 }
+			factor = 0.95
+		}
+		modifier = {
+			NOT = { plurality = 10 }
+			factor = 0.80
+		}
+		modifier = {
+			NOT = { plurality = 5 }
+			factor = 0.50
+		}
+		modifier = {
+			NOT = { plurality = 1 }
+			factor = 0.1
+		}
 	}
 	
 	# The rebel type with the highest modifier for this pop gets picked
@@ -362,7 +458,7 @@ noble_rebels = {
 		}
 		modifier = {
 			factor = 0.2
-			country = { government = absolute_monarchy}
+			country = { government = duchy}
 		}
 		modifier = {
 			factor = 0.2
@@ -430,6 +526,13 @@ noble_rebels = {
 		social_reform = no_safety
 		social_reform = small_tax_contribution
 		social_reform = restricted_trade_rights
+		prestige_factor = -0.25
+		any_country = { limit = { tag = THIS NOT = { plurality = 40 } } 
+                         plurality = -100
+                         plurality = 40
+		}    
+		plurality = -20
+		any_pop = { limit = { agree_with_ruling_party = yes } militancy = -4 }
 	}
 }
 
@@ -444,19 +547,32 @@ pretender_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = oligarchic_republic
-        absolute_monarchy = absolute_monarchy
+		county = county
+		feudal_dominion = feudal_monarchy
+		lordship = lordship
+		duchy = duchy
+		daimyo = daimyo
+		march = march
+		petty_kingdom = petty_kingdom
+		beylik = beylik
+		principality = principality
+		emirate = emirate
+		tribal_chiefdom = tribal_chiefdom
+		grand_duchy = grand_duchy
+		sultanate = sultanate
 		feudal_monarchy = feudal_monarchy
+        shogunate = shogunate
+		elective_monarchy = feudal_monarchy
+		khanate = khanate
 		empire = empire
-        prussian_constitutionalism = prussian_constitutionalism
-        hms_government = hms_government
-        democracy = democracy
-        theocracy = theocracy
-        autonomous_dependency = autonomous_dependency
-
-        elective_monarchy_oligarchy = elective_monarchy_oligarchy
+		caliphate = caliphate
+		peasant_republic = oligarchic_republic
+		military_dictatorship = feudal_monarchy
+        democracy = oligarchic_republic	
         oligarchic_republic = oligarchic_republic
-        khanate = khanate
+		confederation = feudal_monarchy
+		theocracy = theocracy	
+		holy_order = holy_order
 	}
 	
 	
@@ -500,7 +616,38 @@ pretender_rebels = {
 			war_exhaustion = 8
 			factor = 0.95
 		}
-		
+		modifier = {
+			plurality = 90
+			factor = 2
+		}
+		modifier = {
+			plurality = 80
+			factor = 1.75
+		}
+		modifier = {
+			plurality = 70
+			factor = 1.5
+		}
+		modifier = {
+			plurality = 60
+			factor = 1.25
+		}
+		modifier = {
+			NOT = { plurality = 20 }
+			factor = 0.95
+		}
+		modifier = {
+			NOT = { plurality = 10 }
+			factor = 0.80
+		}
+		modifier = {
+			NOT = { plurality = 5 }
+			factor = 0.50
+		}
+		modifier = {
+			NOT = { plurality = 1 }
+			factor = 0.1
+		}
 	}
 	
 	# The rebel type with the highest modifier for this pop gets picked
@@ -571,7 +718,7 @@ pretender_rebels = {
 		}
 		modifier = {
 			factor = 0.2
-			country = { government = absolute_monarchy}
+			country = { government = duchy}
 		}
 		modifier = {
 			factor = 0.2
@@ -639,6 +786,13 @@ pretender_rebels = {
 		social_reform = no_safety
 		social_reform = small_tax_contribution
 		social_reform = restricted_trade_rights
+		prestige_factor = -0.25
+		any_country = { limit = { tag = THIS NOT = { plurality = 40 } } 
+                         plurality = -100
+                         plurality = 40
+		}    
+		plurality = -20
+		any_pop = { limit = { agree_with_ruling_party = yes } militancy = -4 }
 	}
 }
 
@@ -653,19 +807,32 @@ fascist_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = absolute_monarchy
-        absolute_monarchy = absolute_monarchy
-		feudal_monarchy = absolute_monarchy
+		county = county
+		feudal_dominion = feudal_monarchy
+		lordship = lordship
+		duchy = duchy
+		daimyo = daimyo
+		march = march
+		petty_kingdom = petty_kingdom
+		beylik = beylik
+		principality = principality
+		emirate = emirate
+		tribal_chiefdom = tribal_chiefdom
+		grand_duchy = grand_duchy
+		sultanate = sultanate
+		feudal_monarchy = feudal_monarchy
+        shogunate = shogunate
+		elective_monarchy = feudal_monarchy
+		khanate = khanate
 		empire = empire
-        prussian_constitutionalism = absolute_monarchy
-        hms_government = absolute_monarchy
-        democracy = absolute_monarchy
-        theocracy = theocracy
-        autonomous_dependency = absolute_monarchy
-
-        elective_monarchy_oligarchy = absolute_monarchy
-        oligarchic_republic = absolute_monarchy
-        khanate = khanate
+		caliphate = caliphate
+		peasant_republic = lordship
+		military_dictatorship = feudal_monarchy
+        democracy = lordship	
+        oligarchic_republic = lordship
+		confederation = feudal_monarchy
+		theocracy = theocracy	
+		holy_order = holy_order
 	}
 	
 	
@@ -717,6 +884,39 @@ fascist_rebels = {
 		modifier = {
 			war_exhaustion = 8
 			factor = 0.95
+		}
+		
+		modifier = {
+			plurality = 90
+			factor = 2
+		}
+		modifier = {
+			plurality = 80
+			factor = 1.75
+		}
+		modifier = {
+			plurality = 70
+			factor = 1.5
+		}
+		modifier = {
+			plurality = 60
+			factor = 1.25
+		}
+		modifier = {
+			NOT = { plurality = 20 }
+			factor = 0.95
+		}
+		modifier = {
+			NOT = { plurality = 10 }
+			factor = 0.80
+		}
+		modifier = {
+			NOT = { plurality = 5 }
+			factor = 0.50
+		}
+		modifier = {
+			NOT = { plurality = 1 }
+			factor = 0.1
 		}
 	}
 	
@@ -849,6 +1049,13 @@ fascist_rebels = {
 		social_reform = no_safety
 		social_reform = small_tax_contribution
 		social_reform = restricted_trade_rights
+		prestige_factor = -0.25
+		any_country = { limit = { tag = THIS NOT = { plurality = 40 } } 
+                         plurality = -100
+                         plurality = 40
+		}    
+		plurality = -20
+		any_pop = { limit = { agree_with_ruling_party = yes } militancy = -4 }
 	}
 }
 
@@ -863,19 +1070,32 @@ peasant_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = proletarian_dictatorship
-        absolute_monarchy = feudal_monarchy
-		feudal_monarchy = absolute_monarchy
+		county = peasant_republic
+		feudal_dominion = peasant_republic
+		lordship = peasant_republic
+		duchy = duchy
+		daimyo = daimyo
+		march = march
+		petty_kingdom = petty_kingdom
+		beylik = beylik
+		principality = principality
+		emirate = emirate
+		tribal_chiefdom = tribal_chiefdom
+		grand_duchy = grand_duchy
+		sultanate = sultanate
+		feudal_monarchy = elective_monarchy
+        shogunate = shogunate
+		elective_monarchy = elective_monarchy
+		khanate = khanate
 		empire = empire
-        prussian_constitutionalism = prussian_constitutionalism
-        hms_government = hms_government
-        democracy = democracy
-        theocracy = theocracy
-        autonomous_dependency = autonomous_dependency
-
-        elective_monarchy_oligarchy = elective_monarchy_oligarchy
-        oligarchic_republic = oligarchic_republic
-        khanate = khanate
+		caliphate = caliphate
+		peasant_republic = peasant_republic
+		military_dictatorship = peasant_republic
+        democracy = peasant_republic	
+        oligarchic_republic = peasant_republic
+		confederation = confederation
+		theocracy = theocracy	
+		holy_order = holy_order
 	}
 	
 	
@@ -937,8 +1157,41 @@ peasant_rebels = {
 		modifier = {
 			factor = 0.95
 			any_neighbor_country = {
-				government = proletarian_dictatorship
+				government = peasant_republic
 			}
+		}
+		
+		modifier = {
+			plurality = 90
+			factor = 2
+		}
+		modifier = {
+			plurality = 80
+			factor = 1.75
+		}
+		modifier = {
+			plurality = 70
+			factor = 1.5
+		}
+		modifier = {
+			plurality = 60
+			factor = 1.25
+		}
+		modifier = {
+			NOT = { plurality = 20 }
+			factor = 0.95
+		}
+		modifier = {
+			NOT = { plurality = 10 }
+			factor = 0.80
+		}
+		modifier = {
+			NOT = { plurality = 5 }
+			factor = 0.50
+		}
+		modifier = {
+			NOT = { plurality = 1 }
+			factor = 0.1
 		}
 	}
 	
@@ -958,7 +1211,7 @@ peasant_rebels = {
 		}
 		modifier = {
 			factor = 0
-			government = proletarian_dictatorship
+			government = peasant_republic
 		}
 		modifier = {
 			factor = 1.015
@@ -995,7 +1248,7 @@ peasant_rebels = {
 			factor = 1.03
 			country = {
 				any_neighbor_country = {
-					government = proletarian_dictatorship
+					government = peasant_republic
 				}
 			}
 		}
@@ -1066,6 +1319,14 @@ peasant_rebels = {
 		political_reform = underground_parties
 		
 		nationalize = yes
+		
+		prestige_factor = -0.25
+		any_country = { limit = { tag = THIS NOT = { plurality = 40 } } 
+                         plurality = -100
+                         plurality = 40
+		}    
+		plurality = -20
+		any_pop = { limit = { agree_with_ruling_party = yes } militancy = -4 }
 	}
 }
 
@@ -1080,19 +1341,32 @@ communist_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = proletarian_dictatorship
-        absolute_monarchy = proletarian_dictatorship
-		feudal_monarchy = proletarian_dictatorship
-		empire = proletarian_dictatorship
-        prussian_constitutionalism = proletarian_dictatorship
-        hms_government = proletarian_dictatorship
-        democracy = proletarian_dictatorship
-        theocracy = proletarian_dictatorship
-        autonomous_dependency = proletarian_dictatorship
-
-        elective_monarchy_oligarchy = proletarian_dictatorship
-        oligarchic_republic = proletarian_dictatorship
-        khanate = proletarian_dictatorship
+		county = peasant_republic
+		feudal_dominion = peasant_republic
+		lordship = peasant_republic
+		duchy = duchy
+		daimyo = daimyo
+		march = march
+		petty_kingdom = petty_kingdom
+		beylik = beylik
+		principality = principality
+		emirate = emirate
+		tribal_chiefdom = tribal_chiefdom
+		grand_duchy = grand_duchy
+		sultanate = sultanate
+		feudal_monarchy = elective_monarchy
+        shogunate = shogunate
+		elective_monarchy = elective_monarchy
+		khanate = khanate
+		empire = empire
+		caliphate = caliphate
+		peasant_republic = peasant_republic
+		military_dictatorship = peasant_republic
+        democracy = peasant_republic	
+        oligarchic_republic = peasant_republic
+		confederation = confederation
+		theocracy = theocracy	
+		holy_order = holy_order
 	}
 	
 	
@@ -1154,8 +1428,41 @@ communist_rebels = {
 		modifier = {
 			factor = 0.95
 			any_neighbor_country = {
-				government = proletarian_dictatorship
+				government = peasant_republic
 			}
+		}
+		
+		modifier = {
+			plurality = 90
+			factor = 2
+		}
+		modifier = {
+			plurality = 80
+			factor = 1.75
+		}
+		modifier = {
+			plurality = 70
+			factor = 1.5
+		}
+		modifier = {
+			plurality = 60
+			factor = 1.25
+		}
+		modifier = {
+			NOT = { plurality = 20 }
+			factor = 0.95
+		}
+		modifier = {
+			NOT = { plurality = 10 }
+			factor = 0.80
+		}
+		modifier = {
+			NOT = { plurality = 5 }
+			factor = 0.50
+		}
+		modifier = {
+			NOT = { plurality = 1 }
+			factor = 0.1
 		}
 	}
 	
@@ -1175,7 +1482,7 @@ communist_rebels = {
 		}
 		modifier = {
 			factor = 0
-			government = proletarian_dictatorship
+			government = peasant_republic
 		}
 		modifier = {
 			factor = 1.015
@@ -1212,7 +1519,7 @@ communist_rebels = {
 			factor = 1.03
 			country = {
 				any_neighbor_country = {
-					government = proletarian_dictatorship
+					government = peasant_republic
 				}
 			}
 		}
@@ -1283,13 +1590,21 @@ communist_rebels = {
 		political_reform = underground_parties
 		
 		nationalize = yes
+		
+		prestige_factor = -0.25
+		any_country = { limit = { tag = THIS NOT = { plurality = 40 } } 
+                         plurality = -100
+                         plurality = 40
+		}    
+		plurality = -20
+		any_pop = { limit = { agree_with_ruling_party = yes } militancy = -4 }
 	}
 }
 
 ###################################
 # Anarcho-Liberal Rebels
 ###################################
-anarcho_liberal_rebels = {
+anarcho_liberal_rebels = { #Rural Elite rebels
 	icon = 4
 	
 	area = nation 					# Stays within the nation
@@ -1297,19 +1612,32 @@ anarcho_liberal_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = oligarchic_republic
-        absolute_monarchy = absolute_monarchy
-		feudal_monarchy = feudal_monarchy
+		county = county
+		feudal_dominion = feudal_dominion
+		lordship = lordship
+		duchy = duchy
+		daimyo = daimyo
+		march = march
+		petty_kingdom = petty_kingdom
+		beylik = beylik
+		principality = principality
+		emirate = emirate
+		tribal_chiefdom = tribal_chiefdom
+		grand_duchy = grand_duchy
+		sultanate = sultanate
+		feudal_monarchy = elective_monarchy
+        shogunate = shogunate
+		elective_monarchy = elective_monarchy
+		khanate = khanate
 		empire = empire
-        prussian_constitutionalism = prussian_constitutionalism
-        hms_government = hms_government
-        democracy = oligarchic_republic
-        theocracy = theocracy
-        autonomous_dependency = autonomous_dependency
-
-        elective_monarchy_oligarchy = elective_monarchy_oligarchy
+		caliphate = caliphate
+		peasant_republic = peasant_republic
+		military_dictatorship = military_dictatorship
+        democracy = democracy	
         oligarchic_republic = oligarchic_republic
-        khanate = khanate
+		confederation = confederation
+		theocracy = theocracy	
+		holy_order = holy_order
 	}
 	
 	
@@ -1366,6 +1694,39 @@ anarcho_liberal_rebels = {
 			country = {
 				has_country_modifier = global_liberal_agitation
 			}
+		}
+		
+		modifier = {
+			plurality = 90
+			factor = 2
+		}
+		modifier = {
+			plurality = 80
+			factor = 1.75
+		}
+		modifier = {
+			plurality = 70
+			factor = 1.5
+		}
+		modifier = {
+			plurality = 60
+			factor = 1.25
+		}
+		modifier = {
+			NOT = { plurality = 20 }
+			factor = 0.95
+		}
+		modifier = {
+			NOT = { plurality = 10 }
+			factor = 0.80
+		}
+		modifier = {
+			NOT = { plurality = 5 }
+			factor = 0.50
+		}
+		modifier = {
+			NOT = { plurality = 1 }
+			factor = 0.1
 		}
 	}
 	
@@ -1483,6 +1844,14 @@ anarcho_liberal_rebels = {
 		political_reform = state_press
 		political_reform = no_trade_unions
 		political_reform = underground_parties
+		
+		prestige_factor = -0.25
+		any_country = { limit = { tag = THIS NOT = { plurality = 40 } } 
+                         plurality = -100
+                         plurality = 40
+		}    
+		plurality = -20
+		any_pop = { limit = { agree_with_ruling_party = yes } militancy = -4 }
 	}
 }
 
@@ -1497,19 +1866,32 @@ nationalist_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = proletarian_dictatorship
-        absolute_monarchy = absolute_monarchy
+		county = county
+		feudal_dominion = feudal_monarchy
+		lordship = lordship
+		duchy = duchy
+		daimyo = daimyo
+		march = march
+		petty_kingdom = petty_kingdom
+		beylik = beylik
+		principality = principality
+		emirate = emirate
+		tribal_chiefdom = tribal_chiefdom
+		grand_duchy = grand_duchy
+		sultanate = sultanate
 		feudal_monarchy = feudal_monarchy
+        shogunate = shogunate
+		elective_monarchy = elective_monarchy
+		khanate = khanate
 		empire = empire
-        prussian_constitutionalism = prussian_constitutionalism
-        hms_government = hms_government
-        democracy = democracy
-        theocracy = theocracy
-        autonomous_dependency = autonomous_dependency
-
-        elective_monarchy_oligarchy = elective_monarchy_oligarchy
+		caliphate = caliphate
+		peasant_republic = peasant_republic
+		military_dictatorship = military_dictatorship
+        democracy = democracy	
         oligarchic_republic = oligarchic_republic
-        khanate = khanate
+		confederation = confederation
+		theocracy = theocracy	
+		holy_order = holy_order
 	}
 	
 	
@@ -1552,6 +1934,39 @@ nationalist_rebels = {
 		modifier = {
 			war_exhaustion = 8
 			factor = 0.95
+		}
+		
+		modifier = {
+			plurality = 90
+			factor = 2
+		}
+		modifier = {
+			plurality = 80
+			factor = 1.75
+		}
+		modifier = {
+			plurality = 70
+			factor = 1.5
+		}
+		modifier = {
+			plurality = 60
+			factor = 1.25
+		}
+		modifier = {
+			NOT = { plurality = 20 }
+			factor = 0.95
+		}
+		modifier = {
+			NOT = { plurality = 10 }
+			factor = 0.80
+		}
+		modifier = {
+			NOT = { plurality = 5 }
+			factor = 0.50
+		}
+		modifier = {
+			NOT = { plurality = 1 }
+			factor = 0.1
 		}
 	}
 	
@@ -1694,7 +2109,7 @@ nationalist_rebels = {
 					controlled_by_rebels = yes
 					NOT = { owned_by = THIS }
 				}
-				province_control_days = 30
+				province_control_days = 60
 			}
 		}
 	}
@@ -1718,19 +2133,32 @@ pan_nationalist_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = proletarian_dictatorship
-        absolute_monarchy = absolute_monarchy
+		county = county
+		feudal_dominion = feudal_monarchy
+		lordship = lordship
+		duchy = duchy
+		daimyo = daimyo
+		march = march
+		petty_kingdom = petty_kingdom
+		beylik = beylik
+		principality = principality
+		emirate = emirate
+		tribal_chiefdom = tribal_chiefdom
+		grand_duchy = grand_duchy
+		sultanate = sultanate
 		feudal_monarchy = feudal_monarchy
+        shogunate = shogunate
+		elective_monarchy = elective_monarchy
+		khanate = khanate
 		empire = empire
-        prussian_constitutionalism = prussian_constitutionalism
-        hms_government = hms_government
-        democracy = democracy
-        theocracy = theocracy
-        autonomous_dependency = autonomous_dependency
-
-        elective_monarchy_oligarchy = elective_monarchy_oligarchy
+		caliphate = caliphate
+		peasant_republic = peasant_republic
+		military_dictatorship = military_dictatorship
+        democracy = democracy	
         oligarchic_republic = oligarchic_republic
-        khanate = khanate
+		confederation = confederation
+		theocracy = theocracy	
+		holy_order = holy_order
 	}
 
 	defection = pan_nationalist		# If the country seeks independence, defection specifies what type of provinces it wants.
@@ -1791,6 +2219,38 @@ pan_nationalist_rebels = {
 			country = {
 				has_country_modifier = global_liberal_agitation
 			}
+		}
+		modifier = {
+			plurality = 90
+			factor = 2
+		}
+		modifier = {
+			plurality = 80
+			factor = 1.75
+		}
+		modifier = {
+			plurality = 70
+			factor = 1.5
+		}
+		modifier = {
+			plurality = 60
+			factor = 1.25
+		}
+		modifier = {
+			NOT = { plurality = 20 }
+			factor = 0.95
+		}
+		modifier = {
+			NOT = { plurality = 10 }
+			factor = 0.80
+		}
+		modifier = {
+			NOT = { plurality = 5 }
+			factor = 0.50
+		}
+		modifier = {
+			NOT = { plurality = 1 }
+			factor = 0.1
 		}
 	}
 	
@@ -1960,19 +2420,32 @@ liberal_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = proletarian_dictatorship
-        absolute_monarchy = absolute_monarchy
-		feudal_monarchy = feudal_monarchy
+		county = county
+		feudal_dominion = oligarchic_republic
+		lordship = lordship
+		duchy = duchy
+		daimyo = daimyo
+		march = march
+		petty_kingdom = petty_kingdom
+		beylik = beylik
+		principality = principality
+		emirate = emirate
+		tribal_chiefdom = tribal_chiefdom
+		grand_duchy = grand_duchy
+		sultanate = sultanate
+		feudal_monarchy = elective_monarchy
+        shogunate = shogunate
+		elective_monarchy = elective_monarchy
+		khanate = khanate
 		empire = empire
-        prussian_constitutionalism = prussian_constitutionalism
-        hms_government = hms_government
-        democracy = democracy
-        theocracy = theocracy
-        autonomous_dependency = autonomous_dependency
-
-        elective_monarchy_oligarchy = elective_monarchy_oligarchy
+		caliphate = caliphate
+		peasant_republic = oligarchic_republic
+		military_dictatorship = oligarchic_republic
+        democracy = democracy	
         oligarchic_republic = oligarchic_republic
-        khanate = khanate
+		confederation = confederation
+		theocracy = theocracy	
+		holy_order = holy_order
 	}
 	
 	
@@ -2029,6 +2502,38 @@ liberal_rebels = {
 			country = {
 				has_country_modifier = global_liberal_agitation
 			}
+		}
+		modifier = {
+			plurality = 90
+			factor = 2
+		}
+		modifier = {
+			plurality = 80
+			factor = 1.75
+		}
+		modifier = {
+			plurality = 70
+			factor = 1.5
+		}
+		modifier = {
+			plurality = 60
+			factor = 1.25
+		}
+		modifier = {
+			NOT = { plurality = 20 }
+			factor = 0.95
+		}
+		modifier = {
+			NOT = { plurality = 10 }
+			factor = 0.80
+		}
+		modifier = {
+			NOT = { plurality = 5 }
+			factor = 0.50
+		}
+		modifier = {
+			NOT = { plurality = 1 }
+			factor = 0.1
 		}
 	}
 	
@@ -2156,6 +2661,13 @@ liberal_rebels = {
 		political_reform = free_press
 		political_reform = non_socialist
 		political_reform = gerrymandering
+		prestige_factor = -0.25
+		any_country = { limit = { tag = THIS NOT = { plurality = 40 } } 
+                         plurality = -100
+                         plurality = 40
+		}    
+		plurality = -20
+		any_pop = { limit = { agree_with_ruling_party = yes } militancy = -4 }
 	}
 }
 
@@ -2170,19 +2682,32 @@ unciv_reactionary_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = proletarian_dictatorship
-        absolute_monarchy = absolute_monarchy
+		county = county
+		feudal_dominion = feudal_dominion
+		lordship = lordship
+		duchy = duchy
+		daimyo = daimyo
+		march = march
+		petty_kingdom = petty_kingdom
+		beylik = beylik
+		principality = principality
+		emirate = emirate
+		tribal_chiefdom = tribal_chiefdom
+		grand_duchy = grand_duchy
+		sultanate = sultanate
 		feudal_monarchy = feudal_monarchy
+        shogunate = shogunate
+		elective_monarchy = elective_monarchy
+		khanate = khanate
 		empire = empire
-        prussian_constitutionalism = prussian_constitutionalism
-        hms_government = hms_government
-        democracy = democracy
-        theocracy = theocracy
-        autonomous_dependency = autonomous_dependency
-
-        elective_monarchy_oligarchy = elective_monarchy_oligarchy
+		caliphate = caliphate
+		peasant_republic = peasant_republic
+		military_dictatorship = military_dictatorship
+        democracy = democracy	
         oligarchic_republic = oligarchic_republic
-        khanate = khanate
+		confederation = confederation
+		theocracy = theocracy	
+		holy_order = holy_order
 	}
 	
 	
@@ -2228,7 +2753,38 @@ unciv_reactionary_rebels = {
 			war_exhaustion = 8
 			factor = 0.95
 		}
-		
+		modifier = {
+			plurality = 90
+			factor = 2
+		}
+		modifier = {
+			plurality = 80
+			factor = 1.75
+		}
+		modifier = {
+			plurality = 70
+			factor = 1.5
+		}
+		modifier = {
+			plurality = 60
+			factor = 1.25
+		}
+		modifier = {
+			NOT = { plurality = 20 }
+			factor = 0.95
+		}
+		modifier = {
+			NOT = { plurality = 10 }
+			factor = 0.80
+		}
+		modifier = {
+			NOT = { plurality = 5 }
+			factor = 0.50
+		}
+		modifier = {
+			NOT = { plurality = 1 }
+			factor = 0.1
+		}
 	}
 	
 	# The rebel type with the highest modifier for this pop gets picked
@@ -2346,6 +2902,13 @@ unciv_reactionary_rebels = {
 		civilized = no
 		remove_random_economic_reforms = 2
 		remove_random_military_reforms = 2
+		prestige_factor = -0.25
+		any_country = { limit = { tag = THIS NOT = { plurality = 40 } } 
+                         plurality = -100
+                         plurality = 40
+		}    
+		plurality = -20
+		any_pop = { limit = { agree_with_ruling_party = yes } militancy = -4 }
 	}
 }
 
@@ -2359,19 +2922,32 @@ separatist_rebels = {
 	
 	# <this is the government in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = proletarian_dictatorship
-        absolute_monarchy = absolute_monarchy
+		county = county
+		feudal_dominion = feudal_monarchy
+		lordship = lordship
+		duchy = duchy
+		daimyo = daimyo
+		march = march
+		petty_kingdom = petty_kingdom
+		beylik = beylik
+		principality = principality
+		emirate = emirate
+		tribal_chiefdom = tribal_chiefdom
+		grand_duchy = grand_duchy
+		sultanate = sultanate
 		feudal_monarchy = feudal_monarchy
+        shogunate = shogunate
+		elective_monarchy = elective_monarchy
+		khanate = khanate
 		empire = empire
-        prussian_constitutionalism = prussian_constitutionalism
-        hms_government = hms_government
-        democracy = democracy
-        theocracy = theocracy
-        autonomous_dependency = autonomous_dependency
-
-        elective_monarchy_oligarchy = elective_monarchy_oligarchy
+		caliphate = caliphate
+		peasant_republic = peasant_republic
+		military_dictatorship = military_dictatorship
+        democracy = democracy	
         oligarchic_republic = oligarchic_republic
-        khanate = khanate
+		confederation = confederation
+		theocracy = theocracy	
+		holy_order = holy_order
 	}
 	
 	
@@ -2418,6 +2994,38 @@ separatist_rebels = {
 		modifier = {
 			factor = 0.5
 			has_country_modifier = global_liberal_agitation
+		}
+		modifier = {
+			plurality = 90
+			factor = 2
+		}
+		modifier = {
+			plurality = 80
+			factor = 1.75
+		}
+		modifier = {
+			plurality = 70
+			factor = 1.5
+		}
+		modifier = {
+			plurality = 60
+			factor = 1.25
+		}
+		modifier = {
+			NOT = { plurality = 20 }
+			factor = 0.95
+		}
+		modifier = {
+			NOT = { plurality = 10 }
+			factor = 0.80
+		}
+		modifier = {
+			NOT = { plurality = 5 }
+			factor = 0.50
+		}
+		modifier = {
+			NOT = { plurality = 1 }
+			factor = 0.1
 		}
 	}
 	
@@ -2611,19 +3219,32 @@ zealot_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = proletarian_dictatorship
-        absolute_monarchy = absolute_monarchy
+		county = county
+		feudal_dominion = feudal_dominion
+		lordship = lordship
+		duchy = duchy
+		daimyo = daimyo
+		march = march
+		petty_kingdom = petty_kingdom
+		beylik = beylik
+		principality = principality
+		emirate = emirate
+		tribal_chiefdom = tribal_chiefdom
+		grand_duchy = grand_duchy
+		sultanate = sultanate
 		feudal_monarchy = feudal_monarchy
+        shogunate = shogunate
+		elective_monarchy = elective_monarchy
+		khanate = khanate
 		empire = empire
-        prussian_constitutionalism = prussian_constitutionalism
-        hms_government = hms_government
-        democracy = democracy
-        theocracy = theocracy
-        autonomous_dependency = autonomous_dependency
-
-        elective_monarchy_oligarchy = elective_monarchy_oligarchy
+		caliphate = caliphate
+		peasant_republic = peasant_republic
+		military_dictatorship = military_dictatorship
+        democracy = democracy	
         oligarchic_republic = oligarchic_republic
-        khanate = khanate
+		confederation = confederation
+		theocracy = theocracy	
+		holy_order = holy_order
 	}
 	
 	
@@ -2679,7 +3300,38 @@ zealot_rebels = {
 			war_exhaustion = 8
 			factor = 0.95
 		}
-		
+		modifier = {
+			plurality = 90
+			factor = 2
+		}
+		modifier = {
+			plurality = 80
+			factor = 1.75
+		}
+		modifier = {
+			plurality = 70
+			factor = 1.5
+		}
+		modifier = {
+			plurality = 60
+			factor = 1.25
+		}
+		modifier = {
+			NOT = { plurality = 20 }
+			factor = 0.95
+		}
+		modifier = {
+			NOT = { plurality = 10 }
+			factor = 0.80
+		}
+		modifier = {
+			NOT = { plurality = 5 }
+			factor = 0.50
+		}
+		modifier = {
+			NOT = { plurality = 1 }
+			factor = 0.1
+		}
 	}
 	
 	# The rebel type with the highest modifier for this pop gets picked
@@ -2802,6 +3454,13 @@ zealot_rebels = {
 		political_reform = state_religion
 		political_reform = no_rights
 		social_reform = no_minimum_wage
+		prestige_factor = -0.25
+		any_country = { limit = { tag = THIS NOT = { plurality = 40 } } 
+                         plurality = -100
+                         plurality = 40
+		}    
+		plurality = -20
+		any_pop = { limit = { agree_with_ruling_party = yes } militancy = -4 }
 	}
 }
 
@@ -2816,19 +3475,32 @@ heretic_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = proletarian_dictatorship
-        absolute_monarchy = absolute_monarchy
+		county = county
+		feudal_dominion = feudal_dominion
+		lordship = lordship
+		duchy = duchy
+		daimyo = daimyo
+		march = march
+		petty_kingdom = petty_kingdom
+		beylik = beylik
+		principality = principality
+		emirate = emirate
+		tribal_chiefdom = tribal_chiefdom
+		grand_duchy = grand_duchy
+		sultanate = sultanate
 		feudal_monarchy = feudal_monarchy
+        shogunate = shogunate
+		elective_monarchy = elective_monarchy
+		khanate = khanate
 		empire = empire
-        prussian_constitutionalism = prussian_constitutionalism
-        hms_government = hms_government
-        democracy = democracy
-        theocracy = theocracy
-        autonomous_dependency = autonomous_dependency
-
-        elective_monarchy_oligarchy = elective_monarchy_oligarchy
+		caliphate = caliphate
+		peasant_republic = peasant_republic
+		military_dictatorship = military_dictatorship
+        democracy = democracy	
         oligarchic_republic = oligarchic_republic
-        khanate = khanate
+		confederation = confederation
+		theocracy = theocracy	
+		holy_order = holy_order
 	}
 	
 	
@@ -2882,7 +3554,38 @@ heretic_rebels = {
 			war_exhaustion = 8
 			factor = 0.95
 		}
-		
+		modifier = {
+			plurality = 90
+			factor = 2
+		}
+		modifier = {
+			plurality = 80
+			factor = 1.75
+		}
+		modifier = {
+			plurality = 70
+			factor = 1.5
+		}
+		modifier = {
+			plurality = 60
+			factor = 1.25
+		}
+		modifier = {
+			NOT = { plurality = 20 }
+			factor = 0.95
+		}
+		modifier = {
+			NOT = { plurality = 10 }
+			factor = 0.80
+		}
+		modifier = {
+			NOT = { plurality = 5 }
+			factor = 0.50
+		}
+		modifier = {
+			NOT = { plurality = 1 }
+			factor = 0.1
+		}
 	}
 	
 	# The rebel type with the highest modifier for this pop gets picked
@@ -2978,5 +3681,12 @@ heretic_rebels = {
 	
 	demands_enforced_effect = {
 		political_reform = political_rights
+		prestige_factor = -0.25
+		any_country = { limit = { tag = THIS NOT = { plurality = 40 } } 
+                         plurality = -100
+                         plurality = 40
+		}    
+		plurality = -20
+		any_pop = { limit = { agree_with_ruling_party = yes } militancy = -4 }
 	}
 }

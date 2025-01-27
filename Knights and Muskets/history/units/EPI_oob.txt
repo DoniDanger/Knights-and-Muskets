@@ -21,20 +21,20 @@ army = {
     location = 132
     regiment = {
         name = "1. Fanteria di Linea - Re e Regina"
-        type = infantry
-        home = 849
+        type = regular
+        home = 806
     }
 
     regiment = {
         name = "2. Fanteria di Linea - Duca di Calabria"
-        type = infantry
-        home = 851
+        type = regular
+        home = 836
     }
 
     regiment = {
         name = "3. Fanteria di Linea - Duca di Noto"
-        type = infantry
-        home = 850
+        type = regular
+        home = 132
     }
 
     regiment = {
@@ -74,19 +74,19 @@ army = {
     location = 836
     regiment = {
         name = "1. Fanteria di Linea - Re e Regina"
-        type = infantry
+        type = regular
         home = 836
     }
 
     regiment = {
         name = "2. Fanteria di Linea - Duca di Calabria"
-        type = infantry
+        type = regular
         home = 837
     }
 
 	regiment = {
         name = "3. Fanteria di Linea - Duca di Calabria"
-        type = infantry
+        type = regular
         home = 821
     }
 	
@@ -100,12 +100,6 @@ army = {
         name = "4. Fanteria di Linea"
         type = artillery
         home = 823
-    }
-	
-	regiment = {
-        name = "2. Cavalleria di Linea"
-        type = cavalry
-        home = 132
     }
 	
     regiment = {

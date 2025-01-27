@@ -2,7 +2,7 @@ capital = 1178
 primary_culture = mashriqi
 culture = bedouin
 religion = shiite
-government = absolute_monarchy
+government = feudal_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.03
@@ -53,7 +53,7 @@ consciousness = 0
 nonstate_consciousness = 0
 
 govt_flag = {
-	government = absolute_monarchy
+	government = feudal_monarchy
 	flag = feudal_monarchy
 }
 

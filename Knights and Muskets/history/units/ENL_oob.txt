@@ -46,6 +46,28 @@ OCC = {
     influence_value = 0
 }
 
+##Duchy of Aquitane
+BEA = {
+    value = 115
+    level = 5
+    influence_value = 0
+}
+AMG = {
+    value = 85
+    level = 5
+    influence_value = 0
+}
+PGD = {
+    value = 110
+    level = 5
+    influence_value = 0
+}
+ANG = {
+    value = 155
+    level = 5
+    influence_value = 0
+}
+
 leader = {
     name = "John III"
     date = 1212.1.1

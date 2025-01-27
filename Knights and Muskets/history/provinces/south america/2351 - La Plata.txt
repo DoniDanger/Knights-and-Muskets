@@ -1,6 +1,6 @@
-owner = LIH
-controller = LIH
+owner = LIV
+controller = LIV
+add_core = LIV
 add_core = LIH
-add_core = LIT
 trade_goods = cattle
 life_rating = 35

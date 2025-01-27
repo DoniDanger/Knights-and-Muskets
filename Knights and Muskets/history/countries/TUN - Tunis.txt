@@ -1,7 +1,7 @@
 capital = 1725
 primary_culture = maghrebi
 religion = sunni
-government = autonomous_dependency
+government = feudal_dominion
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.09

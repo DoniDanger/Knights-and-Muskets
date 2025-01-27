@@ -1,7 +1,7 @@
 capital = 2513 # Dunedin
 primary_culture = british
 religion = protestant
-government = hms_government
+government = feudal_monarchy
 plurality = 0.88
 nationalvalue = nv_liberty
 literacy = 0.5

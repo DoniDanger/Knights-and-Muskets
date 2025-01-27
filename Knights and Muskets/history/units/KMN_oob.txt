@@ -1,0 +1,42 @@
+leader = {
+    name = "Baraq Hijab"
+    date = 1221.8.1
+    type = land
+    personality = defence_2.1
+    background = attack_2.1
+    prestige = 0.10
+}
+
+army = {
+    name = "Army of Kerman"
+    location = 1140
+    regiment = {
+        name = "1. Persian Warrior"
+        type = regular
+        home = 2452
+    }
+
+    regiment = {
+        name = "2. Persian Warrior"
+        type = irregular
+        home = 2460
+    }
+	
+	regiment = {
+        name = "4. Tribal Warrior"
+        type = artillery
+        home = 2457
+    }
+	
+	regiment = {
+        name = "4. Turkoman Warrior"
+        type = dragoon
+        home = 1148
+    }
+	
+	regiment = {
+        name = "4. Turkoman Warrior"
+        type = dragoon
+        home = 1140
+    }
+}

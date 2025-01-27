@@ -6,7 +6,7 @@ culture = tuvan
 culture = khitan
 religion = tengri
 government = empire
-plurality = 0.0
+plurality = 80.0
 nationalvalue = nv_might
 literacy = 0.09
 non_state_culture_literacy = 0.04 #Chinese
@@ -33,17 +33,17 @@ pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = "Royalist"
-last_election = 1834.1.1
 upper_house = {
 	fascist = 0
-	liberal = 35
-	conservative = 55
-	reactionary = 10
+	liberal = 6
+	conservative = 24
+	fervent_clergy = 14
+	clergy = 20
+	reactionary = 36
 	anarcho_liberal = 0
+	gentry = 0
 	socialist = 0
-	communist = 0
 }
-
 oob = "MGL_oob.txt"
 
 set_country_flag = existing_country

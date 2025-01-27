@@ -2,6 +2,7 @@ name = "Epirote Reconquest of Latin Empire"
 
 1219.7.2 = {
 	add_attacker = EPI
+	add_attacker = ALB
 	add_defender = LTN
 	add_defender = MCD
 	add_defender = ATH

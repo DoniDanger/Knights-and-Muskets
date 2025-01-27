@@ -1,7 +1,7 @@
 capital = 474
 primary_culture = spanish
 religion = catholic
-government = hms_government
+government = feudal_monarchy
 plurality = 0.0
 nationalvalue = nv_equality
 literacy = 0.13

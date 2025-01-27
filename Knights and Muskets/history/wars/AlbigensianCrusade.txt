@@ -1,0 +1,29 @@
+name = "Albigensian Crusade"
+
+1221.2.2 = {
+	add_attacker = OCC
+	add_attacker = FOI
+	add_defender = CRC
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = cathar_reclamation
+		actor = OCC
+		receiver = CRC
+	}
+
+	war_goal = {
+		casus_belli = conquest_any
+		actor = CRC
+		receiver = OCC
+	}
+}
+
+1229.4.12 = {
+	rem_attacker = OCC
+	rem_defender = CRC
+}

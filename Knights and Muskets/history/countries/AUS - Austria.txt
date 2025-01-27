@@ -1,8 +1,8 @@
 capital = 619
 primary_culture = south_german
 religion = catholic
-government = absolute_monarchy
-plurality = 25.0
+government = duchy
+plurality = 65.0
 nationalvalue = nv_order
 literacy = 0.21
 civilized = yes

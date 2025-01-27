@@ -160,7 +160,7 @@ country_event = {
 		modifier = {
 			factor = 0.5
 			OR = {
-				government = proletarian_dictatorship
+				government = peasant_republic
 				government = fascist_dictatorship
 			}
 		}
@@ -286,7 +286,7 @@ country_event = {
 		modifier = {
 			factor = 0.5
 			OR = {
-				government = proletarian_dictatorship
+				government = peasant_republic
 				government = fascist_dictatorship
 			}
 		}
@@ -490,7 +490,7 @@ country_event = {
 		modifier = {
 			factor = 0.5
 			OR = {
-				government = proletarian_dictatorship
+				government = peasant_republic
 				government = fascist_dictatorship
 			}
 		}

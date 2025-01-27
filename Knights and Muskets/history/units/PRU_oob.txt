@@ -1,0 +1,64 @@
+army = {
+    name = "Tribesmen of Pomesania"
+    location = 166
+    regiment = {
+        name= "Pomesanian Tribesemen"
+        type = irregular
+        home = 696
+    }
+    regiment = {
+        name= "Pomesanian Tribesemen"
+        type = irregular
+        home = 696
+    }
+    regiment = {
+        name= "Pomesanian Tribesemen"
+        type = artillery
+        home = 1979
+    }
+	regiment = {
+        name= "Pomesanian Tribesemen"
+        type = artillery
+        home = 1979
+    }
+}
+
+army = {
+    name = "Tribesmen of Sambia"
+    location = 2180
+    regiment = {
+        name= "Sambian Tribesemen"
+        type = irregular
+        home = 2180
+    }
+    regiment = {
+        name= "Sambian Tribesemen"
+        type = irregular
+        home = 2174
+    }
+    regiment = {
+        name= "Sambian Tribesemen"
+        type = artillery
+        home = 2165
+    }
+}
+
+army = {
+    name = "Tribesmen of Warmia"
+    location = 2181
+    regiment = {
+        name= "Warmian Tribesemen"
+        type = irregular
+        home = 695
+    }
+    regiment = {
+        name= "Warmian Tribesemen"
+        type = irregular
+        home = 2181
+    }
+    regiment = {
+        name= "Warmian Tribesemen"
+        type = artillery
+        home = 695
+    }
+}

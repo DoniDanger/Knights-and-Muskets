@@ -1,7 +1,7 @@
 capital = 2447
 primary_culture = brazilian
 religion = catholic
-government = hms_government
+government = feudal_monarchy
 plurality = 25.0
 nationalvalue = nv_liberty
 literacy = 0.08

@@ -1,3 +1,7 @@
-
-trade_goods = fish
-life_rating = 20
+owner = ERZ
+controller = ERZ
+add_core = ERZ
+add_core = RUM
+add_core = ARM
+trade_goods = iron
+life_rating = 35

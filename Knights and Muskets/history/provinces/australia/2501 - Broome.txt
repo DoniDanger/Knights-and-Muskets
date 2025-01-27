@@ -1,5 +1,5 @@
-
-add_core = AST
+owner = ARQ
+controller = ARQ
+add_core = ARQ
 trade_goods = grain
-life_rating = 20
-colonial = 2
+life_rating = 35

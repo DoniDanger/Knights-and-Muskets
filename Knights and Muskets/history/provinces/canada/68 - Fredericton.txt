@@ -1,2 +1,7 @@
-trade_goods = timber
-life_rating = 20
+owner = NCE
+controller = NCE
+add_core = LTN
+add_core = NCE
+add_core = BYZ
+trade_goods = grain
+life_rating = 35

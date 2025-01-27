@@ -27,10 +27,4 @@ army = {
         type = artillery
         home = 40
     }
-
-    regiment = {
-        name = "1. Alan Cavalry"
-        type = cavalry
-        home = 40
-    }
 }

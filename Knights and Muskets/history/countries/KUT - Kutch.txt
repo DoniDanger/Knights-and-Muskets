@@ -1,10 +1,10 @@
 capital = 1293
-primary_culture = gujarati
+primary_culture = kutchi
 religion = sunni
-government = absolute_monarchy
-plurality = 0.0
+government = feudal_monarchy
+plurality = 40.0
 nationalvalue = nv_tradition
-literacy = 0.02
+literacy = 0.05
 non_state_culture_literacy = 0.01
 civilized = yes
 

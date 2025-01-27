@@ -1,2 +1,6 @@
-trade_goods = fish
-life_rating = 15
+owner = MSL
+controller = MSL
+add_core = MSL
+add_core = IRQ
+trade_goods = grain
+life_rating = 35

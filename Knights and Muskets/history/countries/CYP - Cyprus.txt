@@ -2,10 +2,10 @@ capital = 855
 primary_culture = greek
 culture = turkish
 religion = orthodox
-government = democracy
-plurality = 0.05
+government = feudal_monarchy
+plurality = 45
 nationalvalue = nv_order
-literacy = 0.04
+literacy = 0.14
 civilized = yes
 
 

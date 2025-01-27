@@ -2,110 +2,9 @@
 #Ruled by Portugal in 1836
 #Luanda (164000/41000 POPS)
 #uncolonized in 1836
-#2001 - Mbanza (180000/45000 POPS)
-2001 = {
-	aristocrats = {
-		culture = bakongo
-		religion = catholic
-		size = 100
-	}
-
-	clergymen = {
-		culture = bakongo
-		religion = catholic
-		size = 50
-	}
-
-	artisans = {
-		culture = bakongo
-		religion = catholic
-		size = 400
-	}
-
-	soldiers = {
-		culture = bakongo
-		religion = catholic
-		size = 100
-	}
-
-	farmers = {
-		culture = bakongo
-		religion = catholic
-		size = 7350
-	}
-
-	aristocrats = {
-		culture = bakongo
-		religion = animist
-		size = 200
-	}
-
-	clergymen = {
-		culture = bakongo
-		religion = animist
-		size = 150
-	}
-
-	artisans = {
-		culture = bakongo
-		religion = animist
-		size = 1100
-	}
-
-	soldiers = {
-		culture = bakongo
-		religion = animist
-		size = 1200
-	}
-
-	farmers = {
-		culture = bakongo
-		religion = animist
-		size = 12450
-	}
-
-	slaves = {
-		culture = bakongo
-		religion = animist
-		size = 4000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = animist
-		size = 200
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = animist
-		size = 150
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = animist
-		size = 700
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = animist
-		size = 200
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = animist
-		size = 13250
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = animist
-		size = 3500
-	}
-}
+#Congo Region (116000) #see Congo-Zaire.txt for balance of region 
+#uncolonized in 1836/tradepost for Portugal
+#Angola - Mbundu (440000)
 #Quibala (120000/30000 POPS)
 2002 = {
 	aristocrats = {
@@ -145,9 +44,6 @@
 	}
 
 }
-#Congo Region (116000) #see Congo-Zaire.txt for balance of region 
-#uncolonized in 1836/tradepost for Portugal
-#Angola - Mbundu (440000)
 #Uncolonized in 1836
 #Mocamedes (116000/29000 POPS)
 2004 = {

@@ -1,11 +1,11 @@
 capital = 631
-primary_culture = czech
+primary_culture = moravian
 culture = slovak
 religion = catholic
-government = absolute_monarchy
+government = feudal_monarchy
 plurality = 25.0
 nationalvalue = nv_order
-literacy = 0.4
+literacy = 0.24
 civilized = yes
 prestige = 5
 

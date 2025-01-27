@@ -1,11 +1,11 @@
 capital = 552
 primary_culture = western_slavic
-culture = polish
+culture = upper_saxon
 religion = catholic
-government = feudal_monarchy
-plurality = 0.0
+government = march
+plurality = 50.0
 nationalvalue = nv_order
-literacy = 0.8
+literacy = 0.21
 civilized = yes
 
 # Political reforms

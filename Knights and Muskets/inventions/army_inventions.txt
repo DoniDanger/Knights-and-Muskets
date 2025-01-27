@@ -1062,8 +1062,7 @@ gas_attack_capability = {
 		modifier = {
            		factor = 25
             		OR = {
-            		government = fascist_dictatorship
-            		government = proletarian_dictatorship
+            		government = khanate
             		  }
         	}	
 	}

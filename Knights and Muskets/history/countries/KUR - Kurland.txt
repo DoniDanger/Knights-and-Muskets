@@ -1,7 +1,7 @@
 capital = 359
 primary_culture = courish
 religion = animist
-government = feudal_monarchy
+government = tribal_chiefdom
 plurality = 3.0
 nationalvalue = nv_order
 literacy = 0.14

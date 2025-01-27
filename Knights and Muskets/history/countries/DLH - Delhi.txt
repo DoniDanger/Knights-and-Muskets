@@ -1,16 +1,15 @@
 capital = 1236
 primary_culture = panjabi
-culture = telegu
-culture = marathi
-culture = rajput
-culture = gujarati
+culture = haryanvi
+culture = sarakai
+culture = braj
 religion = sunni
-government = absolute_monarchy
-plurality = 0.0
+government = sultanate
+plurality = 55.0
 nationalvalue = nv_order
-literacy = 0.03
+literacy = 0.06
 non_state_culture_literacy = 0.01
-prestige = 10
+prestige = 25
 civilized = yes
 
 slavery = no_slavery

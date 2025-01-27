@@ -45,31 +45,31 @@
 	}
 
 	aristocrats = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 200
 	}
 
 	clergymen = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 100
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 475
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 100
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 10125
 	}
@@ -137,31 +137,31 @@
 	}
 
 	aristocrats = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 700
 	}
 
 	clergymen = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 375
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 1850
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 350
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = u_tsang
 		religion = gelugpa
 		size = 33725
 	}

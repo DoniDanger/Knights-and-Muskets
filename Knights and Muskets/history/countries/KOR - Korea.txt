@@ -1,10 +1,10 @@
 capital = 1624
 primary_culture = korean
 religion = confucian
-government = absolute_monarchy
-plurality = 0.0
+government = military_dictatorship
+plurality = 45.0
 nationalvalue = nv_tradition
-literacy = 0.06
+literacy = 0.12
 non_state_culture_literacy = 0.03
 civilized = yes
 

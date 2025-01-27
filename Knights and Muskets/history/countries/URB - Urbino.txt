@@ -1,7 +1,7 @@
 capital = 752
 primary_culture = central_italian
 religion = catholic
-government = feudal_monarchy
+government = lordship
 plurality = 15.0
 nationalvalue = nv_order
 literacy = 0.21

@@ -1,11 +1,11 @@
 capital = 1326
 primary_culture = nepali
-culture = tibetan
+culture = u_tsang
 religion = mahayana
-government = absolute_monarchy
-plurality = 0.0
+government = feudal_monarchy
+plurality = 40.0
 nationalvalue = nv_tradition
-literacy = 0.01
+literacy = 0.02
 non_state_culture_literacy = 0
 civilized = yes
 

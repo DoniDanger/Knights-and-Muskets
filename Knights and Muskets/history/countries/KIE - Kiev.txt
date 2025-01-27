@@ -1,8 +1,10 @@
 capital = 958
-primary_culture = ukrainian
+primary_culture = malorussian
+culture = polesian
+culture = ukrainian
 religion = orthodox
-government = feudal_monarchy
-plurality = 5.0
+government = grand_duchy
+plurality = 65.0
 nationalvalue = nv_order
 literacy = 0.13
 

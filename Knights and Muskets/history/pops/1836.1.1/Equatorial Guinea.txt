@@ -56,37 +56,3 @@
 		size = 1100
 	}
 }
-#uncolonized in 1836
-#Bata (132000/33000 POPS) 
-1973 = {
-	aristocrats = {
-		culture = fang
-		religion = animist
-		size = 350
-	}
-
-	clergymen = {
-		culture = fang
-		religion = animist
-		size = 300
-	}
-
-	artisans = {
-		culture = fang
-		religion = animist
-		size = 1500
-	}
-
-	soldiers = {
-		culture = fang
-		religion = animist
-		size = 350
-	}
-
-	farmers = {
-		culture = fang
-		religion = animist
-		size = 31500
-	}
-
-}

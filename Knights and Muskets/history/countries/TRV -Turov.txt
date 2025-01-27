@@ -1,7 +1,8 @@
 capital = 1024
 primary_culture = byelorussian
+culture = polesian
 religion = orthodox
-government = feudal_monarchy
+government = principality
 plurality = 0.02
 nationalvalue = nv_might
 literacy = 0.12

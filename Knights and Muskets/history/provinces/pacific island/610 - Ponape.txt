@@ -1,2 +1,5 @@
-trade_goods = fish
-life_rating = 10
+owner = RUM
+controller = RUM
+add_core = RUM
+trade_goods = grain
+life_rating = 35

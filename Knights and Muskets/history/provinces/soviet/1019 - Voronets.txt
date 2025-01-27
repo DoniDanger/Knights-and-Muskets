@@ -1,6 +1,5 @@
-owner = NVS
-controller = NVS
-add_core = NVS
-add_core = UKR
+owner = CUM
+controller = CUM
+add_core = CUM
 trade_goods = grain
 life_rating = 35

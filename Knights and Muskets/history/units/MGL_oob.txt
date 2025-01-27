@@ -6,8 +6,8 @@ WMG = {
 }
 
 army = {
-    name = "Chinghis Khan"
-    location = 1535
+    name = "Army of Chinghis Khan"
+    location = 1211
     regiment = {
         name= "1st Oirat Cavalry"
         type = dragoon
@@ -16,49 +16,252 @@ army = {
     regiment = {
         name= "2nd Oirat Cavalry"
         type = dragoon
+        home = 1465
+    }
+    regiment = {
+        name= "3rd Oirat Cavalry"
+        type = dragoon
+        home = 1465
+    }
+    regiment = {
+        name= "1st Ordors Cavalry"
+        type = dragoon
+        home = 1467
+    }
+	regiment = {
+        name= "1st Kheshig Guards"
+        type = cuirassier
+        home = 1467
+    }
+    regiment = {
+        name= "2nd Kheshig Guards"
+        type = cuirassier
+        home = 1078
+    }
+	regiment = {
+        name= "Tatar Riders"
+        type = cavalry
+        home = 2671
+    }
+	regiment = {
+        name= "Khan's Guards"
+        type = plane
+        home = 2677
+    }
+    regiment = {
+        name= "Trebuchet"
+        type = engineer
+        home = 1534
+    }
+}
+
+army = {
+    name = "Doqshin Detachment"
+    location = 1217
+    regiment = {
+        name= "1st Oirat Cavalry"
+        type = dragoon
+        home = 2488
+    }
+    regiment = {
+        name= "2nd Oirat Cavalry"
+        type = dragoon
+        home = 2488
+    }
+    regiment = {
+        name= "Ili Regiment"
+        type = artillery
+        home = 1616
+    }
+	regiment = {
+        name= "3rd Oirat Cavalry"
+        type = regular
+        home = 1616
+    }
+    regiment = {
+        name= "Ili Regiment"
+        type = regular
+        home = 1616
+    }
+	regiment = {
+        name= "Ili Regiment"
+        type = cuirassier
+        home = 1613
+    }
+	regiment = {
+        name= "3rd Oirat Cavalry"
+        type = cavalry
+        home = 1613
+    }
+    regiment = {
+        name= "Ili Regiment"
+        type = engineer
+        home = 1613
+    }
+}
+
+army = {
+    name = "Oirat Wing"
+    location = 2611
+    regiment = {
+        name= "1st Oirat Cavalry"
+        type = dragoon
+        home = 2608
+    }
+    regiment = {
+        name= "2nd Oirat Cavalry"
+        type = dragoon
+        home = 2621
+    }
+    regiment = {
+        name= "3rd Oirat Cavalry"
+        type = dragoon
+        home = 2679
+    }
+    regiment = {
+        name= "4th Oirat Cavalry"
+        type = dragoon
+        home = 2472
+    }
+	regiment = {
+        name= "Uriankhai Kheshigs"
+        type = cuirassier
+        home = 2474
+    }
+    regiment = {
+        name= "Tuvan Riders"
+        type = cavalry
+        home = 1468
+    }
+	regiment = {
+        name= "Tuvan Riders"
+        type = cavalry
+        home = 2608
+    }
+	regiment = {
+        name= "Tuvan Riders"
+        type = cavalry
+        home = 2660
+    }
+    regiment = {
+        name= "Trebuchet"
+        type = engineer
+        home = 1469
+    }
+}
+
+army = {
+    name = "Army of Northern China"
+    location = 1612
+    regiment = {
+        name= "1st Jin Spear Levy"
+        type = irregular
+        home = 1572
+    }
+    regiment = {
+        name= "2nd Jin Spear Levy"
+        type = irregular
+        home = 1572
+    }
+    regiment = {
+        name= "3rd Jin Spear Levy"
+        type = irregular
+        home = 2488
+    }
+    regiment = {
+        name= "1st Jin Bow Levy"
+        type = artillery
+        home = 1618
+    }
+	regiment = {
+        name= "2nd Jin Bow Levy"
+        type = artillery
+        home = 1618
+    }
+    regiment = {
+        name= "3rd Jin Bow Levy"
+        type = artillery
+        home = 1613
+    }
+	regiment = {
+        name= "1st Ordos Cavalry"
+        type = cavalry
+        home = 1615
+    }
+	regiment = {
+        name= "2nd Ordos Cavalry"
+        type = cavalry
+        home = 1616
+    }
+    regiment = {
+        name= "Trebuchet"
+        type = engineer
+        home = 1617
+    }
+}
+
+army = {
+    name = "Tribal Jurchen Army"
+    location = 1552
+    regiment = {
+        name= "1st Ororoqen Tribesmen"
+        type = irregular
+        home = 1613
+    }
+    regiment = {
+        name= "2nd Ororoqen Tribesmen"
+        type = irregular
         home = 1553
     }
     regiment = {
-        name= "3rd Oirat Cavalry"
-        type = dragoon
-        home = 1002
+        name= "3rd Ororoqen Tribesmen"
+        type = irregular
+        home = 2601
     }
     regiment = {
-        name= "Ili Regiment"
-        type = dragoon
-        home = 1552
+        name= "4th Ororoqen Tribesmen"
+        type = artillery
+        home = 2603
     }
 	regiment = {
-        name= "3rd Oirat Cavalry"
-        type = dragoon
-        home = 1554
+        name= "5th Ororoqen Tribesmen"
+        type = artillery
+        home = 2486
     }
     regiment = {
-        name= "Ili Regiment"
+        name= "3rd Khitan Cavalry"
         type = dragoon
-        home = 1555
+        home = 1533
     }
 	regiment = {
-        name= "Ili Regiment"
+        name= "1st Khitan Cavalry"
         type = cavalry
-        home = 1488
+        home = 1533
     }
 	regiment = {
-        name= "3rd Oirat Cavalry"
+        name= "2nd Khitan Cavalry"
         type = cavalry
-        home = 1532
+        home = 1613
     }
     regiment = {
-        name= "Ili Regiment"
-        type = cavalry
-        home = 1535
+        name= "Trebuchet"
+        type = engineer
+        home = 1613
     }
 }
 
 leader = {
     name = "Chinghis Khan"
     type = land
-    date = 1220.1.1
+    date = 1209.1.1
+    background = cavalry_school
+    personality = implacable
+}
+
+leader = {
+    name = "Dorbei Doqshin"
+    type = land
+    date = 1209.1.1
     background = cavalry_school
     personality = implacable
 }

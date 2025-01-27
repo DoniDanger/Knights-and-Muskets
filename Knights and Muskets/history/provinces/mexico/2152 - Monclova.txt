@@ -1,5 +1,6 @@
-owner = AUV
-controller = AUV
+owner = FRA
+controller = FRA
+add_core = FRA
 add_core = AUV
 trade_goods = dye
 life_rating = 35

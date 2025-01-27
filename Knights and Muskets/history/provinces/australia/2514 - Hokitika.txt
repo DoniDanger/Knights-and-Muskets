@@ -1,2 +1,7 @@
-trade_goods = wool
-life_rating = 15
+owner = JAZ
+controller = JAZ
+add_core = JAZ
+add_core = SYR
+add_core = CLC
+trade_goods = grain
+life_rating = 35

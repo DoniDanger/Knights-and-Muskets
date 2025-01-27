@@ -1,11 +1,11 @@
 capital = 834
 primary_culture = latin
 culture = greek
-religion = orthodox
-government = theocracy
+religion = catholic
+government = principality
 plurality = 25.0
 nationalvalue = nv_order
-literacy = 0.45
+literacy = 0.19
 non_state_culture_literacy = 0.25
 civilized = yes
 prestige = 4

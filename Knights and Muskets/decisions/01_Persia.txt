@@ -7,9 +7,11 @@ political_decisions = {
 		}
 		
 		allow = {
-			prestige = 10
 			war = no
-			year = 1224
+			OR = {
+				prestige = 10
+				year = 1225
+			}
 		}
 		
 		effect = {
@@ -33,6 +35,9 @@ political_decisions = {
 				}
             country_event = { id = 140001 }
 			}
+			add_accepted_culture = persian
+			add_accepted_culture = adhari
+			add_accepted_culture = kuhmareyi
 			set_global_flag = jalal_returns_persia
 		}
 		ai_will_do = { factor = 1 }
@@ -47,6 +52,7 @@ political_decisions = {
 		allow = {
 			war = no
 			year = 1228
+			NOT = { is_vassal = PER }
 		}
 		
 		effect = {

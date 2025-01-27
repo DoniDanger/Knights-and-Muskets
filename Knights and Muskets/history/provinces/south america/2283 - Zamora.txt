@@ -1,6 +1,6 @@
-
-
-
-
-trade_goods = grain
-life_rating = 30
+owner = EPI
+controller = EPI
+add_core = EPI
+add_core = BYZ
+trade_goods = wool
+life_rating = 35

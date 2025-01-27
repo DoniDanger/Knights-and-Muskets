@@ -1,7 +1,7 @@
 capital = 406
 primary_culture = champenois
 religion = catholic
-government = feudal_monarchy
+government = county
 plurality = 25
 nationalvalue = nv_equality
 literacy = 0.22

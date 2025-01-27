@@ -49,15 +49,19 @@ political_decisions = {
 		}
 		
 		allow = {
-			#owns = 860
-			owns = 828
-			OR = { 
-				owns = 849
-				owns = 863
-			}
 			OR = {
-				owns = 805
-				owns = 865
+				owns = 860
+				AND = {
+					owns = 828
+					OR = { 
+						owns = 824
+						owns = 863
+					}
+					OR = {
+						owns = 805
+						owns = 865
+					}
+				}
 			}
 		}
 		
@@ -66,6 +70,7 @@ political_decisions = {
 			EPI = { all_core = { add_core = THIS } }
 			NCE = { all_core = { add_core = THIS } }
 			PNT = { all_core = { add_core = THIS } }
+			inherit = ALB
 			set_country_flag = claimed_roman_imperial_title
 		}
 		ai_will_do = { factor = 1 }
@@ -103,15 +108,19 @@ political_decisions = {
 		}
 		
 		allow = {
-			#owns = 860
-			owns = 828
-			OR = { 
-				owns = 849
-				owns = 863
-			}
 			OR = {
-				owns = 805
-				owns = 865
+				owns = 860
+				AND = {
+					owns = 828
+					OR = { 
+						owns = 824
+						owns = 863
+					}
+					OR = {
+						owns = 805
+						owns = 865
+					}
+				}
 			}
 		}
 		

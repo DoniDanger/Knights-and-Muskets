@@ -17,12 +17,12 @@ name = "Subetei's Caucasian Expedition"
 	# country - 3rd party
 	# state_province_id - target state capital
 	war_goal = {
-		casus_belli = cut_down_to_size
+		casus_belli = mongol_tributary_war
 		actor = WMG
 		receiver = CUM
 	}
 	war_goal = {
-		casus_belli = make_puppet
+		casus_belli = mongol_tributary_war
 		actor = WMG
 		receiver = CHY
 	}

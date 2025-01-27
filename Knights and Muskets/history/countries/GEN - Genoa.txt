@@ -1,7 +1,7 @@
 capital = 724
 primary_culture = ligurian
 religion = catholic
-government = democracy
+government = oligarchic_republic
 plurality = 25.0
 nationalvalue = nv_liberty
 literacy = 0.24

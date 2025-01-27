@@ -1,7 +1,7 @@
 capital = 411
 primary_culture = lorrain
 religion = catholic
-government = absolute_monarchy
+government = county
 plurality = 25.0
 nationalvalue = nv_liberty
 literacy = 0.19

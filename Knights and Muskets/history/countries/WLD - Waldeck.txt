@@ -1,5 +1,5 @@
 capital = 557
-primary_culture = saxon
+primary_culture = north_german
 religion = catholic
 government = theocracy
 plurality = 10.0

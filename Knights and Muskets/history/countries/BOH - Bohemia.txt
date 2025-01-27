@@ -1,8 +1,9 @@
 capital = 625
 primary_culture = czech
+culture = moravian
 religion = catholic
-government = absolute_monarchy
-plurality = 0.0
+government = feudal_monarchy
+plurality = 60.0
 nationalvalue = nv_order
 literacy = 0.23
 civilized = yes

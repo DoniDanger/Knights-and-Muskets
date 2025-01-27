@@ -10,9 +10,13 @@ country_event = {
 
 	trigger = {
 		PER = { exists = no }
-		tag = RAY
+		OR = {
+			tag = RAY
+			primary_culture = persian
+		}
 		year = 1224
 		month = 8
+		NOT = { has_global_flag = jalal_returns_persia }
 	}
 
 	option = {
@@ -29,6 +33,7 @@ country_event = {
 					tag = FRS
 					tag = SST
 					tag = YZD
+					tag = RAY
 				}
 				NOT = { tag = THIS }
                 exists = yes
@@ -36,6 +41,9 @@ country_event = {
             }
             country_event = { id = 140001 }
         }
+		add_accepted_culture = persian
+		add_accepted_culture = adhari
+		add_accepted_culture = kuhmareyi
 		set_global_flag = jalal_returns_persia
 		ai_chance = { factor = 100 }
 	}
@@ -51,9 +59,12 @@ country_event = {
 	option = {
 	    name = "We must rally to the aid of the Shah."
 		THIS = { all_core = { add_core = PER }}
-		FROM = {
-                inherit = THIS
-        }
+		any_owned = {
+			secede_province = PER
+		}
+		#FROM = {
+        #        inherit = THIS
+        #}
 		ai_chance = { factor = 90 }
 	}
 	

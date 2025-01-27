@@ -1,12 +1,11 @@
-
-
-
-trade_goods = dye
+owner = AQU
+controller = AQU
+add_core = AQU
+add_core = NNN
+trade_goods = fish
 life_rating = 35
-1861.1.1 = {
-	state_building = {
-		level = 3
-		building = fabric_factory
-		upgrade = yes
-	}
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
 }

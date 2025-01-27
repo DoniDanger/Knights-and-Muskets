@@ -1,9 +1,7 @@
 capital = 444
 primary_culture = poitevin
-culture = bakongo
-culture = ovimbundu
 religion = catholic
-government = feudal_monarchy
+government = county
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.13

@@ -1,2 +1,6 @@
-trade_goods = wool
-life_rating = 15
+owner = ARQ
+controller = ARQ
+add_core = ARQ
+add_core = ARM
+trade_goods = apiculture
+life_rating = 35

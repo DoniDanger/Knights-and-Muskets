@@ -1,12 +1,12 @@
 capital = 343
 primary_culture = finnish
 culture = swedish
-culture = sami
+culture = savonian
 religion = catholic
-government = feudal_monarchy
-plurality = 0.5
+government = tribal_chiefdom
+plurality = 50
 nationalvalue = nv_equality
-literacy = 0.7
+literacy = 0.17
 civilized = yes
 
 # Political reforms

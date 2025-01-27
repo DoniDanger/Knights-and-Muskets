@@ -1,2 +1,6 @@
-trade_goods = wool
-life_rating = 15
+owner = RUM
+controller = RUM
+add_core = RUM
+add_core = CLC
+trade_goods = grain
+life_rating = 35

@@ -1,11 +1,6 @@
-
-
-
-trade_goods = cotton
+owner = CRO
+controller = CRO
+add_core = CRO
+add_core = DLM
+trade_goods = fruit
 life_rating = 35
-1861.1.1 = {
-	
-	
-	
-}
-1861.1.1 = { railroad = 3 }

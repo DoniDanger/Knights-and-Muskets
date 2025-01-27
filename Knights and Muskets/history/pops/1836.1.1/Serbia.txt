@@ -8,6 +8,18 @@
         size = 500
     }
 
+	bureaucrats = {
+        culture = slavonian
+        religion = catholic
+        size = 210
+    }
+	
+	bureaucrats = {
+        culture = hungarian
+        religion = catholic
+        size = 210
+    }
+	
     artisans = {
         culture = slavonian
         religion = orthodox
@@ -100,6 +112,18 @@
         size = 250
     }
 
+	bureaucrats = {
+        culture = slavonian
+        religion = catholic
+        size = 210
+    }
+	
+	bureaucrats = {
+        culture = hungarian
+        religion = catholic
+        size = 260
+    }
+	
     artisans = {
         culture = slavonian
         religion = orthodox
@@ -115,7 +139,7 @@
     farmers = {
         culture = slavonian
         religion = orthodox
-        size = 28000
+        size = 18000
     }
 
     farmers = {
@@ -211,7 +235,7 @@
     farmers = {
         culture = hungarian
         religion = catholic
-        size = 21000
+        size = 12000
     }
 
 }
@@ -245,7 +269,7 @@
     farmers = {
         culture = slavonian
         religion = orthodox
-        size = 36000
+        size = 16000
     }
 
     farmers = {
@@ -373,7 +397,7 @@
     soldiers = {
         culture = hungarian
         religion = catholic
-        size = 2500
+        size = 800
     }
 
     farmers = {
@@ -427,7 +451,7 @@
     farmers = {
         culture = hungarian
         religion = catholic
-        size = 30000
+        size = 18000
     }
 
 }
@@ -454,7 +478,7 @@
     farmers = {
         culture = slavonian
         religion = orthodox
-        size = 12800
+        size = 6800
     }
 
     aristocrats = {
@@ -478,7 +502,7 @@
     soldiers = {
         culture = hungarian
         religion = catholic
-        size = 1800
+        size = 800
     }
 
     farmers = {
@@ -532,7 +556,7 @@
     farmers = {
         culture = hungarian
         religion = catholic
-        size = 27000
+        size = 17000
     }
 
 }
@@ -668,7 +692,7 @@
     farmers = {
         culture = serb
         religion = orthodox
-        size = 10000
+        size = 21000
     }
 
     farmers = {
@@ -678,31 +702,31 @@
     }
 
     clergymen = {
-        culture = romanian
+        culture = bulgarian
         religion = orthodox
         size = 10
     }
 
     artisans = {
-        culture = romanian
+        culture = bulgarian
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = romanian
+        culture = bulgarian
         religion = orthodox
         size = 40
     }
 
     farmers = {
-        culture = romanian
+        culture = bulgarian
         religion = orthodox
         size = 2900
     }
 
     farmers = {
-        culture = romanian
+        culture = bulgarian
         religion = orthodox
         size = 900
     }

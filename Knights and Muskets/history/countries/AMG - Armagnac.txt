@@ -1,7 +1,7 @@
 capital = 2261
 primary_culture = gascon
 religion = catholic
-government = feudal_monarchy
+government = county
 plurality = 25
 nationalvalue = nv_equality
 literacy = 0.42

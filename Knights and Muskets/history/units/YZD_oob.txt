@@ -1,0 +1,30 @@
+leader = {
+    name = "Isfahsalar ibn Langar"
+    date = 1219.8.1
+    type = land
+    personality = defence_2.1
+    background = attack_2.1
+    prestige = 0.10
+}
+
+army = {
+    name = "Army of Yazd"
+    location = 1130
+    regiment = {
+        name = "1. Persian Warrior"
+        type = irregular
+        home = 1130
+    }
+
+    regiment = {
+        name = "2. Persian Warrior"
+        type = irregular
+        home = 1130
+    }
+	
+	regiment = {
+        name = "4. Persian Warrior"
+        type = artillery
+        home = 2465
+    }
+}

@@ -1,10 +1,10 @@
 capital = 926
 primary_culture = mashriqi
-#culture = levantine
+culture = khuzestani
 culture = bedouin
 religion = sunni
-government = feudal_monarchy
-plurality = 5.0
+government = caliphate
+plurality = 55.0
 nationalvalue = nv_order
 literacy = 0.3
 non_state_culture_literacy = 0.01

@@ -1,5 +1,5 @@
-owner = LUZ
-controller = LUZ
+owner = SLS
+controller = SLS
 add_core = LUZ
 add_core = SLS
 add_core = POL

@@ -1,0 +1,19 @@
+army = {
+    name = "Army of Arbanon"
+    location = 849
+    regiment = {
+        name= "Albanian Infantry"
+        type = regular
+        home = 849
+    }
+    regiment = {
+        name= "Albanian Infantry"
+        type = regular
+        home = 851
+    }
+    regiment = {
+        name= "Albanian Archers"
+        type = artillery
+        home = 850
+    }
+}

@@ -1,9 +1,8 @@
 capital = 1130
-primary_culture = dari
-culture = persian
+primary_culture = persian
 #religion = zoroastrian
 religion = shiite
-government = absolute_monarchy
+government = petty_kingdom
 plurality = 15.0
 nationalvalue = nv_order
 literacy = 0.07

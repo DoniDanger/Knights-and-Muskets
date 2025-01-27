@@ -117,25 +117,25 @@
 #Uralsk (13000/3250 POPS)
 2610 = {
 	clergymen = {
-		culture = cuman
+		culture = kipchak
 		religion = sunni
 		size = 30
 	}
 
 	artisans = {
-		culture = cuman
+		culture = kipchak
 		religion = sunni
 		size = 45
 	}
 
 	soldiers = {
-		culture = cuman
+		culture = kipchak
 		religion = sunni
 		size = 225
 	}
 
 	farmers = {
-		culture = cuman
+		culture = kipchak
 		religion = sunni
 		size = 6150
 	}

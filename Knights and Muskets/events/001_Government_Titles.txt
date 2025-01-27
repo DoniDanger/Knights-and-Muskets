@@ -1,0 +1,425 @@
+#Contents and brief summary
+
+#111000 = Government Title System
+
+country_event = {
+	
+	id = 111000
+	title = "Rank of Count"	
+	desc = "We hold the rank of a County."	
+	fire_only_once = no
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		OR = {
+			government = county
+			government = lordship
+		}
+		NOT = { has_country_flag = government_feudal_county }
+	}
+
+	option = {
+		name = "We hold the rank of a county."
+		set_country_flag = government_feudal_county
+		set_country_flag = feudal_gov_reform1
+		clr_country_flag = government_feudal_duchy
+		clr_country_flag = government_feudal_kingdom
+		clr_country_flag = government_feudal_empire
+		clr_country_flag = government_theocracy
+		clr_country_flag = government_republic
+		ai_chance = { factor = 100 } 
+	}	
+}
+
+country_event = {
+	
+	id = 111001
+	title = "Rank of Kingdom"	
+	desc = "We are a feudal dominion, a special fief held in personal union with our overlord. If are to become independence, we would hold the rank of a Kingdom."	
+	fire_only_once = no
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		government = feudal_dominion
+		NOT = { has_country_flag = government_feudal_county }
+	}
+
+	option = {
+		name = "We hold the rank of a Kingdom."
+		set_country_flag = government_feudal_kingdom
+		set_country_flag = feudal_gov_reform3
+		clr_country_flag = government_feudal_duchy
+		clr_country_flag = government_feudal_county
+		clr_country_flag = government_feudal_empire
+		clr_country_flag = government_theocracy
+		clr_country_flag = government_republic
+		ai_chance = { factor = 100 } 
+	}	
+}
+
+country_event = {
+	
+	id = 111002
+	title = "Rank of Duchy"	
+	desc = "We hold the rank of a Duchy."	
+	fire_only_once = no
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		OR = {
+			government = duchy
+			government = daimyo
+			government = march
+			government = petty_kingdom
+			government = beylik
+			government = principality
+			government = emirate
+			government = tribal_chiefdom
+		}
+		NOT = { has_country_flag = government_feudal_duchy }
+	}
+
+	option = {
+		name = "We hold the rank of a duchy."
+		set_country_flag = government_feudal_duchy
+		set_country_flag = feudal_gov_reform2
+		clr_country_flag = government_feudal_county
+		clr_country_flag = government_feudal_kingdom
+		clr_country_flag = government_feudal_empire
+		clr_country_flag = government_theocracy
+		clr_country_flag = government_republic
+		ai_chance = { factor = 100 } 
+	}	
+}
+
+country_event = {
+	
+	id = 111003
+	title = "Rank of Kingdom"	
+	desc = "We hold the rank of a Kingdom."	
+	fire_only_once = no
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		OR = {
+			government = grand_duchy
+			government = sultanate
+			government = feudal_monarchy
+			government = shogunate
+			government = elective_monarchy
+			government = khanate
+		}
+		NOT = { has_country_flag = government_feudal_kingdom }
+	}
+
+	option = {
+		name = "We hold the rank of a kingdom."
+		set_country_flag = government_feudal_kingdom
+		set_country_flag = feudal_gov_reform3
+		clr_country_flag = government_feudal_county
+		clr_country_flag = government_feudal_duchy
+		clr_country_flag = government_feudal_empire
+		clr_country_flag = government_theocracy
+		clr_country_flag = government_republic
+		ai_chance = { factor = 100 } 
+	}	
+}
+
+country_event = {
+	
+	id = 111004
+	title = "Rank of Empire"	
+	desc = "We hold the rank of an Empire."	
+	fire_only_once = no
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		OR = {
+			government = empire
+			government = caliphate
+		}
+		NOT = { has_country_flag = government_feudal_empire }
+	}
+
+	option = {
+		name = "We hold the rank of Empire."
+		set_country_flag = government_feudal_empire
+		set_country_flag = feudal_gov_reform4
+		clr_country_flag = government_feudal_county
+		clr_country_flag = government_feudal_kingdom
+		clr_country_flag = government_feudal_duchy
+		clr_country_flag = government_theocracy
+		clr_country_flag = government_republic
+		ai_chance = { factor = 100 } 
+	}	
+}
+
+country_event = {
+	
+	id = 111005
+	title = "Rank of Republic"	
+	desc = "We hold the rank of a Republic."	
+	fire_only_once = no
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		OR = {
+			government = peasant_republic
+			government = democracy
+			government = oligarchic_republic
+		}
+		NOT = { has_country_flag = government_republic }
+	}
+
+	option = {
+		name = "We hold the rank of a Republic."
+		set_country_flag = government_republic
+		set_country_flag = feudal_gov_reform1
+		clr_country_flag = government_feudal_county
+		clr_country_flag = government_feudal_kingdom
+		clr_country_flag = government_feudal_duchy
+		clr_country_flag = government_theocracy
+		clr_country_flag = government_feudal_empire
+		ai_chance = { factor = 100 } 
+	}	
+}
+
+country_event = {
+	
+	id = 111006
+	title = "Rank of Theocracy"	
+	desc = "We hold the rank of a Theocracy."	
+	fire_only_once = no
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		OR = {
+			government = theocracy
+			government = holy_order
+		}
+		NOT = { has_country_flag = government_theocracy }
+	}
+
+	option = {
+		name = "We hold the rank of Theocracy."
+		set_country_flag = government_theocracy
+		set_country_flag = feudal_gov_reform2
+		clr_country_flag = government_feudal_county
+		clr_country_flag = government_feudal_kingdom
+		clr_country_flag = government_feudal_empire
+		clr_country_flag = government_feudal_duchy
+		clr_country_flag = government_republic
+		ai_chance = { factor = 100 } 
+	}	
+}
+
+country_event = {
+	
+	id = 111007
+	title = "Rank of Republic"	
+	desc = "As we are a confederation or military dictatorship, we will hold the higher rank of Kingdom if we convert to a feudal system."
+	fire_only_once = no
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		OR = {			
+			government = military_dictatorship
+			government = confederation
+		}
+		NOT = { has_country_flag = government_republic }
+	}
+
+	option = {
+		name = "We hold the rank of Empire."
+		set_country_flag = government_republic
+		set_country_flag = feudal_gov_reform3
+		clr_country_flag = government_feudal_county
+		clr_country_flag = government_feudal_kingdom
+		clr_country_flag = government_feudal_duchy
+		clr_country_flag = government_theocracy
+		clr_country_flag = government_feudal_empire
+		ai_chance = { factor = 100 } 
+	}	
+}
+
+country_event = {
+	
+	id = 111008
+	title = "Conversion to Beylik"	
+	desc = "As we are Turkish and do not have the proper ranks, we will convert to a Beylik."
+	fire_only_once = no
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		OR = { 
+			primary_culture = turkish
+			primary_culture = azerbaijani
+			primary_culture = adheri
+			primary_culture = shirvani
+		}
+		AND = {
+			NOT = { government = peasant_republic }
+			NOT = { government = military_dictatorship }
+			NOT = { government = democracy }
+			NOT = { government = oligarchic_republic }
+			NOT = { government = confederation }
+			NOT = { government = democracy }
+			NOT = { government = holy_order }
+			NOT = { government = theocracy }
+			NOT = { government = feudal_dominion }
+			NOT = { government = beylik }
+		}
+		AND = {
+			NOT = { has_contry_flag = feudal_gov_reform3 }
+			NOT = { has_contry_flag = feudal_gov_reform4 }
+		}
+	}
+
+	option = {
+		name = "We are now a Beylik."
+		government = beylik
+		set_country_flag = government_feudal_duchy
+		set_country_flag = feudal_gov_reform2
+		clr_country_flag = government_feudal_county
+		clr_country_flag = government_feudal_kingdom
+		clr_country_flag = government_feudal_empire
+		clr_country_flag = government_theocracy
+		clr_country_flag = government_republic
+		ai_chance = { factor = 100 } 
+	}	
+}
+
+country_event = {
+	
+	id = 111009
+	title = "Conversion to Sultanate"	
+	desc = "As we are Turkish and do not have the proper ranks, we will convert to a Sultanate."
+	fire_only_once = no
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		OR = { 
+			primary_culture = turkish
+			primary_culture = azerbaijani
+			primary_culture = adheri
+			primary_culture = shirvani
+		}
+		AND = {
+			NOT = { government = peasant_republic }
+			NOT = { government = military_dictatorship }
+			NOT = { government = democracy }
+			NOT = { government = oligarchic_republic }
+			NOT = { government = confederation }
+			NOT = { government = democracy }
+			NOT = { government = holy_order }
+			NOT = { government = theocracy }
+			NOT = { government = feudal_dominion }
+			NOT = { government = sultanate }
+		}
+		AND = {
+			has_contry_flag = feudal_gov_reform3 
+			NOT = { has_country_flag = feudal_gov_reform4 }
+		}
+	}
+
+	option = {
+		name = "We are now a Sultanate."
+		government = sultanate
+		set_country_flag = government_feudal_kingdom
+		set_country_flag = feudal_gov_reform3
+		clr_country_flag = government_feudal_county
+		clr_country_flag = government_feudal_duchy
+		clr_country_flag = government_feudal_empire
+		clr_country_flag = government_theocracy
+		clr_country_flag = government_republic
+		ai_chance = { factor = 100 } 
+	}	
+}
+
+country_event = {
+	
+	id = 111010
+	title = "Conversion to Daimyo"	
+	desc = "As we are Japanese and do not have the proper ranks, we will convert to a Daimyo."
+	fire_only_once = no
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		OR = { 
+			primary_culture = japanese
+		}
+		AND = {
+			NOT = { government = peasant_republic }
+			NOT = { government = military_dictatorship }
+			NOT = { government = democracy }
+			NOT = { government = oligarchic_republic }
+			NOT = { government = confederation }
+			NOT = { government = democracy }
+			NOT = { government = holy_order }
+			NOT = { government = theocracy }
+			NOT = { government = feudal_dominion }
+			NOT = { government = daimyo }
+		}
+		AND = {
+			NOT = { has_country_flag = feudal_gov_reform3 }
+			NOT = { has_country_flag = feudal_gov_reform4 }
+		}
+	}
+
+	option = {
+		name = "We are now a Daimyo."
+		government = daimyo
+		set_country_flag = government_feudal_duchy
+		set_country_flag = feudal_gov_reform2
+		clr_country_flag = government_feudal_county
+		clr_country_flag = government_feudal_kingdom
+		clr_country_flag = government_feudal_empire
+		clr_country_flag = government_theocracy
+		clr_country_flag = government_republic
+		ai_chance = { factor = 100 } 
+	}	
+}
+
+country_event = {
+	
+	id = 111011
+	title = "Conversion to Shogunate"	
+	desc = "As we are Japanese and do not have the proper ranks, we will convert to a Shogunate."
+	fire_only_once = no
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		OR = { 
+			primary_culture = japanese
+		}
+		AND = {
+			NOT = { government = peasant_republic }
+			NOT = { government = military_dictatorship }
+			NOT = { government = democracy }
+			NOT = { government = oligarchic_republic }
+			NOT = { government = confederation }
+			NOT = { government = democracy }
+			NOT = { government = holy_order }
+			NOT = { government = theocracy }
+			NOT = { government = feudal_dominion }
+			NOT = { government = shogunate }
+		}
+		AND = {
+			has_country_flag = feudal_gov_reform3 
+			NOT = { has_country_flag = feudal_gov_reform4 }
+		}
+	}
+
+	option = {
+		name = "We are now a Shogunate."
+		government = shogunate
+		set_country_flag = government_feudal_kingdom
+		set_country_flag = feudal_gov_reform3
+		clr_country_flag = government_feudal_county
+		clr_country_flag = government_feudal_duchy
+		clr_country_flag = government_feudal_empire
+		clr_country_flag = government_theocracy
+		clr_country_flag = government_republic
+		ai_chance = { factor = 100 } 
+	}	
+}

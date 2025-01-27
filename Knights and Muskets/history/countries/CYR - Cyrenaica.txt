@@ -2,10 +2,11 @@ capital = 1735
 primary_culture = maghrebi
 culture = bedouin
 religion = sunni
-government = absolute_monarchy
+government = tribal_chiefdom
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.02
+civilized = yes
 
 # Political reforms
 slavery = yes_slavery

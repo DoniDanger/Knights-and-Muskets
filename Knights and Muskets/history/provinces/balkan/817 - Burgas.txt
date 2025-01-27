@@ -1,7 +1,7 @@
-owner = PHI
-controller = PHI
-add_core = PHI
+owner = BUL
+controller = BUL
 add_core = LTN
 add_core = BUL
-trade_goods = grain
+add_core = BYZ
+trade_goods = salt
 life_rating = 35

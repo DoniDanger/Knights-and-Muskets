@@ -1,21 +1,13 @@
-
-
-
+owner = SER
+controller = SER
+add_core = SER
+add_core = BOS
+add_core = DLM
 trade_goods = grain
 life_rating = 35
 naval_base = 1
-1861.1.1 = {
-	
-	
-	
-	state_building = {
-		level = 1
-		building = infantry_arms_weaponsmith
-		upgrade = yes
-	}
-}
-1861.1.1 = { 
-	railroad = 3 
-	naval_base = 1
-	fort = 1
+state_building = {
+	level = 1
+	building = infantry_arms_weaponsmith
+	upgrade = yes
 }

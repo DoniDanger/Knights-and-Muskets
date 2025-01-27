@@ -1,7 +1,7 @@
 capital = 720
 primary_culture = romagnan
 religion = catholic
-government = absolute_monarchy
+government = oligarchic_republic
 plurality = 0.10
 nationalvalue = nv_order
 literacy = 0.19

@@ -1,13 +1,6 @@
-
-add_core = DES
-add_core = CAL
-trade_goods = grain
-life_rating = 40
-colonial = 2
-1861.1.1 = {
-	
-	
-	
-	remove_core = MEX
-	colonial = 0
-}
+owner = EPI
+controller = EPI
+add_core = EPI
+add_core = BYZ
+trade_goods = coal
+life_rating = 35

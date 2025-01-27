@@ -2,7 +2,7 @@ capital = 489
 primary_culture = maghrebi
 culture = berber
 religion = sunni
-government = absolute_monarchy
+government = feudal_monarchy
 plurality = 0.1
 nationalvalue = nv_order
 literacy = 0.3
@@ -74,7 +74,7 @@ upper_house = {
 }
 
 govt_flag = {
-    government = absolute_monarchy
+    government = feudal_monarchy
     flag = theocracy
 }
 

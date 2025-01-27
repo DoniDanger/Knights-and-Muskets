@@ -1,5 +1,7 @@
-
-
-trade_goods = cattle
+owner = LTN
+controller = LTN
+add_core = LTN
+add_core = NCE
+add_core = BYZ
+trade_goods = fish
 life_rating = 35
-colonial = 2

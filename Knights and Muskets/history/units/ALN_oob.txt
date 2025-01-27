@@ -12,7 +12,7 @@ army = {
     location = 1055
     regiment = {
         name = "1. Tribal Warrior"
-        type = infantry
+        type = irregular
         home = 1056
     }
 
@@ -20,18 +20,6 @@ army = {
         name = "2. Tribal Warrior"
         type = irregular
         home = 1050
-    }
-
-	regiment = {
-        name = "3. Tribal Warrior"
-        type = irregular
-        home = 15
-    }
-	
-	regiment = {
-        name = "5. Tribal Warrior"
-        type = artillery
-        home = 28
     }
 
     regiment = {
@@ -46,9 +34,4 @@ army = {
         home = 13
     }
 
-    regiment = {
-        name = "4. Alan Lancers"
-        type = cavalry
-        home = 15
-    }
 }

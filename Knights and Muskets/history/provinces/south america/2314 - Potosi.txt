@@ -1,9 +1,6 @@
-
-
-
-trade_goods = grain
-life_rating = 30
-1860.1.1 = {
-	
-	
-}
+owner = LTN
+controller = LTN
+add_core = LTN
+add_core = BYZ
+trade_goods = horses
+life_rating = 35

@@ -740,7 +740,7 @@ province_event = {
 	trigger = {
 		has_province_modifier = western_presence
 		owner = {
-			government = absolute_monarchy
+			government = feudal_monarchy
 		}
 	}
 
@@ -929,11 +929,6 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = western_influences
-		OR = {
-			government = hms_government
-			government = absolute_monarchy
- 			government = prussian_constitutionalism
-		}
 	}
 
 	mean_time_to_happen = {
@@ -994,10 +989,8 @@ country_event = {
 
 	trigger = {
 		has_country_flag = princes_recieve_foreign_education
-		OR = {
-			government = hms_government
-			government = absolute_monarchy
-		}
+		government = feudal_monarchy
+
 		slavery = yes_slavery
 	}
 
@@ -2042,7 +2035,7 @@ country_event = {
 		modifier = {
 			factor = 0.1
 			NOT = {
-				government = absolute_monarchy
+				government = feudal_monarchy
 			}
 		}
 	}

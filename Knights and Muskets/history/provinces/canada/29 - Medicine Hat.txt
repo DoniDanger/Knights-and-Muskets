@@ -1,5 +1,5 @@
-owner = JER
-controller = JER
-add_core = JER
+owner = ATC
+controller = ATC
+add_core = ATC
 trade_goods = fruit
 life_rating = 35

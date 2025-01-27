@@ -15,8 +15,8 @@ CDB;Cordoba;x
 CDB_ADJ;Cordoban;x 
 JAE;Jaen;x
 JAE_ADJ;Jaen;x 
-JAE_autonomous_dependency;Baeza;x
-JAE_autonomous_dependency_ADJ;Baezan;x
+JAE_feudal_dominion;Baeza;x
+JAE_feudal_dominion_ADJ;Baezan;x
 LRC;Lorca;x
 LRC_ADJ;Lorcan;x 
 MLG;Malaga;x
@@ -339,10 +339,14 @@ MZN;Mazandaran;x
 MZN_ADJ;Mazandarani;x
 FRS;Salghurids;x
 FRS_ADJ;Salghurid;x
+AZB;Eldiguzids;x
+AZB_ADJ;Eldiguzid;x
 RAY;Rayy;x
 RAY_ADJ;Rayyanid;x
 KMN;Kerman;x
 KMN_ADJ;Kermanid;x
+KMN_feudal_monarchy;Qutlugh-Khanid;x
+KMN_feudal_monarchy_ADJ;Qutlugh-Khanid;x
 AJM;Qazvin;x
 AJM_ADJ;Qazvinid;x
 YZD;Yazd;x
@@ -423,8 +427,8 @@ JSZ;Jaszsag;x
 JSZ_ADJ;Jaszsag;x
 BZN;Burzenland;x
 BZN_ADJ;Burzenland;x
-BZN_theocracy;Teutonic Order;x
-BZN_theocracy_ADJ;Teutonic;x
+BZN_holy_order;Teutonic Order;x
+BZN_holy_order_ADJ;Teutonic;x
 IRL;Lordship of Ireland;x
 IRL_ADJ;Anglo-Norman;x
 TRT;Trent;x
@@ -535,8 +539,8 @@ KMY;Kumyk;x
 KMY_ADJ;Kumykian;x
 CMN;Western Cumania;x                                 
 CMN_ADJ;Cuman;x
-CMN_autonomous_dependency;Kunsag;x                                 
-CMN_autonomous_dependency_ADJ;Kunsag;x
+CMN_feudal_dominion;Kunsag;x                                 
+CMN_feudal_dominion_ADJ;Kunsag;x
 LZG;Lezgistan;x                                 
 LZG_ADJ;Lezgin;x
 LIH;Dzukija;x                                 
@@ -633,11 +637,14 @@ WAL_ADJ;Vlachian;x
 BOS;Banate of Bosnia;x                                     
 BOS_ADJ;Bosnian;x
 SER_absolute_monarchy;Kingdom of Serbia;x                                        
-VEN_absolute_monarchy;Latin Empire;x                                
-VEN_absolute_monarchy_ADJ;Latin;x    
+VEN_feudal_monarchy;Latin Empire;x                                
+VEN_feudal_monarchy_ADJ;Latin;x    
 BUL_absolute_monarchy;Bulgarian Empire;x                                
-ALB;Despotate of Epirus;x                                     
-ALB_ADJ;Epirot;x 
+ALB;Albania;x                                     
+ALB_ADJ;Albanian;x 
+ALB_feudal_monarchy;Kingdom of Albania;x 
+ALB_principality;Principality of Arbanon;x                                  
+ALB_principality_ADJ;Arbanon;x      
 MCD;Kingdom of Thessalonica;x                                     
 MCD_ADJ;Thessalonican;x   
 TUR;Ottoman Beylik;x                                     
@@ -702,8 +709,8 @@ MOR;Almohad Caliphate;x
 MOR_ADJ;Almohad;x
 TUN;Hafsid Sultanate;x
 TUN_ADJ;Hafsid;x
-TUN_autonomous_dependency;Ifriqiya;x
-TUN_autonomous_dependency_ADJ;Ifriqiyan;x
+TUN_feudal_dominion;Ifriqiya;x
+TUN_feudal_dominion_ADJ;Ifriqiyan;x
 TRI;Banu Thabit;x
 TRI_ADJ;Banu Thabit;x
 CYR;Banu Sulaym;x

@@ -1,0 +1,5 @@
+owner = AUV
+controller = AUV
+add_core = AUV
+trade_goods = iron
+life_rating = 35

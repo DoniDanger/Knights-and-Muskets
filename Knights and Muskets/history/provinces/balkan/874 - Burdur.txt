@@ -1,7 +1,5 @@
-owner = NCE
-controller = NCE
-add_core = NCE
-add_core = BYZ
+owner = RUM
+controller = RUM
 add_core = RUM
 trade_goods = grain
 life_rating = 35

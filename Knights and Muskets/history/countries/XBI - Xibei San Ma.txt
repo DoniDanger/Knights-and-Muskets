@@ -1,10 +1,11 @@
 capital = 2062
-primary_culture = beifaren
+primary_culture = tangut
+culture = beifaren
 religion = confucian
-government = absolute_monarchy
-plurality = 0.0
+government = feudal_monarchy
+plurality = 40.0
 nationalvalue = nv_tradition
-literacy = 0.04
+literacy = 0.08
 non_state_culture_literacy = 0.01
 civilized = yes
 

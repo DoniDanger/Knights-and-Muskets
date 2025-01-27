@@ -1,7 +1,7 @@
 capital = 1053 #Gunib(Mahachkala)
 primary_culture = avar
 religion = orthodox
-government = feudal_monarchy
+government = tribal_chiefdom
 plurality = 0.0
 nationalvalue = nv_might
 literacy = 0.02

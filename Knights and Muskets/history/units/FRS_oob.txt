@@ -1,0 +1,42 @@
+leader = {
+    name = "Abu Bakr ibn Sa'd"
+    date = 1221.8.1
+    type = land
+    personality = defence_2.1
+    background = attack_2.1
+    prestige = 0.10
+}
+
+army = {
+    name = "Army of Shiraz"
+    location = 1135
+    regiment = {
+        name = "1. Shirazi Warrior"
+        type = regular
+        home = 1135
+    }
+
+    regiment = {
+        name = "2. Shirazi Warrior"
+        type = irregular
+        home = 2461
+    }
+	
+	regiment = {
+        name = "4. Tribal Warrior"
+        type = artillery
+        home = 2461
+    }
+	
+	regiment = {
+        name = "4. Turkoman Warrior"
+        type = dragoon
+        home = 1137
+    }
+	
+	regiment = {
+        name = "4. Turkoman Warrior"
+        type = dragoon
+        home = 1137
+    }
+}

@@ -29,7 +29,7 @@
     farmers = {
         culture = slovak
         religion = catholic
-        size = 30200
+        size = 18200
     }
 
     artisans = {
@@ -155,7 +155,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 6000
+        size = 3000
     }
 }
 #Trencin (228000/57000 POPS)
@@ -276,6 +276,12 @@
         size = 850
     }
 
+	bureaucrats = {
+        culture = slovak
+        religion = catholic
+        size = 210
+    }
+	
     artisans = {
         culture = slovak
         religion = catholic
@@ -315,7 +321,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 300
+        size = 610
     }
 
     officers = {
@@ -585,7 +591,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 400
+        size = 520
     }
 
     officers = {

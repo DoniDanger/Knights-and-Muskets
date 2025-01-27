@@ -1,5 +1,5 @@
-
-
-
-trade_goods = tropical_wood
+owner = BUL
+controller = BUL
+add_core = BUL
+trade_goods = grain
 life_rating = 35

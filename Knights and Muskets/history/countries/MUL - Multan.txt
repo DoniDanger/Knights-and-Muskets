@@ -1,17 +1,12 @@
 capital = 1228
 primary_culture = persian
+culture = sarakai
 culture = panjabi
 religion = sunni
 government = feudal_monarchy
-plurality = 0
+plurality = 40
 nationalvalue = nv_order
-literacy = 0.023743
-
-
-plurality = 0.0
-nationalvalue = nv_equality
-literacy = 0.2
-non_state_culture_literacy = 0.05
+literacy = 0.06
 civilized = yes
 
 # Political reforms

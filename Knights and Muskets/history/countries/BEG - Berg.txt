@@ -5,6 +5,7 @@ government = feudal_monarchy
 plurality = 10.0
 nationalvalue = nv_order
 literacy = 0.19
+civilized = yes
 
 # Political reforms
 slavery = yes_slavery

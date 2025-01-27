@@ -1,0 +1,48 @@
+leader = {
+    name = "Ghiyath al-Din Pirshah"
+    date = 1221.8.1
+    type = land
+    personality = defence_2.1
+    background = attack_2.1
+    prestige = 0.10
+}
+
+army = {
+    name = "Army of Hamadan"
+    location = 1122
+    regiment = {
+        name = "1. Persian Warrior"
+        type = regular
+        home = 1128
+    }
+
+    regiment = {
+        name = "2. Persian Warrior"
+        type = irregular
+        home = 2459
+    }
+	
+	regiment = {
+        name = "4. Persian Warrior"
+        type = irregular
+        home = 1120
+    }
+	
+	regiment = {
+        name = "4. Kurdish Warrior"
+        type = artillery
+        home = 1119
+    }
+	
+	regiment = {
+        name = "4. Kurdish Warrior"
+        type = artillery
+        home = 1122
+    }
+	
+	regiment = {
+        name = "4. Kurdish Warrior"
+        type = cavalry
+        home = 1117
+    }
+}

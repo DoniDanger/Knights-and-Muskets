@@ -1,8 +1,8 @@
-capital = 812
+capital = 2411
 primary_culture = bulgarian
 religion = orthodox
 government = empire
-plurality = 0.08
+plurality = 50
 nationalvalue = nv_might
 literacy = 0.16
 civilized = yes

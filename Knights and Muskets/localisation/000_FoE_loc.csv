@@ -35,8 +35,51 @@ salt;Salt;;;;;;;;;;;;;
 chinaware;Chinaware;;;;;;;;;;;;;
 luxury_furniture;Rugs;;;;;;;;;;;;;
 sulphur;Saltpeter;;;;;;;;;;;;;
+tin;Tin;x
+leather;Leather;x
+incense;Incense;x
+apiculture;Apiculture;x
+furs;Furs;x
+spices;Spices;x
+sugar;Sugar;x
+horses;Horses;x
+elephants;Elephants;x
 commerce_tech;Commerce;;;;;;;;;;;;;
 industry_tech;Agriculture;;;;;;;;;;;;;
+railroad;Infrastructure;x
+university;University;;x
+bank;Bank;x
+fort;Castle;x
+fertilizer_factory;Manure Fields;x
+glass_factory;Glassworks Guild;x
+cement_factory;Brick Foundry;x
+leather_tannery;Leather Tannery;x
+wool_fabric_factory;Wool Weavery;x
+fabric_factory;Fabric Weavery;x
+lumber_mill;Lumber Mill;x
+winery;Winery;x
+liquor_distillery;Liquor Distillery;x
+dye_factory;Dyeworks;x
+canned_food_factory;Cornish;x
+infantry_arms_weaponsmith;Armourer Workshop;x
+explosives_factory;Gunpowder Workshop;x
+regular_clothes_factory;Clothworkers Guild;x
+paper_mill;Paper Mill;x
+furniture_factory;Furniture Workshop;x
+barding_weaponsmith;Barding Workshop;x
+crossbow_weaponsmith;Crossbow Guild;x
+artillery_factory;Bowyer Guild;x
+steel_factory;Hardwood Mill;x
+luxury_furniture_factory;Rug Weavery;x
+luxury_clothes_factory;Luxury Clothworkers Guild;x
+clipper_shipyard;Cog Workshop;x
+steamer_shipyard;Hulk Workshop;x
+naval_supplies_workshop;Naval Supplies Workshop;x
+charcoal_burner;Charcoal Burner;x
+machine_parts_factory;Smithing Tools Workshop;x
+tar_workshop;Tar Kiln;x
+siege_engine_workshop;Siege Engine Workshop;x
+bombard_foundry;Bombard Foundry;x
 tyrolean;High Bavarian;x
 alemannic;Alemannic;;x
 arpitan;Arpitan;x
@@ -131,3 +174,62 @@ hanhui;Hui;x
 jassic;Jassic;x
 latin;Latin;x
 rusyn;Red Rus';x
+bihari;Sadri;x
+bhojpuri;Bhojpuri;x
+kutchi;Kutchi;x
+magahi;Magahi;x
+maithili;Maithili;x
+mewari;Mewari;x
+malvi;Malvi;x
+bagheli;Bagheli;x
+cchattisgarhi;Cchattisgarhi;x
+gondi;Gondi;x
+varhadi_nagpuri;Varhadi;x
+awadhi;Awadhi;x
+marwari;Marwari;x
+dakkhani;Deccani;x
+konkani;Konkani;x
+kannauji;Kannauji;x
+braj;Braj;x
+bundeli;Bundeli;x
+khandeshi;Khandeshi;x
+sarakai;Multani;x
+khasi;Khasi;x
+sylheti;Sylheti;x
+haryanvi;Haryanvi;x
+ladakhi;Ladakhi;x
+kham;Kham;x
+amdo;Amdo;x
+u_tsang;U-Tsang;x
+veps;Veps;x
+savonian;Savonian;x
+karelian;Karelian;x
+ingrian;Izhorian;x
+livonian;Livonian;x
+sami;Sami;x
+ukrainian;Severian;x #Ruthenian
+tumed;Tumed;x
+buryat;Buryat;x
+novgorodian;Novgorodian;x
+skanian;Scanian;x
+moravian;Moravian;x
+szekely;Szekely;x
+romanian;Vlachian;x
+azerbaijani;Azeri;x
+adhari;Adhari;x
+talysh;Talysh;x
+gilaki;Gilaki;x
+mazanderani;Mazanderani;x
+samogitian;Samogitian;x
+courish;Couronian;x
+latvia;Latgallian;x
+cypriot;Cypriot;x
+outremer;Outremer;x
+khuzestani;Khuzestani;x
+transylvanian;Transylvanian;x
+lurish;Lurish;x
+qashqai;Qashqai;x
+khaliji;Khaliji;x
+kuhmareyi;Shirazi;x
+tangut;Tangut;x
+bosniak;Bosnian;x

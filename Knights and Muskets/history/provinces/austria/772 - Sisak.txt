@@ -1,6 +1,6 @@
-owner = HUN
-controller = HUN
-add_core = HUN
+owner = CRO
+controller = CRO
 add_core = CRO
-trade_goods = cattle
+add_core = SLA
+trade_goods = grain
 life_rating = 35

@@ -27,10 +27,4 @@ army = {
         type = artillery
         home = 1055
     }
-
-    regiment = {
-        name = "4. Tribal Warrior"
-        type = artillery
-        home = 1055
-    }
 }

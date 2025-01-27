@@ -1,0 +1,5 @@
+owner = KMY
+controller = KMY
+add_core = KMY
+trade_goods = grain
+life_rating = 35

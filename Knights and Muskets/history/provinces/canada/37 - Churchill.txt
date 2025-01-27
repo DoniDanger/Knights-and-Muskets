@@ -1,5 +1,5 @@
-owner = KMY
-controller = KMY
-add_core = KMY
+owner = CUM
+controller = CUM
+add_core = CUM
 trade_goods = fish
 life_rating = 35

@@ -1,8 +1,9 @@
-capital = 616
+capital = 2163
 primary_culture = south_german
+culture = tyrolean
 religion = catholic
-government = feudal_monarchy
-plurality = 5.0
+government = duchy
+plurality = 55.0
 nationalvalue = nv_order
 literacy = 0.18
 

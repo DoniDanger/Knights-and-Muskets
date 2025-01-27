@@ -1,5 +1,8 @@
-
-
-
-trade_goods = tropical_wood
-life_rating = 25
+owner = PHI
+controller = PHI
+add_core = PHI
+add_core = LTN
+add_core = BUL
+add_core = BYZ
+trade_goods = cattle
+life_rating = 35

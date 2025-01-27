@@ -2,7 +2,7 @@ capital = 36
 primary_culture = anglo_canadian
 culture = metis
 religion = protestant
-government = hms_government
+government = feudal_monarchy
 plurality = 5.0
 nationalvalue = nv_order
 literacy = 0.17
@@ -39,6 +39,6 @@ upper_house = {
 }
 
 govt_flag = {
-	government = hms_government
+	government = feudal_monarchy
 	flag = democracy
 }
