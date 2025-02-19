@@ -144,7 +144,6 @@ country_event = {
 	title = "Death of Philip II"
 	desc = "135005_DESC"
 	picture = "philip_ii"
-	major = yes
 	
 	fire_only_once = yes
 	mean_time_to_happen = { days = 5 }
@@ -218,7 +217,6 @@ country_event = {
 	title = "Regency of Louis IX"
 	desc = "135008_DESC"
 	picture = "blanche_of_castille"
-	major = yes
 	
 	fire_only_once = yes
 	mean_time_to_happen = { days = 3 }
@@ -232,6 +230,9 @@ country_event = {
 	option = {
 	    name = "Let us hope no treachery comes of this."
 		prestige = 5
+		relation = { who = BRT value = -80 }
+		relation = { who = LMC value = 80 }
+		relation = { who = ANG value = 80 }
 		
 		set_country_flag = regency_of_louis_ix
 		ai_chance = { factor = 90 }
@@ -245,7 +246,7 @@ country_event = {
 	major = yes
 	
 	fire_only_once = yes
-	mean_time_to_happen = { days = 3 }
+	mean_time_to_happen = { months = 4 }
 
 	trigger = {
 		tag = FRA
@@ -292,15 +293,14 @@ country_event = {
 	title = "End of the Plantagenet Truce"
 	desc = "135011_DESC"
 	picture = "bouvines"
-	major = yes
 	
 	fire_only_once = yes
-	mean_time_to_happen = { days = 4 }
+	mean_time_to_happen = { days = 8 }
 
 	trigger = {
 		tag = FRA
 		year = 1224
-		month = 5
+		NOT = { truce_with = ENL }
 		has_country_flag = reign_of_louis_viii
 	}
 
@@ -376,6 +376,7 @@ country_event = {
 	option = {
 	    name = "We cannot risk the fall of Gascony. Accept their offer."
 		prestige = -10
+		plurality = -5
 		
 		FRA = { inherit = POI }
 		FRA = { end_war = ENL }
@@ -386,6 +387,470 @@ country_event = {
 	    name = "If Poitou falls, Gascony is next. We must reclaim Poitou."
 		
 		prestige = 5
+		plurality = 5
 		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 135014
+	title = "Marriage to Margaret of Provence"
+	desc = "135014_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = FRA
+		year = 1234
+		has_country_flag = reign_of_louis_ix
+	}
+	
+	option = {
+	    name = "A perfect match for Louis."
+		prestige = 5
+		plurality = 10
+		diplomatic_influence = { who = PRO value = 400 }
+		relation = { who = PAP value = 150 }
+		create_alliance = PRO
+		
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135015
+	title = "Ordinance Against Debts Owed to Jews"
+	desc = "135015_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = FRA
+		year = 1223
+		month = 11
+		has_country_flag = reign_of_louis_viii
+	}
+	
+	option = {
+	    name = "Usury sucks."
+		money = 40000
+		any_pop = { limit = { has_pop_religion = jewish }
+                militancy = 2
+            }
+		
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135016
+	title = "Invitation of Lombard Moneylenders"
+	desc = "135016_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = FRA
+		year = 1225
+		has_country_flag = reign_of_louis_viii
+	}
+	
+	option = {
+	    name = "Hopefully they do not cause any trouble."
+		money = 20000
+		any_owned = {
+                limit = {
+                    owned_by = THIS
+                    is_core = FRA
+                }
+				any_pop = {
+					limit = {
+							has_pop_culture = north_italian
+					}
+					reduce_pop = 1.8
+                }
+        }
+		
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135017
+	title = "Louis' Ban on Usury"
+	desc = "135017_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = FRA
+		year = 1230
+		has_country_flag = reign_of_louis_ix
+	}
+	
+	option = {
+	    name = "Hopefully these funds will go towards a Crusade."
+		money = 80000
+		relation = { who = PAP value = 40 }
+		any_pop = { limit = { has_pop_religion = jewish }
+                militancy = 3
+            }
+		any_pop = { limit = { culture = north_italian }
+                militancy = 3
+            }
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135018
+	title = "Disputation of Paris"
+	desc = "135018_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { months = 4 }
+
+	trigger = {
+		tag = FRA
+		year = 1240
+		has_country_flag = reign_of_louis_ix
+	}
+	
+	option = {
+	    name = "No heresy shall be allowed to stain France."
+		prestige = 10
+		relation = { who = PAP value = 80 }
+		
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135019
+	title = "Treaty of Melun"
+	desc = "135019_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = FRA
+		year = 1226
+		has_country_flag = regency_of_louis_ix
+	}
+	
+	option = {
+	    name = "Flanders will not dare revolt again."
+		money = 50000
+		prestige = 10
+		diplomatic_influence = { who = FLA value = 400 }
+		create_alliance = FLA
+		relation = { who = FLA value = 120 }
+		
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135020
+	title = "Appanage of Artois"
+	desc = "135020_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = FRA
+		year = 1237
+		war = no
+		PIC = { exists = no }
+		PIC = { any_core = { owned_by = THIS }}
+		has_country_flag = reign_of_louis_ix
+	}
+	
+	option = {
+	    name = "My son deserves his own appanage."
+		plurality = 5
+		release = PIC
+		diplomatic_influence = { who = PIC value = 400 }
+		create_vassal = PIC
+		create_alliance = PIC
+		relation = { who = PIC value = 200 }
+		
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "Stupid chud isn't getting shit."
+		plurality = -5
+		inherit = PIC
+		
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 135021
+	title = "Appanage of Anjou"
+	desc = "135021_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = FRA
+		year = 1246
+		war = no
+		ANJ = { exists = no }
+		ANJ = { any_core = { owned_by = THIS }}
+		has_country_flag = reign_of_louis_ix
+	}
+	
+	option = {
+	    name = "My brother deserves his own appanage."
+		plurality = 5
+		release = ANJ
+		diplomatic_influence = { who = ANJ value = 400 }
+		create_vassal = ANJ
+		create_alliance = ANJ
+		relation = { who = ANJ value = 200 }
+		
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "Stupid chud isn't getting shit."
+		plurality = -10
+		inherit = ANJ
+		
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 135022
+	title = "County of Poitiers"
+	desc = "135022_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = FRA
+		year = 1225
+		war = no
+		POI = { all_core = { owned_by = THIS }}
+		has_country_flag = reign_of_louis_viii
+	}
+	
+	option = {
+	    name = "Alphonse is the new count of Poitou."
+		POI = { all_core = { add_core = THIS }}
+		
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135023
+	title = "Alphonse Inherits Toulouse"
+	desc = "135023_DESC"
+	picture = "albigensian_crusade"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 4 }
+
+	trigger = {
+		tag = FRA
+		OCC = { vassal_of = THIS }
+		year = 1249
+		has_country_flag = renewed_albigensian_crusade
+	}
+
+	option = {
+	    name = "Toulouse is now firmly under the control of Paris."
+		diplomatic_influence = { who = OCC value = 400 }
+		create_vassal = OCC
+		create_alliance = OCC
+		relation = { who = OCC value = 200 }
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135024
+	title = "Death of Alphonse"
+	desc = "135024_DESC"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 5 }
+
+	trigger = {
+		tag = FRA
+		OR = {
+			OCC = { vassal_of = THIS }
+			POI = { vassal_of = THIS }
+		}
+		year = 1271
+	}
+
+	option = {
+	    name = "The domains of Alphonse should revert to the Crown."
+		inherit = POI
+		inherit = OCC
+		POI = { all_core = { add_core = THIS }}
+		OCC = { all_core = { add_core = THIS }}
+		add_accepted_culture = poitevin
+		add_accepted_culture = occitan
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135025
+	title = "Revolt of the Poitevin Nobility"
+	desc = "135025_DESC"
+	picture = "hugh_de_lusignan"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 8 }
+
+	trigger = {
+		tag = FRA
+		AND = {
+			NOT = { truce_with = ENL war_with = ENL }
+			NOT = { truce_with = LMC war_with = LMC }
+		}
+		year = 1241
+		month = 11
+	}
+
+	option = {
+	    name = "We must quickly respond to this before it escalates."
+		release = LMC
+		release = ANG
+		release = POI
+		release_vassal = LMC
+		release_vassal = POI
+		leave_alliance = LMC
+		leave_alliance = ANG
+		leave_alliance = POI
+		ENL = { country_event = 135026 }
+		set_country_flag = saintonge_war
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135026
+	title = "Poitevin Nobility Request Assistance"
+	desc = "135026_DESC"
+	picture = "hugh_de_lusignan"
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "We must intervene on behalf of the rebels."
+		prestige = 10
+		plurality = 5
+		diplomatic_influence = { who = POI value = 400 }
+		create_vassal = POI
+		create_alliance = POI
+		relation = { who = POI value = 200 }
+		diplomatic_influence = { who = LMC value = 400 }
+		create_vassal = LMC
+		create_alliance = LMC
+		relation = { who = LMC value = 200 }
+		diplomatic_influence = { who = ANG value = 400 }
+		create_vassal = ANG
+		create_alliance = ANG
+		relation = { who = ANG value = 200 }
+		
+		FRA = { country_event = 135027 }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "We can not afford another war with France."
+		
+		prestige = -5
+		plurality = -5
+		set_global_flag = fra_saintonge_victory
+		FRA = { country_event = 135028 }
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 135027
+	title = "The Saintonge War"
+	desc = "135027_DESC"
+	picture = "hugh_de_lusignan"
+	major = yes
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "We shall crush this rebellion at once."
+		casus_belli = {
+			target = ENL
+			type = cut_down_to_size
+			months = 12
+		}
+		war = {
+            target = ENL
+            attacker_goal = { casus_belli = cut_down_to_size }
+			call_ally = yes
+        }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "We can not afford another war with England."
+		
+		prestige = -5
+		plurality = -5
+		set_global_flag = enl_saintonge_victory
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 135028
+	title = "Assault on La Marche"
+	desc = "135028_DESC"
+	picture = "hugh_de_lusignan"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 4 }
+
+	trigger = {
+		tag = FRA
+		AND = {
+			NOT = { truce_with = ENL war_with = ENL }
+			NOT = { truce_with = LMC war_with = LMC }
+		}
+		has_country_flag = saintonge_war
+		NOT = { 
+			has_global_flag = fra_saintonge_victory
+			has_global_flag = enl_saintonge_victory
+		}
+	}
+
+	option = {
+	    name = "We must quickly respond to this before it escalates."
+		war = {
+            target = POI
+            attacker_goal = { casus_belli = annex_core_country }
+			call_ally = yes
+        }
+		war = {
+            target = LMC
+            attacker_goal = { casus_belli = annex_core_country }
+			call_ally = yes
+        }
+		war = {
+            target = ANG
+            attacker_goal = { casus_belli = annex_core_country }
+			call_ally = yes
+        }
+		ai_chance = { factor = 90 }
 	}
 }
