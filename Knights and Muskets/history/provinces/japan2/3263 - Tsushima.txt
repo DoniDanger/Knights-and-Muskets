@@ -1,0 +1,7 @@
+owner = SHN
+controller = SHN
+add_core = SHN
+add_core = SOO
+add_core = TKG
+trade_goods = fish
+life_rating = 32

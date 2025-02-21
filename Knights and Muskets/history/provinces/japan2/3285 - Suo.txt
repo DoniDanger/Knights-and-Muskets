@@ -1,0 +1,7 @@
+owner = OUC
+controller = OUC
+add_core = OUC
+add_core = TKG
+trade_goods = horses
+life_rating = 32
+

@@ -1,0 +1,7 @@
+owner = TKD
+controller = TKD
+add_core = TKD
+add_core = TKG
+trade_goods = horses
+life_rating = 32
+

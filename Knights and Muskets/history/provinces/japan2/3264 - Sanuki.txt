@@ -1,0 +1,6 @@
+owner = HSK
+controller = HSK
+add_core = HSK
+add_core = TKG
+trade_goods = stone
+life_rating = 32

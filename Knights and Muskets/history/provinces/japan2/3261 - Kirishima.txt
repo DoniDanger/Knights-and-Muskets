@@ -1,0 +1,7 @@
+owner = SMZ
+controller = SMZ
+add_core = SMZ
+add_core = TKG
+trade_goods = tea
+life_rating = 32
+

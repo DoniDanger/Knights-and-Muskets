@@ -1,8 +1,8 @@
-capital = 1649
+capital = 1657
 primary_culture = japanese
 religion = shinto
 government = shogunate
-plurality = 0.0
+plurality = 50.0
 nationalvalue = nv_tradition
 literacy = 0.21
 non_state_culture_literacy = 0.10

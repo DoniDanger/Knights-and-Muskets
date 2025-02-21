@@ -1,6 +1,7 @@
-owner = OTM
-controller = OTM
-add_core = OTM
+owner = KKC
+controller = KKC
+add_core = KKC
 add_core = TKG
-trade_goods = coal
-life_rating = 35
+trade_goods = fish
+life_rating = 32
+

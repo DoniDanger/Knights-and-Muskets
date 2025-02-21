@@ -1,0 +1,7 @@
+owner = OTM
+controller = OTM
+add_core = OTM
+add_core = TKG
+trade_goods = timber
+life_rating = 32
+
