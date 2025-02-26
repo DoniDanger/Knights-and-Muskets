@@ -97,6 +97,7 @@ country_event = {
 	option = {
 	    name = "The Cather heresy shall be eradicated from Christendom."
 		prestige = 5
+		plurality = 5
 		CRC = { all_core = { add_core = THIS }}
 		any_country = {
             limit = {
@@ -181,6 +182,7 @@ country_event = {
 	option = {
 	    name = "A worthy successor to Philip II."
 		prestige = 5
+		plurality = 10
 		
 		set_country_flag = reign_of_louis_viii
 		ai_chance = { factor = 90 }
@@ -230,10 +232,23 @@ country_event = {
 	option = {
 	    name = "Let us hope no treachery comes of this."
 		prestige = 5
+		plurality = -5
 		relation = { who = BRT value = -80 }
-		relation = { who = LMC value = 80 }
-		relation = { who = ANG value = 80 }
+		relation = { who = LMC value = -80 }
+		relation = { who = ANG value = -80 }
+		relation = { who = CMP value = -40 }
 		
+		any_pop = {
+			limit = {
+				OR = {
+					culture = norman
+					culture = poitevin
+					culture = picard
+					culture = champenois
+				}
+			}
+			militancy = 4
+		}
 		set_country_flag = regency_of_louis_ix
 		ai_chance = { factor = 90 }
 	}
@@ -419,7 +434,7 @@ country_event = {
 
 country_event = {
 	id = 135015
-	title = "Ordinance Against Debts Owed to Jews"
+	title = "Etablissement sur les Juifs"
 	desc = "135015_DESC"
 	fire_only_once = yes
 	mean_time_to_happen = { days = 2 }
@@ -814,7 +829,7 @@ country_event = {
 
 country_event = {
 	id = 135028
-	title = "Assault on La Marche"
+	title = "Assault on Lusignan"
 	desc = "135028_DESC"
 	picture = "hugh_de_lusignan"
 	
@@ -851,6 +866,461 @@ country_event = {
             attacker_goal = { casus_belli = annex_core_country }
 			call_ally = yes
         }
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135029
+	title = "Battle of Taillebourg"
+	desc = "135029_DESC"
+	picture = "hugh_de_lusignan"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = FRA
+		war_with = ENL
+		LMC = { all_core = { controlled_by = THIS }}
+		POI = { all_core = { controlled_by = THIS }}
+		has_country_flag = saintonge_war
+	}
+
+	option = {
+	    name = "Offer the English to return to Gascony."
+		prestige = 5
+		
+		FRA = { inherit = LMC }
+		FRA = { inherit = ANG }
+		FRA = { inherit = POI }
+		ENL = { country_event = 135030 }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "Gascony will fall along with Lusignan."
+		FRA = { inherit = LMC }
+		FRA = { inherit = ANG }
+		FRA = { inherit = POI }
+		
+		prestige = 5 
+		plurality = 5
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 135030
+	title = "Siege of Saintes"
+	desc = "135030_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "We must consolidate in Gascony and accept our defeat."
+		prestige = -10
+		plurality = -5
+		
+		FRA = { end_war = ENL }
+		FRA = { country_event = 135031 }
+		set_global_flag = fra_saintonge_victory
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "Accepting this peace would be surrendering our rights in France."
+		
+		prestige = 5
+		plurality = 5
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 135031
+	title = "Victory in the Saintonge"
+	desc = "135031_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = FRA
+		NOT = { war_with = ENL war_with = LMC war_with = POI }
+		OR = {
+			ENL = { is_disarmed = yes }
+			has_global_flag = fra_saintonge_victory
+			AND = {
+				LMC = { all_core = { controlled_by = THIS }}
+				POI = { all_core = { controlled_by = THIS }}
+				ANG = { all_core = { controlled_by = THIS }}
+			}
+		}
+		has_country_flag = saintonge_war
+		NOT = { has_country_flag = total_capetian_victory }
+	}
+
+	option = {
+	    name = "Our dominance over the Plantagenets has been solidified."
+		prestige = 5
+		plurality = 10
+		
+		add_accepted_culture = poitevin
+		THIS = { inherit = LMC }
+		THIS = { inherit = ANG }
+		FRA = { inherit = POI }
+		POI = { all_core = { add_core = THIS }}
+		LMC = { all_core = { add_core = THIS }}
+		ANG = { all_core = { add_core = THIS }}
+		set_country_flag = total_capetian_victory
+		set_global_flag = fra_saintonge_victory
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135032
+	title = "Victory in the Saintonge"
+	desc = "135032_DESC"
+	major = yes
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = ENL
+		NOT = { war_with = FRA }
+		OR = {
+			FRA = { is_disarmed = yes }
+			has_global_flag = enl_saintonge_victory
+		}
+		has_country_flag = saintonge_war
+		#has_global_flag = enl_saintonge_victory
+	}
+
+	option = {
+	    name = "Our lands in Poitou have been restored."
+		prestige = 5
+		plurality = 10
+		
+		add_accepted_culture = poitevin
+		THIS = { inherit = LMC }
+		THIS = { inherit = ANG }
+		THIS = { inherit = POI }
+		POI = { all_core = { add_core = THIS }}
+		LMC = { all_core = { add_core = THIS }}
+		ANG = { all_core = { add_core = THIS }}
+		set_global_flag = enl_saintonge_victory
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135033
+	title = "Revolt of the Norman Nobility"
+	desc = "135033_DESC"
+	picture = "blanche_of_castille"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = FRA
+		has_country_flag = regency_of_louis_ix
+		year = 1230
+	}
+
+	option = {
+	    name = "We must squash these rebels before things get out of hand."
+		any_pop = {
+			limit = { culture = norman }
+			militancy = 4
+		}
+		random_owned = {
+			limit = {
+				controlled_by = THIS
+				pop_majority_culture = norman
+				NOT = { country_units_in_province = THIS }
+			}
+			change_controller = REB
+		}
+		random_owned = {
+			limit = {
+				controlled_by = THIS
+				pop_majority_culture = norman
+				NOT = { country_units_in_province = THIS }
+			}
+			change_controller = REB
+		}
+		random_owned = {
+			limit = {
+				controlled_by = THIS
+				pop_majority_culture = norman
+				NOT = { country_units_in_province = THIS }
+			}
+			change_controller = REB
+		}
+		random_owned = {
+			limit = {
+				controlled_by = THIS
+				pop_majority_culture = norman
+				NOT = { country_units_in_province = THIS }
+			}
+			change_controller = REB
+		}
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135034
+	title = "Rebellion in Brittany"
+	desc = "135034_DESC"
+	picture = "blanche_of_castille"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = FRA
+		has_country_flag = regency_of_louis_ix
+		year = 1230
+		NOT = { truce_with = BRT }
+	}
+
+	option = {
+	    name = "We will not allow the Plantagenets any more influence in France."
+		prestige = 5
+		plurality = 5
+		casus_belli = {
+			target = BRT
+			type = make_puppet
+			months = 12
+		}
+		war = {
+            target = BRT
+            attacker_goal = { casus_belli = make_puppet }
+			call_ally = yes
+        }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "The English and Bretons are no threat to us. Focus on Champagne."
+		prestige = -5
+		plurality = -5
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 135035
+	title = "Peter I Submits to Louis"
+	desc = "135035_DESC"
+	picture = "blanche_of_castille"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = FRA
+		has_country_flag = reign_of_louis_ix
+		year = 1234
+	}
+
+	option = {
+	    name = "We must squash these rebels before things get out of hand."
+		diplomatic_influence = { who = BRT value = 400 }
+		relation = { who = BRT value = 150 }
+		create_alliance = BRT
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135036
+	title = "Revolt of Raymound of Toulouse"
+	desc = "135036_DESC"
+	picture = "hugh_de_lusignan"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 8 }
+
+	trigger = {
+		tag = FRA
+		NOT = { truce_with = OCC war_with = OCC }
+		OCC = { vassal_of = THIS }
+		has_country_flag = saintonge_war
+	}
+
+	option = {
+	    name = "That traitor Raymond will bend the knee."
+		create_alliance = FOI
+		casus_belli = {
+			target = OCC
+			type = make_puppet
+			months = 12
+		}
+		war = {
+            target = OCC
+            attacker_goal = { casus_belli = make_puppet }
+			call_ally = yes
+        }
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135037
+	title = "End of the Champagne Succession War"
+	desc = "135037_DESC"
+	picture = "hugh_de_lusignan"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 4 }
+
+	trigger = {
+		tag = CMP
+		year = 1222
+	}
+
+	option = {
+	    name = "The throne is won, but rebuilding the country will take time."
+		create_alliance = FRA
+		relation = { who = FRA value = 80 }
+		plurality = 10
+		money = -25000
+		set_country_flag = reign_theobald_champagne
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 135038
+	title = "Louis' Ordinance Against Jews"
+	desc = "135038_DESC"
+	picture = "hugh_de_lusignan"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+
+	trigger = {
+		tag = CMP
+		FRA = { has_country_flag = reign_of_louis_viii }
+		year = 1224
+	}
+
+	option = {
+	    name = "The Jewish community helped me win my throne."
+		plurality = 5
+		relation = { who = FRA value = -40 }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "The Jews are not worth risking the ire of the King."
+		relation = { who = FRA value = 40 }
+		money = 30000
+		plurality = -5
+		set_country_flag = reign_theobald_champagne
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 135039
+	title = "Baron Invasion of Champagne"
+	desc = "135039_DESC"
+	picture = "blanche_of_castille"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = FRA
+		has_country_flag = regency_of_louis_ix
+		year = 1229
+		CMP = { exists = yes }
+	}
+
+	option = {
+	    name = "We must intervene on the side of Champagne."
+		diplomatic_influence = { who = CMP value = 400 }
+		relation = { who = CMP value = 100 }
+		create_alliance = CMP
+		plurality = 5
+		CMP = { create_alliance = LOR }
+		BAR = { 
+			create_alliance = BRG 
+			casus_belli = {
+				target = CMP
+				type = cut_down_to_size
+				months = 12
+			}
+			war = {
+				target = CMP
+				attacker_goal = { casus_belli = cut_down_to_size }
+				call_ally = yes
+			}
+		}
+		set_global_flag = champagne_baron_invasion
+		set_country_flag = fra_intervene_champagne
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+	    name = "We have more present worries than Champagne."
+		diplomatic_influence = { who = BRT value = -200 }
+		relation = { who = BRT value = -80 }
+		leave_alliance = CMP
+		prestige = -5
+		plurality = -5
+		set_global_flag = champagne_baron_invasion
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 135040
+	title = "Baron Alliance Invades Champagne"
+	desc = "135040_DESC"
+	picture = "blanche_of_castille"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+	major = yes
+	
+	trigger = {
+		tag = CMP
+		has_country_flag = reign_theobald_champagne
+		year = 1229
+		CMP = { exists = yes }
+		OR = {
+			has_global_flag = champagne_baron_invasion
+			FRA = { exists = no }
+		}
+	}
+
+	option = {
+	    name = "We fight the baron alliance once again."
+		plurality = 5
+		create_alliance = LOR 
+		BAR = { 
+			create_alliance = BRG 
+			casus_belli = {
+				target = CMP
+				type = cut_down_to_size
+				months = 12
+			}
+			war = {
+				target = CMP
+				attacker_goal = { casus_belli = cut_down_to_size }
+				call_ally = yes
+			}
+		}
+		
 		ai_chance = { factor = 90 }
 	}
 }

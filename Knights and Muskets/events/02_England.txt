@@ -100,7 +100,7 @@ country_event = {
 
 country_event = {
 	id = 138004
-	title = "Submission of Peter I, Duke of Brittany"
+	title = "Revolt of Peter I, Duke of Brittany"
 	desc = "138004_DESC"
 	picture = "hugh_de_lusignan"
 	major = yes
@@ -119,7 +119,12 @@ country_event = {
 	    name = "Brittany will become the staging point for the invasion of France."
 		diplomatic_influence = { who = BRT value = 400 }
 		set_global_flag = brittany_submit_england
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+	    name = "We do not want to provoke the French Crown."
+		ai_chance = { factor = 5 }
 	}
 }
 
