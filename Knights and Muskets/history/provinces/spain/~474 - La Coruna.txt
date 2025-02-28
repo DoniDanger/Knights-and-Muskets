@@ -1,0 +1,7 @@
+owner = LEO
+controller = LEO
+add_core = LEO
+add_core = GLC
+trade_goods = fish
+life_rating = 35
+naval_base = 1

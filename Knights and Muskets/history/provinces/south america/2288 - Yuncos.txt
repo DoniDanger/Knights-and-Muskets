@@ -1,5 +1,6 @@
 owner = LMG
 controller = LMG
 add_core = LMG
+add_core = FRC
 trade_goods = wool
 life_rating = 35

@@ -3,5 +3,5 @@ controller = MAK
 add_core = MAK
 add_core = PER
 trade_goods = coffee
-life_rating = 32
+life_rating = 35
 

@@ -3,5 +3,5 @@ controller = BAN
 add_core = BAN
 add_core = BUL
 add_core = SER
-trade_goods = apiculture
+trade_goods = iron 
 life_rating = 35

@@ -3,4 +3,4 @@ controller = MYR
 add_core = MYR
 add_core = MCK
 trade_goods = grain
-life_rating = 32
+life_rating = 33

@@ -1,5 +1,6 @@
 owner = AXN
 controller = AXN
 add_core = AXN
+add_core = FRC
 trade_goods = salt
 life_rating = 35

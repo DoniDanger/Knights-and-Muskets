@@ -24,9 +24,9 @@ irregular = { #levies
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		grain = 0.025
+		grain = 0.035
 		wool = 0.12
-		infantry_arms = 0.006 #0
+		infantry_arms = 0.042 #0
 	}
 	
 

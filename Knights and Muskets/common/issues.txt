@@ -248,29 +248,30 @@ political_reforms = {
 	}
     slavery = {
 		next_step_only = yes
-        yes_slavery = {
+        yes_slavery = { #indiscriminate slavery
             rules = { slavery_allowed = yes }
             allow = {
-                NOT = { has_country_flag = communist_gov }
-                NOT = { has_country_flag = fascist_gov }
+                NOT = { has_country_flag = peasant_republic }
                 NOT = { has_country_flag = slave_revolution }    
-				NOT = { has_country_flag = parliment_discontent }				
+				NOT = { has_country_flag = slavery_abolished }				
             }
         }
 
-        recompensation_period = { #corvee system
-            rules = { slavery_allowed = no }
-			min_social_spending = 0.5
+        recompensation_period = { #non-accepted slavery
+            rules = { slavery_allowed = yes }
             allow = {
-                NOT = { has_country_flag = communist_gov }
+                NOT = { has_country_flag = peasant_republic }
                 NOT = { has_country_flag = slave_revolution }
-				NOT = { has_country_flag = parliment_discontent }
+				NOT = { has_country_flag = slavery_abolished }
             }
         }
 
         no_slavery = {
             rules = { slavery_allowed = no }
             global_immigrant_attract = 0.01
+			allow = {
+				has_country_flag = slavery_abolished 
+            }
         }
     }
 
@@ -318,22 +319,34 @@ political_reforms = {
     voting_system = { #feudal tenure
 		next_step_only = yes
         first_past_the_post = { #subinfeudation
-            poor_savings_modifier = -0.15
-            global_immigrant_attract = -0.1
+            poor_savings_modifier = -0.1
+            global_immigrant_attract = -0.05
             RGO_throughput  = -0.05
 			administrative_efficiency_modifier = -0.05
-            tax_efficiency = -0.05
+            tax_efficiency = -0.04
+			allow = {
+				NOT = { has_country_flag = reform_feudal_tenure }
+			}
         }
         jefferson_method = { #socage
 			#RGO_throughput  = 0.025
 			administrative_efficiency_modifier = 0.025
             tax_efficiency = 0.025
+			allow = {
+				has_country_flag = reform_feudal_tenure 
+			}
         }
         proportional_representation = { #freehold
 			global_immigrant_attract = 0.1
 			#RGO_throughput  = 0.05
             administrative_efficiency_modifier = 0.05
             tax_efficiency = 0.05
+			allow = {
+				NOT = { estate_affiliation = nobility_army }
+				NOT = { estate_affiliation = nobility_church }
+				NOT = { estate_affiliation = nobility_gentry }
+				has_country_flag = reform_feudal_tenure 
+			}
         }
     } 
     public_meetings = { #public arms
@@ -342,6 +355,11 @@ political_reforms = {
 			land_organisation = 0.05
             supply_consumption = -0.05
             org_regain = 0.05
+			allow = {
+				NOT = { estate_affiliation = nobility_army }
+				NOT = { estate_affiliation = nobility_church }
+				NOT = { estate_affiliation = nobility_gentry }
+			}
         }
         yes_meeting = { #noble arms rights
 			suppression_points_modifier = 0.25
@@ -371,7 +389,9 @@ political_reforms = {
             issue_change_speed = 0.1
 			social_reform_desire = 0.05
             suppression_points_modifier = 0.1
-			has_country_flag = theocratic_government 
+			allow = {
+                has_country_flag = theocratic_government 
+            }
         }
     }
     trade_unions = { #Executive power
@@ -408,6 +428,11 @@ political_reforms = {
             ruling_party_support = -0.2
             global_immigrant_attract = -0.01
 			tax_efficiency = 0.05
+			allow = {
+				NOT = { estate_affiliation = nobility_army }
+				NOT = { estate_affiliation = nobility_church }
+				NOT = { estate_affiliation = nobility_gentry }
+			}
         }
         harassment = { #extortionate relief
             ruling_party_support = -0.15
@@ -442,7 +467,9 @@ political_reforms = {
 			core_pop_militancy_modifier = -0.01
             suppression_points_modifier = 0.1
 			mobilisation_size = 0.005
-			has_country_flag = allowed_monastic_orders
+			allow = {
+				has_country_flag = sponsored_monastic_orders
+			}
         }
     }
 	
@@ -480,12 +507,13 @@ political_reforms = {
         next_step_only = yes
         serfdom = {
             education_efficiency_modifier = -0.15
+			RGO_throughput  = 0.1
             poor_savings_modifier = -0.5
             global_immigrant_attract = -0.1
 			mobilisation_size = 0.01
         }
-        peonage = {
-            education_efficiency_modifier = -0.03
+        peonage = { #corvee system
+            education_efficiency_modifier = -0.05
             RGO_throughput  = 0.05
             global_immigrant_attract = -0.05
             suppression_points_modifier = 0.1
@@ -496,6 +524,7 @@ political_reforms = {
 				NOT = { estate_affiliation = nobility_army }
 				NOT = { estate_affiliation = nobility_church }
 				NOT = { estate_affiliation = nobility_gentry }
+				has_country_flag = serfdom_de_facto_abolished 
 			}
         }
 
@@ -507,7 +536,8 @@ political_reforms = {
 				NOT = { estate_affiliation = nobility_army }
 				NOT = { estate_affiliation = nobility_church }
 				NOT = { estate_affiliation = nobility_gentry }
-				AND = { NOT = { estate_affiliation = absolutist } NOT = { upper_house_composition = party_appointed } }
+				has_country_flag = serfdom_de_facto_abolished 
+				has_country_flag = serfdom_fully_abolished 
 			}
         }
     }
@@ -523,6 +553,11 @@ political_reforms = {
 			literacy_con_impact = -0.15
 			cb_generation_speed_modifier = 0.2
 			core_pop_militancy_modifier = -0.02
+			allow = {
+				NOT = { estate_affiliation = nobility_army }
+				NOT = { estate_affiliation = nobility_church }
+				NOT = { estate_affiliation = nobility_gentry }
+			}
         }
         admin_parliament = {
 			rich_vote = 1
@@ -536,13 +571,16 @@ political_reforms = {
 			literacy_con_impact = 0.05
 			cb_generation_speed_modifier = 0.05
 			global_pop_militancy_modifier = -0.1
+			allow = {
+				has_country_flag = judicial_parliament_instituted
+			}
         }
     }
 	
 	religious_minorities = {
 		next_step_only = yes
 		no_rights = {
-			#depending on rel policy religious persecusions might happen
+			#depending on rel policy religious persecutions might happen
 			#can't assimilate without pops religion matching state religion if moralist rel policy, if anything else you get a debuff
 		}
 		no_political_rights = {
@@ -587,8 +625,8 @@ social_reforms = {
         #administrative = yes
         next_step_only = yes
         no_minimum_wage = { #very influential
-            tax_efficiency = -0.05
-            #RGO_throughput = 0.20
+            tax_efficiency = -0.03
+            RGO_throughput = 0.1
             core_pop_consciousness_modifier = -0.02
 
             rich_vote = 0.20
@@ -598,39 +636,42 @@ social_reforms = {
 			}
         }
         trinket_wage = { #influential
-            tax_efficiency = -0.025
-            #RGO_throughput = 0.15
+            tax_efficiency = -0.015
+            RGO_throughput = 0.075
             factory_throughput = 0.025
             core_pop_consciousness_modifier = -0.01
             rich_vote = 0.15
 
-            allow = {
-                NOT = { has_country_flag = theocratic_government }
-            }
         }
         low_minimum_wage = { #slightly influential
-            #RGO_throughput = 0.10
+            RGO_throughput = 0.05
             factory_throughput = 0.05
 
             rich_vote = 0.10
 
-            allow = {
-                NOT = { has_country_flag = theocratic_government }
-            }
+            allow = { 
+				NOT = { has_country_flag = theocratic_government }
+			}
         }
         acceptable_minimum_wage = { #marginally relevant
             tax_efficiency = 0.025
-            #RGO_throughput = 0.05
+            RGO_throughput = 0.025
             factory_throughput = 0.075
 
             rich_vote = 0.05
-			allow = { NOT = { estate_affiliation = nobility_church estate_affiliation = church_army } }
+			allow = { 
+				NOT = { estate_affiliation = nobility_church estate_affiliation = church_army } 
+				NOT = { has_country_flag = theocratic_government }
+			}
         }
         good_minimum_wage = { #irrelevant
             tax_efficiency = 0.05
             factory_throughput = 0.1
             core_pop_consciousness_modifier = 0.01
-			 allow = { NOT = { estate_affiliation = nobility_church estate_affiliation = church_army } }
+			allow = { 
+				NOT = { estate_affiliation = nobility_church estate_affiliation = church_army } 
+				NOT = { has_country_flag = theocratic_government }
+			}
         }
     }
 
@@ -643,50 +684,51 @@ social_reforms = {
         }
         fourteen_hours = { #marginally relevant
             tax_efficiency = 0.025
-            factory_throughput = 0.025
+			RGO_throughput = 0.05
             research_points_modifier  = 0.05
             goods_demand = 0.05
             pension_level = 0.20
             global_immigrant_attract = 0.1
 
-            middle_vote = 0.02
+            middle_vote = 0.025
         }
         twelve_hours = { #slightly influential
-            factory_throughput = 0.05
+			RGO_throughput = 0.075
             research_points_modifier = 0.10
             goods_demand = 0.10
-           pension_level = 0.30
+			pension_level = 0.30
             global_immigrant_attract = 0.15
 
-            middle_vote = 0.04
+            middle_vote = 0.05
             
         }
         ten_hours = { #influential
             tax_efficiency = -0.025
-            factory_throughput = 0.075
+			RGO_throughput = 0.01
             research_points_modifier = 0.15
             goods_demand = 0.15
             pension_level = 0.40
             global_immigrant_attract = 0.2
 			core_pop_consciousness_modifier = 0.01
 
-            middle_vote = 0.06
+            middle_vote = 0.075
 
         }
         eight_hours = { #very influential
             tax_efficiency = -0.05
-            factory_throughput = 0.10
+			RGO_throughput = 0.15
             research_points_modifier = 0.20
             goods_demand = 0.20
-           pension_level = 0.50
+			pension_level = 0.50
             global_immigrant_attract = 0.25
 			core_pop_consciousness_modifier = 0.015
 
-            middle_vote = 0.08
+            middle_vote = 0.1
 
             allow = {
-               	NOT = { estate_affiliation = absolutist }
-            }
+				NOT = { estate_affiliation = nobility_army }
+				NOT = { estate_affiliation = nobility_church }
+			}
         }
     }
 
@@ -694,8 +736,8 @@ social_reforms = {
         #administrative = yes
         next_step_only = yes
         no_safety = { #very influential
-            tax_efficiency = -0.05
-            #RGO_throughput = 0.20
+            tax_efficiency = -0.03
+            RGO_throughput = 0.1
             core_pop_militancy_modifier = -0.02
             goods_demand = -0.2
             factory_maintenance = 0.25
@@ -706,8 +748,8 @@ social_reforms = {
             }
         }
         trinket_safety = { #influential
-            tax_efficiency = -0.025
-            #RGO_throughput = 0.15
+            tax_efficiency = -0.015
+            RGO_throughput = 0.075
             core_pop_militancy_modifier = -0.01
             goods_demand = -0.15
             factory_maintenance = 0.20
@@ -716,7 +758,7 @@ social_reforms = {
 
         }
         low_safety = { #slightly influential
-            #RGO_throughput = 0.10
+            RGO_throughput = 0.05
             goods_demand = -0.10
             factory_maintenance = 0.15
 
@@ -725,7 +767,7 @@ social_reforms = {
         }
         acceptable_safety = { #marginally relevant
             tax_efficiency = 0.025
-            #RGO_throughput = 0.05
+            RGO_throughput = 0.025
             ruling_party_support = 0.05
             goods_demand = -0.05
             factory_maintenance = 0.10
@@ -755,48 +797,45 @@ social_reforms = {
         next_step_only = yes
         no_subsidies = { #irrelevant
             tax_efficiency = 0.05
-            #RGO_throughput = 0.10
 			allow = { NOT = { estate_affiliation = gentry_burghers } }
         }
         trinket_subsidies = { #marginally relevant
             tax_efficiency = 0.025
-            #RGO_throughput = 0.075
             pension_level = 0.2
-
-            middle_vote = 0.02
-            poor_vote = 0.01
+			factory_throughput = 0.025
+            middle_vote = 0.025
+            poor_vote = 0.015
         }
         low_subsidies = { #slightly influential
-            #RGO_throughput = 0.05
             pension_level = 0.3
             tariff_efficiency_modifier = -0.025
             artisan_throughput = 0.05
-
-            middle_vote = 0.04
-            poor_vote = 0.02
+			factory_throughput = 0.05
+            middle_vote = 0.05
+            poor_vote = 0.03
         }
         acceptable_subsidies = { #influential
-			#RGO_throughput = 0.075
             pension_level = 0.4
             tariff_efficiency_modifier = -0.05
             artisan_throughput = 0.15
-
-            middle_vote = 0.06
-            poor_vote = 0.03
+			factory_throughput = 0.075
+            middle_vote = 0.075
+            poor_vote = 0.04
 
         }
         good_subsidies = { #very influential
-			#RGO_throughput = 0.1
             pension_level = 0.50
             tariff_efficiency_modifier = -0.1
             artisan_throughput = 0.25
-		    
-            middle_vote = 0.08
-            poor_vote = 0.04
+		    factory_throughput = 0.1
+            middle_vote = 0.1
+            poor_vote = 0.05
 
             allow = {
-               	NOT = { estate_affiliation = absolutist }
-            }
+				NOT = { estate_affiliation = nobility_army }
+				NOT = { estate_affiliation = nobility_gentry }
+				NOT = { estate_affiliation = nobility_church }
+			}
         }
     }
 
@@ -868,6 +907,9 @@ social_reforms = {
             administrative_multiplier = 4
             education_efficiency_modifier = 0.025
             pension_level = 0.20
+			allow = {
+				has_country_flag = centralized_state_1
+			}
         }
         low_health_care = { #medium_centralization
             tax_efficiency = 0.05
@@ -880,6 +922,9 @@ social_reforms = {
 			culture_tech_research_bonus = -0.01
 			navy_tech_research_bonus = -0.01
 			army_tech_research_bonus = -0.01
+			allow = {
+				has_country_flag = centralized_state_2
+			}
         }
         acceptable_health_care = { #high_centralization
             tax_efficiency = 0.075
@@ -892,6 +937,9 @@ social_reforms = {
 			culture_tech_research_bonus = -0.03
 			navy_tech_research_bonus = -0.03
 			army_tech_research_bonus = -0.03
+			allow = {
+				has_country_flag = centralized_state_3
+			}
         }
         good_health_care = { #full_centralization
             tax_efficiency = 0.10
@@ -906,8 +954,8 @@ social_reforms = {
 			army_tech_research_bonus = -0.05
 			
             allow = {
-
-            }
+				has_country_flag = centralized_state_4
+			}
         }
     }
 
@@ -930,14 +978,24 @@ social_reforms = {
             global_assimilation_rate = 0.005
             global_immigrant_attract = 0.03
             administrative_multiplier = 2
-            allow = { has_country_flag = nepotism_allowed }
+            allow = { 
+				OR = {
+					has_country_flag = nepotism_allowed 
+					has_country_flag = religious_academies_established 
+				}
+			}
         }
         good_schools = { #secular/autonomous universities
             education_efficiency_modifier = 0.1
             global_assimilation_rate = 0.01
             global_immigrant_attract = 0.04
             administrative_multiplier = 3
-            allow = { has_country_flag = skill_and_merit_allowed }
+            allow = { 
+				OR = {
+					has_country_flag = nepotism_allowed 
+					has_country_flag = secular_academies_established 
+				}
+			}
         }
     }
 
@@ -948,7 +1006,7 @@ social_reforms = {
             education_efficiency_modifier = -0.18
             administrative_efficiency_modifier = -0.1
             tariff_efficiency_modifier = -0.05
-            tax_efficiency = -0.05
+            tax_efficiency = -0.025
             core_pop_militancy_modifier = -0.02
             suppression_points_modifier = 0.05
             middle_everyday_needs = 0.1
@@ -988,9 +1046,19 @@ social_reforms = {
 			tax_efficiency = -0.025
 			global_pop_militancy_modifier = -0.01
 			ruling_party_support = 0.05
+			allow = {
+				NOT = { estate_affiliation = nobility_army }
+				NOT = { estate_affiliation = nobility_gentry }
+				NOT = { estate_affiliation = nobility_church }
+			}
 		}
 		large_tax_contribution = {
 			tax_efficiency = 0.05
+			allow = {
+				NOT = { estate_affiliation = nobility_army }
+				NOT = { estate_affiliation = nobility_gentry }
+				NOT = { estate_affiliation = nobility_church }
+			}
 		}
 	}
 	
@@ -1063,9 +1131,14 @@ social_reforms = {
 			administrative_multiplier = 2
 			tariff_efficiency_modifier = 0.1
 			ruling_party_support = 0.15
+			allow = {
+				NOT = { estate_affiliation = gentry_burghers }
+				NOT = { estate_affiliation = gentry_army }
+				NOT = { estate_affiliation = nobility_gentry }
+			}
 		}
 	}
-	
+
 	city_privileges = {
 		administrative = yes
 		next_step_only = yes
@@ -1076,7 +1149,9 @@ social_reforms = {
 			tax_efficiency = 0.05
 			suppression_points_modifier = 0.1
 			leadership_modifier = 0.03
-			
+			allow = {
+				has_country_flag = city_privileges_independent
+			}
 		}
 		chartered_cities = {
 			administrative_multiplier = 1
@@ -1086,7 +1161,9 @@ social_reforms = {
 			tax_efficiency = 0.015
 			suppression_points_modifier = 0.05
 			leadership_modifier = 0.05
-			
+			allow = {
+				has_country_flag = city_privileges_chartered
+			}
 		}
 		
 		territorial_cities = {
@@ -1097,6 +1174,9 @@ social_reforms = {
 			tax_efficiency = 0.03
 			suppression_points_modifier = 0.15
 			leadership_modifier = 0.1
+			allow = {
+				has_country_flag = city_privileges_territorial
+			}
 		}
 		royal_cities = {
 			administrative_multiplier = 3
@@ -1105,6 +1185,9 @@ social_reforms = {
 			tax_efficiency = 0.05
 			leadership_modifier = 0.1
 			ruling_party_support = 0.15
+			allow = {
+				has_country_flag = city_privileges_royal
+			}
 		}
 	}
 }

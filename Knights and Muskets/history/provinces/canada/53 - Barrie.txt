@@ -2,6 +2,7 @@ owner = FRA
 controller = FRA
 add_core = FRA
 add_core = NRM
+add_core = FRC
 add_core = ENL
 trade_goods = salt
 life_rating = 35

@@ -1,9 +1,8 @@
 capital = 454
-primary_culture = arpitan
-culture = provencal
+primary_culture = occitan
 religion = catholic
 government = feudal_monarchy
-plurality = 0.1
+plurality = 0.15
 nationalvalue = nv_equality
 literacy = 0.21
 civilized = yes

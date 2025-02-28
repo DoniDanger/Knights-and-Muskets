@@ -1,7 +1,7 @@
 capital = 703
 primary_culture = polish
 religion = catholic
-government = grand_duchy
+government = feudal_monarchy
 plurality = 0.2
 nationalvalue = nv_liberty
 literacy = 0.26

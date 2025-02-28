@@ -2,5 +2,6 @@ owner = ENL
 controller = ENL
 add_core = ENL
 add_core = AQT
+add_core = FRC
 trade_goods = cattle
 life_rating = 35

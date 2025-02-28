@@ -2,5 +2,5 @@ owner = BUL
 controller = BUL
 add_core = BUL
 add_core = WAL
-trade_goods = cattle
+trade_goods = fish
 life_rating = 35

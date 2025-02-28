@@ -1,6 +1,7 @@
 owner = CMP
 controller = CMP
 add_core = CMP
+add_core = FRC
 trade_goods = iron
 life_rating = 35
 

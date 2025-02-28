@@ -3,5 +3,5 @@ controller = OSL
 add_core = LIV
 add_core = OSL
 add_core = EST
-trade_goods = cattle
+trade_goods = naval_supplies
 life_rating = 35

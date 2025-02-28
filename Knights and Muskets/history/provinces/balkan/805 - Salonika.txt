@@ -3,5 +3,5 @@ controller = MCD
 add_core = MCD
 add_core = LTN
 add_core = BYZ
-trade_goods = horses
+trade_goods = wool
 life_rating = 35

@@ -5,33 +5,29 @@
 ## Counties/Independent Cities
 # County
 # Feudal Dependecy (Autonomous Dependency)
-# Free City
 # Lordship
+# Free City/ "Democracy"
 
 ## Duchies/Petty Kingdoms
 # Duchy
 # Daimyo
-# Petty Kingdom?
-# Beylik
-# Principality
-# Emirate
+# Petty Kingdom
 # Tribal State/Chiefdom
 
 ## Kingdoms 
-# Grand Duchy/Principality
 # Kingdom (feudal monarchy)
 # Elective Monarchy
 # Khanate
-# Shogun??
+# Shogun
 
-# Imperial Ranks
+## Imperial Ranks
 # Empire
 
 ## Republics and Dictators
 # Peasant Republics
-# True Republics
 # Oligarchic Republics
 # Military Dictatorship
+# Confederation/League
 
 ## Theocracies
 # Theocracy
@@ -76,6 +72,24 @@ feudal_dominion = { #Autonomous Dependency
     election = no
     appoint_ruling_party = yes
     flagType = monarchy
+}
+
+democracy = { # free cities
+	liberal = yes
+	anarcho_liberal = yes
+	conservative = yes
+	reactionary = yes
+	fascist = no
+	clergy = yes
+	fervent_clergy = yes
+	gentry = yes
+	
+	socialist = yes 
+	communist = yes
+	
+	election = yes
+	duration = 48
+	appoint_ruling_party = no
 }
 
 lordship = {
@@ -134,80 +148,7 @@ daimyo = {
 	flagType = monarchy
 }
 
-march = { #Margraviate/Generic Marches
-	liberal = yes
-	anarcho_liberal = yes
-	conservative = yes
-	reactionary = yes
-	fascist = yes
-	clergy = yes
-	fervent_clergy = yes
-	gentry = yes
-	
-	socialist = yes 
-	#communist = no
-	
-	election = no
-	appoint_ruling_party = yes
-	flagType = monarchy
-}
-
-
 petty_kingdom = {
-	liberal = yes
-	anarcho_liberal = yes
-	conservative = yes
-	reactionary = yes
-	fascist = yes
-	clergy = yes
-	fervent_clergy = yes
-	gentry = yes
-	
-	socialist = yes 
-	#communist = no
-	
-	election = no
-	appoint_ruling_party = yes
-	flagType = monarchy
-}
-
-beylik = {
-	liberal = yes
-	anarcho_liberal = yes
-	conservative = yes
-	reactionary = yes
-	fascist = yes
-	clergy = yes
-	fervent_clergy = yes
-	gentry = yes
-	
-	socialist = yes 
-	#communist = no
-	
-	election = no
-	appoint_ruling_party = yes
-	flagType = monarchy
-}
-
-principality = {
-	liberal = yes
-	anarcho_liberal = yes
-	conservative = yes
-	reactionary = yes
-	fascist = yes
-	clergy = yes
-	fervent_clergy = yes
-	gentry = yes
-	
-	socialist = yes 
-	#communist = no
-	
-	election = no
-	appoint_ruling_party = yes
-	flagType = monarchy
-}
-
-emirate = {
 	liberal = yes
 	anarcho_liberal = yes
 	conservative = yes
@@ -244,42 +185,6 @@ tribal_chiefdom = {
 }
 
 ## Kingdom Ranks
-
-grand_duchy = {
-	liberal = yes
-	anarcho_liberal = yes
-	conservative = yes
-	reactionary = yes
-	fascist = yes
-	clergy = yes
-	fervent_clergy = yes
-	gentry = yes
-	
-	socialist = yes 
-	#communist = no
-	
-	election = no
-	appoint_ruling_party = yes
-	flagType = monarchy
-}
-
-sultanate = { 
-	liberal = yes
-	anarcho_liberal = yes
-	conservative = yes
-	reactionary = yes
-	fascist = yes
-	clergy = yes
-	fervent_clergy = yes
-	gentry = yes
-	
-	socialist = yes 
-	#communist = no
-	
-	election = no
-	appoint_ruling_party = yes
-	flagType = monarchy
-}
 
 feudal_monarchy = { #kingdom
 	liberal = yes
@@ -373,24 +278,6 @@ empire = {
 	flagType = monarchy
 }
 
-caliphate = { 
-	liberal = yes
-	anarcho_liberal = yes
-	conservative = yes
-	gentry = yes
-	reactionary = yes
-	fascist = yes
-	clergy = yes
-	fervent_clergy = yes
-	
-	#socialist = no 
-	#communist = no
-	
-	election = no
-	appoint_ruling_party = yes
-	flagType = monarchy
-}
-
 ### Republic Systems ###
 peasant_republic = { 
 	communist = yes
@@ -416,24 +303,6 @@ military_dictatorship = {
 	flagType = republic
 }
 
-democracy = { # free cities
-	liberal = yes
-	anarcho_liberal = yes
-	conservative = yes
-	reactionary = no
-	fascist = no
-	clergy = yes
-	fervent_clergy = yes
-	gentry = yes
-	
-	socialist = yes 
-	communist = yes
-	
-	election = yes
-	duration = 48
-	appoint_ruling_party = no
-}
-
 oligarchic_republic = {
     liberal = yes
 	anarcho_liberal = yes
@@ -452,7 +321,7 @@ oligarchic_republic = {
     flagType = republic
 }
 
-confederation = {
+confederation = { #league
     liberal = yes
 	anarcho_liberal = yes
 	conservative = yes

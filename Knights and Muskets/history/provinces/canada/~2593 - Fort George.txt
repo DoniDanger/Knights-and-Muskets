@@ -1,0 +1,5 @@
+owner = CMP
+controller = CMP
+add_core = CMP
+trade_goods = timber
+life_rating = 35

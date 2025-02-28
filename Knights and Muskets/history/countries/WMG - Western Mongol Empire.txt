@@ -10,12 +10,11 @@ culture = nogai
 culture = oirat
 religion = tengri
 government = khanate
-plurality = 1.0
+plurality = 50.0
 nationalvalue = nv_might
 literacy = 0.12
 non_state_culture_literacy = 0.01 #Chinese
-#GreatPower 
-prestige = 35
+prestige = 20
 civilized = yes
 
 # Political reforms

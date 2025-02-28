@@ -69,11 +69,10 @@ open_cast_mining = 1
 medical_universities = 1
 widespread_deforestation = 1
 
-grain_banks = 1
-hammered_coinage = 1
-manorialism = 1
-trade_fairs = 1
-medical_universities = 1
+open_field_system = 1
+blast_furnaces = 1
+merchant_banks = 1
+international_trade_expansion = 1
 
 # Inventions
 #corvettes = yes

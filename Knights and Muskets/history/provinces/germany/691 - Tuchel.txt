@@ -3,5 +3,5 @@ controller = PML
 add_core = PML
 add_core = POL
 trade_goods = cattle
-life_rating = 40
+life_rating = 35
 

@@ -1,5 +1,7 @@
 owner = FOI
 controller = FOI
 add_core = FOI
+add_core = FRC
 trade_goods = wool
-life_rating = 33
+life_rating = 35
+

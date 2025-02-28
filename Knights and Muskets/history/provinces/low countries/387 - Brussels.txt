@@ -3,13 +3,18 @@ controller = BRB
 add_core = BRB
 add_core = GER
 add_core = NNN
-trade_goods = stone
+trade_goods = wool
 life_rating = 35
 railroad = 1
 state_building = {
 	level = 1
-	building = fabric_factory
+	building = wool_fabric_factory
 	upgrade = yes
+}
+state_building = {
+		level = 1
+		building = regular_clothes_factory
+		upgrade = yes
 }
 state_building = {
 	level = 1

@@ -26,14 +26,14 @@ dragoon = { #horse archers
 		horses = 10
 		canned_food = 6
 		barding = 6
-		artillery = 10
+		artillery = 16
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		artillery = 0.065 # 0
+		artillery = 0.32 # 0
 		canned_food = 0.07 #0.08
-		horses = 0.30 # 0.008
+		horses = 0.24 # 0.008
 		barding = 0.20 # 0.008
 		grain = 0.30 #0.08
 	}

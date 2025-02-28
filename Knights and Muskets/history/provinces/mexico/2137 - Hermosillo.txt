@@ -3,5 +3,6 @@ controller = VVR
 add_core = VVR
 add_core = OCC
 add_core = ARP
+add_core = FRC
 trade_goods = cattle
 life_rating = 35

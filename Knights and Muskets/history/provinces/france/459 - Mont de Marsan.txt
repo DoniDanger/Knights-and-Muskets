@@ -2,6 +2,7 @@ owner = BEA
 controller = BEA
 add_core = BEA
 add_core = AQT
-trade_goods = grain
-life_rating = 31
+add_core = FRC
+trade_goods = naval_supplies
+life_rating = 35
 1861.1.1 = { railroad = 3 }

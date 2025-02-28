@@ -2,5 +2,6 @@ owner = FRZ
 controller = FRZ
 add_core = FRZ
 add_core = ARP
+add_core = FRC
 trade_goods = iron
 life_rating = 35

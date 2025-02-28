@@ -4,5 +4,5 @@ add_core = EPI
 add_core = MCD
 add_core = LTN
 add_core = BYZ
-trade_goods = silk
+trade_goods = salt
 life_rating = 35

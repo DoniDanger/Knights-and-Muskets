@@ -7,7 +7,7 @@ plurality = 0.1
 literacy = 0.3
 nationalvalue = nv_order
 civilized = yes
-prestige = 15
+prestige = 12
 
 # Social Reforms
 wage_reform = no_minimum_wage

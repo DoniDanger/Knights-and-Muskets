@@ -1,0 +1,7 @@
+owner = BRB
+controller = BRB
+add_core = BRB
+add_core = GER
+add_core = NNN
+trade_goods = stone
+life_rating = 35

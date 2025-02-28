@@ -3,5 +3,5 @@ controller = ALB
 add_core = EPI
 add_core = ALB
 add_core = BYZ
-trade_goods = grain
+trade_goods = stone
 life_rating = 35

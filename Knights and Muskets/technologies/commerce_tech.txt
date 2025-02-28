@@ -248,7 +248,9 @@ usury_prohibition = {
 
 	factory_input = -0.01
 	factory_goods_output = { precious_goods = 0.1 }
+	factory_goods_output = { oil = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1.01
 	}
@@ -260,7 +262,9 @@ interest_and_loans = {
 
 	factory_input = -0.01
 	factory_goods_output = { precious_goods = 0.1 }
+	factory_goods_output = { oil = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1.01		
 	}
@@ -272,7 +276,9 @@ economic_scholasticism = {
 
 	factory_input = -0.01
 	factory_goods_output = { precious_goods = 0.1 }
+	factory_goods_output = { oil = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1.01	
 	}
@@ -284,7 +290,9 @@ just_price = {
 
 	factory_input = -0.01
 	factory_goods_output = { precious_goods = 0.1 }
+	factory_goods_output = { oil = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1
 	}
@@ -297,7 +305,9 @@ sententia = {
 
 	factory_input = -0.01
 	factory_goods_output = { precious_goods = 0.1 }
+	factory_goods_output = { oil = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1.01
 	}
@@ -309,7 +319,9 @@ specialization_of_labor = {
 
 	factory_input = -0.01
 	factory_goods_output = { precious_goods = 0.1 }
+	factory_goods_output = { oil = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1
 	}
@@ -321,7 +333,9 @@ societal_just_price = {
 
 	factory_input = -0.01
 	factory_goods_output = { precious_goods = 0.1 }
+	factory_goods_output = { oil = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1.01
 	}
@@ -334,7 +348,9 @@ nature_of_money = {
 
 	factory_input = -0.01
 	factory_goods_output = { precious_goods = 0.1 }
+	factory_goods_output = { oil = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1
 	}
@@ -347,7 +363,9 @@ taxes_and_productivity = {
 
 	factory_input = -0.01
 	factory_goods_output = { precious_goods = 0.1 }
+	factory_goods_output = { oil = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1.01
 	}
@@ -382,7 +400,7 @@ trade_fairs = {
 	factory_goods_output = { coal = 0.1 }
 	factory_goods_output = { coal = 0.1 }
 	factory_goods_output = { iron = 0.1 }
-	factory_goods_output = { oil = 0.1 }
+	rgo_goods_output = { oil = 0.1 }
 	rgo_goods_output = { precious_metal = 0.1 }
 	factory_goods_output = { sulphur = 0.1 }
 	
@@ -413,7 +431,7 @@ international_trade_expansion = {
 	
 	factory_goods_output = { coal = 0.1 }
 	factory_goods_output = { iron = 0.1 }
-	factory_goods_output = { oil = 0.1 }
+	rgo_goods_output = { oil = 0.1 }
 	rgo_goods_output = { precious_metal = 0.1 }
 	factory_goods_output = { sulphur = 0.1 }
 	
@@ -445,7 +463,7 @@ trading_ports = {
 	
 	factory_goods_output = { coal = 0.1 }
 	factory_goods_output = { iron = 0.1 }
-	factory_goods_output = { oil = 0.1 }
+	rgo_goods_output = { oil = 0.1 }
 	rgo_goods_output = { precious_metal = 0.1 }
 	factory_goods_output = { sulphur = 0.1 }
 	
@@ -460,7 +478,8 @@ trading_expeditions = {
 	cost = 14400
 
 	influence = 0.2
-	factory_goods_output = { precious_goods = 0.1 }
+	factory_goods_output = { precious_goods = 0.10 }
+	factory_goods_output = { oil = 0.10 }
 	ai_chance = {
 		factor = 1.05
 	}	
@@ -473,6 +492,7 @@ trading_regulations = {
 
 	influence = 0.2
 	factory_goods_output = { precious_goods = 0.20 }
+	factory_goods_output = { oil = 0.20 }
 	ai_chance = {
 		factor = 1.05
 	}
@@ -485,6 +505,7 @@ customs_duties = {
 
 	influence = 0.2
 	factory_goods_output = { precious_goods = 0.20 }
+	factory_goods_output = { oil = 0.20 }
 	ai_chance = {
 		factor = 1.01
 	}
@@ -497,6 +518,7 @@ merchant_guild_expansion = {
 
 	influence = 0.2
 	factory_goods_output = { precious_goods = 0.20 }
+	factory_goods_output = { oil = 0.20 }
 	ai_chance = {
 		factor = 1.05
 	}
@@ -509,6 +531,7 @@ merchant_families = {
 
 	influence = 0.2
 	factory_goods_output = { precious_goods = 0.20 }
+	factory_goods_output = { oil = 0.20 }
 	ai_chance = {
 		factor = 1.01
 	}
@@ -521,6 +544,7 @@ trade_and_black_plague = {
 
 	influence = 0.2
 	factory_goods_output = { precious_goods = 0.20 }
+	factory_goods_output = { oil = 0.20 }
 	ai_chance = {
 		factor = 1.05
 	}
@@ -533,6 +557,7 @@ overland_trade_decline = {
 
 	influence = 0.2
 	factory_goods_output = { precious_goods = 0.20 }
+	factory_goods_output = { oil = 0.20 }
 	ai_chance = {
 		factor = 1.01
 	}
@@ -558,6 +583,8 @@ guild_associations = {
 	factory_output = 0.01
 	factory_goods_output = { precious_goods = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { oil = 0.1 }
+	rgo_size = { oil = 0.05 }
 		ai_chance = {
 		factor = 1.03
 	}
@@ -570,6 +597,8 @@ guild_monopolies = {
 	factory_output = 0.01
 	factory_goods_output = { precious_goods = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { oil = 0.1 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1.03
 	}
@@ -582,6 +611,8 @@ guild_networks = {
 	factory_output = 0.01
 	factory_goods_output = { precious_goods = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { oil = 0.1 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1.03
 	}	
@@ -594,6 +625,8 @@ guild_charters = {
 	factory_output = 0.01
 	factory_goods_output = { precious_goods = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { oil = 0.1 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1.03
 	}
@@ -606,6 +639,8 @@ trade_leagues = {
 	factory_output = 0.01
 	factory_goods_output = { precious_goods = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { oil = 0.1 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1.03
 	}
@@ -618,6 +653,8 @@ guild_domination = {
 	factory_output = 0.01
 	factory_goods_output = { precious_goods = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { oil = 0.1 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1.03
 	}
@@ -630,6 +667,8 @@ distinguished_guilds = {
 	factory_output = 0.01
 	factory_goods_output = { precious_goods = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { oil = 0.1 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1.03
 	}
@@ -642,6 +681,8 @@ guild_schools = {
 	factory_output = 0.01
 	factory_goods_output = { precious_goods = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { oil = 0.1 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1.03
 	}
@@ -654,6 +695,8 @@ division_of_labor = {
 	factory_output = 0.01
 	factory_goods_output = { precious_goods = 0.1 }
 	rgo_size = { precious_goods = 0.05 }
+	factory_goods_output = { oil = 0.1 }
+	rgo_size = { oil = 0.05 }
 	ai_chance = {
 		factor = 1.03
 	}

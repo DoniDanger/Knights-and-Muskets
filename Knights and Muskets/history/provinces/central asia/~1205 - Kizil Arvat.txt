@@ -1,0 +1,7 @@
+owner = WMG
+controller = WMG
+add_core = GOL
+add_core = WMG
+add_core = PER
+trade_goods = grain
+life_rating = 35

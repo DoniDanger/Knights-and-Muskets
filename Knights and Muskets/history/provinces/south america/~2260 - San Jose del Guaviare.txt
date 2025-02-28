@@ -1,0 +1,5 @@
+owner = LMC
+controller = LMC
+add_core = LMC
+trade_goods = cattle
+life_rating = 35

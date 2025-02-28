@@ -3,5 +3,5 @@ controller = SER
 add_core = SER
 add_core = BOS
 add_core = DLM
-trade_goods = grain
+trade_goods = stone
 life_rating = 35

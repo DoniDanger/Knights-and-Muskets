@@ -1,5 +1,5 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
-yes_slavery_desc;Slavery is allowed.\n§RThis reform affects POP promotion chance - promotion will be slower, both globally and even more in slave states.§!\n§YPops in Slave states will be more conservative and less liberal. Immigrants are less likely to choose slave states.§!\n§GThe slave population will grow.§!;;;;;;;;;;;;;
+yes_slavery_desc;Slavery is allowed for all slaves, even those that share our faith.\n§RThis reform affects POP promotion chance - promotion will be slower, both globally and even more in slave states.§!\n§YPops in Slave states will be more conservative and less liberal. Immigrants are less likely to choose slave states.§!\n§GThe slave population will grow.§!;;;;;;;;;;;;;
 no_slavery;Outlawed;;;;;;;;;;;;;
 no_slavery_desc;Slavery is forbidden.;;;;;;;;;;;;;
 no_slavery_l;Outlaw Slavery;;;;;;;;;;;;;
@@ -19,11 +19,11 @@ movement_all_voting_pops;The League for Universal Political Rights;;;;;;;;;;;;;
 debt_law;Debt Law;;;;;;;;;;;;;
 serfdom;Serfdom;;;;;;;;;;;;;
 serfdom_l;Serfdom;;;;;;;;;;;;;
-serfdom_desc;Serfs are bound to the land and subject to the will of its owner and forced to work the fields under a feudal system.\n§RThis reform affects POP promotion chance - promotion will be slower.§!\n§RThis reform couses farmers to be less likely to migrate.§!;;;;;;;;;;;;;
+serfdom_desc;Serfs are bound to the land and subject to the will of its owner and forced to work the fields under a feudal system.\n§RThis reform affects POP promotion chance - promotion will be slower.§!\n§RThis reform causes farmers to be less likely to migrate.§!;;;;;;;;;;;;;
 movement_serfdom;Pro Serfdom League;;;;;;;;;;;;;
-peonage;Peonage;;;;;;;;;;;;;
-peonage_l;Peonage;;;;;;;;;;;;;
-peonage_desc;Peonage is a debt system under which the debtor is forced to work off his debt. This often leads to a perpetual cycle of involuntary labor called peonage.;;;;;;;;;;;;;
+peonage;Corvée System;;;;;;;;;x;;;;
+peonage_l;Corvée System;;;;;;;;;x;;;;
+peonage_desc;Corvée is a form of unpaid forced labour that is intermittent in nature, lasting for limited periods of time, typically only a certain number of days' work each year. Statute labour is a corvée imposed by a state for the purposes of public works..;;;;;;;;;;;x
 movement_peonage;Campaign for the Abolition of Serfdom;;;;;;;;;;;;;
 socialist_focus_short;Estate loyalty towards §YReformist§! loyalty;Loyautï¾ƒï½© ï¾‚ï½§Ysocialisteï¾‚ï½§!;ï¾‚ï½§YSozialistischeï¾‚ï½§! Loyalitï¾ƒï½¤t;;;;;;;;;;;
 communist_focus_short;Estate loyalty towards §YRadical§! loyalty;Loyautï¾ƒï½© ï¾‚ï½§Ycommunisteï¾‚ï½§!;ï¾‚ï½§YKommunistischeï¾‚ï½§! Loyalitï¾ƒï½¤t;;;;;;;;;;;
@@ -243,9 +243,11 @@ yes_absolutism;§PAbsolutism§!;;;;;;;;;;;x
 yes_absolutism_l;§PAbsolutism§!;;;;;;;;;;;x
 set_up_advisor_court_title;Set up an Advisor Council;;;;;;;;;;;x
 set_up_advisor_court_desc;It has become increasingly clear that we cannot rule alone, we should set up a proper advisor council to help us manage state affairs.\n§RThis decision will get rid of the §PAbsolutism reform!§!;;;;;;;;;;;x
-recompensation_period;Corvée System;;;;;;;;;x;;;;
-recompensation_period_l;Corvée System;;;;;;;;;x;;;;
-recompensation_period_desc;Corvée is a form of unpaid forced labour that is intermittent in nature, lasting for limited periods of time, typically only a certain number of days' work each year. Statute labour is a corvée imposed by a state for the purposes of public works..;;;;;;;;;;;x
+yes_slavery;Indiscriminate Slavery;;;;;;;;;x;;;;
+yes_slavery_l;Indiscriminate Slavery;;;;;;;;;x;;;;
+recompensation_period;Discriminate Slavery;;;;;;;;;x;;;;
+recompensation_period_l;Discriminate Slavery;;;;;;;;;x;;;;
+recompensation_period_desc;Slavery is restricted to only slaves that do not share our faith or our skin.;;;;;;;;;;;x
 abolished;Abolished;;;;;;;;;x;;;;
 abolished_l;Abolished;;;;;;;;;x;;;;
 abolished_desc;We have abolished Serfdom;;;;;;;;;x;;;;

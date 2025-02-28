@@ -3,6 +3,6 @@ controller = BRB
 add_core = BRB
 add_core = GER
 add_core = NNN
-trade_goods = cattle
+trade_goods = naval_supplies
 life_rating = 35
 1861.1.1 = { railroad = 1 }

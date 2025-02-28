@@ -1,5 +1,5 @@
 owner = LIV
 controller = LIV
 add_core = LIV
-trade_goods = cattle
+trade_goods = naval_supplies
 life_rating = 35

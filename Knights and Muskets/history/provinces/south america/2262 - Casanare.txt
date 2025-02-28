@@ -1,5 +1,6 @@
 owner = GVD
 controller = GVD
 add_core = GVD
+add_core = FRC
 trade_goods = timber
 life_rating = 35

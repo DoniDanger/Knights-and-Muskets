@@ -1,6 +1,6 @@
 owner = POM
 controller = POM
 add_core = POM
-trade_goods = fish
+trade_goods = naval_supplies
 life_rating = 35
 

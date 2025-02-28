@@ -2,5 +2,5 @@ owner = EPI
 controller = EPI
 add_core = EPI
 add_core = BYZ
-trade_goods = wool
+trade_goods = stone
 life_rating = 35

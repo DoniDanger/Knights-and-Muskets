@@ -10,9 +10,29 @@ BRT = {
 	influence_value = 0
 }
 FLA = {
-	value = 40		#relation
+	value = -40		#relation
 	level = 5		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 0
+}
+TNI = {
+	value = 115	#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+CBR = {
+	value = 90	#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+GUI = {
+	value = 70	#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+RTH = {
+	value = 140	#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
 }
 POI = {
 	value = 45	#relation
@@ -50,8 +70,8 @@ CMP = {
 	influence_value = 10
 }
 BRG = {
-	value = 75	#relation
-	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	value = 85	#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 10
 }
 BOU = {

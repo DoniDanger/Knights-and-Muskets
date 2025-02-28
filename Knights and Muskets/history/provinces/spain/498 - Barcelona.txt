@@ -1,7 +1,8 @@
 owner = ARN
 controller = ARN
 add_core = ARN
-trade_goods = cattle
+add_core = FRC
+trade_goods = naval_supplies
 life_rating = 35
 naval_base = 1
 state_building = {

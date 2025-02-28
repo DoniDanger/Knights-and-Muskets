@@ -3,5 +3,5 @@ controller = EPI
 add_core = BUL
 add_core = EPI
 add_core = BYZ
-trade_goods = timber
+trade_goods = iron
 life_rating = 35

@@ -2,4 +2,4 @@ owner = CIR
 controller = CIR
 add_core = CIR
 trade_goods = cattle
-life_rating = 30
+life_rating = 35

@@ -3,5 +3,5 @@ controller = GLR
 add_core = GLR
 add_core = NNN
 add_core = GER
-trade_goods = wool
+trade_goods = apiculture
 life_rating = 35

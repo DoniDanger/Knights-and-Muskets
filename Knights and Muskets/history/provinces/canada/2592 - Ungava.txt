@@ -1,5 +1,6 @@
 owner = REI
 controller = REI
 add_core = REI
+add_core = FRC
 trade_goods = cattle
 life_rating = 35

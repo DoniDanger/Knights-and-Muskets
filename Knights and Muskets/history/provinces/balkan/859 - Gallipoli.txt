@@ -3,5 +3,5 @@ controller = VEN
 add_core = VEN
 add_core = LTN
 add_core = BYZ
-trade_goods = grain
+trade_goods = fish
 life_rating = 35

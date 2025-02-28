@@ -1,5 +1,7 @@
 owner = BEA
 controller = BEA
 add_core = BEA
+add_core = AQT
+add_core = FRC
 trade_goods = wool
 life_rating = 35

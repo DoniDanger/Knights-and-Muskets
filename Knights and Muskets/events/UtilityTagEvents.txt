@@ -272,7 +272,31 @@ country_event = {
 				}
 			annex_to = FROM
 			}
+			#national value cleanup
+			any_country = {
+				limit = {
+					exists = yes
+					AND = {
+						NOT = { nationalvalue = pm_no_minister }
+						NOT = { nationalvalue = pm_alderman }
+						NOT = { nationalvalue = pm_justiciar }
+						NOT = { nationalvalue = pm_artist }
+						NOT = { nationalvalue = pm_philosopher }
+						NOT = { nationalvalue = pm_merchant }
+						NOT = { nationalvalue = pm_burgher }
+						NOT = { nationalvalue = pm_spymaster }
+						NOT = { nationalvalue = pm_diplomat }
+						NOT = { nationalvalue = pm_nobleman }
+						NOT = { nationalvalue = pm_marshal }
+						NOT = { nationalvalue = pm_clergyman }
+						NOT = { nationalvalue = pm_theologian }
+					}
+				}
+			nationalvalue = pm_no_minister
+			}
+			
 			UTI = { country_event = { id = 1000090 days = 60 } }
+			
 		}
 	}
 country_event = {

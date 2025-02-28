@@ -473,11 +473,7 @@ country_event = {
 	option = {
 	    name = "Hopefully they do not cause any trouble."
 		money = 20000
-		any_owned = {
-                limit = {
-                    owned_by = THIS
-                    is_core = FRA
-                }
+		425 = {
 				any_pop = {
 					limit = {
 							has_pop_culture = north_italian
@@ -1094,6 +1090,7 @@ country_event = {
 	    name = "We will not allow the Plantagenets any more influence in France."
 		prestige = 5
 		plurality = 5
+		BRT = { create_alliance = ENL }
 		casus_belli = {
 			target = BRT
 			type = make_puppet
@@ -1252,6 +1249,8 @@ country_event = {
 		create_alliance = CMP
 		plurality = 5
 		CMP = { create_alliance = LOR }
+		BRG = { leave_alliance = CMP }
+		BRG = { create_alliance = BAR }
 		BAR = { 
 			create_alliance = BRG 
 			casus_belli = {
@@ -1272,8 +1271,8 @@ country_event = {
 	
 	option = {
 	    name = "We have more present worries than Champagne."
-		diplomatic_influence = { who = BRT value = -200 }
-		relation = { who = BRT value = -80 }
+		diplomatic_influence = { who = CMP value = -200 }
+		relation = { who = CMP value = -80 }
 		leave_alliance = CMP
 		prestige = -5
 		plurality = -5
@@ -1307,6 +1306,8 @@ country_event = {
 	    name = "We fight the baron alliance once again."
 		plurality = 5
 		create_alliance = LOR 
+		BRG = { leave_alliance = CMP }
+		BRG = { create_alliance = BAR }
 		BAR = { 
 			create_alliance = BRG 
 			casus_belli = {

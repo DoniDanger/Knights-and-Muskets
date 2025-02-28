@@ -25,7 +25,7 @@ cuirassier = { #heavy cavalry
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		horses = 25
+		horses = 24
 		canned_food = 16
 		barding = 16
 		infantry_arms = 16
@@ -34,14 +34,14 @@ cuirassier = { #heavy cavalry
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		horses = 0.35 # 0.008
-		barding = 0.15 # 0.008
-		infantry_arms = 0.16 # 0
+		horses = 0.36 # 0.008
+		barding = 0.26 # 0.008
+		infantry_arms = 0.24 # 0
 		canned_food = 0.14 #0.08
-		grain = 0.35 #0.08
-		iron = 0.18 # 0.008
-		wine = 0.12 #0.015
-		luxury_clothes = 0.12 #0.08
+		grain = 0.24 #0.08
+		iron = 0.14 # 0.008
+		wine = 0.14 #0.015
+		luxury_clothes = 0.16 #0.08
 	}
 	
 

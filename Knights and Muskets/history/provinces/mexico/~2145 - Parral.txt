@@ -1,0 +1,5 @@
+owner = PGD
+controller = PGD
+add_core = PGD
+trade_goods = cattle
+life_rating = 35

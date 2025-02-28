@@ -1,0 +1,5 @@
+owner = AXN
+controller = AXN
+add_core = AXN
+trade_goods = wool
+life_rating = 35

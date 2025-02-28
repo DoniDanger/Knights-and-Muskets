@@ -3,5 +3,5 @@ controller = TIR
 add_core = TIR
 add_core = SLO
 add_core = NNN
-trade_goods = cattle
+trade_goods = salt
 life_rating = 35

@@ -37,6 +37,12 @@
 		size = 5950
 	}
 
+	craftsmen = {
+		culture = flemish
+		religion = catholic
+		size = 10950
+	}
+	
 	soldiers = {
 		culture = picard
 		religion = catholic
@@ -52,7 +58,7 @@
 	labourers = {
 		culture = flemish
 		religion = catholic
-		size = 24750
+		size = 14750
 	}
 }
 #Dunkirk (396000/99000 POPS)
@@ -81,6 +87,12 @@
 		size = 3800
 	}
 
+	craftsmen = {
+		culture = flemish
+		religion = catholic
+		size = 10950
+	}
+	
 	farmers = {
 		culture = picard
 		religion = catholic
@@ -102,7 +114,7 @@
 	farmers = {
 		culture = flemish
 		religion = catholic
-		size = 28750
+		size = 18750
 	}
 }
 #Calais (4000/1000 POPS)
@@ -119,6 +131,12 @@
 		size = 340
 	}
 
+	bureaucrats = {
+		culture = flemish
+		religion = catholic
+		size = 80
+	}
+	
 	artisans = {
 		culture = picard
 		religion = catholic
@@ -765,6 +783,12 @@
 		size = 2700
 	}
 
+	craftsmen = {
+		culture = wallonian
+		religion = catholic
+		size = 6950
+	}
+	
 	soldiers = {
 		culture = wallonian
 		religion = catholic
@@ -774,7 +798,7 @@
 	farmers = {
 		culture = wallonian
 		religion = catholic
-		size = 38600
+		size = 32600
 	}
 	
 	farmers = {

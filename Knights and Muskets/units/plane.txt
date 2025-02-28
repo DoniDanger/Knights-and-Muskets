@@ -29,11 +29,11 @@ plane = { #men-at-arms
 	supply_consumption = 1.0
 	supply_cost = {
 		horses = 0.14 # 0.008
-		infantry_arms = 0.24 # 0
+		infantry_arms = 0.32 # 0
 		canned_food = 0.16 #0.08
 		grain = 0.12 #0.08
-		luxury_clothes = 0.12 #0.08
-		iron = 0.18 # 0.008
+		luxury_clothes = 0.16 #0.08
+		iron = 0.16 # 0.008
 		wine = 0.18 #0.015
 	}
 	

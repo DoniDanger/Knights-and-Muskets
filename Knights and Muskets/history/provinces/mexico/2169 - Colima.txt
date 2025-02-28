@@ -3,5 +3,5 @@ controller = BAN
 add_core = BAN
 add_core = BUL
 add_core = SER
-trade_goods = grain
+trade_goods = cattle
 life_rating = 35

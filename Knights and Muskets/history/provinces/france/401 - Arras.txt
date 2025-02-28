@@ -2,5 +2,6 @@ owner = PIC
 controller = PIC
 add_core = PIC
 add_core = FLA
+add_core = FRC
 trade_goods = wool
 life_rating = 35

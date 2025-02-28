@@ -1,22 +1,27 @@
 capital = 576
-primary_culture = north_german
+primary_culture = french
 culture = occitan
 culture = wallonian
 culture = breton
 culture = arpitan
-culture = french
-culture = south_german
-culture = dutch
-culture = flemish
-culture = north_italian
-culture = south_italian
+culture = picard
+culture = provencal
+culture = gascon
 culture = catalan
+culture = flemish
+culture = auvergnat
+culture = limousin
+culture = norman
+culture = poitevin
+culture = lorrain
+culture = champenois
 religion = catholic
 government = feudal_monarchy
 plurality = 15.0
 nationalvalue = nv_order
-literacy = 0.7
+literacy = 0.27
 civilized = yes
+is_releasable_vassal = no
 prestige = 25
 
 # Political reforms
@@ -86,4 +91,4 @@ schools = industrial_tech_school
 consciousness = 2
 nonstate_consciousness = 0
 
-oob = "BAV_oob.txt"
+oob = "FRC_oob.txt"

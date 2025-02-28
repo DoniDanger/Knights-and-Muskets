@@ -28,11 +28,12 @@ guard = { #pikemen
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		iron = 0.12 #0.015
-		liquor = 0.08 #0.015
+		iron = 0.16 #0.015
+		liquor = 0.1 #0.015
 		grain = 0.12 # 0.08
 		canned_food = 0.12 # 0.08
-		infantry_arms = 0.24 #0
+		luxury_clothes = 0.08 #0.08
+		infantry_arms = 0.28 #0
 	}
 	
 

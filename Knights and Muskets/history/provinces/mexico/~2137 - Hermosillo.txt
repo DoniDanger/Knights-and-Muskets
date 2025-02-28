@@ -1,0 +1,7 @@
+owner = VVR
+controller = VVR
+add_core = VVR
+add_core = OCC
+add_core = ARP
+trade_goods = cattle
+life_rating = 35

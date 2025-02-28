@@ -1,0 +1,5 @@
+owner = GVD
+controller = GVD
+add_core = GVD
+trade_goods = grain
+life_rating = 35

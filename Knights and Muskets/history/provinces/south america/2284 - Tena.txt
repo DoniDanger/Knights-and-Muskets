@@ -2,6 +2,7 @@ owner = CRC
 controller = CRC
 add_core = OCC
 add_core = CRC
+add_core = FRC
 trade_goods = timber
 life_rating = 35
 

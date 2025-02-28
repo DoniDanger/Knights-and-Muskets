@@ -4,4 +4,4 @@ add_core = ILK
 add_core = WMG
 add_core = PER
 trade_goods = cattle
-life_rating = 32
+life_rating = 35

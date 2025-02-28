@@ -1,7 +1,7 @@
 capital = 1012
 primary_culture = russian
 religion = orthodox
-government = principality
+government = duchy
 plurality = 5.0
 nationalvalue = nv_autocracy
 literacy = 0.04

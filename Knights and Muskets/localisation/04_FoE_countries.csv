@@ -673,8 +673,10 @@ MAG;Magdeburg;x
 MAG_ADJ;Magdeburger;x
 CTU;Celtic Union;x
 CTU_ADJ;Celtic;x
-FRC;Francia;x
-FRC_ADJ;Francian;x
+FRC_empire;Francia;x
+FRC_empire_ADJ;Francian;x
+FRC; Royaume de France;x
+FRC_ADJ;French;x
 FRK;Duchy of Franconia;x
 FRK_ADJ;Franconian;x
 ARP;Kingdom of Arles;x
@@ -1234,8 +1236,8 @@ NAX_ADJ;Naxos;x
 RAG;Ragusa;x
 RAG_democracy;Republic of Ragusa;x
 RAG_ADJ;Ragusian;x
-ANT;Antioch;x
-ANT_ADJ;Antochian;x
+ATC;Antioch;x
+ATC_ADJ;Antochian;x
 AYD;Aydin;x
 AYD_ADJ;Aydinid;x
 CTP;County of Tripoli;x

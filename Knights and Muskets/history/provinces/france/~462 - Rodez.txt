@@ -1,0 +1,7 @@
+owner = RDZ
+controller = RDZ
+add_core = RDZ
+add_core = OCC
+trade_goods = cattle
+life_rating = 35
+1861.1.1 = { railroad = 3 }

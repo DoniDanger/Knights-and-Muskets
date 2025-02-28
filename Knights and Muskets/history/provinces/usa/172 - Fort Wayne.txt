@@ -3,6 +3,6 @@ controller = MEC
 add_core = MEC
 add_core = NNN
 add_core = GER
-trade_goods = timber
+trade_goods = naval_supplies
 life_rating = 35
 

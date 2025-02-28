@@ -1,0 +1,6 @@
+owner = OCC
+controller = OCC
+add_core = OCC
+add_core = ARP
+trade_goods = wool
+life_rating = 35

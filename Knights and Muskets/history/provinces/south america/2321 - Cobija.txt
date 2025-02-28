@@ -2,6 +2,8 @@ owner = ENL
 controller = ENL
 add_core = ENL
 add_core = AQT
-trade_goods = wool
-life_rating = 32
+add_core = FRC
+trade_goods = naval_supplies
+life_rating = 35
+
 

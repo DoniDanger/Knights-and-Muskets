@@ -69,11 +69,7 @@ country_event = {
 		OR = {
 			government = duchy
 			government = daimyo
-			government = march
 			government = petty_kingdom
-			government = beylik
-			government = principality
-			government = emirate
 			government = tribal_chiefdom
 		}
 		NOT = { has_country_flag = government_feudal_duchy }
@@ -102,8 +98,6 @@ country_event = {
 
 	trigger = {
 		OR = {
-			government = grand_duchy
-			government = sultanate
 			government = feudal_monarchy
 			government = shogunate
 			government = elective_monarchy
@@ -136,8 +130,8 @@ country_event = {
 	trigger = {
 		OR = {
 			government = empire
-			government = caliphate
 		}
+		is_vassal = no
 		NOT = { has_country_flag = government_feudal_empire }
 	}
 
@@ -238,100 +232,6 @@ country_event = {
 		clr_country_flag = government_feudal_duchy
 		clr_country_flag = government_theocracy
 		clr_country_flag = government_feudal_empire
-		ai_chance = { factor = 100 } 
-	}	
-}
-
-country_event = {
-	
-	id = 111008
-	title = "Conversion to Beylik"	
-	desc = "As we are Turkish and do not have the proper ranks, we will convert to a Beylik."
-	fire_only_once = no
-	mean_time_to_happen = { months = 1 }
-
-	trigger = {
-		OR = { 
-			primary_culture = turkish
-			primary_culture = azerbaijani
-			primary_culture = adheri
-			primary_culture = shirvani
-		}
-		AND = {
-			NOT = { government = peasant_republic }
-			NOT = { government = military_dictatorship }
-			NOT = { government = democracy }
-			NOT = { government = oligarchic_republic }
-			NOT = { government = confederation }
-			NOT = { government = democracy }
-			NOT = { government = holy_order }
-			NOT = { government = theocracy }
-			NOT = { government = feudal_dominion }
-			NOT = { government = beylik }
-		}
-		AND = {
-			NOT = { has_contry_flag = feudal_gov_reform3 }
-			NOT = { has_contry_flag = feudal_gov_reform4 }
-		}
-	}
-
-	option = {
-		name = "We are now a Beylik."
-		government = beylik
-		set_country_flag = government_feudal_duchy
-		set_country_flag = feudal_gov_reform2
-		clr_country_flag = government_feudal_county
-		clr_country_flag = government_feudal_kingdom
-		clr_country_flag = government_feudal_empire
-		clr_country_flag = government_theocracy
-		clr_country_flag = government_republic
-		ai_chance = { factor = 100 } 
-	}	
-}
-
-country_event = {
-	
-	id = 111009
-	title = "Conversion to Sultanate"	
-	desc = "As we are Turkish and do not have the proper ranks, we will convert to a Sultanate."
-	fire_only_once = no
-	mean_time_to_happen = { months = 1 }
-
-	trigger = {
-		OR = { 
-			primary_culture = turkish
-			primary_culture = azerbaijani
-			primary_culture = adheri
-			primary_culture = shirvani
-		}
-		AND = {
-			NOT = { government = peasant_republic }
-			NOT = { government = military_dictatorship }
-			NOT = { government = democracy }
-			NOT = { government = oligarchic_republic }
-			NOT = { government = confederation }
-			NOT = { government = democracy }
-			NOT = { government = holy_order }
-			NOT = { government = theocracy }
-			NOT = { government = feudal_dominion }
-			NOT = { government = sultanate }
-		}
-		AND = {
-			has_contry_flag = feudal_gov_reform3 
-			NOT = { has_country_flag = feudal_gov_reform4 }
-		}
-	}
-
-	option = {
-		name = "We are now a Sultanate."
-		government = sultanate
-		set_country_flag = government_feudal_kingdom
-		set_country_flag = feudal_gov_reform3
-		clr_country_flag = government_feudal_county
-		clr_country_flag = government_feudal_duchy
-		clr_country_flag = government_feudal_empire
-		clr_country_flag = government_theocracy
-		clr_country_flag = government_republic
 		ai_chance = { factor = 100 } 
 	}	
 }

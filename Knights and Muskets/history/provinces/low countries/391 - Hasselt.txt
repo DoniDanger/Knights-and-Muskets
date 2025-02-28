@@ -3,5 +3,5 @@ controller = BRB
 add_core = BRB
 add_core = GER
 add_core = NNN
-trade_goods = stone
+trade_goods = wool
 life_rating = 35
