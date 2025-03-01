@@ -1,7 +1,7 @@
 capital = 546
 primary_culture = pommeranian
 religion = catholic
-government = feudal_monarchy
+government = duchy
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.8

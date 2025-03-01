@@ -60,7 +60,7 @@ political_decisions = {
 			SIK = { country_event = 1000001 }
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
 		}
 	}
 	china_pop_nerf = {

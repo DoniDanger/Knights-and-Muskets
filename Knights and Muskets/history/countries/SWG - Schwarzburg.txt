@@ -1,9 +1,8 @@
 capital = 515
 primary_culture = central_franconian
 culture = north_german
-culture = south_german
 religion = catholic
-government = feudal_monarchy
+government = county
 plurality = 10.0
 nationalvalue = nv_order
 literacy = 0.28
