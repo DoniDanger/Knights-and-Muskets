@@ -3294,7 +3294,7 @@ province;red;green;blue;x;x
 3293;100;100;102;Lefkada;x
 3294;100;100;178;Rettimo;x
 3295;100;100;53;Sitia;x
-3296;200;200;180;Chioggia;x
+3296;90;55;74;Episkopi;
 3297;145;14;144;Kormakitis;
 3298;57;75;3;Kyrenia;
 3299;51;116;128;Rashid;x
@@ -3315,9 +3315,54 @@ province;red;green;blue;x;x
 3314;219;23;88;Taifa;x
 3315;69;59;200;Qunfudhah;x
 3316;188;102;18;Al-Baha;x
-3317;90;55;74;Episkopi;
+3317;100;200;164;Mihalic;x
 3318;223;250;115;Maaloula;
 3319;54;156;128;Al-Ruhaybah;x
+3320;78;62;144;Jazan;x
+3321;96;208;62;Najran;x
+3322;9;182;150;Hisn al Abr;x
+3323;224;17;93;al-Mirfa;x
+3324;21;99;205;Sharjah;x
+3325;98;119;254;al-Khasab;x
+3326;1;224;105;al-Buraimi;x
+3327;15;15;190;Beni Mellal;x
+3328;15;115;190;Zawiyah;x
+3329;15;115;90;Sijilmasa;x
+3330;115;115;90;Tata;x
+3331;115;15;90;Kulmim;x
+3332;47;169;175;Sale;x
+3333;225;205;45;Tokar;x
+3334;129;196;170;Kassala City;x
+3335;102;221;195;Asmat;x
+3336;204;79;139;Gallabat;x
+3337;225;89;32;Dallol;x
+3338;149;66;0;Debre Tabor City;x
+3339;215;205;249;Chilga;x
+3340;71;129;28;Arsi;x
+3341;61;0;198;Asosa;x
+3342;135;127;6;Funj;x
+3343;112;0;17;Harar;x
+3344;46;170;141;Kaffa;x
+3345;78;255;203;Tadjoura;x
+3346;141;161;221;Las Khorey;x
+3347;94;37;44;Gaalkacyo;x
+3348;255;104;109;Warsheikh;x
+3349;198;255;215;Jalalaqsi;x
+3350;133;255;124;Barawe;x
+3351;140;182;190;Waliso;x
+3352;159;161;136;Ceel;x
+3353;147;99;174;Badagry;x
+3354;255;227;137;Kisiwani;x
+3355;0;127;14;Lepelle;x
+3356;186;55;155;Chimoio;x
+3357;240;78;211;Nsanje;x
+3358;33;175;149;Ibo City;x
+3359;221;84;187;Pangani;x
+3360;208;132;255;Morogoro City;x
+3361;183;252;255;Rukanga;x
+3362;33;151;158;Antananarivo;x
+3363;143;0;81;Sululta;x
+3364;0;75;141;Ceuta;x
 ;63;14;240;x
 ;64;14;244;x
 ;65;14;248;x
