@@ -2,7 +2,6 @@ owner = EXI
 controller = EXI
 add_core = EXI
 add_core = MCK
-add_core = SXI
 trade_goods = grain
 life_rating = 35
 

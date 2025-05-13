@@ -1,8 +1,0 @@
-owner = CNN
-controller = CNN
-add_core = CNN
-add_core = GLY
-add_core = IRE
-trade_goods = cattle
-life_rating = 35
-1861.1.1 = { railroad = 3 }

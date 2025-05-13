@@ -1,5 +1,0 @@
-owner = CST
-controller = CST
-add_core = CST
-trade_goods = precious_metal
-life_rating = 35

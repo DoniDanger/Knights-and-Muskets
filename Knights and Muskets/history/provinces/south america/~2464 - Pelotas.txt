@@ -1,6 +1,0 @@
-owner = MZN
-controller = MZN
-add_core = MZN
-add_core = PER
-trade_goods = cattle
-life_rating = 35

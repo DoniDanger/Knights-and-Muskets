@@ -1,5 +1,6 @@
-owner = MOR
-controller = MOR
+owner = MRN
+controller = MRN
 add_core = MOR
+add_core = MRN
 trade_goods = horses
 life_rating = 35

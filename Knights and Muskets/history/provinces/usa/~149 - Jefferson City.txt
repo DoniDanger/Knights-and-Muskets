@@ -1,5 +1,0 @@
-owner = LIV
-controller = LIV
-add_core = LIV
-trade_goods = coal
-life_rating = 35

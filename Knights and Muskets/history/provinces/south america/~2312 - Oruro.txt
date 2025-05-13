@@ -1,6 +1,0 @@
-owner = FRZ
-controller = FRZ
-add_core = FRZ
-add_core = ARP
-trade_goods = iron
-life_rating = 35

@@ -1,5 +1,0 @@
-owner = BEA
-controller = BEA
-add_core = BEA
-trade_goods = wool
-life_rating = 35

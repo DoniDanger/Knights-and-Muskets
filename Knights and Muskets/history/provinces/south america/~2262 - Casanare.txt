@@ -1,5 +1,0 @@
-owner = GVD
-controller = GVD
-add_core = GVD
-trade_goods = timber
-life_rating = 35

@@ -1,6 +1,0 @@
-owner = NVS
-controller = NVS
-add_core = NVS
-add_core = UKR
-trade_goods = timber
-life_rating = 35

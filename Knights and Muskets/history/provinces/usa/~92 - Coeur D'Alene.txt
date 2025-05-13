@@ -1,5 +1,0 @@
-owner = FLA
-controller = FLA
-add_core = FLA
-trade_goods = timber
-life_rating = 35

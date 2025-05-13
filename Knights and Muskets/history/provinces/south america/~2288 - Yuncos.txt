@@ -1,5 +1,0 @@
-owner = LMG
-controller = LMG
-add_core = LMG
-trade_goods = wool
-life_rating = 35

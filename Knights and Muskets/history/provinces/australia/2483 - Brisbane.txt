@@ -1,6 +1,8 @@
-owner = NVK
-controller = NVK
+owner = NHX
+controller = NHX
+add_core = NHX
 add_core = NVK
+add_core = MYR
 add_core = MCK
 trade_goods = grain
 life_rating = 33

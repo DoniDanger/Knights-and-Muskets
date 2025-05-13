@@ -1,7 +1,0 @@
-owner = WMG
-controller = WMG
-add_core = CHG
-add_core = WMG
-add_core = XIN
-trade_goods = sulphur
-life_rating = 32

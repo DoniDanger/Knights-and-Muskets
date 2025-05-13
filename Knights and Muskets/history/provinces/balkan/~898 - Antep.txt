@@ -1,7 +1,0 @@
-owner = ALP
-controller = ALP
-add_core = ALP
-add_core = SYR
-add_core = CLC
-trade_goods = wool
-life_rating = 35

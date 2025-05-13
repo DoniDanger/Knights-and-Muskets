@@ -1,8 +1,0 @@
-owner = DNG
-controller = DNG
-add_core = DNG
-add_core = LNE
-add_core = NNN
-add_core = GER
-trade_goods = salt
-life_rating = 35

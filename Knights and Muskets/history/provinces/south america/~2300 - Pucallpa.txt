@@ -1,8 +1,0 @@
-owner = CRC
-controller = CRC
-add_core = OCC
-add_core = CRC
-trade_goods = dye
-life_rating = 35
-
-

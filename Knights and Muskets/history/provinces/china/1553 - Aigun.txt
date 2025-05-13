@@ -1,6 +1,5 @@
-owner = MGL
-controller = MGL
-add_core = MGL
+owner = EXI
+controller = EXI
 add_core = MCK
 trade_goods = tin
 life_rating = 33

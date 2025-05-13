@@ -1,7 +1,0 @@
-owner = VEN
-controller = VEN
-add_core = VEN
-add_core = LTN
-add_core = BYZ
-trade_goods = apiculture
-life_rating = 35

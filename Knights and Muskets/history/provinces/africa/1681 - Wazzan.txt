@@ -1,6 +1,5 @@
-owner = MRN
-controller = MRN
+owner = MOR
+controller = MOR
 add_core = MOR
-add_core = MRN
 trade_goods = grain
 life_rating = 35

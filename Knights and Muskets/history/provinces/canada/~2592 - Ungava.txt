@@ -1,5 +1,0 @@
-owner = REI
-controller = REI
-add_core = REI
-trade_goods = cattle
-life_rating = 35

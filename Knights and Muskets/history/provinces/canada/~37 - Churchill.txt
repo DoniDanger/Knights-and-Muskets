@@ -1,5 +1,0 @@
-owner = KMY
-controller = KMY
-add_core = KMY
-trade_goods = fish
-life_rating = 35

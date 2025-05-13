@@ -1,5 +1,0 @@
-owner = TNI
-controller = TNI
-add_core = TNI
-trade_goods = stone
-life_rating = 35
