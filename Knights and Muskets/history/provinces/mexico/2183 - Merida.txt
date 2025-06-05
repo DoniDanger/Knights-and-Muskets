@@ -1,5 +1,5 @@
-owner = PRU
-controller = PRU
-add_core = PRU
+owner = YOT
+controller = YOT
+add_core = YOT
 trade_goods = grain
 life_rating = 35

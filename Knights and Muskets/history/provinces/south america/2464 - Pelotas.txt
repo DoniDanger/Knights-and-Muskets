@@ -1,5 +1,6 @@
-owner = GLN
-controller = GLN
+owner = ALM
+controller = ALM
+add_core = ALM
 add_core = GLN
 add_core = PER
 trade_goods = cattle

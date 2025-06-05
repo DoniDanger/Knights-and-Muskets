@@ -1,5 +1,5 @@
-owner = NEJ
-controller = NEJ
-add_core = NEJ
+owner = HSA
+controller = HSA
+add_core = HSA
 trade_goods = horses
 life_rating = 35

@@ -1,5 +1,5 @@
-owner = PRU
-controller = PRU
-add_core = PRU
+owner = SMB
+controller = SMB
+add_core = SMB
 trade_goods = cattle
 life_rating = 35

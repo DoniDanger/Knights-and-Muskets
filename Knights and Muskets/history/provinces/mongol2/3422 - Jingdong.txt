@@ -1,5 +1,5 @@
-owner = YNN
-controller = YNN
-add_core = YNN
+owner = SHA
+controller = SHA
+add_core = SHA
 trade_goods = fruit
 life_rating = 32

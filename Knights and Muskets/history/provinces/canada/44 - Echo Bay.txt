@@ -1,5 +1,5 @@
-owner = CUM
-controller = CUM
-add_core = CUM
+owner = FEO
+controller = FEO
+add_core = FEO
 trade_goods = salt
 life_rating = 35

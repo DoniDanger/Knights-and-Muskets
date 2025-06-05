@@ -1,5 +1,4 @@
-owner = BUR
-controller = BUR
-add_core = BUR
+add_core = BCH
 trade_goods = tropical_wood
-life_rating = 35
+life_rating = 25
+

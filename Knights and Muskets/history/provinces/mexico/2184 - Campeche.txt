@@ -1,6 +1,6 @@
-owner = PRU
-controller = PRU
-add_core = PRU
+owner = NDR
+controller = NDR
+add_core = NDR
 trade_goods = timber
 life_rating = 35
 

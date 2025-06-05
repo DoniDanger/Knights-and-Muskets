@@ -28,15 +28,14 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = FIN_conservative
-set_country_flag = tory_election_win
+ruling_party = "Royalist"
 upper_house = {
 	fascist = 0
-	liberal = 20
-	conservative = 40
-	reactionary = 2
-	anarcho_liberal = 3
-	socialist = 35
+	liberal = 25
+	conservative = 60
+	reactionary = 15
+	anarcho_liberal = 0
+	socialist = 0
 	communist = 0
 }
 

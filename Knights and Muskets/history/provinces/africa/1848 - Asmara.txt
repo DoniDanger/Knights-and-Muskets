@@ -1,6 +1,7 @@
-owner = ETH
-controller = ETH
+owner = MDB
+controller = MDB
 add_core = ETH
+add_core = MDB
 add_core = TIG
 trade_goods = apiculture
 life_rating = 35

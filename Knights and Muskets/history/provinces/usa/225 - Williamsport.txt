@@ -1,6 +1,7 @@
 owner = RUM
 controller = RUM
 add_core = RUM
+add_core = ALY
 trade_goods = grain
 life_rating = 35
 1861.1.1 = { railroad = 2 }

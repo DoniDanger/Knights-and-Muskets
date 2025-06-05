@@ -1,6 +1,7 @@
 owner = VLD
 controller = VLD
 add_core = VLD
+add_core = GAL
 add_core = UKR
 trade_goods = salt
 life_rating = 35

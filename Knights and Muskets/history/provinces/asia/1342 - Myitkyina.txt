@@ -1,5 +1,6 @@
-owner = YNN
-controller = YNN
-add_core = YNN
+owner = MKW
+controller = MKW
+add_core = MKW
 trade_goods = grain
-life_rating = 35
+life_rating = 32
+
