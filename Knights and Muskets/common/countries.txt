@@ -569,52 +569,14 @@ SAA		   = "countries/Saar.txt"
 THU        = "countries/Thuringia.txt"
 
 
-
-
-
 ### NEW NATIONS MOD ###
 
-#Latin America
-
-#BAH		= "countries/Bahia.txt"
-#CHP		= "countries/Chiapas.txt"
-#CEQ		= "countries/Equador Confederation.txt"
-#ENT		= "countries/Entre Rios.txt"
-#GCO		= "countries/Gran Colombia.txt"
-#GUY		= "countries/Guyana.txt"
-#LOS		= "countries/Los Altos.txt"
-#LPL		= "countries/La Plata.txt"
-#OAX		= "countries/Oaxaca.txt"
-#PBC		= "countries/Peru-Bolivia Confederation.txt"
-#PTG		= "countries/Patagonia.txt"
-#RGR		= "countries/Rio Grande.txt"
-#RGS		= "countries/Rio Grande do Sul.txt"
-#SON		= "countries/Sonora.txt"
-#SPU		= "countries/South Peru.txt"
-#YUC		= "countries/Yucatan.txt"
-
 #North America
-#BLZ		= "countries/Belize.txt"
-#DAK		= "countries/Dakota.txt"
-#FSA		= "countries/Free States of America.txt"
 GRN		= "countries/Greenland.txt"
-#JAM		= "countries/Jamaica.txt"
-#LSK		= "countries/Alaska.txt"
-#MRU		= "countries/Maritime Union.txt"
-#PRI		= "countries/Puerto Rico.txt"
-#RPL		= "countries/Rupert's Land.txt"
-#TRS		= "countries/Tarasco.txt"
-#TTB		= "countries/Trinidad.txt"
-#UIL		= "countries/Illinois.txt"
-#UNB		= "countries/Nebraska.txt"
-#UNM		= "countries/New Mexico.txt"
-#UOR		= "countries/Oregon.txt"
 
 #Europe
 ALS		= "countries/Elsass.txt"
-#ATR		= "countries/Asturias.txt"
 BAN		= "countries/Banat.txt"
-#BKV		= "countries/Bukovina.txt"
 BRT		= "countries/Brittany.txt"
 BSQ		= "countries/Basqueland.txt"
 CRS		= "countries/Corsica.txt"
@@ -629,10 +591,8 @@ MCD		= "countries/Macedonia.txt"
 MLT		= "countries/Malta.txt"
 OCC		= "countries/Occitania.txt"
 RMG		= "countries/Romagna.txt"
-#SPC		= "countries/Carlist Spain.txt"
 SRD		= "countries/Sardinia.txt"
 SVY		= "countries/Savoy.txt"
-#SWH		= "countries/Schleswig-Holstein.txt"
 WHA		= "countries/Wales.txt"
 
 #Germany
@@ -646,18 +606,12 @@ WES		= "countries/Westfalen.txt"
 
 #Russia
 AKH		= "countries/Astrakhan.txt"
-#ALT		= "countries/Altai Republic.txt"
 CPL		= "countries/Congress Poland.txt"
-#DON		= "countries/Cossackia.txt"
 IZH		= "countries/Ingria.txt"
 KAZ 	= "countries/Kazakhstan.txt"
-#KAM 	= "countries/Kamchatka.txt"
-#KMK		= "countries/Kalmykia.txt"
 KRL		= "countries/Karelia.txt"
 SIB		= "countries/Siberian Republic.txt"
 TAR 	= "countries/Tatarstan.txt"
-#TNT		= "countries/Tannu Tuva.txt"
-#URA 	= "countries/Ural Republic.txt"
 YAK 	= "countries/Yakutia.txt"
 
 #Middle East
@@ -668,7 +622,6 @@ BHR		= "countries/Bahrain.txt"
 CIR		= "countries/Circassia.txt"
 CLC		= "countries/Cilicia.txt"
 DAG		= "countries/Dagestan.txt"
-DUR		= "countries/Durrani Empire.txt"
 HAL		= "countries/Hail.txt"
 JOR		= "countries/Jordan.txt"
 KDS		= "countries/Kurdistan.txt"
