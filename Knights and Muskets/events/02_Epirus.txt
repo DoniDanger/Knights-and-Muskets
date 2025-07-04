@@ -34,6 +34,9 @@ country_event = {
 		prestige = 10
 		864 = { secede_province = NCE }
 		865 = { secede_province = NCE }
+		60 = { secede_province = NCE }
+		51 = { secede_province = NCE }
+		3317 = { secede_province = NCE }
 		badboy = 3
 		LTN = { country_event = 127002 }
 		ai_chance = { factor = 80 }
@@ -51,6 +54,9 @@ country_event = {
 	    name = "Our armies are too battered to continue. Accept the peace."
 		864 = { secede_province = NCE }
 		865 = { secede_province = NCE }
+		60 = { secede_province = NCE }
+		51 = { secede_province = NCE }
+		3317 = { secede_province = NCE }
 		end_war = LTN
 		ai_chance = {
 			factor = 10
@@ -79,7 +85,7 @@ country_event = {
 		end_war = NCE
 		prestige = -10
 		828 = { secede_province = NCE }
-		105 = { secede_province = NCE }
+		2303 = { secede_province = NCE }
 		ai_chance = {
 			factor = 90
         }
@@ -97,7 +103,7 @@ country_event = {
 	trigger = {
 		tag = EPI
 		OR = {
-			815 = { controlled_by = THIS }
+			2314 = { controlled_by = THIS }
 			830 = { controlled_by = THIS }
 		}
 		828 = { owned_by = NCE }
@@ -168,10 +174,11 @@ country_event = {
 		prestige = -10
 		828 = { secede_province = EPI }
 		105 = { secede_province = EPI }
-		815 = { secede_province = EPI }
 		829 = { secede_province = EPI }
 		830 = { secede_province = EPI }
 		858 = { secede_province = EPI }
+		2303 = { secede_province = EPI }
+		2314 = { secede_province = EPI }
 		release_vassal = ATH
 		release_vassal = PHI
 		release_vassal = MEA
@@ -200,6 +207,8 @@ country_event = {
 			105 = { controlled_by = THIS }
 			860 = { controlled_by = THIS }
 		}
+		NOT = { has_global_flag = epirus_victory_klokotnitsa }
+		NOT = { has_global_flag = bulgarian_victory_klokotnitsa }
 	}
 	
 	option = {
@@ -208,7 +217,14 @@ country_event = {
 		end_war = RDP
 		create_vassal = PHI
 		create_vassal = RDP
+		create_alliance = PHI
+		create_alliance = RDP
 		leave_alliance = BUL
+		casus_belli = {
+			target = BUL
+			type = cut_down_to_size
+			months = 60
+		}
         war = {
             target = BUL
             attacker_goal = { casus_belli = cut_down_to_size   }
@@ -245,7 +261,14 @@ country_event = {
 		end_war = RDP
 		create_vassal = PHI
 		create_vassal = RDP
+		create_alliance = PHI
+		create_alliance = RDP
 		leave_alliance = EPI
+		casus_belli = {
+			target = EPI
+			type = cut_down_to_size
+			months = 60
+		}
         war = {
             target = EPI
             attacker_goal = { casus_belli = cut_down_to_size   }
@@ -264,4 +287,159 @@ country_event = {
 			factor = 5
         }
 	}
+}
+
+country_event = {
+
+    id = 127008
+    title = "March on Tarnovo"
+	desc = "127006_DESC"
+	fire_only_once = yes
+	major = yes
+	
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = EPI
+		AND = {
+			truce_with = BUL
+			BUL = { is_disarmed = yes }
+		}
+	}
+	
+	option = {
+        name = "The Bulgarians are once again crushed under Roman rule."
+		prestige = 30
+		inherit = PHI
+		inherit = RDP
+		PHI = { all_core = { add_core = THIS }}
+		RDP = { all_core = { add_core = THIS }}
+		816 = { secede_province = THIS add_core = THIS }
+		133 = { secede_province = THIS add_core = THIS }
+		2408 = { secede_province = THIS add_core = THIS }
+		BUL = {
+			prestige = -30
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = BYZ
+						is_core = EPI
+					}
+				}
+				remove_core = BUL
+				secede_province = THIS
+				add_core = THIS
+			}
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = BYZ
+					is_core = EPI
+				}
+			}
+			remove_core = BUL
+		}
+		create_vassal = BUL
+		set_global_flag = epirus_victory_klokotnitsa
+		ai_chance = {
+			factor = 95
+        }
+	}
+}
+
+country_event = {
+
+    id = 127009
+    title = "Battle of Klokotnitsa"
+	desc = "127006_DESC"
+	fire_only_once = yes
+	major = yes
+	
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = BUL
+		AND = {
+			truce_with = EPI
+			EPI = { is_disarmed = yes }
+		}
+	}
+	
+	option = {
+        name = "The arrogant Epirote will kneel to the true heirs to Rome."
+		prestige = 30
+		inherit = PHI
+		inherit = RDP
+		PHI = { all_core = { add_core = THIS }}
+		RDP = { all_core = { add_core = THIS }}
+		822 = { secede_province = THIS }
+		release = MCD
+		create_vassal = MCD
+		create_vassal = ALB
+		MCD = { government = duchy }
+		EPI = {
+			prestige = -30
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = BUL
+						is_core = LTN
+					}
+				}
+				remove_core = EPI
+				secede_province = THIS
+				add_core = THIS
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = ALB
+					}
+				}
+				secede_province = THIS
+				add_core = THIS
+			}
+			822 = { secede_province = MCD remove_core = THIS remove_core = EPI }
+			805 = { secede_province = MCD remove_core = THIS remove_core = EPI }
+			821 = { secede_province = MCD remove_core = THIS remove_core = EPI }
+			132 = { secede_province = MCD remove_core = THIS remove_core = EPI }
+			89 = { secede_province = THIS add_core = THIS }
+			819 = { secede_province = THIS add_core = THIS }
+			2545 = { secede_province = THIS add_core = THIS }
+			138 = { secede_province = THIS add_core = THIS }
+			government = duchy
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					AND = {
+						is_core = BUL
+						NOT = { is_core = ALB }
+					}
+					is_core = LTN
+				}
+			}
+			remove_core = EPI
+		}
+		2327 = { remove_core = EPI }
+		138 = { remove_core = EPI }
+		849 = { remove_core = EPI }
+		850 = { remove_core = EPI }
+		833 = { remove_core = THIS secede_province = EPI add_core = EPI }
+		831 = { remove_core = THIS secede_province = EPI add_core = EPI }
+		832 = { remove_core = THIS secede_province = EPI add_core = EPI }
+		836 = { remove_core = THIS secede_province = EPI add_core = EPI }
+		2548 = { remove_core = THIS secede_province = EPI add_core = EPI }
+		inherit = EPI 
+		release = EPI
+		create_vassal = EPI
+		852 = { secede_province = THIS }
+		2283 = { secede_province = THIS }
+		set_global_flag = bulgarian_victory_klokotnitsa
+		ai_chance = {
+			factor = 95
+        }
+	}
+	
 }

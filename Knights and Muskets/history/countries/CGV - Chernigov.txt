@@ -65,7 +65,7 @@ water_hammer = 1
 open_cast_mining = 1
 medical_universities = 1
 
-oob = "CHG_oob.txt"
+oob = "CGV_oob.txt"
 
 ruling_party = "Royalist"
 upper_house = {

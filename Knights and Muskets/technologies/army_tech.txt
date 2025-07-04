@@ -561,6 +561,8 @@ feudal_levy = {
 		default_organisation = 5
 		supply_consumption = 0.10
 	}
+	regular_experience_level = 2.5
+	reinforce_rate = 0.05
 	
 	ai_chance = {
 		factor = 1.5
@@ -568,7 +570,7 @@ feudal_levy = {
 }
 scutage = {
 	area = military_science
-	year = 1222
+	year = 1220
 	cost = 7200
 	unciv_military = yes
 	
@@ -576,6 +578,8 @@ scutage = {
 		default_organisation = 5
 		supply_consumption = 0.10
 	}
+	regular_experience_level = 2.5
+	reinforce_rate = 0.05
 	
 	ai_chance = {
 		factor = 1.5
@@ -591,6 +595,8 @@ levy_rotation = {
 		default_organisation = 5
 		supply_consumption = 0.20
 	}
+	regular_experience_level = 2.5
+	reinforce_rate = 0.05
 	
 	ai_chance = {
 		factor = 1.5
@@ -606,6 +612,8 @@ freemen_levy = {
 		default_organisation = 5
 		supply_consumption = 0.20
 	}
+	regular_experience_level = 2.5
+	reinforce_rate = 0.05
 	
 	ai_chance = {
 		factor = 1.5
@@ -621,6 +629,8 @@ noble_retinues = {
 		default_organisation = 10
 		supply_consumption = 0.20
 	}
+	regular_experience_level = 2.5
+	reinforce_rate = 0.05
 	
 	ai_chance = {
 		factor = 8
@@ -636,6 +646,8 @@ guild_militia = {
 		default_organisation = 10
 		supply_consumption = 0.20
 	}
+	regular_experience_level = 2.5
+	reinforce_rate = 0.05
 	
 	ai_chance = {
 		factor = 2
@@ -651,6 +663,9 @@ purveyance = {
 		default_organisation = 10
 		supply_consumption = 0.20
 	}
+	regular_experience_level = 2.5
+	reinforce_rate = 0.05
+	
 	ai_chance = {
 		factor = 8
 	}
@@ -664,6 +679,8 @@ chevauchee = {
 		default_organisation = 10
 		supply_consumption = 0.20
 	}
+	regular_experience_level = 2.5
+	reinforce_rate = 0.05
 	
 	unciv_military = yes
 	
@@ -680,6 +697,8 @@ routiers = {
 		default_organisation = 10
 		supply_consumption = 0.20
 	}
+	regular_experience_level = 2.5
+	reinforce_rate = 0.05
 	
 	unciv_military = yes
 	
@@ -697,6 +716,8 @@ standing_army = {
 		default_organisation = 10
 		supply_consumption = 0.20
 	}
+	regular_experience_level = 2.5
+	reinforce_rate = 0.05
 	
 	unciv_military = yes
 	

@@ -1,4 +1,58 @@
 ;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;\
+KAZ;Ogedei Horde;x
+KAZ_ADJ;Ogedeid;x 
+NNO;Nizhny Novgorod;x
+NNO_ADJ;Nizhny Novgorodian;x 
+YOT;Yotvingia;x
+YOT_ADJ;Yotvingian;x 
+GLD;Galindia;x
+GLD_ADJ;Galindian;x 
+SMB;Sambia;x
+SMB_ADJ;Sambian;x 
+NDR;Nadruvia;x
+NDR_ADJ;Nadruvian;x 
+TVT;Tavastia;x
+TVT_ADJ;Tavastian;x 
+GAL;Galich;x
+GAL_ADJ;Galichian;x 
+ALM;Order of Assassins;x
+ALM_ADJ;Assassin;x 
+ALY;Alaiye;x
+ALY_ADJ;Alaiye;x 
+HMD;Hamidids;x
+HMD_ADJ;Hamidid;x 
+FEO;Theodoro;x
+FEO_ADJ;Theodoran;x 
+GZA;Gazaria;x
+GZA_ADJ;Gazarian;x 
+QAR;Qara Qoyunlu;x
+QAR_ADJ;Qara Qoyunlu;x 
+MDA;Medina;x
+MDA_ADJ;Medinan;x 
+MDB;Medri Bahri;x
+MDB_ADJ;Bahri;x 
+ORM;Ormuz;x
+ORM_ADJ;Ormuzi;x 
+GJM;Gojjam;x
+GJM_ADJ;Gojjami;x 
+KCN;Khachen;x
+KCN_ADJ;Khachen;x 
+HSN;Hsenwi;x
+HSN_ADJ;Hsenwi;x 
+CGH;Chianghung;x
+CGH_ADJ;Chianghung;x 
+MKW;Mongkawng;x
+MKW_ADJ;Mongkawng;x 
+BCH;Chin;x
+BCH_ADJ;Chin;x 
+KGT;Kengtung;x
+KGT_ADJ;Kengtung;x 
+MGN;Manglon;x
+MGN_ADJ;Manglon;x 
+HSW;Hsipaw;x
+HSW_ADJ;Hsipaw;x 
+HRP;Haripunjaya;x
+HRP_ADJ;Haripunjayan;x 
 MRC;Murcia;x
 MRC_ADJ;Murcian;x 
 MJO;Majorca;x
@@ -343,6 +397,8 @@ AZB;Eldiguzids;x
 AZB_ADJ;Eldiguzid;x
 RAY;Rayy;x
 RAY_ADJ;Rayyanid;x
+RAY_petty_kingdom;Khwarazmian Kingdom;x
+RAY_petty_kingdomADJ;Khwarazmian;x
 KMN;Kerman;x
 KMN_ADJ;Kermanid;x
 KMN_feudal_monarchy;Qutlugh-Khanid;x
@@ -522,7 +578,7 @@ TRV_ADJ;Turovian;x
 PRY;Pereyeslavl;x                                 
 PRY_ADJ;Pereyeslavlian;x
 NVS;Novgorod-Seversk;x                                 
-NVS_ADJ;Novgorod-Severskian;x
+NVS_ADJ;Novgorodian;x
 TVE;Tver;x                                 
 TVE_ADJ;Tverite;x
 MRL;Mari El;x                                 
@@ -630,7 +686,7 @@ NCE;Empire of Nicaea;x
 NCE_ADJ;Nicaean;x  
 LTN;Latin Empire;x                                     
 LTN_ADJ;Latin;x   
-VLD;Principality of Vladimir-Suzdal;x                                     
+VLD;Vladimir-Suzdal;x                                     
 VLD_ADJ;Vladimiri;x  
 WAL;Vlachia;x                                     
 WAL_ADJ;Vlachian;x   
@@ -1100,8 +1156,8 @@ RGA;Archbishopric of Riga;x
 RGA_ADJ;Rigan;x
 DRP;Bishopric of Dorpat;x
 DRP_ADJ;Dorpat;x
-OSL;Bishopric of Ösel–Wiek;x
-OSL_ADJ;Ösel–Wiek;x
+OSL;Bishopric of Osel–Wiek;x
+OSL_ADJ;Osel–Wiek;x
 TEU;The Teutonic Order;x
 TEU_ADJ;Teutonic;x
 AMD;Ahmadnagar;x
@@ -1156,7 +1212,7 @@ PSK;Pskov;x
 PSK_ADJ;Pskovian;x
 QAS;The Qasim Khanate;x
 QAS_ADJ;Qasim;x
-RYA;Principality of Ryazan;x
+RYA;Ryazan;x
 RYA_ADJ;Ryazani;x
 SBR;Sibir;x
 SBR_ADJ;Sibirian;x
@@ -1244,7 +1300,7 @@ CTP;County of Tripoli;x
 CTP_ADJ;Tripolitanian;x
 EDS;Edessa;x
 EDS_ADJ;Edessian;x
-ERT;Erzincan Beylik;x
+ERT;Eretnids;x
 ERT_ADJ;Eretnid;x
 GMY;Germiyan;x
 GMY_ADJ;Germiyanid;x
@@ -1268,16 +1324,21 @@ CYP_prussian_constitutionalism;Kingdom of Cyprus;;;;;;;;;;;;;x
 CYP_hms_government;Kingdom of Cyprus;;;;;;;;;;;;;x
 CYP_ADJ;Cypriot;x
 CHG;Chagatai Khanate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-CHG_ADJ;Chagatai;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHG_ADJ;Chagataid;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHG_feudal_dominion;Chagatai Ulus;x
 ILK;Ilkhanate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ILK_ADJ;Ilkhan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ILK_feudal_dominion;Toluid Ulus;x
+ILK_feudal_dominion_ADJ;Toluid;x
 MGL;The Mongol Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MGL_ADJ;Mongolian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 WMG;Mongyol Ulus;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 WMG_ADJ;Mongolian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-MGE;Great Mongol Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MGE;Yeke Mongyol Ulus;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MGE_ADJ;Mongolian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 GOL;The Golden Horde;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 GOL_ADJ;Golden Horde;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GOL_feudal_dominion;Jochi Ulus;x
+GOL_feudal_dominion_ADJ;Jochid;x
 YUA;The Great Yuan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 YUA_ADJ;Yuan;;;;;;;;;;;;;;;;;;;;;;;x;;;;

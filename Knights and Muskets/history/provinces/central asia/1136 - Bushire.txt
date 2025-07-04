@@ -1,5 +1,6 @@
-owner = FRS
-controller = FRS
+owner = ABB
+controller = ABB
+add_core = ABB
 add_core = FRS
 add_core = PER
 trade_goods = spices

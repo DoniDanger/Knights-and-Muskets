@@ -1,0 +1,31 @@
+name = "Mongol Conquest of Khorasan"
+
+1221.9.12 = {
+	add_attacker = MGL
+	add_attacker = ILK
+	add_attacker = CHG
+	add_attacker = GOL
+	add_attacker = KAZ
+	add_defender = KHR
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = conquest
+		actor = ILK
+		receiver = KHR
+	}
+
+}
+
+1228.6.6 = {
+	rem_attacker = MGL
+	rem_attacker = ILK
+	rem_attacker = CHG
+	rem_attacker = GOL
+	rem_attacker = KAZ
+	rem_defender = KHR
+}

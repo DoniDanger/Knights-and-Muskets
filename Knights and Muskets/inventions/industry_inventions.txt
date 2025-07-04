@@ -891,8 +891,28 @@ stainless_steel = {
 #early_railroad
 #iron_railroad
 #steel_railroad
+
+
+#medical universities
+hippocratic_medicine = {
+	limit = { theories_of_medicine = 1 }
+	chance = {
+		base = 4
+		modifier = {
+			factor = 2
+			army_professionalism = 1
+		}
+		modifier = {
+			factor = 2
+			military_statistics = 1
+		}
+	}
+	effect = {
+		soldier_to_pop_loss = 0.01
+	}
+}
 #theories_of_medicine
-humorism = {
+the_canon_of_medicine = {
 	limit = { theories_of_medicine = 1 }
 	chance = {
 		base = 4
@@ -907,10 +927,10 @@ humorism = {
 	}
 	effect = {
 		land_attrition = -0.05 
-		soldier_to_pop_loss = 0.01
+		pop_growth = 0.0001
 	}
 }
-medieval_hospitals = {
+medieval_surgeries = {
 	limit = { theories_of_medicine = 1 }
 	chance = {
 		base = 4
@@ -924,30 +944,11 @@ medieval_hospitals = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0002
 		land_attrition = -0.05  
 		soldier_to_pop_loss = 0.01
 	}
 }
-vaccination = {
-	limit = { theories_of_medicine = 1 }
-	chance = {
-		base = 4
-		modifier = {
-			factor = 2
-			empiricism = 1
-		}
-		modifier = {
-			factor = 2
-			stock_exchange = 1
-		}	
-	}
-	effect = {
-		land_attrition = -0.05 
-		soldier_to_pop_loss = 0.01
-	}
-}
-clinical_thermometers_and_binaural_stethoscopes = {
+articella = {
 	limit = { theories_of_medicine = 1 }
 	chance = {
 		base = 2
@@ -961,10 +962,10 @@ clinical_thermometers_and_binaural_stethoscopes = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0002
+		pop_growth = 0.0001
 	}
 }
-prophylaxis_against_malaria = {
+medieval_hospitals = {
 	limit = { theories_of_medicine = 1 }
 	chance = {
 		base = 2
@@ -978,12 +979,10 @@ prophylaxis_against_malaria = {
 		}
 	}
 	effect = {
-		land_attrition = -0.05 
-		soldier_to_pop_loss = 0.01
 		colonial_life_rating = -5
 	}
 }
-pressure_chambers_for_thorax_surgery = {
+humorism = {
 	limit = { theories_of_medicine = 1 }
 	chance = {
 		base = 2

@@ -1,6 +1,6 @@
-owner = SMO
-controller = SMO
-add_core = SMO
+owner = NOV
+controller = NOV
+add_core = NOV
 add_core = UKR
-trade_goods = grain
+trade_goods = wool
 life_rating = 35

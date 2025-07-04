@@ -343,9 +343,9 @@ confederation = { #league
 
 theocracy = {
     #which ideology of parties.
-    liberal = no
+    liberal = yes
 	anarcho_liberal = no
-	conservative = no
+	conservative = yes
 	reactionary = no
 	#fascist = no
 	clergy = yes
@@ -361,9 +361,9 @@ theocracy = {
 
 holy_order = {
     #which ideology of parties.
-    liberal = no
+    liberal = yes
 	anarcho_liberal = no
-	conservative = no
+	conservative = yes
 	reactionary = no
 	#fascist = no
 	clergy = yes

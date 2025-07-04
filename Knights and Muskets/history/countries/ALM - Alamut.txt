@@ -1,9 +1,9 @@
-capital = 1113
+capital = 2464
 primary_culture = gilaki
 culture = talysh
 religion = shiite
-government = feudal_monarchy
-plurality = 55.0
+government = holy_order
+plurality = 45.0
 nationalvalue = nv_order
 literacy = 0.12
 civilized = yes

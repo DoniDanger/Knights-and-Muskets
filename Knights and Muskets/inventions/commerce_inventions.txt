@@ -224,6 +224,43 @@ buying_on_margin = {
 		factory_cost = -0.01
 	}
 }
+#hammered_coinage
+minting_presses = {
+	limit = { hammered_coinage = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			prestige = 20
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+	}
+	effect = {
+		activate_building = minting_workshop
+	}
+}
+jewellery_workshop = {
+	limit = { hammered_coinage = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			prestige = 20
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+	}
+	effect = {
+		activate_building = jewellery_workshop
+	}
+}
 #silver_ducats
 silver_standard = {
 	limit = { silver_ducats = 1 }
@@ -1336,6 +1373,24 @@ the_practice_of_trade = { #La Praticha della Mercatura
 }
 ##tech_organization
 #guild_associations
+secular_manuscript_workshops = {
+	limit = { hammered_coinage = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			prestige = 20
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+	}
+	effect = {
+		activate_building = manuscript_workshop
+	}
+}
 work_classification = {
 	limit = { guild_associations = 1 }
 	news = no

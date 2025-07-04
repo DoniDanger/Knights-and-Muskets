@@ -9,13 +9,13 @@ country_event = {
 	mean_time_to_happen = { days = 1 }
 
 	trigger = {
-		tag = WMG
+		tag = MGL
 		OR = {
 			war_with = CUM
 			war_with = ALN
 		}
 		OR = {
-			CHY = { in_sphere = WMG }
+			CHY = { in_sphere = GOL }
 			CHY = { in_sphere = MGL }
 			NOT = { war_with = CHY }
 		}
@@ -102,7 +102,7 @@ country_event = {
 	trigger = {
 		tag = CUM
 		OR = {
-			war_with = WMG
+			war_with = GOL
 			war_with = MGL
 		}
 		2628 = { NOT = { controlled_by = THIS }}
@@ -111,7 +111,7 @@ country_event = {
     option = {
         name = "We can only watch."
 		prestige = -5
-		WMG = { country_event = 130004 }
+		GOL = { country_event = 130004 }
 		war_exhaustion = 10
 		ai_chance = {
 			factor = 100
@@ -129,14 +129,20 @@ country_event = {
 
     option = {
         name = "Sarai shall be our next target."
-		prestige = 5
-		money = 40000
+		prestige = 10
+		RUS_1041 = { change_controller = MGL }
+		3557 = { change_controller = MGL }
+		1046 = { change_controller = MGL }
+		1047 = { change_controller = MGL }
+		1048 = { change_controller = MGL }
+		2595 = { change_controller = MGL }
+		money = 140000
 		ai_chance = {
 			factor = 100
         }
 	}
-}
-
+}		
+		
 country_event = {
 	id = 130005
 	title = "Expedition Against Jalal al-Din"
@@ -146,7 +152,7 @@ country_event = {
 	mean_time_to_happen = { days = 5 }
 
 	trigger = {
-		tag = WMG
+		tag = ILK
 		year = 1228
 		month = 8
 		PER = { exists = yes }
@@ -154,16 +160,19 @@ country_event = {
 
 	option = {
 	    name = "Taymas Noyan will lead the armies against Khwarazmia."
+		create_alliance = GOL
+		create_alliance = CHG
+		create_alliance = KAZ
 		casus_belli = {
-            target = PER
-            type = conquest_any
-            months = 60
-        }
+			target = PER
+			type = conquest_any
+			months = 60
+		}
 		war = {
-            target = PER
-            attacker_goal = { casus_belli = conquest_any }
+			target = PER
+			attacker_goal = { casus_belli = conquest_any }
 			call_ally = yes
-        }
+		}
 		set_country_flag = noyan_persian_expedition
 		ai_chance = { factor = 100 }
 	}
@@ -216,7 +225,7 @@ country_event = {
 	}
 
 	option = {
-	    name = "Ögedei Khan is the rightful successor to the Empire."
+	    name = "Ogedei Khan is the rightful successor to the Empire."
 		set_country_flag = ogedei_mgl_ruler
 		ai_chance = { factor = 100 }
 	}
@@ -243,7 +252,7 @@ country_event = {
 	}
 
 	option = {
-	    name = "Ögedei will take control."
+	    name = "Ogedei will take control."
 		clr_country_flag = tolui_mgl_ruler
 		set_country_flag = ogedei_mgl_ruler
 		ai_chance = { factor = 100 }
@@ -252,7 +261,7 @@ country_event = {
 
 country_event = {
 	id = 130009
-	title = "Death of Ögedei Khan!"
+	title = "Death of Ogedei Khan!"
 	desc = "130009_DESC"
 
 	fire_only_once = yes
@@ -274,7 +283,7 @@ country_event = {
 
 country_event = {
 	id = 130010
-	title = "Regency of Great Khatun Töregene"
+	title = "Regency of Great Khatun Toregene"
 	desc = "130010_DESC"
 
 	fire_only_once = yes
@@ -307,12 +316,12 @@ country_event = {
 			NOT = { has_global_flag = the_toluid_revolution }
 			NOT = { has_global_flag = toluid_civil_war }
 		}
-		NOT = { alliance_with = WMG }
+		NOT = { alliance_with = GOL }
 	}
 
 	option = {
 	    name = "We should be friends bro."
-		create_alliance = WMG
+		create_alliance = GOL
 		ai_chance = { factor = 100 }
 	}
 }
@@ -535,7 +544,7 @@ country_event = {
 	mean_time_to_happen = { months = 2 }
 
 	trigger = {
-		tag = WMG
+		tag = GOL
 		has_global_flag = kurultai_of_1235
 		year = 1236
 		NOT = { truce_with = BSK }
@@ -548,18 +557,28 @@ country_event = {
 	    name = "The Bashkirians will join our conquest."
 		release_vassal = BSK
 		leave_alliance = BSK
+		create_alliance = GOL
+		create_alliance = CHG
+		create_alliance = KAZ
 		casus_belli = {
             target = BSK
-            type = make_puppet
+            type = conquest_any
             months = 60
         }
 		war = {
             target = BSK
-            attacker_goal = { casus_belli = make_puppet }
+            attacker_goal = { casus_belli = conquest_any }
 			call_ally = yes
         }
 		set_country_flag = mgl_subjugate_bashkiria
 		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+	    name = "We have no need for their warriors."
+		ai_chance = { 
+			factor = 0 
+		}
 	}
 }
 
@@ -569,19 +588,20 @@ country_event = {
 	desc = "130020_DESC"
 
 	fire_only_once = yes
-	mean_time_to_happen = { days = 14 }
+	mean_time_to_happen = { days = 12 }
 
 	trigger = {
-		tag = WMG
+		tag = GOL
 		has_global_flag = kurultai_of_1235
-		year = 1236
-		month = 8
+		OR = {
+			AND = {
+				year = 1236
+				month = 8
+			}
+			year = 1237
+		}
 		NOT = { truce_with = VLG }
 		VLG = { exists = yes }
-		OR = {
-			BSK = { vassal_of = THIS }
-			BSK = { exists = NO }
-		}
 		NOT = { has_country_flag = mgl_conquest_volga_bolgharia }
 	}
 
@@ -589,6 +609,9 @@ country_event = {
 	    name = "We will avenge our defeat against the Bolghars."
 		release_vassal = VLG
 		leave_alliance = VLG
+		create_alliance = GOL
+		create_alliance = CHG
+		create_alliance = KAZ
 		casus_belli = {
 				target = VLG
 				type = conquest
@@ -602,18 +625,25 @@ country_event = {
 		set_country_flag = mgl_conquest_volga_bolgharia
 		ai_chance = { factor = 100 }
 	}
+	
+	option = {
+	    name = "Even a babe knows not to touch hot fire twice."
+		ai_chance = { 
+			factor = 0 
+		}
+	}
 }
 
 country_event = {
 	id = 130021
-	title = "Campaign against the Cumans"
+	title = "Subjugation of the Cumans"
 	desc = "130020_DESC"
 
 	fire_only_once = yes
-	mean_time_to_happen = { days = 14 }
+	mean_time_to_happen = { months = 1 }
 
 	trigger = {
-		tag = WMG
+		tag = GOL
 		has_global_flag = kurultai_of_1235
 		year = 1237
 		CUM = { exists = yes }
@@ -625,14 +655,17 @@ country_event = {
 	    name = "We will crush the Cumans."
 		release_vassal = CUM
 		leave_alliance = CUM
+		create_alliance = GOL
+		create_alliance = CHG
+		create_alliance = KAZ
 		casus_belli = {
 				target = CUM
-				type = conquest
+				type = conquest_any
 				months = 60
 			}
 		war = {
 			target = CUM
-			attacker_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = conquest_any }
 			call_ally = yes
 		}
 		set_country_flag = mgl_conquest_cumania
@@ -650,6 +683,9 @@ country_event = {
 	    name = "We will keep the opportunity in mind."
 		release_vassal = CUM
 		leave_alliance = CUM
+		create_alliance = GOL
+		create_alliance = CHG
+		create_alliance = KAZ
 		casus_belli = {
 				target = CUM
 				type = conquest_any
@@ -676,7 +712,7 @@ country_event = {
 
 country_event = {
 	id = 130022
-	title = "Temüge Attempts to Seize Throne"
+	title = "Temuge Attempts to Seize Throne"
 	desc = "130022_DESC"
 
 	fire_only_once = yes
@@ -688,7 +724,7 @@ country_event = {
 	}
 
 	option = {
-	    name = "Ensure Güyük becomes the next Khan."
+	    name = "Ensure Guyük becomes the next Khan."
 		set_country_flag = guyuk_mgl_ruler
 		ai_chance = { factor = 100 }
 	}
@@ -696,7 +732,7 @@ country_event = {
 
 country_event = {
 	id = 130023
-	title = "Möngke Proclaimed Great Khan"
+	title = "Mongke Proclaimed Great Khan"
 	desc = "130023_DESC"
 
 	fire_only_once = yes
@@ -709,7 +745,7 @@ country_event = {
 	}
 
 	option = {
-	    name = "Möngke will bring prosperity to the empire."
+	    name = "Mongke will bring prosperity to the empire."
 		set_country_flag = mongke_mgl_ruler
 		ai_chance = { factor = 100 }
 	}
@@ -739,7 +775,7 @@ country_event = {
 
 country_event = {
 	id = 130025
-	title = "Fracturing of the Western Empire"
+	title = "Rise of the Golden Horde"
 	desc = "130025_DESC"
 	major = yes 
 	
@@ -747,33 +783,18 @@ country_event = {
 	mean_time_to_happen = { months = 2 }
 	
 	trigger = {
-		tag = WMG
+		tag = GOL
 		year = 1252
 		has_global_flag = the_toluid_revolution
 	}
 
 	option = {
-	    name = "Batu Khan and the Golden Horde shall support the rule of Möngke."
-		set_global_flag = western_mongols_fractured
-		change_tag = GOL
-		any_owned = {
-			limit = {
-				OR = {
-					is_core = ILK
-					is_core = CHG
-				}
-			}
-			remove_core = THIS
-		}
-		any_owned = {
-			limit = {
-				is_core = PER
-				NOT = { is_core = THIS is_core = CHG }
-			}
-			secede_province = ILK
-		}
-		release = ILK
-		release = CHG
+	    name = "Batu Khan and the Golden Horde shall support the rule of Mongke."
+		prestige = 30
+		create_alliance =  MGL
+		government = khanate
+		MGL = { release_vassal = GOL }
+		set_country_flag = golden_horde_mgl_independence
 		ai_chance = { factor = 100 }
 	}
 }
@@ -837,10 +858,10 @@ country_event = {
 		}
 		1534 = { secede_province = YUA }
 		1002 = { secede_province = MGL }
+		3373 = { secede_province = MGL }
 		release_vassal = KOR
 		YUA = { create_vassal = KOR }
-		release_vassal = CHG
-		YUA = { create_alliance = CHG }
+		YUA = { create_alliance = ILK }
 		war = {
             target = YUA
             attacker_goal = { casus_belli = mongol_civil_war  }
@@ -873,10 +894,10 @@ country_event = {
 		}
 		1534 = { secede_province = YUA }
 		1002 = { secede_province = MGL }
+		3373 = { secede_province = MGL }
 		release_vassal = KOR
 		YUA = { create_vassal = KOR }
-		release_vassal = CHG
-		YUA = { create_alliance = CHG }
+		YUA = { create_alliance = ILK }
 		war = {
             target = YUA
             attacker_goal = { casus_belli = mongol_civil_war  }
@@ -896,7 +917,7 @@ country_event = {
 	mean_time_to_happen = { days = 14 }
 
 	trigger = {
-		tag = WMG
+		tag = GOL
 		has_global_flag = kurultai_of_1235
 		year = 1237
 		NOT = { truce_with = ALN }
@@ -919,13 +940,14 @@ country_event = {
 			call_ally = yes
 		}
 		set_country_flag = mgl_conquest_alania
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 95 }
 	}
 	
 	option = {
 	    name = "The Alans are a waste of our time."
+		prestige = -5
 		ai_chance = { 
-			factor = 0 
+			factor = 5
 		}
 	}
 }
@@ -939,7 +961,7 @@ country_event = {
 	mean_time_to_happen = { days = 3 }
 
 	trigger = {
-		tag = WMG
+		tag = GOL
 		#has_country_flag = mgl_conquest_cumania
 		CUM = { exists = no }
 		CUM = { all_core = { owned_by = THIS }}
@@ -948,6 +970,381 @@ country_event = {
 	option = {
 	    name = "The Kipchaks will fall in line."
 		CUM = { all_core = { add_core = THIS add_core = GOL }}
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130030
+	title = "Loss of the Eastern Steppe"
+	desc = "130030_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+	
+	trigger = {
+		tag = CUM
+		OR = {
+			is_disarmed = yes
+			AND = {
+				truce_with = MGL
+				has_recently_lost_war = yes
+			}
+		}
+	}
+
+	option = {
+	    name = "Batu Khan and the Golden Horde shall support the rule of Möngke."
+		RUS_1041 = { secede_province = GOL add_core = GOL }
+		RUS_1036 = { secede_province = GOL add_core = GOL }
+		RUS_1034 = { secede_province = GOL add_core = GOL }
+		RUS_1182 = { secede_province = GOL add_core = GOL }		
+		3557 = { secede_province = GOL add_core = GOL }
+		1039 = { secede_province = GOL add_core = GOL }
+		1046 = { secede_province = GOL add_core = GOL }
+		1047 = { secede_province = GOL add_core = GOL }
+		1048 = { secede_province = GOL add_core = GOL }
+		2595 = { secede_province = GOL add_core = GOL }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130031
+	title = "Rise of the Ilkhanate"
+	desc = "130031_DESC"
+	major = yes 
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+	
+	trigger = {
+		tag = ILK
+		year = 1252
+		has_global_flag = the_toluid_revolution
+	}
+
+	option = {
+	    name = "Hulegu Khan wholeheartedly supports the reign of Great Khan Mongke."
+		prestige = 30
+		create_alliance =  MGL
+		government = khanate
+		MGL = { release_vassal = ILK }
+		set_country_flag = ilkhanate_mgl_independence
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130032
+	title = "Installation of Mubarak Shah"
+	desc = "130032_DESC"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 4 }
+	
+	trigger = {
+		tag = CHG
+		year = 1252
+		has_global_flag = the_toluid_revolution
+	}
+
+	option = {
+	    name = "The khanate is in disorder."
+		plurality = -5
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130033
+	title = "Defection of Alghu"
+	desc = "130033_DESC"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+	
+	trigger = {
+		tag = CHG
+		year = 1260
+		MGL = { exists = yes }
+		has_global_flag = toluid_civil_war
+	}
+
+	option = {
+	    name = "The khanate is in disorder."
+		prestige = 15
+		YUA = { end_war = CHG }
+		create_alliance =  YUA
+		government = khanate
+		MGL = { release_vassal = CHG }
+		MGL = { country_event = 130034 }
+		set_country_flag = ilkhanate_mgl_independence
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130034
+	title = "Rebellion of Alghu"
+	desc = "130034_DESC"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = "That traitor Alghu will be deposed at once."
+		prestige = 5
+		release_vassal = CHG
+		leave_alliance = CHG
+		war = {
+            target = CHG
+            attacker_goal = { casus_belli = conquest_any   }
+			call_ally = yes
+        }
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+	    name = "We can not afford another front in this war."
+		prestige = -15
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+	id = 130036
+	title = "Invasion of House Ogedei"
+	desc = "130036_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+	
+	trigger = {
+		tag = CHG
+		year = 1266
+		YUA = { exists = yes }
+		KAZ = { exists = yes }
+		is_vassal = no
+		has_global_flag = kublai_khan_victory
+	}
+
+	option = {
+	    name = "Kaidu's domains are ours for the taking."
+		prestige = 5
+		release_vassal = KAZ
+		leave_alliance = KAZ
+		KAZ = { create_alliance = GOL }
+		war = {
+            target = KAZ
+            attacker_goal = { casus_belli = mongol_tributary_war }
+			defender_goal = { casus_belli = mongol_tributary_war }
+			call_ally = yes
+        }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+	    name = "I see no reason for war."
+		prestige = -5
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+	id = 130037
+	title = "Submission to Kaidu"
+	desc = "130037_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+	
+	trigger = {
+		tag = CHG
+		year = 1268
+		KAZ = { exists = yes }
+		truce_with = KAZ
+		is_disarmed = yes
+		has_global_flag = kublai_khan_victory
+	}
+
+	option = {
+	    name = "We have no choice but to submit to Kaidu."
+		prestige = 5
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = XIN
+					is_core = KYR
+				}
+			}
+			secede_province = KAZ
+			add_core = KAZ
+		}
+		KAZ = { create_vassal = CHG }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130038
+	title = "Kaidu-Kublai War"
+	desc = "130038_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+	major = yes
+	
+	trigger = {
+		tag = YUA
+		year = 1275
+		KAZ = { exists = yes }
+		has_global_flag = kublai_khan_victory
+	}
+
+	option = {
+	    name = "Kaidu's invasion of our vassals will not be taken for granted."
+		prestige = 5
+		YUA = { release_vassal = KAZ }
+		leave_alliance = KAZ
+		KAZ = { create_alliance = GOL }
+		war = {
+            target = KAZ
+            attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = mongol_tributary_war }
+			call_ally = yes
+        }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+	    name = "All of China lays bare before me. I have no time for Kaidu."
+		prestige = -5
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 130039
+	title = "Kublai Crushes Ariq Boke!"
+	desc = "130039_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 3 }
+	major = yes
+	
+	trigger = {
+		tag = YUA
+		NOT = { war_with = MGL }
+		MGL = { exists = no }
+		has_global_flag = toluid_civil_war
+		NOT = { has_global_flag = kublai_khan_victory }
+		NOT = { has_global_flag = ariq_boke_victory }
+	}
+
+	option = {
+	    name = "Only Kublai shall stand as the Great Khan under the Heavens."
+		prestige = 55
+		plurality = 25
+		MGL = { all_core = { add_core = THIS }}
+		set_global_flag = kublai_khan_victory
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130040
+	title = "Ariq Boke Supplants Kublai!"
+	desc = "130040_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 3 }
+	major = yes
+	
+	trigger = {
+		tag = MGL
+		YUA = { exists = no }
+		NOT = { war_with = YUA }
+		has_global_flag = toluid_civil_war
+		NOT = { has_global_flag = kublai_khan_victory }
+		NOT = { has_global_flag = ariq_boke_victory }
+	}
+
+	option = {
+	    name = "Only a Great Khan worthy of the Mongol lifestyle deserves the throne."
+		prestige = 55
+		change_tag = MGE
+		YUA = { all_core = { add_core = THIS }}
+		inherit = KAZ
+		inherit = CHG
+		KAZ = { all_core = { add_core = THIS }}
+		CHG = { all_core = { add_core = THIS }}
+		set_global_flag = ariq_boke_victory
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+
+    id = 130041
+    title = "Sack of Xacitarxan"
+	desc = "130041_DESC"
+	fire_only_once = yes
+	mean_time_to_happen = { days = 2 }
+
+	trigger = {
+		tag = GOL
+		war_with = CUM	
+		1036 = { NOT = { controlled_by = CUM }}
+	}
+
+    option = {
+        name = "On to the Western steppes."
+		prestige = 10
+		1039 = { change_controller = MGL }
+		RUS_1036 = { change_controller = MGL }
+		RUS_1034 = { change_controller = MGL }
+		RUS_1182 = { change_controller = MGL }	
+		money = 340000
+		ai_chance = {
+			factor = 100
+        }
+	}
+}
+
+country_event = {
+	id = 130042
+	title = "Conquest of Bashkiria"
+	desc = "130042_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+
+	trigger = {
+		tag = GOL
+		#has_country_flag = mgl_conquest_cumania
+		BSK = { exists = no }
+		BSK = { all_core = { owned_by = THIS }}
+	}
+
+	option = {
+	    name = "The Bashkirs will serve us well."
+		BSK = { all_core = { add_core = THIS add_core = GOL }}
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130043
+	title = "Conquest of Bolgharia"
+	desc = "130043_DESC"
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		tag = GOL
+		#has_country_flag = mgl_conquest_cumania
+		VLG = { exists = no }
+		VLG = { all_core = { owned_by = THIS }}
+	}
+
+	option = {
+	    name = "The Bolghars will face the whip before the flowers."
+		VLG = { all_core = { add_core = THIS add_core = GOL }}
 		ai_chance = { factor = 100 }
 	}
 }

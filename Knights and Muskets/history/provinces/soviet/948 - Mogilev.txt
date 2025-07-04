@@ -1,7 +1,8 @@
-owner = PLT
-controller = PLT
+owner = MNK
+controller = MNK
+add_core = MNK
 add_core = PLT
 add_core = UKR
-add_core = MNK
+add_core = BYE
 trade_goods = apiculture
 life_rating = 35

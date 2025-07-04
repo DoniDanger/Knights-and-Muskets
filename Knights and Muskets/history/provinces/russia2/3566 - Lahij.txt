@@ -1,0 +1,6 @@
+owner = SRV
+controller = SRV
+add_core = SRV
+add_core = AZB
+trade_goods = grain
+life_rating = 35

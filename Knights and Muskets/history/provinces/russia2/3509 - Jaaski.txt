@@ -1,0 +1,4 @@
+add_core = TVT
+add_core = FIN
+trade_goods = tea
+life_rating = 28

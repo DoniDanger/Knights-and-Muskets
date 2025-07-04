@@ -1,3 +1,4 @@
+add_core = FIN
 trade_goods = furs
-life_rating = 25
+life_rating = 28
 

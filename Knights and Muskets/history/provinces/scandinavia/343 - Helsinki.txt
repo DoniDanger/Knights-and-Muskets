@@ -1,6 +1,4 @@
-owner = TVT
-controller = TVT
 add_core = TVT
 add_core = FIN
-trade_goods = grain
-life_rating = 35
+trade_goods = fish
+life_rating = 28

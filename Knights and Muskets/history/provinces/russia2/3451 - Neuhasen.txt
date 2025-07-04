@@ -1,0 +1,6 @@
+owner = DRP
+controller = DRP
+add_core = LIV
+add_core = DRP
+trade_goods = grain
+life_rating = 35

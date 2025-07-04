@@ -1,0 +1,143 @@
+## Subetei Invasion
+DAG = {
+    value = 30
+    military_access = yes
+}
+SRV = {
+    value = 30
+    military_access = yes
+}
+LZG = {
+    value = -30
+    military_access = yes
+}
+GEO = {
+    value = -30
+    military_access = yes
+}
+AZB = {
+    value = -30
+    military_access = yes
+}
+
+## Mongol bros
+MGL = {
+    value = 200
+    military_access = yes
+}
+CHG = {
+    value = 200
+    military_access = yes
+}
+KAZ = {
+    value = 200
+    military_access = yes
+}
+GOL = {
+    value = 200
+    military_access = yes
+}
+
+army = {
+    name = "Toluid Wing"
+    location = 2420
+    regiment = {
+        name= "Khwarazmian Sellswords"
+        type = regular
+        home = 1219
+    }
+    regiment = {
+        name= "Khwarazmian Sellswords"
+        type = regular
+        home = 2419
+    }
+    regiment = {
+        name= "Khwarazmian Penal Levy"
+        type = irregular
+        home = 1215
+    }
+    regiment = {
+        name= "4th Mongol Archers"
+        type = artillery
+        home = 1217
+    }
+	regiment = {
+        name= "5th Mongol Archers"
+        type = artillery
+        home = 1216
+    }
+    regiment = {
+        name= "Afghan Tribesemen"
+        type = irregular
+        home = 1209
+    }
+	regiment = {
+        name= "Toluid Khan's Guard"
+        type = cuirassier
+        home = 2438
+    }
+    regiment = {
+        name= "Trebuchet"
+        type = engineer
+        home = 1209
+    }
+}
+
+
+army = {
+    name = "Khwarazmian Penal Army"
+    location = 1216
+    regiment = {
+        name= "1st Khwarazmian Levy"
+        type = irregular
+        home = 2427
+    }
+    regiment = {
+        name= "2nd Khwarazmian Levy"
+        type = irregular
+        home = 1211
+    }
+    regiment = {
+        name= "3rd Khwarazmian Levy"
+        type = irregular
+        home = 2317
+    }
+    regiment = {
+        name= "4th Khorasani Archers"
+        type = artillery
+        home = 2437
+    }
+	regiment = {
+        name= "5th Khorasani Archers"
+        type = artillery
+        home = 1212
+    }
+    regiment = {
+        name= "Khorasani Tribesemen"
+        type = irregular
+        home = 1212
+    }
+	regiment = {
+        name= "Khorasani Tribesemen"
+        type = irregular
+        home = 2316
+    }
+	regiment = {
+        name= "Khorasani Riders"
+        type = cavalry
+        home = 1213
+    }
+    regiment = {
+        name= "Trebuchet"
+        type = engineer
+        home = 2436
+    }
+}
+
+leader = {
+    name = "Tolui"
+    type = land
+    date = 1220.1.1
+    background = cavalry_school
+    personality = implacable
+}

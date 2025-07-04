@@ -1,8 +1,5 @@
-owner = GRD
-controller = GRD
-add_core = GRD
-add_core = VLN
-add_core = GLM
-add_core = UKR
+owner = YOT
+controller = YOT
+add_core = YOT
 trade_goods = coal
 life_rating = 35

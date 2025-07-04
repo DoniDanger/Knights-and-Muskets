@@ -2,5 +2,5 @@ owner = CGV
 controller = CGV
 add_core = CGV
 add_core = UKR
-trade_goods = timber
+trade_goods = grain
 life_rating = 35

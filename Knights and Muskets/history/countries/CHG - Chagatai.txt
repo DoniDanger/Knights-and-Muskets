@@ -1,13 +1,19 @@
 capital = 1599
 primary_culture = mongol
+culure = chaghatay
+culture = dehgani
+culture = oirat
+culture = kirgiz
+culture = qara_kirgiz
 culture = uighur
-religion = sunni
-government = feudal_monarchy
-plurality = 0.0
+religion = tengri
+government = feudal_dominion
+plurality = 30.0
 nationalvalue = nv_order
-literacy = 0.01
+literacy = 0.16
 non_state_culture_literacy = 0.01
 civilized = yes
+prestige = 18
 
 # Political reforms
 slavery = yes_slavery
@@ -35,15 +41,17 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = closed_borders
 
-ruling_party = KML_conservative
+ruling_party = "Royalist"
 upper_house = {
 	fascist = 0
-	liberal = 0
-	conservative = 68
-	reactionary = 32
+	liberal = 6
+	conservative = 24
+	fervent_clergy = 14
+	clergy = 20
+	reactionary = 36
 	anarcho_liberal = 0
+	gentry = 0
 	socialist = 0
-	communist = 0
 }
 
 set_country_flag = sunni_country
@@ -77,3 +85,5 @@ gas_attack_capability = yes
 #Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
+
+oob = "CHG_oob.txt"

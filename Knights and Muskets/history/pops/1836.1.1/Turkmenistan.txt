@@ -130,7 +130,7 @@
 	soldiers = {
 		culture = turkmen
 		religion = sunni
-		size = 300
+		size = 1300
 	}
 
 	farmers = {

@@ -1,7 +1,5 @@
-owner = WMG
-controller = WMG
-add_core = CHG
-add_core = WMG
-add_core = MGE
+owner = KAZ
+controller = KAZ
+add_core = KAZ
 trade_goods = fish
 life_rating = 35

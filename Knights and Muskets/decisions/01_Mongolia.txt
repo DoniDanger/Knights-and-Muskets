@@ -19,7 +19,7 @@ political_decisions = {
 	
 	appoint_chormaqan_persia = {
 		potential = {
-			tag = WMG
+			tag = ILK
 			NOT = { has_country_flag = appointed_chormaqan_persia }
 		}
 		
@@ -47,7 +47,7 @@ political_decisions = {
 	
 	submission_of_persia = {
 		potential = {
-			tag = WMG
+			tag = ILK
 			OR = {
 				KMN = { exists = yes }
 				RAY = { exists = yes }
@@ -85,13 +85,13 @@ political_decisions = {
 				limit = {
 					exists = yes
 					KMN = { all_core = { controlled_by = THIS }}
-					KMN = { all_core = { NOT = { is_core = WMG }}}
+					KMN = { all_core = { NOT = { is_core = ILK }}}
 				}
 				KMN = { all_core = { add_core = THIS add_core = ILK }}
 			}
 			random_country = {
 				limit = {
-					tag = WMG
+					tag = ILK
 					RAY = { all_core = { controlled_by = THIS }}
 					RAY = { all_core = { NOT = { is_core = THIS }}}
 				}
@@ -145,7 +145,7 @@ political_decisions = {
 	
 	mgl_conquest_of_persia = {
 		potential = {
-			tag = WMG
+			tag = ILK
 			NOT = { has_country_flag = mgl_conquest_persia }
 		}
 		
@@ -372,7 +372,7 @@ political_decisions = {
 	
 	subjugate_bashkiria = {
 		potential = {
-			tag = WMG
+			tag = GOL
 			BSK = { exists = yes }
 			NOT = { has_country_flag = mgl_subjugate_bashkiria }
 			BSK = { NOT = { vassal_of = THIS }}
@@ -389,12 +389,12 @@ political_decisions = {
 			badboy = 5
 			casus_belli = {
 				target = BSK
-				type = make_puppet
+				type = conquest_any
 				months = 60
 			}
 			war = {
 				target = BSK
-				attacker_goal = { casus_belli = make_puppet }
+				attacker_goal = { casus_belli = conquest_any }
 				call_ally = yes
 			}
 			set_country_flag = mgl_subjugate_bashkiria
@@ -404,7 +404,7 @@ political_decisions = {
 	
 	begin_cuman_conquest = {
 		potential = {
-			tag = WMG
+			tag = GOL
 			CUM = { exists = yes }
 			NOT = { has_country_flag = mgl_conquest_cumania }
 			has_global_flag = kurultai_of_1235
@@ -439,7 +439,7 @@ political_decisions = {
 	
 	destroy_volga_bolgharia = {
 		potential = {
-			tag = WMG
+			tag = GOL
 			VLG = { exists = yes }
 			has_global_flag = kurultai_of_1235
 			NOT = { has_country_flag = mgl_conquest_volga_bolgharia }
@@ -478,7 +478,7 @@ political_decisions = {
 	
 	integrate_bashkir_tribes = {
 		potential = {
-			tag = WMG
+			tag = GOL
 			has_global_flag = kurultai_of_1235
 			NOT = { has_country_flag = bashkiria_integrated }
 		}
@@ -516,7 +516,8 @@ political_decisions = {
 					war_with = BSK
 					BSK = { all_core = { controlled_by = THIS }}
 				}
-				BSK = { in_sphere = WMG }
+				BSK = { all_core = { owned_by = THIS }}
+				BSK = { in_sphere = GOL }
 				BSK = { in_sphere = MGL }
 			}
 		}
@@ -525,7 +526,7 @@ political_decisions = {
 			badboy = 5
 			war = {
 				target = CUM
-				attacker_goal = { casus_belli = make_puppet }
+				attacker_goal = { casus_belli = conquest_any }
 				call_ally = yes
 			}
 			set_country_flag = baskiria_subjugated

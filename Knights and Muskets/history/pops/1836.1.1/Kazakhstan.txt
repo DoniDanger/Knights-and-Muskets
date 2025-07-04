@@ -244,6 +244,18 @@
 		size = 85
 	}
 
+	bureaucrats = {
+		culture = uzbek
+		religion = sunni
+		size = 320
+	}
+	
+	bureaucrats = {
+		culture = mongol
+		religion = tengri
+		size = 80
+	}
+	
 	clergymen = {
 		culture = uzbek
 		religion = sunni
@@ -897,6 +909,12 @@
 		size = 40
 	}
 
+	bureaucrats = {
+		culture = kirgiz
+		religion = tengri
+		size = 80
+	}
+	
 	clergymen = {
 		culture = kirgiz
 		religion = sunni

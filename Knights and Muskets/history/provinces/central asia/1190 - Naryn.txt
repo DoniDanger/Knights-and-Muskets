@@ -1,8 +1,6 @@
-owner = WMG
-controller = WMG
+owner = CHG
+controller = CHG
 add_core = CHG
-add_core = WMG
-add_core = MGE
-add_core = KOK
+add_core = KYR
 trade_goods = grain
 life_rating = 35

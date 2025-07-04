@@ -2473,7 +2473,7 @@
 	soldiers = {
 		culture = pruthenian
 		religion = catholic
-		size = 200
+		size = 1200
 	}
 
 	farmers = {
@@ -2613,7 +2613,7 @@
 	soldiers = {
 		culture = pruthenian
 		religion = catholic
-		size = 200
+		size = 2200
 	}
 
 	farmers = {
@@ -4917,7 +4917,7 @@
 	soldiers = {
 		culture = yotvingian
 		religion = catholic
-		size = 375
+		size = 2375
 	}
 
 	farmers = {
@@ -5021,7 +5021,7 @@
 	soldiers = {
 		culture = yotvingian
 		religion = catholic
-		size = 375
+		size = 2375
 	}
 
 	farmers = {

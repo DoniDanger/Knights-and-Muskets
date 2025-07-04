@@ -12,6 +12,8 @@ UTI	=       "countries/Utility Tag.txt"
 #Landgraviate of Hesse #
 
 #SRK     = "countries/Sarukhanids.txt"
+#TRP     = "countries/Toropets.txt"
+
 
 YOT 	= "countries/Yotvingia.txt"
 GLD 	= "countries/Galindia.txt"

@@ -1,0 +1,5 @@
+owner = LZG
+controller = LZG
+add_core = LZG
+trade_goods = fruit
+life_rating = 35

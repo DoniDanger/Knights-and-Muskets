@@ -2,6 +2,5 @@ owner = DRP
 controller = DRP
 add_core = LIV
 add_core = DRP
-add_core = EST
 trade_goods = naval_supplies
 life_rating = 35

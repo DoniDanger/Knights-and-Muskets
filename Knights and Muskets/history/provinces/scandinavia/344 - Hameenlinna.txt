@@ -1,6 +1,4 @@
-owner = TVT
-controller = TVT
 add_core = TVT
 add_core = FIN
 trade_goods = timber
-life_rating = 35
+life_rating = 28

@@ -1,6 +1,6 @@
-owner = WMG
-controller = WMG
+owner = GOL
+controller = GOL
 add_core = GOL
-add_core = WMG
+add_core = UZB
 trade_goods = wool
 life_rating = 35

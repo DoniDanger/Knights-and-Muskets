@@ -1,0 +1,17 @@
+owner = VLN
+controller = VLN
+add_core = VLN
+add_core = GLM
+add_core = UKR
+trade_goods = grain
+life_rating = 35
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = paper_mill
+	upgrade = yes
+}

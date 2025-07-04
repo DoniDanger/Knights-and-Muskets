@@ -1,0 +1,210 @@
+## Subetei Invasion
+DAG = {
+    value = 30
+    military_access = yes
+}
+SRV = {
+    value = 30
+    military_access = yes
+}
+LZG = {
+    value = -30
+    military_access = yes
+}
+GEO = {
+    value = -30
+    military_access = yes
+}
+AZB = {
+    value = -30
+    military_access = yes
+}
+
+## Mongol bros
+MGL = {
+    value = 200
+    military_access = yes
+}
+GOL = {
+    value = 200
+    military_access = yes
+}
+KAZ = {
+    value = 200
+    military_access = yes
+}
+ILK = {
+    value = 200
+    military_access = yes
+}
+
+army = {
+    name = "Subetei Expedition"
+    location = 1055
+    regiment = {
+        name= "1st Oirat Cavalry"
+        type = dragoon
+        home = 1600
+    }
+    regiment = {
+        name= "2nd Oirat Cavalry"
+        type = dragoon
+        home = 1189
+    }
+    regiment = {
+        name= "3rd Oirat Cavalry"
+        type = dragoon
+        home = 1190
+    }
+    regiment = {
+        name= "Ili Regiment"
+        type = dragoon
+        home = 1594
+    }
+	regiment = {
+        name= "3rd Oirat Cavalry"
+        type = regular
+        home = 1203
+    }
+    regiment = {
+        name= "Ili Regiment"
+        type = regular
+        home = 1202
+    }
+	regiment = {
+        name= "Ili Regiment"
+        type = cuirassier
+        home = 1198
+    }
+	regiment = {
+        name= "3rd Oirat Cavalry"
+        type = cuirassier
+        home = 1191
+    }
+    regiment = {
+        name= "Ili Regiment"
+        type = cavalry
+        home = 1199
+    }
+	regiment = {
+        name= "Ili Regiment"
+        type = cavalry
+        home = 1201
+    }
+}
+
+army = {
+    name = "Chagatai Wing"
+    location = 1192
+    regiment = {
+        name= "1st Chagatai Cavalry"
+        type = dragoon
+        home = 2481
+    }
+    regiment = {
+        name= "2nd Chagatai Cavalry"
+        type = dragoon
+        home = 2481
+    }
+    regiment = {
+        name= "3rd Chagatai Cavalry"
+        type = dragoon
+        home = 1192
+    }
+    regiment = {
+        name= "4th Chagatai Cavalry"
+        type = dragoon
+        home = 2476
+    }
+	regiment = {
+        name= "Qocho Kheshigs"
+        type = cuirassier
+        home = 2480
+    }
+    regiment = {
+        name= "Kirgiz Riders"
+        type = cavalry
+        home = 1599
+    }
+	regiment = {
+        name= "Kirgiz Riders"
+        type = cavalry
+        home = 1600
+    }
+	regiment = {
+        name= "Kirgiz Riders"
+        type = cavalry
+        home = 1595
+    }
+    regiment = {
+        name= "Trebuchet"
+        type = engineer
+        home = 1595
+    }
+}
+
+army = {
+    name = "Qara Khitai Wing"
+    location = 1206
+    regiment = {
+        name= "1st Khitai Cavalry"
+        type = dragoon
+        home = 1206
+    }
+    regiment = {
+        name= "2nd Khitai Cavalry"
+        type = dragoon
+        home = 1200
+    }
+    regiment = {
+        name= "3rd Khitai Cavalry"
+        type = dragoon
+        home = 2430
+    }
+    regiment = {
+        name= "Chagatai House Guard"
+        type = cuirassier
+        home = 2650
+    }
+	regiment = {
+        name= "Tajik Tribesemen"
+        type = irregular
+        home = 1195
+    }
+    regiment = {
+        name= "Tajik Tribesemen"
+        type = irregular
+        home = 1203
+    }
+	regiment = {
+        name= "Kirgiz Riders"
+        type = cavalry
+        home = 1186
+    }
+	regiment = {
+        name= "Kirgiz Riders"
+        type = cavalry
+        home = 1210
+    }
+    regiment = {
+        name= "Trebuchet"
+        type = engineer
+        home = 1203
+    }
+}
+
+leader = {
+    name = "Subetei"
+    type = land
+    date = 1220.1.1
+    background = cavalry_school
+    personality = implacable
+}
+
+leader = {
+    name = "Chagatai Khan"
+    type = land
+    date = 1220.1.1
+    background = cavalry_school
+    personality = implacable
+}

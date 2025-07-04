@@ -1,0 +1,7 @@
+owner = HLY
+controller = HLY
+add_core = HLY
+add_core = GLM
+add_core = UKR
+trade_goods = grain
+life_rating = 35

@@ -1,9 +1,5 @@
-owner = SWE
-controller = SWE
-add_core = SWE
-add_core = SCA
 trade_goods = furs
-life_rating = 35
+life_rating = 30
 #state_building = {
 #	level = 1
 #	building = lumber_mill

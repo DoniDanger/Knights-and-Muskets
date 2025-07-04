@@ -14,8 +14,13 @@ country_event = {
 			tag = RAY
 			primary_culture = persian
 		}
-		year = 1224
-		month = 8
+		OR = {
+			AND = {
+				year = 1224
+				month = 8
+			}
+			year = 1225
+		}
 		NOT = { has_global_flag = jalal_returns_persia }
 	}
 
@@ -26,11 +31,10 @@ country_event = {
 		any_country = {
             limit = {
 				OR = {
-					tag = KMN
-					tag = MAK
+					tag = MUL
+					tag = KHR
 					tag = AJM
 					tag = MUL
-					tag = FRS
 					tag = SST
 					tag = YZD
 					tag = RAY
@@ -40,6 +44,19 @@ country_event = {
 				war = no
             }
             country_event = { id = 140001 }
+        }
+		any_country = {
+            limit = {
+				OR = {
+					tag = KMN
+					tag = FRS
+					tag = MAK
+				}
+				NOT = { tag = THIS }
+                exists = yes
+				war = no
+            }
+            country_event = { id = 140002 }
         }
 		add_accepted_culture = persian
 		add_accepted_culture = adhari
@@ -71,7 +88,7 @@ country_event = {
 	option = {
 	    name = "We will not surrender power to a lost cause."
 		relation = { who = PER value = -50 }
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 5 }
 	}
 }
 
@@ -93,7 +110,7 @@ country_event = {
 	option = {
 	    name = "We will not surrender power to a lost cause."
 		relation = { who = PER value = -50 }
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 10 }
 	}
 }
 
@@ -282,12 +299,22 @@ country_event = {
 
 	trigger = {
 		tag = GEO
-		is_disarmed = yes 
-		truce_with = PER
+		OR = {
+			AND = {
+				is_disarmed = yes 
+				truce_with = PER
+			}
+			AND = {
+				war_with = PER
+				NOT = { 1090 = { controlled_by = THIS }}
+				war_exhaustion = 20
+			}
+		}
 	}
 	
 	option = {
 	    name = "We must rebuild in Western Georgia."
+		PER = { end_war = GEO }
 		capital = 1092
 		ARM = { country_event = { id = 140008 } }
 		1104 = { secede_province = PER }
@@ -296,6 +323,7 @@ country_event = {
 		48 = { secede_province = PER }
 		1090 = { secede_province = PER }
 		31 = { secede_province = PER }
+		set_global_flag = persians_devastate_georgia
 		ai_chance = { factor = 100 }
 	}
 }
@@ -348,8 +376,17 @@ country_event = {
 
 	trigger = {
 		tag = ABB
-		is_disarmed = yes 
-		truce_with = PER
+		OR = {
+			AND = {
+				is_disarmed = yes 
+				truce_with = PER
+			}
+			AND = {
+				war_with = PER
+				NOT = { 926 = { controlled_by = THIS }}
+				war_exhaustion = 20
+			}
+		}
 	}
 	
 	option = {
@@ -360,6 +397,7 @@ country_event = {
 		1131 = { secede_province = PER }
 		1132 = { secede_province = PER }
 		1133 = { secede_province = PER }
+		1136 = { secede_province = PER }
 		ai_chance = { factor = 100 }
 	}
 }
@@ -378,7 +416,7 @@ country_event = {
 	}
 	
 	option = {
-	    name = "We have lost our dominions in Western Persia."
+	    name = "The traitor must be put down."
 		any_owned = {
 			limit = {
 				is_core = KMN
@@ -411,17 +449,22 @@ country_event = {
 	}
 	
 	option = {
-	    name = "We have lost our dominions in Western Persia."
+	    name = "Treachery finds me even from my own family."
 		any_pop = {
 			limit = {
 				culture = persian
 			}
-			militancy = 2
+			militancy = 3
 		}
+		war = {
+            target = FRS
+            attacker_goal = { casus_belli = annex_core_country }
+			call_ally = yes
+        }
 		random_owned = {
 			limit = {
 				controlled_by = THIS
-				is_core = FRS
+				is_core = AJM
 				NOT = { country_units_in_province = THIS }
 			}
 			change_controller = REB
@@ -429,7 +472,7 @@ country_event = {
 		random_owned = {
 			limit = {
 				controlled_by = THIS
-				is_core = FRS
+				is_core = AJM
 				NOT = { country_units_in_province = THIS }
 			}
 			change_controller = REB
@@ -437,7 +480,7 @@ country_event = {
 		random_owned = {
 			limit = {
 				controlled_by = THIS
-				is_core = FRS
+				is_core = AJM
 				NOT = { country_units_in_province = THIS }
 			}
 			change_controller = REB
@@ -445,7 +488,7 @@ country_event = {
 		random_owned = {
 			limit = {
 				controlled_by = THIS
-				is_core = FRS
+				is_core = AJM
 				NOT = { country_units_in_province = THIS }
 			}
 			change_controller = REB
@@ -582,7 +625,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-	    name = "We must defend Anatolia in our own initiative, then."
+	    name = "We must defend Anatolia with our own initiative, then."
 		casus_belli = {
 			target = PER
 			type = cut_down_to_size
@@ -594,14 +637,14 @@ country_event = {
 			call_ally = yes
 		}
 		ai_chance = {
-			factor = 100
+			factor = 70
         }
     }
 	
 	option = {
 	    name = "Then we'll abandon the Seljuks to the Khwarazmians."
 		prestige = -10
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 30 }
 	}
 }
 
@@ -690,6 +733,85 @@ country_event = {
 	
 	option = {
 	    name = "The lion of Khwarazmia, killed by a beggar."
+		PER = { set_country_flag = jalal_assassinated }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 140021
+	title = "Submission to Mongol Invasion"
+	desc = "140021_DESC"
+
+	fire_only_once = no
+	mean_time_to_happen = { months = 1 }
+	
+	trigger = {
+		OR = {
+			tag = MAK
+			tag = KMN
+			tag = FRS
+			tag = KHR
+			tag = AJM
+			tag = RAY
+			tag = MZN
+			tag = GLN
+			tag = TLY
+			tag = SRV
+			AND = { 
+				tag = GEO
+				has_global_flag = persians_devastate_georgia
+			}
+		}
+		OR = {
+			war_with = MGL
+			war_with = ILK
+		}
+		war_exhaustion = 25
+		NOT = { THIS = { any_core = { controlled_by = THIS }}}
+	}
+	
+	option = {
+	    name = "Let us surrender and hope they spare us."
+		THIS = { all_core = { add_core = ILK }}
+		ILK = { inherit = THIS }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 140022
+	title = "The Khwarazmians Capitulate!"
+	desc = "140022_DESC"
+
+	fire_only_once = no
+	mean_time_to_happen = { months = 1 }
+	major = yes
+	
+	trigger = {
+		tag = PER
+		OR = {
+			AND = {
+				year = 1232
+				has_global_flag = jalal_defeated_anatolia
+			}
+			has_country_flag = jalal_assassinated
+		}
+		OR = {
+			war_with = MGL
+			war_with = ILK
+		}
+		war_exhaustion = 55
+		OR = { 
+			THIS = { any_core = { controlled_by = MGL }}
+			#THIS = { any_core = { controlled_by = ILK }}
+		}
+	}
+	
+	option = {
+	    name = "The Khwarazmiyya shall retreat into the Levant."
+		PER = { all_core = { add_core = ILK }}
+		ILK = { inherit = THIS }
 		ai_chance = { factor = 100 }
 	}
 }

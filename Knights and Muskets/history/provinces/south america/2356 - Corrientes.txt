@@ -1,7 +1,7 @@
-owner = CUM
-controller = CUM
-add_core = CUM
-add_core = KAZ
+owner = GOL
+controller = GOL
+add_core = GOL
+add_core = UZB
 trade_goods = cattle
 life_rating = 35
 

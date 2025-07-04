@@ -1,6 +1,6 @@
-owner = CGV
-controller = CGV
-add_core = CGV
+owner = NVS
+controller = NVS
+add_core = NVS
 add_core = UKR
-trade_goods = fruit
-life_rating = 35
+trade_goods = grain
+life_rating = 35

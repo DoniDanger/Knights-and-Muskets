@@ -1,6 +1,7 @@
 owner = VLD
 controller = VLD
 add_core = VLD
+add_core = TVE
 add_core = UKR
-trade_goods = timber
+trade_goods = wool
 life_rating = 35

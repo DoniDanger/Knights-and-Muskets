@@ -2,7 +2,10 @@ name = "Subetei's Caucasian Expedition"
 
 1221.11.12 = {
 	add_attacker = MGL
-	add_attacker = WMG
+	add_attacker = ILK
+	add_attacker = CHG
+	add_attacker = GOL
+	add_attacker = KAZ
 	add_attacker = DAG #so they dont bitch about neutral
 	add_defender = CUM
 	add_defender = ALN
@@ -18,24 +21,27 @@ name = "Subetei's Caucasian Expedition"
 	# state_province_id - target state capital
 	war_goal = {
 		casus_belli = mongol_tributary_war
-		actor = WMG
+		actor = MGL
 		receiver = CUM
 	}
 	war_goal = {
 		casus_belli = mongol_tributary_war
-		actor = WMG
+		actor = MGL
 		receiver = CHY
 	}
 	war_goal = {
 		casus_belli = cut_down_to_size
 		actor = CUM
-		receiver = WMG
+		receiver = MGL
 	}
 
 }
 
 1224.6.6 = {
 	rem_attacker = MGL
-	rem_attacker = WMG
+	rem_attacker = ILK
+	rem_attacker = CHG
+	rem_attacker = GOL
+	rem_attacker = KAZ
 	rem_defender = CUM
 }

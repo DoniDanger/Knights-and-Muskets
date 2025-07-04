@@ -1,0 +1,97 @@
+## Subetei Invasion
+DAG = {
+    value = 30
+    military_access = yes
+}
+SRV = {
+    value = 30
+    military_access = yes
+}
+LZG = {
+    value = -30
+    military_access = yes
+}
+GEO = {
+    value = -30
+    military_access = yes
+}
+AZB = {
+    value = -30
+    military_access = yes
+}
+
+## Mongol bros
+MGL = {
+    value = 200
+    military_access = yes
+}
+CHG = {
+    value = 200
+    military_access = yes
+}
+GOL = {
+    value = 200
+    military_access = yes
+}
+ILK = {
+    value = 200
+    military_access = yes
+}
+
+army = {
+    name = "Ogedeid Wing"
+    location = 1596
+    regiment = {
+        name= "1st Ogedeid Cavalry"
+        type = dragoon
+        home = 1068
+    }
+    regiment = {
+        name= "2nd Ogedeid Cavalry"
+        type = dragoon
+        home = 1064
+    }
+    regiment = {
+        name= "3rd Ogedeid Cavalry"
+        type = dragoon
+        home = 1068
+    }
+    regiment = {
+        name= "Ogedeid House Guard"
+        type = cuirassier
+        home = 1064
+    }
+	regiment = {
+        name= "Oirat Riders"
+        type = cavalry
+        home = 1068
+    }
+    regiment = {
+        name= "Oirat Riders"
+        type = cavalry
+        home = 1064
+    }
+	regiment = {
+        name= "Kirgiz Riders"
+        type = cavalry
+        home = 1068
+    }
+	regiment = {
+        name= "Kirgiz Riders"
+        type = cavalry
+        home = 1064
+    }
+    regiment = {
+        name= "Trebuchet"
+        type = engineer
+        home = 1068
+    }
+}
+
+leader = {
+    name = "Ogedei"
+    type = land
+    date = 1220.1.1
+    background = cavalry_school
+    personality = implacable
+}

@@ -1,5 +1,5 @@
-owner = CUM
-controller = CUM
-add_core = CUM
+owner = CIR
+controller = CIR
+add_core = CIR
 trade_goods = cattle
 life_rating = 35

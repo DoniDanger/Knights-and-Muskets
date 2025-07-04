@@ -1,6 +1,6 @@
-owner = SMO
-controller = SMO
-add_core = SMO
+owner = CGV
+controller = CGV
+add_core = CGV
 add_core = UKR
 trade_goods = horses
 life_rating = 35

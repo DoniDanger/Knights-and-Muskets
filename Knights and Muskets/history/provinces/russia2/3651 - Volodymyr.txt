@@ -1,0 +1,22 @@
+owner = VLN
+controller = VLN
+add_core = VLN
+add_core = GLM
+add_core = UKR
+trade_goods = grain
+life_rating = 35
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = infantry_arms_weaponsmith
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = crossbow_weaponsmith
+	upgrade = yes
+}

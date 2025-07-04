@@ -1,5 +1,6 @@
-owner = SMG
-controller = SMG
+owner = NDR
+controller = NDR
+add_core = NDR
 add_core = SMG
 add_core = LIT
 trade_goods = fish

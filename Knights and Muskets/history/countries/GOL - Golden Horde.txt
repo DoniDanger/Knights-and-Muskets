@@ -1,30 +1,33 @@
-capital = 1040
+capital = 1181
 primary_culture = mongol
 culture = tatar
-culture = kazak
-religion = gelugpa
-government = feudal_monarchy
+culture = uzbek
+culture = kirgiz
+religion = tengri
+government = feudal_dominion
 plurality = 0.02
 nationalvalue = nv_order
-literacy = 0.38
-non_state_culture_literacy = 0.20
+literacy = 0.09
+non_state_culture_literacy = 0.11
 civilized = yes
-prestige = 10
+prestige = 12
 
-ruling_party = CRI_conservative
+ruling_party = "Royalist"
 upper_house = {
-    fascist = 0
-    liberal = 13
-    conservative = 68
-    reactionary = 19
-    anarcho_liberal = 0
-    socialist = 0
-    communist = 0
+	fascist = 0
+	liberal = 6
+	conservative = 24
+	fervent_clergy = 14
+	clergy = 20
+	reactionary = 36
+	anarcho_liberal = 0
+	gentry = 0
+	socialist = 0
 }
 
 oob = "GOL_oob.txt"
 
-set_country_flag = sunni_country
+set_country_flag = tengri_country
 set_country_flag = mongol_empire
 set_country_flag = steppe_warfare_adopted
 
@@ -76,3 +79,5 @@ manorialism = 1
 
 #Inventions
 gas_attack_capability = yes
+
+oob = "GOL_oob.txt"

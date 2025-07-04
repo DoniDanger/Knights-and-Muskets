@@ -1,5 +1,6 @@
-owner = RIG
-controller = RIG
+owner = RGA
+controller = RGA
+add_core = RGA
 add_core = RIG
 trade_goods = fish
 life_rating = 35

@@ -2131,7 +2131,7 @@
 		religion = shiite
 		size = 600
 	}
-
+	
 	clergymen = {
 		culture = mazanderani
 		religion = shiite
@@ -2177,7 +2177,7 @@
 	soldiers = {
 		culture = persian
 		religion = shiite
-		size = 140
+		size = 540
 	}
 
 	farmers = {
@@ -2246,6 +2246,12 @@
 		size = 263
 	}
 
+	bureaucrats = {
+		culture = khorasani
+		religion = shiite
+		size = 440
+	}
+	
 	clergymen = {
 		culture = khorasani
 		religion = shiite
@@ -2261,7 +2267,7 @@
 	soldiers = {
 		culture = khorasani
 		religion = shiite
-		size = 150
+		size = 1150
 	}
 
 	farmers = {
@@ -3863,7 +3869,7 @@
 	soldiers = {
 		culture = mazanderani
 		religion = sunni
-		size = 100
+		size = 1100
 	}
 
 	farmers = {
@@ -9609,7 +9615,7 @@
 	soldiers = {
 		culture = khorasani
 		religion = shiite
-		size = 135
+		size = 1135
 	}
 
 	farmers = {

@@ -1,4 +1,5 @@
 color = { 243 180 17 }
+feudal_dominion = { 21  123  185 }
 #color = { 200  202  85 }
 graphical_culture = AsianGC
 

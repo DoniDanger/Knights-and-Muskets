@@ -8332,7 +8332,39 @@
 		size = 28740
 	}
 }
-#Samland (484000/121000 POPS)
+#Bartenstein (484000/121000 POPS)
+3655 = {
+	aristocrats = {
+		culture = pruthenian
+		religion = paganism
+		size = 600 
+	}
+
+	clergymen = {
+		culture = pruthenian
+		religion = paganism
+		size = 180  
+	}
+
+	artisans = {
+		culture = pruthenian
+		religion = paganism
+		size = 2400
+	}
+
+	soldiers = {
+		culture = pruthenian
+		religion = paganism
+		size = 2100
+	}
+
+	farmers = {
+		culture = pruthenian
+		religion = paganism
+		size = 25740
+	}
+}
+#Georgenburg (484000/121000 POPS)
 2174 = {
 	aristocrats = {
 		culture = pruthenian
@@ -8364,7 +8396,7 @@
 		size = 25740
 	}
 }
-#Samland (484000/121000 POPS)
+#Angerburg (484000/121000 POPS)
 2165 = {
 	aristocrats = {
 		culture = pruthenian

@@ -1,6 +1,5 @@
-owner = RYA
-controller = RYA
-add_core = RYA
-add_core = UKR
+owner = CUM
+controller = CUM
+add_core = CUM
 trade_goods = iron
 life_rating = 35

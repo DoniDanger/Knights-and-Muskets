@@ -1,6 +1,6 @@
-owner = PRY
-controller = PRY
-add_core = PRY
+owner = NVS
+controller = NVS
+add_core = NVS
 add_core = UKR
 trade_goods = grain
 life_rating = 35

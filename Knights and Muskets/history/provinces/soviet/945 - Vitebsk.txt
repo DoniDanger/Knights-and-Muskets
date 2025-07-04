@@ -1,7 +1,7 @@
-owner = PLT
-controller = PLT
+owner = BYE
+controller = BYE
 add_core = PLT
 add_core = UKR
 add_core = BYE
-trade_goods = grain
+trade_goods = apiculture 
 life_rating = 35

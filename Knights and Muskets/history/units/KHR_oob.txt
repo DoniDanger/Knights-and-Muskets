@@ -1,0 +1,92 @@
+## Subetei Invasion
+DAG = {
+    value = 30
+    military_access = yes
+}
+SRV = {
+    value = 30
+    military_access = yes
+}
+LZG = {
+    value = -30
+    military_access = yes
+}
+GEO = {
+    value = -30
+    military_access = yes
+}
+AZB = {
+    value = -30
+    military_access = yes
+}
+
+## Mongol bros
+MGL = {
+    value = 200
+    military_access = yes
+}
+CHG = {
+    value = 200
+    military_access = yes
+}
+KAZ = {
+    value = 200
+    military_access = yes
+}
+GOL = {
+    value = 200
+    military_access = yes
+}
+
+army = {
+    name = "Army of Khorasan"
+    location = 1116
+    regiment = {
+        name= "Khorasani House Guard"
+        type = regular
+        home = 1116
+    }
+    regiment = {
+        name= "Khorasani House Guard"
+        type = regular
+        home = 1204
+    }
+    regiment = {
+        name= "Khorasani Tribesmen"
+        type = irregular
+        home = 1149
+    }
+	regiment = {
+        name= "Khorasani Tribesemen"
+        type = irregular
+        home = 1149
+    }
+    regiment = {
+        name= "4th Khorasani Archers"
+        type = artillery
+        home = 1147
+    }
+	regiment = {
+        name= "5th Khorasani Archers"
+        type = artillery
+        home = 1204
+    }
+	regiment = {
+        name= "6th Khorasani Archers"
+        type = artillery
+        home = 1150
+    }
+	regiment = {
+        name= "Khorasani Guard"
+        type = cuirassier
+        home = 1126
+    }
+}
+
+leader = {
+    name = "Prince of Khorasan"
+    type = land
+    date = 1220.1.1
+    background = cavalry_school
+    personality = implacable
+}

@@ -2,5 +2,5 @@ owner = CGV
 controller = CGV
 add_core = CGV
 add_core = UKR
-trade_goods = cattle
+trade_goods = furs
 life_rating = 35

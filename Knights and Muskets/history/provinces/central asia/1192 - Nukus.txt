@@ -1,7 +1,6 @@
-owner = WMG
-controller = WMG
-add_core = GOL
-add_core = WMG
+owner = CHG
+controller = CHG
+add_core = CHG
 add_core = PER
 trade_goods = opium
 life_rating = 35

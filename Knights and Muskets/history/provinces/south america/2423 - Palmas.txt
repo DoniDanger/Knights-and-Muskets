@@ -1,7 +1,6 @@
-owner = WMG
-controller = WMG
+owner = ILK
+controller = ILK
 add_core = ILK
-add_core = WMG
 add_core = PER
 trade_goods = fruit
 life_rating = 35

@@ -1,6 +1,6 @@
-owner = WMG
-controller = WMG
+owner = CHG
+controller = CHG
 add_core = CHG
-add_core = WMG
+add_core = XIN
 trade_goods = tropical_wood
 life_rating = 35

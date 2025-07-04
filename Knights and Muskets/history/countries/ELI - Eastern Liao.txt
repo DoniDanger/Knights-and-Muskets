@@ -54,7 +54,7 @@ medieval_infantry = 1
 consciousness = 2
 nonstate_consciousness = 1
 
-oob = "EXI_oob.txt"
+oob = "ELI_oob.txt"
 1861.1.1 = {
 	oob = "/1861/MCK_oob.txt"
 	literacy = 0.07

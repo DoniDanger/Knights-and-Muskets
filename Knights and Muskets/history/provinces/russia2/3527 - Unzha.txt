@@ -1,0 +1,7 @@
+owner = MRL
+controller = MRL
+add_core = MRL
+trade_goods = grain
+life_rating = 32
+
+

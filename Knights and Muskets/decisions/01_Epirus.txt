@@ -84,7 +84,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			controls = 815
+			controls = 2314
 			controls = 829
 			controls = 830
 			controls = 105
@@ -162,6 +162,8 @@ political_decisions = {
 			has_country_flag = thessalonican_siege_continued
 			war_with = EPI
 			NOT = { has_country_flag = negotiated_with_bulgarians }
+			NOT = { has_global_flag = epirus_victory_klokotnitsa }
+			NOT = { has_global_flag = bulgarian_victory_klokotnitsa }
 		}
 		
 		allow = {

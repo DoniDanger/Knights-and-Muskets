@@ -1,8 +1,11 @@
-name = "Mongol Invasion of Indus"
+name = "Mingburnu's Indus Campaign"
 
 1221.9.12 = {
 	add_attacker = MGL
-	add_attacker = WMG
+	add_attacker = ILK
+	add_attacker = CHG
+	add_attacker = GOL
+	add_attacker = KAZ
 	add_defender = MUL
 	
 	# actor
@@ -12,7 +15,7 @@ name = "Mongol Invasion of Indus"
 	# state_province_id - target state capital
 	war_goal = {
 		casus_belli = conquest
-		actor = WMG
+		actor = ILK
 		receiver = MUL
 	}
 
@@ -20,6 +23,9 @@ name = "Mongol Invasion of Indus"
 
 1228.6.6 = {
 	rem_attacker = MGL
-	rem_attacker = WMG
+	rem_attacker = ILK
+	rem_attacker = CHG
+	rem_attacker = GOL
+	rem_attacker = KAZ
 	rem_defender = MUL
 }

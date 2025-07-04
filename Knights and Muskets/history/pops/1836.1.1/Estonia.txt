@@ -146,6 +146,197 @@
 		size = 100
 	}
 }
+#Rappel (92000/23000 POPS)  
+3455 = {
+	aristocrats = {
+		culture = danish
+		religion = catholic
+		size = 350
+	}
+
+	clergymen = {
+		culture = danish
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = danish
+		religion = catholic
+		size = 900
+	}
+
+	soldiers = {
+		culture = danish
+		religion = catholic
+		size = 400
+	}
+	
+	farmers = {
+		culture = danish
+		religion = catholic
+		size = 100
+	}
+	
+	clergymen = {
+		culture = estonian
+		religion = catholic
+		size = 350
+	}
+
+	artisans = {
+		culture = estonian
+		religion = catholic
+		size = 540
+	}
+
+	soldiers = {
+		culture = estonian
+		religion = catholic
+		size = 1180
+	}
+
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 15000
+	}
+	
+	clergymen = {
+		culture = estonian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = estonian
+		religion = catholic
+		size = 60
+	}
+
+	soldiers = {
+		culture = estonian
+		religion = catholic
+		size = 20
+	}
+
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 5800
+	}
+}
+#Wesenberg (160000/40000 POPS)  
+3453 = {
+	aristocrats = {
+		culture = estonian
+		religion = catholic
+		size = 100
+	}
+	
+	officers = {
+		culture = estonian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = estonian
+		religion = catholic
+		size = 325
+	}
+
+	artisans = {
+		culture = estonian
+		religion = catholic
+		size = 750
+	}
+
+	soldiers = {
+		culture = estonian
+		religion = catholic
+		size = 1600
+	}
+
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 28425
+	}
+
+	aristocrats = {
+		culture = danish
+		religion = catholic
+		size = 375
+	}
+
+	bureaucrats = {
+		culture = danish
+		religion = catholic
+		size = 75
+	}
+
+	officers = {
+		culture = danish
+		religion = catholic
+		size = 125
+	}
+
+	clergymen = {
+		culture = danish
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = danish
+		religion = catholic
+		size = 825
+	}
+
+	soldiers = {
+		culture = danish
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = danish
+		religion = catholic
+		size = 100
+	}
+	
+	aristocrats = {
+		culture = danish
+		religion = catholic
+		size = 100
+	}
+	
+	officers = {
+		culture = danish
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = danish
+		religion = catholic
+		size = 300
+	}
+
+	soldiers = {
+		culture = danish
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = danish
+		religion = catholic
+		size = 400
+	}
+
+}
 #Narva (184000/46000 POPS)  
 350 = {
 	clergymen = {
@@ -202,8 +393,180 @@
 		size = 1100
 	}
 }
-#Osle (92000/23000 POPS)  
+#Weissenstein (92000/23000 POPS)  
+3454 = {
+	aristocrats = {
+		culture = baltic_german
+		religion = catholic
+		size = 350
+	}
+
+	bureaucrats = {
+		culture = baltic_german
+		religion = catholic
+		size = 75
+	}
+	
+	clergymen = {
+		culture = baltic_german
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = baltic_german
+		religion = catholic
+		size = 900
+	}
+
+	soldiers = {
+		culture = baltic_german
+		religion = catholic
+		size = 1100
+	}
+	
+	farmers = {
+		culture = baltic_german
+		religion = catholic
+		size = 100
+	}
+	
+	clergymen = {
+		culture = estonian
+		religion = catholic
+		size = 350
+	}
+
+	artisans = {
+		culture = estonian
+		religion = catholic
+		size = 540
+	}
+
+	soldiers = {
+		culture = estonian
+		religion = catholic
+		size = 180
+	}
+
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 15000
+	}
+	
+	clergymen = {
+		culture = estonian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = estonian
+		religion = catholic
+		size = 60
+	}
+
+	soldiers = {
+		culture = estonian
+		religion = catholic
+		size = 20
+	}
+
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 5800
+	}
+}
+#Hapsal (92000/23000 POPS)  
 153 = {
+	aristocrats = {
+		culture = baltic_german
+		religion = catholic
+		size = 350
+	}
+	
+	bureaucrats = {
+		culture = baltic_german
+		religion = catholic
+		size = 175
+	}
+	
+	clergymen = {
+		culture = baltic_german
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = baltic_german
+		religion = catholic
+		size = 900
+	}
+
+	soldiers = {
+		culture = baltic_german
+		religion = catholic
+		size = 1900
+	}
+	
+	farmers = {
+		culture = baltic_german
+		religion = catholic
+		size = 100
+	}
+	
+	clergymen = {
+		culture = estonian
+		religion = catholic
+		size = 350
+	}
+
+	artisans = {
+		culture = estonian
+		religion = catholic
+		size = 540
+	}
+
+	soldiers = {
+		culture = estonian
+		religion = catholic
+		size = 180
+	}
+
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 15000
+	}
+	
+	clergymen = {
+		culture = estonian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = estonian
+		religion = catholic
+		size = 60
+	}
+
+	soldiers = {
+		culture = estonian
+		religion = catholic
+		size = 20
+	}
+
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 5800
+	}
+}
+#Old Pernau (92000/23000 POPS)  
+3447 = {
 	aristocrats = {
 		culture = baltic_german
 		religion = catholic
@@ -225,7 +588,7 @@
 	soldiers = {
 		culture = baltic_german
 		religion = catholic
-		size = 100
+		size = 1100
 	}
 	
 	farmers = {
@@ -290,6 +653,12 @@
 		size = 350
 	}
 
+	bureaucrats = {
+		culture = baltic_german
+		religion = catholic
+		size = 315
+	}
+	
 	clergymen = {
 		culture = baltic_german
 		religion = catholic
@@ -305,7 +674,167 @@
 	soldiers = {
 		culture = baltic_german
 		religion = catholic
+		size = 1100
+	}
+	
+	farmers = {
+		culture = baltic_german
+		religion = catholic
 		size = 100
+	}
+	
+	clergymen = {
+		culture = estonian
+		religion = catholic
+		size = 350
+	}
+
+	artisans = {
+		culture = estonian
+		religion = catholic
+		size = 540
+	}
+
+	soldiers = {
+		culture = estonian
+		religion = catholic
+		size = 180
+	}
+
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 15000
+	}
+	
+	clergymen = {
+		culture = estonian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = estonian
+		religion = catholic
+		size = 60
+	}
+
+	soldiers = {
+		culture = estonian
+		religion = catholic
+		size = 20
+	}
+
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 5800
+	}
+}
+#Oberpahlen (92000/23000 POPS)  
+3452 = {
+	aristocrats = {
+		culture = baltic_german
+		religion = catholic
+		size = 350
+	}
+
+	clergymen = {
+		culture = baltic_german
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = baltic_german
+		religion = catholic
+		size = 900
+	}
+
+	soldiers = {
+		culture = baltic_german
+		religion = catholic
+		size = 1100
+	}
+	
+	farmers = {
+		culture = baltic_german
+		religion = catholic
+		size = 100
+	}
+	
+	clergymen = {
+		culture = estonian
+		religion = catholic
+		size = 350
+	}
+
+	artisans = {
+		culture = estonian
+		religion = catholic
+		size = 540
+	}
+
+	soldiers = {
+		culture = estonian
+		religion = catholic
+		size = 180
+	}
+
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 15000
+	}
+	
+	clergymen = {
+		culture = estonian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = estonian
+		religion = catholic
+		size = 60
+	}
+
+	soldiers = {
+		culture = estonian
+		religion = catholic
+		size = 20
+	}
+
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 5800
+	}
+}
+#Fellin (92000/23000 POPS)  
+3448 = {
+	aristocrats = {
+		culture = baltic_german
+		religion = catholic
+		size = 350
+	}
+
+	clergymen = {
+		culture = baltic_german
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = baltic_german
+		religion = catholic
+		size = 900
+	}
+
+	soldiers = {
+		culture = baltic_german
+		religion = catholic
+		size = 1100
 	}
 	
 	farmers = {
@@ -370,6 +899,12 @@
 		size = 250
 	}
 
+	bureaucrats = {
+		culture = baltic_german
+		religion = catholic
+		size = 175
+	}
+	
 	clergymen = {
 		culture = baltic_german
 		religion = catholic
@@ -385,7 +920,7 @@
 	soldiers = {
 		culture = baltic_german
 		religion = catholic
-		size = 100
+		size = 1800
 	}
 	
 	farmers = {
@@ -464,6 +999,86 @@
 		culture = baltic_german
 		religion = catholic
 		size = 1325
+	}
+}
+#Neuhasen (92000/23000 POPS)  
+3451 = {
+	aristocrats = {
+		culture = baltic_german
+		religion = catholic
+		size = 350
+	}
+
+	clergymen = {
+		culture = baltic_german
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = baltic_german
+		religion = catholic
+		size = 900
+	}
+
+	soldiers = {
+		culture = baltic_german
+		religion = catholic
+		size = 1400
+	}
+	
+	farmers = {
+		culture = baltic_german
+		religion = catholic
+		size = 100
+	}
+	
+	clergymen = {
+		culture = estonian
+		religion = catholic
+		size = 350
+	}
+
+	artisans = {
+		culture = estonian
+		religion = catholic
+		size = 540
+	}
+
+	soldiers = {
+		culture = estonian
+		religion = catholic
+		size = 180
+	}
+
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 15000
+	}
+	
+	clergymen = {
+		culture = estonian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = estonian
+		religion = catholic
+		size = 60
+	}
+
+	soldiers = {
+		culture = estonian
+		religion = catholic
+		size = 20
+	}
+
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 5800
 	}
 }
 #Kuressaare (16000/4000 POPS)  

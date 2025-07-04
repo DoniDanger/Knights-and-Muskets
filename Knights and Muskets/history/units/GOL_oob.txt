@@ -1,0 +1,105 @@
+## Subetei Invasion
+DAG = {
+    value = 30
+    military_access = yes
+}
+SRV = {
+    value = 30
+    military_access = yes
+}
+LZG = {
+    value = -30
+    military_access = yes
+}
+GEO = {
+    value = -30
+    military_access = yes
+}
+AZB = {
+    value = -30
+    military_access = yes
+}
+
+## Mongol bros
+MGL = {
+    value = 200
+    military_access = yes
+}
+CHG = {
+    value = 200
+    military_access = yes
+}
+KAZ = {
+    value = 200
+    military_access = yes
+}
+ILK = {
+    value = 200
+    military_access = yes
+}
+
+army = {
+    name = "Jochid Wing"
+    location = 2611
+    regiment = {
+        name= "1st Jochid Cavalry"
+        type = dragoon
+        home = 1060
+    }
+    regiment = {
+        name= "2nd Jochid Cavalry"
+        type = dragoon
+        home = 2356
+    }
+    regiment = {
+        name= "3rd Jochid Cavalry"
+        type = dragoon
+        home = 1060
+    }
+    regiment = {
+        name= "Jochid House Guard"
+        type = cuirassier
+        home = 2356
+    }
+	regiment = {
+        name= "Ozbeg Tribesemen"
+        type = irregular
+        home = 1060
+    }
+    regiment = {
+        name= "Ozbeg Tribesemen"
+        type = irregular
+        home = 2356
+    }
+	regiment = {
+        name= "Kirgiz Riders"
+        type = cavalry
+        home = 1060
+    }
+	regiment = {
+        name= "Kirgiz Riders"
+        type = cavalry
+        home = 2356
+    }
+    regiment = {
+        name= "Trebuchet"
+        type = engineer
+        home = 1060
+    }
+}
+
+leader = {
+    name = "Jochi"
+    type = land
+    date = 1220.1.1
+    background = cavalry_school
+    personality = implacable
+}
+
+leader = {
+    name = "Batu Khan"
+    type = land
+    date = 1220.1.1
+    background = cavalry_school
+    personality = implacable
+}

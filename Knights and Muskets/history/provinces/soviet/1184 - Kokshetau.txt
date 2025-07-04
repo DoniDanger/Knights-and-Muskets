@@ -1,2 +1,6 @@
+owner = GOL
+controller = GOL
+add_core = GOL
+add_core = UZB
 trade_goods = iron
-life_rating = 15
+life_rating = 35

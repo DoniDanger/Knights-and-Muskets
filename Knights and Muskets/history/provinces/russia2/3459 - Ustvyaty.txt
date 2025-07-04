@@ -1,0 +1,8 @@
+owner = NOV
+controller = NOV
+add_core = NOV
+add_core = SMO
+add_core = PLT
+add_core = UKR
+trade_goods = wool
+life_rating = 35

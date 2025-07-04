@@ -1,0 +1,8 @@
+owner = GRD
+controller = GRD
+add_core = GRD
+add_core = VLN
+add_core = GLM
+add_core = UKR
+trade_goods = grain
+life_rating = 35

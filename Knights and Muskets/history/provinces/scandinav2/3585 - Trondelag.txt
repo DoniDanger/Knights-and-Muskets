@@ -1,0 +1,23 @@
+owner = NOR
+controller = NOR
+add_core = SCA
+add_core = NOR
+trade_goods = coal
+life_rating = 35
+naval_base = 1
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = infantry_arms_weaponsmith
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = crossbow_weaponsmith
+	upgrade = yes
+}
+1861.1.1 = { railroad = 3 }

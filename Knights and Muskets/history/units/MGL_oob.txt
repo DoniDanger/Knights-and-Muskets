@@ -4,6 +4,42 @@ WMG = {
     influence_value = 100
     military_access = yes
 }
+XBI = {
+    value = 40
+    level = 5
+    influence_value = 0
+    military_access = yes
+}
+ELI = {
+    value = 120
+    level = 5
+    influence_value = 0
+    military_access = yes
+}
+GOL = {
+    value = 200
+    level = 5
+    influence_value = 100
+    military_access = yes
+}
+KAZ = {
+    value = 200
+    level = 5
+    influence_value = 100
+    military_access = yes
+}
+CHG = {
+    value = 200
+    level = 5
+    influence_value = 100
+    military_access = yes
+}
+ILK = {
+    value = 200
+    level = 5
+    influence_value = 100
+    military_access = yes
+}
 
 army = {
     name = "Army of Chinghis Khan"
@@ -61,12 +97,12 @@ army = {
     regiment = {
         name= "1st Oirat Cavalry"
         type = dragoon
-        home = 2488
+        home = 2679
     }
     regiment = {
         name= "2nd Oirat Cavalry"
         type = dragoon
-        home = 2488
+        home = 2472
     }
     regiment = {
         name= "Ili Regiment"
@@ -102,7 +138,7 @@ army = {
 
 army = {
     name = "Oirat Wing"
-    location = 2611
+    location = 1181
     regiment = {
         name= "1st Oirat Cavalry"
         type = dragoon
@@ -166,7 +202,7 @@ army = {
     regiment = {
         name= "3rd Jin Spear Levy"
         type = irregular
-        home = 2488
+        home = 1613
     }
     regiment = {
         name= "1st Jin Bow Levy"
