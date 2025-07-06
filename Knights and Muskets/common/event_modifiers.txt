@@ -892,3 +892,33 @@ scroll_max = {
 scroll_bad = {
 	icon = 27
 }
+papal_legate = {
+	badboy = -0.15
+	administrative_efficiency_modifier = 0.1
+	icon = 5
+}
+holy_war = {
+	mobilisation_size = 0.01
+	mobilisation_economy_impact = -0.1
+	war_exhaustion = -0.05
+	org_regain = 0.05
+	icon = 15
+}
+holy_order_preachers = {
+	education_efficiency_modifier = 0.25
+	icon = 3
+}
+new_local_holy_day = {
+	population_growth = 0.01
+	icon = 19
+}
+new_holy_day = {
+	population_growth = 0.001
+	icon = 19
+}
+established_holy_day = {
+	icon = 18
+}
+curia_cooldown = {
+	icon = 8
+}
