@@ -20,7 +20,7 @@ folders = {
 	}
 	
 	culture_tech = {
-		aesthetics
+		canon_law
 		philosophy
 		social_thought
 		political_thought

@@ -1,0 +1,108 @@
+country_event = {
+	id = 90001
+	title = "New holy day sanctioned by Rome"
+	desc = "Pops good yes"
+	is_triggered_only = yes
+	option = {
+		name = "Make it a local one."
+		random_state = {
+			any_owned = {
+				add_province_modifier = {
+					name = new_local_holy_day
+					duration = 180
+				}
+			}
+		}
+	}
+	option = {
+		name = "The whole realm shall celebrate!"
+			any_owned = {
+				add_province_modifier = {
+					name = new_holy_day
+					duration = 180
+				}
+			}
+		}
+		add_country_modifier = {
+		name = established_holy_day
+		duration = 3600
+	}
+}	
+
+country_event = {
+	id = 90002
+	title = "Fall of the Papal States"
+	desc = "With Papal States occupied and dismantled a decision needs to be made on what shall happen to the holy city of Rome."
+	fire_only_once = yes
+	major = yes
+	trigger = {
+			AND = {
+				owns = 749
+				NOT = {
+					tag = PAP
+					exists = PAP
+					has_global_flag = avignon_exile
+					has_global_flag = wandering_holy_see
+					}
+				}
+			}
+	immediate = {
+			750 = { remove_core = PAP }
+			2074 = { remove_core = PAP }
+			2574 = { remove_core = PAP }
+			751 = { remove_core = PAP }
+			101 = { remove_core = PAP }
+			96 = { remove_core = PAP }
+			752 = { remove_core = PAP }
+			134 = { remove_core = PAP }
+			218 = { remove_core = PAP }
+			}
+	option = {
+		name = "The Holy See can stay in Rome."
+		release = PAP
+		badboy = -5
+		prestige = 50
+		plurality = 10
+	}
+	option = {
+		name = "Out to Avignon with them! Rome is ours!"
+			468 = { 
+			add_core = PAP
+			owner = {
+				release = PAP
+				}
+			}
+			badboy = 10
+			prestige = -100
+			money = 1000000
+			set_global_flag = avignon_exile
+		}
+}			
+country_event = {
+	id = 90003
+	title = "Fall of Avignon"
+	desc = "Avignon falls, and so, yet again the Roman Curia wanders the earth."
+	fire_only_once = yes
+	major = yes
+	trigger = {
+			AND = {
+				has_global_flag = avignon_exile
+				owns = 468
+				NOT = {
+					tag = PAP
+					exists = PAP
+					has_global_flag = wandering_holy_see
+					}
+				}
+			}
+	immediate = {
+			468 = { remove_core = PAP }
+			}
+	option = {
+		name = "It's time for the Holy See to let go of riches and practice what they preach."
+			set_global_flag = wandering_holy_see
+			badboy = 5
+			prestige = -50
+			money = 500000
+	}
+}

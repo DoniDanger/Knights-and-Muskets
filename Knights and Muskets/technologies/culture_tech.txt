@@ -1,6 +1,6 @@
-#aesthetics
-classicism_n_early_romanticism = {
-	area = aesthetics
+#canon_law
+decretum_gratiani = {
+	area = canon_law
 	year = 1200
 	cost = 3600
 
@@ -10,95 +10,95 @@ classicism_n_early_romanticism = {
 	}
 }
 
-romanticism = {
-	area = aesthetics
-	year = 1222
+liber_extra = {
+	area = canon_law
+	year = 1230
 	cost = 7200
 	
 	prestige = 0.05
 
-
 	ai_chance = {
 		factor = 1.05
 	}
 }
 
-realism = {
-	area = aesthetics
+papal_inquisition = {
+	area = canon_law
 	year = 1240
 	cost = 10800
 
-	prestige = 0.05
+	prestige = 0.075
+	
 	ai_chance = {
 		factor = 1.05
 	}
 }
-impressionism = {
-	area = aesthetics
+ad_extripanda = {
+	area = canon_law
 	year = 1255
 	cost = 14400
 
-	prestige = 0.05
+	prestige = 0.075
 	ai_chance = {
 		factor = 1.05
 	}
 }
-expressionism = {
-	area = aesthetics
+ubi_periculum = {
+	area = canon_law
 	year = 1270
 	cost = 18000
 
-	prestige = 0.075
+	prestige = 0.1
 	ai_chance = {
 		factor = 1.05
 	}
 }
-mass_culture_n_the_avant_garde = {
-	area = aesthetics
+liber_sextus = {
+	area = canon_law
 	year = 1300
 	cost = 21200
 
-	prestige = 0.075
+	prestige = 0.1
 	ai_chance = {
 		factor = 1.01
 	}
 }
-aesthetics_7 = {
-	area = aesthetics
+liber_septimus = {
+	area = canon_law
 	year = 1320
 	cost = 25200
 
-	prestige = 0.075
+	prestige = 0.125
 	ai_chance = {
 		factor = 1.05
 	}
 }
-aesthetics_8 = {
-	area = aesthetics
+unigenitus = {
+	area = canon_law
 	year = 1340
 	cost = 30200
 
-	prestige = 0.075
+	prestige = 0.125
 	ai_chance = {
 		factor = 1.01
 	}
 }
-aesthetics_9 = {
-	area = aesthetics
+canon_law_1360 = {
+	area = canon_law
 	year = 1360
 	cost = 25200
 
-	prestige = 0.075
+	prestige = 0.15
 	ai_chance = {
 		factor = 1.05
 	}
 }
-aesthetics_10 = {
-	area = aesthetics
+western_schism = {
+	area = canon_law
 	year = 1380
 	cost = 30200
 
-	prestige = 0.075
+	prestige = 0.15
 	ai_chance = {
 		factor = 1.01
 	}

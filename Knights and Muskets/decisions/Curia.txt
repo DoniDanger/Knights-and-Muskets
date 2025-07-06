@@ -1,0 +1,474 @@
+political_decisions = {
+	show_curia_decisions = {
+		potential = {
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			has_country_flag = curia_decisions
+			}
+		}
+		
+		allow = {
+			NOT = {
+			has_country_flag = curia_decisions
+		}
+		}
+		effect = {
+			set_country_flag = curia_decisions
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	hide_curia_decisions = {
+		potential = {
+			has_country_flag = curia_decisions
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			}
+		}
+		
+		allow = {
+			has_country_flag = curia_decisions
+		}
+		effect = {
+			clr_country_flag = curia_decisions
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	donate_money_to_curia_early = {
+		potential = {
+			has_country_flag = curia_decisions
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			papal_inquisition = 1
+			}
+		}
+		
+		allow = {
+			money = 50000
+			NOT = {
+			has_country_modifier = curia_cooldown
+			}
+		}
+		
+		effect = {
+			money = -50000
+			prestige = 40
+			add_country_modifier = {
+				name = curia_cooldown
+				duration = 360
+				}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	donate_money_to_curia_mid = {
+		potential = {
+			has_country_flag = curia_decisions
+			papal_inquisition = 1
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			liber_sextus = 1
+			}
+		}
+		
+		allow = {
+			money = 150000
+			NOT = {
+			has_country_modifier = curia_cooldown
+			}
+		}
+		
+		effect = {
+			money = -150000
+			prestige = 100
+			add_country_modifier = {
+				name = curia_cooldown
+				duration = 360
+				}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	donate_money_to_curia_late = {
+		potential = {
+			has_country_flag = curia_decisions
+			liber_sextus = 1
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			}
+		}
+		
+		allow = {
+			money = 500000
+			NOT = {
+			has_country_modifier = curia_cooldown
+			}
+		}
+		
+		effect = {
+			money = -500000
+			prestige = 200
+			add_country_modifier = {
+				name = curia_cooldown
+				duration = 360
+				}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	ask_pope_for_money_early = {
+		potential = {
+			has_country_flag = curia_decisions
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			papal_inquisition = 1
+			}
+		}
+		
+		allow = {
+			prestige = 50
+			NOT = {
+			has_country_modifier = curia_cooldown
+			}
+		}
+		
+		effect = {
+			money = 50000
+			prestige = -50
+			add_country_modifier = {
+				name = curia_cooldown
+				duration = 360
+				}
+		}
+		ai_will_do = { factor = 0 }
+	}
+		
+	ask_pope_for_money_mid = {
+		potential = {
+			has_country_flag = curia_decisions
+			papal_inquisition = 1
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			liber_sextus = 1
+			}
+		}
+		
+		allow = {
+			prestige = 100
+			NOT = {
+			has_country_modifier = curia_cooldown
+			}
+		}
+		
+		effect = {
+			money = 120000
+			prestige = -100
+			add_country_modifier = {
+				name = curia_cooldown
+				duration = 360
+				}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	ask_pope_for_money_late = {
+		potential = {
+			has_country_flag = curia_decisions
+			liber_sextus = 1
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			}
+		}
+		
+		allow = {
+			prestige = 200
+			NOT = {
+			has_country_modifier = curia_cooldown
+			}
+		}
+		
+		effect = {
+			money = 400000
+			prestige = -200
+			add_country_modifier = {
+				name = curia_cooldown
+				duration = 360
+				}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	request_papal_blessing_early = {
+		potential = {
+			has_country_flag = curia_decisions
+			liber_extra = 1
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			canon_law_1270 = 1
+			}
+		}
+		
+		allow = {
+			prestige = 25
+			NOT = {
+			has_country_modifier = curia_cooldown
+			}
+		}
+		
+		effect = {
+			plurality = 0.05
+			any_pop = {
+			militancy = -1
+			}
+			prestige = -25
+			add_country_modifier = {
+				name = curia_cooldown
+				duration = 360
+				}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	request_papal_blessing_mid = {
+		potential = {
+			has_country_flag = curia_decisions
+			canon_law_1270 = 1
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			}
+		}
+		
+		allow = {
+			prestige = 50
+			NOT = {
+			has_country_modifier = curia_cooldown
+			}
+		}
+		
+		effect = {
+			plurality = 0.1
+			any_pop = {
+			militancy = -2
+			}
+			prestige = -50
+			add_country_modifier = {
+				name = curia_cooldown
+				duration = 360
+				}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	send_papal_legate_early = {
+		potential = {
+			has_country_flag = curia_decisions
+			liber_extra = 1
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			canon_law_1270 = 1
+			}
+		}
+		
+		allow = {
+			prestige = 75
+			NOT = {
+			has_country_modifier = curia_cooldown
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = papal_legate
+				duration = 1080
+				}
+			prestige = -75
+			add_country_modifier = {
+				name = curia_cooldown
+				duration = 1080
+				}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	send_papal_legate_mid = {
+		potential = {
+			has_country_flag = curia_decisions
+			canon_law_1270 = 1
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			}
+		}
+		
+		allow = {
+			prestige = 125
+			NOT = {
+			has_country_modifier = curia_cooldown
+			has_country_modifier = papal_legate
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = papal_legate
+				duration = 3600
+				}
+			prestige = -125
+			add_country_modifier = {
+				name = curia_cooldown
+				duration = 1080
+				}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	call_for_crusade = {
+		potential = {
+			has_country_flag = curia_decisions
+			liber_extra = 1
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			}
+		}
+		
+		allow = {
+			prestige = 100
+			NOT = {
+			has_country_nodifier = curia_cooldown
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = holy_war
+				duration = 1800
+				}
+			prestige = -100
+			add_country_modifier = {
+				name = curia_cooldown
+				duration = 1800
+				}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	request_holy_order_preachers = {
+		potential = {
+			has_country_flag = curia_decisions
+			liber_extra = 1
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			}
+		}
+	
+		allow = {
+			prestige = 75
+			NOT = {
+			has_country_modifier = curia_cooldown
+			has_country_modifier = holy_order_preachers
+			}
+		}
+	
+		effect = {
+			add_country_modifier = {
+				name = holy_order_preachers
+				duration = 1800
+				}
+			prestige = -75
+			add_country_modifier = {
+				name = curia_cooldown
+				duration = 720
+				}
+		}
+		ai_will_do = { factor = 0 }
+		}
+	
+	sanction_holy_day = {
+		potential = {
+			has_country_flag = curia_decisions
+			liber_extra = 1
+			OR = {
+			exists = PAP
+			has_global_flag = wandering_holy_see
+			}
+			NOT {
+			tag = PAP
+			}
+		}
+		
+		allow = {
+			prestige = 100
+			war = no
+			NOT = {
+			has_country_modifier = curia_cooldown
+			has_country_modifier = established_holy_day
+			}
+		}
+		
+		effect = {
+			country_event = 90001
+			prestige = -100
+			add_country_modifier = {
+				name = curia_cooldown
+				duration = 1080
+				}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
