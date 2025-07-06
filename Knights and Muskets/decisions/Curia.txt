@@ -241,7 +241,7 @@ political_decisions = {
 			}
 			NOT {
 			tag = PAP
-			canon_law_1270 = 1
+			ubi_periculum = 1
 			}
 		}
 		
@@ -269,7 +269,7 @@ political_decisions = {
 	request_papal_blessing_mid = {
 		potential = {
 			has_country_flag = curia_decisions
-			canon_law_1270 = 1
+			ubi_periculum = 1
 			OR = {
 			exists = PAP
 			has_global_flag = wandering_holy_see
@@ -310,7 +310,7 @@ political_decisions = {
 			}
 			NOT {
 			tag = PAP
-			canon_law_1270 = 1
+			ubi_periculum = 1
 			}
 		}
 		
@@ -338,7 +338,7 @@ political_decisions = {
 	send_papal_legate_mid = {
 		potential = {
 			has_country_flag = curia_decisions
-			canon_law_1270 = 1
+			ubi_periculum = 1
 			OR = {
 			exists = PAP
 			has_global_flag = wandering_holy_see
