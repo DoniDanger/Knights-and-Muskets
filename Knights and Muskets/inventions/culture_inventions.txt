@@ -117,7 +117,7 @@ ut_negotium = {
 }
 #ubi_periculum
 expressionist_literature = {
-	limit = { canon_law_1270 = 1 }
+	limit = { ubi_periculum = 1 }
 	news = no
 	chance = {
 		base = 2	
@@ -127,7 +127,7 @@ expressionist_literature = {
 	}
 }
 expressionist_art = {
-	limit = { canon_law_1270 = 1 }
+	limit = { ubi_periculum = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -137,7 +137,7 @@ expressionist_art = {
 	}
 }
 expressionist_music = {
-	limit = { canon_law_1270 = 1 }
+	limit = { ubi_periculum = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -177,7 +177,7 @@ avantgarde_music = {
 		shared_prestige = 25 
 	}
 }
-surpapal_inquisition = {
+surrealism = {
 	limit = { liber_sextus = 1 }
 	news = no
 	chance = {
