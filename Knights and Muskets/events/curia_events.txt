@@ -67,9 +67,9 @@ country_event = {
 	option = {
 		name = "Out to Avignon with them! Rome is ours!"
 			468 = { 
-			add_core = PAP
-			owner = {
-				release = PAP
+				add_core = PAP 
+				owner = {
+					release = PAP
 				}
 			}
 			badboy = 10

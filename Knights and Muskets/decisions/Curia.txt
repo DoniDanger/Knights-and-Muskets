@@ -1,13 +1,14 @@
 political_decisions = {
 	show_curia_decisions = {
 		potential = {
+			has_country_flag = catholic_country
 			OR = {
-			exists = PAP
-			has_global_flag = wandering_holy_see
+				exists = PAP
+				has_global_flag = wandering_holy_see
 			}
 			NOT {
-			tag = PAP
-			has_country_flag = curia_decisions
+				tag = PAP
+				has_country_flag = curia_decisions
 			}
 		}
 		
@@ -25,12 +26,12 @@ political_decisions = {
 	hide_curia_decisions = {
 		potential = {
 			has_country_flag = curia_decisions
-			OR = {
-			exists = PAP
+				OR = {
+				exists = PAP
 			has_global_flag = wandering_holy_see
 			}
 			NOT {
-			tag = PAP
+				tag = PAP
 			}
 		}
 		
@@ -45,30 +46,32 @@ political_decisions = {
 	
 	donate_money_to_curia_early = {
 		potential = {
+			has_country_flag = catholic_country
 			has_country_flag = curia_decisions
 			OR = {
-			exists = PAP
-			has_global_flag = wandering_holy_see
+				exists = PAP
+				has_global_flag = wandering_holy_see
 			}
 			NOT {
-			tag = PAP
-			papal_inquisition = 1
+				tag = PAP
+				papal_inquisition = 1
 			}
 		}
 		
 		allow = {
-			money = 50000
+			money = 100000
 			NOT = {
 			has_country_modifier = curia_cooldown
 			}
 		}
 		
 		effect = {
-			money = -50000
-			prestige = 40
+			money = -80000
+			prestige = 24
+			PAP = { who = THIS value = 40 }
 			add_country_modifier = {
 				name = curia_cooldown
-				duration = 360
+				duration = 730
 				}
 		}
 		ai_will_do = { factor = 0 }
@@ -77,30 +80,32 @@ political_decisions = {
 	donate_money_to_curia_mid = {
 		potential = {
 			has_country_flag = curia_decisions
+			has_country_flag = catholic_country
 			papal_inquisition = 1
 			OR = {
-			exists = PAP
-			has_global_flag = wandering_holy_see
+				exists = PAP
+				has_global_flag = wandering_holy_see
 			}
 			NOT {
-			tag = PAP
-			liber_sextus = 1
+				tag = PAP
+				liber_sextus = 1
 			}
 		}
 		
 		allow = {
-			money = 150000
+			money = 240000
 			NOT = {
 			has_country_modifier = curia_cooldown
 			}
 		}
 		
 		effect = {
-			money = -150000
-			prestige = 100
+			money = -220000
+			PAP = { who = THIS value = 60 }
+			prestige = 48
 			add_country_modifier = {
 				name = curia_cooldown
-				duration = 360
+				duration = 730
 				}
 		}
 		ai_will_do = { factor = 0 }
@@ -109,10 +114,11 @@ political_decisions = {
 	donate_money_to_curia_late = {
 		potential = {
 			has_country_flag = curia_decisions
+			has_country_flag = catholic_country
 			liber_sextus = 1
 			OR = {
-			exists = PAP
-			has_global_flag = wandering_holy_see
+				exists = PAP
+				has_global_flag = wandering_holy_see
 			}
 			NOT {
 			tag = PAP
@@ -120,18 +126,19 @@ political_decisions = {
 		}
 		
 		allow = {
-			money = 500000
+			money = 560000
 			NOT = {
 			has_country_modifier = curia_cooldown
 			}
 		}
 		
 		effect = {
-			money = -500000
-			prestige = 200
+			money = -540000
+			PAP = { who = THIS value = 80 }
+			prestige = 78
 			add_country_modifier = {
 				name = curia_cooldown
-				duration = 360
+				duration = 730
 				}
 		}
 		ai_will_do = { factor = 0 }
@@ -140,30 +147,38 @@ political_decisions = {
 	ask_pope_for_money_early = {
 		potential = {
 			has_country_flag = curia_decisions
+			has_country_flag = catholic_country
 			OR = {
-			exists = PAP
-			has_global_flag = wandering_holy_see
+				exists = PAP
+				has_global_flag = wandering_holy_see
 			}
 			NOT {
-			tag = PAP
-			papal_inquisition = 1
+				tag = PAP
+				papal_inquisition = 1
 			}
 		}
 		
 		allow = {
-			prestige = 50
+			prestige = 40
+			PAP = {
+				relation = {
+					who = THIS
+					value = 30
+				}
+			}
 			NOT = {
-			has_country_modifier = curia_cooldown
+				has_country_modifier = curia_cooldown
 			}
 		}
 		
 		effect = {
-			money = 50000
-			prestige = -50
+			money = 120000
+			prestige = -40
+			PAP = { who = THIS value = -25 }
 			add_country_modifier = {
 				name = curia_cooldown
-				duration = 360
-				}
+				duration = 730
+			}
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -171,31 +186,39 @@ political_decisions = {
 	ask_pope_for_money_mid = {
 		potential = {
 			has_country_flag = curia_decisions
+			has_country_flag = catholic_country
 			papal_inquisition = 1
 			OR = {
-			exists = PAP
-			has_global_flag = wandering_holy_see
+				exists = PAP
+				has_global_flag = wandering_holy_see
 			}
 			NOT {
-			tag = PAP
-			liber_sextus = 1
+				tag = PAP
+				liber_sextus = 1
 			}
 		}
 		
 		allow = {
-			prestige = 100
+			prestige = 65
+			PAP = {
+				relation = {
+					who = THIS
+					value = 30
+				}
+			}
 			NOT = {
-			has_country_modifier = curia_cooldown
+				has_country_modifier = curia_cooldown
 			}
 		}
 		
 		effect = {
-			money = 120000
-			prestige = -100
+			money = 240000
+			prestige = -65
+			PAP = { who = THIS value = -40 }
 			add_country_modifier = {
 				name = curia_cooldown
-				duration = 360
-				}
+				duration = 730
+			}
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -203,18 +226,25 @@ political_decisions = {
 	ask_pope_for_money_late = {
 		potential = {
 			has_country_flag = curia_decisions
+			has_country_flag = catholic_country
 			liber_sextus = 1
 			OR = {
-			exists = PAP
-			has_global_flag = wandering_holy_see
+				exists = PAP
+				has_global_flag = wandering_holy_see
 			}
 			NOT {
-			tag = PAP
+				tag = PAP
 			}
 		}
 		
 		allow = {
-			prestige = 200
+			prestige = 95
+			PAP = {
+				relation = {
+					who = THIS
+					value = 30
+				}
+			}
 			NOT = {
 			has_country_modifier = curia_cooldown
 			}
@@ -222,11 +252,12 @@ political_decisions = {
 		
 		effect = {
 			money = 400000
-			prestige = -200
+			prestige = -95
+			PAP = { who = THIS value = -60 }
 			add_country_modifier = {
 				name = curia_cooldown
-				duration = 360
-				}
+				duration = 730
+			}
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -234,6 +265,7 @@ political_decisions = {
 	request_papal_blessing_early = {
 		potential = {
 			has_country_flag = curia_decisions
+			has_country_flag = catholic_country
 			liber_extra = 1
 			OR = {
 			exists = PAP
@@ -247,6 +279,12 @@ political_decisions = {
 		
 		allow = {
 			prestige = 25
+			PAP = {
+				relation = {
+					who = THIS
+					value = 50
+				}
+			}
 			NOT = {
 			has_country_modifier = curia_cooldown
 			}
@@ -255,12 +293,13 @@ political_decisions = {
 		effect = {
 			plurality = 0.05
 			any_pop = {
-			militancy = -1
+				militancy = -1.5
 			}
 			prestige = -25
+			PAP = { who = THIS value = -10 }
 			add_country_modifier = {
 				name = curia_cooldown
-				duration = 360
+				duration = 730
 				}
 		}
 		ai_will_do = { factor = 0 }
@@ -269,6 +308,7 @@ political_decisions = {
 	request_papal_blessing_mid = {
 		potential = {
 			has_country_flag = curia_decisions
+			has_country_flag = catholic_country
 			ubi_periculum = 1
 			OR = {
 			exists = PAP
@@ -281,6 +321,12 @@ political_decisions = {
 		
 		allow = {
 			prestige = 50
+			PAP = {
+				relation = {
+					who = THIS
+					value = 50
+				}
+			}
 			NOT = {
 			has_country_modifier = curia_cooldown
 			}
@@ -289,12 +335,13 @@ political_decisions = {
 		effect = {
 			plurality = 0.1
 			any_pop = {
-			militancy = -2
+			militancy = -3
 			}
 			prestige = -50
+			PAP = { who = THIS value = -25 }
 			add_country_modifier = {
 				name = curia_cooldown
-				duration = 360
+				duration = 730
 				}
 		}
 		ai_will_do = { factor = 0 }
@@ -303,6 +350,7 @@ political_decisions = {
 	send_papal_legate_early = {
 		potential = {
 			has_country_flag = curia_decisions
+			has_country_flag = catholic_country
 			liber_extra = 1
 			OR = {
 			exists = PAP
@@ -316,6 +364,12 @@ political_decisions = {
 		
 		allow = {
 			prestige = 75
+			PAP = {
+				relation = {
+					who = THIS
+					value = 80
+				}
+			}
 			NOT = {
 			has_country_modifier = curia_cooldown
 			}
@@ -327,6 +381,7 @@ political_decisions = {
 				duration = 1080
 				}
 			prestige = -75
+			PAP = { who = THIS value = 50 }
 			add_country_modifier = {
 				name = curia_cooldown
 				duration = 1080
@@ -338,6 +393,7 @@ political_decisions = {
 	send_papal_legate_mid = {
 		potential = {
 			has_country_flag = curia_decisions
+			has_country_flag = catholic_country
 			ubi_periculum = 1
 			OR = {
 			exists = PAP
@@ -350,6 +406,12 @@ political_decisions = {
 		
 		allow = {
 			prestige = 125
+			PAP = {
+				relation = {
+					who = THIS
+					value = 80
+				}
+			}
 			NOT = {
 			has_country_modifier = curia_cooldown
 			has_country_modifier = papal_legate
@@ -357,6 +419,7 @@ political_decisions = {
 		}
 		
 		effect = {
+			PAP = { who = THIS value = 80 }
 			add_country_modifier = {
 				name = papal_legate
 				duration = 3600
@@ -373,6 +436,7 @@ political_decisions = {
 	call_for_crusade = {
 		potential = {
 			has_country_flag = curia_decisions
+			has_country_flag = catholic_country
 			liber_extra = 1
 			OR = {
 			exists = PAP
@@ -385,12 +449,19 @@ political_decisions = {
 		
 		allow = {
 			prestige = 100
+			PAP = {
+				relation = {
+					who = THIS
+					value = 120
+				}
+			}
 			NOT = {
 			has_country_nodifier = curia_cooldown
 			}
 		}
 		
 		effect = {
+			PAP = { who = THIS value = 60 }
 			add_country_modifier = {
 				name = holy_war
 				duration = 1800
@@ -407,6 +478,7 @@ political_decisions = {
 	request_holy_order_preachers = {
 		potential = {
 			has_country_flag = curia_decisions
+			has_country_flag = catholic_country
 			liber_extra = 1
 			OR = {
 			exists = PAP
@@ -419,6 +491,12 @@ political_decisions = {
 	
 		allow = {
 			prestige = 75
+			PAP = {
+				relation = {
+					who = THIS
+					value = 120
+				}
+			}
 			NOT = {
 			has_country_modifier = curia_cooldown
 			has_country_modifier = holy_order_preachers
@@ -426,6 +504,7 @@ political_decisions = {
 		}
 	
 		effect = {
+			PAP = { who = THIS value = 40 }
 			add_country_modifier = {
 				name = holy_order_preachers
 				duration = 1800
@@ -442,6 +521,7 @@ political_decisions = {
 	sanction_holy_day = {
 		potential = {
 			has_country_flag = curia_decisions
+			has_country_flag = catholic_country
 			liber_extra = 1
 			OR = {
 			exists = PAP
@@ -455,6 +535,12 @@ political_decisions = {
 		allow = {
 			prestige = 100
 			war = no
+			PAP = {
+				relation = {
+					who = THIS
+					value = 150
+				}
+			}
 			NOT = {
 			has_country_modifier = curia_cooldown
 			has_country_modifier = established_holy_day
@@ -463,6 +549,7 @@ political_decisions = {
 		
 		effect = {
 			country_event = 90001
+			PAP = { who = THIS value = 30 }
 			prestige = -100
 			add_country_modifier = {
 				name = curia_cooldown
