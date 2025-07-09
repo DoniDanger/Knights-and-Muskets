@@ -114,7 +114,7 @@ vertical_windmills = {
 }
 tenant_farming = {
 	area = tech_power
-	year = 1270
+	year = 1255
 	cost = 18000
 
 	factory_goods_output = { coal = 0.1 }
@@ -142,7 +142,7 @@ tenant_farming = {
 }
 early_selective_breeding = {
 	area = tech_power
-	year = 1300
+	year = 1280
 	cost = 21200
 
 	factory_goods_output = { coal = 0.1 }
@@ -171,7 +171,7 @@ early_selective_breeding = {
 }
 medieval_agricultural_recession = {
 	area = tech_power
-	year = 1315
+	year = 1310
 	cost = 25200
 
 	factory_goods_output = { coal = 0.1 }

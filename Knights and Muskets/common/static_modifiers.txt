@@ -221,9 +221,9 @@ average_literacy = {
 }
 
 plurality = { 
-	ruling_party_support = 0.01
-	administrative_efficiency_modifier = 0.01
-	research_points_modifier = 0.005
+	ruling_party_support = 0.1
+	administrative_efficiency_modifier = 0.005
+	research_points_modifier = 0.01
 }
 
 generalised_debt_default = {

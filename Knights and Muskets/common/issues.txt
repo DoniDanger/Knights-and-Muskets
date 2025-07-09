@@ -345,7 +345,7 @@ political_reforms = {
 				NOT = { estate_affiliation = nobility_army }
 				NOT = { estate_affiliation = nobility_church }
 				NOT = { estate_affiliation = nobility_gentry }
-				has_country_flag = reform_feudal_tenure 
+				has_country_flag = reform_feudal_tenure2
 			}
         }
     } 
@@ -498,6 +498,7 @@ political_reforms = {
             global_immigrant_attract = 0.08
 			allow = {
 				citizenship_policy = full_citizenship
+				has_country_flag = judicial_parliament_instituted
             }
             
         }
@@ -907,9 +908,6 @@ social_reforms = {
             administrative_multiplier = 4
             education_efficiency_modifier = 0.025
             pension_level = 0.20
-			allow = {
-				has_country_flag = centralized_state_1
-			}
         }
         low_health_care = { #medium_centralization
             tax_efficiency = 0.05
@@ -923,7 +921,7 @@ social_reforms = {
 			navy_tech_research_bonus = -0.01
 			army_tech_research_bonus = -0.01
 			allow = {
-				has_country_flag = centralized_state_2
+				has_country_flag = centralized_state_1
 			}
         }
         acceptable_health_care = { #high_centralization
@@ -938,7 +936,7 @@ social_reforms = {
 			navy_tech_research_bonus = -0.03
 			army_tech_research_bonus = -0.03
 			allow = {
-				has_country_flag = centralized_state_3
+				has_country_flag = centralized_state_2
 			}
         }
         good_health_care = { #full_centralization
@@ -954,7 +952,7 @@ social_reforms = {
 			army_tech_research_bonus = -0.05
 			
             allow = {
-				has_country_flag = centralized_state_4
+				has_country_flag = centralized_state_3
 			}
         }
     }

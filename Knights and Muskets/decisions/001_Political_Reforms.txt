@@ -45,12 +45,21 @@ political_decisions = {
 			NOT =  { wage_reform = no_minimum_wage }
             NOT =  { safety_regulations = no_safety }
             NOT =  { safety_regulations = trinket_safety }
-            OR = {
-                nationalism_n_imperialism = 1
-            }
+			NOT =  { health_care = no_health_care } 
+            state_n_government = 1
         }
         effect = {
             set_country_flag = nepotism_allowed
+			random_owned = {
+				limit = {
+					owner = {
+						promotion_laws = privlage_benefits
+					}
+				}
+				owner = {
+					social_reform = nepotism
+				}
+			}
             any_pop = {
                 limit = {
                     strata = rich
@@ -72,18 +81,41 @@ political_decisions = {
         allow = {
             war = no
             NOT =  { wage_reform = no_minimum_wage }
-            NOT =  { safety_regulations = no_safety }
-            NOT =  { safety_regulations = trinket_safety }
+			NOT =  { wage_reform = trinket_wage }
+            OR = {
+                safety_regulations = acceptable_safety
+                safety_regulations = good_safety
+            }
             OR = {
                 health_care = acceptable_health_care
                 health_care = good_health_care
             }
             OR = {
-                revolution_n_counterrevolution = 1
+                nationalism_n_imperialism = 1
             }
         }
         effect = {
             set_country_flag = skill_and_merit_allowed
+			random_owned = {
+				limit = {
+					owner = {
+						promotion_laws = privlage_benefits
+					}
+				}
+				owner = {
+					social_reform = nepotism
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						promotion_laws = nepotism
+					}
+				}
+				owner = {
+					social_reform = skill_and_merit_based
+				}
+			}
             any_pop = {
                 limit = {
                     strata = rich
@@ -91,6 +123,342 @@ political_decisions = {
                 consciousness = 3
             }
             prestige = 5
+        }
+    }
+	
+	expand_bureaucratic_administration = {
+        picture = switch_to_culture_tech
+        potential = {
+            civilized = yes
+            exists = yes
+            promotion_laws = privlage_benefits
+            NOT = { has_country_flag = centralized_state_1 }
+        }
+        allow = {
+            war = no
+            NOT =  { wage_reform = no_minimum_wage }
+            NOT =  { safety_regulations = no_safety }
+            NOT =  { safety_regulations = trinket_safety } 
+			NOT =  { health_care = no_health_care }            
+            ideological_thought = 1
+        }
+        effect = {
+            set_country_flag = centralized_state_1
+            any_pop = {
+                limit = {
+                    strata = rich
+                }
+                consciousness = 3
+            }
+			any_pop = {
+                limit = {
+                    strata = middle
+                }
+                consciousness = -2
+				militancy = -3
+            }
+            prestige = 5
+        }
+    }
+	
+	expand_bureaucratic_administration_mid = {
+        picture = switch_to_culture_tech
+        potential = {
+            civilized = yes
+            exists = yes
+			has_country_flag = centralized_state_1
+            NOT = { has_country_flag = centralized_state_2 }
+        }
+        allow = {
+            war = no
+			promotion_laws = nepotism
+            NOT =  { wage_reform = no_minimum_wage }
+			NOT =  { wage_reform = trinket_wage }
+			NOT =  { health_care = no_health_care }  
+			NOT =  { health_care = trinket_health_care }			
+			OR = {
+                safety_regulations = acceptable_safety
+                safety_regulations = good_safety
+            }         
+            state_n_government = 1
+        }
+        effect = {
+            set_country_flag = centralized_state_2
+            any_pop = {
+                limit = {
+                    strata = rich
+                }
+                consciousness = 3
+            }
+			any_pop = {
+                limit = {
+                    strata = middle
+                }
+                consciousness = -2
+				militancy = -3
+            }
+            prestige = 5
+        }
+    }
+	
+	expand_bureaucratic_administration_late = {
+        picture = switch_to_culture_tech
+        potential = {
+            civilized = yes
+            exists = yes
+			has_country_flag = centralized_state_2
+            NOT = { has_country_flag = centralized_state_3 }
+        }
+        allow = {
+            war = no
+			promotion_laws = skill_and_merit_based
+			OR = {
+                health_care = acceptable_minimum_wage
+                health_care = good_minimum_wage
+            }
+			OR = {
+                health_care = acceptable_safety
+                health_care = good_safety
+            }
+            OR = {
+                health_care = acceptable_health_care
+                health_care = good_health_care
+            }
+            OR = {
+                nationalism_n_imperialism = 1
+            }
+        }
+        effect = {
+            set_country_flag = centralized_state_3
+            any_pop = {
+                limit = {
+                    strata = rich
+                }
+                consciousness = 3
+            }
+			any_pop = {
+                limit = {
+                    strata = middle
+                }
+                consciousness = -2
+				militancy = -3
+            }
+            prestige = 5
+        }
+    }
+	
+	grant_rights_to_serfs = {
+        picture = switch_to_culture_tech
+        potential = {
+            civilized = yes
+            exists = yes
+            NOT = { has_country_flag = serfdom_de_facto_abolished }
+        }
+        allow = {
+            war = no
+			promotion_laws = nepotism
+            NOT =  { wage_reform = no_minimum_wage }
+			NOT =  { wage_reform = trinket_wage }
+			NOT =  { safety_regulations = no_safety }
+            NOT =  { safety_regulations = trinket_safety } 
+			NOT =  { health_care = no_health_care }  
+			NOT =  { health_care = trinket_health_care }	
+			OR = {
+                voting_system = jefferson_method
+                voting_system = proportional_representation
+            }  			        
+            OR = {
+				government = peasant_republic
+				state_n_government = 1
+			}
+        }
+        effect = {
+            set_country_flag = serfdom_de_facto_abolished
+            any_pop = {
+                limit = {
+                    strata = rich
+                }
+                consciousness = 3
+				militancy = 2
+            }
+			any_pop = {
+                limit = {
+                    strata = poor
+                }
+                consciousness = -2
+				militancy = -3
+            }
+            prestige = 5
+        }
+    }
+	
+	abolition_of_serfdom = {
+        picture = switch_to_culture_tech
+        potential = {
+            civilized = yes
+            exists = yes
+			has_country_flag = serfdom_de_facto_abolished
+            NOT = { has_country_flag = serfdom_fully_abolished }
+        }
+        allow = {
+            war = no
+			promotion_laws = skill_and_merit_based
+            NOT =  { wage_reform = no_minimum_wage }
+			NOT =  { wage_reform = trinket_wage }
+            voting_system = proportional_representation	
+			OR = {
+                safety_regulations = acceptable_safety
+                safety_regulations = good_safety
+            }         
+			OR = {
+				government = peasant_republic
+				nationalism_n_imperialism = 1
+			}
+        }
+        effect = {
+            set_country_flag = serfdom_fully_abolished
+            any_pop = {
+                limit = {
+                    strata = rich
+                }
+                consciousness = 5
+				militancy = 4
+            }
+			any_pop = {
+                limit = {
+                    strata = poor
+                }
+                consciousness = -4
+				militancy = -5
+            }
+            prestige = 5
+        }
+    }
+	
+	reform_feudal_tenure = {
+        picture = switch_to_culture_tech
+        potential = {
+            civilized = yes
+            exists = yes
+            NOT = { has_country_flag = reform_feudal_tenure }
+        }
+        allow = {
+            war = no
+            NOT =  { wage_reform = no_minimum_wage }
+			NOT =  { safety_regulations = no_safety }
+			NOT =  { health_care = no_health_care }  				        
+            OR = {
+				government = peasant_republic
+				state_n_government = 1
+			}
+			three_field_system = 1
+        }
+        effect = {
+            set_country_flag = reform_feudal_tenure
+            any_pop = {
+                limit = {
+                    strata = rich
+                }
+                consciousness = 3
+				militancy = 2
+            }
+			any_pop = {
+                limit = {
+                    strata = poor
+                }
+                consciousness = -2
+				militancy = -3
+            }
+            prestige = 5
+        }
+    }
+	
+	institute_freeholding = {
+        picture = switch_to_culture_tech
+        potential = {
+            civilized = yes
+            exists = yes
+			has_country_flag = reform_feudal_tenure
+            NOT = { has_country_flag = reform_feudal_tenure2 }
+        }
+        allow = {
+            war = no
+			promotion_laws = nepotism
+            NOT =  { wage_reform = no_minimum_wage }
+			NOT =  { wage_reform = trinket_wage }
+			NOT =  { safety_regulations = no_safety }
+            NOT =  { safety_regulations = trinket_safety }     
+			NOT =  { health_care = no_health_care }  
+			NOT =  { health_care = trinket_health_care }	
+			NOT =  { voting_system = first_past_the_post }
+			OR = {
+				government = peasant_republic
+				nationalism_n_imperialism = 1
+			}
+			tenant_farming = 1
+        }
+        effect = {
+            set_country_flag = reform_feudal_tenure2
+            any_pop = {
+                limit = {
+                    strata = rich
+                }
+                consciousness = 5
+				militancy = 4
+            }
+			any_pop = {
+                limit = {
+                    strata = poor
+                }
+                consciousness = -4
+				militancy = -5
+            }
+            prestige = 5
+        }
+    }
+	
+	establish_judicial_parliament = {
+        picture = switch_to_culture_tech
+        potential = {
+            civilized = yes
+            exists = yes
+            NOT = { has_country_flag = judicial_parliament_instituted }
+        }
+        allow = {
+            war = no
+			NOT =  { health_care = no_health_care }  
+			NOT =  { health_care = trinket_health_care }
+			NOT =  { trade_unions = no_trade_unions }
+			promotion_laws = nepotism
+			upper_house_composition = appointed	
+			public_meetings = yes_meeting					
+			OR = {
+                press_rights = censored_press
+                press_rights = free_press
+            }    
+			OR = {
+                vote_franschise = landed_voting
+                vote_franschise = wealth_weighted_voting
+            }         
+            state_n_government = 1
+        }
+        effect = {
+            set_country_flag = judicial_parliament_instituted
+            any_pop = {
+                limit = {
+                    strata = rich
+                }
+                consciousness = -3
+				militancy = -2
+            }
+			any_pop = {
+                limit = {
+                    strata = middle
+                }
+                consciousness = -2
+				militancy = -1
+            }
+            prestige = 15
         }
     }
 }
