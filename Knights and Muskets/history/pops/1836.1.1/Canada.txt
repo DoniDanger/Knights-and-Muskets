@@ -306,25 +306,25 @@
 55 = {
 	clergymen = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 1100
 	}
 
 	soldiers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 200
 	}
 
 	farmers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 15700
 	}
 }
@@ -465,31 +465,31 @@
 68 = {
 	bureaucrats = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 75
 	}
 
 	clergymen = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 275
 	}
 
 	artisans = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 750
 	}
 
 	soldiers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 150
 	}
 
 	farmers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 12750
 	}
 
@@ -523,25 +523,25 @@
 70 = {
 	clergymen = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
 	artisans = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 1500
 	}
 
 	soldiers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 100
 	}
 
 	farmers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 6350
 	}
 }
@@ -551,31 +551,31 @@
 71 = {
 	bureaucrats = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 4000
 	}
 
 	soldiers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 200
 	}
 
 	farmers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 14600
 	}
 
@@ -587,7 +587,7 @@
 
 	labourers = {
 		culture = afro_american
-		religion = protestant
+		religion = catholic
 		size = 750
 	}
 }
@@ -595,25 +595,25 @@
 72 = {
 	clergymen = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
 	artisans = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 750
 	}
 
 	soldiers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 125
 	}
 
 	farmers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 9075
 	}
 
@@ -627,25 +627,25 @@
 73 = {
 	clergymen = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
 	artisans = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
 	farmers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 4650
 	}
 
@@ -656,31 +656,31 @@
 74 = {
 	bureaucrats = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
 	clergymen = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 75
 	}
 
 	artisans = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 2000
 	}
 
 	soldiers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
 	farmers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 2825
 	}
 
@@ -706,25 +706,25 @@
 75 = {
 	clergymen = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 75
 	}
 
 	artisans = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
 	farmers = {
 		culture = anglo_canadian
-		religion = protestant
+		religion = catholic
 		size = 4625
 	}
 

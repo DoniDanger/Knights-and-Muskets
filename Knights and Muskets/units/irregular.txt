@@ -32,8 +32,8 @@ irregular = { #levies
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 3
-	defence = 3
+	attack = 2
+	defence = 2
 	discipline = 0.9
 	support = 0.0
 	maneuver = 1

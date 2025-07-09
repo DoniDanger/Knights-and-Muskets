@@ -4,3 +4,4 @@ add_core = BUR
 add_core = MMO
 trade_goods = opium
 life_rating = 35
+

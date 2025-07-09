@@ -657,8 +657,8 @@ SGF_empire;Holy Roman Empire;x
 SGF_empire_ADJ;Imperial;x  
 SIC_empire;Holy Roman Empire;x      
 SIC_empire_ADJ;Imperial;x                                  
-GER;Holy Roman Empire;x
-GER_ADJ;Imperial;x    
+GER;Kingdom of Germany;x
+GER_ADJ;German;x    
 MEI;Margraviate of Meissen;x                                 
 MEI_ADJ;Meissen;x
 LOM;Lombard League;x                                     

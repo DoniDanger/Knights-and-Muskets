@@ -1,6 +1,6 @@
 owner = SOL
 controller = SOL
 add_core = SOL
-trade_goods = grain
+trade_goods = furs
 life_rating = 33
 

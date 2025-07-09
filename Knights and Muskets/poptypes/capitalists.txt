@@ -20,27 +20,33 @@ rebel =
 can_build = yes
 
 everyday_needs = {
-	coal = 20
-	paper = 20
-	luxury_clothes = 20
-	luxury_furniture = 20
-	wine = 20
-	tobacco = 20 
-	coffee = 20
-	horses = 3
+	coal = 8
+	paper = 16
+	luxury_clothes = 8
+	luxury_furniture = 8
+	wine = 8
+	tobacco = 8 
+	coffee = 4
+	horses = 4
+	trade_coins = 18
 }
 
 life_needs = {
-	cattle = 1.5
-	wool =  1.5
-	fish =  1.5
-	fruit =  1.5
-	grain =  3.5
+	cattle = 2
+	wool =  2
+	fish =  2
+	fruit =  2
+	grain =  4
 }
 
 
 luxury_needs = {
-	opium = 20
+	jewellery = 3
+	books = 4
+	gems = 3
+	oil = 6
+	precious_metal = 12
+	opium = 10
 	stone = 10
 	chinaware = 10
 	salt = 5

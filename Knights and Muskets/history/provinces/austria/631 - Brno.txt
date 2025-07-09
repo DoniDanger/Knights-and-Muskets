@@ -4,5 +4,5 @@ add_core = BOH
 add_core = MRV
 add_core = NNN
 add_core = GER
-trade_goods = coal
+trade_goods = stone
 life_rating = 35

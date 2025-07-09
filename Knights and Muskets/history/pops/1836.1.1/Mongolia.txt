@@ -26,6 +26,18 @@
 		size = 4000
 	}
 
+	craftsmen = {
+		culture = beifaren
+		religion = confucian
+		size = 14500
+	}
+	
+	craftsmen = {
+		culture = khwarazmian
+		religion = sunni
+		size = 9500
+	}
+	
 	artisans = {
 		culture = mongol
 		religion = gelugpa
@@ -204,6 +216,182 @@
 		size = 3000
 	}
 }
+#Sainshand (71100/17775 POPS)   
+3384 = {
+	aristocrats = {
+		culture = mongol
+		religion = tengri
+		size = 350
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = tengri
+		size = 175
+	}
+
+	artisans = {
+		culture = mongol
+		religion = tengri
+		size = 875
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = tengri
+		size = 175
+	}
+
+	tribesmen = {
+		culture = mongol
+		religion = tengri
+		size = 8200
+	}
+	
+	farmers = {
+		culture = mongol
+		religion = tengri
+		size = 16200
+	}
+	
+	slaves = {
+		culture = beifaren
+		religion = confucian
+		size = 3000
+	}
+}
+#Sainshand (71100/17775 POPS)   
+3385 = {
+	aristocrats = {
+		culture = mongol
+		religion = tengri
+		size = 350
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = tengri
+		size = 175
+	}
+
+	artisans = {
+		culture = mongol
+		religion = tengri
+		size = 875
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = tengri
+		size = 175
+	}
+
+	tribesmen = {
+		culture = mongol
+		religion = tengri
+		size = 8200
+	}
+	
+	farmers = {
+		culture = mongol
+		religion = tengri
+		size = 16200
+	}
+	
+	slaves = {
+		culture = beifaren
+		religion = confucian
+		size = 3000
+	}
+}
+#Sainshand (71100/17775 POPS)   
+3386 = {
+	aristocrats = {
+		culture = mongol
+		religion = tengri
+		size = 350
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = tengri
+		size = 175
+	}
+
+	artisans = {
+		culture = mongol
+		religion = tengri
+		size = 875
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = tengri
+		size = 175
+	}
+
+	tribesmen = {
+		culture = mongol
+		religion = tengri
+		size = 8200
+	}
+	
+	farmers = {
+		culture = mongol
+		religion = tengri
+		size = 16200
+	}
+	
+	slaves = {
+		culture = beifaren
+		religion = confucian
+		size = 3000
+	}
+}
+#Sainshand (71100/17775 POPS)   
+3390 = {
+	aristocrats = {
+		culture = mongol
+		religion = tengri
+		size = 350
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = tengri
+		size = 175
+	}
+
+	artisans = {
+		culture = mongol
+		religion = tengri
+		size = 875
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = tengri
+		size = 175
+	}
+
+	tribesmen = {
+		culture = mongol
+		religion = tengri
+		size = 8200
+	}
+	
+	farmers = {
+		culture = mongol
+		religion = tengri
+		size = 16200
+	}
+	
+	slaves = {
+		culture = beifaren
+		religion = confucian
+		size = 3000
+	}
+}
 #Uliastai (140000/35000 POPS)   
 1468 = {
 	aristocrats = {
@@ -316,32 +504,153 @@
 2207 = {
 	aristocrats = {
 		culture = mongol
-		religion = gelugpa
+		religion = tengri
 		size = 350
 	}
 
 	clergymen = {
 		culture = mongol
-		religion = gelugpa
+		religion = tengri
 		size = 175
 	}
 
 	artisans = {
 		culture = mongol
-		religion = gelugpa
+		religion = tengri
 		size = 875
 	}
 
 	soldiers = {
 		culture = mongol
-		religion = gelugpa
+		religion = tengri
 		size = 175
 	}
 
+	tribesmen = {
+		culture = mongol
+		religion = tengri
+		size = 8200
+	}
+	
 	farmers = {
 		culture = mongol
-		religion = gelugpa
-		size = 24200
+		religion = tengri
+		size = 16200
+	}
+}
+#Erdene Zuu (71100/17775 POPS)   
+3389 = {
+	aristocrats = {
+		culture = mongol
+		religion = tengri
+		size = 350
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = tengri
+		size = 175
+	}
+
+	artisans = {
+		culture = mongol
+		religion = tengri
+		size = 875
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = tengri
+		size = 175
+	}
+
+	tribesmen = {
+		culture = mongol
+		religion = tengri
+		size = 8200
+	}
+	
+	farmers = {
+		culture = mongol
+		religion = tengri
+		size = 16200
+	}
+}
+#Sainshand (71100/17775 POPS)   
+3388 = {
+	aristocrats = {
+		culture = mongol
+		religion = tengri
+		size = 350
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = tengri
+		size = 175
+	}
+
+	artisans = {
+		culture = mongol
+		religion = tengri
+		size = 875
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = tengri
+		size = 175
+	}
+
+	tribesmen = {
+		culture = mongol
+		religion = tengri
+		size = 8200
+	}
+	
+	farmers = {
+		culture = mongol
+		religion = tengri
+		size = 16200
+	}
+}
+
+#Sainshand (71100/17775 POPS)   
+3387 = {
+	aristocrats = {
+		culture = mongol
+		religion = tengri
+		size = 350
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = tengri
+		size = 175
+	}
+
+	artisans = {
+		culture = mongol
+		religion = tengri
+		size = 875
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = tengri
+		size = 175
+	}
+
+	tribesmen = {
+		culture = mongol
+		religion = tengri
+		size = 8200
+	}
+	
+	farmers = {
+		culture = mongol
+		religion = tengri
+		size = 16200
 	}
 }
 
@@ -1663,31 +1972,37 @@
 
 	aristocrats = {
 		culture = buryat
-		religion = gelugpa
+		religion = tengri
 		size = 175
 	}
 
 	clergymen = {
 		culture = buryat
-		religion = gelugpa
+		religion = tengri
 		size = 75
 	}
 
 	artisans = {
 		culture = buryat
-		religion = gelugpa
+		religion = tengri
 		size = 50
 	}
 
 	soldiers = {
 		culture = buryat
-		religion = gelugpa
+		religion = tengri
 		size = 100
 	}
 
+	tribesmen = {
+		culture = buryat
+		religion = tengri
+		size = 3900
+	}
+	
 	farmers = {
 		culture = buryat
-		religion = gelugpa
+		religion = tengri
 		size = 800
 	}
 	
@@ -1724,6 +2039,6 @@
 	farmers = {
 		culture = evenki
 		religion = animist
-		size = 6900
+		size = 3900
 	}
 }

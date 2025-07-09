@@ -48,6 +48,11 @@ luxury_needs = {
 	incense = 0.5
 	coffee = 2
 	horses = 3
+	jewellery = 1.5
+	books = 1
+	gems = 1
+	oil = 1
+	precious_metal = 3
 }
 
 everyday_needs = {
@@ -59,6 +64,7 @@ everyday_needs = {
 	glass = 1
 	tobacco = 3
 	tea = 5
+	trade_coins = 6
 }
 life_needs = {
 	cattle = 1.5

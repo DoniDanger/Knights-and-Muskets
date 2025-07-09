@@ -2,5 +2,5 @@ owner = ALA
 controller = ALA
 add_core = ALA
 add_core = VLC
-trade_goods = fruit
+trade_goods = dye
 life_rating = 35

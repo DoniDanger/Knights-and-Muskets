@@ -1,6 +1,6 @@
 owner = LVO
 controller = LVO
 add_core = LVO
-trade_goods = fish
+trade_goods = chinaware
 life_rating = 32
 

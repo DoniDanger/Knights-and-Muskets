@@ -1,5 +1,9 @@
 # goods types, organized by category
 
+## 20 by 16
+## 28 by 29
+## 35 by 30
+
 military_goods = {
 	infantry_arms = { 
 		cost = 10.75
@@ -86,22 +90,20 @@ raw_material_goods = {
 		color = { 123 110 86 }
 	}
 	oil = { #silver
-		cost = 8.0
-		tradeable = no
-		money = yes	
-		color = { 0 0 0 }
+		cost = 14.0
+		tradeable = yes
+		color = { 10 10 10 }
 	}
 	precious_metal = { #gold
-		cost = 12
-		tradeable = no
-		money = yes	
+		cost = 22
+		tradeable = yes
 		color = { 253 199 110 }
 	}
 }
 
 industrial_goods = {
 	steel = { #hardwood
-		cost = 8.7
+		cost = 4.7
 		color = { 95 128 147 }
 		available_from_start = no
 	}
@@ -115,11 +117,11 @@ industrial_goods = {
 		available_from_start = no
 	}
 	glass = { 
-		cost = 5.9
+		cost = 7.9
 		color = { 201 200 199 }
 	}
 	naval_supplies = { 
-		cost = 14.00 
+		cost = 12.00 
 		available_from_start = no
 		color = { 145 110 89 }
 	}
@@ -133,19 +135,19 @@ industrial_goods = {
 		available_from_start = no
 	}
 	clipper_convoy = { 
-		cost = 32.00 
+		cost = 22.00 
 		overseas_penalty = yes
 		available_from_start = no
 		color = { 21 65 30 }
 	}
 	steamer_convoy = { 
-		cost = 56.00
+		cost = 46.00
 		available_from_start = no
 		overseas_penalty = yes
 		color = { 76 18 0 }
 	}
 	tar = { 
-		cost = 11.00 
+		cost = 8.00 
 		#available_from_start = no
 		color = { 255 255 0 }
 	}
@@ -169,7 +171,7 @@ industrial_goods = {
 
 consumer_goods = {
 	paper = { 
-		cost = 12.4
+		cost = 8.4
 		color = { 216 185 77 }
 	}
 	cattle = { 
@@ -189,7 +191,7 @@ consumer_goods = {
 		color = { 219 157 36 }
 	}
 	tobacco = {	
-		cost = 1.1
+		cost = 5.1
 		color = { 100 69 30 }
 	}
 	tea = {	
@@ -260,4 +262,33 @@ consumer_goods = {
 		cost = 6.2
 		color = { 114 162 47 }
 	}
+	gems = {
+        cost = 16
+		tradeable = yes
+        color = { 10 20 30 }
+    }
+    slave_trading = {
+        cost = 16
+        tradeable = no
+        money = yes
+        color = { 40 50 60 }
+    }
+	books = {
+        cost = 25.2
+        color = { 30 40 50 }
+    }
+	jewellery = {
+        cost = 20
+        color = { 72 53 4 }
+    }
+	precious_goods = {
+        cost = 16
+        tradeable = no
+        money = yes
+        color = { 247 241 61 }
+    }
+	trade_coins = {
+        cost = 18
+        color = { 247 241 61 }
+    }
 }

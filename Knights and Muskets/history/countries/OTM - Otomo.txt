@@ -1,7 +1,7 @@
 capital = 1664
 primary_culture = japanese
 religion = shinto
-government = daimyo
+government = county
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.35

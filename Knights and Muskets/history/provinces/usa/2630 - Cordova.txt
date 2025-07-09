@@ -1,5 +1,5 @@
 owner = RUM
 controller = RUM
 add_core = RUM
-trade_goods = coal
+trade_goods = incense
 life_rating = 35

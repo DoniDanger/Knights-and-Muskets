@@ -3,5 +3,5 @@ controller = ALP
 add_core = ALP
 add_core = SYR
 add_core = CLC
-trade_goods = wool
+trade_goods = spices
 life_rating = 35

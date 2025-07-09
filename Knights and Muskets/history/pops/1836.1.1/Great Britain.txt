@@ -2681,19 +2681,19 @@
 	capitalists = {
 		culture = english
 		religion = catholic
-		size = 100
+		size = 400
 	}
 
 	clerks = {
 		culture = english
 		religion = catholic
-		size = 200
+		size = 2200
 	}
 
 	craftsmen = {
 		culture = english
 		religion = catholic
-		size = 3250
+		size = 18250
 	}
 
 	artisans = {

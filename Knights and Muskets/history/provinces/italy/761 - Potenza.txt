@@ -2,5 +2,5 @@ owner = SIC
 controller = SIC
 add_core = SIC
 add_core = NAP
-trade_goods = iron
+trade_goods = horses
 life_rating = 35

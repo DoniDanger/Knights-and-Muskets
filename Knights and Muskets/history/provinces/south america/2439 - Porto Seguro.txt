@@ -3,5 +3,5 @@ controller = ILK
 add_core = ILK
 add_core = AFG
 add_core = PER
-trade_goods = coffee
+trade_goods = wool
 life_rating = 35

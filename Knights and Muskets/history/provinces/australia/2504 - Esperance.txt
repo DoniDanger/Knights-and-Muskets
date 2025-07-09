@@ -2,5 +2,5 @@ owner = ELI
 controller = ELI
 add_core = ELI
 add_core = SXI
-trade_goods = timber
+trade_goods = gems
 life_rating = 32

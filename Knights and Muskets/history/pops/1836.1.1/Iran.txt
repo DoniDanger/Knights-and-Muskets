@@ -6166,7 +6166,7 @@
 
 	slaves = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 2000
 	}
 }

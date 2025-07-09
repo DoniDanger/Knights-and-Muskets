@@ -1,5 +1,5 @@
 owner = SXI
 controller = SXI
 add_core = SXI
-trade_goods = fish
+trade_goods = iron
 life_rating = 32

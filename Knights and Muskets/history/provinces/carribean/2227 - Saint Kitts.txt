@@ -2,5 +2,5 @@ owner = ALA
 controller = ALA
 add_core = ALA
 add_core = NIE
-trade_goods = iron
+trade_goods = timber
 life_rating = 35

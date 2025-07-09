@@ -2,5 +2,5 @@ owner = ZAN
 controller = ZAN
 add_core = ZAN
 add_core = MAD
-trade_goods = timber
+trade_goods = slave_trading
 life_rating = 35

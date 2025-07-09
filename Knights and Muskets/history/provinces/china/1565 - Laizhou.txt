@@ -1,5 +1,5 @@
 owner = SXI
 controller = SXI
 add_core = SXI
-trade_goods = cotton
+trade_goods = fish
 life_rating = 32

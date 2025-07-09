@@ -58,25 +58,25 @@
 
 	aristocrats = {
 		culture = malagasy
-		religion = protestant
+		religion = catholic
 		size = 25
 	}
 
 	clergymen = {
 		culture = malagasy
-		religion = protestant
+		religion = catholic
 		size = 25
 	}
 
 	artisans = {
 		culture = malagasy
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
 	farmers = {
 		culture = malagasy
-		religion = protestant
+		religion = catholic
 		size = 900
 	}
 }
@@ -168,25 +168,25 @@
 
 	aristocrats = {
 		culture = malagasy
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
 	clergymen = {
 		culture = malagasy
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
 	artisans = {
 		culture = malagasy
-		religion = protestant
+		religion = catholic
 		size = 100
 	}
 
 	farmers = {
 		culture = malagasy
-		religion = protestant
+		religion = catholic
 		size = 1800
 	}
 }

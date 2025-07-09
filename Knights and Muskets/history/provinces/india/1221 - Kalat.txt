@@ -2,5 +2,5 @@ owner = MAK
 controller = MAK
 add_core = MAK
 add_core = PER
-trade_goods = wool
+trade_goods = dye
 life_rating = 35

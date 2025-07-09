@@ -3,6 +3,6 @@ controller = GEN
 add_core = GEN
 add_core = NNN
 add_core = ITA
-trade_goods = fruit
+trade_goods = precious_goods
 life_rating = 35
 naval_base = 1

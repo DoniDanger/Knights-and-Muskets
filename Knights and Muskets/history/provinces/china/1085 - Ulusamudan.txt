@@ -1,4 +1,4 @@
 add_core = MYR
 add_core = MCK
-trade_goods = grain
+trade_goods = furs
 life_rating = 25

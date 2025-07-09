@@ -368,8 +368,179 @@
 		size = 3094
 	}
 }
-#Sidon (84000/21000 POPS) 
+#Tyre (84000/21000 POPS) 
 915 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 60
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 120
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 180
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 425
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 4300
+	}
+
+	capitalists = {
+		culture = latin
+		religion = catholic
+		size = 300
+	}
+	
+	artisans = {
+		culture = latin
+		religion = catholic
+		size = 640
+	}
+	
+	farmers = {
+		culture = latin
+		religion = catholic
+		size = 5570
+	}
+	
+	aristocrats = {
+		culture = outremer
+		religion = catholic
+		size = 650
+	}
+
+	officers = {
+		culture = outremer
+		religion = catholic
+		size = 300
+	}
+	
+	clergymen = {
+		culture = outremer
+		religion = catholic
+		size = 400
+	}
+
+	artisans = {
+		culture = outremer
+		religion = catholic
+		size = 2380
+	}
+
+	soldiers = {
+		culture = outremer
+		religion = catholic
+		size = 2650
+	}
+
+	farmers = {
+		culture = outremer
+		religion = catholic
+		size = 25425
+	}
+	
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 80
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 1525
+	}
+
+	aristocrats = {
+		culture = levantine
+		religion = catholic
+		size = 125
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = catholic
+		size = 90
+	}
+
+	artisans = {
+		culture = levantine
+		religion = catholic
+		size = 415
+	}
+
+	farmers = {
+		culture = levantine
+		religion = catholic
+		size = 5350
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = animist
+		size = 125
+	}
+
+	artisans = {
+		culture = levantine
+		religion = animist
+		size = 330
+	}
+
+	farmers = {
+		culture = levantine
+		religion = animist
+		size = 3150
+	}
+
+	aristocrats = {
+		culture = levantine
+		religion = shiite
+		size = 165
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = shiite
+		size = 125
+	}
+
+	artisans = {
+		culture = levantine
+		religion = shiite
+		size = 750
+	}
+
+	farmers = {
+		culture = levantine
+		religion = shiite
+		size = 7800
+	}
+
+}
+#Sidon (84000/21000 POPS) 
+3303 = {
 	aristocrats = {
 		culture = levantine
 		religion = sunni

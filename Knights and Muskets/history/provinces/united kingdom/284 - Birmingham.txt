@@ -3,7 +3,16 @@ controller = ENL
 add_core = ENL
 trade_goods = horses
 life_rating = 35
-
+state_building = {
+	level = 2
+	building = manuscript_workshop
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = minting_workshop
+	upgrade = yes
+}
 state_building = {
 	level = 1
 	building = explosives_factory
@@ -14,16 +23,14 @@ state_building = {
 	building = artillery_factory
 	upgrade = yes
 }
-1861.1.1 = {
-	state_building = {
-		level = 1
-		building = cement_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = glass_factory
-		upgrade = yes
-	}
+state_building = {
+	level = 1
+	building = cement_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = glass_factory
+	upgrade = yes
 }
 1861.1.1 = { railroad = 4 }

@@ -61,10 +61,6 @@ country_event = {
 		ai_chance = {
 			factor = 5
 			modifier = {
-				factor = 5
-				government = duchy
-			}
-			modifier = {
 				factor = 10
 				government = county
 			}

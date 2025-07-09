@@ -3,5 +3,5 @@ controller = KHR
 add_core = ILK
 add_core = PER
 add_core = KHR
-trade_goods = tropical_wood
+trade_goods = wool
 life_rating = 35

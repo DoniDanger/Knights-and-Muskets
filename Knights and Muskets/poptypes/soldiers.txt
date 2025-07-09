@@ -66,6 +66,9 @@ luxury_needs = {
 	coffee = 0.45
 	tobacco = 0.95
 	#dye = 0.5
+	jewellery = 0.25
+	oil = 0.4
+	trade_coins = 1
 }
 
 

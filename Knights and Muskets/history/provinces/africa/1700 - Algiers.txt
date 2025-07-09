@@ -3,6 +3,6 @@ controller = MOR
 add_core = MOR
 add_core = ALD
 add_core = TUN
-trade_goods = grain
+trade_goods = sugar
 life_rating = 35
 

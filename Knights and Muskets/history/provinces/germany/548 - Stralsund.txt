@@ -3,6 +3,6 @@ controller = DEN
 add_core = DEN
 add_core = WLG
 add_core = POM
-trade_goods = fish
+trade_goods = gems
 life_rating = 35
 

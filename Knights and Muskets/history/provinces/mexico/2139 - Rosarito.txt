@@ -2,6 +2,6 @@ owner = BSQ
 controller = BSQ
 add_core = BSQ
 add_core = FRC
-trade_goods = fruit
+trade_goods = timber
 life_rating = 35
 

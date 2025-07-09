@@ -1,5 +1,5 @@
 owner = ZAN
 controller = ZAN
 add_core = ZAN
-trade_goods = grain
+trade_goods = slave_trading
 life_rating = 35

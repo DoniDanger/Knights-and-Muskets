@@ -1,5 +1,5 @@
 owner = XBI
 controller = XBI
 add_core = XBI
-trade_goods = grain
+trade_goods = horses
 life_rating = 35

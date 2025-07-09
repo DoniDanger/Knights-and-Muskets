@@ -4,7 +4,7 @@
 2190 = {
 	artisans = {
 		culture = british
-		religion = protestant
+		religion = catholic
 		size = 25
 	}
 
@@ -16,7 +16,7 @@
 
 	artisans = {
 		culture = afro_caribbean
-		religion = protestant
+		religion = catholic
 		size = 100
 	}
 
@@ -28,7 +28,7 @@
 
 	farmers = {
 		culture = afro_caribbean
-		religion = protestant
+		religion = catholic
 		size = 400
 	}
 

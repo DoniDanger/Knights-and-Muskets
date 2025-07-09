@@ -4,31 +4,31 @@
 2468 = {
 	bureaucrats = {
 		culture = british
-		religion = protestant
+		religion = catholic
 		size = 35
 	}
 
 	clergymen = {
 		culture = british
-		religion = protestant
+		religion = catholic
 		size = 65
 	}
 
 	artisans = {
 		culture = british
-		religion = protestant
+		religion = catholic
 		size = 3500
 	}
 
 	soldiers = {
 		culture = british
-		religion = protestant
+		religion = catholic
 		size = 1100
 	}
 
 	farmers = {
 		culture = british
-		religion = protestant
+		religion = catholic
 		size = 4400
 	}
 
@@ -82,31 +82,31 @@
 2482 = {
 	bureaucrats = {
 		culture = british
-		religion = protestant
+		religion = catholic
 		size = 25
 	}
 
 	clergymen = {
 		culture = british
-		religion = protestant
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = british
-		religion = protestant
+		religion = catholic
 		size = 2000
 	}
 
 	soldiers = {
 		culture = british
-		religion = protestant
+		religion = catholic
 		size = 100
 	}
 
 	farmers = {
 		culture = british
-		religion = protestant
+		religion = catholic
 		size = 6775
 	}
 

@@ -1,5 +1,6 @@
-owner = MDA
-controller = MDA
+owner = EGY
+controller = EGY
+add_core = EGY
 add_core = MDA
-trade_goods = wool
+trade_goods = spices
 life_rating = 35

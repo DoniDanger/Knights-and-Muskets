@@ -2,5 +2,5 @@ owner = JAF
 controller = JAF
 add_core = JAF
 add_core = HND
-trade_goods = tea
+trade_goods = gems
 life_rating = 32

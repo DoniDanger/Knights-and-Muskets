@@ -3,5 +3,5 @@ controller = BOH
 add_core = BOH
 add_core = NNN
 add_core = GER
-trade_goods = stone
+trade_goods = iron
 life_rating = 35

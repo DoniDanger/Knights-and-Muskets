@@ -3,5 +3,5 @@ controller = DAU
 add_core = DAU
 add_core = ARP
 add_core = NNN
-trade_goods = timber
+trade_goods = tin
 life_rating = 35

@@ -3,5 +3,5 @@ controller = HLY
 add_core = HLY
 add_core = GLM
 add_core = UKR
-trade_goods = grain
+trade_goods = dye
 life_rating = 35

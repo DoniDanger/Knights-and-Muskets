@@ -3,5 +3,5 @@ controller = CMO
 add_core = CMO
 add_core = NNN
 add_core = ITA
-trade_goods = coal
+trade_goods = timber
 life_rating = 35

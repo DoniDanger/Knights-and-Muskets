@@ -56,6 +56,77 @@ siege_engine_workshop = {
 	advanced_factory = yes
 }
 
+############# ADVANCED WORKSHOPS
+
+manuscript_workshop = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 100
+		tar = 250
+		stone = 200
+		steel = 400
+		cement = 200
+	}
+
+	time = 365
+	visibility = yes
+	onmap = no
+
+	production_type = manuscript_workshop
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+jewellery_workshop = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 100
+		tar = 250
+		stone = 200
+		steel = 400
+		cement = 200
+	}
+
+	time = 365
+	visibility = yes
+	onmap = no
+
+	production_type = jewellery_workshop
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+minting_workshop = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 100
+		tar = 250
+		stone = 200
+		steel = 400
+		cement = 200
+	}
+
+	time = 365
+	visibility = yes
+	onmap = no
+
+	production_type = minting_workshop
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
 ############# STRATEGIC FACTORIES
 
 tar_workshop = {
@@ -661,21 +732,24 @@ fort = {
 	cost = 45000
 	goods_cost =
 	{
-		iron = 50
-		lumber = 100
-		cement = 150
-		stone = 150
-		crossbows = 50
-		artillery = 75
-		infantry_arms = 75
-		canned_food = 75
+		iron = 250
+		lumber = 300
+		cement = 450
+		stone = 250
+		crossbows = 250
+		artillery = 275
+		infantry_arms = 275
+		canned_food = 275
+		horses = 45
+		siege_engines = 150
+		trade_coins = 300
 	}
 	time = 1080 
 	visibility = yes
 	onmap = yes
 	max_level = 10
 	province = yes
-	fort_level = 3
+	fort_level = 2
 }
 
 naval_base = {    
@@ -683,12 +757,14 @@ naval_base = {
 	cost = 30000
 	goods_cost =
 	{
-		iron = 50
-		stone = 100
-		lumber = 50
-		cement = 100
-		steel = 100
+		iron = 100
+		stone = 200
+		lumber = 150
+		cement = 300
+		steel = 200
+		naval_supplies = 180
 		machine_parts = 50
+		trade_coins = 120
 	}
 	time = 1080
 	naval_capacity = 1
@@ -706,15 +782,16 @@ naval_base = {
        
 railroad = {   
 	type = infrastructure
-	cost = 80000
+	cost = 120000
 	goods_cost =
 	{
-		iron = 50
-		steel = 80
-		lumber = 150
-		cement = 200
-		stone = 100
-		tar = 100
+		iron = 250
+		steel = 480
+		lumber = 350
+		cement = 800
+		stone = 400
+		tar = 300
+		trade_coins = 500
 	}
 	time = 720
 	visibility = yes
@@ -724,7 +801,10 @@ railroad = {
 	
 	infrastructure = 0.16
 	movement_cost = -0.05
-	
+	local_artisan_output = 0.29	
+	local_rgo_output = 0.38	
+	local_factory_throughput = 0.42 
+		
 	pop_build_factory = yes
 	spawn_railway_track = yes
 }
@@ -732,7 +812,7 @@ railroad = {
 ## University
 	university = {
 		type = university
-		cost = 75000
+		cost = 85000
 		goods_cost =
 		{
 			steel = 300
@@ -741,6 +821,8 @@ railroad = {
 			paper = 200
 			stone = 400
 			glass = 100
+			books = 500
+			trade_coins = 500
 		}
 
 		time = 800
@@ -752,14 +834,14 @@ railroad = {
 		one_per_state = no
 		pop_build_factory = yes
 
-		research_points_modifier = 0.001 
-		#education_efficiency_modifier = 0.01
+		research_points_modifier = 0.1
+		education_efficiency_modifier = 0.002
 	}
 
 	## Bank
 	bank = {
 		type = bank
-		cost = 45000
+		cost = 65000
 		goods_cost =
 		{
 			steel = 250
@@ -768,6 +850,8 @@ railroad = {
 			paper = 300
 			glass = 50
 			stone = 400
+			books = 500
+			trade_coins = 500
 		}
 
 		time = 500
@@ -779,7 +863,7 @@ railroad = {
 		pop_build_factory = yes
 		
 		local_artisan_output = 0.29	
-		local_rgo_output = 0.58		
-		local_factory_throughput = 1.16 
+		local_rgo_output = 0.38	
+		local_factory_throughput = 0.42 
 		
 	}

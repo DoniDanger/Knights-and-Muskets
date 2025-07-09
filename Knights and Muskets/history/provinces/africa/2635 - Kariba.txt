@@ -2,5 +2,5 @@ owner = CDS
 controller = CDS
 add_core = CDS
 add_core = HND
-trade_goods = grain
+trade_goods = iron
 life_rating = 32

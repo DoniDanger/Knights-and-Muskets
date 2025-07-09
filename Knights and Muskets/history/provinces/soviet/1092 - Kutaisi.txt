@@ -1,5 +1,5 @@
 owner = GEO
 controller = GEO
 add_core = GEO
-trade_goods = fruit
+trade_goods = oil
 life_rating = 35

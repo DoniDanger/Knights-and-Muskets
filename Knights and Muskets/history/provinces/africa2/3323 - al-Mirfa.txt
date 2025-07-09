@@ -1,5 +1,5 @@
 owner = HSA
 controller = HSA
 add_core = HSA
-trade_goods = grain
+trade_goods = gems
 life_rating = 35

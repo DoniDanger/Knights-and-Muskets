@@ -380,6 +380,210 @@
 		size = 1950
 	}
 }
+#Adhriat (68000/17000 POPS) 
+3304 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 289
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 165
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 825
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 290
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 14900
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = shiite
+		size = 150
+	}
+
+	artisans = {
+		culture = levantine
+		religion = shiite
+		size = 495
+	}
+
+	farmers = {
+		culture = levantine
+		religion = shiite
+		size = 9000
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 1530
+	}
+}
+#Al-Rhuhayba (68000/17000 POPS) 
+3319 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 289
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 165
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 825
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 290
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 14900
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = shiite
+		size = 150
+	}
+
+	artisans = {
+		culture = levantine
+		religion = shiite
+		size = 495
+	}
+
+	farmers = {
+		culture = levantine
+		religion = shiite
+		size = 9000
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 1530
+	}
+}
+#Baalbeck (68000/17000 POPS) 
+3318 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 289
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 165
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 825
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 290
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 14900
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = shiite
+		size = 150
+	}
+
+	artisans = {
+		culture = levantine
+		religion = shiite
+		size = 495
+	}
+
+	farmers = {
+		culture = levantine
+		religion = shiite
+		size = 9000
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 1530
+	}
+}
 #Homs (80000/20000 POPS)
 903 = {
 	aristocrats = {
@@ -514,6 +718,278 @@
 		culture = levantine
 		religion = orthodox
 		size = 1875
+	}
+}
+#Baalbeck (68000/17000 POPS) 
+2516 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 289
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 165
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 825
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 290
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 14900
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = shiite
+		size = 150
+	}
+
+	artisans = {
+		culture = levantine
+		religion = shiite
+		size = 495
+	}
+
+	farmers = {
+		culture = levantine
+		religion = shiite
+		size = 9000
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 1530
+	}
+}
+#Baalbeck (68000/17000 POPS) 
+2511 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 289
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 165
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 825
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 290
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 14900
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = shiite
+		size = 150
+	}
+
+	artisans = {
+		culture = levantine
+		religion = shiite
+		size = 495
+	}
+
+	farmers = {
+		culture = levantine
+		religion = shiite
+		size = 9000
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 1530
+	}
+}
+#Baalbeck (68000/17000 POPS) 
+2512 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 289
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 165
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 825
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 290
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 14900
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = shiite
+		size = 150
+	}
+
+	artisans = {
+		culture = levantine
+		religion = shiite
+		size = 495
+	}
+
+	farmers = {
+		culture = levantine
+		religion = shiite
+		size = 9000
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 1530
+	}
+}
+#Baalbeck (68000/17000 POPS) 
+2515 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 289
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 165
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 825
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 290
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 14900
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = shiite
+		size = 150
+	}
+
+	artisans = {
+		culture = levantine
+		religion = shiite
+		size = 495
+	}
+
+	farmers = {
+		culture = levantine
+		religion = shiite
+		size = 9000
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 1530
 	}
 }
 #Margat (112000/28000 POPS)

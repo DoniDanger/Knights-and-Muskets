@@ -377,7 +377,7 @@ country_event = {
 		release = MCD
 		create_vassal = MCD
 		create_vassal = ALB
-		MCD = { government = duchy }
+		MCD = { government = county }
 		EPI = {
 			prestige = -30
 			any_owned = {
@@ -408,7 +408,7 @@ country_event = {
 			819 = { secede_province = THIS add_core = THIS }
 			2545 = { secede_province = THIS add_core = THIS }
 			138 = { secede_province = THIS add_core = THIS }
-			government = duchy
+			government = county
 		}
 		any_owned = {
 			limit = {

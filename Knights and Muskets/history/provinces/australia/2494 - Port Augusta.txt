@@ -1,5 +1,5 @@
 owner = KAZ
 controller = KAZ
 add_core = KAZ
-trade_goods = grain
+trade_goods = furs
 life_rating = 35

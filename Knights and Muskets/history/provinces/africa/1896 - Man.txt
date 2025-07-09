@@ -1,6 +1,6 @@
 owner = BSQ
 controller = BSQ
 add_core = BSQ
-trade_goods = naval_supplies
+trade_goods = iron
 life_rating = 35
 

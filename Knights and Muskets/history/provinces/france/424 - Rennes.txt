@@ -2,6 +2,6 @@ owner = BRT
 controller = BRT
 add_core = BRT
 add_core = FRC
-trade_goods = dye
+trade_goods = apiculture
 life_rating = 35
 

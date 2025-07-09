@@ -2,5 +2,5 @@ owner = CHG
 controller = CHG
 add_core = CHG
 add_core = XIN
-trade_goods = cotton
+trade_goods = salt
 life_rating = 35

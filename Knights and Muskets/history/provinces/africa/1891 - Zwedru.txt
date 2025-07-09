@@ -2,5 +2,5 @@ owner = LEO
 controller = LEO
 add_core = LEO
 add_core = GLC
-trade_goods = fruit
+trade_goods = cattle
 life_rating = 35

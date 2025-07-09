@@ -3,5 +3,5 @@ controller = ILK
 add_core = ILK
 add_core = SST
 add_core = PER
-trade_goods = tropical_wood
+trade_goods = cattle
 life_rating = 35

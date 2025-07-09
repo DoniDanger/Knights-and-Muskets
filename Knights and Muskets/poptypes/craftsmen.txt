@@ -31,7 +31,6 @@ luxury_needs = {
 	paper = 1.0
 	chinaware = 1.0
 	apiculture = 0.5
-	apiculture = 0.5
 	salt = 0.5
 	sugar = 0.5
 	spices = 0.5
@@ -41,6 +40,9 @@ luxury_needs = {
 	tobacco = 0.95
 	#dye = 0.5
 	horses = 1
+	jewellery = 0.5
+	oil = 1
+	trade_coins = 6
 }
 
 

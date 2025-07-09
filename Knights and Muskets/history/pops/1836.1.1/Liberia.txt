@@ -4,61 +4,61 @@
 1887 = {
 	bureaucrats = {
 		culture = afro_american
-		religion = protestant
+		religion = catholic
 		size = 5
 	}
 
 	officers = {
 		culture = afro_american
-		religion = protestant
+		religion = catholic
 		size = 10
 	}
 
 	clergymen = {
 		culture = afro_american
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
 	artisans = {
 		culture = afro_american
-		religion = protestant
+		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
 		culture = afro_american
-		religion = protestant
+		religion = catholic
 		size = 25
 	}
 
 	farmers = {
 		culture = afro_american
-		religion = protestant
+		religion = catholic
 		size = 810
 	}
 
 	clergymen = {
 		culture = kru
-		religion = protestant
+		religion = catholic
 		size = 25
 	}
 
 	artisans = {
 		culture = kru
-		religion = protestant
+		religion = catholic
 		size = 200
 	}
 
 	soldiers = {
 		culture = kru
-		religion = protestant
+		religion = catholic
 		size = 1100
 	}
 
 	farmers = {
 		culture = kru
-		religion = protestant
+		religion = catholic
 		size = 2775
 	}
 

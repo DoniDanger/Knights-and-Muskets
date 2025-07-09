@@ -3,6 +3,6 @@ controller = MEI
 add_core = MEI
 add_core = GER
 add_core = NNN
-trade_goods = coal
+trade_goods = oil
 life_rating = 35
 

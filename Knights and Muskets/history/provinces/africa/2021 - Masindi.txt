@@ -2,6 +2,6 @@ owner = LCH
 controller = LCH
 add_core = LCH
 add_core = HND
-trade_goods = coffee
+trade_goods = grain
 life_rating = 32
 

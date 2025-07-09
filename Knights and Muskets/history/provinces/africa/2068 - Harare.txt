@@ -2,5 +2,5 @@ owner = GUJ
 controller = GUJ
 add_core = GUJ
 add_core = HND
-trade_goods = coffee
+trade_goods = salt
 life_rating = 32

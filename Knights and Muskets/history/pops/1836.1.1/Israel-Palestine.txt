@@ -424,6 +424,214 @@
 		size = 2760
 	}
 }
+#Ascalon (48000/12000 POPS)
+3300 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 170
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 1815
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 250
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size =11450
+	}
+
+	aristocrats = {
+		culture = outremer
+		religion = catholic
+		size = 150
+	}
+
+	officers = {
+		culture = outremer
+		religion = catholic
+		size = 100
+	}
+	
+	clergymen = {
+		culture = outremer
+		religion = catholic
+		size = 300
+	}
+
+	artisans = {
+		culture = outremer
+		religion = catholic
+		size = 1600
+	}
+
+	soldiers = {
+		culture = outremer
+		religion = catholic
+		size = 2650
+	}
+
+	farmers = {
+		culture = outremer
+		religion = catholic
+		size = 16370
+	}
+	
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 1440
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 120
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 495
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 2760
+	}
+}
+#Caesera (48000/12000 POPS)
+3302 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 170
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 1815
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 250
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size =11450
+	}
+
+	aristocrats = {
+		culture = outremer
+		religion = catholic
+		size = 150
+	}
+
+	officers = {
+		culture = outremer
+		religion = catholic
+		size = 100
+	}
+	
+	clergymen = {
+		culture = outremer
+		religion = catholic
+		size = 300
+	}
+
+	artisans = {
+		culture = outremer
+		religion = catholic
+		size = 1600
+	}
+
+	soldiers = {
+		culture = outremer
+		religion = catholic
+		size = 2650
+	}
+
+	farmers = {
+		culture = outremer
+		religion = catholic
+		size = 16370
+	}
+	
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 1440
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 120
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 495
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 2760
+	}
+}
 #Gaza (44000/11000 POPS)
 920 = {
 	aristocrats = {

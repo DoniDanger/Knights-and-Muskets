@@ -3,5 +3,5 @@ controller = ERZ
 add_core = ERZ
 add_core = RUM
 add_core = ARM
-trade_goods = iron
+trade_goods = dye
 life_rating = 35

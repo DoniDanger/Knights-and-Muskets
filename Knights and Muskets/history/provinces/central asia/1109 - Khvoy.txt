@@ -2,5 +2,5 @@ owner = AZB
 controller = AZB
 add_core = GEO
 add_core = AZB
-trade_goods = cotton
+trade_goods = salt
 life_rating = 35

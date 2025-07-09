@@ -2,5 +2,5 @@ owner = PNT
 controller = PNT
 add_core = PNT
 add_core = BYZ
-trade_goods = timber
+trade_goods = oil
 life_rating = 35

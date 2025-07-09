@@ -3,5 +3,5 @@ controller = NCE
 add_core = NCE
 add_core = BYZ
 add_core = RUM
-trade_goods = wool
+trade_goods = dye
 life_rating = 35

@@ -1,6 +1,6 @@
 owner = CST
 controller = CST
 add_core = CST
-trade_goods = fruit
+trade_goods = stone
 life_rating = 35
 1861.1.1 = { railroad = 2 }

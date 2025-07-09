@@ -26,6 +26,9 @@ luxury_needs = {
 	incense = 0.5
 	ivory = 0.5
 	coffee = 2
+	jewellery = 0.25
+	oil = 0.4
+	trade_coins = 1.5
 }
 
 everyday_needs = {

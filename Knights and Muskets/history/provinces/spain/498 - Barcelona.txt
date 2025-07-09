@@ -6,6 +6,16 @@ trade_goods = naval_supplies
 life_rating = 35
 naval_base = 1
 state_building = {
+	level = 2
+	building = manuscript_workshop
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = minting_workshop
+	upgrade = yes
+}
+state_building = {
 	level = 1
 	building = luxury_clothes_factory
 	upgrade = yes
@@ -23,10 +33,5 @@ state_building = {
 state_building = {
 	level = 1
 	building = machine_parts_factory
-	upgrade = yes
-}
-state_building = {
-	level = 1
-	building = naval_supplies_workshop
 	upgrade = yes
 }

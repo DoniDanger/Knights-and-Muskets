@@ -116,7 +116,7 @@
 	}
 	clerks = {
 		culture = french
-		religion = protestant
+		religion = catholic
 		size = 2000
 	}
 	bureaucrats = {
@@ -659,6 +659,86 @@
 		culture = african_minor
 		religion = animist
 		size = 6000
+	}
+}
+#Rashid (256200/64050 POPS)
+3299 = {
+	aristocrats = {
+		culture = north_caucasian
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = north_caucasian
+		religion = sunni
+		size = 2400
+	}
+
+	soldiers = {
+		culture = north_caucasian
+		religion = sunni
+		size = 50
+	}
+
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 700
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 3050
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 2100
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 54400
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 50
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 100
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 1850
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 5
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 245
 	}
 }
 #Matruh (60000/15000 POPS)

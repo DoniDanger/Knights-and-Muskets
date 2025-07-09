@@ -2,9 +2,14 @@ owner = SIC
 controller = SIC
 add_core = SIC
 add_core = SYC
-trade_goods = fish
-life_rating = 35
+trade_goods = timber
+life_rating = 38
 fort = 1
+state_building = {
+	level = 2
+	building = minting_workshop
+	upgrade = yes
+}
 state_building = {
 	level = 1
 	building = clipper_shipyard

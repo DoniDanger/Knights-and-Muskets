@@ -2,5 +2,5 @@ owner = ILK
 controller = ILK
 add_core = ILK
 add_core = PER
-trade_goods = tropical_wood
+trade_goods = cotton
 life_rating = 35

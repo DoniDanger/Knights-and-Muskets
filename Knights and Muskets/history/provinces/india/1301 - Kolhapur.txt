@@ -2,5 +2,5 @@ owner = SEU
 controller = SEU
 add_core = SEU
 add_core = HND
-trade_goods = tea
+trade_goods = cotton
 life_rating = 32

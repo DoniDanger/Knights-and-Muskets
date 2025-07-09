@@ -32,11 +32,11 @@ engineer = { #mangonel
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 2
+	attack = 3
 	defence = 6
 	discipline = 1.0
 	support = 0.5
 	maneuver = 1
-	siege = 1
+	siege = 3
 
 }

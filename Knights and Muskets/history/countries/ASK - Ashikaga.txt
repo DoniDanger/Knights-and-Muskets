@@ -1,10 +1,10 @@
 capital = 1657
 primary_culture = japanese
 religion = shinto
-government = shogunate
+government = military_dictatorship
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.045
+literacy = 0.085
 
 # Political reforms
 slavery = no_slavery

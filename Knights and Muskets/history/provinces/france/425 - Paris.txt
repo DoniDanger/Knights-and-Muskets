@@ -3,11 +3,16 @@ controller = FRA
 add_core = FRA
 add_core = FRC
 trade_goods = grain
-life_rating = 40
+life_rating = 42
 university = 1
 state_building = {
 	level = 2
-	building = luxury_clothes_factory
+	building = manuscript_workshop
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = minting_workshop
 	upgrade = yes
 }
 state_building = {

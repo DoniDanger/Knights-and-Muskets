@@ -110,6 +110,7 @@ political_decisions = {
 		allow = {
 			war = no
 			owns = 631
+			nationalism_n_imperialism = 1
 			has_global_flag = bela_iv_reign
 		}
 		
@@ -130,6 +131,7 @@ political_decisions = {
 		allow = {
 			war = no
 			owns = 616
+			nationalism_n_imperialism = 1
 			has_global_flag = bela_iv_reign
 		}
 		
@@ -150,6 +152,7 @@ political_decisions = {
 		allow = {
 			war = no
 			owns = 619
+			nationalism_n_imperialism = 1
 			has_global_flag = bela_iv_reign
 		}
 		
@@ -172,6 +175,7 @@ political_decisions = {
 			year = 1244
 			AUS = { all_core = { owned_by = THIS } }
 			STY = { all_core = { owned_by = THIS } }
+			nationalism_n_imperialism = 1
 			has_global_flag = bela_iv_reign
 		}
 		
@@ -215,6 +219,7 @@ political_decisions = {
 		allow = {
 			war = no
 			year = 1244
+			state_n_government = 1
 			BOS = { all_core = { owned_by = THIS } }
 		}
 		
@@ -236,6 +241,7 @@ political_decisions = {
 		allow = {
 			war = no
 			year = 1244
+			state_n_government = 1
 			HLY = { vassal_of = THIS }
 		}
 		
@@ -258,6 +264,7 @@ political_decisions = {
 		allow = {
 			war = no
 			year = 1244
+			state_n_government = 1
 			SLV = { all_core = { owned_by = THIS }}
 		}
 		
@@ -278,6 +285,7 @@ political_decisions = {
 		
 		allow = {
 			war = no
+			state_n_government = 1
 			BSV = { all_core = { owned_by = THIS }}
 		}
 		

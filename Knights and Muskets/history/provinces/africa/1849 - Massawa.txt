@@ -2,5 +2,5 @@ owner = ETH
 controller = ETH
 add_core = ETH
 add_core = TIG
-trade_goods = fruit
+trade_goods = fish
 life_rating = 35

@@ -4,6 +4,6 @@ add_core = EXI
 add_core = MCK
 add_core = SXI
 trade_goods = grain
-life_rating = 35
+life_rating = 33
 
 

@@ -2,5 +2,5 @@ owner = DLH
 controller = DLH
 add_core = DLH
 add_core = HND
-trade_goods = cotton
+trade_goods = apiculture
 life_rating = 32

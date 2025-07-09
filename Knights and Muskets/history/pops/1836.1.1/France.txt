@@ -5057,7 +5057,7 @@
 
 	farmers = {
 		culture = occitan
-		religion = catholic
+		religion = cathar
 		size = 26700
 	}
 
@@ -5531,7 +5531,7 @@
 	
 	artisans = {
 		culture = gascon
-		religion = catholic
+		religion = cathar
 		size = 4250
 	}
 
@@ -5549,7 +5549,7 @@
 
 	farmers = {
 		culture = occitan
-		religion = catholic
+		religion = cathar
 		size = 41530
 	}
 }
@@ -5581,7 +5581,7 @@
 
 	farmers = {
 		culture = occitan
-		religion = catholic
+		religion = cathar
 		size = 31030
 	}
 
@@ -5625,7 +5625,7 @@
 
 	farmers = {
 		culture = occitan
-		religion = catholic
+		religion = cathar
 		size = 15030
 	}
 
@@ -5645,7 +5645,7 @@
 
 	clergymen = {
 		culture = occitan
-		religion = catholic
+		religion = cathar
 		size = 850
 	}
 
@@ -5663,7 +5663,7 @@
 
 	farmers = {
 		culture = occitan
-		religion = catholic
+		religion = cathar
 		size = 28300
 	}
 
@@ -6180,19 +6180,19 @@
 
 	clergymen = {
 		culture = occitan
-		religion = catholic
+		religion = cathar
 		size = 275
 	}
 
 	artisans = {
 		culture = occitan
-		religion = catholic
+		religion = cathar
 		size = 2200
 	}
 
 	farmers = {
 		culture = occitan
-		religion = catholic
+		religion = cathar
 		size = 6625
 	}
 }

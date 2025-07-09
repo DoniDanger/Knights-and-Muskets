@@ -1,5 +1,5 @@
 owner = MKA
 controller = MKA
 add_core = MKA
-trade_goods = fruit
-life_rating = 30
+trade_goods = slave_trading
+life_rating = 32

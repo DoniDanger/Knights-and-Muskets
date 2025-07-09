@@ -162,6 +162,106 @@
 		size = 5450
 	}
 }
+#Durres (120000/30000 POPS)
+2553 = {
+	aristocrats = {
+		culture = albanian
+		religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = sunni
+		size = 225
+	}
+
+	artisans = {
+		culture = albanian
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = albanian
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = albanian
+		religion = sunni
+		size = 21075
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = albanian
+		religion = catholic
+		size = 300
+	}
+
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 5450
+	}
+}
+#Durres (120000/30000 POPS)
+801 = {
+	aristocrats = {
+		culture = albanian
+		religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = sunni
+		size = 225
+	}
+
+	artisans = {
+		culture = albanian
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = albanian
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = albanian
+		religion = sunni
+		size = 21075
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = albanian
+		religion = catholic
+		size = 300
+	}
+
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 5450
+	}
+}
 #Vlore (272000/68000 POPS)
 852 = {
 	aristocrats = {
@@ -282,4 +382,104 @@
 		size = 8775
 	}
 
+}
+#Durres (120000/30000 POPS)
+2283 = {
+	aristocrats = {
+		culture = albanian
+		religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = sunni
+		size = 225
+	}
+
+	artisans = {
+		culture = albanian
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = albanian
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = albanian
+		religion = sunni
+		size = 21075
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = albanian
+		religion = catholic
+		size = 300
+	}
+
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 5450
+	}
+}
+#Durres (120000/30000 POPS)
+2327 = {
+	aristocrats = {
+		culture = albanian
+		religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = sunni
+		size = 225
+	}
+
+	artisans = {
+		culture = albanian
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = albanian
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = albanian
+		religion = sunni
+		size = 21075
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = albanian
+		religion = catholic
+		size = 300
+	}
+
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 5450
+	}
 }

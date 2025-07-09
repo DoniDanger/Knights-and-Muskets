@@ -2,5 +2,5 @@ owner = MSL
 controller = MSL
 add_core = MSL
 add_core = IRQ
-trade_goods = grain
+trade_goods = gems
 life_rating = 35

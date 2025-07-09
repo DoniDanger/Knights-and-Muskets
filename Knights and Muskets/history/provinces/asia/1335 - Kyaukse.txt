@@ -3,3 +3,4 @@ controller = BUR
 add_core = BUR
 trade_goods = elephants
 life_rating = 35
+

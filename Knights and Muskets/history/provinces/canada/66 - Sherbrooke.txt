@@ -2,5 +2,5 @@ owner = FRA
 controller = FRA
 add_core = FRA
 add_core = FRC
-trade_goods = grain
+trade_goods = timber
 life_rating = 35

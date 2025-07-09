@@ -3,5 +3,5 @@ controller = POI
 add_core = POI
 add_core = ENL
 add_core = FRC
-trade_goods = grain
+trade_goods = oil
 life_rating = 35

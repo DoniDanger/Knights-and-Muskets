@@ -3322,6 +3322,113 @@
 		size = 900
 	}
 }
+#Luskoye
+3495 = {
+
+	aristocrats = {
+		culture = novgorodian
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = novgorodian
+		religion = orthodox
+		size = 200
+	}
+
+	artisans = {
+		culture = novgorodian
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 10000
+	}
+	
+	farmers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 20000
+	}
+
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 10
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 900
+	}
+}
+#Soltsy (320000/80000 POPS)
+3504 = {
+	aristocrats = {
+		culture = novgorodian
+		religion = orthodox
+		size = 1525
+	}
+
+	clergymen = {
+		culture = novgorodian
+		religion = orthodox
+		size = 200
+	}
+
+	artisans = {
+		culture = novgorodian
+		religion = orthodox
+		size = 1000
+	}
+
+	soldiers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 400
+	}
+
+	farmers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 8000
+	}
+	
+	farmers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 15000
+	}
+	
+	clergymen = {
+		culture = novgorodian
+		religion = orthodox
+		size = 20
+	}
+
+	artisans = {
+		culture = novgorodian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 1875
+	}
+}
 #Kholm (240000/60000 POPS)
 2369 = {
 
@@ -3575,6 +3682,118 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 1640
+	}
+}
+#Opochka (320000/80000 POPS)
+3457 = {
+	aristocrats = {
+		culture = novgorodian
+		religion = orthodox
+		size = 1525
+	}
+
+	clergymen = {
+		culture = novgorodian
+		religion = orthodox
+		size = 200
+	}
+
+	artisans = {
+		culture = novgorodian
+		religion = orthodox
+		size = 1000
+	}
+
+	soldiers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 400
+	}
+
+	farmers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 8000
+	}
+	
+	farmers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 15000
+	}
+	
+	clergymen = {
+		culture = novgorodian
+		religion = orthodox
+		size = 20
+	}
+
+	artisans = {
+		culture = novgorodian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 1875
+	}
+}
+#Ostrov (320000/80000 POPS)
+3456 = {
+	aristocrats = {
+		culture = novgorodian
+		religion = orthodox
+		size = 1525
+	}
+
+	clergymen = {
+		culture = novgorodian
+		religion = orthodox
+		size = 200
+	}
+
+	artisans = {
+		culture = novgorodian
+		religion = orthodox
+		size = 1000
+	}
+
+	soldiers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 400
+	}
+
+	farmers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 8000
+	}
+	
+	farmers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 15000
+	}
+	
+	clergymen = {
+		culture = novgorodian
+		religion = orthodox
+		size = 20
+	}
+
+	artisans = {
+		culture = novgorodian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 1875
 	}
 }
 #Velikiye Luki (320000/80000 POPS)

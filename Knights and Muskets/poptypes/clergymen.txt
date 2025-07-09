@@ -31,6 +31,11 @@ luxury_needs_income =
 }
 
 luxury_needs = {
+	jewellery = 3
+	books = 5
+	gems = 3
+	oil = 4
+	precious_metal = 8
 	opium = 1.0
 	luxury_clothes = 1
 	luxury_furniture = 1
@@ -57,6 +62,7 @@ everyday_needs = {
 	glass = 1
 	tobacco = 3
 	tea = 5
+	trade_coins = 12
 }
 
 life_needs = {

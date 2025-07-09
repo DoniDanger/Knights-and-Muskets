@@ -4,19 +4,19 @@
 1884 = {
 	artisans = {
 		culture = afro_caribbean
-		religion = protestant
+		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
 		culture = afro_caribbean
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
 	farmers = {
 		culture = afro_caribbean
-		religion = protestant
+		religion = catholic
 		size = 4700
 	}
 

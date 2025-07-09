@@ -3,5 +3,5 @@ controller = MUL
 add_core = MUL
 add_core = DLH
 add_core = PER
-trade_goods = coffee
+trade_goods = iron
 life_rating = 35

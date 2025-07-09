@@ -48,6 +48,11 @@ luxury_needs = {
 	incense = 0.5
 	coffee = 2
 	horses = 3
+	jewellery = 3
+	books = 2
+	gems = 3
+	oil = 3
+	precious_metal = 6
 }
 
 everyday_needs = {
@@ -59,6 +64,7 @@ everyday_needs = {
 	glass = 1
 	tobacco = 3
 	tea = 3
+	trade_coins = 8
 }
 
 life_needs = {
@@ -854,8 +860,8 @@ ideologies = {
 	}
 	
 	reactionary = {
-		factor = 1.3
-			factor = 0.35
+		modifier = {
+			factor = 1.3
 			has_country_flag = royalist_maxing
 		}
 		modifier = {

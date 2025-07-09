@@ -133,6 +133,7 @@ political_decisions = {
 		potential = {
 			tag = FRA
 			NOT = { has_country_flag = ate_france }
+			always = no
 		}
 		
 		allow = {

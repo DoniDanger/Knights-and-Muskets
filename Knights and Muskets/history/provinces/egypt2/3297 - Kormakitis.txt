@@ -1,5 +1,5 @@
 owner = CYP
 controller = CYP
 add_core = CYP
-trade_goods = fruit
+trade_goods = cattle
 life_rating = 35

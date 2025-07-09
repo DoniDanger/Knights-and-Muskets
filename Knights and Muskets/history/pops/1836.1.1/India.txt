@@ -1307,25 +1307,25 @@
 1224 = {
 	clergymen = {
 		culture = kashmiri
-		religion = sikh
+		religion = jain
 		size = 50
 	}
 
 	artisans = {
 		culture = kashmiri
-		religion = sikh
+		religion = jain
 		size = 1500
 	}
 
 	soldiers = {
 		culture = kashmiri
-		religion = sikh
+		religion = jain
 		size = 100
 	}
 
 	farmers = {
 		culture = kashmiri
-		religion = sikh
+		religion = jain
 		size = 3250
 	}
 
@@ -2156,49 +2156,49 @@
 1227 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 12500
 	}
 
 	bureaucrats = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 1400
 	}
 
 	officers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 2000
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 1150
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 1500
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 3000
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 5850
 	}
 	
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 54000
 	}
 
@@ -2344,37 +2344,37 @@
 2422 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 1500
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 550
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 500
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 1000
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 2850
 	}
 	
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 27000
 	}
 
@@ -2454,37 +2454,37 @@
 1228 = {
 	aristocrats = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 100
 	}
 
 	clergymen = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 100
 	}
 
 	artisans = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 2000
 	}
 
 	soldiers = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 200
 	}
 
 	farmers = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 600
 	}
 	
 	farmers = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 6000
 	}
 
@@ -2666,31 +2666,31 @@
 
 	aristocrats = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 100
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 100
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 1100
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 100
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 8700
 	}
 }
@@ -2752,37 +2752,37 @@
 
 	aristocrats = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 50
 	}
 
 	clergymen = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 50
 	}
 
 	artisans = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 500
 	}
 
 	soldiers = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 150
 	}
 
 	farmers = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 250
 	}
 	
 	farmers = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 8000
 	}
 
@@ -2930,37 +2930,37 @@
 1232 = {
 	aristocrats = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 50
 	}
 
 	clergymen = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 50
 	}
 
 	artisans = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 1100
 	}
 
 	soldiers = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 50
 	}
 
 	farmers = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 450
 	}
 	
 	farmers = {
 		culture = sarakai
-		religion = sikh
+		religion = jain
 		size = 4400
 	}
 
@@ -3046,43 +3046,43 @@
 1233 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 1100
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 800
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 10000
 	}
 	
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 3000
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 1100
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 6200
 	}
 	
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 58000
 	}
 
@@ -3204,37 +3204,37 @@
 1234 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 250
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 250
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 1500
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 1100
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 11000
 	}
 	
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 60000
 	}
 
@@ -3945,37 +3945,37 @@
 
 	aristocrats = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 6250
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 375
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 2000
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 500
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 3875
 	}
 	
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 20000
 	}
 
@@ -8805,7 +8805,7 @@
 1258 = {
 	bureaucrats = {
 		culture = british
-		religion = protestant
+		religion = catholic
 		size = 25
 	}
 
@@ -10898,37 +10898,37 @@
 	
 	aristocrats = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 50
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 50
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 150
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 100
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 525
 	}
 	
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 4500
 	}
 	
@@ -11006,37 +11006,37 @@
 	
 	aristocrats = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 10
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 10
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 150
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 100
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 125
 	}
 	
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = jain
 		size = 1000
 	}
 }

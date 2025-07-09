@@ -3,5 +3,5 @@ controller = KHR
 add_core = ILK
 add_core = PER
 add_core = KHR
-trade_goods = wool
+trade_goods = tea
 life_rating = 35
